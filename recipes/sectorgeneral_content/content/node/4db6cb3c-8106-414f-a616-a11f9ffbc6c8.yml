@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4db6cb3c-8106-414f-a616-a11f9ffbc6c8
+  bundle: edition
+  default_langcode: en
+  depends:
+    3d81fb0e-9442-44b6-bbef-d6d4371e41d1: media
+    705eb42c-4703-48f3-bd12-9549f379c0ba: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930: node
+    47dcdfd9-5b9d-431e-b100-e494eb3e62cd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL10683594M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Major Operation, Del Rey / Ballantine, 1981'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/major-operation/major-operation-del-rey-ballantine-1981-0
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 3d81fb0e-9442-44b6-bbef-d6d4371e41d1
+  field_cover_artist:
+    -
+      entity: 705eb42c-4703-48f3-bd12-9549f379c0ba
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?319017 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL10683594M (CC0).
+  field_date_display:
+    -
+      value: 'May 1981'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345293817'
+  field_isfdb_id:
+    -
+      value: '319017'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930
+  field_oclc:
+    -
+      value: '764470664'
+  field_openlibrary_id:
+    -
+      value: OL10683594M
+  field_pages:
+    -
+      value: 183
+  field_price:
+    -
+      value: $2.25
+  field_publisher:
+    -
+      entity: 47dcdfd9-5b9d-431e-b100-e494eb3e62cd
+  field_sort_date:
+    -
+      value: '1981-05-01'
+  field_year:
+    -
+      value: 1981

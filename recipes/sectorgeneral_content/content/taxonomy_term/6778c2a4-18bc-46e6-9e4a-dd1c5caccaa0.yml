@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 6778c2a4-18bc-46e6-9e4a-dd1c5caccaa0
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'John Sanchez'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/john-sanchez
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

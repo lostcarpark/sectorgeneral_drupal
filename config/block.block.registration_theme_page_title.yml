@@ -1,0 +1,20 @@
+uuid: fcd12049-d826-4a35-92fe-4ce6c94be932
+langcode: en
+status: true
+dependencies:
+  theme:
+    - registration_theme
+_core:
+  default_config_hash: Oy2as_XrDvy-paCIlJoYddB44BPLXb9BotyGG4Mm11I
+id: registration_theme_page_title
+theme: registration_theme
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: e3bde515-4549-45a3-a536-1361514e044f
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Frank Ludlow'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/frank-ludlow
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

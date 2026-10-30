@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f8ffc55d-6c75-40a2-b04a-347111c93d7b
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2: node
+    7af6a0f5-83a1-4fd6-9424-2dfa50a3c201: media
+    1fea30ba-0e0d-469d-9e2e-ab66341af015: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    14b5e5da-b0be-43d2-aa4e-343c47ab785e: taxonomy_term
+    cfb517de-c06d-4f4d-8605-cf711df41713: taxonomy_term
+    ff052358-5b35-48be-bb3c-6aad41eafd86: taxonomy_term
+    b0463f05-52c7-49bb-846d-c832aa808e52: taxonomy_term
+    ae1b8ea3-df08-4563-8f60-954b209ec617: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?121671 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds 84, June 1959'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-84-june-1959
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2
+  field_cover:
+    -
+      entity: 7af6a0f5-83a1-4fd6-9424-2dfa50a3c201
+  field_cover_artist:
+    -
+      entity: 1fea30ba-0e0d-469d-9e2e-ab66341af015
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?121671 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'June 1959'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_isfdb_id:
+    -
+      value: '121671'
+  field_issue_number:
+    -
+      value: '84'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: 14b5e5da-b0be-43d2-aa4e-343c47ab785e
+    -
+      entity: cfb517de-c06d-4f4d-8605-cf711df41713
+    -
+      entity: ff052358-5b35-48be-bb3c-6aad41eafd86
+    -
+      entity: b0463f05-52c7-49bb-846d-c832aa808e52
+    -
+      entity: ae1b8ea3-df08-4563-8f60-954b209ec617
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 2/-
+  field_sort_date:
+    -
+      value: '1959-06-01'
+  field_year:
+    -
+      value: 1959

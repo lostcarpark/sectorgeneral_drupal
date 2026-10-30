@@ -1,0 +1,91 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ba4af86b-69b8-4dad-8fdd-d4765a2bf164
+  bundle: edition
+  default_langcode: en
+  depends:
+    28481c5c-c742-4d25-9cf0-aa4bc25dcd39: media
+    12568fa6-5eb2-4053-a58e-6a01ad62be96: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    cbdf529a-740d-42cb-9460-96c61fec687d: taxonomy_term
+    076cb8ba-ada5-4880-8874-aee68d7e662d: node
+    d155de23-f8ec-429d-8a37-7f51479031fa: taxonomy_term
+    7a6c4ed1-1562-43f6-8c94-935985ab5e97: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?373591'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'O mundo do abismo, Livros do Brasil, 1971'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/watch-below/o-mundo-do-abismo-livros-do-brasil-1971
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 28481c5c-c742-4d25-9cf0-aa4bc25dcd39
+  field_cover_artist:
+    -
+      entity: 12568fa6-5eb2-4053-a58e-6a01ad62be96
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Edicao Livres do Brasil, Lisbon, late 1971 as O Mondo do Abismo”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?373591 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'Late 1971'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '373591'
+  field_language:
+    -
+      entity: cbdf529a-740d-42cb-9460-96c61fec687d
+  field_novel:
+    -
+      entity: 076cb8ba-ada5-4880-8874-aee68d7e662d
+  field_pages:
+    -
+      value: 227
+  field_price:
+    -
+      value: P$15.00
+  field_publisher:
+    -
+      entity: d155de23-f8ec-429d-8a37-7f51479031fa
+  field_publisher_series:
+    -
+      entity: 7a6c4ed1-1562-43f6-8c94-935985ab5e97
+  field_publisher_series_number:
+    -
+      value: '175'
+  field_sort_date:
+    -
+      value: '1971-11-01'
+  field_year:
+    -
+      value: 1971

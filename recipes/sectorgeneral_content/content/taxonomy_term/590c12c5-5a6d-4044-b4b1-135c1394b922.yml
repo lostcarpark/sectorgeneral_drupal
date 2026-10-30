@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 590c12c5-5a6d-4044-b4b1-135c1394b922
+  bundle: publisher_series
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Heyne Science Fiction & Fantasy'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /publisher-series/heyne-science-fiction-fantasy
+      langcode: en
+      pathauto: 1

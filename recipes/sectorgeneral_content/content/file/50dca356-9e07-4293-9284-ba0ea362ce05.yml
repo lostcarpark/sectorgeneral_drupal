@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 50dca356-9e07-4293-9284-ba0ea362ce05
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 513y8hqvill.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/513y8hqvill.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 37198
+  status:
+    -
+      value: true

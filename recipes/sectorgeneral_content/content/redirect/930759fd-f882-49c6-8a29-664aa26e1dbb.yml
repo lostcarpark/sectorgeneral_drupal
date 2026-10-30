@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 930759fd-f882-49c6-8a29-664aa26e1dbb
+  bundle: redirect
+  default_langcode: und
+  depends:
+    0346a6fe-dcfd-4866-a8a1-550a65207446: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: ZMS97FJyHmU-csIMxFPScGjNsumnw2YWIxPo3mcB1ik
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/housesitter.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 0346a6fe-dcfd-4866-a8a1-550a65207446
+  status_code:
+    -
+      value: 301

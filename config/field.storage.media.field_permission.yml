@@ -1,0 +1,19 @@
+uuid: 6b838397-f246-454d-afa1-9a566987d8c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.field_permission
+field_name: field_permission
+entity_type: media
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

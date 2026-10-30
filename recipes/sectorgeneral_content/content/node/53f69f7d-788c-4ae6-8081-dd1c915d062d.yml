@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 53f69f7d-788c-4ae6-8081-dd1c915d062d
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    d1fb8e1e-6495-45da-a57f-2e9d29a286d1: node
+    0c7a636b-c8e2-40f2-a437-e2d137d4708d: media
+    1fea30ba-0e0d-469d-9e2e-ab66341af015: taxonomy_term
+    00755522-03bf-4fbb-b9b8-73fc91f84cfa: taxonomy_term
+    26861d89-acc4-4ce5-8b18-0a60f715424e: taxonomy_term
+    4f00b253-4f48-4c29-b920-8819062b3f4f: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    4d565092-f148-4b8f-8093-5be0d5d07faf: taxonomy_term
+    0da82dc8-1a4d-484e-83c9-f650d51b4e3f: taxonomy_term
+    3e7d2170-f99e-4731-9c56-982d211a2a86: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?878712 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Häpna!, March 1962'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/hapna/hapna-march-1962
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: d1fb8e1e-6495-45da-a57f-2e9d29a286d1
+  field_cover:
+    -
+      entity: 0c7a636b-c8e2-40f2-a437-e2d137d4708d
+  field_cover_artist:
+    -
+      entity: 1fea30ba-0e0d-469d-9e2e-ab66341af015
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?878712 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'March 1962'
+  field_editor:
+    -
+      entity: 00755522-03bf-4fbb-b9b8-73fc91f84cfa
+  field_isfdb_id:
+    -
+      value: '878712'
+  field_language:
+    -
+      entity: 26861d89-acc4-4ce5-8b18-0a60f715424e
+  field_magazine:
+    -
+      entity: 4f00b253-4f48-4c29-b920-8819062b3f4f
+  field_other_contributors:
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: 4d565092-f148-4b8f-8093-5be0d5d07faf
+    -
+      entity: 0da82dc8-1a4d-484e-83c9-f650d51b4e3f
+    -
+      entity: 3e7d2170-f99e-4731-9c56-982d211a2a86
+  field_pages:
+    -
+      value: 98
+  field_price:
+    -
+      value: 'skr 1.80'
+  field_sort_date:
+    -
+      value: '1962-03-01'
+  field_year:
+    -
+      value: 1962

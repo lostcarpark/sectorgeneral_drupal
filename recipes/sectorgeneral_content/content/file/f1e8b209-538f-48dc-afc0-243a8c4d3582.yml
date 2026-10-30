@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f1e8b209-538f-48dc-afc0-243a8c4d3582
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dsmblnzsch1980.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/dsmblnzsch1980.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 81052
+  status:
+    -
+      value: true

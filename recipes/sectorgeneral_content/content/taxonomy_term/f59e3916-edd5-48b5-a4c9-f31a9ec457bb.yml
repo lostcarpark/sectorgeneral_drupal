@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: f59e3916-edd5-48b5-a4c9-f31a9ec457bb
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: ATom
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/atom
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

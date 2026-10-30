@@ -1,0 +1,74 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1a93c14d-c233-4a09-af8d-06ac6d787294
+  bundle: edition
+  default_langcode: en
+  depends:
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    11fa2a69-c650-4cbb-9304-4d8c148eed95: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Star Surgeon, Macdonald, 1987'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-surgeon/star-surgeon-macdonald-1987
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?32115 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'November 1987'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isbn:
+    -
+      value: '9780356147949'
+  field_isfdb_id:
+    -
+      value: '32115'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+  field_pages:
+    -
+      value: 160
+  field_price:
+    -
+      value: £10.95
+  field_publisher:
+    -
+      entity: 11fa2a69-c650-4cbb-9304-4d8c148eed95
+  field_sort_date:
+    -
+      value: '1987-11-01'
+  field_year:
+    -
+      value: 1987

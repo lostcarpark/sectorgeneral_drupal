@@ -1,0 +1,17 @@
+/**
+ * Cover thumbnails in edition, appearance and credit tables.
+ *
+ * The theme lets images shrink to fit their table cell, so tables with many
+ * columns squeezed their covers. Give the cover column a fixed width instead,
+ * and keep thumbnails at their generated size (at most 80 x 120 pixels).
+ */
+.views-table td.views-field-field-cover,
+.views-table th.views-field-field-cover {
+  width: 5.5rem;
+  min-width: 5.5rem;
+}
+
+.views-table td.views-field-field-cover img {
+  max-width: none;
+  height: auto;
+}

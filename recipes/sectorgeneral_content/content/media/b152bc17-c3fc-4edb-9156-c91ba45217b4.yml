@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b152bc17-c3fc-4edb-9156-c91ba45217b4
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    7d8b5bf7-77a9-4290-bb88-eedcc7659d3a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Secret Visitors, Ace, 1967 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 639b91e67794fa041a0b66d2c4a885f393d28306
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/2/2b/SCRTVSTRS1967.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'The Secret Visitors, Ace, 1967 cover'
+      title: ''
+      width: 431
+      height: 640
+      entity: 7d8b5bf7-77a9-4290-bb88-eedcc7659d3a
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?46777'
+      title: null
+      options: {  }

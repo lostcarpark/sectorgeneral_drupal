@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7eb50596-8b4c-4aed-b858-c6fbb4b8889f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sector-general_mcdonald_tn.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/sector-general_mcdonald_tn.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 16579
+  status:
+    -
+      value: true

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c1d5f4a7-6e6a-48e9-9e91-037dcfa90250
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Thomas Schlück'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/thomas-schluck
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

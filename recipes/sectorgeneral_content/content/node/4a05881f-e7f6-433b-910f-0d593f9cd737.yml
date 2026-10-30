@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4a05881f-e7f6-433b-910f-0d593f9cd737
+  bundle: edition
+  default_langcode: en
+  depends:
+    99b75ca5-ad46-4f77-b4e3-033ad8192758: media
+    1275b65b-0544-4918-a6f8-3476ee99a45a: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    274c333b-457f-48d0-9416-61420437dc4b: node
+    9a196fcd-0584-4ca7-8ef6-6b2cdd8886e7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL9519232M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Double Contact, Tor, 2000'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/double-contact/double-contact-tor-2000
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 99b75ca5-ad46-4f77-b4e3-033ad8192758
+  field_cover_artist:
+    -
+      entity: 1275b65b-0544-4918-a6f8-3476ee99a45a
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Tor Books, 2000, paperback.”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?10710 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9519232M (CC0).
+  field_date_display:
+    -
+      value: '2000'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780812568608'
+  field_isfdb_id:
+    -
+      value: '10710'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 274c333b-457f-48d0-9416-61420437dc4b
+  field_oclc:
+    -
+      value: '44922612'
+  field_openlibrary_id:
+    -
+      value: OL9519232M
+  field_pages:
+    -
+      value: 311
+  field_price:
+    -
+      value: $6.99
+  field_publisher:
+    -
+      entity: 9a196fcd-0584-4ca7-8ef6-6b2cdd8886e7
+  field_sort_date:
+    -
+      value: '2000-01-01'
+  field_year:
+    -
+      value: 2000

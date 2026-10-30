@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c0e8e5b5-5f7c-4987-bf90-e6e4436a7bcf
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mnsztfkmtt1983.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mnsztfkmtt1983.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 34860
+  status:
+    -
+      value: true

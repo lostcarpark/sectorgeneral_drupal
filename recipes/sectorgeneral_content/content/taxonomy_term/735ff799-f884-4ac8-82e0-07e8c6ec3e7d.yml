@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 735ff799-f884-4ac8-82e0-07e8c6ec3e7d
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Demètre Ioakimidis'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/demetre-ioakimidis
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

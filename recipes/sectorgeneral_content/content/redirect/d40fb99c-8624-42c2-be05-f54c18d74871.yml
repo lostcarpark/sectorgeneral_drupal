@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: d40fb99c-8624-42c2-be05-f54c18d74871
+  bundle: redirect
+  default_langcode: und
+  depends:
+    df52dab8-9657-4ab4-9da8-ca184033f04e: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: W80W2SwH7EghWIGuYvFLJLmMeZFAhHHeyko-AtPC7Gc
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/grapeliner.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: df52dab8-9657-4ab4-9da8-ca184033f04e
+  status_code:
+    -
+      value: 301

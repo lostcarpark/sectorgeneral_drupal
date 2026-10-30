@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 15c87d21-bb38-4d46-b53b-9f8aabd5ba79
+  bundle: redirect
+  default_langcode: en
+  depends:
+    32dfb838-1b85-446d-8f00-f65cfd4d0785: taxonomy_term
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: JwcGfdpf6XL7soZ6nOEVvmWhD85XVy4G3UOjJYIdSFo
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: publisher/corgi
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 32dfb838-1b85-446d-8f00-f65cfd4d0785
+  status_code:
+    -
+      value: 301

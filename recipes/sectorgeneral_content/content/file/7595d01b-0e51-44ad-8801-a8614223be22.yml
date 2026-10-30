@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7595d01b-0e51-44ad-8801-a8614223be22
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fantasy-and-sf-april-63.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/fantasy-and-sf-april-63.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 18498
+  status:
+    -
+      value: true

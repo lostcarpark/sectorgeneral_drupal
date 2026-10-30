@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: eae90829-539e-4e48-9a95-b0c42a11feb0
+  bundle: redirect
+  default_langcode: und
+  depends:
+    0fe53d8e-3d13-429c-82e1-ea10f6bb01f0: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: inXqjrvd0Fs4v5Zy3VdbZr-vSdQ7fZg5zn79khJAA5g
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/new-writings-sf-18
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 0fe53d8e-3d13-429c-82e1-ea10f6bb01f0
+  status_code:
+    -
+      value: 301

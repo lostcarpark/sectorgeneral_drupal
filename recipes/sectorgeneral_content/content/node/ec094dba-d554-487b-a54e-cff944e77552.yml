@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ec094dba-d554-487b-a54e-cff944e77552
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    1ffa602a-5411-4c5e-b55f-dec7f9f9aa31: node
+    2dc982d1-0fc7-49c9-b078-e38b0895e88c: media
+    136a68d4-4978-4c62-b43a-9ca13d74554f: taxonomy_term
+    66610ba4-0b0a-4cf2-8d06-3c9855b834fa: taxonomy_term
+    4c52425b-7b83-4e9e-af00-d52f9ab47cb3: taxonomy_term
+    8dcf985c-e1b2-4d9e-8e48-8e78198a41d1: taxonomy_term
+    d01a3d67-a887-402d-9454-0a5321c9a239: taxonomy_term
+    c04cf652-be98-4725-af28-62590e4131ad: taxonomy_term
+    24624aaa-9b63-447e-8a83-afae03943e67: taxonomy_term
+    656a5205-861e-4f1b-b90c-797f7f6e7a3d: taxonomy_term
+    6322cee9-487c-46be-845e-62c255d7bfa1: taxonomy_term
+    ec776e7b-6649-4f3d-a2b4-68db34178f9d: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?485542 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Fiction 391, November 1987'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/fiction/fiction-391-november-1987
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 1ffa602a-5411-4c5e-b55f-dec7f9f9aa31
+  field_cover:
+    -
+      entity: 2dc982d1-0fc7-49c9-b078-e38b0895e88c
+  field_cover_artist:
+    -
+      entity: 136a68d4-4978-4c62-b43a-9ca13d74554f
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?485542 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'November 1987'
+  field_editor:
+    -
+      entity: 66610ba4-0b0a-4cf2-8d06-3c9855b834fa
+  field_isfdb_id:
+    -
+      value: '485542'
+  field_issue_number:
+    -
+      value: '391'
+  field_language:
+    -
+      entity: 4c52425b-7b83-4e9e-af00-d52f9ab47cb3
+  field_magazine:
+    -
+      entity: 8dcf985c-e1b2-4d9e-8e48-8e78198a41d1
+  field_other_contributors:
+    -
+      entity: d01a3d67-a887-402d-9454-0a5321c9a239
+    -
+      entity: c04cf652-be98-4725-af28-62590e4131ad
+    -
+      entity: 24624aaa-9b63-447e-8a83-afae03943e67
+    -
+      entity: 656a5205-861e-4f1b-b90c-797f7f6e7a3d
+    -
+      entity: 6322cee9-487c-46be-845e-62c255d7bfa1
+    -
+      entity: ec776e7b-6649-4f3d-a2b4-68db34178f9d
+  field_pages:
+    -
+      value: 196
+  field_price:
+    -
+      value: F42.00
+  field_published_as:
+    -
+      value: 'Les interprètes'
+  field_sort_date:
+    -
+      value: '1987-11-01'
+  field_year:
+    -
+      value: 1987

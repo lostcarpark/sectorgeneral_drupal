@@ -1,0 +1,56 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/tokens.css: {}
+      css/typography.css: {}
+    component:
+      css/tables.css: {}
+      css/listing.css: {}
+    theme:
+      # After the base theme's header.css, which it overrides.
+      css/banner.css: {}
+      css/header.css: {}
+
+site-search:
+  version: VERSION
+  css:
+    theme:
+      css/site-search.css: {}
+  js:
+    js/site-search.js: {}
+  dependencies:
+    - core/drupal
+    - core/once
+
+filter-buttons:
+  version: VERSION
+  css:
+    theme:
+      css/filter-buttons.css: {}
+  js:
+    js/filter-buttons.js: {}
+  dependencies:
+    - core/drupal
+    - core/once
+
+book:
+  version: VERSION
+  css:
+    theme:
+      css/book.css: {}
+  dependencies:
+    - sectorgeneral_theme/cover-lightbox
+
+# A page's cover opens full size over the page (books, editions, magazine
+# issues, anthologies).
+cover-lightbox:
+  version: VERSION
+  css:
+    theme:
+      css/cover-lightbox.css: {}
+  js:
+    js/cover-lightbox.js: {}
+  dependencies:
+    - core/drupal
+    - core/once

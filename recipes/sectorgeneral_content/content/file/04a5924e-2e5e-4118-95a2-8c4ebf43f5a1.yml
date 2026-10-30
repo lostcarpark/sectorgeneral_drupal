@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 04a5924e-2e5e-4118-95a2-8c4ebf43f5a1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hpnjnrmpgf1962.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/hpnjnrmpgf1962.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 134676
+  status:
+    -
+      value: true

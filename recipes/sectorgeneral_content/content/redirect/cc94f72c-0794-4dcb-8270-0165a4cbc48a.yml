@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: cc94f72c-0794-4dcb-8270-0165a4cbc48a
+  bundle: redirect
+  default_langcode: und
+  depends:
+    30b1aa3e-29cb-4423-8a98-4ecbfc391468: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: cEGKSVjUraHNCr03ntrzDVOaoavTYR_sVga1mAS-sDg
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/majoroperation.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 30b1aa3e-29cb-4423-8a98-4ecbfc391468
+  status_code:
+    -
+      value: 301

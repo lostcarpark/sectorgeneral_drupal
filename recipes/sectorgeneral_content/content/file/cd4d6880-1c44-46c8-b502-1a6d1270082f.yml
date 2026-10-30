@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: cd4d6880-1c44-46c8-b502-1a6d1270082f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drbbldblcn1990.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/drbbldblcn1990.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 62800
+  status:
+    -
+      value: true

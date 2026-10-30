@@ -1,0 +1,20 @@
+uuid: b7fc3b52-9aee-424b-a46f-4d2e49febd64
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sectorgeneral_theme
+id: sectorgeneral_theme_secondary_local_tasks
+theme: sectorgeneral_theme
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: ''
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

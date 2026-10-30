@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: ee3a3b00-f7ba-45a1-b0e6-4b071e92c13f
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Bruce Pennington'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/bruce-pennington
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

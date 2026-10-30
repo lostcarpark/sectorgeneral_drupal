@@ -1,0 +1,132 @@
+/**
+ * @file
+ * The book page around the book-header component: series navigation,
+ * contents list, section spacing and References.
+ */
+
+/* "‹ Hospital Station · Sector General · book 2 of 12 · Major Operation ›" */
+.series-nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 0 2.5rem;
+  padding: 0.875rem 1.25rem;
+  border-block: 1px solid var(--rt-neutral-200);
+  font-size: 0.9375rem;
+}
+
+.series-nav__position {
+  grid-column: 2;
+  margin: 0;
+  text-align: center;
+  color: var(--rt-neutral-800);
+}
+
+.series-nav__position a {
+  font-weight: 600;
+}
+
+.series-nav__previous {
+  grid-column: 1;
+  justify-self: start;
+}
+
+.series-nav__next {
+  grid-column: 3;
+  justify-self: end;
+  text-align: end;
+}
+
+.series-nav__direction {
+  display: block;
+  color: var(--rt-neutral-800);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.series-nav__previous .series-nav__direction::before {
+  content: "‹ ";
+}
+
+.series-nav__next .series-nav__direction::after {
+  content: " ›";
+}
+
+@media (max-width: 36rem) {
+  .series-nav {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .series-nav__position {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+
+  .series-nav__previous {
+    grid-column: 1;
+  }
+
+  .series-nav__next {
+    grid-column: 2;
+  }
+}
+
+/* Contents: numbered, flowing into two columns when long. */
+.contents-list {
+  margin: 0 0 2rem;
+  padding-left: 1.75rem;
+}
+
+.contents-list li {
+  padding: 0.2rem 0;
+  break-inside: avoid;
+}
+
+.contents-list li::marker {
+  color: var(--rt-neutral-800);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (min-width: 48.0625rem) {
+  .contents-list:has(li:nth-child(7)) {
+    columns: 2;
+    column-gap: 3rem;
+  }
+}
+
+.contents-list__year {
+  color: var(--rt-neutral-800);
+  font-size: 0.875rem;
+}
+
+.book-page .field--name-field-contents > .field__label,
+.book-page .field--name-field-contained-books > .field__label {
+  margin: 2rem 0 0.75rem;
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* References: Wikipedia, reviews and data sources, quietly at the end. */
+.book-references {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rt-neutral-200);
+  color: var(--rt-neutral-800);
+  font-size: 0.9375rem;
+}
+
+.layout-content .book-references h2 {
+  margin-top: 0;
+  font-size: 1.125rem;
+}
+
+.book-references .field {
+  margin-bottom: 0.75rem;
+}
+
+.book-references .field__label {
+  font-weight: 600;
+}

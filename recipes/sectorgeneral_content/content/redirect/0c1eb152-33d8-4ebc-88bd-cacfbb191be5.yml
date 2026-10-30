@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 0c1eb152-33d8-4ebc-88bd-cacfbb191be5
+  bundle: redirect
+  default_langcode: und
+  depends:
+    77839f28-06fe-4a5d-819c-9a837540e410: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: hzGawUNVWOzoE3My01bEHtDbuOoGSriC50vaYJG761Q
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/deadlylitter.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 77839f28-06fe-4a5d-819c-9a837540e410
+  status_code:
+    -
+      value: 301

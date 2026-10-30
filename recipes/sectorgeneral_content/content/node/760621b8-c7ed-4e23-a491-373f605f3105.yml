@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 760621b8-c7ed-4e23-a491-373f605f3105
+  bundle: edition
+  default_langcode: en
+  depends:
+    d5381b76-34b1-41a2-898c-d9864a590935: media
+    1275b65b-0544-4918-a6f8-3476ee99a45a: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    06aa2580-8e68-4b72-9a00-f5d252de9de3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL17435305M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'All Judgement Fled, Futura/Orbit, 1987'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/all-judgement-fled/all-judgement-fled-futuraorbit-1987
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: d5381b76-34b1-41a2-898c-d9864a590935
+  field_cover_artist:
+    -
+      entity: 1275b65b-0544-4918-a6f8-3476ee99a45a
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Macdonald/Futura, Orbit, ISBN O-7088-8222-6, June 1987”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?2140 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL17435305M (CC0).
+  field_date_display:
+    -
+      value: 'June 1987'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780708882221'
+  field_isfdb_id:
+    -
+      value: '2140'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_oclc:
+    -
+      value: '18740379'
+  field_openlibrary_id:
+    -
+      value: OL17435305M
+  field_pages:
+    -
+      value: 215
+  field_price:
+    -
+      value: £2.50
+  field_publisher:
+    -
+      entity: 06aa2580-8e68-4b72-9a00-f5d252de9de3
+  field_sort_date:
+    -
+      value: '1987-06-01'
+  field_year:
+    -
+      value: 1987

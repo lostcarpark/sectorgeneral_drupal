@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 079ed003-62b3-41c4-8862-1618919bf6af
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: codebl.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/codebl.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 82109
+  status:
+    -
+      value: true

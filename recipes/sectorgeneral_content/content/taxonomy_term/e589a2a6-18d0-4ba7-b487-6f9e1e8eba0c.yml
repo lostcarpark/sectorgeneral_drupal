@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: e589a2a6-18d0-4ba7-b487-6f9e1e8eba0c
+  bundle: publisher_series
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Biblioteka Fantastyki'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /publisher-series/biblioteka-fantastyki
+      langcode: en
+      pathauto: 1

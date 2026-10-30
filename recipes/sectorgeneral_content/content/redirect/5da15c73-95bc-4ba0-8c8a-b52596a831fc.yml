@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 5da15c73-95bc-4ba0-8c8a-b52596a831fc
+  bundle: redirect
+  default_langcode: und
+  depends:
+    dc711fba-7b75-4663-bdcb-b0482efa4a43: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: cqh_o3u2rjZTmgvX-fhYf2CHswssA9NP1VVG-dYVvpE
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: books/first-protector/first-protector-tor-2000-1
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: dc711fba-7b75-4663-bdcb-b0482efa4a43
+  status_code:
+    -
+      value: 301

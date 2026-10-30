@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4a3b8910-9c50-4651-bcf9-7d87b4d548ce
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 41jtpkrorfl.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/41jtpkrorfl.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 31242
+  status:
+    -
+      value: true

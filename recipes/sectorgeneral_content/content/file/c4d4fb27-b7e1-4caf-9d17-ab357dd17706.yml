@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c4d4fb27-b7e1-4caf-9d17-ab357dd17706
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mrldthbstr2005.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mrldthbstr2005.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 117271
+  status:
+    -
+      value: true

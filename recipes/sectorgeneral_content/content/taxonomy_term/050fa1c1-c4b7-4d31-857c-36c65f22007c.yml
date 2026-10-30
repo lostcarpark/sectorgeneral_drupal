@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 050fa1c1-c4b7-4d31-857c-36c65f22007c
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Peter Heavyside'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/peter-heavyside
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

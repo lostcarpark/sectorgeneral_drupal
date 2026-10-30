@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 43bd62ce-6dbf-4204-9efb-e16709fbd170
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    7f1a6504-8735-4a4e-9127-4b8e98b7880a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Aliens Among Us, Ballantine, 1969 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 1a5ea929b9a919a926e1d057edb5bef28c99e663
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Aliens Among Us cover'
+      title: ''
+      width: 116
+      height: 200
+      entity: 7f1a6504-8735-4a4e-9127-4b8e98b7880a

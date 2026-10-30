@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 298d267e-8a62-4d10-9dd6-226f0ceea7df
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: anlgfeb85.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/anlgfeb85.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 37359
+  status:
+    -
+      value: true

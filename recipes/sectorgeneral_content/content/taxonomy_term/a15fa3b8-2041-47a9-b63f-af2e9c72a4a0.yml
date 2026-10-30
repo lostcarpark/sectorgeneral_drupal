@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: a15fa3b8-2041-47a9-b63f-af2e9c72a4a0
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Christopher Lyster'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/christopher-lyster
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

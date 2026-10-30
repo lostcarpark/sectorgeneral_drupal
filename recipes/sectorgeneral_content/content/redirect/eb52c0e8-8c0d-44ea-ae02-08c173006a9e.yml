@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: eb52c0e8-8c0d-44ea-ae02-08c173006a9e
+  bundle: redirect
+  default_langcode: und
+  depends:
+    8ba64d10-fdec-4baa-b172-475de3855926: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: iRElZ2t-DgiQgkylYMhnT_sU5dATzpCOtT_ARZy2634
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/best-british-sf-2
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 8ba64d10-fdec-4baa-b172-475de3855926
+  status_code:
+    -
+      value: 301

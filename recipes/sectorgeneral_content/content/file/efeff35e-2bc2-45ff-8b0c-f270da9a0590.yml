@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: efeff35e-2bc2-45ff-8b0c-f270da9a0590
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thbsyvlm7f1975.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thbsyvlm7f1975.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 82865
+  status:
+    -
+      value: true

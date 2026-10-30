@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: f89b23dd-1e11-4da8-855c-40fd2c7ec438
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Evelyn E. Smith'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/evelyn-e-smith
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

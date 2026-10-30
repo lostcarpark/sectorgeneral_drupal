@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 8d290f44-7ce0-4f69-b0cb-bbfd3d947a70
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    674ed49b-9abc-4482-b41a-dd06482600eb: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Gateway to the Stars cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: eb71464640a5789240b996bcb4934871335b0598
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/e/e0/GTWYSTRS551955.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Gateway to the Stars cover'
+      title: ''
+      width: 472
+      height: 560
+      entity: 674ed49b-9abc-4482-b41a-dd06482600eb
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?15121'
+      title: null
+      options: {  }

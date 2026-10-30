@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 664d8661-5f3c-48af-a0f2-3778e2cac73e
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63761 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Dogfight
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/dogfight
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>The Sirius/Dogstar bit cold have been put down to a Freudian woof, had not Jim told us that his inspiration for &#039;Dogfight&#039; came from seeing an ancient pooch asleep in torrential rain. &quot;. . . I kept thinking about that dog, about the human nature of dogs and the often animal nature of men. The result . . . one of my few war stories&quot; (from Introduction to Monsters and Medics). Battle computer RK9 = &#039;R&#039; for Robot and K9 for -- aargh! &#039;Dogfight&#039; also prefigures the major plot-point of Open Prison/The Escape Orbit (see under Books).</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63761 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1959
+  field_isfdb_id:
+    -
+      value: '63761'
+  field_opening_excerpt:
+    -
+      value: '<p>Into the gigantic task force assembling on the fringe of the Sirius system had gone the resources of seven inhabited worlds, and still it was not big enough.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>NEW WORLDS No 81, March 1959 </p>
+        <p>Publication History: New Worlds US reprint edition, April 1960</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 9500

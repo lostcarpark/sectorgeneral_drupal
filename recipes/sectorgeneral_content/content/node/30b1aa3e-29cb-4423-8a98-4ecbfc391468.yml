@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 30b1aa3e-29cb-4423-8a98-4ecbfc391468
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?67294 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Major Operation'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/major-operation
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>In short-story terms, Major Operation the Novel starts with an earthquake and builds up to a climax. (Sam GoldwynTM.) “. . . there is very little to say except that the poisoned and polluted living planet that was the patient in those stories ‘Meatball’ and ‘Major Operation’ required treatment on such a vast scale that the operation was a military one as well as a medical one ” (from ‘The Secret History of Sector General’’). I didn’t mention the ‘living planet’ part before now. How very careful of me.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?67294 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1971
+  field_isfdb_id:
+    -
+      value: '67294'
+  field_opening_excerpt:
+    -
+      value: '<p>On the whole weird and wonderful planet there were only thirty-seven patients requiring treatment, and they varied widely both in size and in their degree of physical distress.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WRITINGS IN SF 18, ed John Carnell, Corgi, March 1971 NEW WRITINGS IN SF 18, Dennis Dobson, June 1971 Also in Major Operation</p>'
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 20000

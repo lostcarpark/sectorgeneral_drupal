@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 03949fec-a5f8-49b8-a798-d8e231a678ab
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: new-sf-18.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/new-sf-18.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3273
+  status:
+    -
+      value: true

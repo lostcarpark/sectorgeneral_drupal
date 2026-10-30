@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 73270d02-2d89-4ef1-bf58-115c7841b051
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Michel Parry'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/michel-parry
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

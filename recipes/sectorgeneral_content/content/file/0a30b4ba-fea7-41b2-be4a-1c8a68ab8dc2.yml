@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0a30b4ba-fea7-41b2-be4a-1c8a68ab8dc2
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: u770.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/u770.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 49668
+  status:
+    -
+      value: true

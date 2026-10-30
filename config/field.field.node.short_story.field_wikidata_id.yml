@@ -1,0 +1,19 @@
+uuid: eefdfd86-da3c-4ff9-bbd2-16ed7b7239ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wikidata_id
+    - node.type.short_story
+id: node.short_story.field_wikidata_id
+field_name: field_wikidata_id
+entity_type: node
+bundle: short_story
+label: 'Wikidata ID'
+description: 'e.g. Q123456.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

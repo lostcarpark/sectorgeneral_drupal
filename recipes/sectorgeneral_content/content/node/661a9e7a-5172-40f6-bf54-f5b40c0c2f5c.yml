@@ -1,0 +1,87 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 661a9e7a-5172-40f6-bf54-f5b40c0c2f5c
+  bundle: edition
+  default_langcode: en
+  depends:
+    8f8ced0a-153a-4ad4-a7c9-a8c5bfd1f9d2: media
+    d012b285-8a98-49a0-b822-42f37676652b: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    28598c70-76db-48d7-b976-e0e5f76b4213: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?304493'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'All Judgement Fled, Rapp & Whiting, 1968'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/all-judgement-fled/all-judgement-fled-rapp-whiting-1968
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 8f8ced0a-153a-4ad4-a7c9-a8c5bfd1f9d2
+  field_cover_artist:
+    -
+      entity: d012b285-8a98-49a0-b822-42f37676652b
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Rapp & Whiting, June 1968”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?304493 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'June 1968'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isfdb_id:
+    -
+      value: '304493'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_oclc:
+    -
+      value: '473473915'
+  field_pages:
+    -
+      value: 190
+  field_price:
+    -
+      value: 21/-
+  field_publisher:
+    -
+      entity: 28598c70-76db-48d7-b976-e0e5f76b4213
+  field_sort_date:
+    -
+      value: '1968-06-01'
+  field_year:
+    -
+      value: 1968

@@ -1,0 +1,23 @@
+uuid: 0f9caf0e-bb81-4ac1-8bf6-6ab7c6d3263a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_buy_links
+    - node.type.edition
+  module:
+    - link
+id: node.edition.field_buy_links
+field_name: field_buy_links
+entity_type: node
+bundle: edition
+label: 'Where to buy'
+description: 'Retailer links, for editions still in print.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 16
+field_type: link

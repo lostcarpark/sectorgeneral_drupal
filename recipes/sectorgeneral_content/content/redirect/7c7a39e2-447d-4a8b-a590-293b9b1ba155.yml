@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 7c7a39e2-447d-4a8b-a590-293b9b1ba155
+  bundle: redirect
+  default_langcode: und
+  depends:
+    99183a07-c02d-492a-ab74-66946e8a0468: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: LbbROGy5DTzOXOFWJ82PeV2OYzmlH5R9DgDX310SdNk
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/answearcametherenone.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 99183a07-c02d-492a-ab74-66946e8a0468
+  status_code:
+    -
+      value: 301

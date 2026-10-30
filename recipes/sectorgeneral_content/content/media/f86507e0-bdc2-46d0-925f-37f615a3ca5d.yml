@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: f86507e0-bdc2-46d0-925f-37f615a3ca5d
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    2c893530-3d44-4582-898b-c46af64c5bcd: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'If / Worlds of If, December 1967 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: d3d5294043a4d3b9a05ccfd1dcc988907a047356
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/a/a6/WOFIFDEC1967.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'If / Worlds of If, December 1967 cover'
+      title: ''
+      width: 370
+      height: 516
+      entity: 2c893530-3d44-4582-898b-c46af64c5bcd
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?58722'
+      title: null
+      options: {  }

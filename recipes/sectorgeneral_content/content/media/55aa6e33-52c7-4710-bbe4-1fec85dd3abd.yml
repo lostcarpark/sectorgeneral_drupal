@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 55aa6e33-52c7-4710-bbe4-1fec85dd3abd
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    df8d2419-aceb-4f9e-befe-6f905ce75f20: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Worlds 81, March 1959 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: da2d7cea9a2ed78843e05c491a34c249d3d33309
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'New Worlds 81, March 1959 cover'
+      title: ''
+      width: 136
+      height: 200
+      entity: df8d2419-aceb-4f9e-befe-6f905ce75f20

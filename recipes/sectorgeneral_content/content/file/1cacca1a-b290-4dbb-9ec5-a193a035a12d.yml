@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1cacca1a-b290-4dbb-9ec5-a193a035a12d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: openprisoncorgi.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/openprisoncorgi.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4886
+  status:
+    -
+      value: true

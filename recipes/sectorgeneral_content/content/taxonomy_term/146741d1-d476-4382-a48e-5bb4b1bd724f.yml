@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 146741d1-d476-4382-a48e-5bb4b1bd724f
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'John Sladek'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/john-sladek
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

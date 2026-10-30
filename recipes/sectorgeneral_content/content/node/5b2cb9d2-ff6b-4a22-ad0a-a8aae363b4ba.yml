@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5b2cb9d2-ff6b-4a22-ad0a-a8aae363b4ba
+  bundle: anthology
+  default_langcode: en
+  depends:
+    c6be35db-6629-46b5-a9a3-3f9780c74d65: node
+    6118a540-ff7e-465a-95c1-d34ae067853a: media
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    e88abba8-bce7-4828-a540-1b7d790a5f9c: taxonomy_term
+    cfb517de-c06d-4f4d-8605-cf711df41713: taxonomy_term
+    47585aa7-56cf-473b-a310-059cd2902814: taxonomy_term
+    6f56d7f4-8158-4d2b-865f-ade5a0dd0306: taxonomy_term
+    99292b66-1a21-4351-b97b-c7b6a82585be: taxonomy_term
+    32dfb838-1b85-446d-8f00-f65cfd4d0785: taxonomy_term
+    d039de82-9a81-4c76-ad65-2d5996bf2275: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover replaced by a larger image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?23829'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Writings in SF 12'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/new-writings-sf-12
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Corgi paperback, May 1968. Dennis Dobson hardback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: c6be35db-6629-46b5-a9a3-3f9780c74d65
+  field_cover:
+    -
+      entity: 6118a540-ff7e-465a-95c1-d34ae067853a
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?34482 (CC BY 4.0).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1328290 (CC BY 4.0).
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_first_published_year:
+    -
+      value: 1968
+  field_isfdb_id:
+    -
+      value: '34482'
+  field_other_contributors:
+    -
+      entity: e88abba8-bce7-4828-a540-1b7d790a5f9c
+    -
+      entity: cfb517de-c06d-4f4d-8605-cf711df41713
+    -
+      entity: 47585aa7-56cf-473b-a310-059cd2902814
+    -
+      entity: 6f56d7f4-8158-4d2b-865f-ade5a0dd0306
+    -
+      entity: 99292b66-1a21-4351-b97b-c7b6a82585be
+  field_publisher:
+    -
+      entity: 32dfb838-1b85-446d-8f00-f65cfd4d0785
+  field_series:
+    -
+      entity: d039de82-9a81-4c76-ad65-2d5996bf2275
+  field_series_number:
+    -
+      value: 12

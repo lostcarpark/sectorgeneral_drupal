@@ -1,0 +1,23 @@
+uuid: a94aad2e-aab8-4133-8e14-ae6a2b1e329c
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.publisher
+  module:
+    - taxonomy
+id: publisher
+label: Publishers
+type: 'canonical_entities:taxonomy_term'
+pattern: '/publishers/[term:name]'
+selection_criteria:
+  fd64f039-6b07-4142-bf67-d1ae367c8474:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      publisher: publisher
+selection_logic: and
+weight: 8
+relationships: {  }

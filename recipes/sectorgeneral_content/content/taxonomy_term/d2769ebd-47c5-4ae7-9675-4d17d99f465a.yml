@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d2769ebd-47c5-4ae7-9675-4d17d99f465a
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Kate Soley'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/kate-soley
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 40a4f5c4-855c-4a00-9f29-cd484255b2bb
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    58c4561c-64ff-42d6-b7c9-3c4d1c7689b6: node
+    dd1857a3-2926-4fc3-b17d-870aa1dfaed5: media
+    1fea30ba-0e0d-469d-9e2e-ab66341af015: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    eb352f2f-167c-4717-97a6-d679884fc57c: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    b226aeaa-e71f-48e7-b1bb-540fe32b5459: taxonomy_term
+    8235f637-277a-4c73-af3a-2f883e4689a8: taxonomy_term
+    e88abba8-bce7-4828-a540-1b7d790a5f9c: taxonomy_term
+    a30dab9b-f36d-404a-a59e-453d2c211685: taxonomy_term
+    ae1b8ea3-df08-4563-8f60-954b209ec617: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59652 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds 61, July 1957'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-61-july-1957
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 58c4561c-64ff-42d6-b7c9-3c4d1c7689b6
+  field_cover:
+    -
+      entity: dd1857a3-2926-4fc3-b17d-870aa1dfaed5
+  field_cover_artist:
+    -
+      entity: 1fea30ba-0e0d-469d-9e2e-ab66341af015
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59652 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'July 1957'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_interior_artist:
+    -
+      entity: eb352f2f-167c-4717-97a6-d679884fc57c
+  field_isfdb_id:
+    -
+      value: '59652'
+  field_issue_number:
+    -
+      value: '61'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+    -
+      entity: 8235f637-277a-4c73-af3a-2f883e4689a8
+    -
+      entity: e88abba8-bce7-4828-a540-1b7d790a5f9c
+    -
+      entity: a30dab9b-f36d-404a-a59e-453d2c211685
+    -
+      entity: ae1b8ea3-df08-4563-8f60-954b209ec617
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 2/-
+  field_sort_date:
+    -
+      value: '1957-07-01'
+  field_year:
+    -
+      value: 1957

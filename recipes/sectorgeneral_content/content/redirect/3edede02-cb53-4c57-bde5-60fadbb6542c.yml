@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 3edede02-cb53-4c57-bde5-60fadbb6542c
+  bundle: redirect
+  default_langcode: und
+  depends:
+    c4a74073-c51c-4dea-af14-29e4a5c3eff7: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 1E2y1ulf3U6vKALQ0dDOM2ybTM-ykwrqkFS9vfvNxhg
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/curtaincall.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: c4a74073-c51c-4dea-af14-29e4a5c3eff7
+  status_code:
+    -
+      value: 301

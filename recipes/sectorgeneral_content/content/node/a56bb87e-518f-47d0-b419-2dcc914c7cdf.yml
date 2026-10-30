@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a56bb87e-518f-47d0-b419-2dcc914c7cdf
+  bundle: edition
+  default_langcode: en
+  depends:
+    575d1136-4a92-4e75-b9f4-5a1ef35046a5: media
+    aa1ef365-9ab4-4cdf-a10a-5dc1457ad29e: taxonomy_term
+    64ffa415-ebad-4616-a0eb-e36e906fb642: taxonomy_term
+    b770a83f-cef9-4dbb-b441-95f128a9ae6b: taxonomy_term
+    fcc9ce92-3eae-45f8-b763-39dc1e1c49f0: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    2489534c-0801-43c6-89f5-eb25fb1d11ea: taxonomy_term
+    cb7b58db-1396-485b-9e45-6df9a92afc35: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?504524'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Der Kampf der Weltraum-Mediziner, Moewig'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-surgeon/der-kampf-der-weltraum-mediziner-moewig
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 575d1136-4a92-4e75-b9f4-5a1ef35046a5
+  field_cover_artist:
+    -
+      entity: aa1ef365-9ab4-4cdf-a10a-5dc1457ad29e
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “TERRA UTOPISCHE ROMANE Nos398 & 399 in two parts, 70phg each, as Der Kampf der Weltraum-Mediziner”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?504524 (CC BY 4.0).
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?504525 (CC BY 4.0).
+  field_date_display:
+    -
+      value: '21 May 1965'
+  field_format:
+    -
+      entity: 64ffa415-ebad-4616-a0eb-e36e906fb642
+  field_interior_artist:
+    -
+      entity: b770a83f-cef9-4dbb-b441-95f128a9ae6b
+    -
+      entity: fcc9ce92-3eae-45f8-b763-39dc1e1c49f0
+  field_isfdb_id:
+    -
+      value: '504524'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+  field_oclc:
+    -
+      value: '73741721'
+  field_pages:
+    -
+      value: 65
+  field_price:
+    -
+      value: 70phg
+  field_publisher:
+    -
+      entity: 2489534c-0801-43c6-89f5-eb25fb1d11ea
+  field_publisher_reference:
+    -
+      value: '398'
+  field_publisher_series:
+    -
+      entity: cb7b58db-1396-485b-9e45-6df9a92afc35
+  field_publisher_series_number:
+    -
+      value: '398'
+  field_sort_date:
+    -
+      value: '1965-05-21'
+  field_year:
+    -
+      value: 1965

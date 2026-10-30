@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 30c6dc03-43df-47df-8cd2-acec1f90c96f
+  bundle: anthology
+  default_langcode: en
+  depends:
+    809f2d30-8095-45d4-b6dd-0dda7cffaeb4: node
+    edef25e4-4c1a-4043-9d3b-a0d728774529: media
+    0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea: taxonomy_term
+    cf3933b1-5efa-4430-820c-517e868004dd: taxonomy_term
+    e9b58712-fc92-4a59-a5e5-e6cf33c1479d: taxonomy_term
+    b31d2af0-345f-4612-adf9-ed02b344c905: taxonomy_term
+    9e872ad9-522d-4352-a13f-890044a71d7c: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    03412753-2c7e-4dc0-ab17-7aa4af3b0f2e: taxonomy_term
+    953e4438-0cf1-4b8e-ae96-f0c68f5677a6: taxonomy_term
+    d44c6cf5-44a1-48e1-91cc-6e99dc863b7b: taxonomy_term
+    1a2da62a-0579-4530-ad45-5732ff735bd5: taxonomy_term
+    ee391b45-261b-41c5-94a4-67e1402f0c66: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    bedc199f-cef0-4b30-9081-69275cc8e644: taxonomy_term
+    9f3bd3b5-63c1-4d95-adbc-12cd5dd0c51b: taxonomy_term
+    9fb07210-087e-4651-8f9e-b0ae728fcaf5: taxonomy_term
+    4699c9da-3e32-4e0c-8973-105dede7460c: taxonomy_term
+    ce3c6fbe-754e-4f29-9927-66d65a2fd343: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?209541'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Galactic Empires Volume One'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/galactic-empires-volume-one
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Avon, February 1979, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 809f2d30-8095-45d4-b6dd-0dda7cffaeb4
+  field_cover:
+    -
+      entity: edef25e4-4c1a-4043-9d3b-a0d728774529
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1277885 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea
+  field_first_published_year:
+    -
+      value: 1979
+  field_isfdb_id:
+    -
+      value: '1277885'
+  field_other_contributors:
+    -
+      entity: cf3933b1-5efa-4430-820c-517e868004dd
+    -
+      entity: e9b58712-fc92-4a59-a5e5-e6cf33c1479d
+    -
+      entity: b31d2af0-345f-4612-adf9-ed02b344c905
+    -
+      entity: 9e872ad9-522d-4352-a13f-890044a71d7c
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: 03412753-2c7e-4dc0-ab17-7aa4af3b0f2e
+    -
+      entity: 953e4438-0cf1-4b8e-ae96-f0c68f5677a6
+    -
+      entity: d44c6cf5-44a1-48e1-91cc-6e99dc863b7b
+    -
+      entity: 1a2da62a-0579-4530-ad45-5732ff735bd5
+    -
+      entity: ee391b45-261b-41c5-94a4-67e1402f0c66
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: bedc199f-cef0-4b30-9081-69275cc8e644
+    -
+      entity: 9f3bd3b5-63c1-4d95-adbc-12cd5dd0c51b
+    -
+      entity: 9fb07210-087e-4651-8f9e-b0ae728fcaf5
+    -
+      entity: 4699c9da-3e32-4e0c-8973-105dede7460c
+  field_publisher:
+    -
+      entity: ce3c6fbe-754e-4f29-9927-66d65a2fd343

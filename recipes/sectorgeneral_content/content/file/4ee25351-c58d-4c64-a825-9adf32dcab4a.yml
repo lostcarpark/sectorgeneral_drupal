@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4ee25351-c58d-4c64-a825-9adf32dcab4a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hsptlnsptd1975.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/hsptlnsptd1975.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 116340
+  status:
+    -
+      value: true

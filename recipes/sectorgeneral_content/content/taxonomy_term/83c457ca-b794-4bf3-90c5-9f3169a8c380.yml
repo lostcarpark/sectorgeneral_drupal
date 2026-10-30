@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 83c457ca-b794-4bf3-90c5-9f3169a8c380
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Israel Zangwill'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/israel-zangwill
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

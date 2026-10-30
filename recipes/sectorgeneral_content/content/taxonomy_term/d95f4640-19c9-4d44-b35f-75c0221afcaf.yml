@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d95f4640-19c9-4d44-b35f-75c0221afcaf
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Donald A. Wollheim'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/donald-wollheim
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 10962f80-683f-4606-98e2-e2c70e85347e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: alienemergencies.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/alienemergencies.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3791
+  status:
+    -
+      value: true

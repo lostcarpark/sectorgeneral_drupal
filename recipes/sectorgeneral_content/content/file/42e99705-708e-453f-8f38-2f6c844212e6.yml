@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 42e99705-708e-453f-8f38-2f6c844212e6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pltndrchzt1983.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/pltndrchzt1983.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 37485
+  status:
+    -
+      value: true

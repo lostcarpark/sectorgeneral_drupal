@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0d20f5aa-bbdc-4b14-b552-6941e1c7ae95
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: james_white_Rymdsjukhuset_hospital_station.jpg
+  uri:
+    -
+      value: 'public://covers/2026-10/james_white_Rymdsjukhuset_hospital_station.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 330926
+  status:
+    -
+      value: true

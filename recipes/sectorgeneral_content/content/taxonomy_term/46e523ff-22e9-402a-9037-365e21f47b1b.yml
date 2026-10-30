@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 46e523ff-22e9-402a-9037-365e21f47b1b
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Edward Mackin'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/edward-mackin
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

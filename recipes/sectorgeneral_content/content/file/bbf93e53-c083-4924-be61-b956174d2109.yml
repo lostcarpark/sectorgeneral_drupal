@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bbf93e53-c083-4924-be61-b956174d2109
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: lifeboat_0.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/lifeboat_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 51337
+  status:
+    -
+      value: true

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 9ba03702-f9c2-443a-9bae-aeb052ef3daa
+  bundle: redirect
+  default_langcode: en
+  depends:
+    78efee52-b321-47b3-8f47-63bec8fa469e: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: Js3YzMN9tcx4DxclcTfJx5k9RuQQ-k2IpfQ-_Xx9DBY
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/vita-con-gli-automi/vita-con-gli-automi-mondadori-2011
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 78efee52-b321-47b3-8f47-63bec8fa469e
+  status_code:
+    -
+      value: 301

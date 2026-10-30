@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 439493e1-e780-46e1-9c1d-fe3c93354028
+  bundle: redirect
+  default_langcode: und
+  depends:
+    5c4520a9-e977-4f67-b3f6-c8d9abe57eef: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: MyzeBY_iHtvgEkOHOKIEeyNP_m6yj_w8m7h48qa1ioU
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/darktalisman.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 5c4520a9-e977-4f67-b3f6-c8d9abe57eef
+  status_code:
+    -
+      value: 301

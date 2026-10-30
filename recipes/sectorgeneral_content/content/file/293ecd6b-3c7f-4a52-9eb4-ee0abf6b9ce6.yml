@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 293ecd6b-3c7f-4a52-9eb4-ee0abf6b9ce6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thwtchblwg1969.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thwtchblwg1969.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 33532
+  status:
+    -
+      value: true

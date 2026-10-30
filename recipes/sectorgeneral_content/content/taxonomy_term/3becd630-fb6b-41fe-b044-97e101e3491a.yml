@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 3becd630-fb6b-41fe-b044-97e101e3491a
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Andrew J. Offutt'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/andrew-j-offutt
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

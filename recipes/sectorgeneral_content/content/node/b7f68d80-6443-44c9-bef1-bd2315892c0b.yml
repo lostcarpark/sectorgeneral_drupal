@@ -1,0 +1,75 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b7f68d80-6443-44c9-bef1-bd2315892c0b
+  bundle: edition
+  default_langcode: en
+  depends:
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    a7db68df-cbcb-4bf3-ad1e-26874fce4a71: taxonomy_term
+    80f17718-fabf-4b08-8c68-957fdabee8ac: taxonomy_term
+    310ca9c5-c1c3-419e-adbf-24e60e7d650e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Created from the OPAC SBN: https://opac.sbn.it/bid/URB0998107'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Stazione ospedale, Mondadori, 2025'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/stazione-ospedale-mondadori-2025
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'OPAC SBN record https://opac.sbn.it/bid/URB0998107.'
+  field_date_display:
+    -
+      value: '2025'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_pages:
+    -
+      value: 254
+  field_publisher:
+    -
+      entity: a7db68df-cbcb-4bf3-ad1e-26874fce4a71
+  field_publisher_series:
+    -
+      entity: 80f17718-fabf-4b08-8c68-957fdabee8ac
+  field_publisher_series_number:
+    -
+      value: '266'
+  field_sort_date:
+    -
+      value: '2025-01-01'
+  field_translator:
+    -
+      entity: 310ca9c5-c1c3-419e-adbf-24e60e7d650e
+  field_year:
+    -
+      value: 2025

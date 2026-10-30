@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: ffb047c7-c976-441b-a03c-56fb0f1c0076
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    6505ec15-0584-4b01-82d1-17aff01e2854: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Major Operation, Ballantine, 1971 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: d8b12c885af9b795aec9786178a1bd81fa3e3c6d
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/e/e0/MJRPRTNEB1971.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Major Operation, Ballantine, 1971 cover'
+      title: ''
+      width: 497
+      height: 836
+      entity: 6505ec15-0584-4b01-82d1-17aff01e2854
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?21245'
+      title: null
+      options: {  }

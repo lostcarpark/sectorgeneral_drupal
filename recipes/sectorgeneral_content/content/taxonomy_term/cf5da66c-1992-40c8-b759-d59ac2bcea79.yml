@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: cf5da66c-1992-40c8-b759-d59ac2bcea79
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Boris Vallejo'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/boris-vallejo
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,19 @@
+uuid: 88277496-7a96-4995-acfa-7e071a8bd370
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_takedown_reason
+    - media.type.cover_image
+id: media.cover_image.field_takedown_reason
+field_name: field_takedown_reason
+entity_type: media
+bundle: cover_image
+label: 'Takedown reason'
+description: 'Who asked and why. Keeps the image from being re-added by mistake.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2e42c7db-1af3-40a3-889f-fa7ad9817aac
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: trrscncfct1982.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/trrscncfct1982.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 47474
+  status:
+    -
+      value: true

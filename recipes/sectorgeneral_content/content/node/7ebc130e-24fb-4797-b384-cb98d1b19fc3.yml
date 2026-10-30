@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7ebc130e-24fb-4797-b384-cb98d1b19fc3
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63758 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Dynasty of One'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/dynasty-one
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>The only James White story published in Science Fantasy, editor Carnell&#039;s answer to Campbell&#039;s Unknown and Gold&#039;s Beyond. There was, however, no &#039;scientific&#039; reason for banishing it from New Worlds. Tate is the &quot;Emperor of the Dominions of Myra; the Protectorates, Dependencies, and Mandated Territories of Fomalhaut, of Cregennsil, and of Dubh; Lord of the Magellanic Hosts . . .&quot; Well said, oh court psychologist. Remember chamberlain John Bird&#039;s similar spiel in Jabberwocky? Extrapolating somewhat from Lord (absolute power) Acton, White shows that a solitary immortal ruler would be able to make his every dream -- and nightmare -- come true.</p>'
+      format: basic_html
+      summary: ''
+  field_alternative_titles:
+    -
+      value: 'Long Will Live the King'
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63758 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1955
+  field_isfdb_id:
+    -
+      value: '63758'
+  field_opening_excerpt:
+    -
+      value: '<p>The throne room was vast, the empty throne itself a golden speck glowing against the sombre background drapes.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>SCIENCE FANTASY No 15, September 1955 </p>
+        <p>Publication History: EXTRO No 2, April/May 1982 as &#039;Long Will Live the King&#039; (slightly revised) Futures Past, revised text but with original title</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 2500

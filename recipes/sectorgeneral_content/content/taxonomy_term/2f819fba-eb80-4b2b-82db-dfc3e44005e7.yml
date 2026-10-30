@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 2f819fba-eb80-4b2b-82db-dfc3e44005e7
+  bundle: series
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Out of This World'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /series/out-world
+      langcode: en
+      pathauto: 1

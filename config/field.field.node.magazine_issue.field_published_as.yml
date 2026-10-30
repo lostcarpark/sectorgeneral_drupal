@@ -1,0 +1,19 @@
+uuid: 3afc5574-3399-4d1c-9020-4b424e918e95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_published_as
+    - node.type.magazine_issue
+id: node.magazine_issue.field_published_as
+field_name: field_published_as
+entity_type: node
+bundle: magazine_issue
+label: 'Published as'
+description: 'James White''s work as titled in this issue, e.g. "Turistplaneten (Part 1 of 5)". Serial parts are numbered from this when it says.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

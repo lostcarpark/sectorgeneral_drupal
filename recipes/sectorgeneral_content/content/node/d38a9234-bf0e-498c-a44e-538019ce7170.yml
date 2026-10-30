@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d38a9234-bf0e-498c-a44e-538019ce7170
+  bundle: anthology
+  default_langcode: en
+  depends:
+    9b1202e7-a80e-4c92-b146-d00078b4d127: node
+    fc9d325b-6f08-49d8-b180-aec7b22ced35: media
+    edbec0a9-022c-4dc8-b237-079552374317: taxonomy_term
+    ff0c53cc-c9dc-4f19-a2ad-45f8d93d6567: taxonomy_term
+    d2a172cb-25c6-465a-89b2-91e605fc72b5: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    c878dcbc-37af-4df2-90c1-64a6640d35cf: taxonomy_term
+    cfb517de-c06d-4f4d-8605-cf711df41713: taxonomy_term
+    28e519b8-1bae-42df-8c83-e26d09c4bc9a: taxonomy_term
+    9bde92e9-a8d3-44dc-b1ca-05216488b7c0: taxonomy_term
+    1d5a0744-99f6-4322-9ffe-bb40cc2e622c: taxonomy_term
+    71f81599-bd51-408d-b18b-6d6a999a2048: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?33561'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Strange Universe'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/strange-universe
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Blackie, 1974, Hardback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 9b1202e7-a80e-4c92-b146-d00078b4d127
+  field_cover:
+    -
+      entity: fc9d325b-6f08-49d8-b180-aec7b22ced35
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?35978 (CC BY 4.0).
+  field_editor:
+    -
+      entity: edbec0a9-022c-4dc8-b237-079552374317
+    -
+      entity: ff0c53cc-c9dc-4f19-a2ad-45f8d93d6567
+  field_first_published_year:
+    -
+      value: 1975
+  field_isfdb_id:
+    -
+      value: '35978'
+  field_other_contributors:
+    -
+      entity: d2a172cb-25c6-465a-89b2-91e605fc72b5
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: c878dcbc-37af-4df2-90c1-64a6640d35cf
+    -
+      entity: cfb517de-c06d-4f4d-8605-cf711df41713
+    -
+      entity: 28e519b8-1bae-42df-8c83-e26d09c4bc9a
+    -
+      entity: 9bde92e9-a8d3-44dc-b1ca-05216488b7c0
+  field_publisher:
+    -
+      entity: 1d5a0744-99f6-4322-9ffe-bb40cc2e622c
+  field_series:
+    -
+      entity: 71f81599-bd51-408d-b18b-6d6a999a2048

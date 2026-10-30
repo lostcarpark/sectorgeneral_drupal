@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 54cbe2f0-eaa9-42ef-8859-adec1bd6b2d2
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: u756.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/u756.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 54623
+  status:
+    -
+      value: true

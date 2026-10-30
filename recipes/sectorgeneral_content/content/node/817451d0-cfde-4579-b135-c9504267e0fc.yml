@@ -1,0 +1,85 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 817451d0-cfde-4579-b135-c9504267e0fc
+  bundle: edition
+  default_langcode: en
+  depends:
+    248a2a4d-a8eb-4e13-96f8-c301777749af: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    5f214d6d-cbb6-4805-a3a5-f9a296acdaa3: taxonomy_term
+    0789c46c-1067-445e-aa23-c8e54a165bf3: taxonomy_term
+    a4030f03-0cd6-4f22-9e38-dfd6e8b0ca3d: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the OPAC SBN: https://opac.sbn.it/bid/BVE0750864'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Stazione ospedale & Settore generale, La Tribuna, 1963'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/stazione-ospedale-settore-generale-la-tribuna-1963
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “GALASSIA Nos 33, 34, Aug. & Oct. 1963 as Statione Ospedale & Settore Generale”
+        OPAC SBN record https://opac.sbn.it/bid/BVE0750864.
+        OPAC SBN record https://opac.sbn.it/bid/MOD0400983.
+  field_date_display:
+    -
+      value: 'August & October 1963'
+  field_format:
+    -
+      entity: 248a2a4d-a8eb-4e13-96f8-c301777749af
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_pages:
+    -
+      value: 160
+  field_publisher:
+    -
+      entity: 5f214d6d-cbb6-4805-a3a5-f9a296acdaa3
+  field_publisher_reference:
+    -
+      value: '33, 34'
+  field_publisher_series:
+    -
+      entity: 0789c46c-1067-445e-aa23-c8e54a165bf3
+  field_publisher_series_number:
+    -
+      value: '32'
+  field_sort_date:
+    -
+      value: '1963-08-01'
+  field_translator:
+    -
+      entity: a4030f03-0cd6-4f22-9e38-dfd6e8b0ca3d
+  field_year:
+    -
+      value: 1963

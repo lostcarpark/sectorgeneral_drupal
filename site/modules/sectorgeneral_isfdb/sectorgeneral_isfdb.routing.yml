@@ -1,0 +1,35 @@
+sectorgeneral_isfdb.duplicates:
+  path: '/admin/content/isfdb-duplicates'
+  defaults:
+    _controller: '\Drupal\sectorgeneral_isfdb\Controller\DuplicatesController::list'
+    _title: 'ISFDB duplicates'
+  requirements:
+    _permission: 'review isfdb duplicates'
+
+sectorgeneral_isfdb.merge:
+  path: '/admin/content/isfdb-duplicates/merge/{kind}/{keep}/{duplicate}'
+  defaults:
+    _form: '\Drupal\sectorgeneral_isfdb\Form\MergeConfirmForm'
+    _title: 'Merge duplicate'
+  requirements:
+    _permission: 'review isfdb duplicates'
+    kind: 'nodes|terms'
+    keep: '\d+'
+    duplicate: '\d+'
+
+sectorgeneral_isfdb.library_review:
+  path: '/admin/content/library-records'
+  defaults:
+    _form: '\Drupal\sectorgeneral_isfdb\Form\LibraryReviewForm'
+    _title: 'Library records'
+  requirements:
+    _permission: 'review library records'
+
+sectorgeneral_isfdb.library_record:
+  path: '/admin/content/library-records/{key}'
+  defaults:
+    _form: '\Drupal\sectorgeneral_isfdb\Form\LibraryRecordForm'
+    _title_callback: '\Drupal\sectorgeneral_isfdb\Form\LibraryRecordForm::title'
+  requirements:
+    _permission: 'review library records'
+    key: '[a-z0-9_]+:[0-9a-f]{12}'

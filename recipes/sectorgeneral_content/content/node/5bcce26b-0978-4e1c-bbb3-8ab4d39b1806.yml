@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5bcce26b-0978-4e1c-bbb3-8ab4d39b1806
+  bundle: edition
+  default_langcode: en
+  depends:
+    9ac4d9ae-fe43-4186-bcfa-cc0ae9dd06b9: media
+    9671b40e-39b6-413f-821f-64fd956b0eb5: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    cb57b576-bba0-4654-976b-ef9f8b91a06f: node
+    0492c5ea-ae95-4c4b-94a9-f0af01b62812: taxonomy_term
+    eb1b6d31-5a7d-4f63-9d5c-4a85abac90e9: taxonomy_term
+    dbdc0956-fe73-49ef-b47b-f55ce3f8b035: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Year changed from 1977 to 1976, as OPAC SBN gives it: https://opac.sbn.it/bid/TO01769904'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Il sogno del millennio, Editrice Nord, 1976'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/dream-millennium/il-sogno-del-millennio-editrice-nord-1976
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Uncertainty over the year: <a href="https://opac.sbn.it/bid/TO01769904">OPAC SBN</a> gives 1976, but ISFDB and the original James White Information site give 1977.</p>'
+      format: basic_html
+      summary: ''
+  field_cover:
+    -
+      entity: 9ac4d9ae-fe43-4186-bcfa-cc0ae9dd06b9
+  field_cover_artist:
+    -
+      entity: 9671b40e-39b6-413f-821f-64fd956b0eb5
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Editrice Nord, Milan, 1977 as Il Sognio del Millennio”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?383164 (CC BY 4.0).
+        OPAC SBN record https://opac.sbn.it/bid/TO01769904.
+  field_date_display:
+    -
+      value: '1976'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isfdb_id:
+    -
+      value: '383164'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: cb57b576-bba0-4654-976b-ef9f8b91a06f
+  field_pages:
+    -
+      value: 180
+  field_price:
+    -
+      value: 'Lit 2,000'
+  field_publisher:
+    -
+      entity: 0492c5ea-ae95-4c4b-94a9-f0af01b62812
+  field_publisher_series:
+    -
+      entity: eb1b6d31-5a7d-4f63-9d5c-4a85abac90e9
+  field_publisher_series_number:
+    -
+      value: '49'
+  field_sort_date:
+    -
+      value: '1976-01-01'
+  field_translator:
+    -
+      entity: dbdc0956-fe73-49ef-b47b-f55ce3f8b035
+  field_year:
+    -
+      value: 1976

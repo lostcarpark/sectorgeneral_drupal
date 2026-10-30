@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 186df495-456d-4a3e-a758-585993af3e0b
+  bundle: redirect
+  default_langcode: und
+  depends:
+    72cbbb11-d2bb-4c63-b96a-27273c2f78a7: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: yaO0sFmb6FoUEY405unLGFtDzlwEqguqICoFNrurKF8
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/suicidemission.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 72cbbb11-d2bb-4c63-b96a-27273c2f78a7
+  status_code:
+    -
+      value: 301

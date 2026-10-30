@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f095bbde-6298-4709-a5d4-57eb58e117ed
+  bundle: edition
+  default_langcode: en
+  depends:
+    04c9110e-ee7a-4938-b1e4-3349498ac709: media
+    98198ea5-db97-409a-92f0-7f61cee9333f: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    2d0a3410-a4d5-43b2-aca8-9f79b0370788: node
+    8484ad0a-6c36-4e1c-a819-b9bd744b959b: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?7431 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Code Blue—Emergency, Severn House, 1990'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/code-blue-emergency/code-blue-emergency-severn-house-1990
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 04c9110e-ee7a-4938-b1e4-3349498ac709
+  field_cover_artist:
+    -
+      entity: 98198ea5-db97-409a-92f0-7f61cee9333f
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Vern House, Wallington, hardcover, ISBN 0-7278-4090-8, September 1990.”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?7431 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9709569M (CC0).
+  field_date_display:
+    -
+      value: 'September 1990'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isbn:
+    -
+      value: '9780727840905'
+  field_isfdb_id:
+    -
+      value: '7431'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 2d0a3410-a4d5-43b2-aca8-9f79b0370788
+  field_oclc:
+    -
+      value: '21976814'
+  field_openlibrary_id:
+    -
+      value: OL9709569M
+  field_pages:
+    -
+      value: 280
+  field_price:
+    -
+      value: £12.95
+  field_publisher:
+    -
+      entity: 8484ad0a-6c36-4e1c-a819-b9bd744b959b
+  field_sort_date:
+    -
+      value: '1990-09-01'
+  field_year:
+    -
+      value: 1990

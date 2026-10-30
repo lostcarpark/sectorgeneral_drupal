@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 966e7201-554f-4b87-8789-4e8cc46030a3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fnldiag1997.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/fnldiag1997.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 86083
+  status:
+    -
+      value: true

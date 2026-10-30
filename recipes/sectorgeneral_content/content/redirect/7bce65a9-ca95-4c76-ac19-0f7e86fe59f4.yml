@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 7bce65a9-ca95-4c76-ac19-0f7e86fe59f4
+  bundle: redirect
+  default_langcode: und
+  depends:
+    214647d4-99c3-41e8-a8fb-747ce5ae5a89: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: SPCisLqmZBKhSVcaNcuhtxBGh5ZkpWdeFXOr9LmdE9M
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/fasttrip.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 214647d4-99c3-41e8-a8fb-747ce5ae5a89
+  status_code:
+    -
+      value: 301

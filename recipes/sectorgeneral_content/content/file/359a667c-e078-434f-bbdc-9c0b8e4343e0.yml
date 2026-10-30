@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 359a667c-e078-434f-bbdc-9c0b8e4343e0
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: tmrrwstfrg1981.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/tmrrwstfrg1981.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 148359
+  status:
+    -
+      value: true

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: c292c29c-c63d-413f-8068-1b026eb09068
+  bundle: redirect
+  default_langcode: en
+  depends:
+    f94c7a91-a3b6-4102-9ba2-39b64c8736cb: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: VpnuPRMgKvUmbN3HuPvs70OOjBGOEmD8Tw9OM1Pf7sw
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: books/deadly-litter/die-lichter-des-alles-moewig-1965
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: f94c7a91-a3b6-4102-9ba2-39b64c8736cb
+  status_code:
+    -
+      value: 301

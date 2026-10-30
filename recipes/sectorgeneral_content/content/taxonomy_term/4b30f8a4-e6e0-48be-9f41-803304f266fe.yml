@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 4b30f8a4-e6e0-48be-9f41-803304f266fe
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Grant Canfield'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/grant-canfield
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

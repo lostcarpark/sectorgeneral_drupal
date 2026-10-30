@@ -1,0 +1,50 @@
+uuid: a6921bef-0d12-445d-aa79-5a9b1318ccfc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.cover_image.field_image_hash
+    - field.field.media.cover_image.field_image_source
+    - field.field.media.cover_image.field_image_url
+    - field.field.media.cover_image.field_media_image
+    - field.field.media.cover_image.field_scanned_by
+    - field.field.media.cover_image.field_source_url
+    - field.field.media.cover_image.field_takedown_date
+    - field.field.media.cover_image.field_takedown_reason
+    - image.style.cover_medium
+    - media.type.cover_image
+  module:
+    - image
+id: media.cover_image.default
+targetEntityType: media
+bundle: cover_image
+mode: default
+content:
+  cover_credit:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_media_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: file
+      image_style: cover_medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_image_hash: true
+  field_image_source: true
+  field_image_url: true
+  field_scanned_by: true
+  field_source_url: true
+  field_takedown_date: true
+  field_takedown_reason: true
+  name: true
+  thumbnail: true
+  uid: true

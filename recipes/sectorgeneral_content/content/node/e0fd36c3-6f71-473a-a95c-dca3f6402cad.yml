@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e0fd36c3-6f71-473a-a95c-dca3f6402cad
+  bundle: novel
+  default_langcode: en
+  depends:
+    197324d8-9f30-4cd7-bd14-de076ae5f499: media
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 246, similarity 0.98).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Mind Changer'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/mind-changer
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Definitely not to be confused with The Young Doctors (1963 Corgi retitling of Arthur Hailey&#039;s The Final Diagnosis). Although Dr. (Peter) Conway started &#039;life&#039; as an unaging character à la Dr. (James) Kildare, who might have been spontaneously generated for each book, he finally began to act his chronological age - well, most of the time. The same thing could be said about my favourite Sector General staff member, Chief Psychologist O&#039;Mara, who helped build the place around Diagnostician Mannen. Now the old warhorse faces mandatory turning out to pasture, if not the interstellar glue factory, and he&#039;s not particularly well-pleased at the prospect. Does the ultimate &#039;mind-changer&#039; go gently into that good senior-citizen night? No siree, Dr. Bob! &quot;Seconds out...&quot;</p>'
+      format: basic_html
+      summary: "This is the final story of O'Mara, the chief psychologist of Sector General. Personally this is my favourite book by James White. So much is answered in such surprising ways."
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: 197324d8-9f30-4cd7-bd14-de076ae5f499
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?12597 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1998
+  field_isfdb_id:
+    -
+      value: '12597'
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_series_number:
+    -
+      value: 11
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 89000

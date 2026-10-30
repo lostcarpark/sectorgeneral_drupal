@@ -1,0 +1,119 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9a1bfa72-c74e-40ca-b303-95b1c1d018bc
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    2c31e10b-959a-4533-82b6-2f56e54b9b76: node
+    31d70a1f-aa73-4855-a945-f200320b4462: media
+    c34091a6-37e4-4957-a7ad-ed23fe7aed0f: taxonomy_term
+    f57dd5a8-a4ca-4c66-8c16-115ea487f4c7: taxonomy_term
+    20e127fc-b1f1-496e-b435-a43151c91fd1: taxonomy_term
+    e99d4996-310b-4229-8ea4-63d9f57b3596: taxonomy_term
+    b5f4f39e-0ab5-483e-8e7d-2e3beb9ae490: taxonomy_term
+    3f0bd9b6-9e7a-4785-b781-8132c851dc6c: taxonomy_term
+    7fd5bdad-bd92-4325-ae75-4af14e3622ed: taxonomy_term
+    e4a3524f-3c0d-4359-8556-eac588e0749c: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    35e411d8-3c59-4666-84ed-9c05c22b161a: taxonomy_term
+    1f96b9ca-9313-4f9e-a1b6-fd30aa7363d9: taxonomy_term
+    70cfeedd-eb5c-4128-9f18-9b63ba2547d9: taxonomy_term
+    dbdc767a-31d1-42ef-96c4-152a6cdcb201: taxonomy_term
+    7e67be9b-5ed6-4a6c-87a0-3009e5007996: taxonomy_term
+    e931bc05-5160-41ee-9712-2a039013c866: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?56857 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Analog Science Fiction and Fact, December 1988'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/analog-science-fiction-and-fact/analog-science-fiction-and-fact-december-1988
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 2c31e10b-959a-4533-82b6-2f56e54b9b76
+  field_cover:
+    -
+      entity: 31d70a1f-aa73-4855-a945-f200320b4462
+  field_cover_artist:
+    -
+      entity: c34091a6-37e4-4957-a7ad-ed23fe7aed0f
+    -
+      entity: f57dd5a8-a4ca-4c66-8c16-115ea487f4c7
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?56857 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'December 1988'
+  field_editor:
+    -
+      entity: 20e127fc-b1f1-496e-b435-a43151c91fd1
+  field_interior_artist:
+    -
+      entity: f57dd5a8-a4ca-4c66-8c16-115ea487f4c7
+    -
+      entity: e99d4996-310b-4229-8ea4-63d9f57b3596
+    -
+      entity: b5f4f39e-0ab5-483e-8e7d-2e3beb9ae490
+    -
+      entity: 3f0bd9b6-9e7a-4785-b781-8132c851dc6c
+    -
+      entity: 7fd5bdad-bd92-4325-ae75-4af14e3622ed
+    -
+      entity: e4a3524f-3c0d-4359-8556-eac588e0749c
+  field_isfdb_id:
+    -
+      value: '56857'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 35e411d8-3c59-4666-84ed-9c05c22b161a
+  field_other_contributors:
+    -
+      entity: 1f96b9ca-9313-4f9e-a1b6-fd30aa7363d9
+    -
+      entity: 70cfeedd-eb5c-4128-9f18-9b63ba2547d9
+    -
+      entity: dbdc767a-31d1-42ef-96c4-152a6cdcb201
+    -
+      entity: 7e67be9b-5ed6-4a6c-87a0-3009e5007996
+    -
+      entity: e931bc05-5160-41ee-9712-2a039013c866
+  field_pages:
+    -
+      value: 180
+  field_price:
+    -
+      value: $2.00
+  field_sort_date:
+    -
+      value: '1988-12-01'
+  field_year:
+    -
+      value: 1988

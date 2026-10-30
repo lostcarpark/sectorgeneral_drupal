@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b753a553-08e7-4245-bcfb-1711aeeccee4
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hrrdrrbtrf1963.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/hrrdrrbtrf1963.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 124173
+  status:
+    -
+      value: true

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7a51a39d-2816-498f-8256-0d12ea8d891d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ddllttrdmw1970.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/ddllttrdmw1970.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 113511
+  status:
+    -
+      value: true

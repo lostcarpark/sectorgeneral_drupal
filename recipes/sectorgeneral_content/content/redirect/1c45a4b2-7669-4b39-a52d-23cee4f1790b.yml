@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 1c45a4b2-7669-4b39-a52d-23cee4f1790b
+  bundle: redirect
+  default_langcode: und
+  depends:
+    9680dc4e-80b2-41e8-ac10-1c7c4f8487fe: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: PZu3e6j5IDLOmvncmY1GkjlGOhPCaNelqZylc_A66Bg
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: anthologies/top-sf-1-0
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 9680dc4e-80b2-41e8-ac10-1c7c4f8487fe
+  status_code:
+    -
+      value: 301

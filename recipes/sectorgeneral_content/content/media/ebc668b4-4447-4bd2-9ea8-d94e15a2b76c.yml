@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: ebc668b4-4447-4bd2-9ea8-d94e15a2b76c
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    5adafa08-adc1-4143-96c5-3960cf4f1853: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Sector General, Del Rey / Ballantine, 1983 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: d64c0dc59db5e30e4045c03b682c7e34790100bd
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/c/cd/SCTRGNRLDX1983.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Sector General, Del Rey / Ballantine, 1983 cover'
+      title: ''
+      width: 390
+      height: 640
+      entity: 5adafa08-adc1-4143-96c5-3960cf4f1853
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?183409'
+      title: null
+      options: {  }

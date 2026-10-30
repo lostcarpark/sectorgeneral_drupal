@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 118073da-d005-4638-a89f-5e18075f91a6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: lljdgmntfl1969.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/lljdgmntfl1969.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 90312
+  status:
+    -
+      value: true

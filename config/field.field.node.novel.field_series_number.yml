@@ -1,0 +1,23 @@
+uuid: 7b415623-a45a-47cd-b4dd-0bca2418ab15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_series_number
+    - node.type.novel
+id: node.novel.field_series_number
+field_name: field_series_number
+entity_type: node
+bundle: novel
+label: 'Number in series'
+description: 'Reading order within the series, e.g. 1 for Hospital Station.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

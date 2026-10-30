@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 9d3755bd-2ded-47f3-836b-b2f5ec50328c
+  bundle: redirect
+  default_langcode: en
+  depends:
+    03c0e826-c5ee-456f-8600-d2652179fbeb: taxonomy_term
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: QntC33gDWp04y-wsqub1_GkCsVm9DEK4xRtWfYeMXEs
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: publisher/ballantine
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 03c0e826-c5ee-456f-8600-d2652179fbeb
+  status_code:
+    -
+      value: 301

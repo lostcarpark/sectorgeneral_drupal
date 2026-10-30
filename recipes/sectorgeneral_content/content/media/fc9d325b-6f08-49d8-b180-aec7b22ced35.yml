@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: fc9d325b-6f08-49d8-b180-aec7b22ced35
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    d1b8cbfd-f2e2-4c1d-ac42-d87e78a80f60: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Strange Universe cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 8f48a00e89ca4869b8384a99efdf904aab4e9ff7
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/f/f9/STRNGNVRS2A1974.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Strange Universe cover'
+      title: ''
+      width: 600
+      height: 450
+      entity: d1b8cbfd-f2e2-4c1d-ac42-d87e78a80f60
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?33561'
+      title: null
+      options: {  }

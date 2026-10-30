@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 75e97930-23ca-447c-b3ff-95109e96379a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nebulasnov1955.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/nebulasnov1955.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 31706
+  status:
+    -
+      value: true

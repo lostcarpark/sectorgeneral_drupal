@@ -1,0 +1,23 @@
+uuid: 045430e8-a389-4a88-a398-6322f624d2f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_series_number
+    - node.type.anthology
+id: node.anthology.field_series_number
+field_name: field_series_number
+entity_type: node
+bundle: anthology
+label: 'Volume number'
+description: 'e.g. 18 for New Writings in SF 18.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

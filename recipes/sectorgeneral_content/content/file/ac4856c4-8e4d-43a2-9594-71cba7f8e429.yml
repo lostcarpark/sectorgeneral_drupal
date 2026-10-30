@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ac4856c4-8e4d-43a2-9594-71cba7f8e429
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newwrjul55.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/newwrjul55.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 123010
+  status:
+    -
+      value: true

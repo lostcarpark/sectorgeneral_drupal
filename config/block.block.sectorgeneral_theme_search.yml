@@ -1,0 +1,21 @@
+uuid: c7353448-fe6f-4b93-b165-df62edcde106
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - sectorgeneral_theme
+id: sectorgeneral_theme_search
+theme: sectorgeneral_theme
+region: primary_menu
+weight: 10
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }

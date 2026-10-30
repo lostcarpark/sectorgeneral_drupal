@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a329824e-33f7-416f-9ce5-41d754d35dae
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    214647d4-99c3-41e8-a8fb-747ce5ae5a89: node
+    c7ffa366-fa6e-434e-b6de-5512042ed69c: media
+    a3a751c1-1fcf-47d4-aa59-6ba465ec40c8: taxonomy_term
+    98198ea5-db97-409a-92f0-7f61cee9333f: taxonomy_term
+    67da7534-5d41-4ed7-bb18-82077c73e1db: taxonomy_term
+    5cecbb66-7e19-4aa2-b37e-4937902dc475: taxonomy_term
+    e613edcf-203e-48ff-8a70-3dc22f2becd4: taxonomy_term
+    bf6fb45e-86c3-4015-a110-7f6bc1078231: taxonomy_term
+    3fc3c9db-c83e-4f72-8400-7ab17dff4c67: taxonomy_term
+    07e0aafe-d821-43ab-99db-6d8ff7e855f4: taxonomy_term
+    e4ea65f8-b102-49de-aa1c-b17c48c2e206: taxonomy_term
+    2c49aa02-e178-44c7-9099-e6bfb5ba9a7e: taxonomy_term
+    e6f1ba45-ad5d-46b9-945e-47606d66fd6b: taxonomy_term
+    4222c911-1ef5-49b8-b834-cb95fdf81a44: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1080708 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Minotauro, May 1965'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/minotauro/minotauro-may-1965
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 214647d4-99c3-41e8-a8fb-747ce5ae5a89
+  field_cover:
+    -
+      entity: c7ffa366-fa6e-434e-b6de-5512042ed69c
+  field_cover_artist:
+    -
+      entity: a3a751c1-1fcf-47d4-aa59-6ba465ec40c8
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1080708 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'May 1965'
+  field_editor:
+    -
+      entity: 98198ea5-db97-409a-92f0-7f61cee9333f
+  field_isfdb_id:
+    -
+      value: '1080708'
+  field_language:
+    -
+      entity: 67da7534-5d41-4ed7-bb18-82077c73e1db
+  field_magazine:
+    -
+      entity: 5cecbb66-7e19-4aa2-b37e-4937902dc475
+  field_other_contributors:
+    -
+      entity: e613edcf-203e-48ff-8a70-3dc22f2becd4
+    -
+      entity: bf6fb45e-86c3-4015-a110-7f6bc1078231
+    -
+      entity: 3fc3c9db-c83e-4f72-8400-7ab17dff4c67
+    -
+      entity: 07e0aafe-d821-43ab-99db-6d8ff7e855f4
+    -
+      entity: e4ea65f8-b102-49de-aa1c-b17c48c2e206
+    -
+      entity: 2c49aa02-e178-44c7-9099-e6bfb5ba9a7e
+    -
+      entity: e6f1ba45-ad5d-46b9-945e-47606d66fd6b
+    -
+      entity: 4222c911-1ef5-49b8-b834-cb95fdf81a44
+  field_pages:
+    -
+      value: 128
+  field_price:
+    -
+      value: Ar$120.00
+  field_published_as:
+    -
+      value: 'Viaje de ayuno'
+  field_sort_date:
+    -
+      value: '1965-05-01'
+  field_year:
+    -
+      value: 1965

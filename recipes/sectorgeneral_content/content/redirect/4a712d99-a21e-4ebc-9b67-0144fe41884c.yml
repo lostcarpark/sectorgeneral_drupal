@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 4a712d99-a21e-4ebc-9b67-0144fe41884c
+  bundle: redirect
+  default_langcode: und
+  depends:
+    42f8cd6a-fb85-4103-81dc-fe7f5ce071de: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: jqVsKh_ypCePGV_Q5ghh0K1VGry_p4N5LFAJs7vZd2A
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/firstprotector.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 42f8cd6a-fb85-4103-81dc-fe7f5ce071de
+  status_code:
+    -
+      value: 301

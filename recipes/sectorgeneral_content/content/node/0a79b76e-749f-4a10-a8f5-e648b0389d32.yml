@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0a79b76e-749f-4a10-a8f5-e648b0389d32
+  bundle: edition
+  default_langcode: en
+  depends:
+    8a805153-b8fc-457b-86dd-2af80b164a28: media
+    fe64cdea-4aeb-4b94-81a9-a3a7a247c229: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    6cf0c327-69b9-430c-b2e9-26d40e7398d0: node
+    32dfb838-1b85-446d-8f00-f65cfd4d0785: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL15061106M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Underkill, Corgi, 1979'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/underkill/underkill-corgi-1979
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 8a805153-b8fc-457b-86dd-2af80b164a28
+  field_cover_artist:
+    -
+      entity: fe64cdea-4aeb-4b94-81a9-a3a7a247c229
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Corgi, 1979”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?152591 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL15061106M (CC0).
+  field_date_display:
+    -
+      value: '1979'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780552109963'
+  field_isfdb_id:
+    -
+      value: '152591'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 6cf0c327-69b9-430c-b2e9-26d40e7398d0
+  field_oclc:
+    -
+      value: '16430256'
+  field_openlibrary_id:
+    -
+      value: OL15061106M
+  field_pages:
+    -
+      value: 176
+  field_price:
+    -
+      value: £0.95
+  field_publisher:
+    -
+      entity: 32dfb838-1b85-446d-8f00-f65cfd4d0785
+  field_sort_date:
+    -
+      value: '1979-01-01'
+  field_year:
+    -
+      value: 1979

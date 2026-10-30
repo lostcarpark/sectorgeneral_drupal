@@ -1,0 +1,514 @@
+uuid: 205150d7-4116-4af0-b027-a89c2da9201d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contents
+    - field.storage.node.field_cover
+    - field.storage.node.field_date_display
+    - field.storage.node.field_novel
+    - field.storage.node.field_published_as
+    - field.storage.node.field_publisher
+    - field.storage.node.field_translator
+    - node.type.edition
+    - node.type.magazine_issue
+    - taxonomy.vocabulary.language
+  module:
+    - datetime
+    - eva
+    - node
+    - sectorgeneral
+    - user
+id: language_publications
+label: 'Publications by language'
+module: views
+description: 'Editions and magazine issues in a language, shown on its page.'
+tag: ''
+base_table: node_field_data
+base_field: nid
+display:
+  default:
+    id: default
+    display_title: Default
+    display_plugin: default
+    position: 0
+    display_options:
+      fields:
+        view_node:
+          id: view_node
+          table: node
+          field: view_node
+          entity_type: node
+          plugin_id: entity_link
+          label: ''
+          exclude: true
+          text: ''
+          output_url_as_text: true
+          absolute: false
+        field_cover:
+          id: field_cover
+          table: node__field_cover
+          field: field_cover
+          plugin_id: field
+          label: ''
+          alter:
+            make_link: true
+            path: '{{ view_node }}'
+          element_label_colon: false
+          empty: '<span class="cover-thumb-placeholder"></span>'
+          type: entity_reference_entity_view
+          settings:
+            view_mode: cover_thumb
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+          label: Title
+          element_label_colon: false
+          type: sectorgeneral_edition_title
+          settings:
+            link_to_entity: true
+        field_novel:
+          id: field_novel
+          table: node__field_novel
+          field: field_novel
+          plugin_id: field
+          label: 'Translation of'
+          element_label_colon: false
+          type: entity_reference_label
+          settings:
+            link: true
+        field_translator:
+          id: field_translator
+          table: node__field_translator
+          field: field_translator
+          plugin_id: field
+          label: Translator
+          element_label_colon: false
+          type: sectorgeneral_people_label
+          settings:
+            link: true
+        field_publisher:
+          id: field_publisher
+          table: node__field_publisher
+          field: field_publisher
+          plugin_id: field
+          label: Publisher
+          element_label_colon: false
+          type: entity_reference_label
+          settings:
+            link: true
+        field_date_display:
+          id: field_date_display
+          table: node__field_date_display
+          field: field_date_display
+          plugin_id: field
+          label: Date
+          element_label_colon: false
+          type: string
+          settings:
+            link_to_entity: false
+      pager:
+        type: none
+        options:
+          offset: 0
+      exposed_form:
+        type: basic
+        options: {  }
+      access:
+        type: perm
+        options:
+          perm: 'access content'
+      cache:
+        type: tag
+        options: {  }
+      sorts:
+        field_sort_date_value:
+          id: field_sort_date_value
+          table: node__field_sort_date
+          field: field_sort_date_value
+          plugin_id: standard
+          order: ASC
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          plugin_id: standard
+          order: ASC
+      arguments:
+        field_language_target_id:
+          id: field_language_target_id
+          table: node__field_language
+          field: field_language_target_id
+          plugin_id: numeric
+          default_action: empty
+          specify_validation: true
+          validate:
+            type: 'entity:taxonomy_term'
+            fail: empty
+          validate_options:
+            bundles:
+              language: language
+            access: true
+            operation: view
+            multiple: 0
+      filters:
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+          value:
+            edition: edition
+          group: 1
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: table
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          columns:
+            view_node: view_node
+            field_cover: field_cover
+            title: title
+            field_novel: field_novel
+            field_translator: field_translator
+            field_publisher: field_publisher
+            field_date_display: field_date_display
+          default: '-1'
+          info:
+            view_node:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            field_cover:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            title:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            field_novel:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            field_translator:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            field_publisher:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            field_date_display:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+          override: true
+          sticky: false
+          summary: ''
+          empty_table: false
+          caption: ''
+          description: ''
+      row:
+        type: fields
+        options: {  }
+      query:
+        type: views_query
+        options: {  }
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cover'
+        - 'config:field.storage.node.field_date_display'
+        - 'config:field.storage.node.field_novel'
+        - 'config:field.storage.node.field_publisher'
+        - 'config:field.storage.node.field_translator'
+  editions:
+    id: editions
+    display_title: Editions
+    display_plugin: entity_view
+    position: 1
+    display_options:
+      title: 'Book editions'
+      defaults:
+        title: false
+        header: false
+      header:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          plugin_id: text_custom
+          empty: false
+          content: '<h2>Book editions</h2>'
+          tokenize: false
+      display_extenders: {  }
+      entity_type: taxonomy_term
+      bundles:
+        - language
+      show_title: false
+      argument_mode: id
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cover'
+        - 'config:field.storage.node.field_date_display'
+        - 'config:field.storage.node.field_novel'
+        - 'config:field.storage.node.field_publisher'
+        - 'config:field.storage.node.field_translator'
+  issues:
+    id: issues
+    display_title: 'Magazine issues'
+    display_plugin: entity_view
+    position: 2
+    display_options:
+      title: 'Magazine issues'
+      fields:
+        view_node:
+          id: view_node
+          table: node
+          field: view_node
+          entity_type: node
+          plugin_id: entity_link
+          label: ''
+          exclude: true
+          text: ''
+          output_url_as_text: true
+          absolute: false
+        field_cover:
+          id: field_cover
+          table: node__field_cover
+          field: field_cover
+          plugin_id: field
+          label: ''
+          alter:
+            make_link: true
+            path: '{{ view_node }}'
+          element_label_colon: false
+          empty: '<span class="cover-thumb-placeholder"></span>'
+          type: entity_reference_entity_view
+          settings:
+            view_mode: cover_thumb
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+          label: Issue
+          element_label_colon: false
+          type: string
+          settings:
+            link_to_entity: true
+        field_published_as:
+          id: field_published_as
+          table: node__field_published_as
+          field: field_published_as
+          plugin_id: field
+          label: 'Published as'
+          element_label_colon: false
+          type: string
+          settings:
+            link_to_entity: false
+          group_column: value
+          delta_limit: 0
+          multi_type: separator
+          separator: '; '
+        field_contents:
+          id: field_contents
+          table: node__field_contents
+          field: field_contents
+          plugin_id: field
+          label: Work
+          element_label_colon: false
+          type: entity_reference_label
+          settings:
+            link: true
+        field_date_display:
+          id: field_date_display
+          table: node__field_date_display
+          field: field_date_display
+          plugin_id: field
+          label: Date
+          element_label_colon: false
+          type: string
+          settings:
+            link_to_entity: false
+      filters:
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+          value:
+            magazine_issue: magazine_issue
+          group: 1
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: table
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          columns:
+            view_node: view_node
+            field_cover: field_cover
+            title: title
+            field_published_as: field_published_as
+            field_contents: field_contents
+            field_date_display: field_date_display
+          default: '-1'
+          info:
+            view_node:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            field_cover:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            title:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            field_published_as:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            field_contents:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            field_date_display:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+          override: true
+          sticky: false
+          summary: ''
+          empty_table: false
+          caption: ''
+          description: ''
+          class: ''
+      defaults:
+        title: false
+        style: false
+        fields: false
+        filters: false
+        filter_groups: false
+        header: false
+      header:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          plugin_id: text_custom
+          empty: false
+          content: '<h2>Magazine issues</h2>'
+          tokenize: false
+      display_extenders: {  }
+      entity_type: taxonomy_term
+      bundles:
+        - language
+      show_title: false
+      argument_mode: id
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_contents'
+        - 'config:field.storage.node.field_cover'
+        - 'config:field.storage.node.field_date_display'
+        - 'config:field.storage.node.field_published_as'

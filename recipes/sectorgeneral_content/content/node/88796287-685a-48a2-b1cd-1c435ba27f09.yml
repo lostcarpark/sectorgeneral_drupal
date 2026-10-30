@@ -1,0 +1,86 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 88796287-685a-48a2-b1cd-1c435ba27f09
+  bundle: novel
+  default_langcode: en
+  depends:
+    0fc350d1-fc4b-4f0e-97fe-d0cf4450b272: node
+    f7d26100-42f0-45e8-bfca-70e063567bb4: node
+    c45cd35d-4b49-4485-b693-6d01d49d7686: node
+    e61ca6ea-4c23-4b94-9b2f-cb61764a7129: node
+    4f9f8fa5-5330-49b8-b61e-f2edcae424da: media
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 353, similarity 0.92).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Sector General'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/sector-general
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Sector General, like its generic title, is an unassuming short story which does not aspire to the lordly -- well, mock-baronial -- estate of fix-up novel. And all the better for it. I&#039;ve got nothing against fix-up novels, my all-time favourite sf book being A.E.van Vogt&#039;s The War against the Rull. (I don&#039;t care what anybody thinks about that -- so there. N.B. The term &#039;fix-up&#039; was coined by van Vogt. Contents: &#039;Accident&#039;; &#039;Survivor&#039;; &#039;Investigation&#039;; &#039;Combined Operation&#039; (see under Short Stories).</p>'
+      format: basic_html
+      summary: 'The fifth book in the series, including the O''Mara "origin" story.'
+  field_book_type:
+    -
+      value: collection
+  field_contents:
+    -
+      entity: 0fc350d1-fc4b-4f0e-97fe-d0cf4450b272
+    -
+      entity: f7d26100-42f0-45e8-bfca-70e063567bb4
+    -
+      entity: c45cd35d-4b49-4485-b693-6d01d49d7686
+    -
+      entity: e61ca6ea-4c23-4b94-9b2f-cb61764a7129
+  field_cover:
+    -
+      entity: 4f9f8fa5-5330-49b8-b61e-f2edcae424da
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4235 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1983
+  field_isfdb_id:
+    -
+      value: '4235'
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_series_number:
+    -
+      value: 5
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 70000

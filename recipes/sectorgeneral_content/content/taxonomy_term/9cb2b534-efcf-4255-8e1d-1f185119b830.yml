@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 9cb2b534-efcf-4255-8e1d-1f185119b830
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Octavia E. Butler'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/octavia-e-butler
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

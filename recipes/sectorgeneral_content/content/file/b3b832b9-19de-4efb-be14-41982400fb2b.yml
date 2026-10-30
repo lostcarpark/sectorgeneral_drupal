@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b3b832b9-19de-4efb-be14-41982400fb2b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: tomorrowistoofar.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/tomorrowistoofar.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 62567
+  status:
+    -
+      value: true

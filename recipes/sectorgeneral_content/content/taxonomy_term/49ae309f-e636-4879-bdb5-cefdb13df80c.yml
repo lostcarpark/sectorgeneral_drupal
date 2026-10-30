@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 49ae309f-e636-4879-bdb5-cefdb13df80c
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: "Domenico d'Amico"
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/domenico-damico
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

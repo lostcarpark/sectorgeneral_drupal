@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2ad637a7-20f0-4d58-90b3-eb7bd894eaaa
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: strsrgnpqb1967.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/strsrgnpqb1967.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 40357
+  status:
+    -
+      value: true

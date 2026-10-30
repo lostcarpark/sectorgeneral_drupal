@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8fc9520f-bf62-4cc0-8d02-57801451aab3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: u441.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/u441.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 53428
+  status:
+    -
+      value: true

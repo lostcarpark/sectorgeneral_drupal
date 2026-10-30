@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 132f8533-485b-44e3-af0a-8b82b56b3598
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: um33.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/um33.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 42609
+  status:
+    -
+      value: true

@@ -1,0 +1,49 @@
+/**
+ * @file
+ * Pieces shared by listing pages: summary lines, intros and the blank shown
+ * in a table for a missing cover.
+ */
+
+/* "45 publications · 1957–2021 · 25 editions of 10 books" */
+.summary-line {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+  color: var(--rt-neutral-800);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+.summary-line li {
+  margin: 0;
+}
+
+.summary-line li + li::before {
+  padding-inline: 0.5em;
+  content: "·";
+  color: var(--rt-neutral-200);
+}
+
+.summary-line li:first-child {
+  color: var(--rt-neutral-900);
+  font-weight: 600;
+}
+
+.view-intro {
+  max-width: 42rem;
+  margin: 0 0 2rem;
+  color: var(--rt-neutral-800);
+  font-size: 1.0625rem;
+}
+
+/* The size of a cover thumbnail (cover_thumb: within 80×120). */
+.cover-thumb-placeholder {
+  display: block;
+  width: 5rem;
+  height: 7.5rem;
+  border: 1px dashed var(--rt-neutral-200);
+  border-radius: 0.1875rem;
+  background: var(--rt-neutral-050);
+}

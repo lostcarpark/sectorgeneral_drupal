@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3a041ee6-0d9c-42f4-96dd-210640d40c75
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+    caab4822-7c46-4549-a098-88d6805c83c8: media
+    1d659955-85cd-4a1e-a530-4d1e0d10a271: taxonomy_term
+    363bf8f7-f454-416b-b5d6-a18e4eb1c6b3: taxonomy_term
+    9093ca95-5a43-4f20-9bf6-1a4a4d3eeea1: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    33621247-7c41-4c6a-8192-756cfb52319e: taxonomy_term
+    03412753-2c7e-4dc0-ab17-7aa4af3b0f2e: taxonomy_term
+    10c2ef29-fd23-4809-86ef-213fb8bb39ec: taxonomy_term
+    b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd: taxonomy_term
+    51901fc6-206c-4637-8b41-b0685c9e81d5: taxonomy_term
+    07e0aafe-d821-43ab-99db-6d8ff7e855f4: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?58365 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Fantastic, July 1961'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/fantastic/fantastic-july-1961
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+  field_cover:
+    -
+      entity: caab4822-7c46-4549-a098-88d6805c83c8
+  field_cover_artist:
+    -
+      entity: 1d659955-85cd-4a1e-a530-4d1e0d10a271
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?58365 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'July 1961'
+  field_editor:
+    -
+      entity: 363bf8f7-f454-416b-b5d6-a18e4eb1c6b3
+  field_interior_artist:
+    -
+      entity: 9093ca95-5a43-4f20-9bf6-1a4a4d3eeea1
+  field_isfdb_id:
+    -
+      value: '58365'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 33621247-7c41-4c6a-8192-756cfb52319e
+  field_other_contributors:
+    -
+      entity: 03412753-2c7e-4dc0-ab17-7aa4af3b0f2e
+    -
+      entity: 10c2ef29-fd23-4809-86ef-213fb8bb39ec
+    -
+      entity: b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd
+    -
+      entity: 51901fc6-206c-4637-8b41-b0685c9e81d5
+    -
+      entity: 07e0aafe-d821-43ab-99db-6d8ff7e855f4
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: $0.35
+  field_published_as:
+    -
+      value: 'Second Ending (Part 2 of 2)'
+  field_sort_date:
+    -
+      value: '1961-07-01'
+  field_year:
+    -
+      value: 1961

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3208417a-8a3d-4465-9c09-6f67ef560ade
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newwrjan1962.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/newwrjan1962.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 119462
+  status:
+    -
+      value: true

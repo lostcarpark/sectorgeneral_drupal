@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: df3efa5b-2fe8-4f6f-a8fa-8f07e325b705
+  bundle: image_source
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Wikipedia
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_website:
+    -
+      uri: 'https://en.wikipedia.org'
+      title: null
+      options: {  }

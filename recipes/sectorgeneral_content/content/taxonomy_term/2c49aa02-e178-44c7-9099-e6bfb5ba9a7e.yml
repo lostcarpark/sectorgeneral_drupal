@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 2c49aa02-e178-44c7-9099-e6bfb5ba9a7e
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Anthony Boucher'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/anthony-boucher
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

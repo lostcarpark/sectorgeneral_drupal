@@ -1,0 +1,106 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 59ef01a0-7585-42de-8f93-71d7987949c0
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    214647d4-99c3-41e8-a8fb-747ce5ae5a89: node
+    8902ca01-ae6b-4e76-bb43-fe1b9b090071: media
+    98198ea5-db97-409a-92f0-7f61cee9333f: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    8955183c-a352-45ff-a1b6-fd17a84b825a: taxonomy_term
+    9d8c75ec-74e6-4afc-9937-ec36c5badcc7: taxonomy_term
+    22b13841-2b0e-4bbf-b463-a026fd972f6d: taxonomy_term
+    3fc3c9db-c83e-4f72-8400-7ab17dff4c67: taxonomy_term
+    b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd: taxonomy_term
+    349e26df-7166-4b34-b043-d7e3afb17309: taxonomy_term
+    2102ba46-316a-44c2-bb1e-3036cd0b2359: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    ac6e1897-eb31-405d-9f5a-df95879ca349: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1080092 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Magazine of Fantasy & Science Fiction, August 1963 (UK edition)'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/magazine-fantasy-science-fiction/magazine-fantasy-science-fiction-august-1963-uk-edition
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 214647d4-99c3-41e8-a8fb-747ce5ae5a89
+  field_cover:
+    -
+      entity: 8902ca01-ae6b-4e76-bb43-fe1b9b090071
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1080092 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'August 1963'
+  field_editor:
+    -
+      entity: 98198ea5-db97-409a-92f0-7f61cee9333f
+  field_isfdb_id:
+    -
+      value: '1080092'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 8955183c-a352-45ff-a1b6-fd17a84b825a
+  field_other_contributors:
+    -
+      entity: 9d8c75ec-74e6-4afc-9937-ec36c5badcc7
+    -
+      entity: 22b13841-2b0e-4bbf-b463-a026fd972f6d
+    -
+      entity: 3fc3c9db-c83e-4f72-8400-7ab17dff4c67
+    -
+      entity: b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd
+    -
+      entity: 349e26df-7166-4b34-b043-d7e3afb17309
+    -
+      entity: 2102ba46-316a-44c2-bb1e-3036cd0b2359
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: ac6e1897-eb31-405d-9f5a-df95879ca349
+  field_pages:
+    -
+      value: 112
+  field_price:
+    -
+      value: 2/6
+  field_regional_edition:
+    -
+      value: 'UK edition'
+  field_sort_date:
+    -
+      value: '1963-08-01'
+  field_year:
+    -
+      value: 1963

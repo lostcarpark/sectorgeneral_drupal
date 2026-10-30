@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 90104880-8776-40a0-9500-d4e1a7c168e4
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hospital_station_macdonald_1986.jpg
+  uri:
+    -
+      value: 'public://2016-03/hospital_station_macdonald_1986.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 17247
+  status:
+    -
+      value: true

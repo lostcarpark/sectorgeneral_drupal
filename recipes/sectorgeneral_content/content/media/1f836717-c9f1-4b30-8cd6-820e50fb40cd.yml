@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 1f836717-c9f1-4b30-8cd6-820e50fb40cd
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    8a4eb205-fa60-43a9-b419-23a68f83f459: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Deadly Litter, Ballantine, 1964 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: d6399cc1690a5c732e28a708b6cefbd1674675bb
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/3/32/DEADLIT1964.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Deadly Litter, Ballantine, 1964 cover'
+      title: ''
+      width: 379
+      height: 640
+      entity: 8a4eb205-fa60-43a9-b419-23a68f83f459
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?9426'
+      title: null
+      options: {  }

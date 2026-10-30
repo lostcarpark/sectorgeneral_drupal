@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5aa51349-b4b1-4c84-9de6-49a3ca701b40
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: tfthswrldff1967.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/tfthswrldff1967.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 59907
+  status:
+    -
+      value: true

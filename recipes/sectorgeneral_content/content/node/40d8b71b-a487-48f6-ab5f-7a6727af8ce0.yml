@@ -1,0 +1,109 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 40d8b71b-a487-48f6-ab5f-7a6727af8ce0
+  bundle: edition
+  default_langcode: en
+  depends:
+    7b8e6e60-995b-4dca-9823-c3a58ccaa516: media
+    1275b65b-0544-4918-a6f8-3476ee99a45a: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    2f123e94-14d5-4b72-9781-e2776ab2c3ee: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    8bdbbc29-9006-4e7e-be08-908c6ec36789: node
+    a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1: node
+    88796287-685a-48a2-b1cd-1c435ba27f09: node
+    62862122-c514-4f24-8c75-e5e6741745f4: node
+    45dc1e21-39a6-4517-a068-e3f86ea4b4fd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?302263 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Alien Emergencies, Orb / SFBC, 2002'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/alien-emergencies/alien-emergencies-orb-sfbc-2002
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 7b8e6e60-995b-4dca-9823-c3a58ccaa516
+  field_cover_artist:
+    -
+      entity: 1275b65b-0544-4918-a6f8-3476ee99a45a
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?302263 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL7916040M (CC0).
+  field_date_display:
+    -
+      value: 'May 2002'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_introduction_by:
+    -
+      entity: 2f123e94-14d5-4b72-9781-e2776ab2c3ee
+  field_isbn:
+    -
+      value: '9780739425886'
+  field_isfdb_id:
+    -
+      value: '302263'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 8bdbbc29-9006-4e7e-be08-908c6ec36789
+    -
+      entity: a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1
+    -
+      entity: 88796287-685a-48a2-b1cd-1c435ba27f09
+    -
+      entity: 62862122-c514-4f24-8c75-e5e6741745f4
+  field_oclc:
+    -
+      value: '48451019'
+  field_openlibrary_id:
+    -
+      value: OL7916040M
+  field_pages:
+    -
+      value: 606
+  field_price:
+    -
+      value: $14.99
+  field_publisher:
+    -
+      entity: 45dc1e21-39a6-4517-a068-e3f86ea4b4fd
+  field_publisher_reference:
+    -
+      value: '50724'
+  field_sort_date:
+    -
+      value: '2002-05-01'
+  field_year:
+    -
+      value: 2002

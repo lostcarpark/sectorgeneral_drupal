@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b31579ee-28fe-4b25-9304-1b2bc45ad26a
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    86db5191-03f5-43cc-9742-82059d7ae15b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Writings in SF 7 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 768501feb9c0d202a36eca7a67a5b8aaa6550972
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/6/6b/NWWRSNSF601966.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'New Writings in SF 7 cover'
+      title: ''
+      width: 404
+      height: 600
+      entity: 86db5191-03f5-43cc-9742-82059d7ae15b
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?23852'
+      title: null
+      options: {  }

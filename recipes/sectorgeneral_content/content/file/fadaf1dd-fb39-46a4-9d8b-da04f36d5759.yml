@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fadaf1dd-fb39-46a4-9d8b-da04f36d5759
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 51tkf9gzfpl.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/51tkf9gzfpl.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 50677
+  status:
+    -
+      value: true

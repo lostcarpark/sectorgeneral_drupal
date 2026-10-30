@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 628bf776-bc45-4029-b74a-9a58193e41b3
+  bundle: publisher
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Erich Pabel Verlag'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /publishers/erich-pabel-verlag
+      langcode: en
+      pathauto: 1

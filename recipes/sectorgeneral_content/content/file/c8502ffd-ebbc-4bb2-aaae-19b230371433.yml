@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c8502ffd-ebbc-4bb2-aaae-19b230371433
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: brdrmksmsr1972.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/brdrmksmsr1972.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 31209
+  status:
+    -
+      value: true

@@ -1,0 +1,123 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5d4052ac-6bf2-4c8b-911d-11e97bd2c36b
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    ae135771-7f95-475e-b845-60584a4b9b6d: node
+    bdeb6824-f2f0-489f-8cb9-75f4d925c3e9: media
+    5b720bb9-fbc9-4739-9832-4f3cf513da7b: taxonomy_term
+    20e127fc-b1f1-496e-b435-a43151c91fd1: taxonomy_term
+    90baf20c-668e-4ada-ba29-1d24dc31126e: taxonomy_term
+    05d5189c-d43b-4afe-9b2c-9ad38e960322: taxonomy_term
+    1a74760a-4777-48ac-8a8d-bbd705cf5126: taxonomy_term
+    30ff9d33-d4ce-47cc-8389-6c5954864a5f: taxonomy_term
+    c694a04c-0ab2-404f-86dd-9e36edf520fe: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    35e411d8-3c59-4666-84ed-9c05c22b161a: taxonomy_term
+    2acaefc7-ac38-40fe-9d1b-cc009fefc94f: taxonomy_term
+    b26648e4-557f-4fe3-8416-927e67257ba9: taxonomy_term
+    7ee27868-51a3-48ee-af50-40f31c775012: taxonomy_term
+    4ae16b0d-8183-4572-bdcc-844e0daf0a54: taxonomy_term
+    442cf31b-603b-4a86-afc4-a9778051297f: taxonomy_term
+    62231f8e-e629-451e-83ca-4348eec95ae7: taxonomy_term
+    e87bbd72-240f-4cb7-8746-dcde5b8ba681: taxonomy_term
+    1b05267e-2dea-4289-ab97-61d41cabe0a8: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?56871 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Analog Science Fiction and Fact, February 1996'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/analog-science-fiction-and-fact/analog-science-fiction-and-fact-february-1996
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: ae135771-7f95-475e-b845-60584a4b9b6d
+  field_cover:
+    -
+      entity: bdeb6824-f2f0-489f-8cb9-75f4d925c3e9
+  field_cover_artist:
+    -
+      entity: 5b720bb9-fbc9-4739-9832-4f3cf513da7b
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?56871 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'February 1996'
+  field_editor:
+    -
+      entity: 20e127fc-b1f1-496e-b435-a43151c91fd1
+  field_interior_artist:
+    -
+      entity: 90baf20c-668e-4ada-ba29-1d24dc31126e
+    -
+      entity: 05d5189c-d43b-4afe-9b2c-9ad38e960322
+    -
+      entity: 1a74760a-4777-48ac-8a8d-bbd705cf5126
+    -
+      entity: 30ff9d33-d4ce-47cc-8389-6c5954864a5f
+    -
+      entity: c694a04c-0ab2-404f-86dd-9e36edf520fe
+  field_isfdb_id:
+    -
+      value: '56871'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 35e411d8-3c59-4666-84ed-9c05c22b161a
+  field_other_contributors:
+    -
+      entity: 2acaefc7-ac38-40fe-9d1b-cc009fefc94f
+    -
+      entity: b26648e4-557f-4fe3-8416-927e67257ba9
+    -
+      entity: 7ee27868-51a3-48ee-af50-40f31c775012
+    -
+      entity: 4ae16b0d-8183-4572-bdcc-844e0daf0a54
+    -
+      entity: 442cf31b-603b-4a86-afc4-a9778051297f
+    -
+      entity: 62231f8e-e629-451e-83ca-4348eec95ae7
+    -
+      entity: e87bbd72-240f-4cb7-8746-dcde5b8ba681
+    -
+      entity: 1b05267e-2dea-4289-ab97-61d41cabe0a8
+  field_pages:
+    -
+      value: 180
+  field_price:
+    -
+      value: $2.95
+  field_sort_date:
+    -
+      value: '1996-02-01'
+  field_year:
+    -
+      value: 1996

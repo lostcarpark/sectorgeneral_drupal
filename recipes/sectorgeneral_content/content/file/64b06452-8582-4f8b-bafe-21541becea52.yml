@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 64b06452-8582-4f8b-bafe-21541becea52
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mntrmjnftm1965.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mntrmjnftm1965.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 188443
+  status:
+    -
+      value: true

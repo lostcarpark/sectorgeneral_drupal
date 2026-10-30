@@ -1,0 +1,68 @@
+id: isfdb_anthologies
+label: 'ISFDB: anthologies'
+migration_tags:
+  - isfdb
+migration_dependencies:
+  required:
+    - isfdb_stories
+    - isfdb_books
+source:
+  plugin: isfdb_anthologies
+  key: isfdb
+process:
+  _stories:
+    - plugin: isfdb_lookup
+      source: story_ids
+      migration: isfdb_stories
+  nid:
+    plugin: isfdb_match
+    source: title_id
+    strategy: anthology
+    bundle: anthology
+    title: title
+    year: year
+    stories: '@_stories'
+  type:
+    plugin: default_value
+    default_value: anthology
+  title: title
+  field_isfdb_id: title_id
+  field_editor:
+    plugin: isfdb_term
+    source: editors
+    vocabulary: people
+  field_publisher:
+    plugin: isfdb_term
+    source: publisher
+    vocabulary: publisher
+    aliases: publisher_aliases
+  field_first_published_year: year
+  field_series:
+    plugin: isfdb_term
+    source: series
+    vocabulary: series
+  field_series_number: series_number
+  field_contents:
+    plugin: isfdb_lookup
+    source: content_ids
+    migration: [isfdb_stories, isfdb_books]
+  field_other_contributors:
+    plugin: isfdb_term
+    source: other_contributors
+    vocabulary: people
+  body/value: notes
+  body/format:
+    plugin: default_value
+    default_value: basic_html
+  field_data_sources: attribution
+  uid:
+    plugin: default_value
+    default_value: 1
+  status:
+    plugin: default_value
+    default_value: 1
+destination:
+  plugin: 'sg_fill:node'
+  merge: [field_contents, field_editor, field_other_contributors]
+  append: [field_data_sources]
+  ignore_conflicts: [body]

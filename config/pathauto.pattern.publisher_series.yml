@@ -1,0 +1,23 @@
+uuid: bdd11a39-d1aa-4d11-9f25-cfeddea3b210
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.publisher_series
+  module:
+    - taxonomy
+id: publisher_series
+label: 'Publisher series'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/publisher-series/[term:name]'
+selection_criteria:
+  168b41b5-127c-42f4-a9ec-a71c59633d15:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      publisher_series: publisher_series
+selection_logic: and
+weight: 9
+relationships: {  }

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: a9336528-ec99-466c-8765-607442727fff
+  bundle: redirect
+  default_langcode: und
+  depends:
+    a7b82729-0189-4053-8e54-a3c316573a0a: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: roj8fldkeV1z1pQFueK39fjvhqEkyl3M3KS_kEMfoO4
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/openprison.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: a7b82729-0189-4053-8e54-a3c316573a0a
+  status_code:
+    -
+      value: 301

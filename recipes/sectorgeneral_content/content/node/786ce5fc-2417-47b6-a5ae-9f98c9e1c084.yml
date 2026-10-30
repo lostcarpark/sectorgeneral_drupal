@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 786ce5fc-2417-47b6-a5ae-9f98c9e1c084
+  bundle: anthology
+  default_langcode: en
+  depends:
+    575bf27f-73f9-4d5e-bdb8-35ffde6a27aa: node
+    d4755b1c-83f6-470e-b808-2aff7eca8be3: node
+    d8290935-af90-47e3-a043-eb36d95aa4fd: media
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    645461e6-9ac6-4665-b419-1bf82cbb8d5a: taxonomy_term
+    ae1b8ea3-df08-4563-8f60-954b209ec617: taxonomy_term
+    290c11ec-faef-4497-bf61-1b967a7bce4a: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+    0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea: taxonomy_term
+    078584af-381d-4b9f-9ce4-0a30014b1987: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    d0c75285-95f3-4e3f-92d2-04c05cc6456f: taxonomy_term
+    d95f4640-19c9-4d44-b35f-75c0221afcaf: taxonomy_term
+    a21569e3-4b8c-47ab-95d5-7fa6f6f35ecf: taxonomy_term
+    6352ffef-5d56-440c-adca-741ea5e12d66: taxonomy_term
+    86a3d142-fab7-48f0-82aa-4bc1aaee65d6: taxonomy_term
+    b226aeaa-e71f-48e7-b1bb-540fe32b5459: taxonomy_term
+    5bb06c6d-0e7f-44be-8351-6516ff48d265: taxonomy_term
+    d039de82-9a81-4c76-ad65-2d5996bf2275: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1328360 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Writings in SF Special One'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/new-writings-sf-special-one
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Sidgwick &amp; Jackson, July 1975. Omnibus of New Writings in SF 21, 22 and 23.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 575bf27f-73f9-4d5e-bdb8-35ffde6a27aa
+    -
+      entity: d4755b1c-83f6-470e-b808-2aff7eca8be3
+  field_cover:
+    -
+      entity: d8290935-af90-47e3-a043-eb36d95aa4fd
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1328360 (CC BY 4.0).
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+    -
+      entity: 645461e6-9ac6-4665-b419-1bf82cbb8d5a
+    -
+      entity: ae1b8ea3-df08-4563-8f60-954b209ec617
+  field_first_published_year:
+    -
+      value: 1975
+  field_isfdb_id:
+    -
+      value: '1328360'
+  field_other_contributors:
+    -
+      entity: 290c11ec-faef-4497-bf61-1b967a7bce4a
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+    -
+      entity: 0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea
+    -
+      entity: 078584af-381d-4b9f-9ce4-0a30014b1987
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: d0c75285-95f3-4e3f-92d2-04c05cc6456f
+    -
+      entity: d95f4640-19c9-4d44-b35f-75c0221afcaf
+    -
+      entity: a21569e3-4b8c-47ab-95d5-7fa6f6f35ecf
+    -
+      entity: 6352ffef-5d56-440c-adca-741ea5e12d66
+    -
+      entity: 86a3d142-fab7-48f0-82aa-4bc1aaee65d6
+    -
+      entity: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+  field_publisher:
+    -
+      entity: 5bb06c6d-0e7f-44be-8351-6516ff48d265
+  field_series:
+    -
+      entity: d039de82-9a81-4c76-ad65-2d5996bf2275

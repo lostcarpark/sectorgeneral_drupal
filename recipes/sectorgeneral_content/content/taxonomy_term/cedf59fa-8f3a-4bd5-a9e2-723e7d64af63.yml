@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: cedf59fa-8f3a-4bd5-a9e2-723e7d64af63
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Ross Chamberlain'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/ross-chamberlain
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

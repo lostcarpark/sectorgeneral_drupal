@@ -1,0 +1,119 @@
+/**
+ * @file
+ * Language card: a fan of up to three covers above the language's name.
+ */
+
+.language-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1.25rem 1.25rem 1.5rem;
+  transition:
+    box-shadow 150ms ease-in-out,
+    transform 150ms ease-in-out;
+  border: 1px solid var(--rt-neutral-200);
+  border-radius: 0.5rem;
+  background: var(--rt-white);
+}
+
+.language-card:has(.language-card__link:hover),
+.language-card:has(.language-card__link:focus-visible) {
+  transform: translateY(-0.25rem);
+  box-shadow: 0 8px 18px rgb(0, 0, 0, 0.15);
+}
+
+.language-card:has(.language-card__link:focus-visible) {
+  outline: 2px solid var(--rt-primary-500);
+  outline-offset: 2px;
+}
+
+/* The fan: covers overlap, the outer two tilted. */
+.language-card__covers {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 8.5rem;
+  margin-bottom: 1rem;
+}
+
+.language-card__covers img {
+  display: block;
+  width: auto;
+  height: 7.5rem;
+  border-radius: 0.1875rem;
+  box-shadow: 0 2px 6px rgb(0, 0, 0, 0.3);
+}
+
+.language-card__covers > * + * {
+  margin-left: -1.75rem;
+}
+
+.language-card__covers > :nth-child(1):not(:only-child) {
+  transform: rotate(-7deg) translateY(0.25rem);
+}
+
+.language-card__covers > :nth-child(2) {
+  z-index: 1;
+}
+
+.language-card__covers > :nth-child(3) {
+  transform: rotate(7deg) translateY(0.25rem);
+}
+
+/* No covers yet: a quiet panel instead. */
+.language-card__covers:empty {
+  border-radius: 0.25rem;
+  background: var(--rt-neutral-050);
+}
+
+.layout-content .language-card__name {
+  margin: 0 0 0.375rem;
+  font-family: var(--sg-font-display);
+  font-size: 1.5rem;
+}
+
+.language-card__link {
+  color: var(--rt-neutral-900);
+}
+
+.language-card__link:hover,
+.language-card__link:focus {
+  text-decoration: none;
+  color: var(--rt-primary-600);
+}
+
+.language-card__link:focus-visible {
+  outline: none;
+}
+
+/* The whole card is the link's click target, covers included: above the
+   fan's raised middle cover. */
+.language-card__link::after {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  content: "";
+}
+
+.language-card__summary,
+.language-card__detail {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.language-card__summary {
+  color: var(--rt-neutral-900);
+  font-weight: 600;
+}
+
+.language-card__detail {
+  color: var(--rt-neutral-800);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .language-card {
+    transition: none;
+  }
+}

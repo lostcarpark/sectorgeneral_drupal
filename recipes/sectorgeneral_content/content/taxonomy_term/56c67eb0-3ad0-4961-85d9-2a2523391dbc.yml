@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 56c67eb0-3ad0-4961-85d9-2a2523391dbc
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Bertrand Russell'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/bertrand-russell
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

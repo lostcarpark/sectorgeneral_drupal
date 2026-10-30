@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: b6f4c2f3-3390-45df-8c9d-749befd0f9cd
+  bundle: redirect
+  default_langcode: und
+  depends:
+    575bf27f-73f9-4d5e-bdb8-35ffde6a27aa: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: sm0zq9e6zTKOKMsVCRXE7U9V0G1eam6X3UP50tbJuhQ
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/commuter.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 575bf27f-73f9-4d5e-bdb8-35ffde6a27aa
+  status_code:
+    -
+      value: 301

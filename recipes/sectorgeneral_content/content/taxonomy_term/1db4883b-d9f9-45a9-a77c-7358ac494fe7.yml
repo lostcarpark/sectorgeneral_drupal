@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 1db4883b-d9f9-45a9-a77c-7358ac494fe7
+  bundle: publisher_series
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Drugi Cykl Zeszytów Fantastyczno-Naukowych Iskier'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /publisher-series/drugi-cykl-zeszytow-fantastyczno-naukowych-iskier
+      langcode: en
+      pathauto: 1

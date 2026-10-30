@@ -1,0 +1,81 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c9df8ea4-15c2-420c-8872-9ee41388c26e
+  bundle: edition
+  default_langcode: en
+  depends:
+    2ea7f198-8285-4883-b0f8-67628c811f1d: taxonomy_term
+    62862122-c514-4f24-8c75-e5e6741745f4: node
+    452c06f4-d505-43d4-8888-cebe19bce6d2: taxonomy_term
+    6464ded4-5521-4661-8b9f-1f1e80607e26: taxonomy_term
+    f23d26ca-d36f-4139-bf6e-f0ddc2e3af5e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Created from the Polish National Library: https://data.bn.org.pl/api/institutions/bibs.json?id=1661105'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Gwiezdny terapeuta, Dom Wydawniczy Rebis, 2004'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-healer/gwiezdny-terapeuta-dom-wydawniczy-rebis-2004
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'Biblioteka Narodowa record https://data.bn.org.pl/api/institutions/bibs.json?id=1661105 (CC0).'
+  field_date_display:
+    -
+      value: '2004'
+  field_isbn:
+    -
+      value: '9788373013889'
+  field_language:
+    -
+      entity: 2ea7f198-8285-4883-b0f8-67628c811f1d
+  field_novel:
+    -
+      entity: 62862122-c514-4f24-8c75-e5e6741745f4
+  field_pages:
+    -
+      value: 250
+  field_printing:
+    -
+      value: 'Wydanie I'
+  field_publisher:
+    -
+      entity: 452c06f4-d505-43d4-8888-cebe19bce6d2
+  field_publisher_series:
+    -
+      entity: 6464ded4-5521-4661-8b9f-1f1e80607e26
+  field_publisher_series_number:
+    -
+      value: '6'
+  field_sort_date:
+    -
+      value: '2004-01-01'
+  field_translator:
+    -
+      entity: f23d26ca-d36f-4139-bf6e-f0ddc2e3af5e
+  field_year:
+    -
+      value: 2004

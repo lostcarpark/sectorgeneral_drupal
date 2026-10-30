@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d155de23-f8ec-429d-8a37-7f51479031fa
+  bundle: publisher
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Livros do Brasil'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /publishers/livros-do-brasil
+      langcode: en
+      pathauto: 1

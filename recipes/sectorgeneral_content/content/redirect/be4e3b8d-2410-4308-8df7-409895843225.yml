@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: be4e3b8d-2410-4308-8df7-409895843225
+  bundle: redirect
+  default_langcode: en
+  depends:
+    47dcdfd9-5b9d-431e-b100-e494eb3e62cd: taxonomy_term
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: VftKAKTnThFNnfwf375QzB-0auTc8Du_HvFfMMBgU20
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: publisher/del-ray
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 47dcdfd9-5b9d-431e-b100-e494eb3e62cd
+  status_code:
+    -
+      value: 301

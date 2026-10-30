@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 48298b7e-1cd3-4d7f-bea1-f99a7b871cb4
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    30fa7cb1-beab-46fb-a840-0dce669ace74: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Worlds Magazine, December 1956 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 90e2a3f95da5f2a9b4516d124e057d6f56e52bb9
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://isfdb.org/wiki/images/4/40/NEWWRDEC1956.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'New Worlds Magazine, December 1956 cover'
+      title: ''
+      width: 344
+      height: 500
+      entity: 30fa7cb1-beab-46fb-a840-0dce669ace74
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?59635'
+      title: null
+      options: {  }

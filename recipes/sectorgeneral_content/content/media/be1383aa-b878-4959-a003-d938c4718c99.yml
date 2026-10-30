@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: be1383aa-b878-4959-a003-d938c4718c99
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    bb3c355a-9503-4a08-a7df-cd87deb9eb63: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The White Papers, NESFA Press, 1996 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: e892d2def9c625b4cf7c5de15f84aa5a34546559
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/0/0b/MLO4720.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'The White Papers, NESFA Press, 1996 cover'
+      title: ''
+      width: 446
+      height: 700
+      entity: bb3c355a-9503-4a08-a7df-cd87deb9eb63
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?49917'
+      title: null
+      options: {  }

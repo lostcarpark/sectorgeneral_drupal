@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: dd236beb-c134-4b7c-85a3-7671ccaeecaa
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Ben Bova'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/ben-bova
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

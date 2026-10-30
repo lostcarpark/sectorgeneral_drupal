@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9e67ffa7-e375-48d3-b572-cd8f0807357a
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    9b1202e7-a80e-4c92-b146-d00078b4d127: node
+    aa71aef5-0e84-47d6-a487-6961287c96fd: media
+    007d86a4-94ea-4b74-a63e-877ea1ab3496: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    9fde016a-2479-4beb-a890-aed1832e423b: taxonomy_term
+    1c9ec00b-ba63-4e91-981d-529ee7b83d7a: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    08588538-c322-4749-b8ba-ebb0d290f05f: taxonomy_term
+    ae1b8ea3-df08-4563-8f60-954b209ec617: taxonomy_term
+    3821e984-48db-4086-aab1-348018c3c0c6: taxonomy_term
+    71c298f2-8c26-4fba-b759-1e063991da8b: taxonomy_term
+    4e2793eb-840c-4435-86da-0306204a0fb8: taxonomy_term
+    8a5ddbd0-d8f6-456b-98cf-2086b3ac85c3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59656 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds 24, June 1954'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-24-june-1954
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 9b1202e7-a80e-4c92-b146-d00078b4d127
+  field_cover:
+    -
+      entity: aa71aef5-0e84-47d6-a487-6961287c96fd
+  field_cover_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59656 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'June 1954'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_interior_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+    -
+      entity: 9fde016a-2479-4beb-a890-aed1832e423b
+    -
+      entity: 1c9ec00b-ba63-4e91-981d-529ee7b83d7a
+  field_isfdb_id:
+    -
+      value: '59656'
+  field_issue_number:
+    -
+      value: '24'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: 08588538-c322-4749-b8ba-ebb0d290f05f
+    -
+      entity: ae1b8ea3-df08-4563-8f60-954b209ec617
+    -
+      entity: 3821e984-48db-4086-aab1-348018c3c0c6
+    -
+      entity: 71c298f2-8c26-4fba-b759-1e063991da8b
+    -
+      entity: 4e2793eb-840c-4435-86da-0306204a0fb8
+    -
+      entity: 8a5ddbd0-d8f6-456b-98cf-2086b3ac85c3
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 1/6
+  field_sort_date:
+    -
+      value: '1954-06-01'
+  field_year:
+    -
+      value: 1954

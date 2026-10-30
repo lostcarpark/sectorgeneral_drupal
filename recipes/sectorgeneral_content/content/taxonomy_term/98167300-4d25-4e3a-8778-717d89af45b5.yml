@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 98167300-4d25-4e3a-8778-717d89af45b5
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Ronald M. Hahn'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/ronald-m-hahn
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

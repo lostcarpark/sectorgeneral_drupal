@@ -1,0 +1,19 @@
+uuid: a005fdf4-8350-4d75-8500-ef883ea9295d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_publisher_reference
+    - node.type.edition
+id: node.edition.field_publisher_reference
+field_name: field_publisher_reference
+entity_type: node
+bundle: edition
+label: 'Catalogue number'
+description: 'Publisher''s stock number, e.g. "No 595" or "GS7651".'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

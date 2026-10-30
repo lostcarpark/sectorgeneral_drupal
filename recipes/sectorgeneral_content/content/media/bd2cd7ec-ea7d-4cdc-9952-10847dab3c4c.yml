@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: bd2cd7ec-ea7d-4cdc-9952-10847dab3c4c
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    8b1cba2e-a055-4f6f-a699-05fd0ac569c2: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'De arts in de science-fiction literatuur cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: b4d7acebf1bc9723ce678c35e4ca6195b642d661
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/5/58/DRTSNDSCNC1969.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'De arts in de science-fiction literatuur cover'
+      title: ''
+      width: 380
+      height: 600
+      entity: 8b1cba2e-a055-4f6f-a699-05fd0ac569c2
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?492595'
+      title: null
+      options: {  }

@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 78efee52-b321-47b3-8f47-63bec8fa469e
+  bundle: edition
+  default_langcode: en
+  depends:
+    973d3265-e480-491f-a80c-3708635c4dbe: media
+    6addd8b9-4c73-47de-96ee-5d96c222d075: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+    a7b82729-0189-4053-8e54-a3c316573a0a: node
+    a7db68df-cbcb-4bf3-ad1e-26874fce4a71: taxonomy_term
+    80f17718-fabf-4b08-8c68-957fdabee8ac: taxonomy_term
+    eb757c2d-dbcc-4603-9cfa-16957a250e44: taxonomy_term
+    11fb5cc2-69f9-416b-b417-03f6edef8a0e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the OPAC SBN: https://opac.sbn.it/bid/RAV1941744'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Vita con gli automi, Mondadori, 2011'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/second-ending/vita-con-gli-automi-mondadori-2011
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 973d3265-e480-491f-a80c-3708635c4dbe
+  field_cover_artist:
+    -
+      entity: 6addd8b9-4c73-47de-96ee-5d96c222d075
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?409224 (CC BY 4.0).
+        OPAC SBN record https://opac.sbn.it/bid/RAV1941744.
+  field_date_display:
+    -
+      value: 'June 2011'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '409224'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+    -
+      entity: a7b82729-0189-4053-8e54-a3c316573a0a
+  field_pages:
+    -
+      value: 290
+  field_price:
+    -
+      value: €5.50
+  field_publisher:
+    -
+      entity: a7db68df-cbcb-4bf3-ad1e-26874fce4a71
+  field_publisher_reference:
+    -
+      value: '101'
+  field_publisher_series:
+    -
+      entity: 80f17718-fabf-4b08-8c68-957fdabee8ac
+  field_publisher_series_number:
+    -
+      value: '101'
+  field_sort_date:
+    -
+      value: '2011-06-01'
+  field_translator:
+    -
+      entity: eb757c2d-dbcc-4603-9cfa-16957a250e44
+    -
+      entity: 11fb5cc2-69f9-416b-b417-03f6edef8a0e
+  field_year:
+    -
+      value: 2011

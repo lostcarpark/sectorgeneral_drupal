@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3453d9e3-2cfa-42b4-81b3-da4b7244cb94
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fsffeb1963.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/fsffeb1963.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 125296
+  status:
+    -
+      value: true

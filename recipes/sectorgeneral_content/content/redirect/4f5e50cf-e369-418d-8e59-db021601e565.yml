@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 4f5e50cf-e369-418d-8e59-db021601e565
+  bundle: redirect
+  default_langcode: und
+  depends:
+    3e9aa4dd-8192-46e5-a74c-086a349a639e: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: fkCGlvPSAaiugSgV4NIpISvNHeL-HFJQB3uXKL5B4YA
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: books/star-surgeon/medico-espacial-livros-do-brasil-1975
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 3e9aa4dd-8192-46e5-a74c-086a349a639e
+  status_code:
+    -
+      value: 301

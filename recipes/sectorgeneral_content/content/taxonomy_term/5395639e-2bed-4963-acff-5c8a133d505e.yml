@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 5395639e-2bed-4963-acff-5c8a133d505e
+  bundle: publisher
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Warner Paperback Library'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /publishers/warner-paperback-library
+      langcode: en
+      pathauto: 1

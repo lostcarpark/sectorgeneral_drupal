@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 302cf7c3-cdcb-4493-ab95-dc1752e0dea8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dnchtdrzhn1967.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/dnchtdrzhn1967.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 41544
+  status:
+    -
+      value: true

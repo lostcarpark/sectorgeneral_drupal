@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 80f17718-fabf-4b08-8c68-957fdabee8ac
+  bundle: publisher_series
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Urania Collezione'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /publisher-series/urania-collezione
+      langcode: en
+      pathauto: 1

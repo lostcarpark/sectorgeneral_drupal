@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 94c11dee-f180-42f8-93dd-f33e21fe380d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newwrapr1964.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/newwrapr1964.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 93113
+  status:
+    -
+      value: true

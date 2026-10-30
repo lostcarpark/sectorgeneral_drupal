@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 47fc763e-1a5a-4a71-9c9a-d09a6306677c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mlo4213.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mlo4213.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 63963
+  status:
+    -
+      value: true

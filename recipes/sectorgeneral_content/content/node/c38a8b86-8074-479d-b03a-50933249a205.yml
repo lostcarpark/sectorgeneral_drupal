@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c38a8b86-8074-479d-b03a-50933249a205
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    479badc7-cd74-457c-b26c-24edf27e7921: node
+    20331f64-6adb-4ad9-af50-f5cb086a0eac: media
+    1fea30ba-0e0d-469d-9e2e-ab66341af015: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    7ff44056-afae-41a8-b8ec-6a77b9ba8f28: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    be1c4db1-3cb7-42ba-bcd6-2c3d7bdf7e2a: taxonomy_term
+    d894ab54-8111-472b-8532-c851beed721a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?212685 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Science Fiction Adventures 13, February 1960'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/science-fiction-adventures/science-fiction-adventures-13-february-1960
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 479badc7-cd74-457c-b26c-24edf27e7921
+  field_cover:
+    -
+      entity: 20331f64-6adb-4ad9-af50-f5cb086a0eac
+  field_cover_artist:
+    -
+      entity: 1fea30ba-0e0d-469d-9e2e-ab66341af015
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?212685 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'February 1960'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_interior_artist:
+    -
+      entity: 7ff44056-afae-41a8-b8ec-6a77b9ba8f28
+  field_isfdb_id:
+    -
+      value: '212685'
+  field_issue_number:
+    -
+      value: '13'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: be1c4db1-3cb7-42ba-bcd6-2c3d7bdf7e2a
+  field_other_contributors:
+    -
+      entity: d894ab54-8111-472b-8532-c851beed721a
+  field_pages:
+    -
+      value: 116
+  field_price:
+    -
+      value: 2/-
+  field_sort_date:
+    -
+      value: '1960-02-01'
+  field_year:
+    -
+      value: 1960

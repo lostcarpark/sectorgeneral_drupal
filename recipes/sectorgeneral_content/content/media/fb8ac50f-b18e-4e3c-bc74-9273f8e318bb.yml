@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: fb8ac50f-b18e-4e3c-bc74-9273f8e318bb
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    6a13192e-6312-479a-9553-1f56c52f9245: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Naufragio trasparente, Mondadori, 2021 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: bf1c7a57f9d7c23fc4f6ddb095c1a29859594dd0
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://isfdb.org/wiki/images/2/2e/NFRGTRSPRN2021.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Naufragio trasparente, Mondadori, 2021 cover'
+      title: ''
+      width: 387
+      height: 600
+      entity: 6a13192e-6312-479a-9553-1f56c52f9245
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?944267'
+      title: null
+      options: {  }

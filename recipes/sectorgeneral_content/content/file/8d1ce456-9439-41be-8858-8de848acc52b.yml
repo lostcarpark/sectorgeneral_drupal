@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8d1ce456-9439-41be-8858-8de848acc52b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: galnov73.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/galnov73.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 96963
+  status:
+    -
+      value: true

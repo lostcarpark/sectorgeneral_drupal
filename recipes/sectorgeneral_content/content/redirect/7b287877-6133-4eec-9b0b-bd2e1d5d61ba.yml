@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 7b287877-6133-4eec-9b0b-bd2e1d5d61ba
+  bundle: redirect
+  default_langcode: und
+  depends:
+    1993790c-6999-4b46-9733-2c1ff93533f8: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: E73nQWI0QPClUwPWr6AhYQo8SlVza6ivdkISGRxYwJI
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/boardingparty.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 1993790c-6999-4b46-9733-2c1ff93533f8
+  status_code:
+    -
+      value: 301

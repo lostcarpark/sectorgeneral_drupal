@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 287b9f1b-d5eb-47ec-9cc3-0a4088b17101
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: cmbtsfzjhw0000.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/cmbtsfzjhw0000.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 84957
+  status:
+    -
+      value: true

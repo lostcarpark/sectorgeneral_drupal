@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: df5c85bd-71ef-4064-acdf-b71d1da29f4c
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'R. S. Lonati'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/r-s-lonati
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

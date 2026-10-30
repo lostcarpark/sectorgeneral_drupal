@@ -1,0 +1,19 @@
+uuid: e3707a16-3c12-4397-b739-7a49e52aaea9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_oclc
+    - node.type.edition
+id: node.edition.field_oclc
+field_name: field_oclc
+entity_type: node
+bundle: edition
+label: 'OCLC / WorldCat number'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

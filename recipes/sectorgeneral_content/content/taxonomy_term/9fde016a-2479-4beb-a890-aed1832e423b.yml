@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 9fde016a-2479-4beb-a890-aed1832e423b
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Gordon Hutchings'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/gordon-hutchings
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

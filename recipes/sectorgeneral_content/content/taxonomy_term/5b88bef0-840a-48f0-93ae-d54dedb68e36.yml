@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 5b88bef0-840a-48f0-93ae-d54dedb68e36
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Pat Murphy'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/pat-murphy
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

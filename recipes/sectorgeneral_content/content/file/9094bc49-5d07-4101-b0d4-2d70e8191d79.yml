@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9094bc49-5d07-4101-b0d4-2d70e8191d79
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newwraug1958.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/newwraug1958.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 136083
+  status:
+    -
+      value: true

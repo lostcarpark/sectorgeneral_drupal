@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f61e1661-a544-4778-9b70-fdb84d66638a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: glktktdmnc1987.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/glktktdmnc1987.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 44919
+  status:
+    -
+      value: true

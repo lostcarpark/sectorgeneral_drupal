@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 62e6a220-e614-441e-9afd-1e3ac430572a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: galactic-empires.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/galactic-empires.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 47511
+  status:
+    -
+      value: true

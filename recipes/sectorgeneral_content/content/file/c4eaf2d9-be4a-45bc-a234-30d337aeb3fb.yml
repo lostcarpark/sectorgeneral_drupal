@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c4eaf2d9-be4a-45bc-a234-30d337aeb3fb
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 51uiojaiezl.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/51uiojaiezl.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 48939
+  status:
+    -
+      value: true

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: be43f416-ea27-410d-ab3f-b0ffd5e1bd5d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 51iu0nvezyl.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/51iu0nvezyl.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 34370
+  status:
+    -
+      value: true

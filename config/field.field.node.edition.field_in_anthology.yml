@@ -1,0 +1,24 @@
+uuid: 4dd57e83-0ff1-4fb2-bb46-70450539ad0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_in_anthology
+    - node.type.anthology
+    - node.type.edition
+id: node.edition.field_in_anthology
+field_name: field_in_anthology
+entity_type: node
+bundle: edition
+label: 'Published in'
+description: 'If this edition is part of an anthology, such as a novel reprinted in Out of This World 8.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      anthology: anthology
+field_type: entity_reference

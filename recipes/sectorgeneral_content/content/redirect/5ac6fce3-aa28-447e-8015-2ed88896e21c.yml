@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 5ac6fce3-aa28-447e-8015-2ed88896e21c
+  bundle: redirect
+  default_langcode: en
+  depends:
+    53820dbf-99a7-49bf-afbe-74e96ff9b4eb: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: vpShk1Ad_0uqls4xBL6yAJKn4mUY73XYJpIphvvDfQ4
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/ambulance-ship/ambulance-ship
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 53820dbf-99a7-49bf-afbe-74e96ff9b4eb
+  status_code:
+    -
+      value: 301

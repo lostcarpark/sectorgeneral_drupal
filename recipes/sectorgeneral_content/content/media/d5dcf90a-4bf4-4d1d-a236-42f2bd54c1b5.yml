@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: d5dcf90a-4bf4-4d1d-a236-42f2bd54c1b5
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    0da047a2-35c6-4b8c-89c9-5c06b225c5f7: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Signale vom Pluto cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 2fe213638e21d03da8207407aa737bfd3142f36a
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/0/09/SGNLVMPLTS1963.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Signale vom Pluto cover'
+      title: ''
+      width: 310
+      height: 486
+      entity: 0da047a2-35c6-4b8c-89c9-5c06b225c5f7
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?379941'
+      title: null
+      options: {  }

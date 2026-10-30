@@ -1,0 +1,39 @@
+uuid: 186d7a3e-1558-4267-a5a4-8b6f7536d844
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_book_type
+field_name: field_book_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: novel
+      label: Novel
+    -
+      value: fixup
+      label: 'Fix-up novel'
+    -
+      value: collection
+      label: Collection
+    -
+      value: omnibus
+      label: Omnibus
+    -
+      value: chapbook
+      label: Chapbook
+    -
+      value: nonfiction
+      label: Non-fiction
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

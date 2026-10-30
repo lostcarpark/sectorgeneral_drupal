@@ -1,0 +1,19 @@
+uuid: db8ac3eb-21c3-4ea8-9df3-8957f06f8b70
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_isfdb_id
+    - node.type.anthology
+id: node.anthology.field_isfdb_id
+field_name: field_isfdb_id
+entity_type: node
+bundle: anthology
+label: 'ISFDB ID'
+description: 'The number at the end of the ISFDB page address for this record.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

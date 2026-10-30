@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e135738c-2132-4082-ac75-609f921f8a5c
+  bundle: anthology
+  default_langcode: en
+  depends:
+    214647d4-99c3-41e8-a8fb-747ce5ae5a89: node
+    53416c3d-8739-413b-adf7-3f587388fc51: media
+    edbec0a9-022c-4dc8-b237-079552374317: taxonomy_term
+    77544555-948e-481d-908b-00dd50b37de1: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    57a0a03e-e37d-4401-9495-9459d2ba68bc: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    0ace682b-7932-42e9-8884-e2a79cec29cb: taxonomy_term
+    b3f95eba-f754-4f44-93a9-7e9a8ef9fcb5: taxonomy_term
+    950df41c-512b-4bbb-b501-ac0b0d882b99: taxonomy_term
+    1d5a0744-99f6-4322-9ffe-bb40cc2e622c: taxonomy_term
+    2f819fba-eb80-4b2b-82db-dfc3e44005e7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?25385'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Out of This World 6'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/out-world-6
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Blackie, 15/-, October 1967.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 214647d4-99c3-41e8-a8fb-747ce5ae5a89
+  field_cover:
+    -
+      entity: 53416c3d-8739-413b-adf7-3f587388fc51
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?36417 (CC BY 4.0).
+  field_editor:
+    -
+      entity: edbec0a9-022c-4dc8-b237-079552374317
+    -
+      entity: 77544555-948e-481d-908b-00dd50b37de1
+  field_first_published_year:
+    -
+      value: 1967
+  field_isfdb_id:
+    -
+      value: '36417'
+  field_other_contributors:
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: 57a0a03e-e37d-4401-9495-9459d2ba68bc
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: 0ace682b-7932-42e9-8884-e2a79cec29cb
+    -
+      entity: b3f95eba-f754-4f44-93a9-7e9a8ef9fcb5
+    -
+      entity: 950df41c-512b-4bbb-b501-ac0b0d882b99
+  field_publisher:
+    -
+      entity: 1d5a0744-99f6-4322-9ffe-bb40cc2e622c
+  field_series:
+    -
+      entity: 2f819fba-eb80-4b2b-82db-dfc3e44005e7
+  field_series_number:
+    -
+      value: 6

@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: daa49a2f-6db8-459f-b01c-d3e590dafbc2
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    f9ffc49f-fb23-4194-b825-52ff8f98a097: node
+    1509faa3-d48d-422d-8901-a1954ff40d22: media
+    5cba4392-3519-473d-a3d2-30130620ad79: taxonomy_term
+    79c92637-9cb2-4b4b-ba41-60927daafa67: taxonomy_term
+    75679d84-fbe1-4382-ba2d-19bd7919237f: taxonomy_term
+    26861d89-acc4-4ce5-8b18-0a60f715424e: taxonomy_term
+    1465a2af-87cf-48ca-be11-5828d62937b4: taxonomy_term
+    b31d2af0-345f-4612-adf9-ed02b344c905: taxonomy_term
+    cfad0a8e-fa22-429b-8272-db96e6be9be1: taxonomy_term
+    bedc199f-cef0-4b30-9081-69275cc8e644: taxonomy_term
+    999e3e00-e1c2-4f79-a07d-21224db8a33a: taxonomy_term
+    b0034d8c-4700-4416-ac8c-790c9eb9de94: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?875895 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Nova Science Fiction (Sweden), 1985'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/nova-science-fiction-sweden/nova-science-fiction-sweden-1985
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: f9ffc49f-fb23-4194-b825-52ff8f98a097
+  field_cover:
+    -
+      entity: 1509faa3-d48d-422d-8901-a1954ff40d22
+  field_cover_artist:
+    -
+      entity: 5cba4392-3519-473d-a3d2-30130620ad79
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?875895 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '1985'
+  field_editor:
+    -
+      entity: 79c92637-9cb2-4b4b-ba41-60927daafa67
+    -
+      entity: 75679d84-fbe1-4382-ba2d-19bd7919237f
+  field_isfdb_id:
+    -
+      value: '875895'
+  field_language:
+    -
+      entity: 26861d89-acc4-4ce5-8b18-0a60f715424e
+  field_magazine:
+    -
+      entity: 1465a2af-87cf-48ca-be11-5828d62937b4
+  field_other_contributors:
+    -
+      entity: b31d2af0-345f-4612-adf9-ed02b344c905
+    -
+      entity: cfad0a8e-fa22-429b-8272-db96e6be9be1
+    -
+      entity: bedc199f-cef0-4b30-9081-69275cc8e644
+    -
+      entity: 999e3e00-e1c2-4f79-a07d-21224db8a33a
+    -
+      entity: b0034d8c-4700-4416-ac8c-790c9eb9de94
+  field_pages:
+    -
+      value: 160
+  field_published_as:
+    -
+      value: Gisslet
+  field_sort_date:
+    -
+      value: '1985-01-01'
+  field_year:
+    -
+      value: 1985

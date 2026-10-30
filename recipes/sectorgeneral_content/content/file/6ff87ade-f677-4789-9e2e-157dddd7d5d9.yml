@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6ff87ade-f677-4789-9e2e-157dddd7d5d9
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sfstr19.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/sfstr19.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 74813
+  status:
+    -
+      value: true

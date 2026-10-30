@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c74cc009-e11f-415b-8d0d-794fab70ab9b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: anlgjan82.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/anlgjan82.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 42479
+  status:
+    -
+      value: true

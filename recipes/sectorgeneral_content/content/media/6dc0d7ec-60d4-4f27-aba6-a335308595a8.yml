@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6dc0d7ec-60d4-4f27-aba6-a335308595a8
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    4b634d42-99e2-4a04-941d-5e0a348c2d8c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Secret Visitors, New English Library cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 97a85962523e8d30d98e3dc27ecd451fdb7eedfd
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Secret Visitors Nel'
+      title: ''
+      width: 100
+      height: 175
+      entity: 4b634d42-99e2-4a04-941d-5e0a348c2d8c

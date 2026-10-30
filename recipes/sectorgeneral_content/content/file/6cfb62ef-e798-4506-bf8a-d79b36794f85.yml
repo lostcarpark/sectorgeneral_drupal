@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6cfb62ef-e798-4506-bf8a-d79b36794f85
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: starhealerorbit.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/starhealerorbit.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4397
+  status:
+    -
+      value: true

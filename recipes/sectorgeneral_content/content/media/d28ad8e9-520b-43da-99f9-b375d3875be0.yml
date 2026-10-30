@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: d28ad8e9-520b-43da-99f9-b375d3875be0
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    2c55abfc-e05a-4788-9793-71022c0de564: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Star Healer, Gateway / Orion, 2026 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 3046c469b464822f65937f250387b7f9d2926b88
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://m.media-amazon.com/images/I/410+NeZj21L.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Star Healer, Gateway / Orion, 2026 cover'
+      title: ''
+      width: 326
+      height: 500
+      entity: 2c55abfc-e05a-4788-9793-71022c0de564
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?1124807'
+      title: null
+      options: {  }

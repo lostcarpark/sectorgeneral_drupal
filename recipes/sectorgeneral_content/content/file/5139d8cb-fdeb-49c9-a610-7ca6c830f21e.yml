@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5139d8cb-fdeb-49c9-a610-7ca6c830f21e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ndrkllzntr1979.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/ndrkllzntr1979.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 64961
+  status:
+    -
+      value: true

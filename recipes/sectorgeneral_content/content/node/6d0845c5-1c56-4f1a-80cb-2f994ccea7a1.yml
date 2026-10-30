@@ -1,0 +1,99 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6d0845c5-1c56-4f1a-80cb-2f994ccea7a1
+  bundle: anthology
+  default_langcode: en
+  depends:
+    214647d4-99c3-41e8-a8fb-747ce5ae5a89: node
+    d5dcf90a-4bf4-4d1d-a236-42f2bd54c1b5: media
+    06a0f7e1-bace-4cdf-bf7f-3f9f4b88557d: taxonomy_term
+    47726409-6f54-42a7-97e5-3aa8cd3fd5dc: taxonomy_term
+    b8ffc9ad-61c4-44ba-bd27-0d7c0ecc4926: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd: taxonomy_term
+    3fc3c9db-c83e-4f72-8400-7ab17dff4c67: taxonomy_term
+    5ca6fac0-3d98-4322-b640-0e08f0a3addd: taxonomy_term
+    22b13841-2b0e-4bbf-b463-a026fd972f6d: taxonomy_term
+    67afc258-8fa0-48a7-8646-984bc0ee2344: taxonomy_term
+    3b909b15-13a9-4c7d-a459-89c332b5236c: taxonomy_term
+    3cb81b0a-3c09-450e-8370-f80be8fe36f5: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?379941'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Signale vom Pluto'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/signale-vom-pluto
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Heyne, September 1963, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 214647d4-99c3-41e8-a8fb-747ce5ae5a89
+  field_cover:
+    -
+      entity: d5dcf90a-4bf4-4d1d-a236-42f2bd54c1b5
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1398327 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 06a0f7e1-bace-4cdf-bf7f-3f9f4b88557d
+  field_first_published_year:
+    -
+      value: 1963
+  field_isfdb_id:
+    -
+      value: '1398327'
+  field_other_contributors:
+    -
+      entity: 47726409-6f54-42a7-97e5-3aa8cd3fd5dc
+    -
+      entity: b8ffc9ad-61c4-44ba-bd27-0d7c0ecc4926
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd
+    -
+      entity: 3fc3c9db-c83e-4f72-8400-7ab17dff4c67
+    -
+      entity: 5ca6fac0-3d98-4322-b640-0e08f0a3addd
+    -
+      entity: 22b13841-2b0e-4bbf-b463-a026fd972f6d
+    -
+      entity: 67afc258-8fa0-48a7-8646-984bc0ee2344
+  field_publisher:
+    -
+      entity: 3b909b15-13a9-4c7d-a459-89c332b5236c
+  field_series:
+    -
+      entity: 3cb81b0a-3c09-450e-8370-f80be8fe36f5
+  field_series_number:
+    -
+      value: 4

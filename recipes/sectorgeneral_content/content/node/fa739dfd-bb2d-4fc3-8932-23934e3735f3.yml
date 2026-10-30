@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fa739dfd-bb2d-4fc3-8932-23934e3735f3
+  bundle: edition
+  default_langcode: en
+  depends:
+    a72454b6-5284-44f8-be21-4149f41826f4: media
+    fac5db52-70b4-4886-90fe-b348c3ed6cb8: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    62862122-c514-4f24-8c75-e5e6741745f4: node
+    47dcdfd9-5b9d-431e-b100-e494eb3e62cd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Own cover restored: a larger picture of a different edition had replaced it.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Star Healer, Del Rey, 1985'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-healer/star-healer-del-rey-1985
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: a72454b6-5284-44f8-be21-4149f41826f4
+  field_cover_artist:
+    -
+      entity: fac5db52-70b4-4886-90fe-b348c3ed6cb8
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ballantine/Del Rey, NY, ISBN 345-32089-1, January 1985”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?32008 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9446498M (CC0).
+  field_date_display:
+    -
+      value: 'January 1985'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345320896'
+  field_isfdb_id:
+    -
+      value: '32008'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 62862122-c514-4f24-8c75-e5e6741745f4
+  field_oclc:
+    -
+      value: '11678617'
+  field_openlibrary_id:
+    -
+      value: OL9446498M
+  field_pages:
+    -
+      value: 217
+  field_price:
+    -
+      value: $2.75
+  field_publisher:
+    -
+      entity: 47dcdfd9-5b9d-431e-b100-e494eb3e62cd
+  field_sort_date:
+    -
+      value: '1985-01-01'
+  field_year:
+    -
+      value: 1985

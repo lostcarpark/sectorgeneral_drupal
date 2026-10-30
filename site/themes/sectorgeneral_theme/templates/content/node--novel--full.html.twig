@@ -1,0 +1,45 @@
+{#
+/**
+ * @file
+ * A book's page: the book-header component (cover, summary line, details,
+ * synopsis), the series navigation, then contents, editions and the rest in
+ * display order, ending with References.
+ *
+ * The summary line comes from NodeHooks::preprocessNode().
+ */
+#}
+{{ attach_library('sectorgeneral_theme/book') }}
+{%
+  set header_fields = [
+    'field_cover', 'field_book_type', 'field_series', 'field_series_number',
+    'field_first_published_year', 'field_publisher', 'field_words',
+    'field_alternative_titles', 'field_editor', 'body', 'field_synopsis_credit',
+  ]
+%}
+{% set reference_fields = ['field_reviews', 'field_wikipedia', 'field_data_sources'] %}
+<article{{ attributes.addClass('book-page') }}>
+  {{ title_prefix }}
+  {{ title_suffix }}
+
+  {{ include('sectorgeneral_theme:book-header', {
+    summary: book_summary|default([]),
+    credit: book_credit|default(""),
+    cover: content.field_cover,
+    details: [content.field_alternative_titles, content.field_editor],
+    synopsis: content.body,
+  }, with_context = false) }}
+
+  {{ content.series_nav }}
+
+  <div class="book-page__sections">
+    {{ content|without(header_fields, reference_fields, 'series_nav', 'links') }}
+  </div>
+
+  {% set references = [content.field_wikipedia, content.field_reviews, content.field_data_sources] %}
+  {% if references|render|striptags|trim %}
+    <section class="book-references">
+      <h2>{{ 'References'|t }}</h2>
+      {{ references }}
+    </section>
+  {% endif %}
+</article>

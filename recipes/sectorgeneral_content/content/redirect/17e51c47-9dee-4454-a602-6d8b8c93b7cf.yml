@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 17e51c47-9dee-4454-a602-6d8b8c93b7cf
+  bundle: redirect
+  default_langcode: und
+  depends:
+    9ef746da-42a2-427a-8ba3-e2aa6d38315e: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: WHV0x3W14OpvUCEJcMio59sljHlYilzOFdK7F4aUdqg
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: articlesclassification.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 9ef746da-42a2-427a-8ba3-e2aa6d38315e
+  status_code:
+    -
+      value: 301

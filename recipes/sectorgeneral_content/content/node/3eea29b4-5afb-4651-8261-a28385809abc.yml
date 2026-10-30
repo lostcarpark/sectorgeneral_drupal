@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3eea29b4-5afb-4651-8261-a28385809abc
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+    45ecf5c7-07ac-4fd7-8184-8d300c007193: media
+    dc2e2719-36f1-4d80-8222-e02db76c2cef: taxonomy_term
+    00755522-03bf-4fbb-b9b8-73fc91f84cfa: taxonomy_term
+    26861d89-acc4-4ce5-8b18-0a60f715424e: taxonomy_term
+    4f00b253-4f48-4c29-b920-8819062b3f4f: taxonomy_term
+    b9bce5b2-7974-4f8b-856a-9e5a28916391: taxonomy_term
+    b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd: taxonomy_term
+    4694fff6-aab0-4cf4-8ab5-b90626a59d86: taxonomy_term
+    f307a487-c4e7-48b3-8e85-8bec7ce43e68: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1075948 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Häpna!, September 1958'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/hapna/hapna-september-1958
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: fec32d28-7455-4a8a-a448-67c3af694c28
+  field_cover:
+    -
+      entity: 45ecf5c7-07ac-4fd7-8184-8d300c007193
+  field_cover_artist:
+    -
+      entity: dc2e2719-36f1-4d80-8222-e02db76c2cef
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1075948 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'September 1958'
+  field_editor:
+    -
+      entity: 00755522-03bf-4fbb-b9b8-73fc91f84cfa
+  field_isfdb_id:
+    -
+      value: '1075948'
+  field_language:
+    -
+      entity: 26861d89-acc4-4ce5-8b18-0a60f715424e
+  field_magazine:
+    -
+      entity: 4f00b253-4f48-4c29-b920-8819062b3f4f
+  field_other_contributors:
+    -
+      entity: b9bce5b2-7974-4f8b-856a-9e5a28916391
+    -
+      entity: b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd
+    -
+      entity: 4694fff6-aab0-4cf4-8ab5-b90626a59d86
+    -
+      entity: f307a487-c4e7-48b3-8e85-8bec7ce43e68
+  field_pages:
+    -
+      value: 98
+  field_published_as:
+    -
+      value: 'Turistplaneten (Part 4 of 5)'
+  field_sort_date:
+    -
+      value: '1958-09-01'
+  field_year:
+    -
+      value: 1958

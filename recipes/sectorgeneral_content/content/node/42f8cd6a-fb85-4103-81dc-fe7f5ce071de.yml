@@ -1,0 +1,75 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 42f8cd6a-fb85-4103-81dc-fe7f5ce071de
+  bundle: novel
+  default_langcode: en
+  depends:
+    253440b9-728f-453e-b5f7-dda758b1e16e: media
+    31fa280d-4f10-4c10-9651-afa2fc365efa: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 251, similarity 0.97).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The First Protector'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/first-protector
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>Most film/TV tie-in novelizations are no better than they could be, given their source material and the Old Pulp Pros generally hired for such transitional hackwork. Once in a long while, however, we have something worthy like Gene Roddenberry&#039;s (posthumous!) TV series, Earth: Final Conflict, and its best print analogue, The First Protector. White tells the story of Ma&#039;el, a Taelon scientist marooned in ninth-century (A.D.) Ireland. Ma&#039;el and several boon companions, including Captain Seosadn Uí Nuallain,* set out on a world-spanning quest for knowledge that will strongly affect future human-Taelon relations. &quot;Since this will be the last James White novel, it is fitting that it is one of his best&quot; (Morgan Llywelyn, speaking truth).</p>
+        <p>*Better known to history as secret-immortal Joe Nolan, of the Belfast Science Fiction Group.</p>
+      format: basic_html
+      summary: 'Published posthumously. This is obviously a TV tie-in, but it really stretches the words "tie-in", as there is little sign of Boone or the rest of the TV regulars, at all. It is mentioned in the TV series that a Taelon visited Celtic Ireland to judge humanity. This is that story. James was chosen to do this piece due to his research into Irish history, and he made it his own. It''s a great read.'
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: 253440b9-728f-453e-b5f7-dda758b1e16e
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?24920 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 2000
+  field_isfdb_id:
+    -
+      value: '24920'
+  field_series:
+    -
+      entity: 31fa280d-4f10-4c10-9651-afa2fc365efa
+  field_series_number:
+    -
+      value: 2
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 104500

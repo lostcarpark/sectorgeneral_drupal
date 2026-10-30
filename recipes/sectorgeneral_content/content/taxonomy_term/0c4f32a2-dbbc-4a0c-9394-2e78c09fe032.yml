@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 0c4f32a2-dbbc-4a0c-9394-2e78c09fe032
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Michael Kurland'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/michael-kurland
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

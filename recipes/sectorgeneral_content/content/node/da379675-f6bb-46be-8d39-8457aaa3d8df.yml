@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: da379675-f6bb-46be-8d39-8457aaa3d8df
+  bundle: edition
+  default_langcode: en
+  depends:
+    6d669d4c-c092-4737-962e-04ba88e78a70: media
+    98198ea5-db97-409a-92f0-7f61cee9333f: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+    d221d472-ea19-453c-a772-3efda48ba573: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?152581 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Secret Visitors, New English Library'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/secret-visitors/secret-visitors-new-english-library
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 6d669d4c-c092-4737-962e-04ba88e78a70
+  field_cover_artist:
+    -
+      entity: 98198ea5-db97-409a-92f0-7f61cee9333f
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Edition known only from the cover image secretvisitorsnel.jpg”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?152581 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL7569159M (CC0).
+  field_date_display:
+    -
+      value: 'February 1971'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780450006661'
+  field_isfdb_id:
+    -
+      value: '152581'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: fec32d28-7455-4a8a-a448-67c3af694c28
+  field_oclc:
+    -
+      value: '16191487'
+  field_openlibrary_id:
+    -
+      value: OL7569159M
+  field_pages:
+    -
+      value: 125
+  field_price:
+    -
+      value: 5/-
+  field_publisher:
+    -
+      entity: d221d472-ea19-453c-a772-3efda48ba573
+  field_sort_date:
+    -
+      value: '1971-02-01'
+  field_year:
+    -
+      value: 1971

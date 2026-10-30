@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 79cf55cd-195a-44ce-b538-4da7a00a72c2
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Arthur W. Saha'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/arthur-w-saha
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

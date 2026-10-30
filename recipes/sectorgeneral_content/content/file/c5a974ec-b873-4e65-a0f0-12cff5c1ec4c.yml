@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c5a974ec-b873-4e65-a0f0-12cff5c1ec4c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ddllttrrdb1968.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/ddllttrrdb1968.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 35005
+  status:
+    -
+      value: true

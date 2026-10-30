@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1dec4bc8-c9b4-4a5c-a54d-6b016037fa0e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: james-white-dub.jpg
+  uri:
+    -
+      value: 'public://photos/2026-10/james-white-dub.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 8589
+  status:
+    -
+      value: true

@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e14b1edf-ee91-4f04-a8aa-fd65f60dedba
+  bundle: edition
+  default_langcode: en
+  depends:
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+    a7db68df-cbcb-4bf3-ad1e-26874fce4a71: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Imported from the original James White Information site.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Second Ending, Mondadori, 1973'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/second-ending/second-ending-mondadori-1973
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'James White Information (original site): “Mondadori reprint, 19/9/73 (of shortened Out of this World version)”'
+  field_date_display:
+    -
+      value: '19 September 1973'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+  field_printing:
+    -
+      value: Reprint
+  field_publisher:
+    -
+      entity: a7db68df-cbcb-4bf3-ad1e-26874fce4a71
+  field_sort_date:
+    -
+      value: '1973-09-19'
+  field_year:
+    -
+      value: 1973

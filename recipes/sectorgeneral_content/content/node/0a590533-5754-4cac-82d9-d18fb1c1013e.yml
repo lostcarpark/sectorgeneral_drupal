@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0a590533-5754-4cac-82d9-d18fb1c1013e
+  bundle: edition
+  default_langcode: en
+  depends:
+    c9fae010-8888-46b9-8657-5ef3f323e68e: media
+    924e3402-7250-4f25-a946-efee16378574: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    6cf0c327-69b9-430c-b2e9-26d40e7398d0: node
+    2489534c-0801-43c6-89f5-eb25fb1d11ea: taxonomy_term
+    bb347c80-3ecf-4b81-bc7d-b7b97079ed11: taxonomy_term
+    f19546e9-9d1e-4905-9bd5-876044b94bb5: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/871000911'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Der globale Eingriff, Moewig, 1987'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/underkill/der-globale-eingriff-moewig-1987
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: c9fae010-8888-46b9-8657-5ef3f323e68e
+  field_cover_artist:
+    -
+      entity: 924e3402-7250-4f25-a946-efee16378574
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?574503 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/871000911 (CC0).
+  field_date_display:
+    -
+      value: 'June 1987'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9783811837577'
+  field_isfdb_id:
+    -
+      value: '574503'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 6cf0c327-69b9-430c-b2e9-26d40e7398d0
+  field_oclc:
+    -
+      value: '74852631'
+  field_pages:
+    -
+      value: 189
+  field_price:
+    -
+      value: 'DM 8.80'
+  field_printing:
+    -
+      value: Neuaufl.
+  field_publisher:
+    -
+      entity: 2489534c-0801-43c6-89f5-eb25fb1d11ea
+  field_publisher_series:
+    -
+      entity: bb347c80-3ecf-4b81-bc7d-b7b97079ed11
+  field_publisher_series_number:
+    -
+      value: '3757'
+  field_sort_date:
+    -
+      value: '1987-06-01'
+  field_translator:
+    -
+      entity: f19546e9-9d1e-4905-9bd5-876044b94bb5
+  field_year:
+    -
+      value: 1987

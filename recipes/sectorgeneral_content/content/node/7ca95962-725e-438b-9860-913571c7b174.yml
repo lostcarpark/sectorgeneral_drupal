@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7ca95962-725e-438b-9860-913571c7b174
+  bundle: novel
+  default_langcode: en
+  depends:
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+    13bf8b32-c689-47b1-bb79-1eba1181b3d0: node
+    664d8661-5f3c-48af-a0f2-3778e2cac73e: node
+    b04ef842-1d51-49f0-bcc3-39c8bcab1fed: node
+    85389460-62f1-481a-ac36-b6d004568ad1: node
+    99183a07-c02d-492a-ab74-66946e8a0468: node
+    0ac0d6bb-de33-47eb-a55b-f04c6b6e1f05: node
+    4efa8598-a28e-420e-86e3-6bd309077d78: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 339, similarity 0.98).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Monsters and Medics'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/monsters-and-medics
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>Collection, dedicated to &quot;Dr. Ian Ross McAulay, who provided the encouragement, the home-brewed beer and the trouser turn-ups.&quot; Contents: Introduction: &#039;Reality in Science Fiction&#039; (see under Non-Fiction); Second Ending (see under Novels); &#039;Counter Security&#039;; &#039;Dogfight&#039;; &#039;Nuisance Value; &#039;In Loving Memory&#039;; &#039;The Apprentice&#039;; &#039;Answer Came There None&#039; (see under Short Stories).</p>
+        <p>Graham Andrews</p>
+        <p>First publication:</p>
+        <p>Corgi, 0-552-10462, May 1977</p>
+        <p>Foreign Publication:</p>
+        <p>ERICH PABEL VERLAG No 309, January 1979 as Das Zweite Leben</p>
+        <p>Back to Books Main Next: Ambulance Ship</p>
+      format: basic_html
+      summary: 'A selection of seven short stories, also published by Corgi in the same year but with only five of the stories.'
+  field_book_type:
+    -
+      value: collection
+  field_contained_books:
+    -
+      entity: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+  field_contents:
+    -
+      entity: 13bf8b32-c689-47b1-bb79-1eba1181b3d0
+    -
+      entity: 664d8661-5f3c-48af-a0f2-3778e2cac73e
+    -
+      entity: b04ef842-1d51-49f0-bcc3-39c8bcab1fed
+    -
+      entity: 85389460-62f1-481a-ac36-b6d004568ad1
+    -
+      entity: 99183a07-c02d-492a-ab74-66946e8a0468
+    -
+      entity: 0ac0d6bb-de33-47eb-a55b-f04c6b6e1f05
+  field_cover:
+    -
+      entity: 4efa8598-a28e-420e-86e3-6bd309077d78
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?37215 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1977
+  field_isfdb_id:
+    -
+      value: '37215'
+  field_words:
+    -
+      value: 66500

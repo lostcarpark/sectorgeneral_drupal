@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 652332b9-f3a4-4d97-a46f-c5c8887d55a8
+  bundle: redirect
+  default_langcode: und
+  depends:
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: vdgmdBo0ZoUcboqgiLQxwqA0oOspoMZtk3E-c56U-6E
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/alljudgementfled.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  status_code:
+    -
+      value: 301

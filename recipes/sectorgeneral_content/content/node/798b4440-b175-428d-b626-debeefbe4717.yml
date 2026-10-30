@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 798b4440-b175-428d-b626-debeefbe4717
+  bundle: anthology
+  default_langcode: en
+  depends:
+    809f2d30-8095-45d4-b6dd-0dda7cffaeb4: node
+    58cce45b-f313-4e01-a4e1-9f0691a62101: media
+    0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea: taxonomy_term
+    5795d24e-ba5e-4428-a048-754d7b6b84c2: taxonomy_term
+    b226aeaa-e71f-48e7-b1bb-540fe32b5459: taxonomy_term
+    ee391b45-261b-41c5-94a4-67e1402f0c66: taxonomy_term
+    4699c9da-3e32-4e0c-8973-105dede7460c: taxonomy_term
+    9e872ad9-522d-4352-a13f-890044a71d7c: taxonomy_term
+    03412753-2c7e-4dc0-ab17-7aa4af3b0f2e: taxonomy_term
+    cf3933b1-5efa-4430-820c-517e868004dd: taxonomy_term
+    953e4438-0cf1-4b8e-ae96-f0c68f5677a6: taxonomy_term
+    d44c6cf5-44a1-48e1-91cc-6e99dc863b7b: taxonomy_term
+    3b909b15-13a9-4c7d-a459-89c332b5236c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?2375724 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Titan 19'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/titan-19
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Heyne, February 1983, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 809f2d30-8095-45d4-b6dd-0dda7cffaeb4
+  field_cover:
+    -
+      entity: 58cce45b-f313-4e01-a4e1-9f0691a62101
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?2375724 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea
+    -
+      entity: 5795d24e-ba5e-4428-a048-754d7b6b84c2
+    -
+      entity: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+  field_first_published_year:
+    -
+      value: 1983
+  field_isfdb_id:
+    -
+      value: '2375724'
+  field_other_contributors:
+    -
+      entity: ee391b45-261b-41c5-94a4-67e1402f0c66
+    -
+      entity: 4699c9da-3e32-4e0c-8973-105dede7460c
+    -
+      entity: 9e872ad9-522d-4352-a13f-890044a71d7c
+    -
+      entity: 03412753-2c7e-4dc0-ab17-7aa4af3b0f2e
+    -
+      entity: cf3933b1-5efa-4430-820c-517e868004dd
+    -
+      entity: 953e4438-0cf1-4b8e-ae96-f0c68f5677a6
+    -
+      entity: d44c6cf5-44a1-48e1-91cc-6e99dc863b7b
+  field_publisher:
+    -
+      entity: 3b909b15-13a9-4c7d-a459-89c332b5236c

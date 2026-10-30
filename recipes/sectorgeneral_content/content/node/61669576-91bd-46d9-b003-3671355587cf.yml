@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 61669576-91bd-46d9-b003-3671355587cf
+  bundle: anthology
+  default_langcode: en
+  depends:
+    b04ef842-1d51-49f0-bcc3-39c8bcab1fed: node
+    1d5a0744-99f6-4322-9ffe-bb40cc2e622c: taxonomy_term
+    2f819fba-eb80-4b2b-82db-dfc3e44005e7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: "Reprint anthology from the old site's story publication histories."
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Out of This World Omnibus'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/out-world-omnibus
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Blackie, £1.25, June 1971.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: b04ef842-1d51-49f0-bcc3-39c8bcab1fed
+  field_data_sources:
+    -
+      value: 'James White Information (original site) (story publication histories).'
+  field_first_published_year:
+    -
+      value: 1971
+  field_publisher:
+    -
+      entity: 1d5a0744-99f6-4322-9ffe-bb40cc2e622c
+  field_series:
+    -
+      entity: 2f819fba-eb80-4b2b-82db-dfc3e44005e7

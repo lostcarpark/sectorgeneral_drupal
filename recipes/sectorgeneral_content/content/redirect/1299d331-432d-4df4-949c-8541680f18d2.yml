@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 1299d331-432d-4df4-949c-8541680f18d2
+  bundle: redirect
+  default_langcode: en
+  depends:
+    9982014d-f60d-4030-b574-d570b9675102: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: u9TPT9g_v-uZzeJtz410urIAy1_G9pBcHAvnY6lSpiM
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/new-worlds/new-worlds-magazine-april-1964
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 9982014d-f60d-4030-b574-d570b9675102
+  status_code:
+    -
+      value: 301

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 77a9d731-b739-4013-9c86-df7999319b3f
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Henry Kuttner'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/henry-kuttner
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

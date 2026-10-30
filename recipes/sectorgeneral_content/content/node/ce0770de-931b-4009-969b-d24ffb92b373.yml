@@ -1,0 +1,99 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ce0770de-931b-4009-969b-d24ffb92b373
+  bundle: anthology
+  default_langcode: en
+  depends:
+    da53ab75-d1e1-4d54-be8d-09f26126ed1e: node
+    f204c94f-e072-433d-a6c0-d7afb838f4dd: media
+    98167300-4d25-4e3a-8778-717d89af45b5: taxonomy_term
+    b3c0026f-32f9-4a82-9df7-d850937fedf2: taxonomy_term
+    b9bce5b2-7974-4f8b-856a-9e5a28916391: taxonomy_term
+    c6935933-e9fe-4d84-b801-2c4ede77d522: taxonomy_term
+    36528970-a359-43c4-bddb-77ccda5cf4f8: taxonomy_term
+    dc826213-28dd-43a1-bcae-46463eba8f40: taxonomy_term
+    f08b3bac-19f4-4a73-b2eb-6359a3d5f55d: taxonomy_term
+    e613edcf-203e-48ff-8a70-3dc22f2becd4: taxonomy_term
+    5b185997-f5ba-4147-90c2-37706eff8d49: taxonomy_term
+    e9f10cab-0948-4d08-babd-7c5397afe41c: taxonomy_term
+    5a162c21-1c6a-4923-a034-6c453e12c80e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1685191 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Pilot durch Zeit und Raum'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/pilot-durch-zeit-und-raum
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Ensslin hardback, June 1983. German.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: da53ab75-d1e1-4d54-be8d-09f26126ed1e
+  field_cover:
+    -
+      entity: f204c94f-e072-433d-a6c0-d7afb838f4dd
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1685191 (CC BY 4.0).
+  field_editor:
+    -
+      entity: 98167300-4d25-4e3a-8778-717d89af45b5
+    -
+      entity: b3c0026f-32f9-4a82-9df7-d850937fedf2
+  field_first_published_year:
+    -
+      value: 1983
+  field_isfdb_id:
+    -
+      value: '1685191'
+  field_other_contributors:
+    -
+      entity: b9bce5b2-7974-4f8b-856a-9e5a28916391
+    -
+      entity: c6935933-e9fe-4d84-b801-2c4ede77d522
+    -
+      entity: 98167300-4d25-4e3a-8778-717d89af45b5
+    -
+      entity: 36528970-a359-43c4-bddb-77ccda5cf4f8
+    -
+      entity: dc826213-28dd-43a1-bcae-46463eba8f40
+    -
+      entity: f08b3bac-19f4-4a73-b2eb-6359a3d5f55d
+    -
+      entity: e613edcf-203e-48ff-8a70-3dc22f2becd4
+    -
+      entity: 5b185997-f5ba-4147-90c2-37706eff8d49
+    -
+      entity: e9f10cab-0948-4d08-babd-7c5397afe41c
+  field_publisher:
+    -
+      entity: 5a162c21-1c6a-4923-a034-6c453e12c80e

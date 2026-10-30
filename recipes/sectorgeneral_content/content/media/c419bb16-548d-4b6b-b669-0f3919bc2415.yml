@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c419bb16-548d-4b6b-b669-0f3919bc2415
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    021d8a69-c7c8-4622-aa1a-975cef8a9b65: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Häpna!, March 1956 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: dfd295e09626a3c6f0c2017734726689624c1059
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://isfdb.org/wiki/images/e/e4/HPNMRSWQSQ1956.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Häpna!, March 1956 cover'
+      title: ''
+      width: 425
+      height: 600
+      entity: 021d8a69-c7c8-4622-aa1a-975cef8a9b65
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?1075700'
+      title: null
+      options: {  }

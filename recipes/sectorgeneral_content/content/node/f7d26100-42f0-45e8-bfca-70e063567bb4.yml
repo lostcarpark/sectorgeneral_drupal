@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f7d26100-42f0-45e8-bfca-70e063567bb4
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?96209 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Survivor
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/survivor
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Rhabwar picks up an EGCL ‘transmitting’ empath from Duwetz, the sole survivor of a cataclysmic spacewreck. The ultra sensitive Dr Prilicla is painfully overwhelmed by this patient’s full-spectrum emotional radation. (“Of course!” Conway said, and paused because . . .) In case you’re wondering, EGCLs are warm-blooded oxygen breathers with approximately twice the body-weight of an adult DBDG Earth-human (see Gary Louie’s Sector General Classificiation System in The White Papers for more details.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?96209 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1983
+  field_isfdb_id:
+    -
+      value: '96209'
+  field_opening_excerpt:
+    -
+      value: '<p>For more than an hour Senior Physician Conway had been dividing his time between the interstellar emptiness outside the direct vision port and the long-range sensor display, which showed surrounding space to be anything but empty, and feeling more depressed with every minute that passed.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>Sector General (Ballantine, March 1983)</p>'
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 12750

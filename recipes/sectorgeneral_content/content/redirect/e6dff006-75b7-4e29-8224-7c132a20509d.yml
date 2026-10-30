@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: e6dff006-75b7-4e29-8224-7c132a20509d
+  bundle: redirect
+  default_langcode: und
+  depends:
+    d4755b1c-83f6-470e-b808-2aff7eca8be3: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: o0MwifhbLwxDNwCTAQ0UmW5ZsgxzXVmZzbbUTCQwZ5c
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/spacebird.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: d4755b1c-83f6-470e-b808-2aff7eca8be3
+  status_code:
+    -
+      value: 301

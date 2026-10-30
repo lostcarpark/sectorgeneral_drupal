@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: c4425b76-9ebf-4820-a710-4cd991d97ed3
+  bundle: redirect
+  default_langcode: und
+  depends:
+    7dba4fce-58ed-48bb-830b-7609fe63975b: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: CJKuoCwJkKKbl-4jiojmBb7YXkF1x3RYYQqfRzhAp7E
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/aliensamongus.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 7dba4fce-58ed-48bb-830b-7609fe63975b
+  status_code:
+    -
+      value: 301

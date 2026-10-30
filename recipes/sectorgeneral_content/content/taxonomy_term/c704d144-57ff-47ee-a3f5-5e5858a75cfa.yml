@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c704d144-57ff-47ee-a3f5-5e5858a75cfa
+  bundle: magazine
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Science Fantasy'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/science-fantasy
+      langcode: en
+      pathauto: 1

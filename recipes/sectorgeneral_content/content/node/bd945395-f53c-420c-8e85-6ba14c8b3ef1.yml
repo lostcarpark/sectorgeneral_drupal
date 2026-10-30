@@ -1,0 +1,149 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: bd945395-f53c-420c-8e85-6ba14c8b3ef1
+  bundle: anthology
+  default_langcode: en
+  depends:
+    388effb1-372e-4213-aa1e-20b4a8da3452: node
+    84e3b323-6b6e-4a94-8fba-454942c02fa9: media
+    85906894-fdb3-4366-bb52-3ee2847aeccd: taxonomy_term
+    0da82dc8-1a4d-484e-83c9-f650d51b4e3f: taxonomy_term
+    910554db-97c6-44bd-9283-79f36b5c7e5e: taxonomy_term
+    1016e8fb-f244-4afc-afef-55300435f832: taxonomy_term
+    3e639692-8efc-4d22-aa5a-fb5805e0a306: taxonomy_term
+    c01e77d7-e6d0-4334-8c03-b71ee8aa1581: taxonomy_term
+    dc5875fa-8328-4d42-8b2e-90f29e3cd770: taxonomy_term
+    9f3bd3b5-63c1-4d95-adbc-12cd5dd0c51b: taxonomy_term
+    9be5cd51-54f5-4835-8aa6-8459349ae07a: taxonomy_term
+    bedc199f-cef0-4b30-9081-69275cc8e644: taxonomy_term
+    05f16623-cb54-47b4-bdf7-ab130dd69982: taxonomy_term
+    78b4ae38-ec24-4c2a-979e-fe3fdd223dfe: taxonomy_term
+    3f11f09f-48a0-4e9a-9d44-b330cb0d4490: taxonomy_term
+    56c67eb0-3ad0-4961-85d9-2a2523391dbc: taxonomy_term
+    c878dcbc-37af-4df2-90c1-64a6640d35cf: taxonomy_term
+    b31d2af0-345f-4612-adf9-ed02b344c905: taxonomy_term
+    e2b34650-5251-4a2a-a4e9-883d41799498: taxonomy_term
+    0ace682b-7932-42e9-8884-e2a79cec29cb: taxonomy_term
+    39789393-5694-468b-a552-4392ff075cca: taxonomy_term
+    8340c142-b89d-4d84-90ca-f3706a7786a8: taxonomy_term
+    c09a9052-1f59-4060-83f2-9c7e4e2a8c44: taxonomy_term
+    e613edcf-203e-48ff-8a70-3dc22f2becd4: taxonomy_term
+    b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd: taxonomy_term
+    3e7d2170-f99e-4731-9c56-982d211a2a86: taxonomy_term
+    0669946a-8ac4-40fe-a989-066904f1ac64: taxonomy_term
+    290c11ec-faef-4497-bf61-1b967a7bce4a: taxonomy_term
+    8afa140c-9483-40bf-97ba-6dc8147bff26: taxonomy_term
+    e886c30a-6476-44c0-82ea-05fc5877f32f: taxonomy_term
+    707acb0b-66a0-42a7-9aa5-641454af90d5: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?269727'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Best of Sci-Fi No. 4'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/best-sci-fi-no-4
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Mayflower-Dell, August 1965, Paperback. Mayflower-Dell, 1967, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 388effb1-372e-4213-aa1e-20b4a8da3452
+  field_cover:
+    -
+      entity: 84e3b323-6b6e-4a94-8fba-454942c02fa9
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?911871 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 85906894-fdb3-4366-bb52-3ee2847aeccd
+  field_first_published_year:
+    -
+      value: 1965
+  field_isfdb_id:
+    -
+      value: '911871'
+  field_other_contributors:
+    -
+      entity: 0da82dc8-1a4d-484e-83c9-f650d51b4e3f
+    -
+      entity: 910554db-97c6-44bd-9283-79f36b5c7e5e
+    -
+      entity: 1016e8fb-f244-4afc-afef-55300435f832
+    -
+      entity: 3e639692-8efc-4d22-aa5a-fb5805e0a306
+    -
+      entity: c01e77d7-e6d0-4334-8c03-b71ee8aa1581
+    -
+      entity: dc5875fa-8328-4d42-8b2e-90f29e3cd770
+    -
+      entity: 9f3bd3b5-63c1-4d95-adbc-12cd5dd0c51b
+    -
+      entity: 9be5cd51-54f5-4835-8aa6-8459349ae07a
+    -
+      entity: bedc199f-cef0-4b30-9081-69275cc8e644
+    -
+      entity: 05f16623-cb54-47b4-bdf7-ab130dd69982
+    -
+      entity: 78b4ae38-ec24-4c2a-979e-fe3fdd223dfe
+    -
+      entity: 3f11f09f-48a0-4e9a-9d44-b330cb0d4490
+    -
+      entity: 56c67eb0-3ad0-4961-85d9-2a2523391dbc
+    -
+      entity: c878dcbc-37af-4df2-90c1-64a6640d35cf
+    -
+      entity: b31d2af0-345f-4612-adf9-ed02b344c905
+    -
+      entity: e2b34650-5251-4a2a-a4e9-883d41799498
+    -
+      entity: 0ace682b-7932-42e9-8884-e2a79cec29cb
+    -
+      entity: 39789393-5694-468b-a552-4392ff075cca
+    -
+      entity: 8340c142-b89d-4d84-90ca-f3706a7786a8
+    -
+      entity: c09a9052-1f59-4060-83f2-9c7e4e2a8c44
+    -
+      entity: e613edcf-203e-48ff-8a70-3dc22f2becd4
+    -
+      entity: b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd
+    -
+      entity: 3e7d2170-f99e-4731-9c56-982d211a2a86
+    -
+      entity: 0669946a-8ac4-40fe-a989-066904f1ac64
+    -
+      entity: 290c11ec-faef-4497-bf61-1b967a7bce4a
+    -
+      entity: 8afa140c-9483-40bf-97ba-6dc8147bff26
+    -
+      entity: e886c30a-6476-44c0-82ea-05fc5877f32f
+  field_publisher:
+    -
+      entity: 707acb0b-66a0-42a7-9aa5-641454af90d5

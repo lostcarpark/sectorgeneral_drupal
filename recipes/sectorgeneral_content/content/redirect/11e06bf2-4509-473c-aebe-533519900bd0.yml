@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 11e06bf2-4509-473c-aebe-533519900bd0
+  bundle: redirect
+  default_langcode: en
+  depends:
+    59ef01a0-7585-42de-8f93-71d7987949c0: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: YiKs3j-8MVqyCJlpTpMn20ujOCvHpG1beNWGkMBvkWg
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/magazine-fantasy-science-fiction/magazine-fantasy-and-science-fiction-uk-august-1963
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 59ef01a0-7585-42de-8f93-71d7987949c0
+  status_code:
+    -
+      value: 301

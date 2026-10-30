@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: b9eaad62-4c1e-4968-a7b4-abbf4cc0c1c0
+  bundle: redirect
+  default_langcode: en
+  depends:
+    ba9e0c2b-cc7b-4236-a1c5-18f055adb783: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: eV4KIdIsCTfoi8BpaBE1EI3HrzahlnbznnqZ_YQt3Ag
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/magazine-fantasy-science-fiction/magazine-fantasy-science-fiction-january-1964
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: ba9e0c2b-cc7b-4236-a1c5-18f055adb783
+  status_code:
+    -
+      value: 301

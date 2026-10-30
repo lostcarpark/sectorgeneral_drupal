@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b84cc683-9755-422b-b08f-5604254cc42a
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Clifton B. Kruse'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/clifton-b-kruse
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

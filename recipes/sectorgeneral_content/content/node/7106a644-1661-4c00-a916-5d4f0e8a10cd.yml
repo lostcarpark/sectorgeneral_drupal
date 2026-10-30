@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7106a644-1661-4c00-a916-5d4f0e8a10cd
+  bundle: edition
+  default_langcode: en
+  depends:
+    399aa9a9-3d4d-46fd-a2c4-ddb74e89661c: media
+    7491f9a7-c260-4c6d-a792-884225b399f2: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    4c52425b-7b83-4e9e-af00-d52f9ab47cb3: taxonomy_term
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    f536af06-d9f5-446a-8200-ddffa65e1ceb: taxonomy_term
+    6e09cb12-1b7b-4b9f-88a0-45db255c8345: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover replaced by a larger image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?329261'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Chirurgien galactique, Librairie Des Champs-Élysées, 1981'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-surgeon/chirurgien-galactique-librairie-des-champs-elysees-1981
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 399aa9a9-3d4d-46fd-a2c4-ddb74e89661c
+  field_cover_artist:
+    -
+      entity: 7491f9a7-c260-4c6d-a792-884225b399f2
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “LE MASQUE SF No 115, Librarie des Champs Elyses, Paris, Spring 1981 as Chiruge in Galactique”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?329261 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'Spring 1981'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9782702412282'
+  field_isfdb_id:
+    -
+      value: '329261'
+  field_language:
+    -
+      entity: 4c52425b-7b83-4e9e-af00-d52f9ab47cb3
+  field_novel:
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+  field_oclc:
+    -
+      value: '77466911'
+  field_pages:
+    -
+      value: 285
+  field_publisher:
+    -
+      entity: f536af06-d9f5-446a-8200-ddffa65e1ceb
+  field_publisher_reference:
+    -
+      value: '115'
+  field_publisher_series:
+    -
+      entity: 6e09cb12-1b7b-4b9f-88a0-45db255c8345
+  field_publisher_series_number:
+    -
+      value: '116'
+  field_sort_date:
+    -
+      value: '1981-04-01'
+  field_year:
+    -
+      value: 1981

@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 13098f84-8c4e-45fa-af09-29cdfd8db682
+  bundle: edition
+  default_langcode: en
+  depends:
+    197324d8-9f30-4cd7-bd14-de076ae5f499: media
+    9671b40e-39b6-413f-821f-64fd956b0eb5: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    e0fd36c3-6f71-473a-a95c-dca3f6402cad: node
+    9a196fcd-0584-4ca7-8ef6-6b2cdd8886e7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL363382M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Mind Changer, Tor, 1998'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/mind-changer/mind-changer-tor-1998
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 197324d8-9f30-4cd7-bd14-de076ae5f499
+  field_cover_artist:
+    -
+      entity: 9671b40e-39b6-413f-821f-64fd956b0eb5
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “TOR Books, NY, ISBN 0-312-86663-1, hardback $23.95, Oct 1998”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?22234 (CC BY 4.0).
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?22235 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL363382M (CC0).
+  field_date_display:
+    -
+      value: 'October 1998'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isbn:
+    -
+      value: '9780312866631'
+  field_isfdb_id:
+    -
+      value: '22234'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: e0fd36c3-6f71-473a-a95c-dca3f6402cad
+  field_oclc:
+    -
+      value: '39051297'
+  field_openlibrary_id:
+    -
+      value: OL363382M
+  field_pages:
+    -
+      value: 301
+  field_price:
+    -
+      value: $23.95
+  field_publisher:
+    -
+      entity: 9a196fcd-0584-4ca7-8ef6-6b2cdd8886e7
+  field_sort_date:
+    -
+      value: '1998-10-01'
+  field_year:
+    -
+      value: 1998

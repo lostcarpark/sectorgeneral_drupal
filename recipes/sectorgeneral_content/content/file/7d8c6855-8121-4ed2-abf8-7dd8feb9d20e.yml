@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7d8c6855-8121-4ed2-abf8-7dd8feb9d20e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: lglwntrstz1976.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/lglwntrstz1976.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 77200
+  status:
+    -
+      value: true

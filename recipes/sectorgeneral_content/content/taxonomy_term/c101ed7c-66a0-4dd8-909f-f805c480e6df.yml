@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c101ed7c-66a0-4dd8-909f-f805c480e6df
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Broeck Steadman'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/broeck-steadman
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

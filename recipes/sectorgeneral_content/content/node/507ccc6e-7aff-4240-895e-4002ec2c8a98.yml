@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 507ccc6e-7aff-4240-895e-4002ec2c8a98
+  bundle: edition
+  default_langcode: en
+  depends:
+    7b12f3d7-2b3d-40d6-8f7a-2974b506744b: media
+    b35a742a-a0ce-4f6a-90d1-6c723bde7e7b: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    26861d89-acc4-4ce5-8b18-0a60f715424e: taxonomy_term
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+    0ca388de-2623-43b6-bc1a-8ce472cab753: taxonomy_term
+    9c9c42a4-2044-4d49-846a-ef4a4b333fc1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?861765'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Evigt Liv, Lindfors Förlag, 1975'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/second-ending/evigt-liv-lindfors-forlag-1975
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 7b12f3d7-2b3d-40d6-8f7a-2974b506744b
+  field_cover_artist:
+    -
+      entity: b35a742a-a0ce-4f6a-90d1-6c723bde7e7b
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “SCIENCE FICTION SERIEN No 1 Lindfors Forlag MB, Stockholm, March 1975 as Evigt Liv”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?861765 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'March 1975'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9789172680296'
+  field_isfdb_id:
+    -
+      value: '861765'
+  field_language:
+    -
+      entity: 26861d89-acc4-4ce5-8b18-0a60f715424e
+  field_novel:
+    -
+      entity: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+  field_pages:
+    -
+      value: 11
+  field_price:
+    -
+      value: 'skr 4.25'
+  field_publisher:
+    -
+      entity: 0ca388de-2623-43b6-bc1a-8ce472cab753
+  field_publisher_reference:
+    -
+      value: '1'
+  field_publisher_series:
+    -
+      entity: 9c9c42a4-2044-4d49-846a-ef4a4b333fc1
+  field_publisher_series_number:
+    -
+      value: '16'
+  field_sort_date:
+    -
+      value: '1975-03-01'
+  field_year:
+    -
+      value: 1975

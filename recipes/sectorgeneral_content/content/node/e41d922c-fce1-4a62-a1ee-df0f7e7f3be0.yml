@@ -1,0 +1,91 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e41d922c-fce1-4a62-a1ee-df0f7e7f3be0
+  bundle: edition
+  default_langcode: en
+  depends:
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    a7db68df-cbcb-4bf3-ad1e-26874fce4a71: taxonomy_term
+    0094b470-35c6-4b64-9ac8-cfe7b5bf2570: taxonomy_term
+    81f66098-fd45-495e-80a1-17598f0cd192: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the OPAC SBN: https://opac.sbn.it/bid/RAV0870555'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: "L'astronave del massacro, Mondadori, 1980"
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/all-judgement-fled/lastronave-del-massacro-mondadori-1980
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>The original James White Information site listed two 1980 Mondadori editions: Urania No 840, dated 15 August 1980, and a reprint dated 10 May 1980. They seem to be the same publication, so they're recorded here as one, but one may be a reprint of the other.</p>
+        <p>Translator: <a href="https://opac.sbn.it/bid/RAV0870555">OPAC SBN's record</a> names him Mauro Galli. Mario Galli, who translated the 1969 edition, is assumed to be meant; nothing more was found on either name.</p>
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “URANIA No 840, lire 1000, issue 15/8/80 as L’Astronave del Massacro”
+        James White Information (original site): “Mondadori Italian reprint, 10/5/80”
+        OPAC SBN record https://opac.sbn.it/bid/RAV0870555.
+  field_date_display:
+    -
+      value: '15 August 1980'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_pages:
+    -
+      value: 174
+  field_price:
+    -
+      value: 'lire 1000'
+  field_printing:
+    -
+      value: Reprint
+  field_publisher:
+    -
+      entity: a7db68df-cbcb-4bf3-ad1e-26874fce4a71
+  field_publisher_reference:
+    -
+      value: '840'
+  field_publisher_series:
+    -
+      entity: 0094b470-35c6-4b64-9ac8-cfe7b5bf2570
+  field_sort_date:
+    -
+      value: '1980-08-15'
+  field_translator:
+    -
+      entity: 81f66098-fd45-495e-80a1-17598f0cd192
+  field_year:
+    -
+      value: 1980

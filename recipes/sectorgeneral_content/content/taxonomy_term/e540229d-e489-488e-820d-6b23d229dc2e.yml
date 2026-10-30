@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: e540229d-e489-488e-820d-6b23d229dc2e
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Jonathan Waite'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/jonathan-waite
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

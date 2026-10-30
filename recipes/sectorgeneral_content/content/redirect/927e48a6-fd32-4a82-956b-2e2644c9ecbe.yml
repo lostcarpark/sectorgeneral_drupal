@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 927e48a6-fd32-4a82-956b-2e2644c9ecbe
+  bundle: redirect
+  default_langcode: und
+  depends:
+    0dc3c092-32bc-48dc-844f-8743e57fc4be: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: DYlNLvhz1ZeSrsjTtgroawUFfXvVOGF3oOdnEiyx_mU
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/new-writings-sf-14
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 0dc3c092-32bc-48dc-844f-8743e57fc4be
+  status_code:
+    -
+      value: 301

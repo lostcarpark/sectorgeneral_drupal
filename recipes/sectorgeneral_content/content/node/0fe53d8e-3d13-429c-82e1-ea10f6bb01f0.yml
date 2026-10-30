@@ -1,0 +1,96 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0fe53d8e-3d13-429c-82e1-ea10f6bb01f0
+  bundle: anthology
+  default_langcode: en
+  depends:
+    30b1aa3e-29cb-4423-8a98-4ecbfc391468: node
+    31901999-1b0b-4997-ba01-b90fbb46fc4f: media
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    286edfce-abb4-45aa-985b-048b205cec42: taxonomy_term
+    8c174416-7677-46c4-9eec-be5ee674ecf3: taxonomy_term
+    de99e864-c434-4864-a5c6-bf2637e3853b: taxonomy_term
+    684df443-273d-4c5d-8497-99b2a24f00e6: taxonomy_term
+    c820296a-92d0-4cc4-8842-8ed4a7d0895f: taxonomy_term
+    33622b12-1573-4ee5-8dfe-503699974072: taxonomy_term
+    32dfb838-1b85-446d-8f00-f65cfd4d0785: taxonomy_term
+    d039de82-9a81-4c76-ad65-2d5996bf2275: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover replaced by a larger image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?346241'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Writings in SF 18'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/new-writings-sf-18
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Corgi, March 1971. Dennis Dobson, June 1971.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 30b1aa3e-29cb-4423-8a98-4ecbfc391468
+  field_cover:
+    -
+      entity: 31901999-1b0b-4997-ba01-b90fbb46fc4f
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?34488 (CC BY 4.0).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1328354 (CC BY 4.0).
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_first_published_year:
+    -
+      value: 1971
+  field_isfdb_id:
+    -
+      value: '34488'
+  field_other_contributors:
+    -
+      entity: 286edfce-abb4-45aa-985b-048b205cec42
+    -
+      entity: 8c174416-7677-46c4-9eec-be5ee674ecf3
+    -
+      entity: de99e864-c434-4864-a5c6-bf2637e3853b
+    -
+      entity: 684df443-273d-4c5d-8497-99b2a24f00e6
+    -
+      entity: c820296a-92d0-4cc4-8842-8ed4a7d0895f
+    -
+      entity: 33622b12-1573-4ee5-8dfe-503699974072
+  field_publisher:
+    -
+      entity: 32dfb838-1b85-446d-8f00-f65cfd4d0785
+  field_series:
+    -
+      entity: d039de82-9a81-4c76-ad65-2d5996bf2275
+  field_series_number:
+    -
+      value: 18

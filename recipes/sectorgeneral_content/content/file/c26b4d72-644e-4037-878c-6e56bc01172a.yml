@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c26b4d72-644e-4037-878c-6e56bc01172a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thscrtvstr1963.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thscrtvstr1963.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 88201
+  status:
+    -
+      value: true

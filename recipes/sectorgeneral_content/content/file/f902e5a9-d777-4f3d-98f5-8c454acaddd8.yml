@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f902e5a9-d777-4f3d-98f5-8c454acaddd8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: interpetersbmsfg.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/interpetersbmsfg.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2528
+  status:
+    -
+      value: true

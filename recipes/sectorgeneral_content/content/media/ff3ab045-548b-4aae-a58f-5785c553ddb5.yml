@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: ff3ab045-548b-4aae-a58f-5785c553ddb5
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    c74cc009-e11f-415b-8d0d-794fab70ab9b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Analog Science Fiction and Fact, January 1982 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 1fefe39fb2110d4f88615cb554b6951a1f3d60ba
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://isfdb.org/wiki/images/f/f3/ANLGJAN82.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Analog Science Fiction and Fact, January 1982 cover'
+      title: ''
+      width: 335
+      height: 500
+      entity: c74cc009-e11f-415b-8d0d-794fab70ab9b
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?57118'
+      title: null
+      options: {  }

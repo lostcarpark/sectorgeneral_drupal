@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d4cd1539-557c-47d8-8cb1-eec206258260
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63863 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Countercharm
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/countercharm
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>White badly wanted to make the 100th issue of New Worlds, but :&quot;. . . I did not have a single alien ailment in my head. In desperation I [built] a story round an Earth-human condition that might have an extraterrestrial equivalent, an ailment of which I had first hand experience, diabetes&quot; (from the &#039;Secret history of Sector General&#039;: see under Non-fiction). Cue insulin injection. &quot;But suppose the diabetic patient was a crab-like life-form, whose limbs and body were covered by a hard shell?&quot; (ditto). Aldiss (&#039;Old Hundredth&#039;) and Wyndham (&#039;The Emptiness of Space&#039;) were also at their best for John Carnell&#039;s editorial centruy.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63863 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1960
+  field_isfdb_id:
+    -
+      value: '63863'
+  field_opening_excerpt:
+    -
+      value: '<p>Far out on the galactic Rim, where star-systems were sparse and the darkness almost absolute, the vast, angular structure of Sector Twelve General Hospital hung in space.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WORLDS No 100, November 1960 THE ALIENS, Ed Robert Silverberg, Thomas Nelson, New York, 1978 TOP SE 1, Ed Josh Pachter, Loeb, Amsterdam, 1986 The Aliens Among Us The White Papers. (see under books)</p>'
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 7500

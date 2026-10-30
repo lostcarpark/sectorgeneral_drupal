@@ -1,0 +1,100 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 791147bb-a7af-468b-93a3-08251bbaa77e
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2: node
+    4cad5e00-f923-42cd-a239-def5a90feced: node
+    818b05c8-ccc3-43d8-95e0-b7d6c0e06e49: media
+    8e18cf5b-6bf3-46d8-88f7-41e38d6484ca: taxonomy_term
+    d95704d4-f38d-4d7c-af90-bc84bb1367d4: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    1b570ef4-719e-4946-8a3b-231033cc201d: taxonomy_term
+    9922c4c6-66f7-4fc3-8ea1-57b3aa987d60: taxonomy_term
+    943f5aea-73c1-4c4c-87b4-8134324cc938: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?300369 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Galassia 34, 15 October 1963'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/galassia/galassia-34-15-october-1963
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2
+    -
+      entity: 4cad5e00-f923-42cd-a239-def5a90feced
+  field_cover:
+    -
+      entity: 818b05c8-ccc3-43d8-95e0-b7d6c0e06e49
+  field_cover_artist:
+    -
+      entity: 8e18cf5b-6bf3-46d8-88f7-41e38d6484ca
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?300369 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '15 October 1963'
+  field_editor:
+    -
+      entity: d95704d4-f38d-4d7c-af90-bc84bb1367d4
+  field_isfdb_id:
+    -
+      value: '300369'
+  field_issue_number:
+    -
+      value: '34'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_magazine:
+    -
+      entity: 1b570ef4-719e-4946-8a3b-231033cc201d
+  field_other_contributors:
+    -
+      entity: 9922c4c6-66f7-4fc3-8ea1-57b3aa987d60
+    -
+      entity: 943f5aea-73c1-4c4c-87b4-8134324cc938
+  field_pages:
+    -
+      value: 160
+  field_price:
+    -
+      value: 'Lit 200'
+  field_published_as:
+    -
+      value: 'Il caro parente'
+    -
+      value: 'Il paziente inaspettato'
+  field_sort_date:
+    -
+      value: '1963-10-15'
+  field_year:
+    -
+      value: 1963

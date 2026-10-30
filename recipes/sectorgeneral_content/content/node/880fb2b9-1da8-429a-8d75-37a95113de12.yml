@@ -1,0 +1,72 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 880fb2b9-1da8-429a-8d75-37a95113de12
+  bundle: edition
+  default_langcode: en
+  depends:
+    49407375-06a4-4d3a-8715-c81a979b6ade: media
+    248a2a4d-a8eb-4e13-96f8-c301777749af: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+    0d9a308a-7da0-469c-a89b-09fe74a70368: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Retired: this serialisation is now listed issue by issue.'
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Second Ending, Fantastic, 1961'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/second-ending/second-ending-fantastic-1961
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 49407375-06a4-4d3a-8715-c81a979b6ade
+  field_data_sources:
+    -
+      value: 'James White Information (original site): “FANTASTIC, June & July 1961”'
+  field_date_display:
+    -
+      value: 'June & July 1961'
+  field_format:
+    -
+      entity: 248a2a4d-a8eb-4e13-96f8-c301777749af
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+  field_publisher:
+    -
+      entity: 0d9a308a-7da0-469c-a89b-09fe74a70368
+  field_sort_date:
+    -
+      value: '1961-06-01'
+  field_verified:
+    -
+      value: false
+  field_year:
+    -
+      value: 1961

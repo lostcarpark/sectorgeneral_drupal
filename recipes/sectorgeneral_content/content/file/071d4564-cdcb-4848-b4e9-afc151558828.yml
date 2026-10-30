@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 071d4564-cdcb-4848-b4e9-afc151558828
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: open_prison_1965.jpg
+  uri:
+    -
+      value: 'public://covers/2026-10/open_prison_1965.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 49643
+  status:
+    -
+      value: true

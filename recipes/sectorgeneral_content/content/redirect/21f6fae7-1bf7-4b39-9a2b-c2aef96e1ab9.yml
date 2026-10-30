@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 21f6fae7-1bf7-4b39-9a2b-c2aef96e1ab9
+  bundle: redirect
+  default_langcode: und
+  depends:
+    19b1cfbb-06d6-4aeb-b49b-d7bfc8768db5: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 6CXtoYmsMSMXiP3nsIkaQzR1SM-XsB05butMLxP2gg4
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/finaldiagnosis.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 19b1cfbb-06d6-4aeb-b49b-d7bfc8768db5
+  status_code:
+    -
+      value: 301

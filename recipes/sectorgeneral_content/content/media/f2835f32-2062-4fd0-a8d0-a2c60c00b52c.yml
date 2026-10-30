@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: f2835f32-2062-4fd0-a8d0-a2c60c00b52c
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    f61e1661-a544-4778-9b70-fdb84d66638a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Galaktika folyóirat, March 1987 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 1dfcf1bd6f630d51701a3b477452a1e19ab14c04
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://isfdb.org/wiki/images/9/93/GLKTKTDMNC1987.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Galaktika folyóirat, March 1987 cover'
+      title: ''
+      width: 380
+      height: 500
+      entity: f61e1661-a544-4778-9b70-fdb84d66638a
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?1129683'
+      title: null
+      options: {  }

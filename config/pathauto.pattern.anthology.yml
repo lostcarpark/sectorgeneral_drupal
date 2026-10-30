@@ -1,0 +1,23 @@
+uuid: f266f665-303a-463c-8d5d-2ae8300d1e18
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.anthology
+  module:
+    - node
+id: anthology
+label: Anthologies
+type: 'canonical_entities:node'
+pattern: '/anthologies/[node:title]'
+selection_criteria:
+  1cf89298-6e44-4648-be79-b4b4260cdecc:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      anthology: anthology
+selection_logic: and
+weight: 4
+relationships: {  }

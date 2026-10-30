@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 79d952f7-23ec-4799-bd07-8f13f6a235ae
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    c9d91b61-b917-42f2-9538-3052a3d578b2: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Urania (collana) 1011, 8 December 1985 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: c020cd7f873b63295de9a152dd2cc050fc2491d6
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'http://www.mondourania.com/urania/u1001-1020/u1011.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Urania (collana) 1011, 8 December 1985 cover'
+      title: ''
+      width: 433
+      height: 626
+      entity: c9d91b61-b917-42f2-9538-3052a3d578b2
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?383792'
+      title: null
+      options: {  }

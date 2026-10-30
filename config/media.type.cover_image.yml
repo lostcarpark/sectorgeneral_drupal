@@ -1,0 +1,14 @@
+uuid: df48f275-9062-4f03-b962-aaabb08a0124
+langcode: en
+status: true
+dependencies: {  }
+id: cover_image
+label: 'Cover image'
+description: 'A scan of a book, magazine or edition cover, with its source credit.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map:
+  name: name

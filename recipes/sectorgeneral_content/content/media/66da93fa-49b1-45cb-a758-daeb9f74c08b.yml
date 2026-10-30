@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 66da93fa-49b1-45cb-a758-daeb9f74c08b
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    d1b111b3-c822-4c54-a512-ff0a28d9a2ae: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Supernatural Cats cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: d832326f9409475cc86b868b13cc9ac9dfa46491
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/b/b6/SPRNTRLCTS1972.gif'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Supernatural Cats cover'
+      title: ''
+      width: 288
+      height: 432
+      entity: d1b111b3-c822-4c54-a512-ff0a28d9a2ae
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?253850'
+      title: null
+      options: {  }

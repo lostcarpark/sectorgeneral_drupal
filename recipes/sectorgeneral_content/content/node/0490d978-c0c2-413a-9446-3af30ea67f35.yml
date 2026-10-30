@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0490d978-c0c2-413a-9446-3af30ea67f35
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?96212 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Contagion
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/contagion
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?96212 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1979
+  field_isfdb_id:
+    -
+      value: '96212'
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698

@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: d2dbd7dc-c828-4f9b-9165-1cf97cbfadf7
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    5aeb5619-a405-4d36-88e4-13cd2a0883ad: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Hospital Station, Futura/Orbit, 1986 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: f19defcabf640ae0354890f1eac82f9140424c9d
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/5/54/BKTG19806.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Hospital Station, Futura/Orbit, 1986 cover'
+      title: ''
+      width: 367
+      height: 600
+      entity: 5aeb5619-a405-4d36-88e4-13cd2a0883ad
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?17349'
+      title: null
+      options: {  }

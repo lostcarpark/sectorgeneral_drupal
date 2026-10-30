@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2e341da1-351c-41fa-8620-3217466d7858
+  bundle: edition
+  default_langcode: en
+  depends:
+    c2f59b3f-5ce3-4a40-b6aa-8f76b9ec9b4a: media
+    fac5db52-70b4-4886-90fe-b348c3ed6cb8: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    cb57b576-bba0-4654-976b-ef9f8b91a06f: node
+    03c0e826-c5ee-456f-8600-d2652179fbeb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL9806887M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Dream Millennium, Ballantine, 1982'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/dream-millennium/dream-millennium-ballantine-1982
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: c2f59b3f-5ce3-4a40-b6aa-8f76b9ec9b4a
+  field_cover_artist:
+    -
+      entity: fac5db52-70b4-4886-90fe-b348c3ed6cb8
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ballantine, NY, ISBN 0-345-30417-9, $2.50, 2nd printing, May 1982”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?38846 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9806887M (CC0).
+  field_date_display:
+    -
+      value: 'May 1982'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345304179'
+  field_isfdb_id:
+    -
+      value: '38846'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: cb57b576-bba0-4654-976b-ef9f8b91a06f
+  field_oclc:
+    -
+      value: '797311776'
+  field_openlibrary_id:
+    -
+      value: OL9806887M
+  field_pages:
+    -
+      value: 217
+  field_price:
+    -
+      value: $2.50
+  field_printing:
+    -
+      value: '2nd printing'
+  field_publisher:
+    -
+      entity: 03c0e826-c5ee-456f-8600-d2652179fbeb
+  field_sort_date:
+    -
+      value: '1982-05-01'
+  field_year:
+    -
+      value: 1982

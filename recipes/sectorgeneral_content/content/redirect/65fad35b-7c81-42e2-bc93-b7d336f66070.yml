@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 65fad35b-7c81-42e2-bc93-b7d336f66070
+  bundle: redirect
+  default_langcode: und
+  depends:
+    fca399d1-b2e8-4092-b670-ede2cd585a96: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: Z0TldwhM4nbgGY7koEGn6-FKePGHXq-FFSqNRH9xUkE
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/extro/extro-science-fiction-april-1982
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: fca399d1-b2e8-4092-b670-ede2cd585a96
+  status_code:
+    -
+      value: 301

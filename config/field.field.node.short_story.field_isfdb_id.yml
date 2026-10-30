@@ -1,0 +1,19 @@
+uuid: 2e3c2f75-471c-42c8-aa7e-35c67048746b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_isfdb_id
+    - node.type.short_story
+id: node.short_story.field_isfdb_id
+field_name: field_isfdb_id
+entity_type: node
+bundle: short_story
+label: 'ISFDB ID'
+description: 'The number at the end of the ISFDB page address for this record.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

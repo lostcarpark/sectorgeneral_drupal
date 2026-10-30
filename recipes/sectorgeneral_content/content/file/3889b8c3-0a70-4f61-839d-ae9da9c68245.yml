@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3889b8c3-0a70-4f61-839d-ae9da9c68245
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: watchbelowcorgi.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/watchbelowcorgi.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3864
+  status:
+    -
+      value: true

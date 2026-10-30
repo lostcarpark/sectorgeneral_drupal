@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: c678daaf-a497-46a8-9802-2a7475ac71d1
+  bundle: redirect
+  default_langcode: und
+  depends:
+    a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 2lYKAa68GGlWNxfdSZBeEVt9Ym8O1Kr6_62WF3ZgMT0
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/ambulanceship.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1
+  status_code:
+    -
+      value: 301

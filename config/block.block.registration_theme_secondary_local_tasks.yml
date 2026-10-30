@@ -1,0 +1,22 @@
+uuid: fa011961-0bf5-4678-978a-c4075acaf4fa
+langcode: en
+status: true
+dependencies:
+  theme:
+    - registration_theme
+_core:
+  default_config_hash: BNAq-6voNbxO2YYQrVpTXRvT84C1BKR2TDW29tXaOho
+id: registration_theme_secondary_local_tasks
+theme: registration_theme
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c49c801f-777f-43f1-8544-7a36b7a2dccb
+  bundle: edition
+  default_langcode: en
+  depends:
+    2ea7f198-8285-4883-b0f8-67628c811f1d: taxonomy_term
+    2d0a3410-a4d5-43b2-aca8-9f79b0370788: node
+    452c06f4-d505-43d4-8888-cebe19bce6d2: taxonomy_term
+    f23d26ca-d36f-4139-bf6e-f0ddc2e3af5e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Created from the Polish National Library: https://data.bn.org.pl/api/institutions/bibs.json?id=1687575'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Stan zagrożenia, Dom Wydawniczy Rebis, 2004'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/code-blue-emergency/stan-zagrozenia-dom-wydawniczy-rebis-2004
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'Biblioteka Narodowa record https://data.bn.org.pl/api/institutions/bibs.json?id=1687575 (CC0).'
+  field_date_display:
+    -
+      value: '2004'
+  field_isbn:
+    -
+      value: '9788373014909'
+  field_language:
+    -
+      entity: 2ea7f198-8285-4883-b0f8-67628c811f1d
+  field_novel:
+    -
+      entity: 2d0a3410-a4d5-43b2-aca8-9f79b0370788
+  field_pages:
+    -
+      value: 272
+  field_publisher:
+    -
+      entity: 452c06f4-d505-43d4-8888-cebe19bce6d2
+  field_sort_date:
+    -
+      value: '2004-01-01'
+  field_translator:
+    -
+      entity: f23d26ca-d36f-4139-bf6e-f0ddc2e3af5e
+  field_year:
+    -
+      value: 2004

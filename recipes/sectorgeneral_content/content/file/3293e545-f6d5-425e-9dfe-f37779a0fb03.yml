@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3293e545-f6d5-425e-9dfe-f37779a0fb03
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newworlds114jpg.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/newworlds114jpg.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 13393
+  status:
+    -
+      value: true

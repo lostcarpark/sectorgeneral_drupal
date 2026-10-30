@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 84e3b323-6b6e-4a94-8fba-454942c02fa9
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    b675a054-f53e-4d61-be04-ba1e3935cae7: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Best of Sci-Fi No. 4 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 4d3c27c6555ea52f63d940de0a5e08a176ab6fab
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/9/9f/THBSTFSCFN1965.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'The Best of Sci-Fi No. 4 cover'
+      title: ''
+      width: 394
+      height: 640
+      entity: b675a054-f53e-4d61-be04-ba1e3935cae7
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?269727'
+      title: null
+      options: {  }

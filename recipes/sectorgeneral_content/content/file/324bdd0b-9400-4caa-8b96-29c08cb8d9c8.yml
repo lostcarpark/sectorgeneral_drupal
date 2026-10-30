@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 324bdd0b-9400-4caa-8b96-29c08cb8d9c8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sceincefantasy15.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/sceincefantasy15.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3195
+  status:
+    -
+      value: true

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 5c6c890b-c606-42d8-a28e-27d8c63ce076
+  bundle: publisher
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Ebury Press'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /publishers/ebury-press
+      langcode: en
+      pathauto: 1

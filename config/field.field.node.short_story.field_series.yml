@@ -1,0 +1,26 @@
+uuid: 894e88ca-3689-44dd-ab14-0454ac216b65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_series
+    - node.type.short_story
+    - taxonomy.vocabulary.series
+id: node.short_story.field_series
+field_name: field_series
+entity_type: node
+bundle: short_story
+label: Series
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      series: series
+    auto_create: true
+    auto_create_bundle: series
+field_type: entity_reference

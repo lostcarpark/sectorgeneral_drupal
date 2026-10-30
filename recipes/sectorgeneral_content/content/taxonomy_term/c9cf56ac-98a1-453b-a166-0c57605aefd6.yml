@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c9cf56ac-98a1-453b-a166-0c57605aefd6
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'H. P. Lovecraft'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/h-p-lovecraft
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

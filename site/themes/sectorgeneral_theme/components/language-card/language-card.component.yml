@@ -1,0 +1,28 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json
+name: Language card
+status: stable
+description: A language James White has been published in - a fan of covers, the language's name, and how much there is. The whole card links to the language's page.
+props:
+  type: object
+  required:
+    - name
+    - url
+  properties:
+    name:
+      type: string
+      title: Language
+    url:
+      type: string
+      title: URL
+    summary:
+      type: array
+      title: Summary
+      description: Short phrases, e.g. "45 publications", "1957–2021".
+    detail:
+      type: array
+      title: Detail
+      description: Short phrases, e.g. "25 editions of 10 books", "20 magazine issues".
+slots:
+  covers:
+    title: Covers
+    description: Up to three cover images, fanned out.

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7f3a233c-162e-43fd-96f7-1a23d6822eb3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: grndprmjlp1976.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/grndprmjlp1976.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 85129
+  status:
+    -
+      value: true

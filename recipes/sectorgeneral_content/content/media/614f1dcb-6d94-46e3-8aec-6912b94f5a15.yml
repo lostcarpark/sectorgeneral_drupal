@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 614f1dcb-6d94-46e3-8aec-6912b94f5a15
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    cfe56623-32a1-42db-b2fe-5755ed4bc9d3: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Tomorrow Is Too Far, Ballantine, 1971 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 96e8c94ee05a6dd2f02e751ce1175ae4ebfa1710
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/0/01/TMRRWSTFRW1971.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Tomorrow Is Too Far, Ballantine, 1971 cover'
+      title: ''
+      width: 308
+      height: 500
+      entity: cfe56623-32a1-42db-b2fe-5755ed4bc9d3
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?182909'
+      title: null
+      options: {  }

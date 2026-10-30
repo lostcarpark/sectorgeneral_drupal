@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 81614b4f-2721-4cac-b788-b4e82c949172
+  bundle: redirect
+  default_langcode: en
+  depends:
+    f223d848-5791-4e24-aa00-f011fd2f0ede: taxonomy_term
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 8TQWckdSFc-jcbZONJ8GwC41-TuovryMJW9ZgrMRbbc
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: language/russian
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: f223d848-5791-4e24-aa00-f011fd2f0ede
+  status_code:
+    -
+      value: 301

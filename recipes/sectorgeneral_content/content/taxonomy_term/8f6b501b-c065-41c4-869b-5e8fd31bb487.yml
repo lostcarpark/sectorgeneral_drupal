@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8f6b501b-c065-41c4-869b-5e8fd31bb487
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Gisela Bulla'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/gisela-bulla
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

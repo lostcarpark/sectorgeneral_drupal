@@ -1,0 +1,92 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0022276c-ed2b-486a-85cf-f05c5e199965
+  bundle: anthology
+  default_langcode: en
+  depends:
+    da53ab75-d1e1-4d54-be8d-09f26126ed1e: node
+    481bfd86-ec2d-4cc0-9998-cb6f73e46bcc: media
+    98198ea5-db97-409a-92f0-7f61cee9333f: taxonomy_term
+    bb877789-7da6-4546-a3d5-702fd26f4018: taxonomy_term
+    9713cdfc-8615-4943-8018-90475b8d038f: taxonomy_term
+    b7702d20-2ede-44a7-91a0-a1689781cf1e: taxonomy_term
+    c7e922de-92da-4279-a3cf-37eba01340cf: taxonomy_term
+    b9bce5b2-7974-4f8b-856a-9e5a28916391: taxonomy_term
+    69a40783-16db-4c68-a0f4-3e03b1023f92: taxonomy_term
+    f6983f8f-cc31-40a3-93eb-2b35e16bb657: taxonomy_term
+    b770a83f-cef9-4dbb-b441-95f128a9ae6b: taxonomy_term
+    2489534c-0801-43c6-89f5-eb25fb1d11ea: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?454519'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Terra Science Fiction'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/terra-science-fiction
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Moewig, August 1982, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: da53ab75-d1e1-4d54-be8d-09f26126ed1e
+  field_cover:
+    -
+      entity: 481bfd86-ec2d-4cc0-9998-cb6f73e46bcc
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1744142 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 98198ea5-db97-409a-92f0-7f61cee9333f
+  field_first_published_year:
+    -
+      value: 1982
+  field_isfdb_id:
+    -
+      value: '1744142'
+  field_other_contributors:
+    -
+      entity: bb877789-7da6-4546-a3d5-702fd26f4018
+    -
+      entity: 9713cdfc-8615-4943-8018-90475b8d038f
+    -
+      entity: b7702d20-2ede-44a7-91a0-a1689781cf1e
+    -
+      entity: c7e922de-92da-4279-a3cf-37eba01340cf
+    -
+      entity: b9bce5b2-7974-4f8b-856a-9e5a28916391
+    -
+      entity: 69a40783-16db-4c68-a0f4-3e03b1023f92
+    -
+      entity: f6983f8f-cc31-40a3-93eb-2b35e16bb657
+    -
+      entity: b770a83f-cef9-4dbb-b441-95f128a9ae6b
+  field_publisher:
+    -
+      entity: 2489534c-0801-43c6-89f5-eb25fb1d11ea

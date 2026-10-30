@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d3f3165f-cada-4743-bcc8-868e0e419c8d
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Siklósi Feren'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/siklosi-feren
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

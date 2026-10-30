@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f50e4ffe-ba74-40e6-a0b1-d5025aac4d8c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: james-white-wikipedia.png
+  uri:
+    -
+      value: 'public://photos/2026-10/james-white-wikipedia.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 71069
+  status:
+    -
+      value: true

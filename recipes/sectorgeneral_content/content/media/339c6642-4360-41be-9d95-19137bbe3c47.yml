@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 339c6642-4360-41be-9d95-19137bbe3c47
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    dbc9a39b-8f0a-499e-b608-8b937684f5de: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Hospital Station, Del Ray, 1979 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 26ea506de8eabe9d5a4a506c8d847fa994694633
+  field_media_image:
+    -
+      alt: 'Hospital Station, Del Ray, 1979'
+      title: ''
+      width: 306
+      height: 500
+      entity: dbc9a39b-8f0a-499e-b608-8b937684f5de

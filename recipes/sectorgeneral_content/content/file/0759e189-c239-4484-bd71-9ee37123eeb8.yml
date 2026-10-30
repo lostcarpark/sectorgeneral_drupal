@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0759e189-c239-4484-bd71-9ee37123eeb8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thscprbt1983.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thscprbt1983.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 111775
+  status:
+    -
+      value: true

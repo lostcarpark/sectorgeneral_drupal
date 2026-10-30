@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 228b3e8e-9ad8-4f6e-baa6-dbf83c8be321
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Yefim Zozulya'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/yefim-zozulya
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

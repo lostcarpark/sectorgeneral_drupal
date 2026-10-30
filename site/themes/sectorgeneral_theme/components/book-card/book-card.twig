@@ -1,0 +1,32 @@
+{#
+/**
+ * @file
+ * Book card: cover, title, then "year · type" and the series.
+ *
+ * The link wraps the cover and title; it's stretched over the whole card, so
+ * the card is one click target while screen readers hear just the title.
+ */
+#}
+{% set has_cover = cover|render|striptags('<img>')|trim is not empty %}
+<article class="book-card">
+  <div class="book-card__cover{{ has_cover ? '' : ' book-card__cover--none' }}">
+    {% if has_cover %}
+      {{ cover }}
+    {% else %}
+      <span class="book-card__cover-title" aria-hidden="true">{{ title }}</span>
+    {% endif %}
+  </div>
+  <h2 class="book-card__title">
+    <a class="book-card__link" href="{{ url }}">{{ title }}</a>
+  </h2>
+  {% if year or type %}
+    <p class="book-card__meta">
+      {{- year -}}
+      {%- if year and type %} · {% endif -%}
+      {{- type -}}
+    </p>
+  {% endif %}
+  {% if series %}
+    <p class="book-card__series">{{ series }}{% if series_number %} {{ series_number }}{% endif %}</p>
+  {% endif %}
+</article>

@@ -1,0 +1,87 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5ee29bab-0610-4cf3-857a-4bbfc19fb80e
+  bundle: edition
+  default_langcode: en
+  depends:
+    1f836717-c9f1-4b30-8cd6-820e50fb40cd: media
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    77839f28-06fe-4a5d-819c-9a837540e410: node
+    03c0e826-c5ee-456f-8600-d2652179fbeb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover replaced by a larger image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?9426'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Deadly Litter, Ballantine, 1964'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/deadly-litter/deadly-litter-ballantine-1964
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 1f836717-c9f1-4b30-8cd6-820e50fb40cd
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ballantine Books, No U2224, October 1964”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?9426 (CC BY 4.0).
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?296624 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'October 1964'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '9426'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 77839f28-06fe-4a5d-819c-9a837540e410
+  field_oclc:
+    -
+      value: '33239011'
+  field_pages:
+    -
+      value: 175
+  field_price:
+    -
+      value: C$0.50
+  field_publisher:
+    -
+      entity: 03c0e826-c5ee-456f-8600-d2652179fbeb
+  field_publisher_reference:
+    -
+      value: U2224
+  field_sort_date:
+    -
+      value: '1964-10-01'
+  field_year:
+    -
+      value: 1964

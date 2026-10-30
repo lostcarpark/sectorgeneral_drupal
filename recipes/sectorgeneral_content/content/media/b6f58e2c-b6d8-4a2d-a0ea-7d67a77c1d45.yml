@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b6f58e2c-b6d8-4a2d-a0ea-7d67a77c1d45
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    f1f6650a-1152-4eb1-9700-cfbbcc8ef8ee: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Star Surgeon, Ballantine, 1963 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: fabe8d0b3f2a6334590d420ebb4a296656362edb
+  field_media_image:
+    -
+      alt: 'Star Surgeon, Ballantine, 1963'
+      title: ''
+      width: 220
+      height: 370
+      entity: f1f6650a-1152-4eb1-9700-cfbbcc8ef8ee

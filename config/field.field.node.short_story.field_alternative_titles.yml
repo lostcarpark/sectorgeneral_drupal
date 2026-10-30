@@ -1,0 +1,19 @@
+uuid: bfcc6050-c6ac-4f82-b0b6-b0d96debc9c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alternative_titles
+    - node.type.short_story
+id: node.short_story.field_alternative_titles
+field_name: field_alternative_titles
+entity_type: node
+bundle: short_story
+label: 'Alternative titles'
+description: 'Other English titles this work was published under (e.g. The Escape Orbit). Translated titles belong on the edition.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

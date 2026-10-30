@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 7399217a-28fe-4cc6-88af-8a9c2454dcef
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    8d96a899-aea1-422a-b49e-30ca2f15d70e: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Der Kampf der Weltraum-Mediziner, Ullstein, 1978 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 5a618f7251edfa1ec32aa4ceb29a765bb4ff1c91
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/6/6e/KMPFDRWLTR1978.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Der Kampf der Weltraum-Mediziner, Ullstein, 1978 cover'
+      title: ''
+      width: 232
+      height: 354
+      entity: 8d96a899-aea1-422a-b49e-30ca2f15d70e
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?634001'
+      title: null
+      options: {  }

@@ -1,0 +1,9 @@
+uuid: 2e1c8cbb-a962-49f5-a813-817a3713778b
+langcode: en
+status: true
+dependencies: {  }
+name: People
+vid: people
+description: 'Cover artists, illustrators, translators, editors and other contributors.'
+weight: 0
+new_revision: false

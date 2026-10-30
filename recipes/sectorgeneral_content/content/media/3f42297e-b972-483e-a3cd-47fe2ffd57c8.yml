@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 3f42297e-b972-483e-a3cd-47fe2ffd57c8
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    fc36741b-f441-411c-8507-643da49702cc: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Star Surgeon, Futura/Orbit, 1986 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 9e7fe84f2e51caefc96864ae67d85050ec68ca33
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Star Surgeon cover'
+      title: ''
+      width: 100
+      height: 169
+      entity: fc36741b-f441-411c-8507-643da49702cc

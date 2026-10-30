@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: c567b20a-d42d-4c65-a187-9dc2872e4327
+  bundle: redirect
+  default_langcode: und
+  depends:
+    1a769d87-0bc1-4c92-8ea8-4eaf6448a480: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: iNid8NzDaHApz6lPukOABNaLCxhouF-Z8WHZj2MYWac
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/sectorgeneral.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 1a769d87-0bc1-4c92-8ea8-4eaf6448a480
+  status_code:
+    -
+      value: 301

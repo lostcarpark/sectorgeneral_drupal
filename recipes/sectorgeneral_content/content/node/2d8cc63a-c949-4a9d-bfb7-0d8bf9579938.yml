@@ -1,0 +1,78 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2d8cc63a-c949-4a9d-bfb7-0d8bf9579938
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?98726 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Medic
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/medic
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>The muscular medic called O&#039;Mara* is more like Vince (Ben Casey) Edwards than Richard (Dr. Kildare) Chamberlain. Early job evaluation: &quot;Approved Suitable for Heavy Sustained Labour.&quot; He practically built Sector Twelve General Hospital with his own two pork-butcher hands. &#039;O&#039;Mara&#039;s Orphan&#039; -- stuff Medic -- is a massive FROB Hudlar wee&#039;un placed in the tender loathing care of you-know-who. (&quot;Junior was hungry again . . . &quot;!) Popeye never had as much trouble with Swee&#039;pea. O&#039;Mara finally joins the medical staff, however, and the rest is far from silent.</p>
+        <p>* I for one, believe his full name to be James W(hite) O&#039;Mara.</p>
+      format: basic_html
+      summary: ''
+  field_alternative_titles:
+    -
+      value: "O'Mara's Orphan"
+    -
+      value: Medic
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?98726 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1960
+  field_isfdb_id:
+    -
+      value: '98726'
+  field_opening_excerpt:
+    -
+      value: '<p>The alien occupying O&#039;Mara&#039;s sleeping compartment weighed roughly half a ton, possessed six short, thick appendages which served both as arms and legs and had a hide like flexible armour plate.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WORLDS No 90, January 1960 WORLDS APART, Blackie, September 1966 Hospital Station (As &#039;Medic&#039;: see under Books) The White Papers</p>'
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 14000

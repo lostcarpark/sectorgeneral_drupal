@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b070dc34-fd1d-4800-a014-dfb4798d7eaf
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    7d71eafa-3d8d-4923-b825-acdf5251cfdf: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Monsters and Medics, Corgi, 1977 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 7a07703c2c65c6f20de9854f96822070b1f64a53
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/5/5f/MLO4282.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Monsters and Medics, Corgi, 1977 cover'
+      title: ''
+      width: 388
+      height: 640
+      entity: 7d71eafa-3d8d-4923-b825-acdf5251cfdf
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?22634'
+      title: null
+      options: {  }

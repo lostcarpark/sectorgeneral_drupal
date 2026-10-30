@@ -1,0 +1,118 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a3d87d2d-5f8a-4508-9b8d-96da633c2d22
+  bundle: anthology
+  default_langcode: en
+  depends:
+    809f2d30-8095-45d4-b6dd-0dda7cffaeb4: node
+    062442b0-c3b3-4a05-b59e-80230bd5c267: media
+    0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea: taxonomy_term
+    b226aeaa-e71f-48e7-b1bb-540fe32b5459: taxonomy_term
+    cf3933b1-5efa-4430-820c-517e868004dd: taxonomy_term
+    e9b58712-fc92-4a59-a5e5-e6cf33c1479d: taxonomy_term
+    b31d2af0-345f-4612-adf9-ed02b344c905: taxonomy_term
+    9e872ad9-522d-4352-a13f-890044a71d7c: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    03412753-2c7e-4dc0-ab17-7aa4af3b0f2e: taxonomy_term
+    953e4438-0cf1-4b8e-ae96-f0c68f5677a6: taxonomy_term
+    d44c6cf5-44a1-48e1-91cc-6e99dc863b7b: taxonomy_term
+    1a2da62a-0579-4530-ad45-5732ff735bd5: taxonomy_term
+    ee391b45-261b-41c5-94a4-67e1402f0c66: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    4699c9da-3e32-4e0c-8973-105dede7460c: taxonomy_term
+    bedc199f-cef0-4b30-9081-69275cc8e644: taxonomy_term
+    9f3bd3b5-63c1-4d95-adbc-12cd5dd0c51b: taxonomy_term
+    9fb07210-087e-4651-8f9e-b0ae728fcaf5: taxonomy_term
+    96a394c4-24e4-4c76-ae78-21f14a58b50e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?2066501 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Imperios galácticos 2'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/imperios-galacticos-2
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Editorial Bruguera SA, Barcelona, 1977. Spanish edition of Galactic Empires.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 809f2d30-8095-45d4-b6dd-0dda7cffaeb4
+  field_cover:
+    -
+      entity: 062442b0-c3b3-4a05-b59e-80230bd5c267
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?2066501 (CC BY 4.0).
+  field_editor:
+    -
+      entity: 0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea
+    -
+      entity: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+  field_first_published_year:
+    -
+      value: 1977
+  field_isfdb_id:
+    -
+      value: '2066501'
+  field_other_contributors:
+    -
+      entity: cf3933b1-5efa-4430-820c-517e868004dd
+    -
+      entity: e9b58712-fc92-4a59-a5e5-e6cf33c1479d
+    -
+      entity: b31d2af0-345f-4612-adf9-ed02b344c905
+    -
+      entity: 9e872ad9-522d-4352-a13f-890044a71d7c
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: 03412753-2c7e-4dc0-ab17-7aa4af3b0f2e
+    -
+      entity: 953e4438-0cf1-4b8e-ae96-f0c68f5677a6
+    -
+      entity: d44c6cf5-44a1-48e1-91cc-6e99dc863b7b
+    -
+      entity: 1a2da62a-0579-4530-ad45-5732ff735bd5
+    -
+      entity: ee391b45-261b-41c5-94a4-67e1402f0c66
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: 4699c9da-3e32-4e0c-8973-105dede7460c
+    -
+      entity: bedc199f-cef0-4b30-9081-69275cc8e644
+    -
+      entity: 9f3bd3b5-63c1-4d95-adbc-12cd5dd0c51b
+    -
+      entity: 9fb07210-087e-4651-8f9e-b0ae728fcaf5
+  field_publisher:
+    -
+      entity: 96a394c4-24e4-4c76-ae78-21f14a58b50e

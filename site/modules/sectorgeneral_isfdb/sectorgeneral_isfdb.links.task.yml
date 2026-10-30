@@ -1,0 +1,10 @@
+sectorgeneral_isfdb.duplicates:
+  title: 'ISFDB duplicates'
+  route_name: sectorgeneral_isfdb.duplicates
+  base_route: system.admin_content
+  weight: 20
+sectorgeneral_isfdb.library_review:
+  title: 'Library records'
+  route_name: sectorgeneral_isfdb.library_review
+  base_route: system.admin_content
+  weight: 21

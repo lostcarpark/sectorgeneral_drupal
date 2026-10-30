@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 180c800d-c3e7-492e-b1e3-3338e9b7dc60
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Woodward
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/woodward
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

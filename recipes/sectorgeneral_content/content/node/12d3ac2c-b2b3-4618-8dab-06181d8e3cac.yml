@@ -1,0 +1,114 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 12d3ac2c-b2b3-4618-8dab-06181d8e3cac
+  bundle: anthology
+  default_langcode: en
+  depends:
+    ad7e263f-afa9-49e6-a611-f2fd53633b5e: node
+    b6016dd4-4fb7-40f8-8b28-8e28d1433786: media
+    62231f8e-e629-451e-83ca-4348eec95ae7: taxonomy_term
+    0eb56863-2bbe-40c3-b901-4a18d7b95438: taxonomy_term
+    f81bff02-af91-4ca1-bd81-a87314fe3ac7: taxonomy_term
+    134af15d-c13e-468e-a490-8b485539a877: taxonomy_term
+    6bb717a9-dcb3-4450-80ed-cc238158e938: taxonomy_term
+    a71b1b68-5e39-4cc5-b022-fc12698ed1d1: taxonomy_term
+    29ea04b5-102f-42d6-beec-4a97c31c6b4f: taxonomy_term
+    8d6575b0-5e73-41a6-80ab-fe51ab1914c6: taxonomy_term
+    63f38f7c-fb34-48b8-a835-fa2306905205: taxonomy_term
+    caa9cb93-3e4c-41dc-b115-e9d3513a78e6: taxonomy_term
+    07c72fa3-f971-4624-bce4-1606384cf9ec: taxonomy_term
+    a4b3aa75-e228-4329-9093-dcc33db1eff7: taxonomy_term
+    7323227d-8516-4ab7-b069-fa79dfe8731c: taxonomy_term
+    e6a60529-2f88-4875-8cd4-f56a6ad66489: taxonomy_term
+    ce390843-d2f2-4502-99e0-cd967dad6ccb: taxonomy_term
+    e7854442-35b5-421a-a2c4-cee21b4e7c78: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?27854'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Republic and Empire'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/republic-and-empire
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Baen Books, October 1987, Paperback. Baen Books, October 1987, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: ad7e263f-afa9-49e6-a611-f2fd53633b5e
+  field_cover:
+    -
+      entity: b6016dd4-4fb7-40f8-8b28-8e28d1433786
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?34937 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 62231f8e-e629-451e-83ca-4348eec95ae7
+    -
+      entity: 0eb56863-2bbe-40c3-b901-4a18d7b95438
+  field_first_published_year:
+    -
+      value: 1987
+  field_isfdb_id:
+    -
+      value: '34937'
+  field_other_contributors:
+    -
+      entity: f81bff02-af91-4ca1-bd81-a87314fe3ac7
+    -
+      entity: 134af15d-c13e-468e-a490-8b485539a877
+    -
+      entity: 6bb717a9-dcb3-4450-80ed-cc238158e938
+    -
+      entity: a71b1b68-5e39-4cc5-b022-fc12698ed1d1
+    -
+      entity: 29ea04b5-102f-42d6-beec-4a97c31c6b4f
+    -
+      entity: 8d6575b0-5e73-41a6-80ab-fe51ab1914c6
+    -
+      entity: 63f38f7c-fb34-48b8-a835-fa2306905205
+    -
+      entity: caa9cb93-3e4c-41dc-b115-e9d3513a78e6
+    -
+      entity: 07c72fa3-f971-4624-bce4-1606384cf9ec
+    -
+      entity: a4b3aa75-e228-4329-9093-dcc33db1eff7
+    -
+      entity: 7323227d-8516-4ab7-b069-fa79dfe8731c
+    -
+      entity: e6a60529-2f88-4875-8cd4-f56a6ad66489
+  field_publisher:
+    -
+      entity: ce390843-d2f2-4502-99e0-cd967dad6ccb
+  field_series:
+    -
+      entity: e7854442-35b5-421a-a2c4-cee21b4e7c78
+  field_series_number:
+    -
+      value: 2

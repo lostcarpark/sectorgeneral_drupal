@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7b5c6aa3-db8b-4499-99e4-7737100301b5
+  bundle: anthology
+  default_langcode: en
+  depends:
+    9b1202e7-a80e-4c92-b146-d00078b4d127: node
+    891bff99-eb83-42cd-a970-9d8b33b4862a: media
+    3ca1637a-491a-4b74-9d92-697f127727a0: taxonomy_term
+    c1bc697f-6d3f-40c2-a009-91d88d13d4a6: taxonomy_term
+    d4ae8fec-21f7-4aa8-b1d4-a87c9b30cbdf: taxonomy_term
+    8103856b-8e17-4857-a64d-66b13df12307: taxonomy_term
+    134af15d-c13e-468e-a490-8b485539a877: taxonomy_term
+    d056647f-05b2-4b72-b4e9-d54ef021309b: taxonomy_term
+    caa9cb93-3e4c-41dc-b115-e9d3513a78e6: taxonomy_term
+    c878dcbc-37af-4df2-90c1-64a6640d35cf: taxonomy_term
+    77a9d731-b739-4013-9c86-df7999319b3f: taxonomy_term
+    dc5875fa-8328-4d42-8b2e-90f29e3cd770: taxonomy_term
+    09e79d44-324e-4614-8fed-e820bb81d3d0: taxonomy_term
+    2b55f4f5-fabf-4cfa-a782-7905c6674e49: taxonomy_term
+    57a0a03e-e37d-4401-9495-9459d2ba68bc: taxonomy_term
+    d49bd880-9fb7-41ab-9842-5ac091b5e3c8: taxonomy_term
+    7e9b0603-bb1d-40ac-99a2-4900d447ff55: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?29087'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Selected Stories from Science-Fiction Adventures in Mutation'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/selected-stories-science-fiction-adventures-mutation
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Berkley Medallion, June 1965, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 9b1202e7-a80e-4c92-b146-d00078b4d127
+  field_cover:
+    -
+      entity: 891bff99-eb83-42cd-a970-9d8b33b4862a
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?992018 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 3ca1637a-491a-4b74-9d92-697f127727a0
+  field_first_published_year:
+    -
+      value: 1965
+  field_isfdb_id:
+    -
+      value: '992018'
+  field_other_contributors:
+    -
+      entity: c1bc697f-6d3f-40c2-a009-91d88d13d4a6
+    -
+      entity: d4ae8fec-21f7-4aa8-b1d4-a87c9b30cbdf
+    -
+      entity: 8103856b-8e17-4857-a64d-66b13df12307
+    -
+      entity: 134af15d-c13e-468e-a490-8b485539a877
+    -
+      entity: d056647f-05b2-4b72-b4e9-d54ef021309b
+    -
+      entity: caa9cb93-3e4c-41dc-b115-e9d3513a78e6
+    -
+      entity: c878dcbc-37af-4df2-90c1-64a6640d35cf
+    -
+      entity: 77a9d731-b739-4013-9c86-df7999319b3f
+    -
+      entity: dc5875fa-8328-4d42-8b2e-90f29e3cd770
+    -
+      entity: 09e79d44-324e-4614-8fed-e820bb81d3d0
+    -
+      entity: 2b55f4f5-fabf-4cfa-a782-7905c6674e49
+    -
+      entity: 57a0a03e-e37d-4401-9495-9459d2ba68bc
+    -
+      entity: d49bd880-9fb7-41ab-9842-5ac091b5e3c8
+  field_publisher:
+    -
+      entity: 7e9b0603-bb1d-40ac-99a2-4900d447ff55

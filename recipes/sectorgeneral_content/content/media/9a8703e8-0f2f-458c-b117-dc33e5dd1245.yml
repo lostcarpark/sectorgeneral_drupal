@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 9a8703e8-0f2f-458c-b117-dc33e5dd1245
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    ccb2b3ef-2b21-49f8-946c-138235fc0cf8: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Das Jahrtausend der Träume, Goldmann, 1978 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: ddde609abbb9d9238649fc3b8ed09411b8853a46
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/f/ff/DSJHRTSNDD1978.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Das Jahrtausend der Träume, Goldmann, 1978 cover'
+      title: ''
+      width: 286
+      height: 448
+      entity: ccb2b3ef-2b21-49f8-946c-138235fc0cf8
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?495943'
+      title: null
+      options: {  }

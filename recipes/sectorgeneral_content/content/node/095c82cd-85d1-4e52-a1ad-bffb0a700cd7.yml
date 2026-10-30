@@ -1,0 +1,82 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 095c82cd-85d1-4e52-a1ad-bffb0a700cd7
+  bundle: edition
+  default_langcode: en
+  depends:
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    1f7e2d67-9523-43b6-b2fc-b66704b77066: node
+    47dcdfd9-5b9d-431e-b100-e494eb3e62cd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL10685083M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Futures Past, Del Rey / Ballantine, 1986'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/futures-past/futures-past-del-rey-ballantine-1986
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?14926 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL10685083M (CC0).
+  field_date_display:
+    -
+      value: 'December 1986'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345344427'
+  field_isfdb_id:
+    -
+      value: '14926'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 1f7e2d67-9523-43b6-b2fc-b66704b77066
+  field_openlibrary_id:
+    -
+      value: OL10685083M
+  field_pages:
+    -
+      value: 228
+  field_price:
+    -
+      value: $2.95
+  field_publisher:
+    -
+      entity: 47dcdfd9-5b9d-431e-b100-e494eb3e62cd
+  field_sort_date:
+    -
+      value: '1986-12-01'
+  field_year:
+    -
+      value: 1986

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d6f8963f-6fc0-4b6f-8e98-ef30414d93e7
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: scncstrs6b1979.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/scncstrs6b1979.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 142316
+  status:
+    -
+      value: true

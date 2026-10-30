@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 2613b5ba-d862-4fc5-a677-80c4fa5248f0
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    d291738c-830b-4325-a2aa-2d46474805ed: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Secret Visitors, Digit Books cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: c307ff1d0a85d689ddd48a8f6cb50b8b31421c79
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Secret Visitors Digit'
+      title: ''
+      width: 100
+      height: 168
+      entity: d291738c-830b-4325-a2aa-2d46474805ed

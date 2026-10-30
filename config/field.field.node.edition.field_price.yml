@@ -1,0 +1,19 @@
+uuid: cd8c878e-af67-4331-b248-7982222b5662
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.edition
+id: node.edition.field_price
+field_name: field_price
+entity_type: node
+bundle: edition
+label: Price
+description: 'As printed, e.g. 3/6d or 50 cents.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

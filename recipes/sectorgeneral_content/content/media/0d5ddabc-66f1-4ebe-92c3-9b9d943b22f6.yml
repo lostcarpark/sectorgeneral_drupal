@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 0d5ddabc-66f1-4ebe-92c3-9b9d943b22f6
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    3208417a-8a3d-4465-9c09-6f67ef560ade: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Worlds Magazine, January 1962 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: a96678db16c9ad5a001be10a9d41000a4cddf083
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/c/c7/NEWWRJAN1962.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'New Worlds Magazine, January 1962 cover'
+      title: ''
+      width: 637
+      height: 895
+      entity: 3208417a-8a3d-4465-9c09-6f67ef560ade
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?169771'
+      title: null
+      options: {  }

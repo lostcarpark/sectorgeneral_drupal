@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c3b12057-a125-4e29-a7ca-6edbedfb5600
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    7f5403ed-3d66-4098-a8cb-f8d86676c930: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Beyond the Enchanted Duplicator... ...To the Enchanted Convention, PROmote Communications, 1991 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 712dcbeebae59c945803f192e5f54f71536b1837
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/5/53/BNDTHNCHNT1991.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Beyond the Enchanted Duplicator... ...To the Enchanted Convention, PROmote Communications, 1991 cover'
+      title: ''
+      width: 461
+      height: 600
+      entity: 7f5403ed-3d66-4098-a8cb-f8d86676c930
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?759695'
+      title: null
+      options: {  }

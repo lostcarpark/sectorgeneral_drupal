@@ -1,0 +1,111 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8fa762c8-7591-454e-ba6b-9208aa893a9c
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    f9ffc49f-fb23-4194-b825-52ff8f98a097: node
+    ff3ab045-548b-4aae-a58f-5785c553ddb5: media
+    29f25053-4657-49b8-9df8-a2b1a40038fb: taxonomy_term
+    20e127fc-b1f1-496e-b435-a43151c91fd1: taxonomy_term
+    705eb42c-4703-48f3-bd12-9549f379c0ba: taxonomy_term
+    5cba4392-3519-473d-a3d2-30130620ad79: taxonomy_term
+    eee480b3-1b61-4ca3-978c-1ee95a312ead: taxonomy_term
+    3881319c-1767-414a-a86f-2e4b6ff8427b: taxonomy_term
+    64d977cd-dec5-4d90-91b1-610d207dc0fe: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    35e411d8-3c59-4666-84ed-9c05c22b161a: taxonomy_term
+    1d4b83bc-9c12-47f6-b018-bb1cc8ed74d1: taxonomy_term
+    72304907-1224-4ac6-8bd5-6ee1e63ea70d: taxonomy_term
+    458524b9-58d8-4fa4-9c5a-76c9b189b0db: taxonomy_term
+    9c4c0e64-d5b7-46cc-b13a-f02fa9a76538: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?57118 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Analog Science Fiction and Fact, January 1982'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/analog-science-fiction-and-fact/analog-science-fiction-and-fact-january-1982
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: f9ffc49f-fb23-4194-b825-52ff8f98a097
+  field_cover:
+    -
+      entity: ff3ab045-548b-4aae-a58f-5785c553ddb5
+  field_cover_artist:
+    -
+      entity: 29f25053-4657-49b8-9df8-a2b1a40038fb
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?57118 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'January 1982'
+  field_editor:
+    -
+      entity: 20e127fc-b1f1-496e-b435-a43151c91fd1
+  field_interior_artist:
+    -
+      entity: 705eb42c-4703-48f3-bd12-9549f379c0ba
+    -
+      entity: 5cba4392-3519-473d-a3d2-30130620ad79
+    -
+      entity: eee480b3-1b61-4ca3-978c-1ee95a312ead
+    -
+      entity: 3881319c-1767-414a-a86f-2e4b6ff8427b
+    -
+      entity: 64d977cd-dec5-4d90-91b1-610d207dc0fe
+  field_isfdb_id:
+    -
+      value: '57118'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 35e411d8-3c59-4666-84ed-9c05c22b161a
+  field_other_contributors:
+    -
+      entity: 1d4b83bc-9c12-47f6-b018-bb1cc8ed74d1
+    -
+      entity: 72304907-1224-4ac6-8bd5-6ee1e63ea70d
+    -
+      entity: 458524b9-58d8-4fa4-9c5a-76c9b189b0db
+    -
+      entity: 9c4c0e64-d5b7-46cc-b13a-f02fa9a76538
+  field_pages:
+    -
+      value: 180
+  field_price:
+    -
+      value: $1.50
+  field_sort_date:
+    -
+      value: '1982-01-01'
+  field_year:
+    -
+      value: 1982

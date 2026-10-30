@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c577c8b0-483d-4cd4-8955-7d010ada0a61
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    e36df0eb-1b34-4a1b-8837-ad162d06ebd8: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The British Way cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: f4eff62463706dc140c1a20f521964a453faaca9
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/7/74/RTOSFBW1998.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'The British Way cover'
+      title: ''
+      width: 600
+      height: 394
+      entity: e36df0eb-1b34-4a1b-8837-ad162d06ebd8
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?46287'
+      title: null
+      options: {  }

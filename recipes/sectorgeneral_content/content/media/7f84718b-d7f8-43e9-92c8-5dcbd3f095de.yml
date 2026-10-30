@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 7f84718b-d7f8-43e9-92c8-5dcbd3f095de
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    c7e5c900-3e6f-43b9-b776-1390f4f8d31c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'All Judgement Fled, Walker & Co, 1969 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: db9bcf5b17946bd2ce851cf298907bd41b108b9d
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/a/ab/LLJDGMNTFB1969.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'All Judgement Fled, Walker & Co, 1969 cover'
+      title: ''
+      width: 317
+      height: 369
+      entity: c7e5c900-3e6f-43b9-b776-1390f4f8d31c
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?265432'
+      title: null
+      options: {  }

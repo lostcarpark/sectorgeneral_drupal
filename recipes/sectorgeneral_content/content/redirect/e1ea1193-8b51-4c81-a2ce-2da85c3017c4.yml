@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: e1ea1193-8b51-4c81-a2ce-2da85c3017c4
+  bundle: redirect
+  default_langcode: en
+  depends:
+    3b909b15-13a9-4c7d-a459-89c332b5236c: taxonomy_term
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: LxP17VyyHYlJ3WK7KlZm8piV5-syW4_uVf24jY5DM3g
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: publisher/heyne-verlag
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 3b909b15-13a9-4c7d-a459-89c332b5236c
+  status_code:
+    -
+      value: 301

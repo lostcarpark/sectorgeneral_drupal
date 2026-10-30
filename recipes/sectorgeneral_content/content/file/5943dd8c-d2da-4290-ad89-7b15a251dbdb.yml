@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5943dd8c-d2da-4290-ad89-7b15a251dbdb
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drknfrnlpp1972.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/drknfrnlpp1972.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 38674
+  status:
+    -
+      value: true

@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c443e4da-7fdb-4160-990e-0205c591ccf9
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    54be1aa4-0767-4a3d-a541-65b81c6bc5cc: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Worlds 56, February 1957 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: c85d74c1fc9cfb2a9af69bc6064b70dcc838c3df
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://isfdb.org/wiki/images/7/7c/NEWWRFEB1957.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'New Worlds 56, February 1957 cover'
+      title: ''
+      width: 349
+      height: 500
+      entity: 54be1aa4-0767-4a3d-a541-65b81c6bc5cc
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?59640'
+      title: null
+      options: {  }

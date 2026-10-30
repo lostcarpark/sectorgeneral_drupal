@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 7df9cd93-a92e-499a-af96-8c2c284d0b42
+  bundle: redirect
+  default_langcode: und
+  depends:
+    93323035-3a3f-4d5f-90b2-d9b8ca3a0043: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: UhgFL_8wvElft8iAnAw8pIrsvb3XpPgpl9m4e9ZR_qY
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: articleslocusinterview.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 93323035-3a3f-4d5f-90b2-d9b8ca3a0043
+  status_code:
+    -
+      value: 301

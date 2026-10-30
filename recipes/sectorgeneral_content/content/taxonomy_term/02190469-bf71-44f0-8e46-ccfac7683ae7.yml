@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 02190469-bf71-44f0-8e46-ccfac7683ae7
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Myron R. Lewis'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/myron-r-lewis
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

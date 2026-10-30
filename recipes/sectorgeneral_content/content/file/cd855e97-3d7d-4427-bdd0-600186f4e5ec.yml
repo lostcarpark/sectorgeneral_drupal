@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: cd855e97-3d7d-4427-bdd0-600186f4e5ec
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: glctcmprsv1977.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/glctcmprsv1977.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 58897
+  status:
+    -
+      value: true

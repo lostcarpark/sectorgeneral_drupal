@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: a8ba2b80-92fb-45e4-b349-138b1479e866
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    b863c106-96e8-4b03-a32a-6f382a6d8abc: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Nebula 15, January 1956 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 0dab0644d323cf8a654bc16615d02cf8034e453f
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Nebula 15, January 1956 cover'
+      title: ''
+      width: 100
+      height: 153
+      entity: b863c106-96e8-4b03-a32a-6f382a6d8abc

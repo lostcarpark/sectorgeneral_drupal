@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4684e80b-b2ce-4e86-a094-7e0e0960eed2
+  bundle: novel
+  default_langcode: en
+  depends:
+    e569f071-54e3-4afc-8da9-70e266b796b2: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 379, similarity 0.96).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Tomorrow Is Too Far'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/tomorrow-too-far
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Back to Books Main Next: Lifeboat</p>'
+      format: basic_html
+      summary: 'This is a story set in an Aerospace company, similar to Shorts in Belfast, where James was working at the time. The star of the novel is the chief security officer who - as he uncovers what is going on- becomes deeply embroiled in the situation.'
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: e569f071-54e3-4afc-8da9-70e266b796b2
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4243 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1971
+  field_isfdb_id:
+    -
+      value: '4243'

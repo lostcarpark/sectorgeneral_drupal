@@ -1,0 +1,78 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 261abc2c-473a-443e-b8d6-80b472e3a07e
+  bundle: edition
+  default_langcode: en
+  depends:
+    650bca91-172d-4e91-a067-ddc413fb3662: media
+    476c27c9-4cc1-4dae-8014-209aa9d3cfff: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    88796287-685a-48a2-b1cd-1c435ba27f09: node
+    d230c1fd-533c-41e3-90d7-b3345a0fae62: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?1127330'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Sector General, Gateway / Orion, 2026'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/sector-general/sector-general-gateway-orion-2026
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 650bca91-172d-4e91-a067-ddc413fb3662
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1127330 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '27 August 2026'
+  field_format:
+    -
+      entity: 476c27c9-4cc1-4dae-8014-209aa9d3cfff
+  field_isbn:
+    -
+      value: '9781399636292'
+  field_isfdb_id:
+    -
+      value: '1127330'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 88796287-685a-48a2-b1cd-1c435ba27f09
+  field_price:
+    -
+      value: £4.99
+  field_publisher:
+    -
+      entity: d230c1fd-533c-41e3-90d7-b3345a0fae62
+  field_sort_date:
+    -
+      value: '2026-08-27'
+  field_year:
+    -
+      value: 2026

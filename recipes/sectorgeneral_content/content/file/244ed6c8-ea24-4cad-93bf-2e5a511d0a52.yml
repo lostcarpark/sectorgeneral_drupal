@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 244ed6c8-ea24-4cad-93bf-2e5a511d0a52
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newwrmay1958.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/newwrmay1958.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 28071
+  status:
+    -
+      value: true

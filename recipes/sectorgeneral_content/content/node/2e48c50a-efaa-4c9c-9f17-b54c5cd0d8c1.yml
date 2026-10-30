@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2e48c50a-efaa-4c9c-9f17-b54c5cd0d8c1
+  bundle: anthology
+  default_langcode: en
+  depends:
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+    b81bc57c-6cb0-4e00-a9c5-6bb9aa1c0f2f: media
+    edbec0a9-022c-4dc8-b237-079552374317: taxonomy_term
+    77544555-948e-481d-908b-00dd50b37de1: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    7281d48e-a9e3-4a04-985e-1b1afc102c8f: taxonomy_term
+    6f56d7f4-8158-4d2b-865f-ade5a0dd0306: taxonomy_term
+    5b9a2add-9651-4bfe-a69f-f2031bee7390: taxonomy_term
+    a1e1dbc6-973e-4efd-b6cd-398d1f4e2c80: taxonomy_term
+    1d5a0744-99f6-4322-9ffe-bb40cc2e622c: taxonomy_term
+    2f819fba-eb80-4b2b-82db-dfc3e44005e7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?25387'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Out of This World 8'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/out-world-8
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Blackie, 1970, Hardback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+  field_cover:
+    -
+      entity: b81bc57c-6cb0-4e00-a9c5-6bb9aa1c0f2f
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?36419 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: edbec0a9-022c-4dc8-b237-079552374317
+    -
+      entity: 77544555-948e-481d-908b-00dd50b37de1
+  field_first_published_year:
+    -
+      value: 1970
+  field_isfdb_id:
+    -
+      value: '36419'
+  field_other_contributors:
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: 7281d48e-a9e3-4a04-985e-1b1afc102c8f
+    -
+      entity: 6f56d7f4-8158-4d2b-865f-ade5a0dd0306
+    -
+      entity: 5b9a2add-9651-4bfe-a69f-f2031bee7390
+    -
+      entity: a1e1dbc6-973e-4efd-b6cd-398d1f4e2c80
+  field_publisher:
+    -
+      entity: 1d5a0744-99f6-4322-9ffe-bb40cc2e622c
+  field_series:
+    -
+      entity: 2f819fba-eb80-4b2b-82db-dfc3e44005e7
+  field_series_number:
+    -
+      value: 8

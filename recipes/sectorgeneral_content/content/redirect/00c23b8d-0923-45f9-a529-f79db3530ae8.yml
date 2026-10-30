@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 00c23b8d-0923-45f9-a529-f79db3530ae8
+  bundle: redirect
+  default_langcode: und
+  depends:
+    a56bb87e-518f-47d0-b419-2dcc914c7cdf: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 78Qtxqnq8AQr_nPPy9ERp3N7LyCL4wYkRDQCzVWZ1_k
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: books/star-surgeon/der-kampf-der-weltraum-mediziner-ii-teil-moewig-1965
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: a56bb87e-518f-47d0-b419-2dcc914c7cdf
+  status_code:
+    -
+      value: 301

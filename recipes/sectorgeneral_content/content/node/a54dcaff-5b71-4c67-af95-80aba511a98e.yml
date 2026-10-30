@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a54dcaff-5b71-4c67-af95-80aba511a98e
+  bundle: edition
+  default_langcode: en
+  depends:
+    cd72b64c-4403-4903-a276-7e4a30d7a156: media
+    476c27c9-4cc1-4dae-8014-209aa9d3cfff: taxonomy_term
+    285a3525-2a8a-4de6-a2c1-1644732df6c2: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    8bdbbc29-9006-4e7e-be08-908c6ec36789: node
+    a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1: node
+    88796287-685a-48a2-b1cd-1c435ba27f09: node
+    62862122-c514-4f24-8c75-e5e6741745f4: node
+    a34a97ba-4e98-4b7a-b7ed-08a377950dc6: taxonomy_term
+    05e61f20-be9b-45f0-bc76-c3f0e36bbfee: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Own cover restored: a larger picture of a different edition had replaced it.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Alien Emergencies, Gollancz, 2026'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/alien-emergencies/alien-emergencies-gollancz-2026
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: cd72b64c-4403-4903-a276-7e4a30d7a156
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1118764 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '23 July 2026'
+  field_format:
+    -
+      entity: 476c27c9-4cc1-4dae-8014-209aa9d3cfff
+  field_introduction_by:
+    -
+      entity: 285a3525-2a8a-4de6-a2c1-1644732df6c2
+  field_isbn:
+    -
+      value: '9781399642828'
+  field_isfdb_id:
+    -
+      value: '1118764'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 8bdbbc29-9006-4e7e-be08-908c6ec36789
+    -
+      entity: a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1
+    -
+      entity: 88796287-685a-48a2-b1cd-1c435ba27f09
+    -
+      entity: 62862122-c514-4f24-8c75-e5e6741745f4
+  field_price:
+    -
+      value: £18.99
+  field_publisher:
+    -
+      entity: a34a97ba-4e98-4b7a-b7ed-08a377950dc6
+  field_publisher_series:
+    -
+      entity: 05e61f20-be9b-45f0-bc76-c3f0e36bbfee
+  field_sort_date:
+    -
+      value: '2026-07-23'
+  field_year:
+    -
+      value: 2026

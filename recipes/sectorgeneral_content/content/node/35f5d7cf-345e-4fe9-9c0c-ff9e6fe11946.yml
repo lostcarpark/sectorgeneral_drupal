@@ -1,0 +1,86 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 35f5d7cf-345e-4fe9-9c0c-ff9e6fe11946
+  bundle: anthology
+  default_langcode: en
+  depends:
+    3f88bb16-d103-4a21-b77b-b8a74115bc01: node
+    bd2cd7ec-ea7d-4cdc-9952-10847dab3c4c: media
+    6aba71e7-b911-4d06-8c81-612d5a90409e: taxonomy_term
+    e33e632a-df4c-4fc6-a381-4afca12a5dc0: taxonomy_term
+    15e197b0-cd96-4ba6-b80e-c213415912ab: taxonomy_term
+    a222ade5-0fdc-41ac-a163-f70b0107e6f0: taxonomy_term
+    9e4b0a31-023d-4a4f-8165-e893844f24f1: taxonomy_term
+    8235f637-277a-4c73-af3a-2f883e4689a8: taxonomy_term
+    57a0a03e-e37d-4401-9495-9459d2ba68bc: taxonomy_term
+    8d3e0f3a-5d2f-4519-ab5c-ec3dfe53db37: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?492595'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'De arts in de science-fiction literatuur'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/de-arts-de-science-fiction-literatuur
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Mycofarm / van Lindonk, December 1969, Trade Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 3f88bb16-d103-4a21-b77b-b8a74115bc01
+  field_cover:
+    -
+      entity: bd2cd7ec-ea7d-4cdc-9952-10847dab3c4c
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1800811 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 6aba71e7-b911-4d06-8c81-612d5a90409e
+  field_first_published_year:
+    -
+      value: 1969
+  field_isfdb_id:
+    -
+      value: '1800811'
+  field_other_contributors:
+    -
+      entity: e33e632a-df4c-4fc6-a381-4afca12a5dc0
+    -
+      entity: 15e197b0-cd96-4ba6-b80e-c213415912ab
+    -
+      entity: a222ade5-0fdc-41ac-a163-f70b0107e6f0
+    -
+      entity: 9e4b0a31-023d-4a4f-8165-e893844f24f1
+    -
+      entity: 8235f637-277a-4c73-af3a-2f883e4689a8
+    -
+      entity: 57a0a03e-e37d-4401-9495-9459d2ba68bc
+  field_publisher:
+    -
+      entity: 8d3e0f3a-5d2f-4519-ab5c-ec3dfe53db37

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: f38f4a4b-5945-49e9-9e7a-9b51f0c0bbd4
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Betty Dibb'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/betty-dibb
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

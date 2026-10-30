@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d95528a8-a30e-44bc-8e55-774741bce31f
+  bundle: edition
+  default_langcode: en
+  depends:
+    987abfa5-a4cd-49af-be6c-5f3280c6d956: media
+    9671b40e-39b6-413f-821f-64fd956b0eb5: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    faec9164-3eb1-4408-8e68-372285338816: node
+    9a196fcd-0584-4ca7-8ef6-6b2cdd8886e7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL965107M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Galactic Gourmet, Tor, 1996'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/galactic-gourmet/galactic-gourmet-tor-1996
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 987abfa5-a4cd-49af-be6c-5f3280c6d956
+  field_cover_artist:
+    -
+      entity: 9671b40e-39b6-413f-821f-64fd956b0eb5
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “TOR Books, NY, ISBN 0-312-86167-2, hardback, August 1996”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?40292 (CC BY 4.0).
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?623264 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL965107M (CC0).
+  field_date_display:
+    -
+      value: 'August 1996'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isbn:
+    -
+      value: '9780312861674'
+  field_isfdb_id:
+    -
+      value: '40292'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: faec9164-3eb1-4408-8e68-372285338816
+  field_oclc:
+    -
+      value: '34151448'
+  field_openlibrary_id:
+    -
+      value: OL965107M
+  field_pages:
+    -
+      value: 288
+  field_price:
+    -
+      value: $22.95
+  field_publisher:
+    -
+      entity: 9a196fcd-0584-4ca7-8ef6-6b2cdd8886e7
+  field_sort_date:
+    -
+      value: '1996-08-01'
+  field_year:
+    -
+      value: 1996

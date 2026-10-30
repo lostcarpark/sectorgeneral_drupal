@@ -1,0 +1,90 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5cf68935-3162-484b-8de8-e79165f022b1
+  bundle: edition
+  default_langcode: en
+  depends:
+    94bd47ed-dc15-4cb5-a7ef-d5ff43755f1a: media
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    1f7e2d67-9523-43b6-b2fc-b66704b77066: node
+    06aa2580-8e68-4b72-9a00-f5d252de9de3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL17412111M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Futures Past, Futura/Orbit, 1988'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/futures-past/futures-past-futuraorbit-1988
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 94bd47ed-dc15-4cb5-a7ef-d5ff43755f1a
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Macdonald/Futura, ISBN 0-7088-8250-1, January 1988”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?215853 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL17412111M (CC0).
+  field_date_display:
+    -
+      value: 'January 1988'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780708882504'
+  field_isfdb_id:
+    -
+      value: '215853'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 1f7e2d67-9523-43b6-b2fc-b66704b77066
+  field_oclc:
+    -
+      value: '17622037'
+  field_openlibrary_id:
+    -
+      value: OL17412111M
+  field_pages:
+    -
+      value: 228
+  field_price:
+    -
+      value: £2.50
+  field_publisher:
+    -
+      entity: 06aa2580-8e68-4b72-9a00-f5d252de9de3
+  field_sort_date:
+    -
+      value: '1988-01-01'
+  field_year:
+    -
+      value: 1988

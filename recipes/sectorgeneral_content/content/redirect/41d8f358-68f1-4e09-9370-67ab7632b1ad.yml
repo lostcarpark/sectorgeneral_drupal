@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 41d8f358-68f1-4e09-9370-67ab7632b1ad
+  bundle: redirect
+  default_langcode: en
+  depends:
+    ba9e0c2b-cc7b-4236-a1c5-18f055adb783: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: pELzsx23bv5f9nGgkRitiJB3YY2XQZ6Lx_RmbN9h_zU
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/magazine-fantasy-science-fiction/magazine-fantasy-and-science-fiction-uk-january-1964
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: ba9e0c2b-cc7b-4236-a1c5-18f055adb783
+  status_code:
+    -
+      value: 301

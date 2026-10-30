@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 74a916f1-eab8-4c07-b134-8c75daa48c63
+  bundle: redirect
+  default_langcode: und
+  depends:
+    53a4b27b-9521-4e13-9bb8-0b89bf5a2904: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: XkbhujusTvEgek3ULDx2Hv6EEFD-CvmdEjh5YN7ctFM
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/federationworld.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 53a4b27b-9521-4e13-9bb8-0b89bf5a2904
+  status_code:
+    -
+      value: 301

@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 8382d776-e8eb-4e38-b29d-a0670e65f158
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    fa0b0728-8b6f-4a04-8f60-f2ddcc353929: taxonomy_term
+    b43bc5ea-248c-4d6b-8021-6264a75a187b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Dark Inferno, Corgi, 1974 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: b8d5998d3ebce6293d39007c120888acdcd357a8
+  field_image_source:
+    -
+      entity: fa0b0728-8b6f-4a04-8f60-f2ddcc353929
+  field_image_url:
+    -
+      uri: 'https://covers.openlibrary.org/b/id/13640693-L.jpg?default=false'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Dark Inferno, Corgi, 1974 cover'
+      title: ''
+      width: 375
+      height: 500
+      entity: b43bc5ea-248c-4d6b-8021-6264a75a187b
+  field_source_url:
+    -
+      uri: 'https://openlibrary.org/books/OL47209402M'
+      title: null
+      options: {  }

@@ -1,0 +1,24 @@
+uuid: 06703785-33bf-4310-b057-87ccaa5fedec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_format
+    - node.type.edition
+    - taxonomy.vocabulary.format
+id: node.edition.field_format
+field_name: field_format
+entity_type: node
+bundle: edition
+label: Format
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      format: format
+field_type: entity_reference

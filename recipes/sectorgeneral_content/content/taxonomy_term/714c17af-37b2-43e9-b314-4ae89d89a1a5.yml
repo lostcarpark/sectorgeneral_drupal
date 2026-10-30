@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 714c17af-37b2-43e9-b314-4ae89d89a1a5
+  bundle: publisher_series
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Utopia Zukunftsroman'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /publisher-series/utopia-zukunftsroman
+      langcode: en
+      pathauto: 1

@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 39c25f5f-b0f8-4ee2-9c63-21bd2f8294f8
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    7ebc130e-24fb-4797-b384-cb98d1b19fc3: node
+    97ff90f8-469c-4bea-9dc1-5a5e05a99670: media
+    007d86a4-94ea-4b74-a63e-877ea1ab3496: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    4ec839be-f2e0-40bc-bca2-4ea0c979e39b: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    c704d144-57ff-47ee-a3f5-5e5858a75cfa: taxonomy_term
+    1c53cdcb-61ff-4729-be7f-600a4622afd0: taxonomy_term
+    e65686c0-b47a-4d36-b5e8-78c6ee893cff: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+    8f95666d-9115-4002-b975-a9431b71f81b: taxonomy_term
+    528e5af7-b0a4-4b26-b8a7-528187f369b4: taxonomy_term
+    aa142740-ab67-4552-970a-9315d191161e: taxonomy_term
+    0ace682b-7932-42e9-8884-e2a79cec29cb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?60243 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Science Fantasy 15, September 1955'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/science-fantasy/science-fantasy-15-september-1955
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 7ebc130e-24fb-4797-b384-cb98d1b19fc3
+  field_cover:
+    -
+      entity: 97ff90f8-469c-4bea-9dc1-5a5e05a99670
+  field_cover_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?60243 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'September 1955'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_interior_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+    -
+      entity: 4ec839be-f2e0-40bc-bca2-4ea0c979e39b
+  field_isfdb_id:
+    -
+      value: '60243'
+  field_issue_number:
+    -
+      value: '15'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: c704d144-57ff-47ee-a3f5-5e5858a75cfa
+  field_other_contributors:
+    -
+      entity: 1c53cdcb-61ff-4729-be7f-600a4622afd0
+    -
+      entity: e65686c0-b47a-4d36-b5e8-78c6ee893cff
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+    -
+      entity: 8f95666d-9115-4002-b975-a9431b71f81b
+    -
+      entity: 528e5af7-b0a4-4b26-b8a7-528187f369b4
+    -
+      entity: aa142740-ab67-4552-970a-9315d191161e
+    -
+      entity: 0ace682b-7932-42e9-8884-e2a79cec29cb
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 2/-
+  field_sort_date:
+    -
+      value: '1955-09-01'
+  field_year:
+    -
+      value: 1955

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: fa5e6b46-fd0f-4707-8479-f12ef1c5f614
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Fred Saberhagen'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/fred-saberhagen
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

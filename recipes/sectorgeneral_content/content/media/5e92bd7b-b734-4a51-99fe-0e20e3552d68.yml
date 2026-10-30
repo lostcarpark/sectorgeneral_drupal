@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 5e92bd7b-b734-4a51-99fe-0e20e3552d68
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    a11f9775-59aa-4054-8c89-9f809e95bdca: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Häpna!, 1 October 1958 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: ebcda9717922b3567c3a351d6b1927a38372fb86
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/3/32/HPNKTBRZZH1958.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Häpna!, 1 October 1958 cover'
+      title: ''
+      width: 416
+      height: 600
+      entity: a11f9775-59aa-4054-8c89-9f809e95bdca
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?883368'
+      title: null
+      options: {  }

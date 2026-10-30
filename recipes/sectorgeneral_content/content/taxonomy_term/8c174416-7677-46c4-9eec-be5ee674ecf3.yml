@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8c174416-7677-46c4-9eec-be5ee674ecf3
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Robert Wells'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/robert-wells
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

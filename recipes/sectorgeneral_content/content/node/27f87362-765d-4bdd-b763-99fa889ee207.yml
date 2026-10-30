@@ -1,0 +1,72 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 27f87362-765d-4bdd-b763-99fa889ee207
+  bundle: edition
+  default_langcode: en
+  depends:
+    faee4e09-b986-463f-b0a3-2369d1554d2a: media
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    f223d848-5791-4e24-aa00-f011fd2f0ede: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    872eff77-6bcf-4e08-b918-24b2d3ed80c7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Imported from the original James White Information site.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Космический госпиталь, Зал славы зарубежной фантастики, 1993'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/kosmicheskiy-gospital-zal-slavy-zarubezhnoy-fantastiki-1993
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: faee4e09-b986-463f-b0a3-2369d1554d2a
+  field_data_sources:
+    -
+      value: 'James White Information (original site): “Hardcover edition in Russia by, KNIB, MCN "Ajibtepnpec", Moscow, 1993, ISBN 5-7707-3616-X, also contains all or part of Star Surgeon and Major Operation as well as Hospital Station. (Cryllic spelling unclear and approximate)”'
+  field_date_display:
+    -
+      value: '1993'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9785770736168'
+  field_language:
+    -
+      entity: f223d848-5791-4e24-aa00-f011fd2f0ede
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_publisher:
+    -
+      entity: 872eff77-6bcf-4e08-b918-24b2d3ed80c7
+  field_sort_date:
+    -
+      value: '1993-01-01'
+  field_year:
+    -
+      value: 1993

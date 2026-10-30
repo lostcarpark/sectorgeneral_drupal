@@ -1,0 +1,92 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d664cabd-7fd0-4f50-8743-899a360c747c
+  bundle: anthology
+  default_langcode: en
+  depends:
+    2d8cc63a-c949-4a9d-bfb7-0d8bf9579938: node
+    6d26646f-bf98-426c-9e72-abffc44a3af0: media
+    62bd0ee0-2aed-4a72-b8c0-23c2cc553e62: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+    368cbf1e-3aa1-4320-b4a4-3d1aae1897d2: taxonomy_term
+    7f155876-1e0e-4ff2-804a-0ac557409bad: taxonomy_term
+    8d01af39-69cb-4323-b4c5-d54abad4fbf4: taxonomy_term
+    caa9cb93-3e4c-41dc-b115-e9d3513a78e6: taxonomy_term
+    d21bb7c9-c773-49b1-a2d6-be085484b234: taxonomy_term
+    85906894-fdb3-4366-bb52-3ee2847aeccd: taxonomy_term
+    0ace682b-7932-42e9-8884-e2a79cec29cb: taxonomy_term
+    6d66f977-9e25-411e-97a0-1c6bde1ccb44: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?827216'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Spaceworlds: Stories of Life in the Void'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/spaceworlds-stories-life-void
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>British Library Publishing, 25 March 2021, Trade Paperback. British Library Publishing, 25 March 2021, Ebook.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 2d8cc63a-c949-4a9d-bfb7-0d8bf9579938
+  field_cover:
+    -
+      entity: 6d26646f-bf98-426c-9e72-abffc44a3af0
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?2842014 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 62bd0ee0-2aed-4a72-b8c0-23c2cc553e62
+  field_first_published_year:
+    -
+      value: 2021
+  field_isfdb_id:
+    -
+      value: '2842014'
+  field_other_contributors:
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+    -
+      entity: 368cbf1e-3aa1-4320-b4a4-3d1aae1897d2
+    -
+      entity: 7f155876-1e0e-4ff2-804a-0ac557409bad
+    -
+      entity: 8d01af39-69cb-4323-b4c5-d54abad4fbf4
+    -
+      entity: caa9cb93-3e4c-41dc-b115-e9d3513a78e6
+    -
+      entity: d21bb7c9-c773-49b1-a2d6-be085484b234
+    -
+      entity: 85906894-fdb3-4366-bb52-3ee2847aeccd
+    -
+      entity: 0ace682b-7932-42e9-8884-e2a79cec29cb
+  field_publisher:
+    -
+      entity: 6d66f977-9e25-411e-97a0-1c6bde1ccb44

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 3e67a290-1a1a-477b-9a7f-b0db9c92ce23
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Ursula K. Le Guin'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/ursula-k-le-guin
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

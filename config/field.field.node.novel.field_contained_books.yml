@@ -1,0 +1,23 @@
+uuid: 6ef941c9-eedb-40c8-bac2-26a378ecf495
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contained_books
+    - node.type.novel
+id: node.novel.field_contained_books
+field_name: field_contained_books
+entity_type: node
+bundle: novel
+label: 'Books included'
+description: 'For omnibus volumes: the books it collects, in order.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      novel: novel
+field_type: entity_reference

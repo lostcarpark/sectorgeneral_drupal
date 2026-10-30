@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e5968d2f-efa0-4056-8fa9-0d06efc977b0
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: galacticgourmettor.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/galacticgourmettor.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4645
+  status:
+    -
+      value: true

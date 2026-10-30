@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1314b893-51e7-43f1-8c29-c6c0165d4a3e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: lnmrgncsjq2002.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/lnmrgncsjq2002.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 39204
+  status:
+    -
+      value: true

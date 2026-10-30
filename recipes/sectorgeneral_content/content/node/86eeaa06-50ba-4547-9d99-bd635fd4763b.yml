@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 86eeaa06-50ba-4547-9d99-bd635fd4763b
+  bundle: edition
+  default_langcode: en
+  depends:
+    1d84a610-c1c2-4fcf-976d-791fbf24e6a6: media
+    65a33aeb-6a2f-4063-8182-785ddcdd6309: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    7dba4fce-58ed-48bb-830b-7609fe63975b: node
+    2489534c-0801-43c6-89f5-eb25fb1d11ea: taxonomy_term
+    2976ba56-0ae1-4f2b-b006-565f69ecb6e2: taxonomy_term
+    2a2a2898-1fb3-436e-8a3a-caa24258df6e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/740301764'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Brüder im Kosmos, Moewig, 1972'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/aliens-among-us/bruder-im-kosmos-moewig-1972
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 1d84a610-c1c2-4fcf-976d-791fbf24e6a6
+  field_cover_artist:
+    -
+      entity: 65a33aeb-6a2f-4063-8182-785ddcdd6309
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “TERRA SF No 193, September 1972 as Bruder im Kosmos”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?499140 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/740301764 (CC0).
+  field_date_display:
+    -
+      value: 'September 1972'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '499140'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 7dba4fce-58ed-48bb-830b-7609fe63975b
+  field_oclc:
+    -
+      value: '74135919'
+  field_pages:
+    -
+      value: 161
+  field_price:
+    -
+      value: 'DM 2.80'
+  field_printing:
+    -
+      value: 'Dt. Erstveröffentlichung.'
+  field_publisher:
+    -
+      entity: 2489534c-0801-43c6-89f5-eb25fb1d11ea
+  field_publisher_reference:
+    -
+      value: '193'
+  field_publisher_series:
+    -
+      entity: 2976ba56-0ae1-4f2b-b006-565f69ecb6e2
+  field_publisher_series_number:
+    -
+      value: '193'
+  field_sort_date:
+    -
+      value: '1972-09-01'
+  field_translator:
+    -
+      entity: 2a2a2898-1fb3-436e-8a3a-caa24258df6e
+  field_year:
+    -
+      value: 1972

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 33b2aeba-8e3c-40dc-812b-e61c562526d9
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fngddjpt1976.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/fngddjpt1976.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 94603
+  status:
+    -
+      value: true

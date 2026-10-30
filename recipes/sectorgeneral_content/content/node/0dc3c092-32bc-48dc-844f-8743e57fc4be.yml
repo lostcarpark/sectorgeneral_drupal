@@ -1,0 +1,96 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0dc3c092-32bc-48dc-844f-8743e57fc4be
+  bundle: anthology
+  default_langcode: en
+  depends:
+    5e234e43-63c3-4de7-b2bd-fd33c365f586: node
+    1c584034-eff0-4503-84c3-6a7ad90ade68: media
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    99292b66-1a21-4351-b97b-c7b6a82585be: taxonomy_term
+    e2d2f3b0-c52b-4066-97c8-b36bda4db457: taxonomy_term
+    71f9d5fe-924a-4cc9-8ba1-fec4cfb3b446: taxonomy_term
+    d5af1b35-f70d-4e8e-9e82-3857c77451c0: taxonomy_term
+    078584af-381d-4b9f-9ce4-0a30014b1987: taxonomy_term
+    75f6c671-af7b-484c-9b7a-0c9f6fd5e6b9: taxonomy_term
+    eebaa47d-75ad-4975-b6ea-661419f420ab: taxonomy_term
+    d039de82-9a81-4c76-ad65-2d5996bf2275: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?23831'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Writings in SF 14'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/new-writings-sf-14
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Dennis Dobson, January 1969. Corgi, April 1969.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 5e234e43-63c3-4de7-b2bd-fd33c365f586
+  field_cover:
+    -
+      entity: 1c584034-eff0-4503-84c3-6a7ad90ade68
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?34484 (CC BY 4.0).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1328294 (CC BY 4.0).
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_first_published_year:
+    -
+      value: 1969
+  field_isfdb_id:
+    -
+      value: '34484'
+  field_other_contributors:
+    -
+      entity: 99292b66-1a21-4351-b97b-c7b6a82585be
+    -
+      entity: e2d2f3b0-c52b-4066-97c8-b36bda4db457
+    -
+      entity: 71f9d5fe-924a-4cc9-8ba1-fec4cfb3b446
+    -
+      entity: d5af1b35-f70d-4e8e-9e82-3857c77451c0
+    -
+      entity: 078584af-381d-4b9f-9ce4-0a30014b1987
+    -
+      entity: 75f6c671-af7b-484c-9b7a-0c9f6fd5e6b9
+  field_publisher:
+    -
+      entity: eebaa47d-75ad-4975-b6ea-661419f420ab
+  field_series:
+    -
+      entity: d039de82-9a81-4c76-ad65-2d5996bf2275
+  field_series_number:
+    -
+      value: 14

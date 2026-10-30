@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5e234e43-63c3-4de7-b2bd-fd33c365f586
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?67283 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Blood Brother'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/blood-brother
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>“I shall be guided by the vast experience of the cultural-contact specialists of the Monitor Corps, ”interrupts Conway, risking O’Mara’s non-righteous wrath. The idea for a ‘Blood Brother’ came from a boozy convention-party exchange between White and Ken Cheslin (erstwhile English SF fan): James, you know how doctors used to be called leeches. Why don’t you write a story where the doctor really is a leech? (from ‘The Secret History of Sector General’). The resultant alien ‘vampire’ extracts most of a patient’s blood, removes any toxins/whatever, then puts the blood back.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?67283 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1969
+  field_isfdb_id:
+    -
+      value: '67283'
+  field_opening_excerpt:
+    -
+      value: '<p>“This is not a purely medical assignment, Doctor,” said O’Mara when Conway was summoned to the chief Psychiatrist’s office three days later, “although that is the most important, naturally. Should your problems develop political implications –”.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WRITINGS IN SF 14, Ed John Carnell, Dennis Dobson, January 1969 NEW WRITINGS IN SF 14, ed John Carnell, Corgi, April 1969 Major Operation</p>'
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 16000

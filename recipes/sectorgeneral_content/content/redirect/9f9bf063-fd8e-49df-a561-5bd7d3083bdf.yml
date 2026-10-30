@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 9f9bf063-fd8e-49df-a561-5bd7d3083bdf
+  bundle: redirect
+  default_langcode: und
+  depends:
+    479badc7-cd74-457c-b26c-24edf27e7921: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: Gs8cC5-1QjyE7gkgLR2yyPv4OfaM8r0xLZQdr5esoy8
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/deadlylitter.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 479badc7-cd74-457c-b26c-24edf27e7921
+  status_code:
+    -
+      value: 301

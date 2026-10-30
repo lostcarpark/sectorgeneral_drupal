@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d19261bd-b4f6-43d3-afc6-a7884f39c81f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: analog.feb.85.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/analog.feb.85.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 14897
+  status:
+    -
+      value: true

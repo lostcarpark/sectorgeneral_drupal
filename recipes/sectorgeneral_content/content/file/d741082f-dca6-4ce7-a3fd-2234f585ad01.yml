@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d741082f-dca6-4ce7-a3fd-2234f585ad01
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newwrjul1957.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/newwrjul1957.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 137082
+  status:
+    -
+      value: true

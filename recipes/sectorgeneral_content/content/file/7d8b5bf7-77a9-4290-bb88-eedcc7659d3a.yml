@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7d8b5bf7-77a9-4290-bb88-eedcc7659d3a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: scrtvstrs1967.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/scrtvstrs1967.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 109033
+  status:
+    -
+      value: true

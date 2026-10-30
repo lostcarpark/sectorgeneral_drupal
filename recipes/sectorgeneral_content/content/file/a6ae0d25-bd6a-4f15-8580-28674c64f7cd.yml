@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a6ae0d25-bd6a-4f15-8580-28674c64f7cd
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hmkhrzdnst1963.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/hmkhrzdnst1963.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 120099
+  status:
+    -
+      value: true

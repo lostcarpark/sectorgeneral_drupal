@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 53db5162-68df-4afa-a7ca-0603570367b2
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Roger Deeley'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/roger-deeley
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

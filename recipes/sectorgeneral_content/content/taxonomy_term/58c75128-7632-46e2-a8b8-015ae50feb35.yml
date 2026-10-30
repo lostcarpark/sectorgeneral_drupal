@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 58c75128-7632-46e2-a8b8-015ae50feb35
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Bob Schinella'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/bob-schinella
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

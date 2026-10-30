@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 62d17b3d-e68e-44a1-b04c-39ab378fc9b5
+  bundle: publisher
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Polski Związek Niewidomych. Zakład Wydawnictw i Nagrań'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /publishers/polski-zwiazek-niewidomych-zaklad-wydawnictw-i-nagran
+      langcode: en
+      pathauto: 1

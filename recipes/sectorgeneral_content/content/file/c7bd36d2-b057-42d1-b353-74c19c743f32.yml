@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c7bd36d2-b057-42d1-b353-74c19c743f32
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: the-watch-below.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/the-watch-below.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 47146
+  status:
+    -
+      value: true

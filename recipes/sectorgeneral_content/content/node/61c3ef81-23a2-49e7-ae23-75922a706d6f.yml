@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 61c3ef81-23a2-49e7-ae23-75922a706d6f
+  bundle: edition
+  default_langcode: en
+  depends:
+    63dfc9c7-f7d9-4bc5-8a70-7ed1af5edcf0: media
+    18ae90aa-2f21-4ee4-af43-dc4b9ce42efb: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    4684e80b-b2ce-4e86-a094-7e0e0960eed2: node
+    c6efc343-9efd-4e27-a07a-23eb92da4a29: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL15177937M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Tomorrow Is Too Far, Michael Joseph'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/tomorrow-too-far/tomorrow-too-far-michael-joseph
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 63dfc9c7-f7d9-4bc5-8a70-7ed1af5edcf0
+  field_cover_artist:
+    -
+      entity: 18ae90aa-2f21-4ee4-af43-dc4b9ce42efb
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Edition known only from the cover image tommorowistoofarmjoesph.jpg”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?273103 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL15177937M (CC0).
+  field_date_display:
+    -
+      value: 'July 1971'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isbn:
+    -
+      value: '9780718108946'
+  field_isfdb_id:
+    -
+      value: '273103'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 4684e80b-b2ce-4e86-a094-7e0e0960eed2
+  field_oclc:
+    -
+      value: '16211781'
+  field_openlibrary_id:
+    -
+      value: OL15177937M
+  field_pages:
+    -
+      value: 174
+  field_price:
+    -
+      value: £1.50
+  field_publisher:
+    -
+      entity: c6efc343-9efd-4e27-a07a-23eb92da4a29
+  field_sort_date:
+    -
+      value: '1971-07-01'
+  field_year:
+    -
+      value: 1971

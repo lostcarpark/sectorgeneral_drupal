@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 458524b9-58d8-4fa4-9c5a-76c9b189b0db
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Thomas R. Dulski'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/thomas-r-dulski
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

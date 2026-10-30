@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1c899b4b-4169-4bcb-8629-3a8a61d82360
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hopital-des-etoiles.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/hopital-des-etoiles.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 55505
+  status:
+    -
+      value: true

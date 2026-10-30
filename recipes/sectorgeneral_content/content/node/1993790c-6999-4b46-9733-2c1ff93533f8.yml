@@ -1,0 +1,70 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1993790c-6999-4b46-9733-2c1ff93533f8
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63753 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Boarding Party'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/boarding-party
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>&quot;Yo, ho, ho and a bottle of Jet Morgan rum!&quot;* James White once aspired to out-Clarke Clarke as Spellsinger of the Spaceways -- with more success than he&#039;s generally given credit for (Deadly Litter is just a starter pack). The stricken Starcloud is the Earth&#039;s last hope against the Raghman invaders who have only one effective weapon: &quot;. . . the ghostly, flickering force-eddy. But that one was enough.&quot; Dr Grayson, the ship&#039;s self-deprecating medical officer, makes the most important &#039;house call&#039; of his career.</p>
+        <p>*Another reference to Journey Into Space, the &quot;BBC radio serial that enthralled millions&quot; (book-jacket blurb).</p>
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63753 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1955
+  field_isfdb_id:
+    -
+      value: '63753'
+  field_opening_excerpt:
+    -
+      value: '<p>The blast ripped away the mouth of number six launching tube, together with a wide area of the ship&#039;s hull plating.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>NEW WORLDS No 37, July 1955 </p>
+        <p>Publication History: Futures Past</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 10500

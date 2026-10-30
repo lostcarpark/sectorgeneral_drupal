@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: effffb9c-b25b-4a06-9f90-98662cdca405
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    6b0d53b1-b5f2-4129-a2f7-b2cf67aba0e9: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Top Science Fiction: Dritter Teil cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 2eac32245a8d316cae035c455f5132e12b23ab8f
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/e/e4/TPSCNCFCTN1987.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Top Science Fiction: Dritter Teil cover'
+      title: ''
+      width: 379
+      height: 600
+      entity: 6b0d53b1-b5f2-4129-a2f7-b2cf67aba0e9
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?518599'
+      title: null
+      options: {  }

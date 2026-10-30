@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 3018ae04-3b27-4db1-bf03-b1db6c99d888
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'T. J. Bass'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/t-j-bass
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1df0c302-46fd-4649-a999-117bf1d7eb67
+  bundle: edition
+  default_langcode: en
+  depends:
+    4b343cc7-0a0e-4660-9faa-54b8102f2531: media
+    65a33aeb-6a2f-4063-8182-785ddcdd6309: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930: node
+    3bda7690-3cc9-4052-9e0e-e67f67495dac: taxonomy_term
+    98ce79b8-df78-4c99-8609-cd0f933302ed: taxonomy_term
+    8ee2bff0-cb7a-4dd2-8cae-a5ce3afdc2b4: taxonomy_term
+    027d9a43-b718-401a-82a8-514d284eeb50: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/730338428'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Die Ärzte der Galaxis, Pabel, 1973'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/major-operation/die-arzte-der-galaxis-pabel-1973
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 4b343cc7-0a0e-4660-9faa-54b8102f2531
+  field_cover_artist:
+    -
+      entity: 65a33aeb-6a2f-4063-8182-785ddcdd6309
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?499165 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/730338428 (CC0).
+  field_date_display:
+    -
+      value: '19 January 1973'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '499165'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930
+  field_oclc:
+    -
+      value: '74132543'
+  field_pages:
+    -
+      value: 159
+  field_price:
+    -
+      value: 'DM 2.80'
+  field_printing:
+    -
+      value: 'Dt. Erstveröffentlichung.'
+  field_publisher:
+    -
+      entity: 3bda7690-3cc9-4052-9e0e-e67f67495dac
+  field_publisher_reference:
+    -
+      value: TTB203
+  field_publisher_series:
+    -
+      entity: 98ce79b8-df78-4c99-8609-cd0f933302ed
+  field_publisher_series_number:
+    -
+      value: '203'
+  field_sort_date:
+    -
+      value: '1973-01-19'
+  field_translator:
+    -
+      entity: 8ee2bff0-cb7a-4dd2-8cae-a5ce3afdc2b4
+    -
+      entity: 027d9a43-b718-401a-82a8-514d284eeb50
+  field_year:
+    -
+      value: 1973

@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 03aa43e9-31e9-446f-9446-ede6334b1923
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    8209a24c-b45b-4921-b2c8-9f0d8c681f75: node
+    1b8e2d3f-8b32-4456-b48b-8b22aec3a0f1: media
+    007d86a4-94ea-4b74-a63e-877ea1ab3496: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    ee4a73eb-1579-42ed-92be-8f604364a802: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    85906894-fdb3-4366-bb52-3ee2847aeccd: taxonomy_term
+    be616e63-0879-4fb2-84fd-d4646f4af6f4: taxonomy_term
+    2af131b8-3a2f-4800-8fb8-256882500ddf: taxonomy_term
+    528e5af7-b0a4-4b26-b8a7-528187f369b4: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59669 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds 35, May 1955'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-35-may-1955
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 8209a24c-b45b-4921-b2c8-9f0d8c681f75
+  field_cover:
+    -
+      entity: 1b8e2d3f-8b32-4456-b48b-8b22aec3a0f1
+  field_cover_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59669 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'May 1955'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_interior_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+    -
+      entity: ee4a73eb-1579-42ed-92be-8f604364a802
+  field_isfdb_id:
+    -
+      value: '59669'
+  field_issue_number:
+    -
+      value: '35'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: 85906894-fdb3-4366-bb52-3ee2847aeccd
+    -
+      entity: be616e63-0879-4fb2-84fd-d4646f4af6f4
+    -
+      entity: 2af131b8-3a2f-4800-8fb8-256882500ddf
+    -
+      entity: 528e5af7-b0a4-4b26-b8a7-528187f369b4
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 2/-
+  field_sort_date:
+    -
+      value: '1955-05-01'
+  field_year:
+    -
+      value: 1955

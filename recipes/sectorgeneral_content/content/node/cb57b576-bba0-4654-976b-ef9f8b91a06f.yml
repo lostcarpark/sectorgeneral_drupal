@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cb57b576-bba0-4654-976b-ef9f8b91a06f
+  bundle: novel
+  default_langcode: en
+  depends:
+    a5a37c9b-62cd-4811-8214-39e5bc234084: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?2054 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Dream Millennium'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/dream-millennium
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>White&#039;s working title for The Dream Millennium was The Star Shepherd, which sounds like something from a flip-side of an old Ace Double volume. But &#039;shepherd&#039; would be a valid job description for Dr. John Devlin, who flits in-and-out of suspended animation to look after incessantly deep-frozen colonists fleeing the polluted Earth. &quot;And in that coldsleep, what dreams may come . . .&quot; as the Bardmaster of Avon surely meant to put it. Devlin runs the Jungian gauntlet from a Silurian trilobite&#039;s impersonal extinction to the killing of a British soldier on some Belfast back-street: &quot;Very soon he was dead. But for him not nearly soon enough . . .&quot; (p.156). The starship computer helps Devlin get through his 1,000-year trip -- trips, rather.</p>'
+      format: basic_html
+      summary: 'In the search for a new planet to colonize, the star of the novel suffers nightmares while in stasis, with a deadline of 1000 years.'
+  field_alternative_titles:
+    -
+      value: 'The Dream Millennium (Part 2 of 3)'
+    -
+      value: 'The Dream Millennium (Part 3 of 3)'
+    -
+      value: 'The Dream Millennium (Part 1 of 3)'
+    -
+      value: 'The Dream Millenium'
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: a5a37c9b-62cd-4811-8214-39e5bc234084
+  field_data_sources:
+    -
+      value: "James White Information (original site). Synopsis by Graham Andrews.\r\nISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?2054 (CC BY 4.0)."
+  field_first_published_year:
+    -
+      value: 1973
+  field_isfdb_id:
+    -
+      value: '2054'
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 79000

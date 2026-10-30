@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 632063bc-11a5-4049-8857-5a3f5cfd56fb
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    c7b1d432-0049-4fb3-9a64-d1452caa5a9b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Le grandi storie della fantascienza: 1962 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 3f43771d29587e0eacbf435820145c2d661ab0e0
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'http://www.mondourania.com/urania%20classici/uraniaclassici%20201-220/ucl210.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Le grandi storie della fantascienza: 1962 cover'
+      title: ''
+      width: 360
+      height: 610
+      entity: c7b1d432-0049-4fb3-9a64-d1452caa5a9b
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?411623'
+      title: null
+      options: {  }

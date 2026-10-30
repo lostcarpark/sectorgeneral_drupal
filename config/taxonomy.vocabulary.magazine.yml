@@ -1,0 +1,9 @@
+uuid: ac4d7c7e-81d4-4e79-8219-1a3fd1e3b815
+langcode: en
+status: true
+dependencies: {  }
+name: Magazine
+vid: magazine
+description: 'Magazines in which stories appeared, such as New Worlds or Nebula.'
+weight: 0
+new_revision: false

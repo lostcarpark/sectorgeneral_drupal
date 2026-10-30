@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 60e3c878-91a0-41ef-9a74-d697adeadbaa
+  bundle: edition
+  default_langcode: en
+  depends:
+    51fde597-633d-43d3-aa13-0f6418c012da: media
+    25efbf6e-8349-439f-bdaf-fa2753b18ed4: taxonomy_term
+    42b8f78b-6a45-4b53-8c09-9abae4ded93e: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+    a7db68df-cbcb-4bf3-ad1e-26874fce4a71: taxonomy_term
+    a11060ea-424c-4bbe-b568-bf0daf4dd9eb: taxonomy_term
+    eb757c2d-dbcc-4603-9cfa-16957a250e44: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the OPAC SBN: https://opac.sbn.it/bid/TO01234323'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Futuro remoto, Mondadori, 2001'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/second-ending/futuro-remoto-mondadori-2001
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 51fde597-633d-43d3-aa13-0f6418c012da
+  field_cover_artist:
+    -
+      entity: 25efbf6e-8349-439f-bdaf-fa2753b18ed4
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?398399 (CC BY 4.0).
+        OPAC SBN record https://opac.sbn.it/bid/TO01234323.
+  field_date_display:
+    -
+      value: 'June 2001'
+  field_format:
+    -
+      entity: 42b8f78b-6a45-4b53-8c09-9abae4ded93e
+  field_isfdb_id:
+    -
+      value: '398399'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+  field_pages:
+    -
+      value: 364
+  field_price:
+    -
+      value: 'Lit 9,900'
+  field_publisher:
+    -
+      entity: a7db68df-cbcb-4bf3-ad1e-26874fce4a71
+  field_publisher_series:
+    -
+      entity: a11060ea-424c-4bbe-b568-bf0daf4dd9eb
+  field_publisher_series_number:
+    -
+      value: '30'
+  field_sort_date:
+    -
+      value: '2001-06-01'
+  field_translator:
+    -
+      entity: eb757c2d-dbcc-4603-9cfa-16957a250e44
+  field_year:
+    -
+      value: 2001

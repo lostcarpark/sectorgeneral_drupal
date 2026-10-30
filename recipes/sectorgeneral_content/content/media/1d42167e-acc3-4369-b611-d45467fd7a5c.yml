@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 1d42167e-acc3-4369-b611-d45467fd7a5c
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    e3e5b4ad-f28d-4bd6-b3a3-5e00cc8300ec: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Federation World, Futura/Orbit, 1990 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: d832af5dd5e34d0ac7baf06d3b55d478d42d6c10
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Federation World:: McDonald, 1990'
+      title: ''
+      width: 100
+      height: 155
+      entity: e3e5b4ad-f28d-4bd6-b3a3-5e00cc8300ec

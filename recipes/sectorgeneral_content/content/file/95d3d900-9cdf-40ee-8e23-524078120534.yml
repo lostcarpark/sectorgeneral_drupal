@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 95d3d900-9cdf-40ee-8e23-524078120534
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: galjanfeb72.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/galjanfeb72.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 78124
+  status:
+    -
+      value: true

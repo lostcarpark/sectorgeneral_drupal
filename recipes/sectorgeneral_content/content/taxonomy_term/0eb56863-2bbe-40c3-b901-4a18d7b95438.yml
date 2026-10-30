@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 0eb56863-2bbe-40c3-b901-4a18d7b95438
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'John F. Carr'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/john-f-carr
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

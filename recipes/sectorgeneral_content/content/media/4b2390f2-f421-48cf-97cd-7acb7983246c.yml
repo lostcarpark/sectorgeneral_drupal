@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4b2390f2-f421-48cf-97cd-7acb7983246c
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    7eb50596-8b4c-4aed-b858-c6fbb4b8889f: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Sector General, Futura/Orbit, 1987 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 5027bbb20e0b728b4cfff46dc22fdd5c4ec26960
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Sector General: Orbit 1987'
+      title: ''
+      width: 121
+      height: 200
+      entity: 7eb50596-8b4c-4aed-b858-c6fbb4b8889f

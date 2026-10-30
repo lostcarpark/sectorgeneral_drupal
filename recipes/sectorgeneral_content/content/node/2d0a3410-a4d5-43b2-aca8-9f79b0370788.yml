@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2d0a3410-a4d5-43b2-aca8-9f79b0370788
+  bundle: novel
+  default_langcode: en
+  depends:
+    2340f31e-dd59-4d3d-a150-b9e4fb36b9d4: media
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 230, similarity 0.91).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Code Blue—Emergency'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/code-blue-emergency
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>&quot;On Sammaradva there are three levels of persons - serviles, warriors, and rulers - and three levels of healers to care for them...&quot; (p29). Cha Thrat, the latest trainee nurse at Sector General describing her home world. Despite being one of the hospital&#039;s most diligent pupils, Cha Thrat is such a magnet for trouble that even Minnie the Minx pales by comparison. White started using the neutral pronoun &#039;it&#039; for all his (its?) Sector General characters, which often led to unnecessary gender confusion. Bull-/cow-shit. I follow Dr Johnson&#039;s wise precept that the male form of a word stands for both male and female. Or, if you prefer, the female form..., etc. Clarity is what matters, and PC grammarians be damned!</p>'
+      format: basic_html
+      summary: 'Sector General book seven. Introduces some new characters.'
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: 2340f31e-dd59-4d3d-a150-b9e4fb36b9d4
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?2215 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1987
+  field_isfdb_id:
+    -
+      value: '2215'
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_series_number:
+    -
+      value: 7
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 84000

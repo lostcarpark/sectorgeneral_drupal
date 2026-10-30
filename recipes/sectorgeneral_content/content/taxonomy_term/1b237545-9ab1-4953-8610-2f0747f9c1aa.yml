@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 1b237545-9ab1-4953-8610-2f0747f9c1aa
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Eddie Jones'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/eddie-jones
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,14 @@
+uuid: a1391d3a-5276-4dda-9d21-6333378e33f9
+langcode: en
+status: true
+dependencies: {  }
+id: photo
+label: Photo
+description: 'A photograph, such as a portrait of James White, with its credit and the basis on which the site uses it.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_image
+field_map:
+  name: name

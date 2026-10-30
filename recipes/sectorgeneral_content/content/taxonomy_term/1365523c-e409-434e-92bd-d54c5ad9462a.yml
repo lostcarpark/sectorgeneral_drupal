@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 1365523c-e409-434e-92bd-d54c5ad9462a
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Pauline E. Dungate'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/pauline-e-dungate
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

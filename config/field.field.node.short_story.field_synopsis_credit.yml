@@ -1,0 +1,19 @@
+uuid: 6c01626a-91c9-44aa-bb08-b2d87b95a44e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_synopsis_credit
+    - node.type.short_story
+id: node.short_story.field_synopsis_credit
+field_name: field_synopsis_credit
+entity_type: node
+bundle: short_story
+label: 'Synopsis by'
+description: 'e.g. Graham Andrews.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

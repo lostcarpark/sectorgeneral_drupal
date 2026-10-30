@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: a492aeee-63ee-4fb9-8df3-76e3878acc36
+  bundle: redirect
+  default_langcode: und
+  depends:
+    381187e8-9d32-472a-9f13-97bd02929de1: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: UxaQkD-TS4MGDl7n4dhNn1CjhrU-_OVduxdwUUo6MvQ
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/patrol.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 381187e8-9d32-472a-9f13-97bd02929de1
+  status_code:
+    -
+      value: 301

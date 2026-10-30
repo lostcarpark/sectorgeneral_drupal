@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 10cc2a7b-e0d3-4fa5-9fb1-e361441dae16
+  bundle: series
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Analog (German anthologies)'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /series/analog-german-anthologies
+      langcode: en
+      pathauto: 1

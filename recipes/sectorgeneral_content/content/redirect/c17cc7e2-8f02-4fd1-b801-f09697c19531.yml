@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: c17cc7e2-8f02-4fd1-b801-f09697c19531
+  bundle: redirect
+  default_langcode: und
+  depends:
+    6c751453-9945-4da0-a518-d95151db59c7: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: IEwUpQ3MFcbVGxTZjkqOs67QdgXfua0AOhC0dOUmjYI
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/new-writings-sf-21
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 6c751453-9945-4da0-a518-d95151db59c7
+  status_code:
+    -
+      value: 301

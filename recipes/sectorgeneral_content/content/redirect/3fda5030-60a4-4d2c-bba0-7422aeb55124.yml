@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 3fda5030-60a4-4d2c-bba0-7422aeb55124
+  bundle: redirect
+  default_langcode: und
+  depends:
+    524403d5-e150-49f1-83ad-403d2ae68207: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: j_auQj7O8y2-QT4FRj7WsE6vojo1pDE8KQWPleMEpxY
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/whitepapers.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 524403d5-e150-49f1-83ad-403d2ae68207
+  status_code:
+    -
+      value: 301

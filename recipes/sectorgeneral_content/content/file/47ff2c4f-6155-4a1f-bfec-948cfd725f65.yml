@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 47ff2c4f-6155-4a1f-bfec-948cfd725f65
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: strsrgnee1968.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/strsrgnee1968.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 99931
+  status:
+    -
+      value: true

@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 48eff150-a6a4-4cb4-8188-3e17d43fe925
+  bundle: edition
+  default_langcode: en
+  depends:
+    2ea7f198-8285-4883-b0f8-67628c811f1d: taxonomy_term
+    22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930: node
+    452c06f4-d505-43d4-8888-cebe19bce6d2: taxonomy_term
+    f23d26ca-d36f-4139-bf6e-f0ddc2e3af5e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Created from the Polish National Library: https://data.bn.org.pl/api/institutions/bibs.json?id=1542833'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Trudna operacja, Dom Wydawniczy Rebis, 2002'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/major-operation/trudna-operacja-dom-wydawniczy-rebis-2002
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'Biblioteka Narodowa record https://data.bn.org.pl/api/institutions/bibs.json?id=1542833 (CC0).'
+  field_date_display:
+    -
+      value: '2002'
+  field_isbn:
+    -
+      value: '9788373012493'
+  field_language:
+    -
+      entity: 2ea7f198-8285-4883-b0f8-67628c811f1d
+  field_novel:
+    -
+      entity: 22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930
+  field_pages:
+    -
+      value: 205
+  field_publisher:
+    -
+      entity: 452c06f4-d505-43d4-8888-cebe19bce6d2
+  field_sort_date:
+    -
+      value: '2002-01-01'
+  field_translator:
+    -
+      entity: f23d26ca-d36f-4139-bf6e-f0ddc2e3af5e
+  field_year:
+    -
+      value: 2002

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3241b42c-2b76-40e0-8b0a-42a744f3977b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ambulance-ship-corgi-tn.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/ambulance-ship-corgi-tn.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 13388
+  status:
+    -
+      value: true

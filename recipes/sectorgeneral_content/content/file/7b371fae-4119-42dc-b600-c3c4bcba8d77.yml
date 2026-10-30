@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7b371fae-4119-42dc-b600-c3c4bcba8d77
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hospital_station_corgi_1967.jpg
+  uri:
+    -
+      value: 'public://2016-03/hospital_station_corgi_1967.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 59732
+  status:
+    -
+      value: true

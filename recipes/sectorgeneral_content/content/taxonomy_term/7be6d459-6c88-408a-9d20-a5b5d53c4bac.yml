@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 7be6d459-6c88-408a-9d20-a5b5d53c4bac
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Jack Williamson'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/jack-williamson
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

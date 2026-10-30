@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: b2029fce-4c9a-4501-8878-488e5832ca84
+  bundle: redirect
+  default_langcode: und
+  depends:
+    9842755d-45a5-40e3-8602-e1da1831980d: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: nS9DPIQMeUHRy7aL1xhxZNx93RjZ6SwkV1f4LzmB52c
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: books/open-prison/open-prison-four-square-books-1965
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 9842755d-45a5-40e3-8602-e1da1831980d
+  status_code:
+    -
+      value: 301

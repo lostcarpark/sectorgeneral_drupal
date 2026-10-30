@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 40fc6b1c-2667-47ba-8ae4-d9259e6c9a73
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    09b2602f-66e7-4a7e-bb36-3c1782d44fb8: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Open Prison, Corgi, 1970 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 939af5c64604014b8455d5ff3056848a6cb7373a
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/f/f9/PNPRSNRCBK1970.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Open Prison, Corgi, 1970 cover'
+      title: ''
+      width: 399
+      height: 640
+      entity: 09b2602f-66e7-4a7e-bb36-3c1782d44fb8
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?270802'
+      title: null
+      options: {  }

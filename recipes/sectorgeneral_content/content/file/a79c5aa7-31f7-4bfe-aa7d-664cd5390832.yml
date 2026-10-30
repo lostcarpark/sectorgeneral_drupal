@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a79c5aa7-31f7-4bfe-aa7d-664cd5390832
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bktg19797.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/bktg19797.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 86765
+  status:
+    -
+      value: true

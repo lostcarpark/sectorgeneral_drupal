@@ -1,0 +1,83 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 15aed168-cfa0-48c5-859b-ba9d43577cbe
+  bundle: edition
+  default_langcode: en
+  depends:
+    7f84718b-d7f8-43e9-92c8-5dcbd3f095de: media
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    1c8304e7-c318-4cd8-a47d-d89ab38bbc1e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?265432'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'All Judgement Fled, Walker & Co, 1969'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/all-judgement-fled/all-judgement-fled-walker-co-1969
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 7f84718b-d7f8-43e9-92c8-5dcbd3f095de
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Walker & Co, New York, October 1969”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?265432 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'October 1969'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isfdb_id:
+    -
+      value: '265432'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_oclc:
+    -
+      value: '45616'
+  field_pages:
+    -
+      value: 215
+  field_price:
+    -
+      value: $4.95
+  field_publisher:
+    -
+      entity: 1c8304e7-c318-4cd8-a47d-d89ab38bbc1e
+  field_sort_date:
+    -
+      value: '1969-10-01'
+  field_year:
+    -
+      value: 1969

@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 2340f31e-dd59-4d3d-a150-b9e4fb36b9d4
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    079ed003-62b3-41c4-8862-1618919bf6af: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Code Blue—Emergency, Del Rey, 1987 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 3eb04f4abf0ed3952d0aaf56be6da723c7ca271c
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/9/9b/Codebl.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Code Blue—Emergency, Del Rey, 1987 cover'
+      title: ''
+      width: 366
+      height: 599
+      entity: 079ed003-62b3-41c4-8862-1618919bf6af
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?7429'
+      title: null
+      options: {  }

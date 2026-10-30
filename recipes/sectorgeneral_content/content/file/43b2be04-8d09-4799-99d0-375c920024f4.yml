@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 43b2be04-8d09-4799-99d0-375c920024f4
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: wtchblw1978.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/wtchblw1978.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 60818
+  status:
+    -
+      value: true

@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 197324d8-9f30-4cd7-bd14-de076ae5f499
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    b4902105-af7c-4dd9-a122-2d8a9d8f80ed: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Mind Changer, Tor, 1998 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: e721e1ac49f75c90ea6dafe2b7fd300abcf15e13
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/4/4d/MINDCHNGER1998.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Mind Changer, Tor, 1998 cover'
+      title: ''
+      width: 456
+      height: 679
+      entity: b4902105-af7c-4dd9-a122-2d8a9d8f80ed
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?22234'
+      title: null
+      options: {  }

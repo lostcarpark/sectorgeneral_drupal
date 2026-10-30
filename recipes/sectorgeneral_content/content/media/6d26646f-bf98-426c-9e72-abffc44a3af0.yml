@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6d26646f-bf98-426c-9e72-abffc44a3af0
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    59753821-1c8c-4944-9043-b2b3f46b5c5d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Spaceworlds: Stories of Life in the Void cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 6e8182b54190a2872d3cb448990923a751670631
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://images-na.ssl-images-amazon.com/images/I/41Xxx1+kKxL.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Spaceworlds: Stories of Life in the Void cover'
+      title: ''
+      width: 342
+      height: 500
+      entity: 59753821-1c8c-4944-9043-b2b3f46b5c5d
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?827216'
+      title: null
+      options: {  }

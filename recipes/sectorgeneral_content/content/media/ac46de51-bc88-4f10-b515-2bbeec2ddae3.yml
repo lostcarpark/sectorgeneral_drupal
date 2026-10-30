@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: ac46de51-bc88-4f10-b515-2bbeec2ddae3
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    5a89107e-a075-4655-b00a-7789472f5d71: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Science Fiction Adventures 7, March 1959 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: f2b183015a40ac0003d60229e1b1ea74af3c47ea
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/b/be/SCNCFCTNDB1959.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Science Fiction Adventures 7, March 1959 cover'
+      title: ''
+      width: 631
+      height: 919
+      entity: 5a89107e-a075-4655-b00a-7789472f5d71
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?212657'
+      title: null
+      options: {  }

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 8b8082ec-1e0f-4f4c-ae4d-3337507bcf65
+  bundle: redirect
+  default_langcode: und
+  depends:
+    e696ad7a-3d64-4b4e-9561-3bdc69e6bdfa: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: kcY7yOFZfES3plW8ShT52VVJhWvuRY7w0Q7fnSiaIfM
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: books/aliens-among-us/aliens-among-us-ballantine-books-1969
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: e696ad7a-3d64-4b4e-9561-3bdc69e6bdfa
+  status_code:
+    -
+      value: 301

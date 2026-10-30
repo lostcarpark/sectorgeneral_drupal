@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 33523aa8-b399-4604-aecf-ee4b0cc9e2dc
+  bundle: redirect
+  default_langcode: und
+  depends:
+    0d9b2c30-9bf6-4cf7-93b2-be3c80b97615: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 2WeXnaBws-eEdf3BpuZLVr3mlORQ37W0CLkCKqerzdw
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: articlesresnick.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 0d9b2c30-9bf6-4cf7-93b2-be3c80b97615
+  status_code:
+    -
+      value: 301

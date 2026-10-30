@@ -1,0 +1,108 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: bbe98ed7-7679-4a06-818c-76a20a458f5a
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    6edd89e8-88d6-4983-b0a1-6ab6f79a7215: node
+    89190c3c-6aef-4542-bfef-c92c5fcdb1a8: media
+    4d619b12-a860-498b-8f82-437767f5a263: taxonomy_term
+    6a62acc6-2561-408b-a9a1-a14da7adb003: taxonomy_term
+    1500cfa9-5042-4535-9782-9fb79938c3d9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    30948f84-7072-42b1-889a-5a0a68b8c86b: taxonomy_term
+    3018ae04-3b27-4db1-bf03-b1db6c99d888: taxonomy_term
+    22786c6e-1ede-49f9-92d4-dede4b5e833c: taxonomy_term
+    db8af1d7-dbc8-411f-96b8-5eb45e8c0834: taxonomy_term
+    34ab545f-1591-4b2a-bc24-914c1e1c07f3: taxonomy_term
+    9d7f4eb4-cb50-4b5f-8cb1-194d568638d0: taxonomy_term
+    b0034d8c-4700-4416-ac8c-790c9eb9de94: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?58518 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Galaxy, January 1972'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/galaxy/galaxy-january-1972
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 6edd89e8-88d6-4983-b0a1-6ab6f79a7215
+  field_cover:
+    -
+      entity: 89190c3c-6aef-4542-bfef-c92c5fcdb1a8
+  field_cover_artist:
+    -
+      entity: 4d619b12-a860-498b-8f82-437767f5a263
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?58518 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'January 1972'
+  field_editor:
+    -
+      entity: 6a62acc6-2561-408b-a9a1-a14da7adb003
+  field_interior_artist:
+    -
+      entity: 1500cfa9-5042-4535-9782-9fb79938c3d9
+  field_isfdb_id:
+    -
+      value: '58518'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 30948f84-7072-42b1-889a-5a0a68b8c86b
+  field_other_contributors:
+    -
+      entity: 3018ae04-3b27-4db1-bf03-b1db6c99d888
+    -
+      entity: 22786c6e-1ede-49f9-92d4-dede4b5e833c
+    -
+      entity: db8af1d7-dbc8-411f-96b8-5eb45e8c0834
+    -
+      entity: 34ab545f-1591-4b2a-bc24-914c1e1c07f3
+    -
+      entity: 9d7f4eb4-cb50-4b5f-8cb1-194d568638d0
+    -
+      entity: b0034d8c-4700-4416-ac8c-790c9eb9de94
+  field_pages:
+    -
+      value: 180
+  field_price:
+    -
+      value: $0.75
+  field_published_as:
+    -
+      value: 'Dark Inferno (Part 1 of 2)'
+  field_sort_date:
+    -
+      value: '1972-01-01'
+  field_year:
+    -
+      value: 1972

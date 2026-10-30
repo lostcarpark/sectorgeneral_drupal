@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b80799a3-34ee-42b1-9490-1bcb98e3568b
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'En natt i varuhuset'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/en-natt-i-varuhuset
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?3525973 (CC BY 4.0).'
+  field_first_published_year:
+    -
+      value: 1964
+  field_isfdb_id:
+    -
+      value: '3525973'

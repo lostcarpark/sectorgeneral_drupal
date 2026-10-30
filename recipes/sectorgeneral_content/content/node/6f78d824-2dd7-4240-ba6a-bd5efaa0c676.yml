@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6f78d824-2dd7-4240-ba6a-bd5efaa0c676
+  bundle: edition
+  default_langcode: en
+  depends:
+    f85e3f50-e773-4161-8855-61526108b31b: media
+    63dd32b6-3f42-4006-b938-7516f8bb702c: taxonomy_term
+    af9ac495-504b-46d0-a128-b7f11172a739: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    88796287-685a-48a2-b1cd-1c435ba27f09: node
+    3b909b15-13a9-4c7d-a459-89c332b5236c: taxonomy_term
+    590c12c5-5a6d-4044-b4b1-135c1394b922: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL39219647M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Sector General, Heyne Verlag, 1993'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/sector-general/sector-general-heyne-verlag-1993
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: f85e3f50-e773-4161-8855-61526108b31b
+  field_cover_artist:
+    -
+      entity: 63dd32b6-3f42-4006-b938-7516f8bb702c
+    -
+      entity: af9ac495-504b-46d0-a128-b7f11172a739
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Wilhelm Heyne, Munich, No 06/4978, ISBN 3-453--06598-0, 1993 as Sector Genera”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1113042 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL39219647M (CC0).
+  field_date_display:
+    -
+      value: '1993'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9783453065987'
+  field_isfdb_id:
+    -
+      value: '1113042'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 88796287-685a-48a2-b1cd-1c435ba27f09
+  field_openlibrary_id:
+    -
+      value: OL39219647M
+  field_pages:
+    -
+      value: 304
+  field_price:
+    -
+      value: 'DM 10.90'
+  field_publisher:
+    -
+      entity: 3b909b15-13a9-4c7d-a459-89c332b5236c
+  field_publisher_reference:
+    -
+      value: 06/4978
+  field_publisher_series:
+    -
+      entity: 590c12c5-5a6d-4044-b4b1-135c1394b922
+  field_publisher_series_number:
+    -
+      value: '4978'
+  field_sort_date:
+    -
+      value: '1993-01-01'
+  field_year:
+    -
+      value: 1993

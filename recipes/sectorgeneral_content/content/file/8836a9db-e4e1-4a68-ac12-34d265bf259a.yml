@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8836a9db-e4e1-4a68-ac12-34d265bf259a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: second_ending_ace.jpg
+  uri:
+    -
+      value: 'public://covers/2026-10/second_ending_ace.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 804890
+  status:
+    -
+      value: true

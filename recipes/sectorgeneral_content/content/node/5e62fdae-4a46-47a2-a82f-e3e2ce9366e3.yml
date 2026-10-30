@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5e62fdae-4a46-47a2-a82f-e3e2ce9366e3
+  bundle: anthology
+  default_langcode: en
+  depends:
+    388effb1-372e-4213-aa1e-20b4a8da3452: node
+    632063bc-11a5-4049-8857-5a3f5cfd56fb: media
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    dc3bff4a-14d8-4802-8f27-cde6060139b3: taxonomy_term
+    4ec2fd95-bf92-4337-9242-df8a2c11ce27: taxonomy_term
+    b31d2af0-345f-4612-adf9-ed02b344c905: taxonomy_term
+    bedc199f-cef0-4b30-9081-69275cc8e644: taxonomy_term
+    b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd: taxonomy_term
+    9f3bd3b5-63c1-4d95-adbc-12cd5dd0c51b: taxonomy_term
+    e9f4476b-6af0-44ef-bced-13a0b85ee33c: taxonomy_term
+    dc5875fa-8328-4d42-8b2e-90f29e3cd770: taxonomy_term
+    290c11ec-faef-4497-bf61-1b967a7bce4a: taxonomy_term
+    134af15d-c13e-468e-a490-8b485539a877: taxonomy_term
+    ee391b45-261b-41c5-94a4-67e1402f0c66: taxonomy_term
+    3e202485-aba5-494a-9791-f5ad97c081dc: taxonomy_term
+    9be5cd51-54f5-4835-8aa6-8459349ae07a: taxonomy_term
+    a7db68df-cbcb-4bf3-ad1e-26874fce4a71: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?411623'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Le grandi storie della fantascienza: 1962'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/le-grandi-storie-della-fantascienza-1962
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Mondadori, September 1994, Paperback. Mondadori, June 1995, Trade Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 388effb1-372e-4213-aa1e-20b4a8da3452
+  field_cover:
+    -
+      entity: 632063bc-11a5-4049-8857-5a3f5cfd56fb
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1569355 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: dc3bff4a-14d8-4802-8f27-cde6060139b3
+  field_first_published_year:
+    -
+      value: 1994
+  field_isfdb_id:
+    -
+      value: '1569355'
+  field_other_contributors:
+    -
+      entity: 4ec2fd95-bf92-4337-9242-df8a2c11ce27
+    -
+      entity: b31d2af0-345f-4612-adf9-ed02b344c905
+    -
+      entity: bedc199f-cef0-4b30-9081-69275cc8e644
+    -
+      entity: b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd
+    -
+      entity: 9f3bd3b5-63c1-4d95-adbc-12cd5dd0c51b
+    -
+      entity: e9f4476b-6af0-44ef-bced-13a0b85ee33c
+    -
+      entity: dc5875fa-8328-4d42-8b2e-90f29e3cd770
+    -
+      entity: 290c11ec-faef-4497-bf61-1b967a7bce4a
+    -
+      entity: 134af15d-c13e-468e-a490-8b485539a877
+    -
+      entity: ee391b45-261b-41c5-94a4-67e1402f0c66
+    -
+      entity: 3e202485-aba5-494a-9791-f5ad97c081dc
+    -
+      entity: 9be5cd51-54f5-4835-8aa6-8459349ae07a
+  field_publisher:
+    -
+      entity: a7db68df-cbcb-4bf3-ad1e-26874fce4a71

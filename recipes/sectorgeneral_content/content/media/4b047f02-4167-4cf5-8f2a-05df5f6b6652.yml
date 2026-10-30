@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4b047f02-4167-4cf5-8f2a-05df5f6b6652
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    3293e545-f6d5-425e-9dfe-f37779a0fb03: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Worlds 114, January 1962 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 7e2fd470803be3e3092bc20c533558c00c440dca
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'New Worlds 114, January 1962 cover'
+      title: ''
+      width: 136
+      height: 200
+      entity: 3293e545-f6d5-425e-9dfe-f37779a0fb03

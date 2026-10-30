@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: caa9cb93-3e4c-41dc-b115-e9d3513a78e6
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Eric Frank Russell'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/eric-frank-russell
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

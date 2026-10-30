@@ -1,0 +1,70 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 62862122-c514-4f24-8c75-e5e6741745f4
+  bundle: novel
+  default_langcode: en
+  depends:
+    df05d34a-0896-414e-ba78-e6272662709f: media
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Corrected contents and synopsis credit (scripts/fix_book_contents.php).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Star Healer'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-healer
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Star Surgeon was only nine-tenths a Sector General novel: Star Healer goes the whole distance. It&#039;s the story of how Conway &amp; Co. of the ambulance ship Rhabwar interact with the FOKT Gogleskans on their grim home world. &quot;Gosglesk has been a borderline case so far as the Cultural contact people were concerned . . . But the natives, in spite of their backwardness in the physical sciences and the obscure racial psychosis which forced them to remain so, were psychologically stable as individuals and the planet had not known war for many thousands of years&quot; (p. 37). Apropos of nothing at all, the Sector General series has always been especially popular in Glasgow. Synopsis by graham Andrews</p>'
+      format: basic_html
+      summary: 'Sector General book six.'
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: df05d34a-0896-414e-ba78-e6272662709f
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4236 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1985
+  field_isfdb_id:
+    -
+      value: '4236'
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_series_number:
+    -
+      value: 6
+  field_words:
+    -
+      value: 75500

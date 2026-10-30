@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: cde27b7c-df88-41c3-b690-0798c3e33fff
+  bundle: redirect
+  default_langcode: und
+  depends:
+    ae135771-7f95-475e-b845-60584a4b9b6d: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: lJQjXhcTeeqL0bouw93HZRONqIc_X6XoKGTua7uL968
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/unbirthdayboy.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: ae135771-7f95-475e-b845-60584a4b9b6d
+  status_code:
+    -
+      value: 301

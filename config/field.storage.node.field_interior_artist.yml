@@ -1,0 +1,20 @@
+uuid: 4ef5247b-9a3c-4e99-afe5-69aaeac66834
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_interior_artist
+field_name: field_interior_artist
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

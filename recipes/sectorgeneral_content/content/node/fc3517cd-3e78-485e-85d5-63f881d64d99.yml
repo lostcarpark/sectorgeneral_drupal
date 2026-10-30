@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fc3517cd-3e78-485e-85d5-63f881d64d99
+  bundle: edition
+  default_langcode: en
+  depends:
+    248a2a4d-a8eb-4e13-96f8-c301777749af: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    312c69c1-f2fa-409a-a06c-a02d7d19522f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Retired: this serialisation is now listed issue by issue.'
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Field Hospital, New Worlds, 1962'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-surgeon/field-hospital-new-worlds-1962
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'James White Information (original site): “NEW WORLDS Nos 114-116, January to March 1962 as Feild Hospitol”'
+  field_date_display:
+    -
+      value: 'January to March 1962'
+  field_format:
+    -
+      entity: 248a2a4d-a8eb-4e13-96f8-c301777749af
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+  field_publisher:
+    -
+      entity: 312c69c1-f2fa-409a-a06c-a02d7d19522f
+  field_publisher_reference:
+    -
+      value: 114-116
+  field_sort_date:
+    -
+      value: '1962-01-01'
+  field_year:
+    -
+      value: 1962

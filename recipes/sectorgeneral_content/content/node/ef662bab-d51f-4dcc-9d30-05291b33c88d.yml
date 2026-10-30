@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ef662bab-d51f-4dcc-9d30-05291b33c88d
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    1993790c-6999-4b46-9733-2c1ff93533f8: node
+    ef896b82-8cab-4122-8576-f71252a6250b: media
+    007d86a4-94ea-4b74-a63e-877ea1ab3496: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    180c800d-c3e7-492e-b1e3-3338e9b7dc60: taxonomy_term
+    1c9ec00b-ba63-4e91-981d-529ee7b83d7a: taxonomy_term
+    9fde016a-2479-4beb-a890-aed1832e423b: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    4694fff6-aab0-4cf4-8ab5-b90626a59d86: taxonomy_term
+    bedc199f-cef0-4b30-9081-69275cc8e644: taxonomy_term
+    814d15a4-f951-437c-a74d-e967699f4db3: taxonomy_term
+    528e5af7-b0a4-4b26-b8a7-528187f369b4: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59650 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds 37, July 1955'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-37-july-1955
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 1993790c-6999-4b46-9733-2c1ff93533f8
+  field_cover:
+    -
+      entity: ef896b82-8cab-4122-8576-f71252a6250b
+  field_cover_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59650 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'July 1955'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_interior_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+    -
+      entity: 180c800d-c3e7-492e-b1e3-3338e9b7dc60
+    -
+      entity: 1c9ec00b-ba63-4e91-981d-529ee7b83d7a
+    -
+      entity: 9fde016a-2479-4beb-a890-aed1832e423b
+  field_isfdb_id:
+    -
+      value: '59650'
+  field_issue_number:
+    -
+      value: '37'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: 4694fff6-aab0-4cf4-8ab5-b90626a59d86
+    -
+      entity: bedc199f-cef0-4b30-9081-69275cc8e644
+    -
+      entity: 814d15a4-f951-437c-a74d-e967699f4db3
+    -
+      entity: 528e5af7-b0a4-4b26-b8a7-528187f369b4
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+  field_pages:
+    -
+      value: 128
+  field_price:
+    -
+      value: 2/-
+  field_sort_date:
+    -
+      value: '1955-07-01'
+  field_year:
+    -
+      value: 1955

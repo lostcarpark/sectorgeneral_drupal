@@ -1,0 +1,7 @@
+# Machine-specific settings and uploaded files.
+/site/settings.local.php
+/site/services.yml
+/site/files/*
+!/site/files/.gitkeep
+
+/scripts/**/__pycache__/

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e74abc36-4f9b-41f5-85e8-6665f96f5004
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: secretvisitorsace57.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/secretvisitorsace57.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3569
+  status:
+    -
+      value: true

@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ae135771-7f95-475e-b845-60584a4b9b6d
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?44556 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Un-Birthday Boy'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/un-birthday-boy
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>Normality “involves comaprison to a standard – but how do you judge the standard?” (blurb). How, indeed? The initally unnamed boy hates waking up on a birthday, because he’s never had one. I can almost hear you ask: “But why not, Graham?” for the very good reason . . . but that would be telling. ‘Un-Birthday’ is another James White story that was denied its rightful Hugo award. I suspect some jiggery, and a whole lot of pokery.</p>
+        <p>(Shortlisted for International Science Fiction Award, HUGO, 1997. came second by 17 votes.)</p>
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?44556 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1996
+  field_isfdb_id:
+    -
+      value: '44556'
+  field_opening_excerpt:
+    -
+      value: '<p>Every morning he tried very hard not to waken into his uhappy world, but the wall bleeper would only get louder until he turned it off to let his mother know that he was awake and would be out for breakfast as soon as he had washed and dressed.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>ANALOG, February 1996 (Shortlisted for International Science Fiction Award, HUGO, 1997. came second by 17 votes.) Shortlisted for International Science Fiction Award, HUGO, 1997. came second.</p>'
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 7500

@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6433ca34-ff9e-43bc-8125-8f1f17e44834
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    b63c9811-8070-4b27-a48d-986fdf27d100: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Watch Below, Ballantine, 1966 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 5c8faee4159f48a62bc709ac5a426cd611b4cea4
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Watch Below cover'
+      title: ''
+      width: 100
+      height: 174
+      entity: b63c9811-8070-4b27-a48d-986fdf27d100

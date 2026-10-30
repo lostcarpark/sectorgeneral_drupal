@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 85c35dc9-412c-4cff-896f-d86d66734a3c
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Wayne Douglas Barlowe'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/wayne-douglas-barlowe
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

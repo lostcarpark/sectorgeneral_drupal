@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: fa95935f-6dce-4024-abad-a81f488fb1f8
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    9d43bf72-8dd6-4da3-b6e0-1c13b0457331: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Nebula Science Fiction (US), February 1959 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: ca218be6546c0fd36a5bbf9c45f8ec49f11a22ad
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/f/f5/NBLSCNCFCC1959.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Nebula Science Fiction (US), February 1959 cover'
+      title: ''
+      width: 319
+      height: 500
+      entity: 9d43bf72-8dd6-4da3-b6e0-1c13b0457331
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?392964'
+      title: null
+      options: {  }

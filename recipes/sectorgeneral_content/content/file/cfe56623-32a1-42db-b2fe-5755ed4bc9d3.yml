@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: cfe56623-32a1-42db-b2fe-5755ed4bc9d3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: tmrrwstfrw1971.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/tmrrwstfrw1971.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 56446
+  status:
+    -
+      value: true

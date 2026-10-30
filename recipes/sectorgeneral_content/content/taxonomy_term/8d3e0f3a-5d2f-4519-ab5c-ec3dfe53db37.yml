@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8d3e0f3a-5d2f-4519-ab5c-ec3dfe53db37
+  bundle: publisher
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Mycofarm / van Lindonk'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /publishers/mycofarm-van-lindonk
+      langcode: en
+      pathauto: 1

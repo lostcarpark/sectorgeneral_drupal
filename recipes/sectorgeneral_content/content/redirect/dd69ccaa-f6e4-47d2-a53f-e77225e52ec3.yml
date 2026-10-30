@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: dd69ccaa-f6e4-47d2-a53f-e77225e52ec3
+  bundle: redirect
+  default_langcode: und
+  depends:
+    3ac249fd-3e13-4041-9802-b00ca1b9f21c: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: HGE_Tvz-BZDIF_dV7G8GQuiKAlwp0cHJFlst8v5t7BA
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/assistedpassage.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 3ac249fd-3e13-4041-9802-b00ca1b9f21c
+  status_code:
+    -
+      value: 301

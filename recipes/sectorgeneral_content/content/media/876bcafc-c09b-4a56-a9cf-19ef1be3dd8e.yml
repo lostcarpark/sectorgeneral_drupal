@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 876bcafc-c09b-4a56-a9cf-19ef1be3dd8e
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    324bdd0b-9400-4caa-8b96-29c08cb8d9c8: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Science Fantasy 15, September 1955 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 2c75cbb7bf47659ed8f4a43052dc756c9b69d1bd
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Science Fantasy 15, September 1955 cover'
+      title: ''
+      width: 100
+      height: 144
+      entity: 324bdd0b-9400-4caa-8b96-29c08cb8d9c8

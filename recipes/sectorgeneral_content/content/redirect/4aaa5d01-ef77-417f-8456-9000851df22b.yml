@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 4aaa5d01-ef77-417f-8456-9000851df22b
+  bundle: redirect
+  default_langcode: und
+  depends:
+    5e234e43-63c3-4de7-b2bd-fd33c365f586: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: aN8zWMN2nt430aNYxdeZfSo9rz2N2-EuAdBnl2w76fE
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/bloodbrother.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 5e234e43-63c3-4de7-b2bd-fd33c365f586
+  status_code:
+    -
+      value: 301

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6ae7d8d4-1768-450b-a9bf-ee18306ad01f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ftrspstdgb1982.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/ftrspstdgb1982.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 98672
+  status:
+    -
+      value: true

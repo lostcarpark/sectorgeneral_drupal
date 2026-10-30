@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 21d8b359-7369-4b32-a083-2c8887457367
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    27dfa1a3-e914-493e-a25e-ba9299ac676d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Best of New Worlds cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: a7830507b80e9febdfef0834f0ef10f19022954d
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/9/94/THBSRLDSB11965.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'The Best of New Worlds cover'
+      title: ''
+      width: 375
+      height: 600
+      entity: 27dfa1a3-e914-493e-a25e-ba9299ac676d
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?35845'
+      title: null
+      options: {  }

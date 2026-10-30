@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: ae6738a3-16d4-4dbc-bd3a-c84e6bc4c954
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    c4eaf2d9-be4a-45bc-a234-30d337aeb3fb: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Double Contact, Tor, 2015 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 4fc2c9b29b28765cf5e79c861b8b12b5c9562c0b
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://m.media-amazon.com/images/I/51uiOjaIeZL.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Double Contact, Tor, 2015 cover'
+      title: ''
+      width: 312
+      height: 500
+      entity: c4eaf2d9-be4a-45bc-a234-30d337aeb3fb
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?549610'
+      title: null
+      options: {  }

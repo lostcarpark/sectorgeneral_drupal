@@ -1,0 +1,23 @@
+uuid: 3c6b1a81-7df4-44d9-b46f-ce1460fb6ecc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_year
+    - node.type.magazine_issue
+id: node.magazine_issue.field_year
+field_name: field_year
+entity_type: node
+bundle: magazine_issue
+label: Year
+description: 'Year of publication, used for sorting.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

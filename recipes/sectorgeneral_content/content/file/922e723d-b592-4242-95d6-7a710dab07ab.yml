@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 922e723d-b592-4242-95d6-7a710dab07ab
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thmgznffnm1963.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thmgznffnm1963.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 45348
+  status:
+    -
+      value: true

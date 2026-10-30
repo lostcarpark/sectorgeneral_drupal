@@ -1,0 +1,106 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f94c7a91-a3b6-4102-9ba2-39b64c8736cb
+  bundle: edition
+  default_langcode: en
+  depends:
+    42ef6341-8148-49a4-8d5f-e43c61664483: media
+    97841bd3-dee2-4f0f-b308-b40dc387a99d: taxonomy_term
+    64ffa415-ebad-4616-a0eb-e36e906fb642: taxonomy_term
+    03014b63-3aea-402e-954b-59a08d1e497d: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    77839f28-06fe-4a5d-819c-9a837540e410: node
+    2489534c-0801-43c6-89f5-eb25fb1d11ea: taxonomy_term
+    0b0fbb80-a863-4fa8-8271-6cfe5a5810e8: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Retitled Die Lichter des Alls (was Die Lichter des Alles)'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Die Lichter des Alls, Moewig, 1965'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/deadly-litter/die-lichter-des-alls-moewig-1965
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Earlier listed as <em>Die Lichter des Alles</em>, a misspelling on the original James White Information site, also in ISFDB; the <a href="https://d-nb.info/455020655">Deutsche Nationalbibliothek</a> has <em>Die Lichter des Alls</em>.</p>'
+      format: basic_html
+      summary: ''
+  field_cover:
+    -
+      entity: 42ef6341-8148-49a4-8d5f-e43c61664483
+  field_cover_artist:
+    -
+      entity: 97841bd3-dee2-4f0f-b308-b40dc387a99d
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “TERRA No 423, 80phg, November 1965 as Die Lichter des Alles”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?505821 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'November 1965'
+  field_format:
+    -
+      entity: 64ffa415-ebad-4616-a0eb-e36e906fb642
+  field_interior_artist:
+    -
+      entity: 03014b63-3aea-402e-954b-59a08d1e497d
+  field_isfdb_id:
+    -
+      value: '505821'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 77839f28-06fe-4a5d-819c-9a837540e410
+  field_oclc:
+    -
+      value: '73741749'
+  field_pages:
+    -
+      value: 65
+  field_price:
+    -
+      value: 80phg
+  field_publisher:
+    -
+      entity: 2489534c-0801-43c6-89f5-eb25fb1d11ea
+  field_publisher_reference:
+    -
+      value: '423'
+  field_publisher_series:
+    -
+      entity: 0b0fbb80-a863-4fa8-8271-6cfe5a5810e8
+  field_publisher_series_number:
+    -
+      value: '423'
+  field_sort_date:
+    -
+      value: '1965-11-01'
+  field_year:
+    -
+      value: 1965

@@ -1,0 +1,99 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 149aae94-61e4-456d-9e65-720673da99c5
+  bundle: edition
+  default_langcode: en
+  depends:
+    206d2254-8808-4aa0-8650-9e4051afcd22: media
+    f6dbfc25-9a12-4d67-820d-cff9f8356113: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    4dba99c7-905b-46ac-a12f-f4f11a47e3b8: taxonomy_term
+    1377513c-78d1-4bd3-9f2f-d582a7f97e93: taxonomy_term
+    c1d5f4a7-6e6a-48e9-9e91-037dcfa90250: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/760254257'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Das Prometheus-Projekt, Goldmann, 1976'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/all-judgement-fled/das-prometheus-projekt-goldmann-1976
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 206d2254-8808-4aa0-8650-9e4051afcd22
+  field_cover_artist:
+    -
+      entity: f6dbfc25-9a12-4d67-820d-cff9f8356113
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Goldmann Science Fiction, May 1976 as Da s Prometheus Projekt”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?756385 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/760254257 (CC0).
+  field_date_display:
+    -
+      value: 'May 1976'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9783442232222'
+  field_isfdb_id:
+    -
+      value: '756385'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_pages:
+    -
+      value: 154
+  field_price:
+    -
+      value: 'DM 4.00'
+  field_publisher:
+    -
+      entity: 4dba99c7-905b-46ac-a12f-f4f11a47e3b8
+  field_publisher_series:
+    -
+      entity: 1377513c-78d1-4bd3-9f2f-d582a7f97e93
+  field_publisher_series_number:
+    -
+      value: '0222'
+  field_sort_date:
+    -
+      value: '1976-05-01'
+  field_translator:
+    -
+      entity: c1d5f4a7-6e6a-48e9-9e91-037dcfa90250
+  field_year:
+    -
+      value: 1976

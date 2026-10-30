@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4300fe92-a478-445a-a685-4838c555b554
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    9b1202e7-a80e-4c92-b146-d00078b4d127: node
+    3124871b-8359-411d-a058-334545028b4b: media
+    ae5730ca-0b32-46a4-9694-75da24562401: taxonomy_term
+    beb8caf4-7511-4472-90b1-58838be054fc: taxonomy_term
+    4c52425b-7b83-4e9e-af00-d52f9ab47cb3: taxonomy_term
+    8dcf985c-e1b2-4d9e-8e48-8e78198a41d1: taxonomy_term
+    08588538-c322-4749-b8ba-ebb0d290f05f: taxonomy_term
+    182faa5e-29b1-4a6f-97ee-6e7b196967ae: taxonomy_term
+    94ed3402-972a-4c02-81b2-afe06cc0282a: taxonomy_term
+    79ab21db-dc92-48b9-a40f-2588329c568a: taxonomy_term
+    c01e77d7-e6d0-4334-8c03-b71ee8aa1581: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?464257 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Fiction 213, September 1971'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/fiction/fiction-213-september-1971
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 9b1202e7-a80e-4c92-b146-d00078b4d127
+  field_cover:
+    -
+      entity: 3124871b-8359-411d-a058-334545028b4b
+  field_cover_artist:
+    -
+      entity: ae5730ca-0b32-46a4-9694-75da24562401
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?464257 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'September 1971'
+  field_editor:
+    -
+      entity: beb8caf4-7511-4472-90b1-58838be054fc
+  field_isfdb_id:
+    -
+      value: '464257'
+  field_issue_number:
+    -
+      value: '213'
+  field_language:
+    -
+      entity: 4c52425b-7b83-4e9e-af00-d52f9ab47cb3
+  field_magazine:
+    -
+      entity: 8dcf985c-e1b2-4d9e-8e48-8e78198a41d1
+  field_other_contributors:
+    -
+      entity: 08588538-c322-4749-b8ba-ebb0d290f05f
+    -
+      entity: 182faa5e-29b1-4a6f-97ee-6e7b196967ae
+    -
+      entity: 94ed3402-972a-4c02-81b2-afe06cc0282a
+    -
+      entity: 79ab21db-dc92-48b9-a40f-2588329c568a
+    -
+      entity: c01e77d7-e6d0-4334-8c03-b71ee8aa1581
+  field_pages:
+    -
+      value: 164
+  field_price:
+    -
+      value: F4.00
+  field_published_as:
+    -
+      value: 'Les conspirateurs'
+  field_sort_date:
+    -
+      value: '1971-09-01'
+  field_year:
+    -
+      value: 1971

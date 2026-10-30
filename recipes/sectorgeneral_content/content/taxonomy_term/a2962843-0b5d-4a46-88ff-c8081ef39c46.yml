@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: a2962843-0b5d-4a46-88ff-c8081ef39c46
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Kir Bulicsov'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/kir-bulicsov
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

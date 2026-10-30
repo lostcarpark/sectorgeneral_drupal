@@ -1,0 +1,109 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d601974c-34c3-4106-a430-dd3ae0f2fec1
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    85389460-62f1-481a-ac36-b6d004568ad1: node
+    f65dff20-ae8e-4643-aad8-e4fe72b269e9: media
+    98198ea5-db97-409a-92f0-7f61cee9333f: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    5fbc1518-10db-44d1-b5c4-b838ed3076ea: taxonomy_term
+    e9f4476b-6af0-44ef-bced-13a0b85ee33c: taxonomy_term
+    fec06cdb-19ef-4451-9a16-7e886edf6ccd: taxonomy_term
+    999e3e00-e1c2-4f79-a07d-21224db8a33a: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    e4ea65f8-b102-49de-aa1c-b17c48c2e206: taxonomy_term
+    86228ce7-318d-464c-8ce7-14f60e04f9c0: taxonomy_term
+    c4a68bb2-b90f-445a-b889-60cb847003cb: taxonomy_term
+    692358f9-2666-42e6-a2b5-50b8253ff55d: taxonomy_term
+    0bdb0844-4f5b-4f7f-bc3d-af9092999b0a: taxonomy_term
+    e2b34650-5251-4a2a-a4e9-883d41799498: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?351065 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Venture Science Fiction, September 1963'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/venture-science-fiction/venture-science-fiction-september-1963
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 85389460-62f1-481a-ac36-b6d004568ad1
+  field_cover:
+    -
+      entity: f65dff20-ae8e-4643-aad8-e4fe72b269e9
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?351065 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'September 1963'
+  field_editor:
+    -
+      entity: 98198ea5-db97-409a-92f0-7f61cee9333f
+  field_isfdb_id:
+    -
+      value: '351065'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 5fbc1518-10db-44d1-b5c4-b838ed3076ea
+  field_other_contributors:
+    -
+      entity: e9f4476b-6af0-44ef-bced-13a0b85ee33c
+    -
+      entity: fec06cdb-19ef-4451-9a16-7e886edf6ccd
+    -
+      entity: 999e3e00-e1c2-4f79-a07d-21224db8a33a
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: e4ea65f8-b102-49de-aa1c-b17c48c2e206
+    -
+      entity: 86228ce7-318d-464c-8ce7-14f60e04f9c0
+    -
+      entity: c4a68bb2-b90f-445a-b889-60cb847003cb
+    -
+      entity: 692358f9-2666-42e6-a2b5-50b8253ff55d
+    -
+      entity: 0bdb0844-4f5b-4f7f-bc3d-af9092999b0a
+    -
+      entity: e2b34650-5251-4a2a-a4e9-883d41799498
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 2/6
+  field_sort_date:
+    -
+      value: '1963-09-01'
+  field_year:
+    -
+      value: 1963

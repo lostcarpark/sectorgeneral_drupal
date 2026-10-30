@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: faa11354-ad90-47f7-b92c-05e33f2a4497
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    1ffbf861-9c4c-4adc-a125-4a77524614fa: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Tomorrow Is Too Far, Corgi cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 363b5c7269c36f47246f36e2cd82fb14ac16fff9
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Tomorrow Is Too Far cover'
+      title: ''
+      width: 100
+      height: 161
+      entity: 1ffbf861-9c4c-4adc-a125-4a77524614fa

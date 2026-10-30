@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 35a63231-e083-40da-b8c8-2fa6991a8410
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 91-pc2oxv5l.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/91-pc2oxv5l.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 930675
+  status:
+    -
+      value: true

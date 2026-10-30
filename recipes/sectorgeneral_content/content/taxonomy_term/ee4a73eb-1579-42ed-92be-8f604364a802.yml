@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: ee4a73eb-1579-42ed-92be-8f604364a802
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Osborne
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/osborne
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

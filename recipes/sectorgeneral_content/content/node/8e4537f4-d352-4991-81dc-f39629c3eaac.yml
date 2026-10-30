@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8e4537f4-d352-4991-81dc-f39629c3eaac
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    da53ab75-d1e1-4d54-be8d-09f26126ed1e: node
+    85622f8d-e58f-41fb-8800-274077edacd7: media
+    b2ab0355-9d03-4e36-8878-2668dc1d64ea: taxonomy_term
+    72dc6815-5e19-4169-8ae8-0292db0a975e: taxonomy_term
+    2e686169-2332-48aa-9be4-d45c63a620b6: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    42dd2bc1-eab1-4b0e-adb3-c78567c039fd: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    1a2da62a-0579-4530-ad45-5732ff735bd5: taxonomy_term
+    e5dd68c4-075d-406a-9136-0feb8f1a650b: taxonomy_term
+    290c11ec-faef-4497-bf61-1b967a7bce4a: taxonomy_term
+    f6b91abe-d1df-49d4-93cf-fc21dda26ed1: taxonomy_term
+    efef4428-6009-4159-aa25-d11350b30387: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?299316 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Urania (collana) 441, 31 July 1966'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/urania-collana/urania-collana-441-31-july-1966
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: da53ab75-d1e1-4d54-be8d-09f26126ed1e
+  field_cover:
+    -
+      entity: 85622f8d-e58f-41fb-8800-274077edacd7
+  field_cover_artist:
+    -
+      entity: b2ab0355-9d03-4e36-8878-2668dc1d64ea
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?299316 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '31 July 1966'
+  field_editor:
+    -
+      entity: 72dc6815-5e19-4169-8ae8-0292db0a975e
+    -
+      entity: 2e686169-2332-48aa-9be4-d45c63a620b6
+  field_isfdb_id:
+    -
+      value: '299316'
+  field_issue_number:
+    -
+      value: '441'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_magazine:
+    -
+      entity: 42dd2bc1-eab1-4b0e-adb3-c78567c039fd
+  field_other_contributors:
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: 1a2da62a-0579-4530-ad45-5732ff735bd5
+    -
+      entity: e5dd68c4-075d-406a-9136-0feb8f1a650b
+    -
+      entity: 290c11ec-faef-4497-bf61-1b967a7bce4a
+    -
+      entity: f6b91abe-d1df-49d4-93cf-fc21dda26ed1
+    -
+      entity: efef4428-6009-4159-aa25-d11350b30387
+  field_pages:
+    -
+      value: 136
+  field_price:
+    -
+      value: 'Lit 200'
+  field_published_as:
+    -
+      value: 'La capitana dello "Starfire"'
+  field_sort_date:
+    -
+      value: '1966-07-31'
+  field_year:
+    -
+      value: 1966

@@ -1,0 +1,22 @@
+uuid: 5e26d2ee-7b90-4640-b957-047bf06784a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_opening_excerpt
+    - node.type.short_story
+  module:
+    - text
+id: node.short_story.field_opening_excerpt
+field_name: field_opening_excerpt
+entity_type: node
+bundle: short_story
+label: 'Opening lines'
+description: 'A short quotation from the start of the story.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

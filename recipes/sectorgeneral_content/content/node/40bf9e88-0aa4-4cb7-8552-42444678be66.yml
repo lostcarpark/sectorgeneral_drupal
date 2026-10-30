@@ -1,0 +1,87 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 40bf9e88-0aa4-4cb7-8552-42444678be66
+  bundle: edition
+  default_langcode: en
+  depends:
+    d2705c05-55fc-489b-92a5-69892609949f: media
+    3831e179-82d0-4cde-be00-61fc99742a8f: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    076cb8ba-ada5-4880-8874-aee68d7e662d: node
+    1c8304e7-c318-4cd8-a47d-d89ab38bbc1e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?331271'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Watch Below, Walker & Co, 1969'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/watch-below/watch-below-walker-co-1969
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: d2705c05-55fc-489b-92a5-69892609949f
+  field_cover_artist:
+    -
+      entity: 3831e179-82d0-4cde-be00-61fc99742a8f
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Walker & Co, New York, January 1969”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?331271 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'January 1969'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isfdb_id:
+    -
+      value: '331271'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 076cb8ba-ada5-4880-8874-aee68d7e662d
+  field_oclc:
+    -
+      value: '4997'
+  field_pages:
+    -
+      value: 189
+  field_price:
+    -
+      value: $4.50
+  field_publisher:
+    -
+      entity: 1c8304e7-c318-4cd8-a47d-d89ab38bbc1e
+  field_sort_date:
+    -
+      value: '1969-01-01'
+  field_year:
+    -
+      value: 1969

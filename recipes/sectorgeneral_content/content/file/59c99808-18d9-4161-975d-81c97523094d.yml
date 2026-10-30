@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 59c99808-18d9-4161-975d-81c97523094d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dwltrmmdzn1977.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/dwltrmmdzn1977.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 37164
+  status:
+    -
+      value: true

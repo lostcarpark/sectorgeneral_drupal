@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: bb972e0e-5e3b-47ec-9e3b-2113f32bd57a
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    83e97412-0138-4365-9e92-bf52e50383f3: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Mind Changer, Tor, 1998 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 1b63f2c754692a49982ca3f2d1561c8a49bc421c
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Mind Changer: Tor, 1998'
+      title: ''
+      width: 100
+      height: 153
+      entity: 83e97412-0138-4365-9e92-bf52e50383f3

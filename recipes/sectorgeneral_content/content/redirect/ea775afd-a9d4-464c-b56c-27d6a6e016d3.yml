@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: ea775afd-a9d4-464c-b56c-27d6a6e016d3
+  bundle: redirect
+  default_langcode: und
+  depends:
+    61c3ef81-23a2-49e7-ae23-75922a706d6f: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: n_FmJZ-r4x6MsocO5foiuYAW2iLbYeFMw6q-TR7U6jY
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: books/tomorrow-too-far/tomorrow-too-far-michael-joseph-1971
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 61c3ef81-23a2-49e7-ae23-75922a706d6f
+  status_code:
+    -
+      value: 301

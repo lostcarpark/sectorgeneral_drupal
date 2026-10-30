@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ed85a2f3-71fe-40f8-a292-236bdafef94b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: lfbtswqlnd1980.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/lfbtswqlnd1980.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 110214
+  status:
+    -
+      value: true

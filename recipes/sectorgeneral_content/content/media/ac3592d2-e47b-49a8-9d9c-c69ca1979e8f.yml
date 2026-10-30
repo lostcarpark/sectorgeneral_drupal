@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: ac3592d2-e47b-49a8-9d9c-c69ca1979e8f
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    e896bd04-588f-4e07-91e0-8ccb00ce4bf4: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Gefangene des Meeres, Moewig, 1967 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 2484bb3d6e0d751d6d814951aa7418db07494113
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/e/e7/GFNGNDSMRS1967.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Gefangene des Meeres, Moewig, 1967 cover'
+      title: ''
+      width: 287
+      height: 448
+      entity: e896bd04-588f-4e07-91e0-8ccb00ce4bf4
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?402707'
+      title: null
+      options: {  }

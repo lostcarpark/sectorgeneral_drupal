@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 69f9a9d8-0463-4cd5-9ac6-f4159c4ab931
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    c79d9691-6bf2-41e2-a87e-0a7ac5ef83d1: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Tomorrow Is Too Far, Ballantine, 1971 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 830780c7322ec44c44ab8f5f93bec5a9a8632ac3
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Tomorrow Is Too Far cover'
+      title: ''
+      width: 100
+      height: 170
+      entity: c79d9691-6bf2-41e2-a87e-0a7ac5ef83d1

@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fc66522b-c46a-43da-b4f8-758035a0a4eb
+  bundle: anthology
+  default_langcode: en
+  depends:
+    ad7e263f-afa9-49e6-a611-f2fd53633b5e: node
+    aa434983-2e74-4073-a565-5c664caef50e: media
+    9d7f4eb4-cb50-4b5f-8cb1-194d568638d0: taxonomy_term
+    5d686e80-26a9-45f7-8f43-de66bdfbfd67: taxonomy_term
+    0ace682b-7932-42e9-8884-e2a79cec29cb: taxonomy_term
+    07e04449-4459-4095-93e6-b2b8657c8a95: taxonomy_term
+    68627b15-48ef-424f-8eb9-3d4eae01e52c: taxonomy_term
+    c78b7f7e-db91-4f83-a832-aa696e236b01: taxonomy_term
+    0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea: taxonomy_term
+    d8ad1c3d-4f9e-4290-9904-f73596c8783e: taxonomy_term
+    b0034d8c-4700-4416-ac8c-790c9eb9de94: taxonomy_term
+    d0c75285-95f3-4e3f-92d2-04c05cc6456f: taxonomy_term
+    2562daef-f6ed-42d1-ac7f-871e98770716: taxonomy_term
+    1ab17bfb-57b2-441b-b0e5-b5d8462f2649: taxonomy_term
+    99292b66-1a21-4351-b97b-c7b6a82585be: taxonomy_term
+    2d1fce49-c2ae-4532-941f-7d8b0b50ff31: taxonomy_term
+    a966258d-b058-44e1-8e6e-ca2a9a84234c: taxonomy_term
+    8369f22b-e1bf-4992-9ec5-fd789acdd842: taxonomy_term
+    b226aeaa-e71f-48e7-b1bb-540fe32b5459: taxonomy_term
+    3b909b15-13a9-4c7d-a459-89c332b5236c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1347044 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Von Ballard bis Stableford'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/von-ballard-bis-stableford
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Heyne, April 2001, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: ad7e263f-afa9-49e6-a611-f2fd53633b5e
+  field_cover:
+    -
+      entity: aa434983-2e74-4073-a565-5c664caef50e
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1347044 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 9d7f4eb4-cb50-4b5f-8cb1-194d568638d0
+  field_first_published_year:
+    -
+      value: 2001
+  field_isfdb_id:
+    -
+      value: '1347044'
+  field_other_contributors:
+    -
+      entity: 5d686e80-26a9-45f7-8f43-de66bdfbfd67
+    -
+      entity: 0ace682b-7932-42e9-8884-e2a79cec29cb
+    -
+      entity: 07e04449-4459-4095-93e6-b2b8657c8a95
+    -
+      entity: 68627b15-48ef-424f-8eb9-3d4eae01e52c
+    -
+      entity: c78b7f7e-db91-4f83-a832-aa696e236b01
+    -
+      entity: 0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea
+    -
+      entity: d8ad1c3d-4f9e-4290-9904-f73596c8783e
+    -
+      entity: b0034d8c-4700-4416-ac8c-790c9eb9de94
+    -
+      entity: d0c75285-95f3-4e3f-92d2-04c05cc6456f
+    -
+      entity: 2562daef-f6ed-42d1-ac7f-871e98770716
+    -
+      entity: 1ab17bfb-57b2-441b-b0e5-b5d8462f2649
+    -
+      entity: 99292b66-1a21-4351-b97b-c7b6a82585be
+    -
+      entity: 2d1fce49-c2ae-4532-941f-7d8b0b50ff31
+    -
+      entity: a966258d-b058-44e1-8e6e-ca2a9a84234c
+    -
+      entity: 8369f22b-e1bf-4992-9ec5-fd789acdd842
+    -
+      entity: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+  field_publisher:
+    -
+      entity: 3b909b15-13a9-4c7d-a459-89c332b5236c

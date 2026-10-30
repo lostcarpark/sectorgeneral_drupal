@@ -1,0 +1,23 @@
+uuid: 664996df-20b5-4d5f-8e12-6d283621e4ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.short_story
+  module:
+    - node
+id: short_story
+label: 'Short stories'
+type: 'canonical_entities:node'
+pattern: '/short-stories/[node:title]'
+selection_criteria:
+  1d8c4833-7d5d-4693-8907-fb876612c9a5:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      short_story: short_story
+selection_logic: and
+weight: 2
+relationships: {  }

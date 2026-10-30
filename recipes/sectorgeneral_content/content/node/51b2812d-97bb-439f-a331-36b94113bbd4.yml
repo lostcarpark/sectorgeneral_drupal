@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 51b2812d-97bb-439f-a331-36b94113bbd4
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Imported from the original James White Information site.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Terry Jeeves interviews James White'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /articles/terry-jeeves-interview
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: |
+        <p><em>From ERG Quarterly 62, April 1978 (edited and published by Terry Jeeves)</em></p>
+        <p><em>T.J - Can you recall the circumstances which first drew you to become a reader, and later a fan, of science fiction?</em></p>
+        <p>J.W. - My early interest in s-f began gradually, I suppose, with reading library copies of 'The Time Machine' and 'A Princess of Mars', and by being exposed to the visual wonders of Flash Gordon films - although it was a long time before I joined the British Interplanetary Society and realised that spaceships do not dribble sparks. Later came the phase when I searched the libraries and bookshops for titles with Star or Space or the names of planets in them, and I soon learned that titles like 'Under Alien Stars' were false, while 'Sirius' was not. But it was reading an instalment of E.E. Smith's 'Grey Lensman' which had, I think, the most profound effect on me - I discovered that some of the visually horrifying bug-eyed monsters could be Good Guys. It is highly probable that if I hadn't read E.E.Smith, and liked his BEMs more than some of his human characters, I would never have written the Sector General series where all the extra-terrestrials are good, if somewhat strange, people.</p>
+        <p><em>T.J. - I seem to remember that you used to do some excellent linocut artwork for Walt Willis' 'Slant'. Do you ever do anything in that line nowadays?</em></p>
+        <p>J.W. - Oddly enough my ambition at that time was to become a professional artist. I could always draw after a fashion, and the linocut illos in 'Slant' were there chiefly because otherwise we did not have enough type to fill a page. But the competition for would-be s.f. artists was tough in Belfast. Everyone in Irish fandom could draw - Bob Shaw was very good, 'New Worlds' artist Gerard Quinn was tops, and even Walt Willis could draw a recognisable egg - especially when he was trying to draw a circle. But my artistic s-f career ended finally (the best way to end anything, you'll agree) with the onset of eye trouble. As Walt put it in a Slant editorial "The White School of lino-cut illustration has been forced to close because of trouble with the pupils."</p>
+        <p><em>T.J. - Can you describe what spurred you to make the leap from fandom to pro writing?</em></p>
+        <p>J.W. - The eye trouble left me with more spare time, which was used to write fan letters and the odd - sometimes very odd - article for UK and US fanzines, and the first professional sale came about partly because of John W Campbell's editorial policy at that time. Virtually every story in 'Astounding' ended in atomic doom those days, and I got the idea of writing a story with an up-beat ending. This was not a very serious or urgent project because it took eight months to write the 10,000 word Thing called 'Assisted Passage'.</p>
+        <p>When the other members of Irish Fandom read it the consensus of opinion was that it was every bit as good as the other junk being published in the prozines of that time; Ted Carnell, then editor of 'New Worlds', said the syntax was lousy and I couldn't spell 'manouvre' (still can't) but he was taking it for the July 1953 issue; shortly afterwards the immortal (or do I mean immoral, or both?) Chuck Harris, in his fan column, called me, "James White, fakefan, foulness festering on the fringes of fandom, vilest pro!" and I realised that I had lost my amateur status.</p>
+        <p><em>T.J. - Probably your best known stories are the Sector General series. Did you choose this theme because it allowed you to create a variety of aliens and. their problems, or because medical themes interest you and you want to write about them?</em></p>
+        <p>J.W. - The Sector General idea grew naturally out of my fondness for alien characters and my unrealised ambition to become a doctor - most of my early stories featured medics and/or monsters (sneaky plug) and the Sector General series simply brought the two types together. Originally the series was supposed to end with the third novelette, but people, including me, liked the intergalactic hospital background and the series has since run to one novel, 12 novelettes and one short story, the majority of which have been published in the books, 'Hospital Station', 'Star Surgeon' and 'Major Operation' (Ballantine, US edition only).</p>
+        <p>The trouble is that every time I dream up a really alien alien, and check it for xenobiological versimilitude at the next convention with Jack Cohen, who thereupon bombards me with ideas for even more alien aliens, they all seem to sprain a tentacle or take sick and end up in Sector General.</p>
+        <p>I am currently working on another long novelette for the series, and there are scribbled outlines for two more in my notebook which may never be written because I can't read my handwriting.</p>
+        <p><em>T.J. - Do you 'invent' your medical details or do you research them in any way?</em></p>
+        <p>J.W. - The medical and physiological details of extra-terrestrials have to be invented, naturally, but the diagnosis and treatments are based on terrestrial practice. Research is needed sometimes, and my sources range from Principles of Intensive Care (Emery, Yates & Moorhead) through Reproduction (Cohen) , to The British Red Cross First Aid Handbook - quite often the latter, because the ailing aliens are frequently in a situation where they need help from members of a completely different species, a species which has no prior knowledge of their physiology so that the first aid approach of giving assistance with minimum danger of compounding the injuries, is best until their own doctor or a Sector General type turns up. However, if an author invents an e.t. metabolism and physiology in the first place, he automatically becomes the universe's leading specialist in the treatment of the being's disorders, A clear case of medical megalomania wouldn't you say ?</p>
+        <p><em>T.J. - Which of your stories give you the greatest pleasure, and why?</em></p>
+        <p>J.W. - This is a difficult question. Writing is hard work and I, in common with most writers, feel anything but pleasure on completing a story because of how far short it falls of the author's original conception. The story which came closest to doing so with me was 'Custom Fitting', published in 'Stellar 2'. I think it is the only s-f story which uses tailoring as the science involved. As a tailoring assistant myself for 22 years, I was able to appreciate the problems facing the leading character - a nice old tailor and sartorial tyrant faced with the task of making and fitting the proper gear for an extra-terrestrial VIP who is the first ambassador from the stars. There was no violence in the story, except for pins being driven through unresisting black serge, but it sort of sneaked up and involved the emotions. It was short-listed for last year's Hugo Awards, which shows that sometimes I have good taste even where my own stuff is concerned.</p>
+        <p><em>T.J. - Is there any s-f writer, living or dead, whose work you admire and may possibly have tried to emulate?</em></p>
+        <p><em>T.J. - Many people have different ideas of the Golden Age of s-f. What is your personal Golden Age, and why?</em></p>
+        <p>J.W. - For me the last two questions are linked. The Golden Age of S-F as far as I am concerned was the period late 1939 to the mid-forties. Great stuff was written before and after that period, and the field has matured a lot since then, but it was those particular stories which had the greatest impact on me during my impressionable years. That is why, when I started to write professionally, I tried to emulate the combination of style, sense of wonder, strength of plot, idea content and increasingly perceptive characterisation of those stories (which had always had clearly defined beginnings, middles and endings). One of the nicest things anyone ever said about my work in the early days was that I wrote like Murray Leinster.</p>
+        <p>Since reading 'First Contact', Murray Leinster had been one of my favourite authors, with Heinlein, Sturgeon, Smith (both E.E. and George O), Del-Rey, Kuttner, Russell and more of that ilk. I did not try consciously to copy (No split infinitives here, lad) the style or plotting of any particular favourite writer, but I did try to produce their kind of story, but updated of course.</p>
+        <p>There are a lot of younger writers doing the same thing these days, trying and often achieving the same high standard while giving their stories their own particular trademarks, with the idea that we should respect but not worship our literary ancestors. I think this is a very good idea.</p>
+        <p>Golden Ages are funny things, they never quite fade away.</p>
+        <p>James White, Belfast, 1978.</p>
+        <p><a href="/">Sector General</a></p>
+        <p><a href="contactus.php">Contact Us</a></p>
+        <p>Back to Top</p>
+      format: basic_html
+      summary: ''

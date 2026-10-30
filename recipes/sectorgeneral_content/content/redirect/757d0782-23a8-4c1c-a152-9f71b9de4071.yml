@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 757d0782-23a8-4c1c-a152-9f71b9de4071
+  bundle: redirect
+  default_langcode: en
+  depends:
+    08c9fa9c-73be-49c8-b204-c291186f4cdc: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: tGNymrz6fmDyBWWnLdFHGRqvbZXSERxmaEeiNox0EoM
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/galaxy/galaxy-december-1973
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 08c9fa9c-73be-49c8-b204-c291186f4cdc
+  status_code:
+    -
+      value: 301

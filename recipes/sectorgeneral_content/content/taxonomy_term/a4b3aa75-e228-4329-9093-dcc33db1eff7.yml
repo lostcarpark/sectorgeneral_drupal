@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: a4b3aa75-e228-4329-9093-dcc33db1eff7
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Philip K. Dick'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/philip-k-dick
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,26 @@
+uuid: 6dfea173-2f26-4f4e-a57f-8738d456b7e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contents
+    - node.type.magazine_issue
+    - node.type.novel
+    - node.type.short_story
+id: node.magazine_issue.field_contents
+field_name: field_contents
+entity_type: node
+bundle: magazine_issue
+label: Contents
+description: 'The James White stories in this issue, and any book serialised in it.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      short_story: short_story
+      novel: novel
+field_type: entity_reference

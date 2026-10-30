@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: bf8f6a3e-90cf-44dd-971e-7ae279c399ff
+  bundle: edition
+  default_langcode: en
+  depends:
+    c648d7d8-4529-410e-ba06-d12b68fb26e2: media
+    2ea7f198-8285-4883-b0f8-67628c811f1d: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    452c06f4-d505-43d4-8888-cebe19bce6d2: taxonomy_term
+    6464ded4-5521-4661-8b9f-1f1e80607e26: taxonomy_term
+    a9ab5940-0b20-48cf-b9fb-da0c8a912d9f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Created from the Polish National Library: https://data.bn.org.pl/api/institutions/bibs.json?id=1534814'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Szpital kosmiczny, Dom Wydawniczy Rebis, 2002'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/szpital-kosmiczny-dom-wydawniczy-rebis-2002
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: c648d7d8-4529-410e-ba06-d12b68fb26e2
+  field_data_sources:
+    -
+      value: 'Biblioteka Narodowa record https://data.bn.org.pl/api/institutions/bibs.json?id=1534814 (CC0).'
+  field_date_display:
+    -
+      value: '2002'
+  field_isbn:
+    -
+      value: '9788373012288'
+  field_language:
+    -
+      entity: 2ea7f198-8285-4883-b0f8-67628c811f1d
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_pages:
+    -
+      value: 272
+  field_printing:
+    -
+      value: 'Wyd. 2 popr'
+  field_publisher:
+    -
+      entity: 452c06f4-d505-43d4-8888-cebe19bce6d2
+  field_publisher_series:
+    -
+      entity: 6464ded4-5521-4661-8b9f-1f1e80607e26
+  field_publisher_series_number:
+    -
+      value: '1'
+  field_sort_date:
+    -
+      value: '2002-01-01'
+  field_translator:
+    -
+      entity: a9ab5940-0b20-48cf-b9fb-da0c8a912d9f
+  field_verified:
+    -
+      value: false
+  field_year:
+    -
+      value: 2002

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: eddb9ff3-48ed-4d11-a7ec-9bb6367b651d
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Mike McCormack'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/mike-mccormack
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

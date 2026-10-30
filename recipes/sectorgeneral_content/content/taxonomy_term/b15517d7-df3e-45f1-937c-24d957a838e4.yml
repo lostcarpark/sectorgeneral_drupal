@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b15517d7-df3e-45f1-937c-24d957a838e4
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Martin Frew'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/martin-frew
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

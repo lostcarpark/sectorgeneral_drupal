@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0058560d-2748-4cc3-a995-cf33a2d19a8c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mjrprtnccn1987.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mjrprtnccn1987.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 112228
+  status:
+    -
+      value: true

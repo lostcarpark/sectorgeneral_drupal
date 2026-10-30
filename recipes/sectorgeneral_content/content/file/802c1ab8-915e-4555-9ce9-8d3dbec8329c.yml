@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 802c1ab8-915e-4555-9ce9-8d3dbec8329c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nwwrtngsnc1971.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/nwwrtngsnc1971.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 113152
+  status:
+    -
+      value: true

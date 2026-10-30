@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fa7dd9ab-7d52-41c5-aab4-7acc2a35ddf9
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newwrnov1960.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/newwrnov1960.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 133163
+  status:
+    -
+      value: true

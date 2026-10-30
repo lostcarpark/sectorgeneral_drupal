@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: e2e1c1be-cf04-456b-97f3-bafe1daa45a1
+  bundle: redirect
+  default_langcode: und
+  depends:
+    388effb1-372e-4213-aa1e-20b4a8da3452: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: zVDKaN51PVzqaZhfN0B0FiPF0YR3PJmdsREIL7Xxn4k
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/christmastreason.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 388effb1-372e-4213-aa1e-20b4a8da3452
+  status_code:
+    -
+      value: 301

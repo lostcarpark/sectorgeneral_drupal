@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a32b3efb-4a2e-4855-8e0e-ab44305e7120
+  bundle: anthology
+  default_langcode: en
+  depends:
+    388effb1-372e-4213-aa1e-20b4a8da3452: node
+    fbb927fd-8ca7-4e40-a24e-d77a9d379da8: media
+    da4b8ec8-18d1-47d9-9626-5510643b9627: taxonomy_term
+    6f4be098-285d-4a2e-8fc6-ff3591a9174b: taxonomy_term
+    9be5cd51-54f5-4835-8aa6-8459349ae07a: taxonomy_term
+    3821e984-48db-4086-aab1-348018c3c0c6: taxonomy_term
+    129950fb-823f-4e22-9438-5bb64276917b: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    33217e5f-35b9-4ced-a6f5-5dc9e1c16e9f: taxonomy_term
+    3e7d2170-f99e-4731-9c56-982d211a2a86: taxonomy_term
+    0da82dc8-1a4d-484e-83c9-f650d51b4e3f: taxonomy_term
+    d4cbed3a-9689-4bc3-baaa-3588ff296758: taxonomy_term
+    3b909b15-13a9-4c7d-a459-89c332b5236c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?399654'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Die Nacht der zehn Milliarden Lichter'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/die-nacht-der-zehn-milliarden-lichter
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Heyne, November 1967, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 388effb1-372e-4213-aa1e-20b4a8da3452
+  field_cover:
+    -
+      entity: fbb927fd-8ca7-4e40-a24e-d77a9d379da8
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1505102 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: da4b8ec8-18d1-47d9-9626-5510643b9627
+    -
+      entity: 6f4be098-285d-4a2e-8fc6-ff3591a9174b
+  field_first_published_year:
+    -
+      value: 1967
+  field_isfdb_id:
+    -
+      value: '1505102'
+  field_other_contributors:
+    -
+      entity: 9be5cd51-54f5-4835-8aa6-8459349ae07a
+    -
+      entity: 3821e984-48db-4086-aab1-348018c3c0c6
+    -
+      entity: 129950fb-823f-4e22-9438-5bb64276917b
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: 33217e5f-35b9-4ced-a6f5-5dc9e1c16e9f
+    -
+      entity: 3e7d2170-f99e-4731-9c56-982d211a2a86
+    -
+      entity: 0da82dc8-1a4d-484e-83c9-f650d51b4e3f
+    -
+      entity: d4cbed3a-9689-4bc3-baaa-3588ff296758
+  field_publisher:
+    -
+      entity: 3b909b15-13a9-4c7d-a459-89c332b5236c

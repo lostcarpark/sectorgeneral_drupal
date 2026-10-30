@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6e6443b2-6886-4e5e-9041-6528e57c988c
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    78cdc847-dffb-41ef-aa04-f649ac131946: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Beginning Operations, Gollancz, 2026 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 57b4db5a8b9c9060a09cefe3789617a40eb17131
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://m.media-amazon.com/images/I/41LHqaFnS-L.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Beginning Operations, Gollancz, 2026 cover'
+      title: ''
+      width: 326
+      height: 500
+      entity: 78cdc847-dffb-41ef-aa04-f649ac131946
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?1099691'
+      title: null
+      options: {  }

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 113e8f38-7fed-47d7-8eab-8adad4e2d4dd
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: anlgfeb96.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/anlgfeb96.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 40934
+  status:
+    -
+      value: true

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c98187bd-9985-4992-b4de-18798fc43d6d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: u1012.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/u1012.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 39995
+  status:
+    -
+      value: true

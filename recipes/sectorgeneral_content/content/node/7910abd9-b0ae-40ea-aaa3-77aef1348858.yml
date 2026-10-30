@@ -1,0 +1,103 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7910abd9-b0ae-40ea-aaa3-77aef1348858
+  bundle: edition
+  default_langcode: en
+  depends:
+    4fba7bd2-64aa-4db7-b223-bf884cdd721a: media
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    7ca95962-725e-438b-9860-913571c7b174: node
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+    3bda7690-3cc9-4052-9e0e-e67f67495dac: taxonomy_term
+    98ce79b8-df78-4c99-8609-cd0f933302ed: taxonomy_term
+    0a0646e6-374c-43c9-bae8-3957bab2ab70: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/790166143'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Das zweite Leben, Pabel, 1979'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/monsters-and-medics/das-zweite-leben-pabel-1979
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 4fba7bd2-64aa-4db7-b223-bf884cdd721a
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?622132 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/790166143 (CC0).
+  field_date_display:
+    -
+      value: '9 January 1979'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '622132'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 7ca95962-725e-438b-9860-913571c7b174
+    -
+      entity: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+  field_oclc:
+    -
+      value: '721873415'
+  field_pages:
+    -
+      value: 161
+  field_price:
+    -
+      value: 'DM 3.80'
+  field_printing:
+    -
+      value: 'Dt. Erstdr.'
+  field_publisher:
+    -
+      entity: 3bda7690-3cc9-4052-9e0e-e67f67495dac
+  field_publisher_reference:
+    -
+      value: TTB309
+  field_publisher_series:
+    -
+      entity: 98ce79b8-df78-4c99-8609-cd0f933302ed
+  field_publisher_series_number:
+    -
+      value: '309'
+  field_sort_date:
+    -
+      value: '1979-01-09'
+  field_translator:
+    -
+      entity: 0a0646e6-374c-43c9-bae8-3957bab2ab70
+  field_year:
+    -
+      value: 1979

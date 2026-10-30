@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 54504fd9-322a-4775-a2b2-addd4cc6b6f5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: deadlylitterballantine70.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/deadlylitterballantine70.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3554
+  status:
+    -
+      value: true

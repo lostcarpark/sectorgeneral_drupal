@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 84eec1ce-2a54-4170-b53d-48440b7b3eda
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Allan Holzib'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/allan-holzib
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

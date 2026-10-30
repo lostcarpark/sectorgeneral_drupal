@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: d9e8c08a-3c22-4835-be89-a4b3b787069a
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    f85c51b4-63d8-43d5-97a1-ff0558f094cb: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'All Judgement Fled, Ballantine, 1970 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 369720570d3d7b9c619ca3e865ac077efa6f0e13
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'All Judgement Fled cover'
+      title: ''
+      width: 100
+      height: 167
+      entity: f85c51b4-63d8-43d5-97a1-ff0558f094cb

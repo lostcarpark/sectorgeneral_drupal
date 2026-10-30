@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1248ec3e-bc50-4a26-92e1-bec246a673ad
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: strsrgnkqm1981.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/strsrgnkqm1981.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 110952
+  status:
+    -
+      value: true

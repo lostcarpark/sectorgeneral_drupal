@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 65512e85-02f7-4784-bf2c-772ddb0c1ab3
+  bundle: edition
+  default_langcode: en
+  depends:
+    2340f31e-dd59-4d3d-a150-b9e4fb36b9d4: media
+    deae6e3d-2c69-4ebf-a5c1-822a3b508062: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    2d0a3410-a4d5-43b2-aca8-9f79b0370788: node
+    47dcdfd9-5b9d-431e-b100-e494eb3e62cd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL9887566M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Code Blue—Emergency, Del Rey, 1987'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/code-blue-emergency/code-blue-emergency-del-rey-1987
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 2340f31e-dd59-4d3d-a150-b9e4fb36b9d4
+  field_cover_artist:
+    -
+      entity: deae6e3d-2c69-4ebf-a5c1-822a3b508062
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ballantine/Del Rey, ISBN -0-345-34627-0, July 1987”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?7429 (CC BY 4.0).
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?444927 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9887566M (CC0).
+  field_date_display:
+    -
+      value: 'July 1987'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345346278'
+  field_isfdb_id:
+    -
+      value: '7429'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 2d0a3410-a4d5-43b2-aca8-9f79b0370788
+  field_oclc:
+    -
+      value: '16394668'
+  field_openlibrary_id:
+    -
+      value: OL9887566M
+  field_pages:
+    -
+      value: 280
+  field_price:
+    -
+      value: $2.95
+  field_publisher:
+    -
+      entity: 47dcdfd9-5b9d-431e-b100-e494eb3e62cd
+  field_sort_date:
+    -
+      value: '1987-07-01'
+  field_year:
+    -
+      value: 1987

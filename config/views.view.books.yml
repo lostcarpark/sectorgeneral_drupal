@@ -1,0 +1,307 @@
+uuid: 0115f19e-c0f9-405a-88c4-05a52b3aa92d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_book_type
+    - field.storage.node.field_cover
+    - field.storage.node.field_first_published_year
+    - field.storage.node.field_series
+    - field.storage.node.field_series_number
+    - node.type.novel
+    - system.menu.main
+    - taxonomy.vocabulary.series
+  module:
+    - node
+    - options
+    - taxonomy
+    - user
+    - views_row_sdc
+id: books
+label: Books
+module: views
+description: "Cover grid of James White's books."
+tag: ''
+base_table: node_field_data
+base_field: nid
+display:
+  default:
+    id: default
+    display_title: Default
+    display_plugin: default
+    position: 0
+    display_options:
+      title: 'Books by James White'
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+          label: Title
+          element_label_colon: false
+          type: string
+          settings:
+            link_to_entity: false
+        view_node:
+          id: view_node
+          table: node
+          field: view_node
+          entity_type: node
+          plugin_id: entity_link
+          label: URL
+          text: ''
+          output_url_as_text: true
+          absolute: false
+        field_cover:
+          id: field_cover
+          table: node__field_cover
+          field: field_cover
+          plugin_id: field
+          label: Cover
+          element_label_colon: false
+          type: entity_reference_entity_view
+          settings:
+            view_mode: cover_card
+        field_first_published_year:
+          id: field_first_published_year
+          table: node__field_first_published_year
+          field: field_first_published_year
+          plugin_id: field
+          label: Year
+          element_label_colon: false
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: false
+        field_book_type:
+          id: field_book_type
+          table: node__field_book_type
+          field: field_book_type
+          plugin_id: field
+          label: Type
+          element_label_colon: false
+          type: list_default
+          settings: {  }
+        field_series:
+          id: field_series
+          table: node__field_series
+          field: field_series
+          plugin_id: field
+          label: Series
+          element_label_colon: false
+          type: entity_reference_label
+          settings:
+            link: false
+        field_series_number:
+          id: field_series_number
+          table: node__field_series_number
+          field: field_series_number
+          plugin_id: field
+          label: 'Number in series'
+          element_label_colon: false
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: false
+      pager:
+        type: none
+        options:
+          offset: 0
+      exposed_form:
+        type: basic
+        options: {  }
+      access:
+        type: perm
+        options:
+          perm: 'access content'
+      cache:
+        type: tag
+        options: {  }
+      empty:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          plugin_id: text_custom
+          empty: true
+          content: 'No books match these filters.'
+      sorts:
+        field_first_published_year_value:
+          id: field_first_published_year_value
+          table: node__field_first_published_year
+          field: field_first_published_year_value
+          plugin_id: standard
+          order: ASC
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          plugin_id: standard
+          order: ASC
+      filters:
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+          value:
+            novel: novel
+          group: 1
+        field_book_type_value:
+          id: field_book_type_value
+          table: node__field_book_type
+          field: field_book_type_value
+          plugin_id: list_field
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_book_type_value_op
+            label: Type
+            use_operator: false
+            operator: field_book_type_value_op
+            identifier: type
+            required: false
+            remember: false
+            multiple: false
+            reduce: false
+        field_series_target_id:
+          id: field_series_target_id
+          table: node__field_series
+          field: field_series_target_id
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_series_target_id_op
+            label: Series
+            use_operator: false
+            operator: field_series_target_id_op
+            identifier: series
+            required: false
+            remember: false
+            multiple: false
+            reduce: false
+          vid: series
+          type: select
+          hierarchy: false
+          limit: true
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: grid_responsive
+        options:
+          grouping: {  }
+          columns: 5
+          cell_min_width: 140
+          grid_gutter: 24
+          alignment: horizontal
+      row:
+        type: sdc_component
+        options:
+          component_id: 'sectorgeneral_theme:book-card'
+          props:
+            title:
+              field: title
+              static: ''
+              type: string
+            url:
+              field: view_node
+              static: ''
+              type: string
+            year:
+              field: field_first_published_year
+              static: ''
+              type: string
+            type:
+              field: field_book_type
+              static: ''
+              type: string
+            series:
+              field: field_series
+              static: ''
+              type: string
+            series_number:
+              field: field_series_number
+              static: ''
+              type: string
+          slots:
+            cover:
+              field: field_cover
+      query:
+        type: views_query
+        options: {  }
+      header:
+        result:
+          id: result
+          table: views
+          field: result
+          plugin_id: result
+          empty: false
+          content: '@total books'
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_book_type'
+        - 'config:field.storage.node.field_cover'
+        - 'config:field.storage.node.field_first_published_year'
+        - 'config:field.storage.node.field_series'
+        - 'config:field.storage.node.field_series_number'
+  page:
+    id: page
+    display_title: Page
+    display_plugin: page
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: books
+      menu:
+        type: normal
+        title: Books
+        description: ''
+        weight: 1
+        enabled: true
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_book_type'
+        - 'config:field.storage.node.field_cover'
+        - 'config:field.storage.node.field_first_published_year'
+        - 'config:field.storage.node.field_series'
+        - 'config:field.storage.node.field_series_number'

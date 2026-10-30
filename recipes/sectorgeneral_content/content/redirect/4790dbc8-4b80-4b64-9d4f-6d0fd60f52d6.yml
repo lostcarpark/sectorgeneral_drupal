@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 4790dbc8-4b80-4b64-9d4f-6d0fd60f52d6
+  bundle: redirect
+  default_langcode: en
+  depends:
+    800be203-c9c1-44f2-ad47-7e4449e1deed: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 0M0ZfoThtyuqtCTZ9ifBsLXygh3tYGACl4HgbTd1lRQ
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/new-worlds/new-worlds-march-1960
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 800be203-c9c1-44f2-ad47-7e4449e1deed
+  status_code:
+    -
+      value: 301

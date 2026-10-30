@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c750204e-def0-42a9-a29c-ac49959191da
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    03f404b7-e26a-48a8-9c6a-31cfa7ec004a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Aliens Among Us, Del Rey / Ballantine, 1981 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: ad342bd8719dc8000baec04be291235bce4200f8
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/3/3b/THLNSMNGSK1981.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'The Aliens Among Us, Del Rey / Ballantine, 1981 cover'
+      title: ''
+      width: 382
+      height: 640
+      entity: 03f404b7-e26a-48a8-9c6a-31cfa7ec004a
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?395411'
+      title: null
+      options: {  }

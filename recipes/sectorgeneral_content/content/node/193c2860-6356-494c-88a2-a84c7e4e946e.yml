@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 193c2860-6356-494c-88a2-a84c7e4e946e
+  bundle: edition
+  default_langcode: en
+  depends:
+    b56fc5e7-41a0-49c8-a8c3-a8c7e1f54a1e: media
+    1640745f-6fb3-4e39-a891-98c63f943dd1: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    cbdf529a-740d-42cb-9460-96c61fec687d: taxonomy_term
+    22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930: node
+    d155de23-f8ec-429d-8a37-7f51479031fa: taxonomy_term
+    7a6c4ed1-1562-43f6-8c94-935985ab5e97: taxonomy_term
+    442152ba-9bfc-467f-85a1-6286ddd7635f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Translator name repaired: it had swallowed the rest of an ISFDB note.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'A grande operação, Livros do Brasil, 1976'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/major-operation/grande-operacao-livros-do-brasil-1976
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: b56fc5e7-41a0-49c8-a8c3-a8c7e1f54a1e
+  field_cover_artist:
+    -
+      entity: 1640745f-6fb3-4e39-a891-98c63f943dd1
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?373660 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '1976'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_interior_artist:
+    -
+      entity: 1640745f-6fb3-4e39-a891-98c63f943dd1
+  field_isfdb_id:
+    -
+      value: '373660'
+  field_language:
+    -
+      entity: cbdf529a-740d-42cb-9460-96c61fec687d
+  field_novel:
+    -
+      entity: 22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930
+  field_pages:
+    -
+      value: 208
+  field_publisher:
+    -
+      entity: d155de23-f8ec-429d-8a37-7f51479031fa
+  field_publisher_series:
+    -
+      entity: 7a6c4ed1-1562-43f6-8c94-935985ab5e97
+  field_publisher_series_number:
+    -
+      value: '223'
+  field_sort_date:
+    -
+      value: '1976-01-01'
+  field_translator:
+    -
+      entity: 442152ba-9bfc-467f-85a1-6286ddd7635f
+  field_year:
+    -
+      value: 1976

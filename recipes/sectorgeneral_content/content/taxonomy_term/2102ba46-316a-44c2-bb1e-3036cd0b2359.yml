@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 2102ba46-316a-44c2-bb1e-3036cd0b2359
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Terry Carr'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/terry-carr
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c4a68bb2-b90f-445a-b889-60cb847003cb
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Les Cole'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/les-cole
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

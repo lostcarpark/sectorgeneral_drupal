@@ -1,0 +1,26 @@
+uuid: c00ea7e2-34b2-433f-8053-23ed72708094
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_introduction_by
+    - node.type.edition
+    - taxonomy.vocabulary.people
+id: node.edition.field_introduction_by
+field_name: field_introduction_by
+entity_type: node
+bundle: edition
+label: 'Introduction by'
+description: 'Writers of an introduction, foreword or afterword. Separate several names with commas.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      people: people
+    auto_create: true
+    auto_create_bundle: people
+field_type: entity_reference

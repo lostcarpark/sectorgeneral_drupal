@@ -1,0 +1,102 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3ab146ec-b83e-4440-b284-29891e9d013f
+  bundle: edition
+  default_langcode: en
+  depends:
+    d61354b8-523c-406e-a155-ab1537417fef: media
+    c9c33fb1-e916-4f66-9615-a537946e1cbc: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    076cb8ba-ada5-4880-8874-aee68d7e662d: node
+    2489534c-0801-43c6-89f5-eb25fb1d11ea: taxonomy_term
+    2976ba56-0ae1-4f2b-b006-565f69ecb6e2: taxonomy_term
+    2a2a2898-1fb3-436e-8a3a-caa24258df6e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/740606859'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Gefangene des Meeres, Moewig, 1974'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/watch-below/gefangene-des-meeres-moewig-1974
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: d61354b8-523c-406e-a155-ab1537417fef
+  field_cover_artist:
+    -
+      entity: c9c33fb1-e916-4f66-9615-a537946e1cbc
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “TERRA SF ROMANE No 234, May 1974 as Gefangene des Meeres”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?498869 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/740606859 (CC0).
+  field_date_display:
+    -
+      value: 'May 1974'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '498869'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 076cb8ba-ada5-4880-8874-aee68d7e662d
+  field_oclc:
+    -
+      value: '74171390'
+  field_pages:
+    -
+      value: 143
+  field_price:
+    -
+      value: 'DM 2.80'
+  field_publisher:
+    -
+      entity: 2489534c-0801-43c6-89f5-eb25fb1d11ea
+  field_publisher_reference:
+    -
+      value: '234'
+  field_publisher_series:
+    -
+      entity: 2976ba56-0ae1-4f2b-b006-565f69ecb6e2
+  field_publisher_series_number:
+    -
+      value: '234'
+  field_sort_date:
+    -
+      value: '1974-05-01'
+  field_translator:
+    -
+      entity: 2a2a2898-1fb3-436e-8a3a-caa24258df6e
+  field_year:
+    -
+      value: 1974

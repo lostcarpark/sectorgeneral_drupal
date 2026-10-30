@@ -1,0 +1,19 @@
+uuid: 2db75817-1482-4479-b036-fe0536cc2f0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_regional_edition
+    - node.type.magazine_issue
+id: node.magazine_issue.field_regional_edition
+field_name: field_regional_edition
+entity_type: node
+bundle: magazine_issue
+label: Edition
+description: 'When a magazine came out in more than one country''s edition for the same month, which this is, e.g. "UK edition".'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

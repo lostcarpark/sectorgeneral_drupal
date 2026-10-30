@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: dab971ae-091c-4370-ba9f-07238f47f4b7
+  bundle: novel
+  default_langcode: en
+  depends:
+    af9cb839-de4e-49c2-859f-bde4b5100157: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover from its earliest English edition.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Jewels of Aptor / Second Ending'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/jewels-aptor-second-ending
+      langcode: en
+      pathauto: 1
+  field_book_type:
+    -
+      value: omnibus
+  field_cover:
+    -
+      entity: af9cb839-de4e-49c2-859f-bde4b5100157
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?795085 (CC BY 4.0).'
+  field_first_published_year:
+    -
+      value: 1962
+  field_isfdb_id:
+    -
+      value: '795085'

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8dcf985c-e1b2-4d9e-8e48-8e78198a41d1
+  bundle: magazine
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Fiction
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/fiction
+      langcode: en
+      pathauto: 1

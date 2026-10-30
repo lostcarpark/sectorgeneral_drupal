@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b3d0c8b0-d5bb-4052-a624-068d2eb0e628
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    5960c810-aa15-4339-bce8-229c6cb96990: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Worlds 115, February 1962 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 35dae38baae23107e90c6de68f871dd0219ddf0e
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'New Worlds 115, February 1962 cover'
+      title: ''
+      width: 136
+      height: 200
+      entity: 5960c810-aa15-4339-bce8-229c6cb96990

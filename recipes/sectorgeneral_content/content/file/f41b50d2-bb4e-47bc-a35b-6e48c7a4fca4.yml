@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f41b50d2-bb4e-47bc-a35b-6e48c7a4fca4
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: extro2.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/extro2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3424
+  status:
+    -
+      value: true

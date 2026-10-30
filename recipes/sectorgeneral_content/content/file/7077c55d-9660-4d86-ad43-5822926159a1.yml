@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7077c55d-9660-4d86-ad43-5822926159a1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newwrnov1958.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/newwrnov1958.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 38855
+  status:
+    -
+      value: true

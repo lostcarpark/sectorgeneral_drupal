@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 79a9ef36-07b2-4f77-9926-d4367902960c
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    ed320317-0e7e-40ba-afd5-c70ce45e5af5: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Deadly Litter, Ballantine, 1964 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 46f0f3204f6422acfdce699844580d7fac1d9751
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Deadly Litter cover'
+      title: ''
+      width: 100
+      height: 169
+      entity: ed320317-0e7e-40ba-afd5-c70ce45e5af5

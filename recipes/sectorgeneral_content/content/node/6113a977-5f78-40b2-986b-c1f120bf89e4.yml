@@ -1,0 +1,78 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6113a977-5f78-40b2-986b-c1f120bf89e4
+  bundle: edition
+  default_langcode: en
+  depends:
+    d28ad8e9-520b-43da-99f9-b375d3875be0: media
+    476c27c9-4cc1-4dae-8014-209aa9d3cfff: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    62862122-c514-4f24-8c75-e5e6741745f4: node
+    d230c1fd-533c-41e3-90d7-b3345a0fae62: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?1124807'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Star Healer, Gateway / Orion, 2026'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-healer/star-healer-gateway-orion-2026
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: d28ad8e9-520b-43da-99f9-b375d3875be0
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1124807 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '27 August 2026'
+  field_format:
+    -
+      entity: 476c27c9-4cc1-4dae-8014-209aa9d3cfff
+  field_isbn:
+    -
+      value: '9781399636285'
+  field_isfdb_id:
+    -
+      value: '1124807'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 62862122-c514-4f24-8c75-e5e6741745f4
+  field_price:
+    -
+      value: £4.99
+  field_publisher:
+    -
+      entity: d230c1fd-533c-41e3-90d7-b3345a0fae62
+  field_sort_date:
+    -
+      value: '2026-08-27'
+  field_year:
+    -
+      value: 2026

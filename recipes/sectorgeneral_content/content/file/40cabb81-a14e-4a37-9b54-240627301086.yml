@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 40cabb81-a14e-4a37-9b54-240627301086
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: lnsmngs1981.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/lnsmngs1981.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 68521
+  status:
+    -
+      value: true

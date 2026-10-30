@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: e2b34650-5251-4a2a-a4e9-883d41799498
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Zenna Henderson'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/zenna-henderson
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

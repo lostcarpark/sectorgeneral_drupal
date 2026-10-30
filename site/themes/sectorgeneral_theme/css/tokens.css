@@ -1,0 +1,17 @@
+/**
+ * @file
+ * Site fonts. Colours come from the Registration Theme settings form.
+ *
+ * Page content is all sans-serif (the base theme's system stack). The page
+ * title in the banner, and other display text such as a book card without a
+ * cover, are set in a serif, for a bibliographic feel.
+ * Placeholder stacks until the site's fonts are chosen.
+ */
+
+:root {
+  --sg-font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+}
+
+.site-masthead-title {
+  --rt-font-heading: var(--sg-font-display);
+}

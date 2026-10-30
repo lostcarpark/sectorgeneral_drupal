@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b6813757-e248-4774-ad32-64a95187bd07
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Alicia Yánez Cossío'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/alicia-yanez-cossio
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

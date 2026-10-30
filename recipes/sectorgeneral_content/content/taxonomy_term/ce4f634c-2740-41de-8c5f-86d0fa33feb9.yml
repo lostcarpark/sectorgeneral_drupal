@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: ce4f634c-2740-41de-8c5f-86d0fa33feb9
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Guido Eekhaut'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/guido-eekhaut
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: aab11173-d0c6-41b2-ac22-2e2c5d2feda0
+  bundle: edition
+  default_langcode: en
+  depends:
+    a04d46ef-720a-48a0-a357-52536ff2ca70: media
+    9ba02792-0c3a-4e38-b5d6-bd1394c702be: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    47dcdfd9-5b9d-431e-b100-e494eb3e62cd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL9597725M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Star Surgeon, Del Rey / Ballantine, 1981'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-surgeon/star-surgeon-del-rey-ballantine-1981
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: a04d46ef-720a-48a0-a357-52536ff2ca70
+  field_cover_artist:
+    -
+      entity: 9ba02792-0c3a-4e38-b5d6-bd1394c702be
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?561211 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9597725M (CC0).
+  field_date_display:
+    -
+      value: 'January 1981'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345291691'
+  field_isfdb_id:
+    -
+      value: '561211'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+  field_oclc:
+    -
+      value: '28970061'
+  field_openlibrary_id:
+    -
+      value: OL9597725M
+  field_pages:
+    -
+      value: 159
+  field_price:
+    -
+      value: C$2.50
+  field_publisher:
+    -
+      entity: 47dcdfd9-5b9d-431e-b100-e494eb3e62cd
+  field_sort_date:
+    -
+      value: '1981-01-01'
+  field_year:
+    -
+      value: 1981

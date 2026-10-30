@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4a039fe8-ca60-4292-a66b-5e4fb7046a46
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    479badc7-cd74-457c-b26c-24edf27e7921: node
+    df55454c-03a3-4abb-ad0c-b38684a4edfa: node
+    df52dab8-9657-4ab4-9da8-ca184033f04e: node
+    6264ebe1-87e3-4989-aa67-b2d4037051f5: media
+    b2ab0355-9d03-4e36-8878-2668dc1d64ea: taxonomy_term
+    72dc6815-5e19-4169-8ae8-0292db0a975e: taxonomy_term
+    2e686169-2332-48aa-9be4-d45c63a620b6: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    42dd2bc1-eab1-4b0e-adb3-c78567c039fd: taxonomy_term
+    cee3eba6-8ffa-4c82-97cf-61f4d2763350: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?380222 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Urania (collana) 770, 11 February 1979'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/urania-collana/urania-collana-770-11-february-1979
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 479badc7-cd74-457c-b26c-24edf27e7921
+    -
+      entity: df55454c-03a3-4abb-ad0c-b38684a4edfa
+    -
+      entity: df52dab8-9657-4ab4-9da8-ca184033f04e
+  field_cover:
+    -
+      entity: 6264ebe1-87e3-4989-aa67-b2d4037051f5
+  field_cover_artist:
+    -
+      entity: b2ab0355-9d03-4e36-8878-2668dc1d64ea
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?380222 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '11 February 1979'
+  field_editor:
+    -
+      entity: 72dc6815-5e19-4169-8ae8-0292db0a975e
+    -
+      entity: 2e686169-2332-48aa-9be4-d45c63a620b6
+  field_isfdb_id:
+    -
+      value: '380222'
+  field_issue_number:
+    -
+      value: '770'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_magazine:
+    -
+      entity: 42dd2bc1-eab1-4b0e-adb3-c78567c039fd
+  field_other_contributors:
+    -
+      entity: cee3eba6-8ffa-4c82-97cf-61f4d2763350
+  field_pages:
+    -
+      value: 160
+  field_price:
+    -
+      value: 'Lit 900'
+  field_published_as:
+    -
+      value: 'Vortice di relitti'
+    -
+      value: 'Il Comandante Ideale'
+    -
+      value: 'Astronave a grappolo'
+  field_sort_date:
+    -
+      value: '1979-02-11'
+  field_year:
+    -
+      value: 1979

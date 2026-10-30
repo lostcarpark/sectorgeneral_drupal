@@ -1,0 +1,96 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: eefa8b48-adcd-4f2b-b05c-92aa8d0df02b
+  bundle: edition
+  default_langcode: en
+  depends:
+    9fcc64f0-4095-4ee8-af3f-037df754ff39: media
+    03012a70-8b6d-4e4d-9d1a-2918ab25f8d6: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    03c0e826-c5ee-456f-8600-d2652179fbeb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover replaced by a larger image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?183741'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Star Surgeon, Ballantine, 1963'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-surgeon/star-surgeon-ballantine-1963
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p><em>Field Hospital</em>&nbsp;and&nbsp;<em>Resident Physician&nbsp;</em>joined to make&nbsp;<em>Star Surgeon</em>&nbsp;novel</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_cover:
+    -
+      entity: 9fcc64f0-4095-4ee8-af3f-037df754ff39
+  field_cover_artist:
+    -
+      entity: 03012a70-8b6d-4e4d-9d1a-2918ab25f8d6
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ballantine Books No F-709, March 1963. Field Hospital and Resident Physician joined to make Star Surgeon novel”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?183741 (CC BY 4.0).
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?296628 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'March 1963'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '183741'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+  field_oclc:
+    -
+      value: '4431022'
+  field_pages:
+    -
+      value: 159
+  field_price:
+    -
+      value: C$0.50
+  field_publisher:
+    -
+      entity: 03c0e826-c5ee-456f-8600-d2652179fbeb
+  field_publisher_reference:
+    -
+      value: F-709
+  field_sort_date:
+    -
+      value: '1963-03-01'
+  field_year:
+    -
+      value: 1963

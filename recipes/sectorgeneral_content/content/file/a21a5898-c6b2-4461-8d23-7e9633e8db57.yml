@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a21a5898-c6b2-4461-8d23-7e9633e8db57
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thbsfctn531955.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thbsfctn531955.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 26835
+  status:
+    -
+      value: true

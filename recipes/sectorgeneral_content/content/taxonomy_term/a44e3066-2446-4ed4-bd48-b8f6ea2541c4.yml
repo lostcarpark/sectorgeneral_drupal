@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: a44e3066-2446-4ed4-bd48-b8f6ea2541c4
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Douglas R. Mason'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/douglas-r-mason
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f830a14b-653b-4039-9112-d9346103a2cf
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: prsbrtnvxt1972.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/prsbrtnvxt1972.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 116349
+  status:
+    -
+      value: true

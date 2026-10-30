@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3ab83843-d702-42be-950c-3b4070cf01a6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: tfthswrldfc1962.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/tfthswrldfc1962.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 32407
+  status:
+    -
+      value: true

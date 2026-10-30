@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c0a06379-c5e7-466e-80e4-5f64c5de22b4
+  bundle: edition
+  default_langcode: en
+  depends:
+    a34148a5-6a0c-46e5-a505-dc1dff86d0a8: media
+    1275b65b-0544-4918-a6f8-3476ee99a45a: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    62862122-c514-4f24-8c75-e5e6741745f4: node
+    06aa2580-8e68-4b72-9a00-f5d252de9de3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Own cover restored: a larger picture of a different edition had replaced it.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Star Healer, Futura/Orbit, 1987'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-healer/star-healer-futuraorbit-1987
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: a34148a5-6a0c-46e5-a505-dc1dff86d0a8
+  field_cover_artist:
+    -
+      entity: 1275b65b-0544-4918-a6f8-3476ee99a45a
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Macdonald/Futura/Orbit, ISBN 0-7088-8187-4, November 1987”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?32007 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL28174348M (CC0).
+  field_date_display:
+    -
+      value: 'November 1987'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780708881873'
+  field_isfdb_id:
+    -
+      value: '32007'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 62862122-c514-4f24-8c75-e5e6741745f4
+  field_oclc:
+    -
+      value: '18224942'
+  field_openlibrary_id:
+    -
+      value: OL28174348M
+  field_pages:
+    -
+      value: 217
+  field_price:
+    -
+      value: £2.50
+  field_publisher:
+    -
+      entity: 06aa2580-8e68-4b72-9a00-f5d252de9de3
+  field_sort_date:
+    -
+      value: '1987-11-01'
+  field_year:
+    -
+      value: 1987

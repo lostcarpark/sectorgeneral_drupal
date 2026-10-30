@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 1c1a452b-945e-430a-bdc3-c84d65785be9
+  bundle: redirect
+  default_langcode: und
+  depends:
+    05ec8bf6-f85e-40f7-9820-7685578a4f45: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: eoXZsaywKelDFwZYWFeH1EktUDe6emjhVCqMju2prZE
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: articlestimeline.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 05ec8bf6-f85e-40f7-9820-7685578a4f45
+  status_code:
+    -
+      value: 301

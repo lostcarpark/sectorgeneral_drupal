@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b415d5b8-48d6-4bff-8241-ddeb876ac3e8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fantasy-and-sf-feb-63.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/fantasy-and-sf-feb-63.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3918
+  status:
+    -
+      value: true

@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 55ecae10-87ab-4020-9f7d-6ab04bf90716
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    3453d9e3-2cfa-42b4-81b3-da4b7244cb94: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Magazine of Fantasy & Science Fiction, February 1963 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: aba47c5252068b9e56fbe7ee39db52f6a3f0f728
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/a/ad/FSFFeb1963.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'The Magazine of Fantasy & Science Fiction, February 1963 cover'
+      title: ''
+      width: 860
+      height: 600
+      entity: 3453d9e3-2cfa-42b4-81b3-da4b7244cb94
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?61086'
+      title: null
+      options: {  }

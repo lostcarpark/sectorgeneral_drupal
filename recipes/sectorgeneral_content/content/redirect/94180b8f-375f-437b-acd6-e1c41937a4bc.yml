@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 94180b8f-375f-437b-acd6-e1c41937a4bc
+  bundle: redirect
+  default_langcode: und
+  depends:
+    d7f8e306-779c-4356-8b52-48a037c97010: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: S-K58-VCMukjK1oC3L2l9ieG-Q5j3hjP88hs21PSoqg
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/starvationorbit.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: d7f8e306-779c-4356-8b52-48a037c97010
+  status_code:
+    -
+      value: 301

@@ -1,0 +1,375 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3fc71fdf-2b0d-43c9-88be-0e5eacfcbf49
+  bundle: anthology
+  default_langcode: en
+  depends:
+    f3445617-19b5-4852-ac81-a21588fc319c: node
+    5b6b5253-264f-4163-ab1d-a0ab178e5060: media
+    80fd9b31-a072-4a0b-9935-98cb087857c2: taxonomy_term
+    70de49c0-fd96-45b9-a1bd-6cac8c932fa2: taxonomy_term
+    207242ee-5840-48c1-8161-cfffb93a28b4: taxonomy_term
+    1e7e64a9-1f8b-4a37-95e7-4d6e7c3c80b5: taxonomy_term
+    e540229d-e489-488e-820d-6b23d229dc2e: taxonomy_term
+    280672e4-5015-4556-a036-84e9f7eecb1d: taxonomy_term
+    1f53f138-77c9-4b4e-802c-30ad987c1d4a: taxonomy_term
+    eda19632-c0b7-4c3a-894c-b6226ca7c402: taxonomy_term
+    048dfefd-e370-4eab-8171-5036ddda3f62: taxonomy_term
+    e981ea32-25a7-45d5-9795-3e06b5a07a4b: taxonomy_term
+    5930e778-8b02-4d5e-8d72-c042b2eb1a8b: taxonomy_term
+    316a26b5-1285-480f-bf32-a581679e1c65: taxonomy_term
+    746f0f5d-436b-401f-bf61-a5b2e48e405c: taxonomy_term
+    6eb4877c-e7c9-4fbc-a405-d6be6285ed1d: taxonomy_term
+    b2ca210f-c7b0-445b-971d-1daf55d8c096: taxonomy_term
+    7c5bfafc-e168-4d13-a4c6-47ac20b808a8: taxonomy_term
+    8ac15eab-3d97-4a3e-b5de-8ae3b39ee99b: taxonomy_term
+    b9c114a1-f215-4036-a191-4aaf10239283: taxonomy_term
+    f628b78f-67b3-4ba9-9be7-9347b6e06364: taxonomy_term
+    4b52ad6f-09cf-4af7-aa7c-b52be9f35ce0: taxonomy_term
+    359956cf-2a6d-4006-8335-7e046d2b4a90: taxonomy_term
+    3c80df57-f253-4b53-af00-7ee81eb2a32b: taxonomy_term
+    d2769ebd-47c5-4ae7-9675-4d17d99f465a: taxonomy_term
+    32dc44e1-5e93-41fc-983c-a4027ae674c0: taxonomy_term
+    919adfd1-a9e2-4aef-b664-937622a5523f: taxonomy_term
+    e79dc70a-d0f4-4984-9f90-48bb32ae7b2d: taxonomy_term
+    2d3c917b-daad-4118-8ff1-79885a2ba89a: taxonomy_term
+    e03646a5-6805-470a-b801-85c2682928f4: taxonomy_term
+    4649a541-4c9b-4736-93d3-9ed0495a3b3a: taxonomy_term
+    d2f16cea-418c-4b9f-b14e-f62f5e6aa9da: taxonomy_term
+    3dcd3bdd-b190-4b9c-b943-0d4836b5da3f: taxonomy_term
+    58879cbd-111c-4774-9840-60d986030bf5: taxonomy_term
+    793c5177-22c9-46d3-a36b-e955141ce7e3: taxonomy_term
+    2a48b359-0ebe-4916-87e0-9b3d803ce676: taxonomy_term
+    454e2501-2080-4eb1-9b18-5963e87955ad: taxonomy_term
+    ecf521c9-115b-4c88-b522-7136ad718014: taxonomy_term
+    2cb97481-a69f-40cc-a81b-aef4f1f3db1e: taxonomy_term
+    fd395c4a-f231-4d4b-a5f8-0f46799366a0: taxonomy_term
+    fe0966bc-1fde-44c8-9b78-8701ab30061f: taxonomy_term
+    81101d1b-8729-4304-9522-9534f63b012c: taxonomy_term
+    92be10b0-9002-479e-843e-f981775a44a0: taxonomy_term
+    8b87c648-2c79-480f-aa68-b192a57101f6: taxonomy_term
+    82e5d684-4552-4357-8f43-78b08340deb3: taxonomy_term
+    146741d1-d476-4382-a48e-5bb4b1bd724f: taxonomy_term
+    7e5dba78-0792-4d7e-bb5a-d45d827d4915: taxonomy_term
+    f38f4a4b-5945-49e9-9e7a-9b51f0c0bbd4: taxonomy_term
+    16939368-5a7f-418d-9840-e329683a4c12: taxonomy_term
+    c082dc83-4360-4804-953f-425175250ee1: taxonomy_term
+    f8fa99cc-487b-431d-9964-b537079a9a29: taxonomy_term
+    9df03094-ff4a-4ddf-bfd9-8e5726a1b985: taxonomy_term
+    4fcea5e2-23b9-4c75-8141-d744d83ee1b4: taxonomy_term
+    f91360f8-f518-47b5-8446-2bbcacf10a0b: taxonomy_term
+    f5ea8714-b46d-4d8c-b8f3-df4e906ac963: taxonomy_term
+    48234267-8e9c-4c31-8ea2-7d15f29c32ec: taxonomy_term
+    e83d5f13-9566-487f-8f4b-a7b77c640e95: taxonomy_term
+    0f552087-fa98-4ec3-9779-ce5946393712: taxonomy_term
+    6af6c40b-f822-46ad-bbf7-44f1dd2afa10: taxonomy_term
+    5c430dd7-3819-406b-b939-87550793c8ac: taxonomy_term
+    13095f0a-9cd4-40dd-a664-7173a1e4dedd: taxonomy_term
+    9b926c36-0465-422e-876a-4a1c603573f5: taxonomy_term
+    f0d7fd7f-627d-446a-ab87-785a52f13103: taxonomy_term
+    07c84678-3678-46f2-8352-3546a7b849aa: taxonomy_term
+    a966258d-b058-44e1-8e6e-ca2a9a84234c: taxonomy_term
+    e7a6b3db-b0df-4ba2-b4e9-04a5c8f1c4fb: taxonomy_term
+    7f6a05bf-da99-4e10-95f2-b10a22e7e2c6: taxonomy_term
+    2f123e94-14d5-4b72-9781-e2776ab2c3ee: taxonomy_term
+    e42795ff-1767-45d0-b623-f8bcce260f00: taxonomy_term
+    7bc61987-dcb8-4551-bcfe-017f2fd9f733: taxonomy_term
+    078584af-381d-4b9f-9ce4-0a30014b1987: taxonomy_term
+    c652144b-272c-479d-96bd-4aa593906c00: taxonomy_term
+    ff839a1d-9428-4b95-ac97-ac9375e83102: taxonomy_term
+    5577e6db-0b32-40a6-a77d-ab2c4654b867: taxonomy_term
+    9f859fb9-2800-4d35-95e8-551f7700eeed: taxonomy_term
+    96986d2b-c47e-4d83-a5ea-aff3a9edb818: taxonomy_term
+    1fde9772-a231-410d-bf61-476c32d2eb41: taxonomy_term
+    36be6974-e5e2-4cf2-bee3-8d92d2503656: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    13152566-f953-4560-bbd8-db6a2a88d017: taxonomy_term
+    2328e875-5a20-4a56-8832-1ef5c8bfc959: taxonomy_term
+    08e09c37-5bca-40c7-b570-043cd4d9c588: taxonomy_term
+    1365523c-e409-434e-92bd-d54c5ad9462a: taxonomy_term
+    ebc8aec7-6ac7-4e8c-ad79-e77c6b5db644: taxonomy_term
+    3dce3272-7994-4b5a-8694-38860227615f: taxonomy_term
+    078cb739-0c4e-46ae-9daa-7ae850bcd13d: taxonomy_term
+    09386aa0-c08b-460a-b62e-9fbeeaf0cffe: taxonomy_term
+    db1e5514-b086-4901-b4ed-51e6393b17ef: taxonomy_term
+    23e53a85-aaba-4354-a359-453f01d2b587: taxonomy_term
+    d133cd1e-0503-4257-b680-a1245a6b3c73: taxonomy_term
+    ea04d070-2a02-4c45-af41-c358158046a3: taxonomy_term
+    350c1e9d-9f1f-4106-ad41-05f565c9e192: taxonomy_term
+    b4b5883e-20c9-4b01-a274-905f6d107680: taxonomy_term
+    0c2314bc-6c38-498e-8d5e-a85aeb36a725: taxonomy_term
+    971dd41c-0779-45bb-92f9-1d05d94ed809: taxonomy_term
+    8aa48b15-484a-4fdd-84b8-6a44f1a4fa95: taxonomy_term
+    c0028092-2aa9-492f-bc53-bc8e0aff00fe: taxonomy_term
+    73c991ab-8018-4aaa-808b-008c063bbc5e: taxonomy_term
+    93b18ab7-4251-47d2-8daa-4a74439e3d34: taxonomy_term
+    050fa1c1-c4b7-4d31-857c-36c65f22007c: taxonomy_term
+    a328dd08-a7de-4daa-95a3-24b4beddcbb9: taxonomy_term
+    e18fa12d-a9fe-4293-8d7b-7ce8d6eb7424: taxonomy_term
+    8d2089a3-768a-4660-8248-2b4a7ad94c9a: taxonomy_term
+    8df7b750-c432-4310-83b4-0540b680d25c: taxonomy_term
+    eaf8c03c-5627-454d-ace3-32e95050a5a6: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?185929'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Drabble II - Double Century'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/drabble-ii-double-century
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Beccon Publications, 10 April 1990, Hardback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: f3445617-19b5-4852-ac81-a21588fc319c
+  field_cover:
+    -
+      entity: 5b6b5253-264f-4163-ab1d-a0ab178e5060
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?560577 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 80fd9b31-a072-4a0b-9935-98cb087857c2
+    -
+      entity: 70de49c0-fd96-45b9-a1bd-6cac8c932fa2
+  field_first_published_year:
+    -
+      value: 1990
+  field_isfdb_id:
+    -
+      value: '560577'
+  field_other_contributors:
+    -
+      entity: 207242ee-5840-48c1-8161-cfffb93a28b4
+    -
+      entity: 1e7e64a9-1f8b-4a37-95e7-4d6e7c3c80b5
+    -
+      entity: e540229d-e489-488e-820d-6b23d229dc2e
+    -
+      entity: 280672e4-5015-4556-a036-84e9f7eecb1d
+    -
+      entity: 1f53f138-77c9-4b4e-802c-30ad987c1d4a
+    -
+      entity: eda19632-c0b7-4c3a-894c-b6226ca7c402
+    -
+      entity: 048dfefd-e370-4eab-8171-5036ddda3f62
+    -
+      entity: e981ea32-25a7-45d5-9795-3e06b5a07a4b
+    -
+      entity: 5930e778-8b02-4d5e-8d72-c042b2eb1a8b
+    -
+      entity: 316a26b5-1285-480f-bf32-a581679e1c65
+    -
+      entity: 746f0f5d-436b-401f-bf61-a5b2e48e405c
+    -
+      entity: 6eb4877c-e7c9-4fbc-a405-d6be6285ed1d
+    -
+      entity: b2ca210f-c7b0-445b-971d-1daf55d8c096
+    -
+      entity: 7c5bfafc-e168-4d13-a4c6-47ac20b808a8
+    -
+      entity: 8ac15eab-3d97-4a3e-b5de-8ae3b39ee99b
+    -
+      entity: b9c114a1-f215-4036-a191-4aaf10239283
+    -
+      entity: f628b78f-67b3-4ba9-9be7-9347b6e06364
+    -
+      entity: 4b52ad6f-09cf-4af7-aa7c-b52be9f35ce0
+    -
+      entity: 359956cf-2a6d-4006-8335-7e046d2b4a90
+    -
+      entity: 3c80df57-f253-4b53-af00-7ee81eb2a32b
+    -
+      entity: d2769ebd-47c5-4ae7-9675-4d17d99f465a
+    -
+      entity: 32dc44e1-5e93-41fc-983c-a4027ae674c0
+    -
+      entity: 919adfd1-a9e2-4aef-b664-937622a5523f
+    -
+      entity: e79dc70a-d0f4-4984-9f90-48bb32ae7b2d
+    -
+      entity: 2d3c917b-daad-4118-8ff1-79885a2ba89a
+    -
+      entity: e03646a5-6805-470a-b801-85c2682928f4
+    -
+      entity: 4649a541-4c9b-4736-93d3-9ed0495a3b3a
+    -
+      entity: d2f16cea-418c-4b9f-b14e-f62f5e6aa9da
+    -
+      entity: 3dcd3bdd-b190-4b9c-b943-0d4836b5da3f
+    -
+      entity: 58879cbd-111c-4774-9840-60d986030bf5
+    -
+      entity: 793c5177-22c9-46d3-a36b-e955141ce7e3
+    -
+      entity: 2a48b359-0ebe-4916-87e0-9b3d803ce676
+    -
+      entity: 454e2501-2080-4eb1-9b18-5963e87955ad
+    -
+      entity: ecf521c9-115b-4c88-b522-7136ad718014
+    -
+      entity: 2cb97481-a69f-40cc-a81b-aef4f1f3db1e
+    -
+      entity: fd395c4a-f231-4d4b-a5f8-0f46799366a0
+    -
+      entity: fe0966bc-1fde-44c8-9b78-8701ab30061f
+    -
+      entity: 81101d1b-8729-4304-9522-9534f63b012c
+    -
+      entity: 92be10b0-9002-479e-843e-f981775a44a0
+    -
+      entity: 8b87c648-2c79-480f-aa68-b192a57101f6
+    -
+      entity: 82e5d684-4552-4357-8f43-78b08340deb3
+    -
+      entity: 146741d1-d476-4382-a48e-5bb4b1bd724f
+    -
+      entity: 7e5dba78-0792-4d7e-bb5a-d45d827d4915
+    -
+      entity: f38f4a4b-5945-49e9-9e7a-9b51f0c0bbd4
+    -
+      entity: 16939368-5a7f-418d-9840-e329683a4c12
+    -
+      entity: c082dc83-4360-4804-953f-425175250ee1
+    -
+      entity: f8fa99cc-487b-431d-9964-b537079a9a29
+    -
+      entity: 9df03094-ff4a-4ddf-bfd9-8e5726a1b985
+    -
+      entity: 4fcea5e2-23b9-4c75-8141-d744d83ee1b4
+    -
+      entity: f91360f8-f518-47b5-8446-2bbcacf10a0b
+    -
+      entity: f5ea8714-b46d-4d8c-b8f3-df4e906ac963
+    -
+      entity: 48234267-8e9c-4c31-8ea2-7d15f29c32ec
+    -
+      entity: e83d5f13-9566-487f-8f4b-a7b77c640e95
+    -
+      entity: 0f552087-fa98-4ec3-9779-ce5946393712
+    -
+      entity: 6af6c40b-f822-46ad-bbf7-44f1dd2afa10
+    -
+      entity: 5c430dd7-3819-406b-b939-87550793c8ac
+    -
+      entity: 13095f0a-9cd4-40dd-a664-7173a1e4dedd
+    -
+      entity: 9b926c36-0465-422e-876a-4a1c603573f5
+    -
+      entity: f0d7fd7f-627d-446a-ab87-785a52f13103
+    -
+      entity: 07c84678-3678-46f2-8352-3546a7b849aa
+    -
+      entity: a966258d-b058-44e1-8e6e-ca2a9a84234c
+    -
+      entity: e7a6b3db-b0df-4ba2-b4e9-04a5c8f1c4fb
+    -
+      entity: 7f6a05bf-da99-4e10-95f2-b10a22e7e2c6
+    -
+      entity: 2f123e94-14d5-4b72-9781-e2776ab2c3ee
+    -
+      entity: e42795ff-1767-45d0-b623-f8bcce260f00
+    -
+      entity: 7bc61987-dcb8-4551-bcfe-017f2fd9f733
+    -
+      entity: 078584af-381d-4b9f-9ce4-0a30014b1987
+    -
+      entity: c652144b-272c-479d-96bd-4aa593906c00
+    -
+      entity: ff839a1d-9428-4b95-ac97-ac9375e83102
+    -
+      entity: 5577e6db-0b32-40a6-a77d-ab2c4654b867
+    -
+      entity: 9f859fb9-2800-4d35-95e8-551f7700eeed
+    -
+      entity: 96986d2b-c47e-4d83-a5ea-aff3a9edb818
+    -
+      entity: 1fde9772-a231-410d-bf61-476c32d2eb41
+    -
+      entity: 36be6974-e5e2-4cf2-bee3-8d92d2503656
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: 13152566-f953-4560-bbd8-db6a2a88d017
+    -
+      entity: 2328e875-5a20-4a56-8832-1ef5c8bfc959
+    -
+      entity: 08e09c37-5bca-40c7-b570-043cd4d9c588
+    -
+      entity: 1365523c-e409-434e-92bd-d54c5ad9462a
+    -
+      entity: ebc8aec7-6ac7-4e8c-ad79-e77c6b5db644
+    -
+      entity: 3dce3272-7994-4b5a-8694-38860227615f
+    -
+      entity: 078cb739-0c4e-46ae-9daa-7ae850bcd13d
+    -
+      entity: 09386aa0-c08b-460a-b62e-9fbeeaf0cffe
+    -
+      entity: db1e5514-b086-4901-b4ed-51e6393b17ef
+    -
+      entity: 23e53a85-aaba-4354-a359-453f01d2b587
+    -
+      entity: d133cd1e-0503-4257-b680-a1245a6b3c73
+    -
+      entity: ea04d070-2a02-4c45-af41-c358158046a3
+    -
+      entity: 350c1e9d-9f1f-4106-ad41-05f565c9e192
+    -
+      entity: b4b5883e-20c9-4b01-a274-905f6d107680
+    -
+      entity: 0c2314bc-6c38-498e-8d5e-a85aeb36a725
+    -
+      entity: 971dd41c-0779-45bb-92f9-1d05d94ed809
+    -
+      entity: 8aa48b15-484a-4fdd-84b8-6a44f1a4fa95
+    -
+      entity: c0028092-2aa9-492f-bc53-bc8e0aff00fe
+    -
+      entity: 73c991ab-8018-4aaa-808b-008c063bbc5e
+    -
+      entity: 93b18ab7-4251-47d2-8daa-4a74439e3d34
+    -
+      entity: 050fa1c1-c4b7-4d31-857c-36c65f22007c
+    -
+      entity: a328dd08-a7de-4daa-95a3-24b4beddcbb9
+    -
+      entity: e18fa12d-a9fe-4293-8d7b-7ce8d6eb7424
+    -
+      entity: 8d2089a3-768a-4660-8248-2b4a7ad94c9a
+  field_publisher:
+    -
+      entity: 8df7b750-c432-4310-83b4-0540b680d25c
+  field_series:
+    -
+      entity: eaf8c03c-5627-454d-ace3-32e95050a5a6
+  field_series_number:
+    -
+      value: 2

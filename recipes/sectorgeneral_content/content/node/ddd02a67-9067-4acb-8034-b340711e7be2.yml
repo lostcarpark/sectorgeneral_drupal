@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ddd02a67-9067-4acb-8034-b340711e7be2
+  bundle: anthology
+  default_langcode: en
+  depends:
+    b04ef842-1d51-49f0-bcc3-39c8bcab1fed: node
+    7aa643fd-7ca0-4004-8556-4d2effb3611d: media
+    edbec0a9-022c-4dc8-b237-079552374317: taxonomy_term
+    77544555-948e-481d-908b-00dd50b37de1: taxonomy_term
+    e2b34650-5251-4a2a-a4e9-883d41799498: taxonomy_term
+    be616e63-0879-4fb2-84fd-d4646f4af6f4: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    228276f2-f831-4771-bb35-93322f615f0e: taxonomy_term
+    f89b23dd-1e11-4da8-855c-40fd2c7ec438: taxonomy_term
+    b0463f05-52c7-49bb-846d-c832aa808e52: taxonomy_term
+    1d5a0744-99f6-4322-9ffe-bb40cc2e622c: taxonomy_term
+    2f819fba-eb80-4b2b-82db-dfc3e44005e7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?25381'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Out of This World 3'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/out-world-3
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Blackie, May 1962.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: b04ef842-1d51-49f0-bcc3-39c8bcab1fed
+  field_cover:
+    -
+      entity: 7aa643fd-7ca0-4004-8556-4d2effb3611d
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?36415 (CC BY 4.0).
+  field_editor:
+    -
+      entity: edbec0a9-022c-4dc8-b237-079552374317
+    -
+      entity: 77544555-948e-481d-908b-00dd50b37de1
+  field_first_published_year:
+    -
+      value: 1962
+  field_isfdb_id:
+    -
+      value: '36415'
+  field_other_contributors:
+    -
+      entity: e2b34650-5251-4a2a-a4e9-883d41799498
+    -
+      entity: be616e63-0879-4fb2-84fd-d4646f4af6f4
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: 228276f2-f831-4771-bb35-93322f615f0e
+    -
+      entity: f89b23dd-1e11-4da8-855c-40fd2c7ec438
+    -
+      entity: b0463f05-52c7-49bb-846d-c832aa808e52
+  field_publisher:
+    -
+      entity: 1d5a0744-99f6-4322-9ffe-bb40cc2e622c
+  field_series:
+    -
+      entity: 2f819fba-eb80-4b2b-82db-dfc3e44005e7
+  field_series_number:
+    -
+      value: 3

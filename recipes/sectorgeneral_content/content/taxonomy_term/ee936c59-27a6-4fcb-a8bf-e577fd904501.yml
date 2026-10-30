@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: ee936c59-27a6-4fcb-a8bf-e577fd904501
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Geoffrey Maloney'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/geoffrey-maloney
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

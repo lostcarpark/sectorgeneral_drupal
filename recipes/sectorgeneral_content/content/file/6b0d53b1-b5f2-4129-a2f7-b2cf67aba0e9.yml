@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6b0d53b1-b5f2-4129-a2f7-b2cf67aba0e9
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: tpscncfctn1987.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/tpscncfctn1987.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 88046
+  status:
+    -
+      value: true

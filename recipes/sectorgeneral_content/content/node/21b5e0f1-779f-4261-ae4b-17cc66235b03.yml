@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 21b5e0f1-779f-4261-ae4b-17cc66235b03
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    99183a07-c02d-492a-ab74-66946e8a0468: node
+    cc151f1a-679e-4183-a6ac-ea4d43ae56a5: media
+    fac5db52-70b4-4886-90fe-b348c3ed6cb8: taxonomy_term
+    6a62acc6-2561-408b-a9a1-a14da7adb003: taxonomy_term
+    1500cfa9-5042-4535-9782-9fb79938c3d9: taxonomy_term
+    98198ea5-db97-409a-92f0-7f61cee9333f: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    30948f84-7072-42b1-889a-5a0a68b8c86b: taxonomy_term
+    c0699487-0ab1-481a-a490-793a12432e23: taxonomy_term
+    f628b78f-67b3-4ba9-9be7-9347b6e06364: taxonomy_term
+    d3870fc8-7c7c-4f6d-8e97-3cc0beadf212: taxonomy_term
+    fa5e6b46-fd0f-4707-8479-f12ef1c5f614: taxonomy_term
+    d0c75285-95f3-4e3f-92d2-04c05cc6456f: taxonomy_term
+    cffafaac-5c11-4b79-bca2-d1199a018079: taxonomy_term
+    22786c6e-1ede-49f9-92d4-dede4b5e833c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?58526 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Galaxy, January 1974'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/galaxy/galaxy-january-1974
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 99183a07-c02d-492a-ab74-66946e8a0468
+  field_cover:
+    -
+      entity: cc151f1a-679e-4183-a6ac-ea4d43ae56a5
+  field_cover_artist:
+    -
+      entity: fac5db52-70b4-4886-90fe-b348c3ed6cb8
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?58526 (CC BY 4.0).
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?387609 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'January 1974'
+  field_editor:
+    -
+      entity: 6a62acc6-2561-408b-a9a1-a14da7adb003
+  field_interior_artist:
+    -
+      entity: 1500cfa9-5042-4535-9782-9fb79938c3d9
+    -
+      entity: 98198ea5-db97-409a-92f0-7f61cee9333f
+  field_isfdb_id:
+    -
+      value: '58526'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 30948f84-7072-42b1-889a-5a0a68b8c86b
+  field_other_contributors:
+    -
+      entity: c0699487-0ab1-481a-a490-793a12432e23
+    -
+      entity: f628b78f-67b3-4ba9-9be7-9347b6e06364
+    -
+      entity: d3870fc8-7c7c-4f6d-8e97-3cc0beadf212
+    -
+      entity: fa5e6b46-fd0f-4707-8479-f12ef1c5f614
+    -
+      entity: d0c75285-95f3-4e3f-92d2-04c05cc6456f
+    -
+      entity: cffafaac-5c11-4b79-bca2-d1199a018079
+    -
+      entity: 22786c6e-1ede-49f9-92d4-dede4b5e833c
+  field_pages:
+    -
+      value: 180
+  field_price:
+    -
+      value: $0.75
+  field_regional_edition:
+    -
+      value: 'US edition'
+  field_sort_date:
+    -
+      value: '1974-01-01'
+  field_year:
+    -
+      value: 1974

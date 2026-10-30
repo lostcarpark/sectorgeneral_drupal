@@ -1,0 +1,112 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 267a5062-e4f1-4c81-bb9b-64e2bcfb62ab
+  bundle: anthology
+  default_langcode: en
+  depends:
+    9b1202e7-a80e-4c92-b146-d00078b4d127: node
+    9881c771-b337-48c4-99d2-1e9c1bc977e9: media
+    735ff799-f884-4ac8-82e0-07e8c6ec3e7d: taxonomy_term
+    43ee3313-d838-4ec0-a45c-1e3e8ffde82e: taxonomy_term
+    ddfad767-d821-4f6d-8ea0-89ec9385b349: taxonomy_term
+    22786c6e-1ede-49f9-92d4-dede4b5e833c: taxonomy_term
+    bd9f9907-310d-4d8f-bd5c-1f0f8a2fe5f6: taxonomy_term
+    134af15d-c13e-468e-a490-8b485539a877: taxonomy_term
+    8aec6def-e2e0-4e3b-be51-5551576b885f: taxonomy_term
+    dad8c6a2-6bca-4446-8644-1b3b06999c09: taxonomy_term
+    bf6fb45e-86c3-4015-a110-7f6bc1078231: taxonomy_term
+    048dfefd-e370-4eab-8171-5036ddda3f62: taxonomy_term
+    b31d2af0-345f-4612-adf9-ed02b344c905: taxonomy_term
+    4fc733c6-0fbe-4e4e-98e0-ae2732ba2c4d: taxonomy_term
+    e24a7619-e626-487e-ad93-0b88cd87b850: taxonomy_term
+    a7cc3942-c2f6-42d0-a4e6-b6964babbdbf: taxonomy_term
+    3fc3c9db-c83e-4f72-8400-7ab17dff4c67: taxonomy_term
+    9eb394bb-d7b5-483d-ab64-2670252acf57: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?421767'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Histoires de créatures'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/histoires-de-creatures
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Le Livre de Poche No 3787, 1984. French.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 9b1202e7-a80e-4c92-b146-d00078b4d127
+  field_cover:
+    -
+      entity: 9881c771-b337-48c4-99d2-1e9c1bc977e9
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1613953 (CC BY 4.0).
+  field_editor:
+    -
+      entity: 735ff799-f884-4ac8-82e0-07e8c6ec3e7d
+    -
+      entity: 43ee3313-d838-4ec0-a45c-1e3e8ffde82e
+    -
+      entity: ddfad767-d821-4f6d-8ea0-89ec9385b349
+  field_first_published_year:
+    -
+      value: 1984
+  field_isfdb_id:
+    -
+      value: '1613953'
+  field_other_contributors:
+    -
+      entity: 22786c6e-1ede-49f9-92d4-dede4b5e833c
+    -
+      entity: bd9f9907-310d-4d8f-bd5c-1f0f8a2fe5f6
+    -
+      entity: 134af15d-c13e-468e-a490-8b485539a877
+    -
+      entity: 8aec6def-e2e0-4e3b-be51-5551576b885f
+    -
+      entity: dad8c6a2-6bca-4446-8644-1b3b06999c09
+    -
+      entity: bf6fb45e-86c3-4015-a110-7f6bc1078231
+    -
+      entity: 048dfefd-e370-4eab-8171-5036ddda3f62
+    -
+      entity: b31d2af0-345f-4612-adf9-ed02b344c905
+    -
+      entity: 4fc733c6-0fbe-4e4e-98e0-ae2732ba2c4d
+    -
+      entity: e24a7619-e626-487e-ad93-0b88cd87b850
+    -
+      entity: a7cc3942-c2f6-42d0-a4e6-b6964babbdbf
+    -
+      entity: 3fc3c9db-c83e-4f72-8400-7ab17dff4c67
+  field_publisher:
+    -
+      entity: 9eb394bb-d7b5-483d-ab64-2670252acf57

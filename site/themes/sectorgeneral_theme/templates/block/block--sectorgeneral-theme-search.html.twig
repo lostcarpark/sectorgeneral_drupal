@@ -1,0 +1,25 @@
+{#
+/**
+ * @file
+ * The header search: a magnifying glass button that opens the search form,
+ * like the menu's drop-downs. In the narrow-screen menu panel, and without
+ * JavaScript, the form is shown as it is.
+ *
+ * @see js/site-search.js
+ * @see css/site-search.css
+ */
+#}
+{{ attach_library('sectorgeneral_theme/site-search') }}
+<div{{ attributes.addClass('block', 'block-search', 'site-search') }} data-site-search>
+  {{ title_prefix }}
+  {{ title_suffix }}
+  <button type="button" class="site-search__toggle" aria-expanded="false" aria-controls="site-search-panel">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.25"/><path d="m15.5 15.5 5.5 5.5" stroke="currentColor" stroke-width="2.25" stroke-linecap="round"/></svg>
+    <span class="visually-hidden">{{ 'Search'|t }}</span>
+  </button>
+  <div class="site-search__panel" id="site-search-panel">
+    {% block content %}
+      {{ content }}
+    {% endblock %}
+  </div>
+</div>

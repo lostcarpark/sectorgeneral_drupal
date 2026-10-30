@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: bf6fb45e-86c3-4015-a110-7f6bc1078231
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Carol Emshwiller'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/carol-emshwiller
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

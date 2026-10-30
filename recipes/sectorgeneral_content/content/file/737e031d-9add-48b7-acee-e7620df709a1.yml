@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 737e031d-9add-48b7-acee-e7620df709a1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mlo1119.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mlo1119.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 126829
+  status:
+    -
+      value: true

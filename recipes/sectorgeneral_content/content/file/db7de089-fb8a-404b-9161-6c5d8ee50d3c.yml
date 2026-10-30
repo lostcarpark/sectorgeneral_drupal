@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: db7de089-fb8a-404b-9161-6c5d8ee50d3c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: star-surgeon-corgi_tn.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/star-surgeon-corgi_tn.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 14071
+  status:
+    -
+      value: true

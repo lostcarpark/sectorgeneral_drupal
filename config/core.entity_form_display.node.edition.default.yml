@@ -1,0 +1,436 @@
+uuid: b4020f53-e411-48ea-8934-52b3e4447312
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.edition.body
+    - field.field.node.edition.field_buy_links
+    - field.field.node.edition.field_cover
+    - field.field.node.edition.field_cover_artist
+    - field.field.node.edition.field_data_sources
+    - field.field.node.edition.field_date_display
+    - field.field.node.edition.field_format
+    - field.field.node.edition.field_in_anthology
+    - field.field.node.edition.field_interior_artist
+    - field.field.node.edition.field_introduction_by
+    - field.field.node.edition.field_isbn
+    - field.field.node.edition.field_isfdb_id
+    - field.field.node.edition.field_language
+    - field.field.node.edition.field_narrator
+    - field.field.node.edition.field_novel
+    - field.field.node.edition.field_oclc
+    - field.field.node.edition.field_openlibrary_id
+    - field.field.node.edition.field_pages
+    - field.field.node.edition.field_price
+    - field.field.node.edition.field_printing
+    - field.field.node.edition.field_publication_date
+    - field.field.node.edition.field_publisher
+    - field.field.node.edition.field_publisher_reference
+    - field.field.node.edition.field_publisher_series
+    - field.field.node.edition.field_publisher_series_number
+    - field.field.node.edition.field_sort_date
+    - field.field.node.edition.field_translator
+    - field.field.node.edition.field_verified
+    - field.field.node.edition.field_verified_note
+    - field.field.node.edition.field_year
+    - node.type.edition
+  module:
+    - datetime
+    - field_group
+    - link
+    - media_library
+    - path
+    - text
+third_party_settings:
+  field_group:
+    group_publication:
+      children:
+        - field_in_anthology
+        - field_publisher
+        - field_year
+        - field_date_display
+        - field_publication_date
+        - field_printing
+        - field_publisher_series
+        - field_publisher_series_number
+        - field_publisher_reference
+        - field_isbn
+        - field_pages
+        - field_price
+      label: Publication
+      region: content
+      parent_name: ''
+      weight: 17
+      format_type: details
+      format_settings:
+        classes: ''
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+    group_people:
+      children:
+        - field_cover_artist
+        - field_interior_artist
+        - field_translator
+        - field_introduction_by
+        - field_narrator
+      label: Contributors
+      region: content
+      parent_name: ''
+      weight: 23
+      format_type: details
+      format_settings:
+        classes: ''
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+    group_notes:
+      children:
+        - body
+        - field_buy_links
+      label: 'Notes and links'
+      region: content
+      parent_name: ''
+      weight: 26
+      format_type: details
+      format_settings:
+        classes: ''
+        id: ''
+        open: false
+        description: ''
+        required_fields: true
+    group_references:
+      children:
+        - field_isfdb_id
+        - field_oclc
+        - field_openlibrary_id
+        - field_data_sources
+        - field_verified
+        - field_verified_note
+      label: 'References and verification'
+      region: content
+      parent_name: ''
+      weight: 33
+      format_type: details
+      format_settings:
+        classes: ''
+        id: ''
+        open: false
+        description: ''
+        required_fields: true
+id: node.edition.default
+targetEntityType: node
+bundle: edition
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 24
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_buy_links:
+    type: link_default
+    weight: 25
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_cover:
+    type: media_library_widget
+    weight: 2
+    region: content
+    settings:
+      media_types:
+        - cover_image
+    third_party_settings: {  }
+  field_cover_artist:
+    type: entity_reference_autocomplete_tags
+    weight: 18
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_data_sources:
+    type: string_textarea
+    weight: 30
+    region: content
+    settings:
+      rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  field_date_display:
+    type: string_textfield
+    weight: 8
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_format:
+    type: entity_reference_autocomplete
+    weight: 4
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_in_anthology:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_interior_artist:
+    type: entity_reference_autocomplete_tags
+    weight: 19
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_introduction_by:
+    type: entity_reference_autocomplete_tags
+    weight: 21
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_isbn:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_isfdb_id:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_language:
+    type: entity_reference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_narrator:
+    type: entity_reference_autocomplete_tags
+    weight: 22
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_novel:
+    type: entity_reference_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_oclc:
+    type: string_textfield
+    weight: 28
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_openlibrary_id:
+    type: string_textfield
+    weight: 29
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_pages:
+    type: number
+    weight: 15
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_price:
+    type: string_textfield
+    weight: 16
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_printing:
+    type: string_textfield
+    weight: 10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_publication_date:
+    type: datetime_default
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_publisher:
+    type: entity_reference_autocomplete
+    weight: 6
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_publisher_reference:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_publisher_series:
+    type: entity_reference_autocomplete
+    weight: 11
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_publisher_series_number:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_translator:
+    type: entity_reference_autocomplete_tags
+    weight: 20
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_verified:
+    type: boolean_checkbox
+    weight: 31
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_verified_note:
+    type: string_textfield
+    weight: 32
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_year:
+    type: number
+    weight: 7
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 4
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 121
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 5
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_sort_date: true

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 89290bc7-4fde-4778-bdb3-1002eba528aa
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'J. W. Groves'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/j-w-groves
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

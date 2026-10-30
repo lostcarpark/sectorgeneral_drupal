@@ -1,0 +1,23 @@
+uuid: 1fc3f335-b26d-4ff5-b034-1b75027139a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_words
+    - node.type.short_story
+id: node.short_story.field_words
+field_name: field_words
+entity_type: node
+bundle: short_story
+label: Words
+description: 'Approximate word count.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

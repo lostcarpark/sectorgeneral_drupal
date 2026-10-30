@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b955ff48-e1a4-4433-9002-2504a005310a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bvthnghtc11965.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/bvthnghtc11965.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 81603
+  status:
+    -
+      value: true

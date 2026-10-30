@@ -1,0 +1,114 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6ee1051f-2e4f-4e3e-bcf0-544bdbf7abfe
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    8f62531c-e6bd-4e45-92ef-467feb825b56: node
+    3227e232-ae69-4191-b079-903219461fae: media
+    e3f91204-c1b6-4b28-8d04-21acc1dac23d: taxonomy_term
+    6f6d4582-0d50-4aa4-9d0a-2cadff7f0dea: taxonomy_term
+    6b29ff77-4b78-459c-97d5-e332a5699bde: taxonomy_term
+    b15517d7-df3e-45f1-937c-24d957a838e4: taxonomy_term
+    436b2eb3-397d-4dbb-b409-60139b77cf5d: taxonomy_term
+    f91d2190-06b9-495e-9f5f-2580857ea4a9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    28278a84-4539-46b3-8452-27a59675d05a: taxonomy_term
+    ae1b8ea3-df08-4563-8f60-954b209ec617: taxonomy_term
+    ac9af6ee-23b1-4bf8-bbf4-57809136e141: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+    078584af-381d-4b9f-9ce4-0a30014b1987: taxonomy_term
+    caa9cb93-3e4c-41dc-b115-e9d3513a78e6: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59601 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Nebula 14, November 1955'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/nebula/nebula-14-november-1955
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 8f62531c-e6bd-4e45-92ef-467feb825b56
+  field_cover:
+    -
+      entity: 3227e232-ae69-4191-b079-903219461fae
+  field_cover_artist:
+    -
+      entity: e3f91204-c1b6-4b28-8d04-21acc1dac23d
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59601 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'November 1955'
+  field_editor:
+    -
+      entity: 6f6d4582-0d50-4aa4-9d0a-2cadff7f0dea
+  field_interior_artist:
+    -
+      entity: 6b29ff77-4b78-459c-97d5-e332a5699bde
+    -
+      entity: b15517d7-df3e-45f1-937c-24d957a838e4
+    -
+      entity: 436b2eb3-397d-4dbb-b409-60139b77cf5d
+    -
+      entity: f91d2190-06b9-495e-9f5f-2580857ea4a9
+  field_isfdb_id:
+    -
+      value: '59601'
+  field_issue_number:
+    -
+      value: '14'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 28278a84-4539-46b3-8452-27a59675d05a
+  field_other_contributors:
+    -
+      entity: ae1b8ea3-df08-4563-8f60-954b209ec617
+    -
+      entity: ac9af6ee-23b1-4bf8-bbf4-57809136e141
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+    -
+      entity: 078584af-381d-4b9f-9ce4-0a30014b1987
+    -
+      entity: caa9cb93-3e4c-41dc-b115-e9d3513a78e6
+  field_pages:
+    -
+      value: 112
+  field_price:
+    -
+      value: 2/-
+  field_sort_date:
+    -
+      value: '1955-11-01'
+  field_year:
+    -
+      value: 1955

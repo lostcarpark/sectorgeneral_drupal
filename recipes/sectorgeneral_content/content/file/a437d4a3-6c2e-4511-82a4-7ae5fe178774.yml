@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a437d4a3-6c2e-4511-82a4-7ae5fe178774
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 383966.webp
+  uri:
+    -
+      value: 'public://covers/isfdb/383966.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 24800
+  status:
+    -
+      value: true

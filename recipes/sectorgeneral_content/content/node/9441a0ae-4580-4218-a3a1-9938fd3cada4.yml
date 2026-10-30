@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9441a0ae-4580-4218-a3a1-9938fd3cada4
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?98682 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Occupation: Warrior'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/occupation-warrior
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Major Jonathan Dermod of the Seventeenth Earth Expeditionary Force (and later Monitor Corps Fleet Commander on Sector General) leads the above-mentioned military campaign, against rogue Kelgians. The Stellar Guard is a proto-Monitor Corps which ensure and/or enforces the maximum freedom for every individual entity of every galactic race. &quot;A being was free to engage in any activity whatsoever providing such activities did not infringe on the freedom of other beings. And if two groups of entities felt so strongly that their differences could be settled only by war, why then, the Guard arranged a war for them!&quot; Just like the British Army in Northern Ireland -- or am I being unduly cynical, here?</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?98682 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1959
+  field_isfdb_id:
+    -
+      value: '98682'
+  field_opening_excerpt:
+    -
+      value: '<p>Next morning the campaign got underway.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>SCIENCE FICTION ADVENTURES No 7, February 1959 The Aliens Among Us </p>
+        <p>Foreign Publication: “Iskozry”, Warsaw, 1986,</p>
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 21000

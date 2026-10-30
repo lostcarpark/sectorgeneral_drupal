@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+langcode: en
+uuid: 61453552-97c8-4e19-9d1f-319914d15c73
+name: 'Sector General'
+mail: info@sectorgeneral.com
+slogan: 'The James White Information Site'
+page:
+  403: ''
+  404: ''
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

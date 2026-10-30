@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 0da8aa8d-0007-49ad-abcf-f9979624b566
+  bundle: redirect
+  default_langcode: und
+  depends:
+    a5d12d51-d64f-437c-8e8e-701ea08835f1: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 9MDC0t6jRny0fIDbS8VgKDzNEdL2DNmbm4nTAp4Hlk0
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/somethingofvalue.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: a5d12d51-d64f-437c-8e8e-701ea08835f1
+  status_code:
+    -
+      value: 301

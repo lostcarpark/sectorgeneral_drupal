@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0a72f6ef-5e7b-4212-a456-b56341065493
+  bundle: edition
+  default_langcode: en
+  depends:
+    0bb01823-a92a-45ed-8614-ddb38a37e432: media
+    42b8f78b-6a45-4b53-8c09-9abae4ded93e: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    0492c5ea-ae95-4c4b-94a9-f0af01b62812: taxonomy_term
+    32d6a7fd-483f-4014-8d98-6fc2860ce1af: taxonomy_term
+    310ca9c5-c1c3-419e-adbf-24e60e7d650e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the OPAC SBN: https://opac.sbn.it/bid/UBO1388878'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Stazione ospedale, Editrice Nord, 2001'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/stazione-ospedale-editrice-nord-2001
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 0bb01823-a92a-45ed-8614-ddb38a37e432
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?386727 (CC BY 4.0).
+        OPAC SBN record https://opac.sbn.it/bid/UBO1388878.
+  field_date_display:
+    -
+      value: 'June 2001'
+  field_format:
+    -
+      entity: 42b8f78b-6a45-4b53-8c09-9abae4ded93e
+  field_isbn:
+    -
+      value: '9788842911807'
+  field_isfdb_id:
+    -
+      value: '386727'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_pages:
+    -
+      value: 284
+  field_price:
+    -
+      value: 'Lit 24,000'
+  field_publisher:
+    -
+      entity: 0492c5ea-ae95-4c4b-94a9-f0af01b62812
+  field_publisher_series:
+    -
+      entity: 32d6a7fd-483f-4014-8d98-6fc2860ce1af
+  field_publisher_series_number:
+    -
+      value: '191'
+  field_sort_date:
+    -
+      value: '2001-06-01'
+  field_translator:
+    -
+      entity: 310ca9c5-c1c3-419e-adbf-24e60e7d650e
+  field_year:
+    -
+      value: 2001

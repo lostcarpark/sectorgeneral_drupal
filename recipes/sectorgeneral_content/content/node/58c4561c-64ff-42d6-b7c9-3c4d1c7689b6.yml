@@ -1,0 +1,78 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 58c4561c-64ff-42d6-b7c9-3c4d1c7689b6
+  bundle: short_story
+  default_langcode: en
+  depends:
+    c1593f6a-74a2-43b1-8883-6c5e0f1e740a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63757 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'False Alarm'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/false-alarm
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>&#039;False Alarm&#039; is a puzzle-for-spacemen* story that holds more emotional significance than the usual clockworky, surprise-ending thing of its kind. Professor Davies, a philologist seconded to the A-Drive spaceship Hannibal, must extract vital data from the ET base left abandoned in Titan&#039;s methane snowbanks. But there &quot;was no Rosetta Stone to help him here (and) he had come nine million miles to rummage in an alien wastepaper basket.&quot;</p>
+        <p>*Taken from John Brunner&#039;s &#039;Puzzle For Spacemen&#039; (New Worlds, October 1955)</p>
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63757 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1957
+  field_isfdb_id:
+    -
+      value: '63757'
+  field_opening_excerpt:
+    -
+      value: '<p>Davies had ceased believing in buried treasure at a very early age and his skepticism had included such related items as Ancient and Forgotten Documents and Perilous Voyages in search of it.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>NEW WORLDS No 61,July 1957 </p>
+        <p>Publication History: Futures Past</p>
+      format: basic_html
+  field_series:
+    -
+      entity: c1593f6a-74a2-43b1-8883-6c5e0f1e740a
+  field_series_number:
+    -
+      value: 2
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 8000

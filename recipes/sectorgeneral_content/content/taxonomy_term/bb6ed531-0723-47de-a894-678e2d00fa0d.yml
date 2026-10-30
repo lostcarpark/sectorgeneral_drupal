@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: bb6ed531-0723-47de-a894-678e2d00fa0d
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Lee Correy'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/lee-correy
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

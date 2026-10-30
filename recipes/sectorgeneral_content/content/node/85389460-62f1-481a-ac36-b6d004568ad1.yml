@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 85389460-62f1-481a-ac36-b6d004568ad1
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63760 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Counter Security'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/counter-security
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Groff Conklin&#039;s blurb is worth quoting in near-full: &quot;We are given a picture of a business (department store), a profession (security officer, otherwise known as night watchman), and an Event (capital E indeed!), with a vividness which seems astonishing when you examine the tale for signs of excitement. No real dialogue, almost no action in the melodramatic sense, great long paragraphs, and very little verbal effort to arouse your emotions (this is left to the nature of the Event itself!) -- and yet the reader is continuously enthralled from start to ironic last word. At least, I was.&quot; Me too, Groff.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63760 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1963
+  field_isfdb_id:
+    -
+      value: '63760'
+  field_opening_excerpt:
+    -
+      value: '<p>The object lying on Mr Steele&#039;s desk was the remains of a large, black plastic doll, Tully saw as he took the chair which the Store Manager indicated to him.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>FANTASY &amp; SF, February 1963 VENTURE SF No 1, British Edition, September 1963 13 ABOVE THE NIGHT, Ed Groff Conklin, Dell,November 1965 Monsters and Medics </p>
+        <p>Foreign Publication: FANTASY &amp; SF, German Edition, Heyne Bucher No 236 as Die Päuppen FICTION No 118, September 1963 as Mystere au Rayon des Jouets</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 9000

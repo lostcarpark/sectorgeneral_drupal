@@ -1,0 +1,23 @@
+uuid: e68f8b2f-36ee-4ccb-8091-8de7c57d6ecd
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.magazine
+  module:
+    - taxonomy
+id: magazine
+label: Magazines
+type: 'canonical_entities:taxonomy_term'
+pattern: '/magazines/[term:name]'
+selection_criteria:
+  0d2918b6-f13f-4923-aa38-809e99b487fb:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      magazine: magazine
+selection_logic: and
+weight: 7
+relationships: {  }

@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ee5f2562-945e-4821-8205-5e13d2ec0a0e
+  bundle: edition
+  default_langcode: en
+  depends:
+    03e62dce-68c1-49cd-b816-f3a9f81f198c: media
+    7491f9a7-c260-4c6d-a792-884225b399f2: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    4c52425b-7b83-4e9e-af00-d52f9ab47cb3: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    f536af06-d9f5-446a-8200-ddffa65e1ceb: taxonomy_term
+    6e09cb12-1b7b-4b9f-88a0-45db255c8345: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL26879482M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: "L'hôpital des étoiles, Librairie Des Champs-Élysées, 1979"
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/lhopital-des-etoiles-librairie-des-champs-elysees-1979
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 03e62dce-68c1-49cd-b816-f3a9f81f198c
+  field_cover_artist:
+    -
+      entity: 7491f9a7-c260-4c6d-a792-884225b399f2
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “LE MASQUE SF No 91, Librraries des Champs Elysees, mid-1979 as L’Hopital des Etoiles”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?329196 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL26879482M (CC0).
+  field_date_display:
+    -
+      value: '1979'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9782702408995'
+  field_isfdb_id:
+    -
+      value: '329196'
+  field_language:
+    -
+      entity: 4c52425b-7b83-4e9e-af00-d52f9ab47cb3
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_oclc:
+    -
+      value: '77486680'
+  field_openlibrary_id:
+    -
+      value: OL26879482M
+  field_pages:
+    -
+      value: 254
+  field_publisher:
+    -
+      entity: f536af06-d9f5-446a-8200-ddffa65e1ceb
+  field_publisher_reference:
+    -
+      value: '91'
+  field_publisher_series:
+    -
+      entity: 6e09cb12-1b7b-4b9f-88a0-45db255c8345
+  field_publisher_series_number:
+    -
+      value: '91'
+  field_sort_date:
+    -
+      value: '1979-01-01'
+  field_year:
+    -
+      value: 1979

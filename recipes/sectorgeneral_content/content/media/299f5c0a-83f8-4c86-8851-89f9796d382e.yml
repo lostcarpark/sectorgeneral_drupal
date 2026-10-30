@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 299f5c0a-83f8-4c86-8851-89f9796d382e
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    028e0341-e182-49d1-87ad-76cd155448d9: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Writings in SF 12 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: dddb2475dff98c6146e9372a56f4099eca6cd714
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'New Writings in SF 12 cover'
+      title: ''
+      width: 100
+      height: 167
+      entity: 028e0341-e182-49d1-87ad-76cd155448d9

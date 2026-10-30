@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6f8d0473-9e43-4976-a3db-293719e2dc4c
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    5c4520a9-e977-4f67-b3f6-c8d9abe57eef: node
+    fa95935f-6dce-4024-abad-a81f488fb1f8: media
+    9dfb1a15-c8d8-463c-98fa-b47cd7511d78: taxonomy_term
+    6f6d4582-0d50-4aa4-9d0a-2cadff7f0dea: taxonomy_term
+    007d86a4-94ea-4b74-a63e-877ea1ab3496: taxonomy_term
+    436b2eb3-397d-4dbb-b409-60139b77cf5d: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    28278a84-4539-46b3-8452-27a59675d05a: taxonomy_term
+    caa9cb93-3e4c-41dc-b115-e9d3513a78e6: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+    7281d48e-a9e3-4a04-985e-1b1afc102c8f: taxonomy_term
+    ae1b8ea3-df08-4563-8f60-954b209ec617: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?392964 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Nebula, February 1959 (US edition)'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/nebula/nebula-february-1959-us-edition
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 5c4520a9-e977-4f67-b3f6-c8d9abe57eef
+  field_cover:
+    -
+      entity: fa95935f-6dce-4024-abad-a81f488fb1f8
+  field_cover_artist:
+    -
+      entity: 9dfb1a15-c8d8-463c-98fa-b47cd7511d78
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?392964 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'February 1959'
+  field_editor:
+    -
+      entity: 6f6d4582-0d50-4aa4-9d0a-2cadff7f0dea
+  field_interior_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+    -
+      entity: 436b2eb3-397d-4dbb-b409-60139b77cf5d
+    -
+      entity: 9dfb1a15-c8d8-463c-98fa-b47cd7511d78
+  field_isfdb_id:
+    -
+      value: '392964'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 28278a84-4539-46b3-8452-27a59675d05a
+  field_other_contributors:
+    -
+      entity: caa9cb93-3e4c-41dc-b115-e9d3513a78e6
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+    -
+      entity: 7281d48e-a9e3-4a04-985e-1b1afc102c8f
+    -
+      entity: ae1b8ea3-df08-4563-8f60-954b209ec617
+  field_pages:
+    -
+      value: 112
+  field_price:
+    -
+      value: $0.35
+  field_regional_edition:
+    -
+      value: 'US edition'
+  field_sort_date:
+    -
+      value: '1959-02-01'
+  field_year:
+    -
+      value: 1959

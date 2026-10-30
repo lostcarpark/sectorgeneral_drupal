@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c7abb16f-eb75-46af-a93b-ead1d22816b5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mblncshpmg1979.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mblncshpmg1979.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 108073
+  status:
+    -
+      value: true

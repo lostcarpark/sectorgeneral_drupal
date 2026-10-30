@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: e24a7619-e626-487e-ad93-0b88cd87b850
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Edgar Pangborn'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/edgar-pangborn
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 46415ef5-cea4-41ea-be70-45f97a2f33b0
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nwwrtngsnsf121968.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/nwwrtngsnsf121968.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 84861
+  status:
+    -
+      value: true

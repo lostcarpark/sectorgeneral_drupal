@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: a4ccdf0b-ceb0-4713-bdda-25967083e5b3
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    5128712d-b99e-4bb4-ab98-ff82f242891a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Galaxy Science Fiction (UK), November 1973 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 0483207beda60b2056f0998586136b443dc1ae49
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/9/9d/GLXSCNCFCG1973.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Galaxy Science Fiction (UK), November 1973 cover'
+      title: ''
+      width: 1020
+      height: 1506
+      entity: 5128712d-b99e-4bb4-ab98-ff82f242891a
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?387607'
+      title: null
+      options: {  }

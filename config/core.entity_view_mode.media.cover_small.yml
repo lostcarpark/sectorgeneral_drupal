@@ -1,0 +1,11 @@
+uuid: 2359ff3a-4528-4c6b-8a56-2882166a2cea
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.cover_small
+label: 'Cover small'
+description: null
+targetEntityType: media
+cache: true

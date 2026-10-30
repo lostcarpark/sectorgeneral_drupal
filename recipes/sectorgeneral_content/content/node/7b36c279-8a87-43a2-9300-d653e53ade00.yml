@@ -1,0 +1,84 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7b36c279-8a87-43a2-9300-d653e53ade00
+  bundle: novel
+  default_langcode: en
+  depends:
+    809f2d30-8095-45d4-b6dd-0dda7cffaeb4: node
+    84d44110-a366-4db4-81d6-1a014d2f1d66: node
+    9fcc64f0-4095-4ee8-af3f-037df754ff39: media
+    03c0e826-c5ee-456f-8600-d2652179fbeb: taxonomy_term
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Corrected contents and synopsis credit (scripts/fix_book_contents.php).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Star Surgeon'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-surgeon
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Fix-up novel: 'Resident Physician' (see under Short Stories) and Field Hospital.&nbsp; The blurbster has it: \"Sector General is a mercy station -- a place where all kinds from all worlds are welcome.&nbsp; But for the first time, the hospital is threatened by creatures too different its purpose, and so powerful that they can cause utter havoc!\"&nbsp; The Etlan DBDG invaders take much the same attitude towards Sector Twelve General Hospital that Margaret Thatcher did to the British National Health Service.&nbsp; And, to paraphrase Chief Psychologist O'Mara, Dr Conway not only stops the war but also gets the girl (Nurse Murchison).</p>"
+      format: basic_html
+      summary: 'The second novel in the Sector General series. This book previously appeared as individual short stories.'
+  field_book_type:
+    -
+      value: fixup
+  field_contents:
+    -
+      entity: 809f2d30-8095-45d4-b6dd-0dda7cffaeb4
+    -
+      entity: 84d44110-a366-4db4-81d6-1a014d2f1d66
+  field_cover:
+    -
+      entity: 9fcc64f0-4095-4ee8-af3f-037df754ff39
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4232 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1963
+  field_isfdb_id:
+    -
+      value: '4232'
+  field_publisher:
+    -
+      entity: 03c0e826-c5ee-456f-8600-d2652179fbeb
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_series_number:
+    -
+      value: 2
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 55250

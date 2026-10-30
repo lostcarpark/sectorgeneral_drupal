@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: b441e698-66c0-4d35-8b5b-8473183e6c02
+  bundle: redirect
+  default_langcode: und
+  depends:
+    372b8958-1072-4a82-98a8-333f7e3bd654: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: HjkkicxaXUh64-F46RmkbmYX6xjpQNi01CHi4zL8ie0
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/new-writings-sf-16
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 372b8958-1072-4a82-98a8-333f7e3bd654
+  status_code:
+    -
+      value: 301

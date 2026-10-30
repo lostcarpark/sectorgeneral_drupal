@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 3e34be02-3d11-4eb1-aed4-3e48ea3d608d
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Robert Barr'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/robert-barr
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

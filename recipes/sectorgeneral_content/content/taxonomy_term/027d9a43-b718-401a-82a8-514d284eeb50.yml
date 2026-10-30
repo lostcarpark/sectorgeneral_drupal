@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 027d9a43-b718-401a-82a8-514d284eeb50
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Rainer Schmid'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/rainer-schmid
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

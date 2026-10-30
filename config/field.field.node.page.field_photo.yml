@@ -1,0 +1,24 @@
+uuid: 1f51e7fb-ebef-4a6f-a8e4-4e1249cc53d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photo
+    - media.type.photo
+    - node.type.page
+id: node.page.field_photo
+field_name: field_photo
+entity_type: node
+bundle: page
+label: Photo
+description: 'Shown beside the text, with its caption and credit.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      photo: photo
+field_type: entity_reference

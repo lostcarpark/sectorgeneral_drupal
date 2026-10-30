@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8209a24c-b45b-4921-b2c8-9f0d8c681f75
+  bundle: short_story
+  default_langcode: en
+  depends:
+    c1593f6a-74a2-43b1-8883-6c5e0f1e740a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63759 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Outrider
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/outrider
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>No-first-name Gregg is travelling as a mere company employee on the express liner Wallaby, en route from Mars to Earth. Then the A-(for Allen) Drive goes badly wrong, leaving the ship blind, deaf, and rudderless. Like Conrad&#039;s Lord Jim, Gregg has a Guilty Secret in His Past for which he must Redeem Himself with an Act of Heroism. Which he does, at hazard, becoming the nearest thing to a human barnacle in the process. Gripping stuff (pun intended). And &#039;Outrider&#039; is a well-fitted story: one word more would be too many; one less would be too few.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63759 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1955
+  field_isfdb_id:
+    -
+      value: '63759'
+  field_opening_excerpt:
+    -
+      value: '<p>In a glide that was only a few degrees off level flight the ship slid into a tenuous upper reaches of the atmosphere.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>NEW WORLDS No 35, May 1955 </p>
+        <p>Publication History: 7-part serial Glasgow DAILY RECORDER, 3 - 10/8/1955 HAPNA, Arg 3 No 3, March 1956 as Kollision im Rymden Futures Past</p>
+      format: basic_html
+  field_series:
+    -
+      entity: c1593f6a-74a2-43b1-8883-6c5e0f1e740a
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 11000

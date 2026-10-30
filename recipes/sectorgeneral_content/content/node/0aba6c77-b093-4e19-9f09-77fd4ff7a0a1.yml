@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0aba6c77-b093-4e19-9f09-77fd4ff7a0a1
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?67243 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Invader
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/invader
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>‘Invader’ kicks off the Major Operation five-partwork novel. The thinkable unthinkable thought given utterance by O’Mara and Conway is that Senior Physician Mannen, grief-stricken over the recent death of his dog, has been making silly-billy mistakes through psychological negligence. But Mannen isn’t the only butterfingers (or worse) now aboard Sector General. “Some life form had entered the hospital. The invader was invisible and undetectable – even by the empathetic Cinrusskins – and it was creating hallucinations that were causing serious accidents . . . (blurb).</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?67243 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1967
+  field_isfdb_id:
+    -
+      value: '67243'
+  field_opening_excerpt:
+    -
+      value: '<p>(Far out on . . . etc.) “Obviously the thought isn’t unthinkable,” O’Mara, the Chief Psychologist, said dryly. “I’m thinking if it, reluctantly, and you are also thinking it – if only momentarily.”</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WRITINGS IN SF 7, Ed John Carnell, Dobson, January 1966 NEW WRITINGS IN SF 7, Corgi pb, August 1966</p>'
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 14000

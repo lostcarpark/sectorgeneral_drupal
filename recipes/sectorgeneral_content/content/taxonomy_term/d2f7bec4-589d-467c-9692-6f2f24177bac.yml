@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d2f7bec4-589d-467c-9692-6f2f24177bac
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Barry N. Malzberg'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/barry-n-malzberg
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b0463f05-52c7-49bb-846d-c832aa808e52
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Francis G. Rayer'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/francis-g-rayer
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

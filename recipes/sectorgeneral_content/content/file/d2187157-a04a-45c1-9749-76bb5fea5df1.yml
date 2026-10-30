@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d2187157-a04a-45c1-9749-76bb5fea5df1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bestofbritish2.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/bestofbritish2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3689
+  status:
+    -
+      value: true

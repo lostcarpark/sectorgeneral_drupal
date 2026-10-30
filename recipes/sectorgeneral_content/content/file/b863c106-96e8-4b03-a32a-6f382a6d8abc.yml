@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b863c106-96e8-4b03-a32a-6f382a6d8abc
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nebula-15.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/nebula-15.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3395
+  status:
+    -
+      value: true

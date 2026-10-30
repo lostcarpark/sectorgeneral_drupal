@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e2ed4c3a-6689-4dcd-bf36-61293ad14974
+  bundle: edition
+  default_langcode: en
+  depends:
+    71865aae-3835-4f8e-9cb4-93bd916b617f: media
+    9ba02792-0c3a-4e38-b5d6-bd1394c702be: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1: node
+    47dcdfd9-5b9d-431e-b100-e494eb3e62cd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL9643852M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Ambulance Ship, Del Rey, 1985'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/ambulance-ship/ambulance-ship-del-rey-1985
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 71865aae-3835-4f8e-9cb4-93bd916b617f
+  field_cover_artist:
+    -
+      entity: 9ba02792-0c3a-4e38-b5d6-bd1394c702be
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “BB/Del Rey reissue ISBN 0-345-28513-1, January 1985”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?183393 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9643852M (CC0).
+  field_date_display:
+    -
+      value: 'January 1985'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345285133'
+  field_isfdb_id:
+    -
+      value: '183393'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1
+  field_oclc:
+    -
+      value: '5883469'
+  field_openlibrary_id:
+    -
+      value: OL9643852M
+  field_pages:
+    -
+      value: 184
+  field_price:
+    -
+      value: C$2.50
+  field_printing:
+    -
+      value: Reissue
+  field_publisher:
+    -
+      entity: 47dcdfd9-5b9d-431e-b100-e494eb3e62cd
+  field_sort_date:
+    -
+      value: '1985-01-01'
+  field_year:
+    -
+      value: 1985

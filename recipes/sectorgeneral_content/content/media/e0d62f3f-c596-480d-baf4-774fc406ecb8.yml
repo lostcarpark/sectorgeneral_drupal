@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: e0d62f3f-c596-480d-baf4-774fc406ecb8
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    404e1422-5f83-4746-a7a2-dc09da2861c0: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Fantasia e Fantascienza 3, February 1963 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 86544c896b2b0f726cf119ecb741c6c433129166
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.fantascienza.com/catalogo/imgbank/cover/00356.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Fantasia e Fantascienza 3, February 1963 cover'
+      title: ''
+      width: 185
+      height: 277
+      entity: 404e1422-5f83-4746-a7a2-dc09da2861c0
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?299243'
+      title: null
+      options: {  }

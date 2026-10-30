@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 076cb8ba-ada5-4880-8874-aee68d7e662d
+  bundle: novel
+  default_langcode: en
+  depends:
+    bb1c5a31-0776-4f79-bdaf-13a8dbb6a9c1: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 169, similarity 0.97).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Watch Below'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/watch-below
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>&quot; … his remarkable talent for extrapolating human survival under enormously hostile conditions is exploited to the full in a tense and moving novel group of humans trapped in the hull of a sunken ship -- for generation! Skilfully woven into the desperate problems which confront [them] is the story of a far different group of beings, creatures who face extermination with courage and determination equal to that of the humans&quot; (blurb). The Watch Below more than fulfilled the potential James White had shown a s novelist in Second Ending and Open Prison. He produces meaningful drama without subjecting both sets of voyagers to the Dreaded Lurgi, flat atomic batteries and Ghod knows what all else.</p>'
+      format: basic_html
+      summary: "The setting for this story is a W.W.II tanker which is sunk, but which finds zero buoyancy below the surface due to a trapped air pocket, where a few have survived. At the same time an Alien race heads for Earth, where they become unlikely saviours. This book is considered by many to be James's finest work."
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: bb1c5a31-0776-4f79-bdaf-13a8dbb6a9c1
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4239 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1966
+  field_isfdb_id:
+    -
+      value: '4239'
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 65500

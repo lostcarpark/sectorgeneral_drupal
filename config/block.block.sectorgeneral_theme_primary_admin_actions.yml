@@ -1,0 +1,18 @@
+uuid: d2ed6c11-9763-4402-9a63-7941f6d69e2a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sectorgeneral_theme
+id: sectorgeneral_theme_primary_admin_actions
+theme: sectorgeneral_theme
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: ''
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,26 @@
+uuid: b04caf71-3194-45d6-ab57-38263e74958f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_series
+    - node.type.novel
+    - taxonomy.vocabulary.series
+id: node.novel.field_series
+field_name: field_series
+entity_type: node
+bundle: novel
+label: Series
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      series: series
+    auto_create: true
+    auto_create_bundle: series
+field_type: entity_reference

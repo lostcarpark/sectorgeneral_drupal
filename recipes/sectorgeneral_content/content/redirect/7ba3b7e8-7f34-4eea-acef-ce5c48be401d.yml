@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 7ba3b7e8-7f34-4eea-acef-ce5c48be401d
+  bundle: redirect
+  default_langcode: und
+  depends:
+    27311f45-da2c-4473-9d07-ce86f3c8451b: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: JLMoIHkG2TDJjwnpTwWNocEIYiWRcvIPEIpb45wkgnk
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/crossfire.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 27311f45-da2c-4473-9d07-ce86f3c8451b
+  status_code:
+    -
+      value: 301

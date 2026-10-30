@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e2234e21-d99c-4de9-ba0d-0ac88a371985
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: uc101.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/uc101.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 43584
+  status:
+    -
+      value: true

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 8fb59613-b786-406a-8bf2-805c7f1320c5
+  bundle: redirect
+  default_langcode: und
+  depends:
+    13bf8b32-c689-47b1-bb79-1eba1181b3d0: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: CcdMpKnoclfP8qmh8fTcVow6pjvzOwSrXTev9X9CC4c
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/inlovingmemory.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 13bf8b32-c689-47b1-bb79-1eba1181b3d0
+  status_code:
+    -
+      value: 301

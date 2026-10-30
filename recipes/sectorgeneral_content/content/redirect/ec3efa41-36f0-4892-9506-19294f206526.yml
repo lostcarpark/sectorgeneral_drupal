@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: ec3efa41-36f0-4892-9506-19294f206526
+  bundle: redirect
+  default_langcode: und
+  depends:
+    076cb8ba-ada5-4880-8874-aee68d7e662d: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: b_mkElFI4RpCl95bXSdVicjSqxFZ8cBw1cV0PRf7DVw
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/watchbelow.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 076cb8ba-ada5-4880-8874-aee68d7e662d
+  status_code:
+    -
+      value: 301

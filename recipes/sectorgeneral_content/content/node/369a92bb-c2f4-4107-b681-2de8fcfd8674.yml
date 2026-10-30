@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 369a92bb-c2f4-4107-b681-2de8fcfd8674
+  bundle: edition
+  default_langcode: en
+  depends:
+    65c2115c-2d21-47cc-84a5-3786202ada95: media
+    af680abd-1ae4-421d-bb89-411eaefd13f2: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    4684e80b-b2ce-4e86-a094-7e0e0960eed2: node
+    3bda7690-3cc9-4052-9e0e-e67f67495dac: taxonomy_term
+    98ce79b8-df78-4c99-8609-cd0f933302ed: taxonomy_term
+    2a2a2898-1fb3-436e-8a3a-caa24258df6e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/740301756'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Minuszeit, Pabel, 1971'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/tomorrow-too-far/minuszeit-pabel-1971
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 65c2115c-2d21-47cc-84a5-3786202ada95
+  field_cover_artist:
+    -
+      entity: af680abd-1ae4-421d-bb89-411eaefd13f2
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?499093 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/740301756 (CC0).
+  field_date_display:
+    -
+      value: '26 November 1971'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '499093'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 4684e80b-b2ce-4e86-a094-7e0e0960eed2
+  field_oclc:
+    -
+      value: '74135918'
+  field_pages:
+    -
+      value: 161
+  field_price:
+    -
+      value: 'DM 2.80'
+  field_printing:
+    -
+      value: 'Dt. Erstveröffentlichung.'
+  field_publisher:
+    -
+      entity: 3bda7690-3cc9-4052-9e0e-e67f67495dac
+  field_publisher_reference:
+    -
+      value: TTB185
+  field_publisher_series:
+    -
+      entity: 98ce79b8-df78-4c99-8609-cd0f933302ed
+  field_publisher_series_number:
+    -
+      value: '185'
+  field_sort_date:
+    -
+      value: '1971-11-26'
+  field_translator:
+    -
+      entity: 2a2a2898-1fb3-436e-8a3a-caa24258df6e
+  field_year:
+    -
+      value: 1971

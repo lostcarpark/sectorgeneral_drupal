@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f7aa4e86-3cfb-4feb-bdae-a92cb5e62888
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 41b7e0gvwrl.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/41b7e0gvwrl.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 25898
+  status:
+    -
+      value: true

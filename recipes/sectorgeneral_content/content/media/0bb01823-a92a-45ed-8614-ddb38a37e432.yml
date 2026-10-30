@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 0bb01823-a92a-45ed-8614-ddb38a37e432
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    f11fa87c-ac16-4e42-b007-3d50c68e7fb5: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Stazione ospedale, Editrice Nord, 2001 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 015e92ddef24a5cda60cb9d8013c19ffdb89d88a
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.fantascienza.com/catalogo/imgbank/cover/11334.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Stazione ospedale, Editrice Nord, 2001 cover'
+      title: ''
+      width: 146
+      height: 229
+      entity: f11fa87c-ac16-4e42-b007-3d50c68e7fb5
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?386727'
+      title: null
+      options: {  }

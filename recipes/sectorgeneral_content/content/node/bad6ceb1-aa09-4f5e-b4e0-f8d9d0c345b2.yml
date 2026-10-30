@@ -1,0 +1,74 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?62895 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Visitor at Large'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/visitor-large
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>&#039;Visitor at Large&#039; marks the Sector General debut of Dr Prilicla, the insectile Cinrusskin empath whom every perceptive reader loves to love. Conway and Prilicla find themselves treating a sick amoeboid SRTT alien that can never, ever, fall physically sick.</p>
+        <p>But its psychological traumas would flummox Dr Anthony Clare himself, even if this patient at (very!) large didn&#039;t flatten his couch.</p>
+        <p>I&#039;ll conclude by telling you that White&#039;s solution to the problem still holds water. No, please. Don&#039;t bother to thank me.</p>
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?62895 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1959
+  field_isfdb_id:
+    -
+      value: '62895'
+  field_opening_excerpt:
+    -
+      value: '<p>Despite the vast resources of medical and surgical skill available, resources which were acknowledged second to none in the civilized galaxy, there had to be times when a case arrived in Sector General for which noting whatever could be done.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WORLDS No 84, June 1959 New Worlds US Reprint Edition, March 1960 Hospital Station The White Papers (ditto).</p>'
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 16000

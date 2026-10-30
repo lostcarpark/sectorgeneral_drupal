@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c0d0ee04-2765-40a9-ad48-5745473e805a
+  bundle: edition
+  default_langcode: en
+  depends:
+    3f77f197-5005-4dc9-af2b-7827dfc95361: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    b3d08ed0-e9d2-4fd5-b7ba-b42978d0d4c1: taxonomy_term
+    edf2a34c-82d5-44e5-96a3-3a635aaa7f67: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Created from the Národní knihovna ČR: https://aleph.nkp.cz/F/?func=direct&doc_number=000108593&local_base=NKC'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Stanice Red Cross, AFSF, 1994'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/stanice-red-cross-afsf-1994
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'Národní knihovna ČR record https://aleph.nkp.cz/F/?func=direct&doc_number=000108593&local_base=NKC (CC0).'
+  field_date_display:
+    -
+      value: '1994'
+  field_isbn:
+    -
+      value: '9788085390124'
+  field_language:
+    -
+      entity: 3f77f197-5005-4dc9-af2b-7827dfc95361
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_pages:
+    -
+      value: 187
+  field_publisher:
+    -
+      entity: b3d08ed0-e9d2-4fd5-b7ba-b42978d0d4c1
+  field_sort_date:
+    -
+      value: '1994-01-01'
+  field_translator:
+    -
+      entity: edf2a34c-82d5-44e5-96a3-3a635aaa7f67
+  field_year:
+    -
+      value: 1994

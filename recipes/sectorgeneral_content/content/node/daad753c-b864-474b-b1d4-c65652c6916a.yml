@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: daad753c-b864-474b-b1d4-c65652c6916a
+  bundle: novel
+  default_langcode: en
+  depends:
+    42e8a6d5-aea9-4e8f-83ce-db0406f8fd75: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Imported from the original James White Information site.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Interpreters'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/interpreters
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>The Interpreters (14pp) is a book only by editorial fiat of the Novacon 15 Committee. Therefore, I&#039;m going to be analytically retentive about it (but see under Short Stories). Langford&#039;s &#039;Outbreak&#039; parody (in A Novacon Garland) is, however, worthy of mention -- especially for lines like this representative sample: &quot;After a mildly awkward interlude (only the Tralthan cubicle was free, with a lavatory seat four feet across), Conway emerged... (p17). There is no truth to the rumour that Dustin Hoffman snapped up the film rights.</p>
+        <p>First Publication:</p>
+        <p>Novacon 15 booklet, 1985.</p>
+        <p>Publication History:</p>
+        <p>FANTASY &amp; SF, March 1987</p>
+        <p>Back to Books Main Next: Star Healer</p>
+      format: basic_html
+      summary: "This chap-book is doubled with a David Langford Sector General parody. This was to coincide with their appearance as GOH's at Novacon that year."
+  field_book_type:
+    -
+      value: chapbook
+  field_cover:
+    -
+      entity: 42e8a6d5-aea9-4e8f-83ce-db0406f8fd75
+  field_data_sources:
+    -
+      value: 'James White Information (original site). Synopsis by Graham Andrews.'
+  field_first_published_year:
+    -
+      value: 1985
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 4000

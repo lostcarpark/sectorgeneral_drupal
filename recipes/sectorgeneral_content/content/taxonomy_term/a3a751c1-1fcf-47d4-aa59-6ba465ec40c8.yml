@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: a3a751c1-1fcf-47d4-aa59-6ba465ec40c8
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Juan Esteban'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/juan-esteban
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

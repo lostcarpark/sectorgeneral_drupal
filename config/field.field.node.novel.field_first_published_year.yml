@@ -1,0 +1,23 @@
+uuid: 6fff4117-122d-4578-b0a0-ed80ae919159
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_first_published_year
+    - node.type.novel
+id: node.novel.field_first_published_year
+field_name: field_first_published_year
+entity_type: node
+bundle: novel
+label: 'First published'
+description: 'Year of first publication, used for sorting.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

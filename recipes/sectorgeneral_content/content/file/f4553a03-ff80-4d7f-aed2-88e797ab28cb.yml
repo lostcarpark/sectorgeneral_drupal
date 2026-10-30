@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f4553a03-ff80-4d7f-aed2-88e797ab28cb
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: alljudgementfledcorgi.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/alljudgementfledcorgi.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4216
+  status:
+    -
+      value: true

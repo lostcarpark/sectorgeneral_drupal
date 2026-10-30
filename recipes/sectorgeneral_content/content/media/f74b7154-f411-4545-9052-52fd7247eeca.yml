@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: f74b7154-f411-4545-9052-52fd7247eeca
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    55ee9797-36eb-490d-84b3-eb7eb2382796: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Ospedale da combattimento, Editrice Nord, 2001 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 4f058d4dd9d69234d3784707271b77c2d1039fa6
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.fantascienza.com/catalogo/imgbank/cover/11546.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Ospedale da combattimento, Editrice Nord, 2001 cover'
+      title: ''
+      width: 151
+      height: 230
+      entity: 55ee9797-36eb-490d-84b3-eb7eb2382796
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?386728'
+      title: null
+      options: {  }

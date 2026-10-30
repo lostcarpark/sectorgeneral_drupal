@@ -1,0 +1,67 @@
+/**
+ * @file
+ * Banner image behind the header and page title: NGC 2841 (ESA/Hubble).
+ * Credit is in the footer (see scripts/build_theme.php), as the licence
+ * requires.
+ *
+ * Sizes are chosen by screen width, with image-set() picking the 1x or 2x
+ * file and AVIF where supported. Each media block repeats the declaration
+ * with a plain JPEG first, for browsers without image-set() type().
+ * The images are set here rather than through the theme's banner setting,
+ * which takes a single file.
+ *
+ * The wash is darker than the base theme's 40%: the galaxy's bright core sits
+ * behind the page title, and 50% keeps white text above 4.5:1 there.
+ */
+
+.site-masthead-backdrop {
+  --sg-banner-wash: linear-gradient(color-mix(in sRGB, black 50%, transparent), color-mix(in sRGB, black 50%, transparent));
+
+  background-image: var(--sg-banner-wash), url(../images/banner/narrow-800.jpg);
+  background-image: var(--sg-banner-wash), image-set(
+    url(../images/banner/narrow-800.avif) type("image/avif") 1x,
+    url(../images/banner/narrow-800.jpg) type("image/jpeg") 1x,
+    url(../images/banner/narrow-1600.avif) type("image/avif") 2x,
+    url(../images/banner/narrow-1600.jpg) type("image/jpeg") 2x
+  );
+}
+
+@media (min-width: 48.0625rem) {
+  .site-masthead-backdrop {
+    background-image: var(--sg-banner-wash), url(../images/banner/wide-1280.jpg);
+    background-image: var(--sg-banner-wash), image-set(
+      url(../images/banner/wide-1280.avif) type("image/avif") 1x,
+      url(../images/banner/wide-1280.jpg) type("image/jpeg") 1x,
+      url(../images/banner/wide-2560.avif) type("image/avif") 2x,
+      url(../images/banner/wide-2560.jpg) type("image/jpeg") 2x
+    );
+  }
+}
+
+@media (min-width: 80.0625rem) {
+  .site-masthead-backdrop {
+    background-image: var(--sg-banner-wash), url(../images/banner/wide-1920.jpg);
+    background-image: var(--sg-banner-wash), image-set(
+      url(../images/banner/wide-1920.avif) type("image/avif") 1x,
+      url(../images/banner/wide-1920.jpg) type("image/jpeg") 1x,
+      url(../images/banner/wide-3840.avif) type("image/avif") 2x,
+      url(../images/banner/wide-3840.jpg) type("image/jpeg") 2x
+    );
+  }
+}
+
+@media (min-width: 120.0625rem) {
+  .site-masthead-backdrop {
+    background-image: var(--sg-banner-wash), url(../images/banner/wide-2560.jpg);
+    background-image: var(--sg-banner-wash), image-set(
+      url(../images/banner/wide-2560.avif) type("image/avif") 1x,
+      url(../images/banner/wide-2560.jpg) type("image/jpeg") 1x,
+      url(../images/banner/wide-3840.avif) type("image/avif") 2x,
+      url(../images/banner/wide-3840.jpg) type("image/jpeg") 2x
+    );
+  }
+}
+
+.banner-credit {
+  font-size: 0.8rem;
+}

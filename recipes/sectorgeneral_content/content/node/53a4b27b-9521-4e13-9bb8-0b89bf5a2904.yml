@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 53a4b27b-9521-4e13-9bb8-0b89bf5a2904
+  bundle: novel
+  default_langcode: en
+  depends:
+    f810bd76-5421-4f96-9fbd-77c9a2225c95: node
+    f9ffc49f-fb23-4194-b825-52ff8f98a097: node
+    a5d12d51-d64f-437c-8e8e-701ea08835f1: node
+    5fb7f5ad-3dc1-4a87-a071-5cabef2be751: media
+    6401dad9-6de7-49d5-91ee-ce109aa091f2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 234, similarity 0.97).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Federation World'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/federation-world
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Fix-up novel: &#039;Federation World&#039;; &#039;The Scourge&#039;; &#039;Something of Value&#039;; (see under Short Stories) Combined with the unpublished novelette &#039;The Silence&#039; and the short novel &#039;The Answer&#039; revised and with linking material added. All intelligent species discovered by the Federation of Galactic Sentients are encouraged to help populate the eponymous modified Dyson Sphere, situated at the galactic core. Federation World is the White line on Niven&#039;s Ringworld and Orbitsville - by his old Belfast mucker, Bob Shaw. Few better stories appeared in Analog during the 1980s, which might or might not be taken as a compliment. As Damon Knight wrote about Murray Leinster&#039;s The Monster from Earth&#039;s End (a neglected non-classic, if ever there was one): &quot;...the reader can&#039;t help knowing all along that everything will be explained calmly, rationally, and in a little too much detail.&quot;</p>'
+      format: basic_html
+      summary: 'The Federation World is a modified Dyson sphere in the galactic core where new species are invited to move, if they are deserving.'
+  field_book_type:
+    -
+      value: fixup
+  field_contents:
+    -
+      entity: f810bd76-5421-4f96-9fbd-77c9a2225c95
+    -
+      entity: f9ffc49f-fb23-4194-b825-52ff8f98a097
+    -
+      entity: a5d12d51-d64f-437c-8e8e-701ea08835f1
+  field_cover:
+    -
+      entity: 5fb7f5ad-3dc1-4a87-a071-5cabef2be751
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?14000 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1988
+  field_isfdb_id:
+    -
+      value: '14000'
+  field_series:
+    -
+      entity: 6401dad9-6de7-49d5-91ee-ce109aa091f2
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 100000

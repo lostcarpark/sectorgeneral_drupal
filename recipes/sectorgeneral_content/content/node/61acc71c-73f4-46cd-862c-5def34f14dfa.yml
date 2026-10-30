@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 61acc71c-73f4-46cd-862c-5def34f14dfa
+  bundle: edition
+  default_langcode: en
+  depends:
+    f223d848-5791-4e24-aa00-f011fd2f0ede: taxonomy_term
+    19b1cfbb-06d6-4aeb-b49b-d7bfc8768db5: node
+    67c78078-4ce5-4d3b-a74f-8ddaac0b8d89: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Imported from the original James White Information site.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Final Diagnosis, AST, 1997'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/final-diagnosis/final-diagnosis-ast-1997
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'James White Information (original site): “AST Publishers, Russia, 26/8/97”'
+  field_date_display:
+    -
+      value: '26 August 1997'
+  field_language:
+    -
+      entity: f223d848-5791-4e24-aa00-f011fd2f0ede
+  field_novel:
+    -
+      entity: 19b1cfbb-06d6-4aeb-b49b-d7bfc8768db5
+  field_publisher:
+    -
+      entity: 67c78078-4ce5-4d3b-a74f-8ddaac0b8d89
+  field_sort_date:
+    -
+      value: '1997-08-26'
+  field_year:
+    -
+      value: 1997

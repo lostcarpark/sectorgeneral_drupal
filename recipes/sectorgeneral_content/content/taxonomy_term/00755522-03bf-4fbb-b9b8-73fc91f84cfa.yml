@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 00755522-03bf-4fbb-b9b8-73fc91f84cfa
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Kjell Ekström'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/kjell-ekstrom
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

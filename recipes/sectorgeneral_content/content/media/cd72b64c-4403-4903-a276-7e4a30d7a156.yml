@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: cd72b64c-4403-4903-a276-7e4a30d7a156
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    d2d13bf9-f535-4962-9fd8-add9a42a28f0: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Alien Emergencies, Gollancz, 2026 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: b414f42d4e2e6f962b5db6c1a5cb6f2599988650
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://m.media-amazon.com/images/I/51QjJdHCyiL.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Alien Emergencies, Gollancz, 2026 cover'
+      title: ''
+      width: 326
+      height: 500
+      entity: d2d13bf9-f535-4962-9fd8-add9a42a28f0
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?1118764'
+      title: null
+      options: {  }

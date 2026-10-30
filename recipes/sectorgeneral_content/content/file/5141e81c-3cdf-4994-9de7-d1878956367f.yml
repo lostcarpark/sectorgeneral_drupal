@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5141e81c-3cdf-4994-9de7-d1878956367f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thgrstrs1e1992.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thgrstrs1e1992.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 65555
+  status:
+    -
+      value: true

@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d4755b1c-83f6-470e-b808-2aff7eca8be3
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63749 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Spacebird
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/spacebird
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>M.C.S. Torrance, while mapping the many three-dimensional balnks in Federation star-charts, pops out of hyperspace near a big, sick . . . Spacebird. With great difficulty, major Madden ‘hightails’ it for Sector General. “A strange – and perhaps deadly – rash that covered its body may well have caused the creature’s companions to abandon their helpless friend” (blurb). The dirty birds. Rick Sternbach’s cover illustration for Futures Past (Ballantine edition) sets the scene perfectly. Just like my favourite Mystery in Space action shot, by Mike Sekowski. Attack on Fort Satellite: Wernher von Braun space-wheel under raygun-fire from space-suited ‘Greenskins’ riding iron-horse thingies. How sad, too bad, never mind.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63749 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1973
+  field_isfdb_id:
+    -
+      value: '63749'
+  field_opening_excerpt:
+    -
+      value: '<p>The Monitor Corps scoutship Torrance was engaged on a mission which was both highly important and deadly dull.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WRITING IN SF No 22, ed Ken Bulmer, Sidgewick &amp; Jackson, March 1973 NEW WRITINGS IN SF 22, Corgi PB, April 1974 NEW WRITINGS IN SF SPECIAL ONE, ed Carnell &amp; Bulmer, omnibus edition of NW IN SF Nos 21-22--23, Sidgewick &amp; Jackson, July 1975 Futures Past Ambulance Ship (Corgi edition only). Fan Publication: NORCON 11 Programme Booklet, Norwegian National SF Convention, Oslo, 8/8/92 Guest of Honour contribution translated into Norwegian,</p>'
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 9500

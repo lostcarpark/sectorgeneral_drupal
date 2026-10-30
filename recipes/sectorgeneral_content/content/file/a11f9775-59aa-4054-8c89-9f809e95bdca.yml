@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a11f9775-59aa-4054-8c89-9f809e95bdca
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hpnktbrzzh1958.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/hpnktbrzzh1958.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 142919
+  status:
+    -
+      value: true

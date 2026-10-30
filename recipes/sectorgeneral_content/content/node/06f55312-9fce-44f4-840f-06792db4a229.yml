@@ -1,0 +1,85 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 06f55312-9fce-44f4-840f-06792db4a229
+  bundle: edition
+  default_langcode: en
+  depends:
+    31b4c157-d7f4-4a51-807e-34645ed4ca6e: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+    2e82f8e6-07c6-4a1e-a28e-76cad52bbf65: taxonomy_term
+    20ff98ce-5722-4adb-be4d-fd041564814c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Publisher changed from Futuria to Zillitti, as OPAC SBN gives it (Futuria is the series): https://opac.sbn.it/bid/RAV2106356'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'I visitatori occulti, Zillitti, 1964'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/secret-visitors/i-visitatori-occulti-zillitti-1964
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Uncertainty over the year: <a href="https://opac.sbn.it/bid/RAV2106356">OPAC SBN</a> gives 1964, but the original James White Information site gave mid-1965.</p>'
+      format: basic_html
+      summary: ''
+  field_cover_artist:
+    -
+      entity: 31b4c157-d7f4-4a51-807e-34645ed4ca6e
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “FUTURIA No 2, Lira 200, mid-1965 as Il Visitatori Occulti”
+        OPAC SBN record https://opac.sbn.it/bid/RAV2106356.
+  field_date_display:
+    -
+      value: '1964'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: fec32d28-7455-4a8a-a448-67c3af694c28
+  field_pages:
+    -
+      value: 160
+  field_publisher:
+    -
+      entity: 2e82f8e6-07c6-4a1e-a28e-76cad52bbf65
+  field_publisher_reference:
+    -
+      value: '2'
+  field_publisher_series:
+    -
+      entity: 20ff98ce-5722-4adb-be4d-fd041564814c
+  field_publisher_series_number:
+    -
+      value: '2'
+  field_sort_date:
+    -
+      value: '1964-01-01'
+  field_year:
+    -
+      value: 1964

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b9efa924-4dfc-4723-8f8a-bffa073551e7
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sctrgnrlgq1986-1.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/sctrgnrlgq1986-1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 116491
+  status:
+    -
+      value: true

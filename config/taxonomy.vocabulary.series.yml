@@ -1,0 +1,9 @@
+uuid: 8d60bc8a-6789-4bc9-adc7-081298f71d2e
+langcode: en
+status: true
+dependencies: {  }
+name: Series
+vid: series
+description: 'Series of related books and stories, such as Sector General.'
+weight: 0
+new_revision: false

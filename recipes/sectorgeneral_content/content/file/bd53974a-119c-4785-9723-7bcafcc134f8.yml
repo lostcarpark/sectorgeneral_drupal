@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bd53974a-119c-4785-9723-7bcafcc134f8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: rctsdntcpt1961.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/rctsdntcpt1961.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 138603
+  status:
+    -
+      value: true

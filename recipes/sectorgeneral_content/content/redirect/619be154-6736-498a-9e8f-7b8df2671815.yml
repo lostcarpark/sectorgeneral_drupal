@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 619be154-6736-498a-9e8f-7b8df2671815
+  bundle: redirect
+  default_langcode: und
+  depends:
+    0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea: taxonomy_term
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: jPfZm-HwPgACMvQ9R8GRLEoBN81VVl_YJex0c-icM1g
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: people/brian-w-aldiss
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea
+  status_code:
+    -
+      value: 301

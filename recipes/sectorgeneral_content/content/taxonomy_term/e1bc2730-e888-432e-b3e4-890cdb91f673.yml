@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: e1bc2730-e888-432e-b3e4-890cdb91f673
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Roelof Goudriaan'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/roelof-goudriaan
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7f1a6504-8735-4a4e-9127-4b8e98b7880a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: the-aliens-among-us-ballintine_tn.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/the-aliens-among-us-ballintine_tn.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 12988
+  status:
+    -
+      value: true

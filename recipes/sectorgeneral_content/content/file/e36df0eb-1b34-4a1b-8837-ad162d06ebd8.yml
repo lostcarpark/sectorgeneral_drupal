@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e36df0eb-1b34-4a1b-8837-ad162d06ebd8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: rtosfbw1998.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/rtosfbw1998.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 139925
+  status:
+    -
+      value: true

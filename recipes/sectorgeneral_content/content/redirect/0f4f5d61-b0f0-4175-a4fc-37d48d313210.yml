@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 0f4f5d61-b0f0-4175-a4fc-37d48d313210
+  bundle: redirect
+  default_langcode: en
+  depends:
+    17eb803f-5548-4afa-8600-ed7457fc99c6: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: PDdO4nxwfQA14VFa1bS7mtUi39hf6duLe591UrK0PCs
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/hospital-station/beginning-operations-orb-2001
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 17eb803f-5548-4afa-8600-ed7457fc99c6
+  status_code:
+    -
+      value: 301

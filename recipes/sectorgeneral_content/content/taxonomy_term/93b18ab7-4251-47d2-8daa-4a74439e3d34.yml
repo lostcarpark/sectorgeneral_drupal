@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 93b18ab7-4251-47d2-8daa-4a74439e3d34
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Alison Scott'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/alison-scott
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

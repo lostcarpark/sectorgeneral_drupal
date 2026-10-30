@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b356bb34-8da4-44b9-803e-23b82b1a8cd1
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Lan Wright'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/lan-wright
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 72bd5546-69d3-45e3-b5b6-fe6e114916d6
+  bundle: redirect
+  default_langcode: und
+  depends:
+    602b8866-5876-4533-a042-f7a85c49f190: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: r5LmQ3a87HJIpc5z0Y6CTRGJvY2livc1JWF_8ujM7Zg
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/new-worlds/new-worlds-magazine-february-1962
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 602b8866-5876-4533-a042-f7a85c49f190
+  status_code:
+    -
+      value: 301

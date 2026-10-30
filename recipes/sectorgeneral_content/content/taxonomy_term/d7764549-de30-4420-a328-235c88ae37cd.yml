@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d7764549-de30-4420-a328-235c88ae37cd
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: P_1964NWSAPR
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/p1964nwsapr
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

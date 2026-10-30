@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 30ad2984-26bc-455c-afd0-c491bed5e4a6
+  bundle: redirect
+  default_langcode: und
+  depends:
+    871290fa-100a-4ae9-9e39-fd62f64498de: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: gAH3I2HYJw8Y2sL-_BSGvFfHSk6rEEUVM9UJQE8R2EY
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: books/star-surgeon/star-surgeon-corgi-1976-1
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 871290fa-100a-4ae9-9e39-fd62f64498de
+  status_code:
+    -
+      value: 301

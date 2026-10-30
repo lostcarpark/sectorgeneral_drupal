@@ -1,0 +1,85 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5b03a994-4df8-43b0-a4b0-535cb3246c79
+  bundle: edition
+  default_langcode: en
+  depends:
+    c3b12057-a125-4e29-a7ca-6edbedfb5600: media
+    249a0515-5358-48e4-baa7-dcb41a3887bb: taxonomy_term
+    0f283372-c4ec-4621-93c5-c53d570e58fc: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fb3537a4-4d08-4d19-9b5f-782fd7d237cd: node
+    b7f530fb-4ebb-4ce7-8eae-a12a0d5916f1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?759695 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Beyond the Enchanted Duplicator... ...To the Enchanted Convention, PROmote Communications, 1991'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/beyond-enchanted-duplicator-enchanted-convention/beyond-enchanted-duplicator-enchanted-convention-promote-communications-1991
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: c3b12057-a125-4e29-a7ca-6edbedfb5600
+  field_cover_artist:
+    -
+      entity: 249a0515-5358-48e4-baa7-dcb41a3887bb
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?759695 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '1991'
+  field_interior_artist:
+    -
+      entity: 249a0515-5358-48e4-baa7-dcb41a3887bb
+  field_introduction_by:
+    -
+      entity: 0f283372-c4ec-4621-93c5-c53d570e58fc
+  field_isfdb_id:
+    -
+      value: '759695'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: fb3537a4-4d08-4d19-9b5f-782fd7d237cd
+  field_pages:
+    -
+      value: 40
+  field_price:
+    -
+      value: $6.00
+  field_publisher:
+    -
+      entity: b7f530fb-4ebb-4ce7-8eae-a12a0d5916f1
+  field_sort_date:
+    -
+      value: '1991-01-01'
+  field_year:
+    -
+      value: 1991

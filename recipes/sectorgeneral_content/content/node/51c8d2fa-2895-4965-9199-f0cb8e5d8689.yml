@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 51c8d2fa-2895-4965-9199-f0cb8e5d8689
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    f810bd76-5421-4f96-9fbd-77c9a2225c95: node
+    6e5a4271-0ae0-4599-a3c6-b127e747d386: media
+    082b7762-c65d-4685-b64b-6eb7dcb98939: taxonomy_term
+    20e127fc-b1f1-496e-b435-a43151c91fd1: taxonomy_term
+    84ca2455-2488-436a-a8fe-5a7b4deea649: taxonomy_term
+    c101ed7c-66a0-4dd8-909f-f805c480e6df: taxonomy_term
+    6778c2a4-18bc-46e6-9e4a-dd1c5caccaa0: taxonomy_term
+    062239fa-08a7-42a4-91c3-cbe02e6db1f0: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    35e411d8-3c59-4666-84ed-9c05c22b161a: taxonomy_term
+    9be5cd51-54f5-4835-8aa6-8459349ae07a: taxonomy_term
+    1d135ab1-ef14-411b-9f1b-c09fa5c9d3e8: taxonomy_term
+    a0e224f6-68f4-495e-863e-a97f05326d98: taxonomy_term
+    e180c839-7020-486d-a037-495de030d13e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?57072 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Analog Science Fiction and Fact, August 1980'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/analog-science-fiction-and-fact/analog-science-fiction-and-fact-august-1980
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: f810bd76-5421-4f96-9fbd-77c9a2225c95
+  field_cover:
+    -
+      entity: 6e5a4271-0ae0-4599-a3c6-b127e747d386
+  field_cover_artist:
+    -
+      entity: 082b7762-c65d-4685-b64b-6eb7dcb98939
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?57072 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'August 1980'
+  field_editor:
+    -
+      entity: 20e127fc-b1f1-496e-b435-a43151c91fd1
+  field_interior_artist:
+    -
+      entity: 082b7762-c65d-4685-b64b-6eb7dcb98939
+    -
+      entity: 84ca2455-2488-436a-a8fe-5a7b4deea649
+    -
+      entity: c101ed7c-66a0-4dd8-909f-f805c480e6df
+    -
+      entity: 6778c2a4-18bc-46e6-9e4a-dd1c5caccaa0
+    -
+      entity: 062239fa-08a7-42a4-91c3-cbe02e6db1f0
+  field_isfdb_id:
+    -
+      value: '57072'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 35e411d8-3c59-4666-84ed-9c05c22b161a
+  field_other_contributors:
+    -
+      entity: 9be5cd51-54f5-4835-8aa6-8459349ae07a
+    -
+      entity: 1d135ab1-ef14-411b-9f1b-c09fa5c9d3e8
+    -
+      entity: a0e224f6-68f4-495e-863e-a97f05326d98
+    -
+      entity: e180c839-7020-486d-a037-495de030d13e
+  field_pages:
+    -
+      value: 180
+  field_price:
+    -
+      value: $1.50
+  field_sort_date:
+    -
+      value: '1980-08-01'
+  field_year:
+    -
+      value: 1980

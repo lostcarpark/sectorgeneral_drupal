@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 170b6802-be28-4246-a763-2bc868b9023b
+  bundle: redirect
+  default_langcode: und
+  depends:
+    9efd0d68-2c3b-4d5e-a93f-406049e44f3b: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: xSF3GNGKDWsVeQD9q65v-xWOBQ9TFDibY50Bvw_oxHU
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: magazines/gate/gate-1-may-1989-0
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 9efd0d68-2c3b-4d5e-a93f-406049e44f3b
+  status_code:
+    -
+      value: 301

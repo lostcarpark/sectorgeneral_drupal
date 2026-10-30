@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 05d5189c-d43b-4afe-9b2c-9ad38e960322
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Steve Cavallo'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/steve-cavallo
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

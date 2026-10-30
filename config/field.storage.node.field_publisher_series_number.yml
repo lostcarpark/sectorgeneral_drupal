@@ -1,0 +1,21 @@
+uuid: 8da2498e-1bae-4e40-963c-8d4a4050b198
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_publisher_series_number
+field_name: field_publisher_series_number
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d3870fc8-7c7c-4f6d-8e97-3cc0beadf212
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Jack B. Kerr'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/jack-b-kerr
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

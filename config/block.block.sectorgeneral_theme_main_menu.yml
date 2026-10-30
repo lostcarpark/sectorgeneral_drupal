@@ -1,0 +1,25 @@
+uuid: 7e5707b5-c4e9-4969-8323-85eb63a6ee95
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - sectorgeneral_theme
+id: sectorgeneral_theme_main_menu
+theme: sectorgeneral_theme
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

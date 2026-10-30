@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 387d8acf-1907-4fd4-b0c6-b16dcad5a890
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    ba6721f8-7bc4-4681-9f4c-2cf7ece629ab: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Analog Science Fiction and Fact, October 1975 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: e5c43a46ccbda2691a921c7b78788a6b67ff277f
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Analog Science Fiction and Fact, October 1975 cover'
+      title: ''
+      width: 137
+      height: 200
+      entity: ba6721f8-7bc4-4681-9f4c-2cf7ece629ab

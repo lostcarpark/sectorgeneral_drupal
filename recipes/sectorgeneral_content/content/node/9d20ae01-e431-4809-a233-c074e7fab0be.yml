@@ -1,0 +1,90 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9d20ae01-e431-4809-a233-c074e7fab0be
+  bundle: edition
+  default_langcode: en
+  depends:
+    752c9064-83c3-49e3-88e0-14b2c7f4cec3: media
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    53a4b27b-9521-4e13-9bb8-0b89bf5a2904: node
+    06aa2580-8e68-4b72-9a00-f5d252de9de3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL15125976M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Federation World, Futura/Orbit, 1990'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/federation-world/federation-world-futuraorbit-1990
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 752c9064-83c3-49e3-88e0-14b2c7f4cec3
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Macdonald/Futura ISBN 0-7088-8335-4, £3.50, June 1990”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?13420 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL15125976M (CC0).
+  field_date_display:
+    -
+      value: 'June 1990'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780708883358'
+  field_isfdb_id:
+    -
+      value: '13420'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 53a4b27b-9521-4e13-9bb8-0b89bf5a2904
+  field_oclc:
+    -
+      value: '24755925'
+  field_openlibrary_id:
+    -
+      value: OL15125976M
+  field_pages:
+    -
+      value: 283
+  field_price:
+    -
+      value: £3.50
+  field_publisher:
+    -
+      entity: 06aa2580-8e68-4b72-9a00-f5d252de9de3
+  field_sort_date:
+    -
+      value: '1990-06-01'
+  field_year:
+    -
+      value: 1990

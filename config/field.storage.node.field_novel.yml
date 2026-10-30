@@ -1,0 +1,19 @@
+uuid: 5aca2531-5a44-4748-ae04-4d3b64ab5931
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_novel
+field_name: field_novel
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

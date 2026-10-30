@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 66dab029-0587-4e4b-b497-ffda8ba5d75d
+  bundle: redirect
+  default_langcode: und
+  depends:
+    21b5e0f1-779f-4261-ae4b-17cc66235b03: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: vQnCn9fz-VErEduqVknbVFR6U0z3IM4AzLLzneQeByA
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/galaxy/galaxy-science-fiction-uk-january-1974
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 21b5e0f1-779f-4261-ae4b-17cc66235b03
+  status_code:
+    -
+      value: 301

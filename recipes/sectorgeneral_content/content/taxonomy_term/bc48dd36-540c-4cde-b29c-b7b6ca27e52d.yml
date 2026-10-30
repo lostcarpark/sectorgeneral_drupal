@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: bc48dd36-540c-4cde-b29c-b7b6ca27e52d
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Edmund W. Hansen'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/edmund-w-hansen
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

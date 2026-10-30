@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5786eb34-83c5-4eae-8125-0c0949615759
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?55933 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Scavengers'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/scavengers
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>&quot;Sometimes a civilization has got to be rescued -- whether it wants to or not!&quot; White borrowed this premise, with permission, from Arthur C. Clarke&#039;s classic novelette, &#039;Rescue Party&#039; (Astounding, May 1946). Captian Spence reflects upon the &quot;knight in shining armour&quot; emotional state of Harrison, a rookie crew member: &quot;The captain had felt that way when he was a new boy. Somehow, the feeling never quite wore off. It came of belonging to an organization dedicated to the job of protecting, assisting, and keeping the noses clean generally of every race in the galaxy that walked, wriggled, or flew and had intelligence.&quot; The Force -- take that, George Lucas! -- is a precursor of the altruistic Monitor Corps that runs Sector General.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?55933 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1953
+  field_isfdb_id:
+    -
+      value: '55933'
+  field_opening_excerpt:
+    -
+      value: '<p>The ship was in a hurry</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>ASTOUNDING SCIENCE FICTION, October 1953 </p>
+        <p>Publication History: ASTOUNDING SCIENCE FICTION, British Reprint Edition, March 1954 COMBAT S-F, Ed Gordon Dickson, Ace Books, New York, No 0-441-11531-4250, June 1981 The Aliens Among Us, James White collection</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 9500

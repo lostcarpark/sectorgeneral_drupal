@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c60441c8-6cf1-488a-9bde-7868a3579cfa
+  bundle: edition
+  default_langcode: en
+  depends:
+    b531be77-4a57-4d29-83b6-c496ef195034: media
+    5cba4392-3519-473d-a3d2-30130620ad79: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    47dcdfd9-5b9d-431e-b100-e494eb3e62cd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Own cover restored: a larger picture of a different edition had replaced it.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Hospital Station, Del Rey / Ballantine, 1979'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/hospital-station-del-rey-ballantine-1979-0
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: b531be77-4a57-4d29-83b6-c496ef195034
+  field_cover_artist:
+    -
+      entity: 5cba4392-3519-473d-a3d2-30130620ad79
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?296621 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9737308M (CC0).
+  field_date_display:
+    -
+      value: 'September 1979'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345283535'
+  field_isfdb_id:
+    -
+      value: '296621'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_oclc:
+    -
+      value: '283805817'
+  field_openlibrary_id:
+    -
+      value: OL9737308M
+  field_pages:
+    -
+      value: 191
+  field_price:
+    -
+      value: $1.95
+  field_publisher:
+    -
+      entity: 47dcdfd9-5b9d-431e-b100-e494eb3e62cd
+  field_sort_date:
+    -
+      value: '1979-09-01'
+  field_year:
+    -
+      value: 1979

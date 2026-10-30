@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: dbc5c04b-6261-4105-95e3-656007f4c3e5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: um30.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/um30.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 42162
+  status:
+    -
+      value: true

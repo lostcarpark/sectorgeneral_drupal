@@ -1,0 +1,136 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a0cdece7-6bbd-4902-ac32-4bd4903ab149
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    2d8cc63a-c949-4a9d-bfb7-0d8bf9579938: node
+    1a769d87-0bc1-4c92-8ea8-4eaf6448a480: node
+    f2835f32-2062-4fd0-a8d0-a2c60c00b52c: media
+    8dd6fd13-303b-48df-8b2b-c35ba9befe8b: taxonomy_term
+    19ba0198-7278-4d39-b590-ff07a9ffe8c6: taxonomy_term
+    9ccee2b5-b1bd-4831-bbf3-09383d0be2d1: taxonomy_term
+    fc6ef891-6ddc-411b-8137-7a6abd05252a: taxonomy_term
+    4694fff6-aab0-4cf4-8ab5-b90626a59d86: taxonomy_term
+    f77d3c79-8c10-46fe-81de-527461a519ac: taxonomy_term
+    3267aac2-2fc1-4915-b744-fbd71be6a53c: taxonomy_term
+    f7b6659d-5dfe-4088-bc2e-396005386225: taxonomy_term
+    b6a4efa1-aa6e-4a83-aec2-ed7194eb6ceb: taxonomy_term
+    ff62b16d-fbf7-4990-a6ad-702d3dc82597: taxonomy_term
+    d3f3165f-cada-4743-bcc8-868e0e419c8d: taxonomy_term
+    13724ce7-447e-4f76-a9c5-9ba2baf60235: taxonomy_term
+    19a9c765-2d44-43fc-bf4f-6756709c99c5: taxonomy_term
+    2b6fefb4-c85d-4dc2-9e6f-51daaad38483: taxonomy_term
+    9f38e327-4ab4-4be4-8fc0-f4960f916ed5: taxonomy_term
+    6265bb23-95ff-4f41-83f0-a60cb9bed128: taxonomy_term
+    261fdeab-3e02-4188-a0c0-f59d172121a3: taxonomy_term
+    98df2f12-80c1-4578-bfe8-f5e2e187f64e: taxonomy_term
+    d764528c-d74b-4344-a75b-b8d1d6f6e721: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1129683 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Galaktika folyóirat, March 1987'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/galaktika-folyoirat/galaktika-folyoirat-march-1987
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 2d8cc63a-c949-4a9d-bfb7-0d8bf9579938
+    -
+      entity: 1a769d87-0bc1-4c92-8ea8-4eaf6448a480
+  field_cover:
+    -
+      entity: f2835f32-2062-4fd0-a8d0-a2c60c00b52c
+  field_cover_artist:
+    -
+      entity: 8dd6fd13-303b-48df-8b2b-c35ba9befe8b
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1129683 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'March 1987'
+  field_editor:
+    -
+      entity: 19ba0198-7278-4d39-b590-ff07a9ffe8c6
+  field_isfdb_id:
+    -
+      value: '1129683'
+  field_language:
+    -
+      entity: 9ccee2b5-b1bd-4831-bbf3-09383d0be2d1
+  field_magazine:
+    -
+      entity: fc6ef891-6ddc-411b-8137-7a6abd05252a
+  field_other_contributors:
+    -
+      entity: 4694fff6-aab0-4cf4-8ab5-b90626a59d86
+    -
+      entity: f77d3c79-8c10-46fe-81de-527461a519ac
+    -
+      entity: 3267aac2-2fc1-4915-b744-fbd71be6a53c
+    -
+      entity: f7b6659d-5dfe-4088-bc2e-396005386225
+    -
+      entity: b6a4efa1-aa6e-4a83-aec2-ed7194eb6ceb
+    -
+      entity: ff62b16d-fbf7-4990-a6ad-702d3dc82597
+    -
+      entity: d3f3165f-cada-4743-bcc8-868e0e419c8d
+    -
+      entity: 13724ce7-447e-4f76-a9c5-9ba2baf60235
+    -
+      entity: 19a9c765-2d44-43fc-bf4f-6756709c99c5
+    -
+      entity: 2b6fefb4-c85d-4dc2-9e6f-51daaad38483
+    -
+      entity: 9f38e327-4ab4-4be4-8fc0-f4960f916ed5
+    -
+      entity: 6265bb23-95ff-4f41-83f0-a60cb9bed128
+    -
+      entity: 261fdeab-3e02-4188-a0c0-f59d172121a3
+    -
+      entity: 98df2f12-80c1-4578-bfe8-f5e2e187f64e
+    -
+      entity: d764528c-d74b-4344-a75b-b8d1d6f6e721
+  field_pages:
+    -
+      value: 96
+  field_price:
+    -
+      value: 'Ft 28'
+  field_published_as:
+    -
+      value: Doki
+    -
+      value: 'Általános szektor (part 1 of 2)'
+  field_sort_date:
+    -
+      value: '1987-03-01'
+  field_year:
+    -
+      value: 1987

@@ -1,0 +1,59 @@
+{#
+/**
+ * @file
+ * An edition's page, laid out like a book's: the book-header component
+ * (cover, summary line, what it's an edition of, details, notes), the
+ * navigation among the book's editions, anything else, then References.
+ *
+ * edition_summary and edition_relation come from NodeHooks::preprocessNode().
+ */
+#}
+{{ attach_library('sectorgeneral_theme/book') }}
+{%
+  set header_fields = [
+    'field_cover', 'field_novel', 'field_in_anthology', 'field_language',
+    'field_format', 'field_publisher', 'field_date_display', 'body',
+  ]
+%}
+{%
+  set detail_fields = [
+    'field_publisher_series', 'field_publisher_series_number',
+    'field_publisher_reference', 'field_isbn', 'field_pages', 'field_price',
+    'field_printing', 'field_cover_artist', 'field_interior_artist',
+    'field_translator', 'field_introduction_by', 'field_narrator',
+    'field_buy_links', 'field_verified',
+  ]
+%}
+{% set reference_fields = ['field_data_sources'] %}
+{% set details = [] %}
+{% for name in detail_fields %}
+  {# "Verified against a physical copy" only says something when ticked. #}
+  {% if name != 'field_verified' or node.field_verified.value %}
+    {% set details = details|merge([content[name]]) %}
+  {% endif %}
+{% endfor %}
+<article{{ attributes.addClass('book-page', 'edition-page') }}>
+  {{ title_prefix }}
+  {{ title_suffix }}
+
+  {{ include('sectorgeneral_theme:book-header', {
+    summary: edition_summary|default([]),
+    cover: content.field_cover,
+    relation: edition_relation,
+    details: details,
+    synopsis: content.body,
+  }, with_context = false) }}
+
+  {{ content.edition_nav }}
+
+  <div class="book-page__sections">
+    {{ content|without(header_fields, detail_fields, reference_fields, 'edition_nav', 'links') }}
+  </div>
+
+  {% if content.field_data_sources|render|striptags|trim %}
+    <section class="book-references">
+      <h2>{{ 'References'|t }}</h2>
+      {{ content.field_data_sources }}
+    </section>
+  {% endif %}
+</article>

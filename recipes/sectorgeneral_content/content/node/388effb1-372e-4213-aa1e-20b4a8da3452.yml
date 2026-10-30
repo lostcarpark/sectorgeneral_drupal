@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 388effb1-372e-4213-aa1e-20b4a8da3452
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?57727 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Christmas Treason'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/christmas-treason
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Enter some tomorrow-people children from all over the 1960s cold War world. Four boys: Richard, Liam (from a &quot;fishing village on the North Irish coast&quot; -- probably Portstewart), Greg/Gregor Ivanovitch Krejinski, and buster. Two girls: Mub and Loo. The Splendid Six form a gestaltic unit much like the one described in Theodore Sturgeon&#039;s More Than Human (1953). Using their combined powers to look for Santa Claus (who lives &quot;somewhere at the North Pole in a secret cavern under the ice&quot;) they end up by averting World War Three -- permanently. And there&#039;s more . . .</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?57727 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1962
+  field_isfdb_id:
+    -
+      value: '57727'
+  field_opening_excerpt:
+    -
+      value: '<p>Richard sat on the woolly rug beside his brother&#039;s cot and watched the gang arrive one by one.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>MAGAZINE OF FANTASY &amp; SCIENCE FICTION, January 1962 MAGAZINE of FANTASY &amp; SF, British Edition, January 1964 8th ANNUAL YEAR’S BEST SF, Ed Judith Merrill, Simon &amp; Schuster, 1963 8th ANNUAL YEAR’S BEST SF, pb, Dell, New York, December 1964 BEST OF SCI-FI 4, Mayflower-Dell pb ed, 5/-, August 1965 SPACE *1, Ed Richard Davis, Abalard-Schuman, September 1973 TO FOLLOW A STAR, Ed Terry Carr, Thomas Nelson Inc, $6.95, 1978-79 SANTA 2000, Ed Michael Parry, Dragon, December 1984 CHRISTMAS ON GANYMEDE, Ed Martin Greenberg, Avon, December 1990 ISAAC ASIMOV PRESENTS THE GREAT SF STORIES No 24, Ed Isaac Asimov &amp; Martin Greenberg, DAW, January 1992 The White Papers </p>
+        <p>Foreign Publication: YEAR’S BEST S-F Japanese edition, Tokyo Sogensha Co Ltd, early 1977 DEN FANTASTIKS JULIEN, Ed John-Henry Holmberg, Timbro, Sweden, 1985 as Undersokningen IKARRE magazine, Czechoslovakia, 28/1/93</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 9000

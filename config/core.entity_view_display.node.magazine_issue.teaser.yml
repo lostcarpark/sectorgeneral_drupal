@@ -1,0 +1,75 @@
+uuid: c386d503-09b3-40a8-8193-06b9f40e72d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.magazine_issue.body
+    - field.field.node.magazine_issue.field_contents
+    - field.field.node.magazine_issue.field_cover
+    - field.field.node.magazine_issue.field_cover_artist
+    - field.field.node.magazine_issue.field_data_sources
+    - field.field.node.magazine_issue.field_date_display
+    - field.field.node.magazine_issue.field_editor
+    - field.field.node.magazine_issue.field_interior_artist
+    - field.field.node.magazine_issue.field_isfdb_id
+    - field.field.node.magazine_issue.field_issue_number
+    - field.field.node.magazine_issue.field_language
+    - field.field.node.magazine_issue.field_magazine
+    - field.field.node.magazine_issue.field_other_contributors
+    - field.field.node.magazine_issue.field_pages
+    - field.field.node.magazine_issue.field_price
+    - field.field.node.magazine_issue.field_published_as
+    - field.field.node.magazine_issue.field_regional_edition
+    - field.field.node.magazine_issue.field_sort_date
+    - field.field.node.magazine_issue.field_year
+    - node.type.magazine_issue
+  module:
+    - user
+id: node.magazine_issue.teaser
+targetEntityType: node
+bundle: magazine_issue
+mode: teaser
+content:
+  field_cover:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: cover_small
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_date_display:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+      link_rel: canonical
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_contents: true
+  field_cover_artist: true
+  field_data_sources: true
+  field_editor: true
+  field_interior_artist: true
+  field_isfdb_id: true
+  field_issue_number: true
+  field_language: true
+  field_magazine: true
+  field_other_contributors: true
+  field_pages: true
+  field_price: true
+  field_published_as: true
+  field_regional_edition: true
+  field_sort_date: true
+  field_year: true
+  serial_parts: true

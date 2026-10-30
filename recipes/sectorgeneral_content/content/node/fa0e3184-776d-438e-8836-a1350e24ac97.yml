@@ -1,0 +1,112 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fa0e3184-776d-438e-8836-a1350e24ac97
+  bundle: edition
+  default_langcode: en
+  depends:
+    71229f8a-f5ff-4a13-8cfe-1c4ea2e7a90a: media
+    63dd32b6-3f42-4006-b938-7516f8bb702c: taxonomy_term
+    af9ac495-504b-46d0-a128-b7f11172a739: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    faec9164-3eb1-4408-8e68-372285338816: node
+    3b909b15-13a9-4c7d-a459-89c332b5236c: taxonomy_term
+    590c12c5-5a6d-4044-b4b1-135c1394b922: taxonomy_term
+    5b7e1140-6ea5-4060-9aad-d89222c43665: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/950660086'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Chef du Cuisine, Heyne Verlag, 1997'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/galactic-gourmet/chef-du-cuisine-heyne-verlag-1997
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 71229f8a-f5ff-4a13-8cfe-1c4ea2e7a90a
+  field_cover_artist:
+    -
+      entity: 63dd32b6-3f42-4006-b938-7516f8bb702c
+    -
+      entity: af9ac495-504b-46d0-a128-b7f11172a739
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Wilhelm Heyne, Munchen, No 0604982, ISBN 3-453-12636-X, sometime 1997 as Chef du Cuisine”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1113046 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL39219652M (CC0).
+        Deutsche Nationalbibliothek record https://d-nb.info/950660086 (CC0).
+  field_date_display:
+    -
+      value: '1997'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9783453126367'
+  field_isfdb_id:
+    -
+      value: '1113046'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: faec9164-3eb1-4408-8e68-372285338816
+  field_openlibrary_id:
+    -
+      value: OL39219652M
+  field_pages:
+    -
+      value: 379
+  field_price:
+    -
+      value: 'DM 12.90'
+  field_printing:
+    -
+      value: 'Dt. Erstausg.'
+  field_publisher:
+    -
+      entity: 3b909b15-13a9-4c7d-a459-89c332b5236c
+  field_publisher_reference:
+    -
+      value: '0604982'
+  field_publisher_series:
+    -
+      entity: 590c12c5-5a6d-4044-b4b1-135c1394b922
+  field_publisher_series_number:
+    -
+      value: '4982'
+  field_sort_date:
+    -
+      value: '1997-01-01'
+  field_translator:
+    -
+      entity: 5b7e1140-6ea5-4060-9aad-d89222c43665
+  field_year:
+    -
+      value: 1997

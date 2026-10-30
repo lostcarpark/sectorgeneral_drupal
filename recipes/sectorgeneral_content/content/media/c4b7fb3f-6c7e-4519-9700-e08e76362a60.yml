@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c4b7fb3f-6c7e-4519-9700-e08e76362a60
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    7c1274da-62d7-450b-8be7-140fd88bd13f: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Escape Orbit, Ace, 1964 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: d31152c7a44bdf4159ec56c4acffb48977553271
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Open Prison cover'
+      title: ''
+      width: 100
+      height: 155
+      entity: 7c1274da-62d7-450b-8be7-140fd88bd13f

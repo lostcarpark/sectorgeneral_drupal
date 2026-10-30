@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f85c51b4-63d8-43d5-97a1-ff0558f094cb
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: alljudgementfledballantine.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/alljudgementfledballantine.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3495
+  status:
+    -
+      value: true

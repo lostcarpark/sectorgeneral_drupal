@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 52e69bc3-5ad8-4d0f-9b97-74f378bc2fe2
+  bundle: edition
+  default_langcode: en
+  depends:
+    b25addf4-baf2-414a-afa5-bf1a2ddff058: media
+    1275b65b-0544-4918-a6f8-3476ee99a45a: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930: node
+    06aa2580-8e68-4b72-9a00-f5d252de9de3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL15125858M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Major Operation, Orbit, 1987'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/major-operation/major-operation-orbit-1987
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: b25addf4-baf2-414a-afa5-bf1a2ddff058
+  field_cover_artist:
+    -
+      entity: 1275b65b-0544-4918-a6f8-3476ee99a45a
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?187061 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL15125858M (CC0).
+  field_date_display:
+    -
+      value: 'February 1987'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780708881859'
+  field_isfdb_id:
+    -
+      value: '187061'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930
+  field_oclc:
+    -
+      value: '16095035'
+  field_openlibrary_id:
+    -
+      value: OL15125858M
+  field_pages:
+    -
+      value: 183
+  field_price:
+    -
+      value: £1.95
+  field_publisher:
+    -
+      entity: 06aa2580-8e68-4b72-9a00-f5d252de9de3
+  field_sort_date:
+    -
+      value: '1987-02-01'
+  field_year:
+    -
+      value: 1987

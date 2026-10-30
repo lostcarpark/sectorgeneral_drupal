@@ -1,0 +1,90 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7dba4fce-58ed-48bb-830b-7609fe63975b
+  bundle: novel
+  default_langcode: en
+  depends:
+    5786eb34-83c5-4eae-8125-0c0949615759: node
+    9b1202e7-a80e-4c92-b146-d00078b4d127: node
+    b5ce4bb3-1a94-4a0f-a190-ef8a3cd3b833: node
+    242ab4d4-d289-4280-8ab6-324f95a0ab66: node
+    4d139053-8f19-418c-a119-a1173e437ff9: node
+    9441a0ae-4580-4218-a3a1-9938fd3cada4: node
+    d4cd1539-557c-47d8-8cb1-eec206258260: node
+    39112b05-72b6-40b0-9ca4-7d383346b2e7: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 191, similarity 0.94).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Aliens Among Us'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/aliens-among-us
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>&quot;...most of James White&#039;s writing has been concerned with the reconciliation of human to alien, and of human with human. The theme may be common to many writers. But White&#039;s stories of medicine as it may be practiced several hundred years in the future are uniquely imaginative, demonstrating again and again the fertility of his ideas and the humanity -- or should one say, the alienity -- of his approach?&quot; (blurb).</p>
+        <p>Contents: &#039;Countercharm&#039;; &#039;To Kill or Cure&#039;; &#039;Red Alert&#039;; &#039;Tableau&#039;; &#039;The Conspirators&#039;; &#039;The Scavengers&#039;; &#039;Occupation: Warrior&#039; (see under Short Stories).</p>
+      format: basic_html
+      summary: 'This is a selection of seven short stories including ones set on Sector General.'
+  field_book_type:
+    -
+      value: collection
+  field_contents:
+    -
+      entity: 5786eb34-83c5-4eae-8125-0c0949615759
+    -
+      entity: 9b1202e7-a80e-4c92-b146-d00078b4d127
+    -
+      entity: b5ce4bb3-1a94-4a0f-a190-ef8a3cd3b833
+    -
+      entity: 242ab4d4-d289-4280-8ab6-324f95a0ab66
+    -
+      entity: 4d139053-8f19-418c-a119-a1173e437ff9
+    -
+      entity: 9441a0ae-4580-4218-a3a1-9938fd3cada4
+    -
+      entity: d4cd1539-557c-47d8-8cb1-eec206258260
+  field_cover:
+    -
+      entity: 39112b05-72b6-40b0-9ca4-7d383346b2e7
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?25208 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1969
+  field_isfdb_id:
+    -
+      value: '25208'
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 85000

@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c26a73f8-f3c0-48c0-8184-b0bca256c242
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    19dd37a0-c065-4f5b-9d5c-ccd50c7d0c56: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Worlds 90, January 1960 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: fde9c45369fdf3be0b0b473a199a8a12a4655ffd
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/a/ad/NEWWRJAN1960.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'New Worlds 90, January 1960 cover'
+      title: ''
+      width: 631
+      height: 927
+      entity: 19dd37a0-c065-4f5b-9d5c-ccd50c7d0c56
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?154111'
+      title: null
+      options: {  }

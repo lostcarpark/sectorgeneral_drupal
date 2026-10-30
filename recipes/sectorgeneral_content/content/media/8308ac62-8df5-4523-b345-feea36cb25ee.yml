@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 8308ac62-8df5-4523-b345-feea36cb25ee
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    a58e1dd7-a740-47fb-a894-731196e5cac7: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Großoperation, Heyne, 1993 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 8dd6a2284af060294ad019cf0302b25fd719bab5
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://m.media-amazon.com/images/I/51s-Vdan5fL.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Großoperation, Heyne, 1993 cover'
+      title: ''
+      width: 316
+      height: 500
+      entity: a58e1dd7-a740-47fb-a894-731196e5cac7
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?1113040'
+      title: null
+      options: {  }

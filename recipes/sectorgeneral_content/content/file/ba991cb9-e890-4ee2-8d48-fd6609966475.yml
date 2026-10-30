@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ba991cb9-e890-4ee2-8d48-fd6609966475
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newwrfeb1956.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/newwrfeb1956.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 129173
+  status:
+    -
+      value: true

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 43d62bb5-993b-4b9f-8431-46d120c5d584
+  bundle: redirect
+  default_langcode: und
+  depends:
+    8bdbbc29-9006-4e7e-be08-908c6ec36789: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 0N_GbHflNRaBnKNewMo6OR0j6ukktobKWN--R5NzTE0
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/alienemergencies.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 8bdbbc29-9006-4e7e-be08-908c6ec36789
+  status_code:
+    -
+      value: 301

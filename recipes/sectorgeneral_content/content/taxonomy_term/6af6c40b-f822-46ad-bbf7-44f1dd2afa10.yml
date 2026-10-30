@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 6af6c40b-f822-46ad-bbf7-44f1dd2afa10
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Barrington J. Bayley'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/barrington-j-bayley
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

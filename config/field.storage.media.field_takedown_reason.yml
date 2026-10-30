@@ -1,0 +1,19 @@
+uuid: 177b79f3-d165-4e88-a3dd-e167559a469b
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.field_takedown_reason
+field_name: field_takedown_reason
+entity_type: media
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

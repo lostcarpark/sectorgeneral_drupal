@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e0cfc943-0117-4412-b94f-d91c397aea52
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: watchbelowballantine78.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/watchbelowballantine78.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3857
+  status:
+    -
+      value: true

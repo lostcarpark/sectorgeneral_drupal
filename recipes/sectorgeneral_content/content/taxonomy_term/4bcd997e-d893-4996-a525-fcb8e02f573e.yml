@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 4bcd997e-d893-4996-a525-fcb8e02f573e
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Daniele Brolli'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/daniele-brolli
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

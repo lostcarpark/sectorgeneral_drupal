@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cdf14b14-2fce-4cae-af18-f4d1e70f36d6
+  bundle: edition
+  default_langcode: en
+  depends:
+    f223d848-5791-4e24-aa00-f011fd2f0ede: taxonomy_term
+    2d0a3410-a4d5-43b2-aca8-9f79b0370788: node
+    67c78078-4ce5-4d3b-a74f-8ddaac0b8d89: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Imported from the original James White Information site.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Code Blue—Emergency, AST, 1997'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/code-blue-emergency/code-blue-emergency-ast-1997
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'James White Information (original site): “AST Publishers, Moscow, ISBN 5-7841-0666-X, 1997, as (appromimat Cryllic spelling) Mek3be3ahar Hedtnokka.”'
+  field_date_display:
+    -
+      value: '1997'
+  field_isbn:
+    -
+      value: '9785784106667'
+  field_language:
+    -
+      entity: f223d848-5791-4e24-aa00-f011fd2f0ede
+  field_novel:
+    -
+      entity: 2d0a3410-a4d5-43b2-aca8-9f79b0370788
+  field_publisher:
+    -
+      entity: 67c78078-4ce5-4d3b-a74f-8ddaac0b8d89
+  field_sort_date:
+    -
+      value: '1997-01-01'
+  field_year:
+    -
+      value: 1997

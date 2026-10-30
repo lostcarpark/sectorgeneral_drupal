@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c4ed7f98-1540-41c9-a0fd-f812b3b947a5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: new-sf-21.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/new-sf-21.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3473
+  status:
+    -
+      value: true

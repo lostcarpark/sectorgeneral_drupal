@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8847de78-d546-4a6a-a812-4c72294eed0c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: analog-dec-88.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/analog-dec-88.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3579
+  status:
+    -
+      value: true

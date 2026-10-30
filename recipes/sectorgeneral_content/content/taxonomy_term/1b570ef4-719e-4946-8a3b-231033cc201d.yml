@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 1b570ef4-719e-4946-8a3b-231033cc201d
+  bundle: magazine
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Galassia
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/galassia
+      langcode: en
+      pathauto: 1

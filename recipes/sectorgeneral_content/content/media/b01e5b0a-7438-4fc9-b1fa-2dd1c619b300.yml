@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b01e5b0a-7438-4fc9-b1fa-2dd1c619b300
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    d2187157-a04a-45c1-9749-76bb5fea5df1: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Best of British SF 2 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 1ce0125d396e9f0d4b43797135e65f22a79e5132
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Best of British SF 2 cover'
+      title: ''
+      width: 100
+      height: 165
+      entity: d2187157-a04a-45c1-9749-76bb5fea5df1

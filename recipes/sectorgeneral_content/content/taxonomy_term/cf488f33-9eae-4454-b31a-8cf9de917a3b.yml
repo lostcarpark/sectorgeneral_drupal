@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: cf488f33-9eae-4454-b31a-8cf9de917a3b
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'H. F. Heard'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/h-f-heard
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

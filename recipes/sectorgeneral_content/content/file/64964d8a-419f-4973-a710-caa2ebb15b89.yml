@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 64964d8a-419f-4973-a710-caa2ebb15b89
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: anlgoct75.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/anlgoct75.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 44289
+  status:
+    -
+      value: true

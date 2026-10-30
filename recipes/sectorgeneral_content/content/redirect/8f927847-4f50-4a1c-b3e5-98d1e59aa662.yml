@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 8f927847-4f50-4a1c-b3e5-98d1e59aa662
+  bundle: redirect
+  default_langcode: und
+  depends:
+    5c56b6fd-1949-4b63-869a-3895c68f26ef: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: V7t-zpmbU1wRajtzuxuomrvl28ELlbeeHHGg7_Ibi80
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: books/all-judgement-fled/all-judgment-fled-old-earth-books-1997
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 5c56b6fd-1949-4b63-869a-3895c68f26ef
+  status_code:
+    -
+      value: 301

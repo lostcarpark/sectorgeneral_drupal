@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4d805843-a5a3-429d-9e53-cf9d473535c2
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    7595d01b-0e51-44ad-8801-a8614223be22: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Magazine of Fantasy & Science Fiction, April 1963 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 6c4646c55672c1f303390b57937e6883a2fbc397
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Magazine of Fantasy & Science Fiction, April 1963 cover'
+      title: ''
+      width: 134
+      height: 200
+      entity: 7595d01b-0e51-44ad-8801-a8614223be22

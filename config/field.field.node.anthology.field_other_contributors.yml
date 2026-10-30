@@ -1,0 +1,26 @@
+uuid: 2b7dd80b-f55f-4381-8315-533a455e29ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_other_contributors
+    - node.type.anthology
+    - taxonomy.vocabulary.people
+id: node.anthology.field_other_contributors
+field_name: field_other_contributors
+entity_type: node
+bundle: anthology
+label: 'Other contributors'
+description: 'Other authors with stories in this volume. Separate several names with commas.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      people: people
+    auto_create: true
+    auto_create_bundle: people
+field_type: entity_reference

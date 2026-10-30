@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: e7eac997-8a4e-4c92-b46e-3af995894ea8
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    4f80cfe9-a129-4a1d-b4f8-95d92b835485: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Genocidal Healer, Del Rey, 1992 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 05263cdee8d0cf13a43f2fd9ad2e79dd09b3c300
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/0/08/BKTG19803.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'The Genocidal Healer, Del Rey, 1992 cover'
+      title: ''
+      width: 499
+      height: 823
+      entity: 4f80cfe9-a129-4a1d-b4f8-95d92b835485
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?40477'
+      title: null
+      options: {  }

@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b5ce4bb3-1a94-4a0f-a190-ef8a3cd3b833
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?93289 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Red Alert'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/red-alert
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>White doesn&#039;t just undercut readership expectations in &#039;Red Alert&#039;; he leaves them for dead long before the last page. Everra di Crennorlin-Su is the Governor of three inhabited solar systems and temporarily Commander of a 3,127-strong task force headed Earthwards. Character sketch: &quot;His particular form of insanity wasn&#039;t rare. It was called ambition.&quot; &#039;Tis a grievous fault -- or is it? What begins like a revamped &#039;Pushover Planet&#039; (see above) ends up as something completely different. And the allusion to Monty Python won&#039;t help you, a &#039;tall, a &#039;tall.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?93289 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1956
+  field_isfdb_id:
+    -
+      value: '93289'
+  field_opening_excerpt:
+    -
+      value: '<p>For several minutes after the main fleet emerged into normal spacetime somewhere within the orbit of Pluto, the flagship drove through the grey unreality that was hyperspace.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>NEW WORLDS No 43, January 1956 </p>
+        <p>Publication History: The Aliens Among Us</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 13000

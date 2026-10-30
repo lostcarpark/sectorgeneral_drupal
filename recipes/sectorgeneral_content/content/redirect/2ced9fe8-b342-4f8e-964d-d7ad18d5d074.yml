@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 2ced9fe8-b342-4f8e-964d-d7ad18d5d074
+  bundle: redirect
+  default_langcode: und
+  depends:
+    65512e85-02f7-4784-bf2c-772ddb0c1ab3: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: FbRcc8Pffx1ErbXt8B-t_57aojn0kW78qKfaJvRHlWA
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: books/code-blue-emergency/code-blue-emergency-del-rey-ballantine-1987
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 65512e85-02f7-4784-bf2c-772ddb0c1ab3
+  status_code:
+    -
+      value: 301

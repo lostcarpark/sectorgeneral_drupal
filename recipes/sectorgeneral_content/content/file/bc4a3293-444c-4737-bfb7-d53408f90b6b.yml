@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bc4a3293-444c-4737-bfb7-d53408f90b6b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: deadly-litter-corgi_tn.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/deadly-litter-corgi_tn.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 13746
+  status:
+    -
+      value: true

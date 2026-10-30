@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: bec29265-647d-494a-be01-73b57d2d6a3e
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    5e54fdcd-1db8-4fef-84ee-b086a87ffda1: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Urania (collana) 840, 15 June 1980 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 86c1b086c4883385df3b92e12ebde5ad0f5674e0
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'http://www.mondourania.com/urania/u821-840/u840.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Urania (collana) 840, 15 June 1980 cover'
+      title: ''
+      width: 433
+      height: 626
+      entity: 5e54fdcd-1db8-4fef-84ee-b086a87ffda1
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?383227'
+      title: null
+      options: {  }

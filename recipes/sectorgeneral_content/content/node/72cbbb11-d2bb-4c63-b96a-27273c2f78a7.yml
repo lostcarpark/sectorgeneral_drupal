@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 72cbbb11-d2bb-4c63-b96a-27273c2f78a7
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?73293 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Suicide Mission'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/suicide-mission
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>&quot;This story will undoubtedly revive the old controversies about a man going into his past and killing his grandfather -- in this case the murderer doesn&#039;t know his victim at all not just why he is going to kill him. &quot;Only that he must -- if he can.&quot; (Blurb of the Year, 1954). Maldon time-jumps twenty years into the past to murder his own grandfather, Henry Steenson, when he was a mere stripling. As for the motive, I won&#039;t spoil White&#039;s cunningly overcomplicated plot if I tell you that the Clue is in the Title.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?73293 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1954
+  field_isfdb_id:
+    -
+      value: '73293'
+  field_opening_excerpt:
+    -
+      value: '<p>The heat of the early afternoon sun lay like a hot compress on the back of Maldon&#039;s neck, and he felt as though his hair was burning.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WORLDS No. 27, September 1954</p>'
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 10500

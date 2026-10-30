@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 59131c85-5cf4-4d94-b986-9994819332ea
+  bundle: redirect
+  default_langcode: en
+  depends:
+    4122fa07-1b59-4cc7-902a-f856ed318e6f: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: IHt0VAzE7leUPvhTF02nAALh8lrvaIBAUIBWSO9h1bY
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/new-worlds/new-worlds-magazine-march-1964
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 4122fa07-1b59-4cc7-902a-f856ed318e6f
+  status_code:
+    -
+      value: 301

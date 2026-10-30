@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: f4605cf4-2354-4a28-942c-3e6adfc26a15
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    5a83408f-ca5b-4352-9012-b5b4a95db0a5: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The White Papers, NESFA Press, 1996 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 41f977b1a132bee703405a4be4fa741b85418e29
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The White Papers: NESFA, 1996'
+      title: ''
+      width: 100
+      height: 160
+      entity: 5a83408f-ca5b-4352-9012-b5b4a95db0a5

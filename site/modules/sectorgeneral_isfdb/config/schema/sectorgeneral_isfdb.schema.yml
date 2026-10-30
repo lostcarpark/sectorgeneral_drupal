@@ -1,0 +1,116 @@
+sectorgeneral_isfdb.settings:
+  type: config_object
+  label: 'ISFDB import settings'
+  mapping:
+    author_id:
+      type: integer
+      label: 'ISFDB author ID'
+    image_delay:
+      type: integer
+      label: 'Seconds between image downloads'
+    openlibrary_base:
+      type: uri
+      label: 'Open Library address'
+    openlibrary_covers_base:
+      type: uri
+      label: 'Open Library covers address'
+    openlibrary_delay:
+      type: integer
+      label: 'Seconds between Open Library requests'
+    bn_base:
+      type: uri
+      label: 'Polish National Library open data address'
+    bn_author:
+      type: string
+      label: 'Author as the Polish National Library names him'
+    bn_delay:
+      type: integer
+      label: 'Seconds between Polish National Library requests'
+    z3950:
+      type: sequence
+      label: 'Z39.50 library catalogues'
+      sequence:
+        type: mapping
+        mapping:
+          label:
+            type: string
+          licence:
+            type: string
+          language:
+            type: string
+          language_code:
+            type: string
+          target:
+            type: string
+          query:
+            type: string
+          author:
+            type: string
+          authority:
+            type: string
+          unidentified:
+            type: string
+          record_id:
+            type: string
+          record_id_pattern:
+            type: string
+          record_id_replace:
+            type: string
+          record_url:
+            type: string
+          translator_note:
+            type: string
+          cover_note:
+            type: string
+    sru:
+      type: sequence
+      label: 'SRU library catalogues'
+      sequence:
+        type: mapping
+        mapping:
+          label:
+            type: string
+          licence:
+            type: string
+          language:
+            type: string
+          language_code:
+            type: string
+          url:
+            type: string
+          record_schema:
+            type: string
+          delay:
+            type: string
+          parts_query:
+            type: string
+          query:
+            type: string
+          author:
+            type: string
+          authority:
+            type: string
+          unidentified:
+            type: string
+          record_id:
+            type: string
+          record_id_pattern:
+            type: string
+          record_id_replace:
+            type: string
+          record_url:
+            type: string
+          translator_note:
+            type: string
+          cover_note:
+            type: string
+    publisher_aliases:
+      type: sequence
+      label: 'Publisher aliases'
+      sequence:
+        type: string
+    magazine_aliases:
+      type: sequence
+      label: 'Magazine aliases'
+      sequence:
+        type: string

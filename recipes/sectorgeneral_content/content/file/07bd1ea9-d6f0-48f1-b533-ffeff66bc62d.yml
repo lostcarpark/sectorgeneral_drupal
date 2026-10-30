@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 07bd1ea9-d6f0-48f1-b533-ffeff66bc62d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: um7.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/um7.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 47186
+  status:
+    -
+      value: true

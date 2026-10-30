@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6b52fb30-33eb-4505-a111-981fc9cdf492
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hsptlsttnl1993.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/hsptlsttnl1993.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 44791
+  status:
+    -
+      value: true

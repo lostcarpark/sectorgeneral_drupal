@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 33dc9248-8951-4102-89aa-920d3b9a4709
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    dc0f05ee-6ecc-42de-ba5a-1a059b8e336c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'I Romanzi del Cosmo 6, November 1957 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 1decedcdf4b40c5e0f400a295e139b41e48e32cb
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/6/66/RMNZDLCSMX1957.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'I Romanzi del Cosmo 6, November 1957 cover'
+      title: ''
+      width: 336
+      height: 499
+      entity: dc0f05ee-6ecc-42de-ba5a-1a059b8e336c
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?298288'
+      title: null
+      options: {  }

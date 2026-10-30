@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 04dc943b-d75e-4926-a5da-6abccf7d85e5
+  bundle: edition
+  default_langcode: en
+  depends:
+    f0514e68-da23-42c1-99cb-e86cf04eaaf0: media
+    aa1ef365-9ab4-4cdf-a10a-5dc1457ad29e: taxonomy_term
+    64ffa415-ebad-4616-a0eb-e36e906fb642: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+    2489534c-0801-43c6-89f5-eb25fb1d11ea: taxonomy_term
+    64723a1d-c531-462c-a9c0-f98da7c3c25d: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?508925'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Die Außerirdischen, Moewig, 1967'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/secret-visitors/die-ausserirdischen-moewig-1967
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: f0514e68-da23-42c1-99cb-e86cf04eaaf0
+  field_cover_artist:
+    -
+      entity: aa1ef365-9ab4-4cdf-a10a-5dc1457ad29e
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Terra Extra No 149, 80phg, August 1967 as Die Auberidischen”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?508925 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'August 1967'
+  field_format:
+    -
+      entity: 64ffa415-ebad-4616-a0eb-e36e906fb642
+  field_isfdb_id:
+    -
+      value: '508925'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: fec32d28-7455-4a8a-a448-67c3af694c28
+  field_oclc:
+    -
+      value: '73892443'
+  field_pages:
+    -
+      value: 65
+  field_price:
+    -
+      value: 80phg
+  field_publisher:
+    -
+      entity: 2489534c-0801-43c6-89f5-eb25fb1d11ea
+  field_publisher_reference:
+    -
+      value: '149'
+  field_publisher_series:
+    -
+      entity: 64723a1d-c531-462c-a9c0-f98da7c3c25d
+  field_publisher_series_number:
+    -
+      value: '149'
+  field_sort_date:
+    -
+      value: '1967-08-01'
+  field_year:
+    -
+      value: 1967

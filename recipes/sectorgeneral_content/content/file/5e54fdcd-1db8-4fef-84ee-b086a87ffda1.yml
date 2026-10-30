@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5e54fdcd-1db8-4fef-84ee-b086a87ffda1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: u840.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/u840.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 62854
+  status:
+    -
+      value: true

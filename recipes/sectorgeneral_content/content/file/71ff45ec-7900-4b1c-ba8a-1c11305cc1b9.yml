@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 71ff45ec-7900-4b1c-ba8a-1c11305cc1b9
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bgnnngop2001.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/bgnnngop2001.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 103257
+  status:
+    -
+      value: true

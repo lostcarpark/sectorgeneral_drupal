@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 385a0f77-ddce-4ff9-b06a-2ba73b7f40e3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dszwtlbnhl1979.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/dszwtlbnhl1979.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 31536
+  status:
+    -
+      value: true

@@ -1,0 +1,72 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c7849e79-cd00-4a89-99ce-ed1295ce3b3c
+  bundle: edition
+  default_langcode: en
+  depends:
+    169726ab-336a-413f-ae58-c69838bbb4c0: media
+    26861d89-acc4-4ce5-8b18-0a60f715424e: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    c5e2926c-ee16-438e-8306-9cd2c5fb9057: taxonomy_term
+    00e9ece5-448b-4485-b272-c1c76d263cdf: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Imported from the original James White Information site.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Rymdsjukhuset, Laissez Faire Produktions, 1975'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/rymdsjukhuset-laissez-faire-produktions-1975
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 169726ab-336a-413f-ae58-c69838bbb4c0
+  field_data_sources:
+    -
+      value: 'James White Information (original site): “Nova Rocket 21, Laissez Faire Produktions AB, Stockholm, ISBN 9-7648-0025-9, 1975 as Rymd Sjukhusset”'
+  field_date_display:
+    -
+      value: '1975'
+  field_language:
+    -
+      entity: 26861d89-acc4-4ce5-8b18-0a60f715424e
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_publisher:
+    -
+      entity: c5e2926c-ee16-438e-8306-9cd2c5fb9057
+  field_publisher_series:
+    -
+      entity: 00e9ece5-448b-4485-b272-c1c76d263cdf
+  field_sort_date:
+    -
+      value: '1975-01-01'
+  field_verified:
+    -
+      value: false
+  field_year:
+    -
+      value: 1975

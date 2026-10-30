@@ -1,0 +1,128 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 532c26eb-7c4d-455a-a151-37f15c968bed
+  bundle: anthology
+  default_langcode: en
+  depends:
+    9b1202e7-a80e-4c92-b146-d00078b4d127: node
+    c3bc2e4d-d809-48ac-8e1f-549c499a1198: media
+    06b8ff1b-0338-4111-ac34-ba5803cb58df: taxonomy_term
+    04a391e5-7c2e-4cba-9a92-6da1dfda3816: taxonomy_term
+    b84cc683-9755-422b-b08f-5604254cc42a: taxonomy_term
+    88c08d3c-c509-4494-aa67-72bdb20059f4: taxonomy_term
+    7e9ac5a9-8c59-4bc2-a441-90e4650aef5f: taxonomy_term
+    a4b3aa75-e228-4329-9093-dcc33db1eff7: taxonomy_term
+    87c9d28a-c51e-46fc-b04b-0af0be3bced4: taxonomy_term
+    ce5767f5-54a9-443d-a25e-d14d6b9bade9: taxonomy_term
+    83e69805-ed8f-4ca9-ba5d-6830d9d55837: taxonomy_term
+    a1f1e101-6495-4dd7-9490-ed94ccfaf6f1: taxonomy_term
+    108e6ceb-85e5-4941-ba93-3ad3f9cc119f: taxonomy_term
+    5216692a-b1e0-469f-a04b-f0ae5080a38f: taxonomy_term
+    bf273237-fc28-4e7f-b2a0-159ba77d5200: taxonomy_term
+    eef42308-11d1-4737-b557-a931ef0fa6a1: taxonomy_term
+    8fa2c13e-da78-4d8e-9a6f-189384084cff: taxonomy_term
+    0de7ac91-0b27-47b8-9306-6772365f540d: taxonomy_term
+    b13de16a-2084-4561-9a79-3c4e581951fb: taxonomy_term
+    c8c1043f-f968-46b6-b473-5a4546dbb0be: taxonomy_term
+    404fa470-8b38-45cd-a654-65db22621bb4: taxonomy_term
+    1f5603d5-aaec-4fd9-93c8-e688a891dad4: taxonomy_term
+    6882bc2d-b298-428e-b366-31c78bf1446f: taxonomy_term
+    bf8960d2-0d11-4a0f-857f-53ea1dda1496: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?538513'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'An Anthropomorphic Century: Stories from 1909 to 2008'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/anthropomorphic-century-stories-1909-2008
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>FurPlanet Productions, 24 September 2015, Trade Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 9b1202e7-a80e-4c92-b146-d00078b4d127
+  field_cover:
+    -
+      entity: c3bc2e4d-d809-48ac-8e1f-549c499a1198
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1911813 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 06b8ff1b-0338-4111-ac34-ba5803cb58df
+  field_first_published_year:
+    -
+      value: 2015
+  field_isfdb_id:
+    -
+      value: '1911813'
+  field_other_contributors:
+    -
+      entity: 04a391e5-7c2e-4cba-9a92-6da1dfda3816
+    -
+      entity: b84cc683-9755-422b-b08f-5604254cc42a
+    -
+      entity: 88c08d3c-c509-4494-aa67-72bdb20059f4
+    -
+      entity: 7e9ac5a9-8c59-4bc2-a441-90e4650aef5f
+    -
+      entity: a4b3aa75-e228-4329-9093-dcc33db1eff7
+    -
+      entity: 87c9d28a-c51e-46fc-b04b-0af0be3bced4
+    -
+      entity: ce5767f5-54a9-443d-a25e-d14d6b9bade9
+    -
+      entity: 83e69805-ed8f-4ca9-ba5d-6830d9d55837
+    -
+      entity: a1f1e101-6495-4dd7-9490-ed94ccfaf6f1
+    -
+      entity: 108e6ceb-85e5-4941-ba93-3ad3f9cc119f
+    -
+      entity: 5216692a-b1e0-469f-a04b-f0ae5080a38f
+    -
+      entity: bf273237-fc28-4e7f-b2a0-159ba77d5200
+    -
+      entity: eef42308-11d1-4737-b557-a931ef0fa6a1
+    -
+      entity: 8fa2c13e-da78-4d8e-9a6f-189384084cff
+    -
+      entity: 0de7ac91-0b27-47b8-9306-6772365f540d
+    -
+      entity: b13de16a-2084-4561-9a79-3c4e581951fb
+    -
+      entity: c8c1043f-f968-46b6-b473-5a4546dbb0be
+    -
+      entity: 404fa470-8b38-45cd-a654-65db22621bb4
+    -
+      entity: 1f5603d5-aaec-4fd9-93c8-e688a891dad4
+    -
+      entity: 6882bc2d-b298-428e-b366-31c78bf1446f
+  field_publisher:
+    -
+      entity: bf8960d2-0d11-4a0f-857f-53ea1dda1496

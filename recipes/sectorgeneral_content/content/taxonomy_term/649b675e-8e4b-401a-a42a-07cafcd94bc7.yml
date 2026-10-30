@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 649b675e-8e4b-401a-a42a-07cafcd94bc7
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Keith Roberts'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/keith-roberts
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

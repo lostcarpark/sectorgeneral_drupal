@@ -1,0 +1,15 @@
+uuid: 589adf4d-c750-4bf8-b721-b28c852bfe1d
+langcode: en
+status: true
+dependencies: {  }
+name: cover_medium
+label: 'Cover medium (400 wide)'
+effects:
+  d150f121-cedb-4122-853d-598972ff5286:
+    uuid: d150f121-cedb-4122-853d-598972ff5286
+    id: image_scale
+    weight: 0
+    data:
+      width: 400
+      height: null
+      upscale: false

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 5b720bb9-fbc9-4739-9832-4f3cf513da7b
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Chris Moore'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/chris-moore
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

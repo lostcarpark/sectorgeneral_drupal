@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: a28ea8a6-9e61-4cbf-9b8d-53de096482fb
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Jean-Claude Rault'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/jean-claude-rault
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

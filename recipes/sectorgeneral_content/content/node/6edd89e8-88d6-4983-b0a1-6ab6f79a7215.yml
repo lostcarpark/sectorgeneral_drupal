@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6edd89e8-88d6-4983-b0a1-6ab6f79a7215
+  bundle: novel
+  default_langcode: en
+  depends:
+    9c1b644b-173a-4081-b3ca-30a33eed1a5d: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4244 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Lifeboat
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/lifeboat
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>With the spaceliner Eurydice&#039;s nuclear reactor near explosion point and Captain Collingwood on the sick list, what started as a routine voyage to Ganymede suddenly goes wrong in almost every other possible way. Mercer, the new-boy Medical Officer, is responsible for herding anxious passengers into the dinky three-person plastic survival pods that lack proper controls and, without adequate insulation, soon become overheated. After quite some time in the space-travel game, it seems odd to me that nobody has designed a better &#039;lifeboat&#039; or found how to regulate the internal temperatures of these vital craft. Having said that, however, White never wrote a more vivid novel about people under extreme stress (not excepting The Watch Below).</p>'
+      format: basic_html
+      summary: 'A simple trip to Ganymede goes horribly wrong, and the story centres on the survivors in their lifeboat pods. Also published as Dark Inferno by Michael Joseph in 1972.'
+  field_alternative_titles:
+    -
+      value: 'Dark Inferno'
+    -
+      value: 'Dark Inferno (Part 1 of 2)'
+    -
+      value: 'Dark Inferno (Part 2 of 2)'
+    -
+      value: Lifeboat
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: 9c1b644b-173a-4081-b3ca-30a33eed1a5d
+  field_data_sources:
+    -
+      value: "James White Information (original site). Synopsis by Graham Andrews.\r\nISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4244 (CC BY 4.0)."
+  field_first_published_year:
+    -
+      value: 1972
+  field_isfdb_id:
+    -
+      value: '4244'
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 65000

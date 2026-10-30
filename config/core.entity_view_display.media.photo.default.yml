@@ -1,0 +1,70 @@
+uuid: 784cca37-5e58-468d-840d-12653b49a75e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.photo.field_caption
+    - field.field.media.photo.field_copyright_holder
+    - field.field.media.photo.field_credit_note
+    - field.field.media.photo.field_depicts
+    - field.field.media.photo.field_image_source
+    - field.field.media.photo.field_image_url
+    - field.field.media.photo.field_licence
+    - field.field.media.photo.field_media_image
+    - field.field.media.photo.field_permission
+    - field.field.media.photo.field_photo_date
+    - field.field.media.photo.field_photographer
+    - field.field.media.photo.field_rights_basis
+    - field.field.media.photo.field_source_url
+    - field.field.media.photo.field_takedown_date
+    - field.field.media.photo.field_takedown_reason
+    - image.style.large
+    - media.type.photo
+  module:
+    - image
+id: media.photo.default
+targetEntityType: media
+bundle: photo
+mode: default
+content:
+  field_caption:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_media_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: file
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  photo_credit:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  created: true
+  field_copyright_holder: true
+  field_credit_note: true
+  field_depicts: true
+  field_image_source: true
+  field_image_url: true
+  field_licence: true
+  field_permission: true
+  field_photo_date: true
+  field_photographer: true
+  field_rights_basis: true
+  field_source_url: true
+  field_takedown_date: true
+  field_takedown_reason: true
+  name: true
+  thumbnail: true
+  uid: true

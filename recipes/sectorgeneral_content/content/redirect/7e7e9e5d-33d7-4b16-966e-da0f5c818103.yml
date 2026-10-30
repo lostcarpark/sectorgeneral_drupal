@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 7e7e9e5d-33d7-4b16-966e-da0f5c818103
+  bundle: redirect
+  default_langcode: und
+  depends:
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: '-Z-xYTtHTx6f-F-iAJYc73TEZkhqleSuYjcmiKzQ82A'
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/starsurgeon.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 7b36c279-8a87-43a2-9300-d653e53ade00
+  status_code:
+    -
+      value: 301

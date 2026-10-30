@@ -1,0 +1,100 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1b4c0eed-093c-42d6-a37c-2fe861bdca3e
+  bundle: edition
+  default_langcode: en
+  depends:
+    856be744-6cfd-4ed3-bce6-a74cc7322872: media
+    b2ab0355-9d03-4e36-8878-2668dc1d64ea: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    6edd89e8-88d6-4983-b0a1-6ab6f79a7215: node
+    a7db68df-cbcb-4bf3-ad1e-26874fce4a71: taxonomy_term
+    ae8c34e9-cc9b-4a61-bf8b-6c081c3b7fe7: taxonomy_term
+    85d23e94-a946-4625-8c1e-300ea4923d67: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the OPAC SBN: https://opac.sbn.it/bid/MOD0128167'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Naufragio trasparente, Mondadori, 1978'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/lifeboat/naufragio-trasparente-mondadori-1978
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 856be744-6cfd-4ed3-bce6-a74cc7322872
+  field_cover_artist:
+    -
+      entity: b2ab0355-9d03-4e36-8878-2668dc1d64ea
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Mondadori No 834, 1978 as Naufragio Transparante”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?416060 (CC BY 4.0).
+        OPAC SBN record https://opac.sbn.it/bid/MOD0128167.
+        OPAC SBN record https://opac.sbn.it/bid/SBL0326084.
+  field_date_display:
+    -
+      value: '1978'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '416060'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: 6edd89e8-88d6-4983-b0a1-6ab6f79a7215
+  field_pages:
+    -
+      value: 170
+  field_price:
+    -
+      value: 'Lit 1,800'
+  field_publisher:
+    -
+      entity: a7db68df-cbcb-4bf3-ad1e-26874fce4a71
+  field_publisher_reference:
+    -
+      value: '834'
+  field_publisher_series:
+    -
+      entity: ae8c34e9-cc9b-4a61-bf8b-6c081c3b7fe7
+  field_publisher_series_number:
+    -
+      value: '834'
+  field_sort_date:
+    -
+      value: '1978-01-01'
+  field_translator:
+    -
+      entity: 85d23e94-a946-4625-8c1e-300ea4923d67
+  field_year:
+    -
+      value: 1978

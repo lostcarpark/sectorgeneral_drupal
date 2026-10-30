@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 58b10222-70bb-4f96-ac56-7d74acdaa62e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mnstmdcsec1977.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mnstmdcsec1977.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 94554
+  status:
+    -
+      value: true

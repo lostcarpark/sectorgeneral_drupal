@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e171cdda-979a-4aa2-b537-826b3a2d1a5a
+  bundle: edition
+  default_langcode: en
+  depends:
+    c8bc2ca1-c59f-4d6b-bcfa-39d9da8726b1: media
+    cd4f17ef-984c-4d7a-bf1e-8e66108ae032: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    6edd89e8-88d6-4983-b0a1-6ab6f79a7215: node
+    2489534c-0801-43c6-89f5-eb25fb1d11ea: taxonomy_term
+    05569ae9-c23c-4dc3-9e2d-177677c7c0b8: taxonomy_term
+    84425617-5d6b-47fe-96a0-c88ca1799550: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/204701716'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Das Schwarze Inferno, Moewig, 1984'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/lifeboat/das-schwarze-inferno-moewig-1984
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: c8bc2ca1-c59f-4d6b-bcfa-39d9da8726b1
+  field_cover_artist:
+    -
+      entity: cd4f17ef-984c-4d7a-bf1e-8e66108ae032
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Moewig UTOPIA Classics No 62-157, 1984 as Das Schwarze Inferno”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?418077 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/204701716 (CC0).
+  field_date_display:
+    -
+      value: '1984'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '418077'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 6edd89e8-88d6-4983-b0a1-6ab6f79a7215
+  field_oclc:
+    -
+      value: '718765738'
+  field_pages:
+    -
+      value: 160
+  field_price:
+    -
+      value: 'DM 5.80'
+  field_printing:
+    -
+      value: Neuaufl.
+  field_publisher:
+    -
+      entity: 2489534c-0801-43c6-89f5-eb25fb1d11ea
+  field_publisher_reference:
+    -
+      value: 62-157
+  field_publisher_series:
+    -
+      entity: 05569ae9-c23c-4dc3-9e2d-177677c7c0b8
+  field_publisher_series_number:
+    -
+      value: '62'
+  field_sort_date:
+    -
+      value: '1984-01-01'
+  field_translator:
+    -
+      entity: 84425617-5d6b-47fe-96a0-c88ca1799550
+  field_year:
+    -
+      value: 1984

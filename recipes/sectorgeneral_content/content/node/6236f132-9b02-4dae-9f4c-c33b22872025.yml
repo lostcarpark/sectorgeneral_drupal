@@ -1,0 +1,90 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6236f132-9b02-4dae-9f4c-c33b22872025
+  bundle: edition
+  default_langcode: en
+  depends:
+    f6dd168b-fe70-42d9-8632-3ddb02b7bc40: media
+    5401c40e-8c02-4af3-bdea-b6583c3621d1: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+    e2b7f90b-afc7-4307-8ea9-91988f73f329: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover replaced by a larger image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?241169'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Secret Visitors, Digit Books, 1961'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/secret-visitors/secret-visitors-digit-books-1961
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: f6dd168b-fe70-42d9-8632-3ddb02b7bc40
+  field_cover_artist:
+    -
+      entity: 5401c40e-8c02-4af3-bdea-b6583c3621d1
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Digit Books No R479, June 1961”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?241169 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'June 1961'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '241169'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: fec32d28-7455-4a8a-a448-67c3af694c28
+  field_oclc:
+    -
+      value: '504106928'
+  field_pages:
+    -
+      value: 160
+  field_price:
+    -
+      value: 2/6
+  field_publisher:
+    -
+      entity: e2b7f90b-afc7-4307-8ea9-91988f73f329
+  field_publisher_reference:
+    -
+      value: R479
+  field_sort_date:
+    -
+      value: '1961-06-01'
+  field_year:
+    -
+      value: 1961

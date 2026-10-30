@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0ed15ef8-7d60-40bf-a183-67d85295468f
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?67118 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Meatball
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/meatball
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>There is no truth to the rumour, which I’ve just started, that Jim named ‘Meatball’ after a song made briefly famous by Burl Ives. “We are carrying two Drambon natives. Drambo is the native name for the planet . . .” Conway tells Sector General Reception. “One of the natives is a CLHG, water-breathing, with a warm-blooded oxygen-based metabolism. The other is tentatively classified a SRJH and seems comfortable in either air r water.” The Drambon SRJH physician/leucocyte treats a blood-poisoned Kelgian in its own inimitable, but effective fashion.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?67118 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1969
+  field_isfdb_id:
+    -
+      value: '67118'
+  field_opening_excerpt:
+    -
+      value: '<p>Conway had been worrying about the Meatball problem during the whole of the trip back to the hospital, but only in the past two hours had the process become a constructive one.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WRITINGS N SF 16, Ed John Carnell, Dobson, January 1970 NEW WRITINGS IN SF 16, Corgi pb edition, March 1970 Also in Major Operation</p>'
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 14000

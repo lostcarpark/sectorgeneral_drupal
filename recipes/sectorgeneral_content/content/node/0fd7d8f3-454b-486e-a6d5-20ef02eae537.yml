@@ -1,0 +1,106 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0fd7d8f3-454b-486e-a6d5-20ef02eae537
+  bundle: edition
+  default_langcode: en
+  depends:
+    81f52958-5ead-4109-bea4-d3cbc25a5612: media
+    42b8f78b-6a45-4b53-8c09-9abae4ded93e: taxonomy_term
+    285a3525-2a8a-4de6-a2c1-1644732df6c2: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    8bdbbc29-9006-4e7e-be08-908c6ec36789: node
+    a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1: node
+    88796287-685a-48a2-b1cd-1c435ba27f09: node
+    62862122-c514-4f24-8c75-e5e6741745f4: node
+    68e7a0f1-5b72-40c2-9714-7b46bdb3842e: taxonomy_term
+    05e61f20-be9b-45f0-bc76-c3f0e36bbfee: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1120253 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Alien Emergencies, Gollancz / Orion, 2026'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/alien-emergencies/alien-emergencies-gollancz-orion-2026
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 81f52958-5ead-4109-bea4-d3cbc25a5612
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1120253 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL62466736M (CC0).
+  field_date_display:
+    -
+      value: '23 July 2026'
+  field_format:
+    -
+      entity: 42b8f78b-6a45-4b53-8c09-9abae4ded93e
+  field_introduction_by:
+    -
+      entity: 285a3525-2a8a-4de6-a2c1-1644732df6c2
+  field_isbn:
+    -
+      value: '9781399636261'
+  field_isfdb_id:
+    -
+      value: '1120253'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 8bdbbc29-9006-4e7e-be08-908c6ec36789
+    -
+      entity: a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1
+    -
+      entity: 88796287-685a-48a2-b1cd-1c435ba27f09
+    -
+      entity: 62862122-c514-4f24-8c75-e5e6741745f4
+  field_oclc:
+    -
+      value: '1520595520'
+  field_openlibrary_id:
+    -
+      value: OL62466736M
+  field_pages:
+    -
+      value: 657
+  field_price:
+    -
+      value: £18.99
+  field_publisher:
+    -
+      entity: 68e7a0f1-5b72-40c2-9714-7b46bdb3842e
+  field_publisher_series:
+    -
+      entity: 05e61f20-be9b-45f0-bc76-c3f0e36bbfee
+  field_sort_date:
+    -
+      value: '2026-07-23'
+  field_year:
+    -
+      value: 2026

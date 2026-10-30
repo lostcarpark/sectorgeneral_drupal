@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3d252d78-8f40-4b98-aae8-956f879146e2
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 71mf-1d-95l.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/71mf-1d-95l.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 182941
+  status:
+    -
+      value: true

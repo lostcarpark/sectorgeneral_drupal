@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: dd69efc8-e389-436f-9434-04266d8e1d8b
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+    5e92bd7b-b734-4a51-99fe-0e20e3552d68: media
+    1fea30ba-0e0d-469d-9e2e-ab66341af015: taxonomy_term
+    00755522-03bf-4fbb-b9b8-73fc91f84cfa: taxonomy_term
+    26861d89-acc4-4ce5-8b18-0a60f715424e: taxonomy_term
+    4f00b253-4f48-4c29-b920-8819062b3f4f: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    4694fff6-aab0-4cf4-8ab5-b90626a59d86: taxonomy_term
+    c878dcbc-37af-4df2-90c1-64a6640d35cf: taxonomy_term
+    bc48dd36-540c-4cde-b29c-b7b6ca27e52d: taxonomy_term
+    b3f95eba-f754-4f44-93a9-7e9a8ef9fcb5: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?883368 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Häpna!, 1 October 1958'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/hapna/hapna-1-october-1958
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: fec32d28-7455-4a8a-a448-67c3af694c28
+  field_cover:
+    -
+      entity: 5e92bd7b-b734-4a51-99fe-0e20e3552d68
+  field_cover_artist:
+    -
+      entity: 1fea30ba-0e0d-469d-9e2e-ab66341af015
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?883368 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '1 October 1958'
+  field_editor:
+    -
+      entity: 00755522-03bf-4fbb-b9b8-73fc91f84cfa
+  field_isfdb_id:
+    -
+      value: '883368'
+  field_language:
+    -
+      entity: 26861d89-acc4-4ce5-8b18-0a60f715424e
+  field_magazine:
+    -
+      entity: 4f00b253-4f48-4c29-b920-8819062b3f4f
+  field_other_contributors:
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: 4694fff6-aab0-4cf4-8ab5-b90626a59d86
+    -
+      entity: c878dcbc-37af-4df2-90c1-64a6640d35cf
+    -
+      entity: bc48dd36-540c-4cde-b29c-b7b6ca27e52d
+    -
+      entity: b3f95eba-f754-4f44-93a9-7e9a8ef9fcb5
+  field_price:
+    -
+      value: 'skr 1.75'
+  field_published_as:
+    -
+      value: 'Turistplaneten (Part 5 of 5)'
+  field_sort_date:
+    -
+      value: '1958-10-01'
+  field_year:
+    -
+      value: 1958

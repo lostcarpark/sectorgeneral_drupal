@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 3a915135-9000-4de1-bc78-1512c2d5c411
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Tom Arno'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/tom-arno
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

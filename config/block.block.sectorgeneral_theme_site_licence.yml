@@ -1,0 +1,20 @@
+uuid: bc002e0d-c3a4-4088-958b-45a7c23c98c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - sectorgeneral
+  theme:
+    - sectorgeneral_theme
+id: sectorgeneral_theme_site_licence
+theme: sectorgeneral_theme
+region: footer_bottom
+weight: 0
+provider: null
+plugin: sectorgeneral_site_licence
+settings:
+  id: sectorgeneral_site_licence
+  label: 'Site licence'
+  label_display: '0'
+  provider: sectorgeneral
+visibility: {  }

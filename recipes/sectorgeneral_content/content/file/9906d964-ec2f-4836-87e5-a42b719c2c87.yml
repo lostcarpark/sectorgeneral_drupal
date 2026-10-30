@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9906d964-ec2f-4836-87e5-a42b719c2c87
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 81k0cpizz-l.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/81k0cpizz-l.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 304843
+  status:
+    -
+      value: true

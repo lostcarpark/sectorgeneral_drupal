@@ -1,0 +1,19 @@
+uuid: ea8dd21d-33b9-42d6-af86-28226760e9bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_credit_note
+    - media.type.photo
+id: media.photo.field_credit_note
+field_name: field_credit_note
+entity_type: media
+bundle: photo
+label: 'Credit note'
+description: 'Shown in the credit: where the source itself got the photo, and anything else a reader should know.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

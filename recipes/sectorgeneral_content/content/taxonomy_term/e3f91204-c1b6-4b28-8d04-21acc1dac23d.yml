@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: e3f91204-c1b6-4b28-8d04-21acc1dac23d
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Kenneth McIntyre'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/kenneth-mcintyre
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

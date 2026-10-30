@@ -1,0 +1,9 @@
+uuid: 181ed193-2596-457c-9804-4c7906c99754
+langcode: en
+status: true
+dependencies: {  }
+name: Language
+vid: language
+description: null
+weight: 0
+new_revision: false

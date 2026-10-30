@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fde37fd5-ccc7-4287-a7fc-80b7d0c22650
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 81n9tms-ajl.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/81n9tms-ajl.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 348741
+  status:
+    -
+      value: true

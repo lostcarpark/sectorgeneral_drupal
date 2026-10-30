@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: a5a37c9b-62cd-4811-8214-39e5bc234084
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    8e355a3b-5fac-4b50-bc28-ee9b33b3fd82: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Dream Millennium, Michael Joseph, 1974 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: e5ef1671348ab9b3dc2adc94b522f2debf11dfea
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/0/08/THDRMMLLNB1974.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'The Dream Millennium, Michael Joseph, 1974 cover'
+      title: ''
+      width: 297
+      height: 450
+      entity: 8e355a3b-5fac-4b50-bc28-ee9b33b3fd82
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?304498'
+      title: null
+      options: {  }

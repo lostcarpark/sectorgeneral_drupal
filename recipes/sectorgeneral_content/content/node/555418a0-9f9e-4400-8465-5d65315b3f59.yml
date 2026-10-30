@@ -1,0 +1,92 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 555418a0-9f9e-4400-8465-5d65315b3f59
+  bundle: anthology
+  default_langcode: en
+  depends:
+    99183a07-c02d-492a-ab74-66946e8a0468: node
+    1f32e8a9-9cc4-4dc6-b3af-b896a47b639e: media
+    98198ea5-db97-409a-92f0-7f61cee9333f: taxonomy_term
+    3e67a290-1a1a-477b-9a7f-b0db9c92ce23: taxonomy_term
+    f628b78f-67b3-4ba9-9be7-9347b6e06364: taxonomy_term
+    cffafaac-5c11-4b79-bca2-d1199a018079: taxonomy_term
+    2b55f4f5-fabf-4cfa-a782-7905c6674e49: taxonomy_term
+    0678ee54-6fad-45b9-ad5e-d7375e0f5d78: taxonomy_term
+    c6b6dfbe-613e-4d32-aaad-239aaefe19fb: taxonomy_term
+    4694fff6-aab0-4cf4-8ab5-b90626a59d86: taxonomy_term
+    331776cf-1da9-4db4-93bd-11944942c9eb: taxonomy_term
+    ee8fc270-52cd-48a1-980e-e07f857327dc: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?641880'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Science-Fiction-Stories 73'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/science-fiction-stories-73
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Ullstein, November 1978, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 99183a07-c02d-492a-ab74-66946e8a0468
+  field_cover:
+    -
+      entity: 1f32e8a9-9cc4-4dc6-b3af-b896a47b639e
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?2284772 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 98198ea5-db97-409a-92f0-7f61cee9333f
+  field_first_published_year:
+    -
+      value: 1978
+  field_isfdb_id:
+    -
+      value: '2284772'
+  field_other_contributors:
+    -
+      entity: 3e67a290-1a1a-477b-9a7f-b0db9c92ce23
+    -
+      entity: f628b78f-67b3-4ba9-9be7-9347b6e06364
+    -
+      entity: cffafaac-5c11-4b79-bca2-d1199a018079
+    -
+      entity: 2b55f4f5-fabf-4cfa-a782-7905c6674e49
+    -
+      entity: 0678ee54-6fad-45b9-ad5e-d7375e0f5d78
+    -
+      entity: c6b6dfbe-613e-4d32-aaad-239aaefe19fb
+    -
+      entity: 4694fff6-aab0-4cf4-8ab5-b90626a59d86
+    -
+      entity: 331776cf-1da9-4db4-93bd-11944942c9eb
+  field_publisher:
+    -
+      entity: ee8fc270-52cd-48a1-980e-e07f857327dc

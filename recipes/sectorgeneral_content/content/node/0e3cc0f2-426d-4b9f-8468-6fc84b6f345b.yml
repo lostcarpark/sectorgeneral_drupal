@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0e3cc0f2-426d-4b9f-8468-6fc84b6f345b
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    388effb1-372e-4213-aa1e-20b4a8da3452: node
+    e0d62f3f-c596-480d-baf4-774fc406ecb8: media
+    b976d15c-40a8-4228-a2d2-127d8454ce91: taxonomy_term
+    98198ea5-db97-409a-92f0-7f61cee9333f: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    c1eefd83-d896-4cdd-a218-1028fc3b6803: taxonomy_term
+    134af15d-c13e-468e-a490-8b485539a877: taxonomy_term
+    eb68d938-5246-48de-8091-cd7bb28ab4d2: taxonomy_term
+    8afa140c-9483-40bf-97ba-6dc8147bff26: taxonomy_term
+    44069aed-84a4-490c-8f0e-440feb14100f: taxonomy_term
+    fec06cdb-19ef-4451-9a16-7e886edf6ccd: taxonomy_term
+    349e26df-7166-4b34-b043-d7e3afb17309: taxonomy_term
+    2102ba46-316a-44c2-bb1e-3036cd0b2359: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'OPAC SBN credit and page-count note: https://opac.sbn.it/bid/RAV2164516'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Fantasia e Fantascienza 3, February 1963'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/fantasia-e-fantascienza/fantasia-e-fantascienza-3-february-1963
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Page count: <a href="https://opac.sbn.it/bid/RAV2164516">OPAC SBN</a> gives 131 pages, ISFDB 136; ISFDB may be counting the covers. SBN catalogues the issue (A. 1, n. 3 (feb. 1963)) under its lead story, <em>L''uomo che vide scomparire il mare</em>.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 388effb1-372e-4213-aa1e-20b4a8da3452
+  field_cover:
+    -
+      entity: e0d62f3f-c596-480d-baf4-774fc406ecb8
+  field_cover_artist:
+    -
+      entity: b976d15c-40a8-4228-a2d2-127d8454ce91
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?299243 (CC BY 4.0).
+        OPAC SBN record https://opac.sbn.it/bid/RAV2164516.
+  field_date_display:
+    -
+      value: 'February 1963'
+  field_editor:
+    -
+      entity: 98198ea5-db97-409a-92f0-7f61cee9333f
+  field_isfdb_id:
+    -
+      value: '299243'
+  field_issue_number:
+    -
+      value: '3'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_magazine:
+    -
+      entity: c1eefd83-d896-4cdd-a218-1028fc3b6803
+  field_other_contributors:
+    -
+      entity: 134af15d-c13e-468e-a490-8b485539a877
+    -
+      entity: eb68d938-5246-48de-8091-cd7bb28ab4d2
+    -
+      entity: 8afa140c-9483-40bf-97ba-6dc8147bff26
+    -
+      entity: 44069aed-84a4-490c-8f0e-440feb14100f
+    -
+      entity: fec06cdb-19ef-4451-9a16-7e886edf6ccd
+    -
+      entity: 349e26df-7166-4b34-b043-d7e3afb17309
+    -
+      entity: 2102ba46-316a-44c2-bb1e-3036cd0b2359
+  field_pages:
+    -
+      value: 136
+  field_price:
+    -
+      value: 'Lit 250'
+  field_published_as:
+    -
+      value: 'Sorpresa di Natale (Part 2 of 2)'
+  field_sort_date:
+    -
+      value: '1963-02-01'
+  field_year:
+    -
+      value: 1963

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3680fcd1-5ce4-4b6b-b050-e185b2a6c331
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: wofifjan1968.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/wofifjan1968.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 44063
+  status:
+    -
+      value: true

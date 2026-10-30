@@ -1,0 +1,111 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 79b5fb0d-9adf-4344-93dd-e84bd7714b68
+  bundle: edition
+  default_langcode: en
+  depends:
+    be1383aa-b878-4959-a003-d938c4718c99: media
+    30ff9d33-d4ce-47cc-8389-6c5954864a5f: taxonomy_term
+    42b8f78b-6a45-4b53-8c09-9abae4ded93e: taxonomy_term
+    f59e3916-edd5-48b5-a4c9-f31a9ec457bb: taxonomy_term
+    4851affb-7366-4588-aee0-bfb672388a7a: taxonomy_term
+    691af107-bc16-4e06-b9cf-b4af59b86286: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    524403d5-e150-49f1-83ad-403d2ae68207: node
+    08fdfb9f-e25a-42ae-a42b-6701d0637704: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?49917 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The White Papers, NESFA Press, 1996'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/white-papers/white-papers-nesfa-press-1996
+      langcode: en
+      pathauto: 1
+  field_buy_links:
+    -
+      uri: 'http://www.amazon.com/exec/obidos/ASIN/0915368714/sectorgeneral-20'
+      title: 'US Buyers Hardback Edition'
+      options: {  }
+  field_cover:
+    -
+      entity: be1383aa-b878-4959-a003-d938c4718c99
+  field_cover_artist:
+    -
+      entity: 30ff9d33-d4ce-47cc-8389-6c5954864a5f
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “NESFA Press, Framingham, MA, USA, ed Mark Olsen and Bruce Pelz, ISBN (trade ed) 915368-71-4, (slip cased) ISBN 0-915368-72-2, August 1996.”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?49917 (CC BY 4.0).
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?329041 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL8334943M (CC0).
+  field_date_display:
+    -
+      value: 'August 1996'
+  field_format:
+    -
+      entity: 42b8f78b-6a45-4b53-8c09-9abae4ded93e
+  field_interior_artist:
+    -
+      entity: f59e3916-edd5-48b5-a4c9-f31a9ec457bb
+    -
+      entity: 4851affb-7366-4588-aee0-bfb672388a7a
+  field_introduction_by:
+    -
+      entity: 691af107-bc16-4e06-b9cf-b4af59b86286
+  field_isbn:
+    -
+      value: '9780915368716'
+  field_isfdb_id:
+    -
+      value: '49917'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 524403d5-e150-49f1-83ad-403d2ae68207
+  field_oclc:
+    -
+      value: '39956141'
+  field_openlibrary_id:
+    -
+      value: OL8334943M
+  field_pages:
+    -
+      value: 400
+  field_price:
+    -
+      value: $25.00
+  field_publisher:
+    -
+      entity: 08fdfb9f-e25a-42ae-a42b-6701d0637704
+  field_sort_date:
+    -
+      value: '1996-08-01'
+  field_year:
+    -
+      value: 1996

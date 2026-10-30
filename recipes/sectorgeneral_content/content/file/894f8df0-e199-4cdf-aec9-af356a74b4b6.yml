@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 894f8df0-e199-4cdf-aec9-af356a74b4b6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: tg_1989_n01_l.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/tg_1989_n01_l.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2217422
+  status:
+    -
+      value: true

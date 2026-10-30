@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b6016dd4-4fb7-40f8-8b28-8e28d1433786
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    81a1bc72-9779-478c-bc39-727b402899bd: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Republic and Empire cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: f9af0acf7ecd672b063eaef1e452668864830d5f
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://m.media-amazon.com/images/G/01/ciu/1a/aa/5ab4224128a01b68b1fd3010.L.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Republic and Empire cover'
+      title: ''
+      width: 301
+      height: 500
+      entity: 81a1bc72-9779-478c-bc39-727b402899bd
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?27854'
+      title: null
+      options: {  }

@@ -1,0 +1,19 @@
+uuid: 8ca947d2-e6e7-4372-a2d9-3ebcf4313614
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_image_hash
+    - media.type.cover_image
+id: media.cover_image.field_image_hash
+field_name: field_image_hash
+entity_type: media
+bundle: cover_image
+label: 'Image fingerprint'
+description: 'SHA-1 of the image file, so the same image from different addresses is recognised.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

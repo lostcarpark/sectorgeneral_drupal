@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 67afc258-8fa0-48a7-8646-984bc0ee2344
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'D. K. Findlay'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/d-k-findlay
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

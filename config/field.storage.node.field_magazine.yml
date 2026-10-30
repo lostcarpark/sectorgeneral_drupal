@@ -1,0 +1,20 @@
+uuid: 9f3897b4-c5bf-4c97-aa1b-c1b82a14c3ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_magazine
+field_name: field_magazine
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

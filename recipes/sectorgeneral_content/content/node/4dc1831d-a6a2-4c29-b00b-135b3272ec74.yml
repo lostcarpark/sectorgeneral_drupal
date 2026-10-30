@@ -1,0 +1,81 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4dc1831d-a6a2-4c29-b00b-135b3272ec74
+  bundle: edition
+  default_langcode: en
+  depends:
+    2ea7f198-8285-4883-b0f8-67628c811f1d: taxonomy_term
+    e0fd36c3-6f71-473a-a95c-dca3f6402cad: node
+    452c06f4-d505-43d4-8888-cebe19bce6d2: taxonomy_term
+    6464ded4-5521-4661-8b9f-1f1e80607e26: taxonomy_term
+    f23d26ca-d36f-4139-bf6e-f0ddc2e3af5e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Created from the Polish National Library: https://data.bn.org.pl/api/institutions/bibs.json?id=2292682'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Szlifierz umysłów, Dom Wydawniczy Rebis, 2008'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/mind-changer/szlifierz-umyslow-dom-wydawniczy-rebis-2008
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'Biblioteka Narodowa record https://data.bn.org.pl/api/institutions/bibs.json?id=2292682 (CC0).'
+  field_date_display:
+    -
+      value: '2008'
+  field_isbn:
+    -
+      value: '9788375101232'
+  field_language:
+    -
+      entity: 2ea7f198-8285-4883-b0f8-67628c811f1d
+  field_novel:
+    -
+      entity: e0fd36c3-6f71-473a-a95c-dca3f6402cad
+  field_pages:
+    -
+      value: 323
+  field_printing:
+    -
+      value: 'Wydanie I'
+  field_publisher:
+    -
+      entity: 452c06f4-d505-43d4-8888-cebe19bce6d2
+  field_publisher_series:
+    -
+      entity: 6464ded4-5521-4661-8b9f-1f1e80607e26
+  field_publisher_series_number:
+    -
+      value: '11'
+  field_sort_date:
+    -
+      value: '2008-01-01'
+  field_translator:
+    -
+      entity: f23d26ca-d36f-4139-bf6e-f0ddc2e3af5e
+  field_year:
+    -
+      value: 2008

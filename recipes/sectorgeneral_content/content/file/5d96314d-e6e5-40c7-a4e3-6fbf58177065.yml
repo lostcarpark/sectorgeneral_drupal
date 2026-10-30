@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5d96314d-e6e5-40c7-a4e3-6fbf58177065
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fctnvhjtvx1987.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/fctnvhjtvx1987.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 121273
+  status:
+    -
+      value: true

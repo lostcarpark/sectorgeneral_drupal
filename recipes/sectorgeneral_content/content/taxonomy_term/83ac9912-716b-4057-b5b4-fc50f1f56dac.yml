@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 83ac9912-716b-4057-b5b4-fc50f1f56dac
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'André Carneiro'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/andre-carneiro
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

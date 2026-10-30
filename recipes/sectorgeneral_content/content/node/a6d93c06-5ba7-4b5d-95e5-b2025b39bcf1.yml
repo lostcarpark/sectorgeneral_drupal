@@ -1,0 +1,87 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1
+  bundle: novel
+  default_langcode: en
+  depends:
+    0490d978-c0c2-413a-9446-3af30ea67f35: node
+    d2fc1fcc-1af6-4b1b-87f6-9ae4f0a25718: node
+    05a12474-c329-4ca6-8160-c409f3784e94: node
+    71865aae-3835-4f8e-9cb4-93bd916b617f: media
+    47dcdfd9-5b9d-431e-b100-e494eb3e62cd: taxonomy_term
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 215, similarity 0.96).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Ambulance Ship'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/ambulance-ship
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p><span><strong>CALLING DR. CONWAY. . .</strong></span><br><br><span>There was a lot of talk about the vital importance of his new assignment, but it still seemed like a demotion to Senior Physician Conway. After twelve years of outstanding service--and the most incredible experiences imaginable--Conway couldn't quite appreciate the \"honor\" of becoming an ambulance attendant at this stage of his life.</span><br><br><span>True, the insectile empath, Dr. Prilicla, would be with him--and so would the eminently desirable Nurse Murchison--but it was definately a comedown for a Senior Physican of his status to be conscripted as part of a first-aid team for disabled spacefarers.</span><br><br><span>Then the first call came--and Conway faced the problem of treating a spaceship crew's mysterious ailment. . . without wiping out every patient and doctor in Sector General!</span><br><br><span>A GRIPPING NOVEL OF A FUTURISTIC HOSPITAL'S BATTLE TO CONTAIN A POTENTIALLY DEADLY EPIDEMIC. . .</span></p>"
+      format: basic_html
+      summary: 'Sector General book four. This book also includes an introduction by James White called "The Secret History of Sector General".'
+  field_book_type:
+    -
+      value: fixup
+  field_contents:
+    -
+      entity: 0490d978-c0c2-413a-9446-3af30ea67f35
+    -
+      entity: d2fc1fcc-1af6-4b1b-87f6-9ae4f0a25718
+    -
+      entity: 05a12474-c329-4ca6-8160-c409f3784e94
+  field_cover:
+    -
+      entity: 71865aae-3835-4f8e-9cb4-93bd916b617f
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4234 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1979
+  field_isfdb_id:
+    -
+      value: '4234'
+  field_publisher:
+    -
+      entity: 47dcdfd9-5b9d-431e-b100-e494eb3e62cd
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_series_number:
+    -
+      value: 4
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 65000

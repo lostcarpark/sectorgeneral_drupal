@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: a624d77c-2dfa-466a-8746-7930a63a8f3c
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    e0cfc943-0117-4412-b94f-d91c397aea52: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Watch Below, Del Rey, 1978 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 584a586b8bf3edefc5903ca2265e33f32b41b53d
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Watch Below cover'
+      title: ''
+      width: 100
+      height: 169
+      entity: e0cfc943-0117-4412-b94f-d91c397aea52

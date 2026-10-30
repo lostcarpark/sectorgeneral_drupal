@@ -1,0 +1,23 @@
+uuid: c1aecfab-e741-487c-a873-cc50275aad75
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.series
+  module:
+    - taxonomy
+id: series
+label: Series
+type: 'canonical_entities:taxonomy_term'
+pattern: '/series/[term:name]'
+selection_criteria:
+  7b78d651-0043-4e78-92ee-8fda64589e69:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      series: series
+selection_logic: and
+weight: 6
+relationships: {  }

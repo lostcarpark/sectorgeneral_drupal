@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 78e014af-878b-4d79-8fe7-0483a6fbcb58
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drglblngrf1987.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/drglblngrf1987.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 20570
+  status:
+    -
+      value: true

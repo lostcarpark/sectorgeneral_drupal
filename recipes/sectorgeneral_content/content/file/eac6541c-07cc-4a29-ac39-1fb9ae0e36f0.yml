@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: eac6541c-07cc-4a29-ac39-1fb9ae0e36f0
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: new.worlds.54..tn.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/new.worlds.54..tn.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 9298
+  status:
+    -
+      value: true

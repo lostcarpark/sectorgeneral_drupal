@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2da692f8-22b4-4f74-804d-f87d3580b004
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drkmpfdrwl1965.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/drkmpfdrwl1965.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 56738
+  status:
+    -
+      value: true

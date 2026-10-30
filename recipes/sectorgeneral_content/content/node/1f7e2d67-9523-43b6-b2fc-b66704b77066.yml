@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1f7e2d67-9523-43b6-b2fc-b66704b77066
+  bundle: novel
+  default_langcode: en
+  depends:
+    3ac249fd-3e13-4041-9802-b00ca1b9f21c: node
+    c4a74073-c51c-4dea-af14-29e4a5c3eff7: node
+    8209a24c-b45b-4921-b2c8-9f0d8c681f75: node
+    1993790c-6999-4b46-9733-2c1ff93533f8: node
+    7ebc130e-24fb-4797-b384-cb98d1b19fc3: node
+    5e000242-78e2-4513-ba9c-451613a6c9d9: node
+    381187e8-9d32-472a-9f13-97bd02929de1: node
+    58c4561c-64ff-42d6-b7c9-3c4d1c7689b6: node
+    214647d4-99c3-41e8-a8fb-747ce5ae5a89: node
+    575bf27f-73f9-4d5e-bdb8-35ffde6a27aa: node
+    d4755b1c-83f6-470e-b808-2aff7eca8be3: node
+    ad7e263f-afa9-49e6-a611-f2fd53633b5e: node
+    eb9e65de-0370-4e22-be6a-a3927a5b6a49: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?28730 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Futures Past'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/futures-past
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>A Best-of-the-Rest collection, with most of the stories harking back to the 1950s. Contents: &#039;Spacebird&#039;; &#039;Assisted passage&#039;; Curtain Call&#039;; &#039;Boarding Party&#039;; &#039;Patrol&#039;; &#039;Fast Trip&#039;; &#039;Question of Cruelaty&#039;; &#039;False Alarm&#039;; &#039;Dynasty of One&#039;/aka &#039;Long Will Live the King&#039;; &#039;Outrider&#039; (see under Short Stories).</p>\r\n<p>Graham Andrews</p>"
+      format: basic_html
+      summary: 'This is a selection of eleven short stories. The English edition from Orbit swopped the short story "Spacebird" for "Custom Fitting".'
+  field_book_type:
+    -
+      value: collection
+  field_contents:
+    -
+      entity: 3ac249fd-3e13-4041-9802-b00ca1b9f21c
+    -
+      entity: c4a74073-c51c-4dea-af14-29e4a5c3eff7
+    -
+      entity: 8209a24c-b45b-4921-b2c8-9f0d8c681f75
+    -
+      entity: 1993790c-6999-4b46-9733-2c1ff93533f8
+    -
+      entity: 7ebc130e-24fb-4797-b384-cb98d1b19fc3
+    -
+      entity: 5e000242-78e2-4513-ba9c-451613a6c9d9
+    -
+      entity: 381187e8-9d32-472a-9f13-97bd02929de1
+    -
+      entity: 58c4561c-64ff-42d6-b7c9-3c4d1c7689b6
+    -
+      entity: 214647d4-99c3-41e8-a8fb-747ce5ae5a89
+    -
+      entity: 575bf27f-73f9-4d5e-bdb8-35ffde6a27aa
+    -
+      entity: d4755b1c-83f6-470e-b808-2aff7eca8be3
+    -
+      entity: ad7e263f-afa9-49e6-a611-f2fd53633b5e
+  field_cover:
+    -
+      entity: eb9e65de-0370-4e22-be6a-a3927a5b6a49
+  field_data_sources:
+    -
+      value: "James White Information (original site).\r\nISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?28730 (CC BY 4.0)."
+  field_first_published_year:
+    -
+      value: 1982
+  field_isfdb_id:
+    -
+      value: '28730'
+  field_words:
+    -
+      value: 70000

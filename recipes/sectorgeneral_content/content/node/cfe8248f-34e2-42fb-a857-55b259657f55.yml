@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cfe8248f-34e2-42fb-a857-55b259657f55
+  bundle: edition
+  default_langcode: en
+  depends:
+    a0e3d758-1b9a-4d46-a75b-6e09fe622049: media
+    887b6c01-eabd-4f86-adf3-d0f8e0e46d6c: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    4684e80b-b2ce-4e86-a094-7e0e0960eed2: node
+    47dcdfd9-5b9d-431e-b100-e494eb3e62cd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Own cover restored: a larger picture of a different edition had replaced it.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Tomorrow Is Too Far, Del Rey / Ballantine, 1981'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/tomorrow-too-far/tomorrow-too-far-del-rey-ballantine-1981
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: a0e3d758-1b9a-4d46-a75b-6e09fe622049
+  field_cover_artist:
+    -
+      entity: 887b6c01-eabd-4f86-adf3-d0f8e0e46d6c
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?51943 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9673574M (CC0).
+  field_date_display:
+    -
+      value: 'December 1981'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345301536'
+  field_isfdb_id:
+    -
+      value: '51943'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 4684e80b-b2ce-4e86-a094-7e0e0960eed2
+  field_oclc:
+    -
+      value: '4431041'
+  field_openlibrary_id:
+    -
+      value: OL9673574M
+  field_pages:
+    -
+      value: 183
+  field_price:
+    -
+      value: $2.25
+  field_publisher:
+    -
+      entity: 47dcdfd9-5b9d-431e-b100-e494eb3e62cd
+  field_sort_date:
+    -
+      value: '1981-12-01'
+  field_year:
+    -
+      value: 1981

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5b727c65-eb87-4b23-96f8-44ed125536a1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fantjun1961.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/fantjun1961.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 31868
+  status:
+    -
+      value: true

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 2adf1af5-dff5-4642-bc1a-afb0b9e476b5
+  bundle: redirect
+  default_langcode: en
+  depends:
+    a50b4cf2-1bd0-42ff-845f-3d30a5fc9882: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 02q3rr8y2-dXepsfeIHYS8UFfR-KjQPIC9kvDDvvg88
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: anthologies/new-writings-sf-1973
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: a50b4cf2-1bd0-42ff-845f-3d30a5fc9882
+  status_code:
+    -
+      value: 301

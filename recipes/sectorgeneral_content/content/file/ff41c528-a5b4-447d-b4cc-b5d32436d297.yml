@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ff41c528-a5b4-447d-b4cc-b5d32436d297
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thlnsmngsj1970.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thlnsmngsj1970.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 89449
+  status:
+    -
+      value: true

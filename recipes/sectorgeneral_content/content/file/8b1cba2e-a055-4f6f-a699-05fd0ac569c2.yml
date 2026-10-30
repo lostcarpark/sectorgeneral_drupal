@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8b1cba2e-a055-4f6f-a699-05fd0ac569c2
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drtsndscnc1969.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/drtsndscnc1969.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 64215
+  status:
+    -
+      value: true

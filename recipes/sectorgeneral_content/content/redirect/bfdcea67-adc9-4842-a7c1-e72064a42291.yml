@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: bfdcea67-adc9-4842-a7c1-e72064a42291
+  bundle: redirect
+  default_langcode: en
+  depends:
+    75a7ac39-bd3f-419e-a703-3e8b26daafb9: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: Jh5pKa8cuTxcY6a-JDDpX7gYntQsVgufV5MlCFPeDhA
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/astounding-analog-1937-1971/astounding-analog-1937-1971-march-1954
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 75a7ac39-bd3f-419e-a703-3e8b26daafb9
+  status_code:
+    -
+      value: 301

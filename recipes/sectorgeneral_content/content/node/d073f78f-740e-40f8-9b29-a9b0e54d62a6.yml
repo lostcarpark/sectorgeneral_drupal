@@ -1,0 +1,91 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d073f78f-740e-40f8-9b29-a9b0e54d62a6
+  bundle: edition
+  default_langcode: en
+  depends:
+    8e1a027c-aec4-4d6a-a43b-d56e4af57de7: media
+    bdc8a848-6cd2-4fb5-95f5-9afa8a420619: taxonomy_term
+    42b8f78b-6a45-4b53-8c09-9abae4ded93e: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    076cb8ba-ada5-4880-8874-aee68d7e662d: node
+    cdf79cfa-ce0f-4b9f-89d0-f15a8ad13134: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL989146M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Watch Below, Old Earth Books, 1996'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/watch-below/watch-below-old-earth-books-1996
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 8e1a027c-aec4-4d6a-a43b-d56e4af57de7
+  field_cover_artist:
+    -
+      entity: bdc8a848-6cd2-4fb5-95f5-9afa8a420619
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Old Earth Books, Baltimore, ISBN 882968-08-5, August 1996”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?49671 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL989146M (CC0).
+  field_date_display:
+    -
+      value: 'August 1996'
+  field_format:
+    -
+      entity: 42b8f78b-6a45-4b53-8c09-9abae4ded93e
+  field_isbn:
+    -
+      value: '9781882968084'
+  field_isfdb_id:
+    -
+      value: '49671'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 076cb8ba-ada5-4880-8874-aee68d7e662d
+  field_oclc:
+    -
+      value: '35128083'
+  field_openlibrary_id:
+    -
+      value: OL989146M
+  field_pages:
+    -
+      value: 192
+  field_publisher:
+    -
+      entity: cdf79cfa-ce0f-4b9f-89d0-f15a8ad13134
+  field_sort_date:
+    -
+      value: '1996-08-01'
+  field_year:
+    -
+      value: 1996

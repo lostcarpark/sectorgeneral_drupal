@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 13d0b6d3-c8b1-49b2-bf1a-1ab9d43dcb08
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: "Comtesse d'Aulnoy"
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/comtesse-daulnoy
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

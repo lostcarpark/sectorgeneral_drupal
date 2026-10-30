@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f328b4d5-d64f-4e9c-94b4-6ba2c7138d70
+  bundle: edition
+  default_langcode: en
+  depends:
+    7211c90c-95f0-434d-b7a5-e093126ec812: media
+    30ff9d33-d4ce-47cc-8389-6c5954864a5f: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    660e6627-c58e-4d71-884e-bf8916e3575d: node
+    03c0e826-c5ee-456f-8600-d2652179fbeb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL10685565M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Silent Stars Go By, Ballantine, 1991'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/silent-stars-go/silent-stars-go-ballantine-1991
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 7211c90c-95f0-434d-b7a5-e093126ec812
+  field_cover_artist:
+    -
+      entity: 30ff9d33-d4ce-47cc-8389-6c5954864a5f
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ballantine, 1991”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?47229 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL10685565M (CC0).
+  field_date_display:
+    -
+      value: '1991'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345371102'
+  field_isfdb_id:
+    -
+      value: '47229'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 660e6627-c58e-4d71-884e-bf8916e3575d
+  field_oclc:
+    -
+      value: '24436826'
+  field_openlibrary_id:
+    -
+      value: OL10685565M
+  field_pages:
+    -
+      value: 441
+  field_price:
+    -
+      value: $5.99
+  field_publisher:
+    -
+      entity: 03c0e826-c5ee-456f-8600-d2652179fbeb
+  field_sort_date:
+    -
+      value: '1991-01-01'
+  field_year:
+    -
+      value: 1991

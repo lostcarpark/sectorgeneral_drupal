@@ -1,0 +1,1137 @@
+uuid: efe12fba-5088-40ab-8c04-1d74485f62cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.people
+  module:
+    - node
+    - taxonomy
+    - user
+id: people_by_role
+label: 'People by role'
+module: views
+description: 'Browse cover artists, editors, translators and other contributors.'
+tag: ''
+base_table: taxonomy_term_field_data
+base_field: tid
+display:
+  default:
+    id: default
+    display_title: Default
+    display_plugin: default
+    position: 0
+    display_options:
+      title: People
+      fields:
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          group_type: group
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: field
+          label: Name
+          element_label_colon: false
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: credits
+          group_type: count_distinct
+          entity_type: node
+          entity_field: nid
+          plugin_id: field
+          label: Credits
+          element_label_colon: false
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: false
+      pager:
+        type: full
+        options:
+          offset: 0
+          items_per_page: 50
+          total_pages: null
+          id: 0
+          tags:
+            next: 'Next ›'
+            previous: '‹ Previous'
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '25, 50, 100'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          quantity: 9
+      exposed_form:
+        type: basic
+        options: {  }
+      access:
+        type: perm
+        options:
+          perm: 'access content'
+      cache:
+        type: tag
+        options: {  }
+      empty:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          plugin_id: text_custom
+          empty: true
+          content: 'No one matches.'
+      sorts:
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: credits
+          group_type: count_distinct
+          entity_type: node
+          entity_field: nid
+          plugin_id: standard
+          order: DESC
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: standard
+          order: ASC
+      filters:
+        vid:
+          id: vid
+          table: taxonomy_term_field_data
+          field: vid
+          entity_type: taxonomy_term
+          entity_field: vid
+          plugin_id: bundle
+          value:
+            people: people
+          group: 1
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          relationship: credits
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+        field_not_a_person_value:
+          id: field_not_a_person_value
+          table: taxonomy_term__field_not_a_person
+          field: field_not_a_person_value
+          plugin_id: boolean
+          value: '0'
+          group: 1
+          accept_null: true
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: string
+          operator: contains
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: name_op
+            label: 'Name contains'
+            use_operator: false
+            operator: name_op
+            identifier: name
+            required: false
+            remember: false
+            multiple: false
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: table
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          columns:
+            name: name
+            nid: nid
+          default: nid
+          info:
+            name:
+              sortable: true
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            nid:
+              sortable: true
+              default_sort_order: desc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+          override: true
+          sticky: false
+          summary: ''
+          empty_table: false
+          caption: ''
+          description: ''
+      row:
+        type: fields
+        options: {  }
+      query:
+        type: views_query
+        options: {  }
+      relationships:
+        credits:
+          id: credits
+          table: taxonomy_term_field_data
+          field: reverse__node__field_cover_artist
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: true
+      group_by: true
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user.permissions
+      tags: {  }
+  anthology_contributors:
+    id: anthology_contributors
+    display_title: 'Fellow contributors'
+    display_plugin: page
+    position: 7
+    display_options:
+      title: 'Fellow contributors'
+      fields:
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          group_type: group
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: field
+          label: Name
+          element_label_colon: false
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: credits
+          group_type: count_distinct
+          entity_type: node
+          entity_field: nid
+          plugin_id: field
+          label: 'Shared appearances'
+          element_label_colon: false
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: false
+      filters:
+        vid:
+          id: vid
+          table: taxonomy_term_field_data
+          field: vid
+          entity_type: taxonomy_term
+          entity_field: vid
+          plugin_id: bundle
+          value:
+            people: people
+          group: 1
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          relationship: credits
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+        field_not_a_person_value:
+          id: field_not_a_person_value
+          table: taxonomy_term__field_not_a_person
+          field: field_not_a_person_value
+          plugin_id: boolean
+          value: '0'
+          group: 1
+          accept_null: true
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: string
+          operator: contains
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: name_op
+            label: 'Name contains'
+            use_operator: false
+            operator: name_op
+            identifier: name
+            required: false
+            remember: false
+            multiple: false
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: credits
+          group_type: count_distinct
+          entity_type: node
+          entity_field: nid
+          plugin_id: numeric
+          operator: '>='
+          value:
+            min: ''
+            max: ''
+            value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: nid_op
+            label: 'Minimum shared appearances'
+            use_operator: false
+            operator: nid_op
+            identifier: min
+            required: false
+            remember: false
+            multiple: false
+            placeholder: '2'
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      defaults:
+        title: false
+        relationships: false
+        fields: false
+        filters: false
+        filter_groups: false
+      relationships:
+        credits:
+          id: credits
+          table: taxonomy_term_field_data
+          field: reverse__node__field_other_contributors
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: true
+      display_extenders: {  }
+      path: people/fellow-contributors
+      menu:
+        type: tab
+        title: 'Fellow contributors'
+        description: ''
+        weight: 7
+        enabled: true
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user.permissions
+      tags: {  }
+  cover_artists:
+    id: cover_artists
+    display_title: 'Cover artists'
+    display_plugin: page
+    position: 1
+    display_options:
+      title: 'Cover artists'
+      fields:
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          group_type: group
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: field
+          label: Name
+          element_label_colon: false
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: credits
+          group_type: count_distinct
+          entity_type: node
+          entity_field: nid
+          plugin_id: field
+          label: Covers
+          element_label_colon: false
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: false
+      filters:
+        vid:
+          id: vid
+          table: taxonomy_term_field_data
+          field: vid
+          entity_type: taxonomy_term
+          entity_field: vid
+          plugin_id: bundle
+          value:
+            people: people
+          group: 1
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          relationship: credits
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+        field_not_a_person_value:
+          id: field_not_a_person_value
+          table: taxonomy_term__field_not_a_person
+          field: field_not_a_person_value
+          plugin_id: boolean
+          value: '0'
+          group: 1
+          accept_null: true
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: string
+          operator: contains
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: name_op
+            label: 'Name contains'
+            use_operator: false
+            operator: name_op
+            identifier: name
+            required: false
+            remember: false
+            multiple: false
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      defaults:
+        title: false
+        relationships: false
+        fields: false
+        filters: false
+        filter_groups: false
+      relationships:
+        credits:
+          id: credits
+          table: taxonomy_term_field_data
+          field: reverse__node__field_cover_artist
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: true
+      display_extenders: {  }
+      path: people/cover-artists
+      menu:
+        type: 'default tab'
+        title: 'Cover artists'
+        description: ''
+        weight: 0
+        enabled: true
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
+      tab_options:
+        type: normal
+        title: People
+        description: "People who worked on James White's books and magazines"
+        weight: 5
+        menu_name: main
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user.permissions
+      tags: {  }
+  editors:
+    id: editors
+    display_title: Editors
+    display_plugin: page
+    position: 3
+    display_options:
+      title: Editors
+      fields:
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          group_type: group
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: field
+          label: Name
+          element_label_colon: false
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: credits
+          group_type: count_distinct
+          entity_type: node
+          entity_field: nid
+          plugin_id: field
+          label: Credits
+          element_label_colon: false
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: false
+      filters:
+        vid:
+          id: vid
+          table: taxonomy_term_field_data
+          field: vid
+          entity_type: taxonomy_term
+          entity_field: vid
+          plugin_id: bundle
+          value:
+            people: people
+          group: 1
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          relationship: credits
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+        field_not_a_person_value:
+          id: field_not_a_person_value
+          table: taxonomy_term__field_not_a_person
+          field: field_not_a_person_value
+          plugin_id: boolean
+          value: '0'
+          group: 1
+          accept_null: true
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: string
+          operator: contains
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: name_op
+            label: 'Name contains'
+            use_operator: false
+            operator: name_op
+            identifier: name
+            required: false
+            remember: false
+            multiple: false
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      defaults:
+        title: false
+        relationships: false
+        fields: false
+        filters: false
+        filter_groups: false
+      relationships:
+        credits:
+          id: credits
+          table: taxonomy_term_field_data
+          field: reverse__node__field_editor
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: true
+      display_extenders: {  }
+      path: people/editors
+      menu:
+        type: tab
+        title: Editors
+        description: ''
+        weight: 3
+        enabled: true
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user.permissions
+      tags: {  }
+  interior_artists:
+    id: interior_artists
+    display_title: 'Interior artists'
+    display_plugin: page
+    position: 2
+    display_options:
+      title: 'Interior artists'
+      fields:
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          group_type: group
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: field
+          label: Name
+          element_label_colon: false
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: credits
+          group_type: count_distinct
+          entity_type: node
+          entity_field: nid
+          plugin_id: field
+          label: Credits
+          element_label_colon: false
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: false
+      filters:
+        vid:
+          id: vid
+          table: taxonomy_term_field_data
+          field: vid
+          entity_type: taxonomy_term
+          entity_field: vid
+          plugin_id: bundle
+          value:
+            people: people
+          group: 1
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          relationship: credits
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+        field_not_a_person_value:
+          id: field_not_a_person_value
+          table: taxonomy_term__field_not_a_person
+          field: field_not_a_person_value
+          plugin_id: boolean
+          value: '0'
+          group: 1
+          accept_null: true
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: string
+          operator: contains
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: name_op
+            label: 'Name contains'
+            use_operator: false
+            operator: name_op
+            identifier: name
+            required: false
+            remember: false
+            multiple: false
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      defaults:
+        title: false
+        relationships: false
+        fields: false
+        filters: false
+        filter_groups: false
+      relationships:
+        credits:
+          id: credits
+          table: taxonomy_term_field_data
+          field: reverse__node__field_interior_artist
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: true
+      display_extenders: {  }
+      path: people/interior-artists
+      menu:
+        type: tab
+        title: 'Interior artists'
+        description: ''
+        weight: 2
+        enabled: true
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user.permissions
+      tags: {  }
+  introductions:
+    id: introductions
+    display_title: Introductions
+    display_plugin: page
+    position: 5
+    display_options:
+      title: Introductions
+      fields:
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          group_type: group
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: field
+          label: Name
+          element_label_colon: false
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: credits
+          group_type: count_distinct
+          entity_type: node
+          entity_field: nid
+          plugin_id: field
+          label: Credits
+          element_label_colon: false
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: false
+      filters:
+        vid:
+          id: vid
+          table: taxonomy_term_field_data
+          field: vid
+          entity_type: taxonomy_term
+          entity_field: vid
+          plugin_id: bundle
+          value:
+            people: people
+          group: 1
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          relationship: credits
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+        field_not_a_person_value:
+          id: field_not_a_person_value
+          table: taxonomy_term__field_not_a_person
+          field: field_not_a_person_value
+          plugin_id: boolean
+          value: '0'
+          group: 1
+          accept_null: true
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: string
+          operator: contains
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: name_op
+            label: 'Name contains'
+            use_operator: false
+            operator: name_op
+            identifier: name
+            required: false
+            remember: false
+            multiple: false
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      defaults:
+        title: false
+        relationships: false
+        fields: false
+        filters: false
+        filter_groups: false
+      relationships:
+        credits:
+          id: credits
+          table: taxonomy_term_field_data
+          field: reverse__node__field_introduction_by
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: true
+      display_extenders: {  }
+      path: people/introductions
+      menu:
+        type: tab
+        title: Introductions
+        description: ''
+        weight: 5
+        enabled: true
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user.permissions
+      tags: {  }
+  narrators:
+    id: narrators
+    display_title: Narrators
+    display_plugin: page
+    position: 6
+    display_options:
+      title: Narrators
+      fields:
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          group_type: group
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: field
+          label: Name
+          element_label_colon: false
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: credits
+          group_type: count_distinct
+          entity_type: node
+          entity_field: nid
+          plugin_id: field
+          label: Credits
+          element_label_colon: false
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: false
+      filters:
+        vid:
+          id: vid
+          table: taxonomy_term_field_data
+          field: vid
+          entity_type: taxonomy_term
+          entity_field: vid
+          plugin_id: bundle
+          value:
+            people: people
+          group: 1
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          relationship: credits
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+        field_not_a_person_value:
+          id: field_not_a_person_value
+          table: taxonomy_term__field_not_a_person
+          field: field_not_a_person_value
+          plugin_id: boolean
+          value: '0'
+          group: 1
+          accept_null: true
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: string
+          operator: contains
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: name_op
+            label: 'Name contains'
+            use_operator: false
+            operator: name_op
+            identifier: name
+            required: false
+            remember: false
+            multiple: false
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      defaults:
+        title: false
+        relationships: false
+        fields: false
+        filters: false
+        filter_groups: false
+      relationships:
+        credits:
+          id: credits
+          table: taxonomy_term_field_data
+          field: reverse__node__field_narrator
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: true
+      display_extenders: {  }
+      path: people/narrators
+      menu:
+        type: tab
+        title: Narrators
+        description: ''
+        weight: 6
+        enabled: true
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user.permissions
+      tags: {  }
+  translators:
+    id: translators
+    display_title: Translators
+    display_plugin: page
+    position: 4
+    display_options:
+      title: Translators
+      fields:
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          group_type: group
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: field
+          label: Name
+          element_label_colon: false
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: credits
+          group_type: count_distinct
+          entity_type: node
+          entity_field: nid
+          plugin_id: field
+          label: Translations
+          element_label_colon: false
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: false
+      filters:
+        vid:
+          id: vid
+          table: taxonomy_term_field_data
+          field: vid
+          entity_type: taxonomy_term
+          entity_field: vid
+          plugin_id: bundle
+          value:
+            people: people
+          group: 1
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          relationship: credits
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+        field_not_a_person_value:
+          id: field_not_a_person_value
+          table: taxonomy_term__field_not_a_person
+          field: field_not_a_person_value
+          plugin_id: boolean
+          value: '0'
+          group: 1
+          accept_null: true
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: string
+          operator: contains
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: name_op
+            label: 'Name contains'
+            use_operator: false
+            operator: name_op
+            identifier: name
+            required: false
+            remember: false
+            multiple: false
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      defaults:
+        title: false
+        relationships: false
+        fields: false
+        filters: false
+        filter_groups: false
+      relationships:
+        credits:
+          id: credits
+          table: taxonomy_term_field_data
+          field: reverse__node__field_translator
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: true
+      display_extenders: {  }
+      path: people/translators
+      menu:
+        type: tab
+        title: Translators
+        description: ''
+        weight: 4
+        enabled: true
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user.permissions
+      tags: {  }

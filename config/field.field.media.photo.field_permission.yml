@@ -1,0 +1,19 @@
+uuid: 43a447f4-814e-4a79-9e36-51122bea363a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_permission
+    - media.type.photo
+id: media.photo.field_permission
+field_name: field_permission
+entity_type: media
+bundle: photo
+label: Permission
+description: 'Not shown. Who gave permission, when and how (and where the email or letter is kept).'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

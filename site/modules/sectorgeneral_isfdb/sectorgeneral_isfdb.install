@@ -1,0 +1,213 @@
+<?php
+
+/**
+ * @file
+ * Install hooks for the ISFDB import.
+ */
+
+use Drupal\block\Entity\Block;
+
+/**
+ * Implements hook_schema().
+ */
+function sectorgeneral_isfdb_schema() {
+  $schema['sectorgeneral_library_raw'] = [
+    'description' => 'National library records exactly as fetched, every version (see LibraryRecords).',
+    'fields' => [
+      'id' => ['type' => 'serial', 'unsigned' => TRUE, 'not null' => TRUE],
+      'source' => ['type' => 'varchar_ascii', 'length' => 32, 'not null' => TRUE, 'description' => 'Library source ID, e.g. "sbn".'],
+      'record_id' => ['type' => 'varchar', 'length' => 255, 'not null' => TRUE, 'description' => "The library's record number."],
+      'data' => ['type' => 'text', 'size' => 'big', 'not null' => TRUE, 'description' => 'The record as the library sent it (MARC XML, JSON).'],
+      'hash' => ['type' => 'varchar_ascii', 'length' => 40, 'not null' => TRUE, 'description' => 'SHA-1 of data.'],
+      'fetched' => ['type' => 'int', 'not null' => TRUE, 'description' => 'When this version was first fetched.'],
+      'checked' => ['type' => 'int', 'not null' => TRUE, 'description' => 'When the library last returned this version.'],
+      'current' => ['type' => 'int', 'size' => 'tiny', 'not null' => TRUE, 'default' => 1, 'description' => '1 for the latest version of the record.'],
+    ],
+    'primary key' => ['id'],
+    'indexes' => [
+      'source_record' => ['source', 'record_id'],
+      'source_current' => ['source', 'current'],
+    ],
+  ];
+  $schema['sectorgeneral_library_review'] = [
+    'description' => "Editors' decisions on national library records (see LibraryRecords).",
+    'fields' => [
+      'source' => ['type' => 'varchar_ascii', 'length' => 32, 'not null' => TRUE],
+      'url' => ['type' => 'varchar', 'length' => 512, 'not null' => TRUE, 'description' => "The record's address, as credited."],
+      'decision' => ['type' => 'varchar_ascii', 'length' => 16, 'not null' => FALSE, 'description' => '"approved", "rejected", or NULL for undecided.'],
+      'target_edition' => ['type' => 'int', 'unsigned' => TRUE, 'not null' => FALSE, 'description' => 'Edition chosen instead of the match.'],
+      'target_book' => ['type' => 'int', 'unsigned' => TRUE, 'not null' => FALSE, 'description' => 'Book to add a new edition to instead.'],
+      'uid' => ['type' => 'int', 'unsigned' => TRUE, 'not null' => TRUE, 'default' => 0],
+      'changed' => ['type' => 'int', 'not null' => TRUE, 'default' => 0],
+      'applied' => ['type' => 'int', 'not null' => FALSE, 'description' => 'When the record was last applied.'],
+    ],
+    'primary key' => ['source', 'url'],
+  ];
+  return $schema;
+}
+
+/**
+ * Implements hook_install().
+ */
+function sectorgeneral_isfdb_install($is_syncing) {
+  if ($is_syncing) {
+    return;
+  }
+  $theme = \Drupal::config('system.theme')->get('default');
+  if (!Block::load($theme . '_isfdb_credit')) {
+    Block::create([
+      'id' => $theme . '_isfdb_credit',
+      'theme' => $theme,
+      'region' => 'footer_bottom',
+      'plugin' => 'sectorgeneral_isfdb_credit',
+      'settings' => ['label' => 'ISFDB credit', 'label_display' => '0'],
+      'weight' => 10,
+    ])->save();
+  }
+}
+
+/**
+ * Adds the Open Library settings.
+ */
+function sectorgeneral_isfdb_update_11001() {
+  $config = \Drupal::configFactory()->getEditable('sectorgeneral_isfdb.settings');
+  $defaults = [
+    'openlibrary_base' => 'https://openlibrary.org',
+    'openlibrary_covers_base' => 'https://covers.openlibrary.org',
+    'openlibrary_delay' => 10,
+  ];
+  foreach ($defaults as $key => $value) {
+    if ($config->get($key) === NULL) {
+      $config->set($key, $value);
+    }
+  }
+  $config->save();
+}
+
+/**
+ * Adds the Polish National Library settings.
+ */
+function sectorgeneral_isfdb_update_11002() {
+  $config = \Drupal::configFactory()->getEditable('sectorgeneral_isfdb.settings');
+  $defaults = [
+    'bn_base' => 'https://data.bn.org.pl',
+    'bn_author' => 'White, James (1928-1999)',
+    'bn_delay' => 3,
+  ];
+  foreach ($defaults as $key => $value) {
+    if ($config->get($key) === NULL) {
+      $config->set($key, $value);
+    }
+  }
+  $config->save();
+}
+
+/**
+ * Adds the OPAC SBN settings, and Italian publisher aliases.
+ */
+function sectorgeneral_isfdb_update_11003() {
+  $config = \Drupal::configFactory()->getEditable('sectorgeneral_isfdb.settings');
+  $defaults = [
+    'sbn_target' => 'opac.sbn.it:2100/nopac',
+    'sbn_author' => 'White, James',
+    'sbn_authority' => 'IT\\ICCU\\RAVV\\007818',
+  ];
+  foreach ($defaults as $key => $value) {
+    if ($config->get($key) === NULL) {
+      $config->set($key, $value);
+    }
+  }
+  $aliases = $config->get('publisher_aliases') ?? [];
+  $aliases += [
+    'Valentino Bompiani' => 'Bompiani',
+    'Arnoldo Mondadori' => 'Mondadori',
+  ];
+  $config->set('publisher_aliases', $aliases);
+  $config->save();
+}
+
+/**
+ * Moves the OPAC SBN settings into the z3950 library list, and adds the
+ * Czech National Library's catalogue.
+ */
+function sectorgeneral_isfdb_update_11004() {
+  $config = \Drupal::configFactory()->getEditable('sectorgeneral_isfdb.settings');
+  $libraries = $config->get('z3950') ?? [];
+  $libraries += [
+    'sbn' => [
+      'label' => 'OPAC SBN',
+      'licence' => '',
+      'language' => 'Italian',
+      'language_code' => 'ita',
+      'target' => 'opac.sbn.it:2100/nopac',
+      'query' => '@attr 1=1003 @attr 4=1 "White, James"',
+      'author' => 'White, James',
+      'authority' => 'IT\\ICCU\\RAVV\\007818',
+      'record_id' => '001',
+      'record_id_pattern' => '/^.+\x5c(\w+)\x5c(\d+)$/',
+      'record_id_replace' => '$1$2',
+      'record_url' => 'https://opac.sbn.it/bid/{id}',
+      'translator_note' => '\btrad(?:\.|uzione|otto)(?:\s+integrale)?(?:\s+dall\x27\p{L}+)?(?:\s+di)?',
+      'cover_note' => 'copertina di',
+    ],
+    'nkp' => [
+      'label' => 'Národní knihovna ČR',
+      'licence' => 'CC0',
+      'language' => 'Czech',
+      'language_code' => 'cze',
+      'target' => 'aleph.nkp.cz:9991/NKC-UTF',
+      'query' => '@and @attr 1=1003 @attr 4=1 "White, James" @attr 1=54 cze',
+      'author' => 'White, James',
+      'authority' => 'mzk2011618788',
+      'unidentified' => '1',
+      'record_id' => '998a',
+      'record_url' => 'https://aleph.nkp.cz/F/?func=direct&doc_number={id}&local_base=NKC',
+      'translator_note' => '\b(?:přeložil[aiy]?|přel\.|překlad)',
+    ],
+  ];
+  $config->set('z3950', $libraries);
+  foreach (['sbn_target', 'sbn_author', 'sbn_authority'] as $key) {
+    $config->clear($key);
+  }
+  $config->save();
+}
+
+/**
+ * Adds the national library record store and review tables.
+ */
+function sectorgeneral_isfdb_update_11005() {
+  $schema = \Drupal::database()->schema();
+  foreach (sectorgeneral_isfdb_schema() as $table => $definition) {
+    if (!$schema->tableExists($table)) {
+      $schema->createTable($table, $definition);
+    }
+  }
+}
+
+/**
+ * Adds the German National Library's catalogue, read over SRU.
+ */
+function sectorgeneral_isfdb_update_11006() {
+  $config = \Drupal::configFactory()->getEditable('sectorgeneral_isfdb.settings');
+  $libraries = $config->get('sru') ?? [];
+  $libraries += [
+    'dnb' => [
+      'label' => 'Deutsche Nationalbibliothek',
+      'licence' => 'CC0',
+      'language' => 'German',
+      'language_code' => 'ger',
+      'url' => 'https://services.dnb.de/sru/dnb',
+      'query' => 'per="White, James"',
+      'record_schema' => 'MARC21-xml',
+      'delay' => '3',
+      'parts_query' => 'partof={id}',
+      'author' => 'White, James',
+      'authority' => '(DE-588)1127604589',
+      'unidentified' => '1',
+      'record_id' => '001',
+      'record_url' => 'https://d-nb.info/{id}',
+      'translator_note' => '(?:[Aa]us d(?:em|\\.)|[Ii]ns)\\s[^\\]]*?\\bvon',
+    ],
+  ];
+  $config->set('sru', $libraries)->save();
+}

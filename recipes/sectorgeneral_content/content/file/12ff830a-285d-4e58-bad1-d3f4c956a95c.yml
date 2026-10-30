@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 12ff830a-285d-4e58-bad1-d3f4c956a95c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: u651.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/u651.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 49678
+  status:
+    -
+      value: true

@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2d0ce563-6638-427c-bdc8-6bda2c2e3826
+  bundle: novel
+  default_langcode: en
+  depends:
+    9441a0ae-4580-4218-a3a1-9938fd3cada4: node
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Chapbook for the Polish booklet Zawód – wojownik (Iskry, 1986)'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Occupation: Warrior'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/occupation-warrior
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>A Polish booklet of the novella <em>Occupation: Warrior</em>, published by Iskry as <em>Zawód – wojownik</em> in 1986, number 8 in the second cycle of its <em>Zeszyty Fantastyczno-Naukowe</em> series. ISFDB does not list it.</p>'
+      format: basic_html
+      summary: ''
+  field_book_type:
+    -
+      value: chapbook
+  field_contents:
+    -
+      entity: 9441a0ae-4580-4218-a3a1-9938fd3cada4
+  field_data_sources:
+    -
+      value: 'Biblioteka Narodowa record https://data.bn.org.pl/api/institutions/bibs.json?id=1197871 (CC0).'
+  field_first_published_year:
+    -
+      value: 1986

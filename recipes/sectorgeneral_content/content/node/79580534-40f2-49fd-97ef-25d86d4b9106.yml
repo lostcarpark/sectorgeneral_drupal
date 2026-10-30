@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 79580534-40f2-49fd-97ef-25d86d4b9106
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    0ac0d6bb-de33-47eb-a55b-f04c6b6e1f05: node
+    2ee19ea1-367c-496a-b45d-d7a1c68970b0: media
+    3dcf566c-0c3c-4359-942c-03113ac5727d: taxonomy_term
+    dd236beb-c134-4b7c-85a3-7671ccaeecaa: taxonomy_term
+    aca72257-fa3d-4b4b-a50f-9f55a3e93d65: taxonomy_term
+    30ff9d33-d4ce-47cc-8389-6c5954864a5f: taxonomy_term
+    1a8819bb-0715-4fc9-a152-b831a5f5da47: taxonomy_term
+    839d4de6-d811-476b-87d4-649077d9149a: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    35e411d8-3c59-4666-84ed-9c05c22b161a: taxonomy_term
+    dea4414c-f91c-4d3f-8869-6287d735df6e: taxonomy_term
+    f628b78f-67b3-4ba9-9be7-9347b6e06364: taxonomy_term
+    a4eacf65-9b60-4e94-bc2a-b15235c821ca: taxonomy_term
+    94fddcc8-5f74-4fed-8d33-e9bb4f4e7130: taxonomy_term
+    63f38f7c-fb34-48b8-a835-fa2306905205: taxonomy_term
+    497c89ea-21ec-4b55-ac1b-e7c9dc5c66b9: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?57206 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Analog Science Fiction and Fact, October 1975'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/analog-science-fiction-and-fact/analog-science-fiction-and-fact-october-1975
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 0ac0d6bb-de33-47eb-a55b-f04c6b6e1f05
+  field_cover:
+    -
+      entity: 2ee19ea1-367c-496a-b45d-d7a1c68970b0
+  field_cover_artist:
+    -
+      entity: 3dcf566c-0c3c-4359-942c-03113ac5727d
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?57206 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'October 1975'
+  field_editor:
+    -
+      entity: dd236beb-c134-4b7c-85a3-7671ccaeecaa
+  field_interior_artist:
+    -
+      entity: 3dcf566c-0c3c-4359-942c-03113ac5727d
+    -
+      entity: aca72257-fa3d-4b4b-a50f-9f55a3e93d65
+    -
+      entity: 30ff9d33-d4ce-47cc-8389-6c5954864a5f
+    -
+      entity: 1a8819bb-0715-4fc9-a152-b831a5f5da47
+    -
+      entity: 839d4de6-d811-476b-87d4-649077d9149a
+  field_isfdb_id:
+    -
+      value: '57206'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 35e411d8-3c59-4666-84ed-9c05c22b161a
+  field_other_contributors:
+    -
+      entity: dea4414c-f91c-4d3f-8869-6287d735df6e
+    -
+      entity: f628b78f-67b3-4ba9-9be7-9347b6e06364
+    -
+      entity: a4eacf65-9b60-4e94-bc2a-b15235c821ca
+    -
+      entity: 94fddcc8-5f74-4fed-8d33-e9bb4f4e7130
+    -
+      entity: 63f38f7c-fb34-48b8-a835-fa2306905205
+    -
+      entity: 497c89ea-21ec-4b55-ac1b-e7c9dc5c66b9
+  field_pages:
+    -
+      value: 180
+  field_price:
+    -
+      value: $1.00
+  field_sort_date:
+    -
+      value: '1975-10-01'
+  field_year:
+    -
+      value: 1975

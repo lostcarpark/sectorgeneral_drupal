@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b66ca647-c5e1-4986-a836-df356a723732
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    dc60224a-fc44-4b46-a721-49ba1910145a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Weltraum Nr. 1 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 2ec8eea5b2f9e7b8bc43f2acf99156222bbe71af
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/e/ec/WLTRMNRLJL1974.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Weltraum Nr. 1 cover'
+      title: ''
+      width: 285
+      height: 475
+      entity: dc60224a-fc44-4b46-a721-49ba1910145a
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?753227'
+      title: null
+      options: {  }

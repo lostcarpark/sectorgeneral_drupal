@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fb3537a4-4d08-4d19-9b5f-782fd7d237cd
+  bundle: novel
+  default_langcode: en
+  depends:
+    0fd61e31-1b99-4abe-966a-f37a49f103c8: node
+    c3b12057-a125-4e29-a7ca-6edbedfb5600: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover from its earliest English edition.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Beyond the Enchanted Duplicator... ...To the Enchanted Convention'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/beyond-enchanted-duplicator-enchanted-convention
+      langcode: en
+      pathauto: 1
+  field_book_type:
+    -
+      value: chapbook
+  field_contents:
+    -
+      entity: 0fd61e31-1b99-4abe-966a-f37a49f103c8
+  field_cover:
+    -
+      entity: c3b12057-a125-4e29-a7ca-6edbedfb5600
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?2687187 (CC BY 4.0).'
+  field_first_published_year:
+    -
+      value: 1991
+  field_isfdb_id:
+    -
+      value: '2687187'

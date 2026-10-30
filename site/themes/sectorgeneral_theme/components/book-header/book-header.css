@@ -1,0 +1,118 @@
+/**
+ * @file
+ * Book header: a cover column beside the text, stacking on narrow screens.
+ */
+
+.book-header {
+  display: grid;
+  grid-template-columns: minmax(12rem, 18.75rem) 1fr;
+  gap: 2.5rem;
+  align-items: start;
+  margin-bottom: 2.5rem;
+}
+
+.book-header--no-cover {
+  grid-template-columns: 1fr;
+}
+
+.book-header__cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 14px rgb(0, 0, 0, 0.25);
+}
+
+/* The credit line under the cover. */
+.book-header__cover .cover-credit {
+  margin: 0.75rem 0 0;
+  color: var(--rt-neutral-800);
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+.book-header__summary {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  list-style: none;
+  color: var(--rt-neutral-800);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+/* "Fix-up novel · Sector General, book 2 · …" */
+.book-header__summary li + li::before {
+  padding-inline: 0.5em;
+  content: "·";
+  color: var(--rt-neutral-200);
+}
+
+.book-header__summary li:first-child {
+  color: var(--rt-neutral-900);
+  font-weight: 600;
+}
+
+.book-header__relation {
+  margin: 0 0 1.25rem;
+  font-size: 1.125rem;
+}
+
+/* Details as a two-column grid: labels, then values, lined up. */
+.book-header__details {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.375rem 1.25rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.9375rem;
+}
+
+.book-header__details .field {
+  display: contents;
+}
+
+/* A field's clearfix ::after would take a grid cell of its own and push
+ * every later label into the value column. */
+.book-header__details .field::before,
+.book-header__details .field::after {
+  display: none;
+}
+
+.book-header__details .field__items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.book-header__details .field__label {
+  color: var(--rt-neutral-800);
+  font-weight: 600;
+}
+
+.book-header__details .field__label::after {
+  content: ":";
+}
+
+.book-header__synopsis {
+  max-width: 42rem;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+.book-header__credit {
+  color: var(--rt-neutral-800);
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+@media (max-width: 48rem) {
+  .book-header {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .book-header__cover {
+    max-width: 15rem;
+  }
+}

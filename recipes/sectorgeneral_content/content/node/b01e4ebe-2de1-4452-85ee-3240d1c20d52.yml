@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b01e4ebe-2de1-4452-85ee-3240d1c20d52
+  bundle: edition
+  default_langcode: en
+  depends:
+    248a2a4d-a8eb-4e13-96f8-c301777749af: taxonomy_term
+    26861d89-acc4-4ce5-8b18-0a60f715424e: taxonomy_term
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+    6bc8bc63-3c1a-4970-91b2-2f2ea3f2b702: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Retired: this serialisation is now listed issue by issue.'
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Turistplaneten, Häpna!, 1958'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/secret-visitors/turistplaneten-hapna-1958
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'James White Information (original site): “HAPNA, May to August 1958 as Touristplaneten”'
+  field_date_display:
+    -
+      value: 'May to August 1958'
+  field_format:
+    -
+      entity: 248a2a4d-a8eb-4e13-96f8-c301777749af
+  field_language:
+    -
+      entity: 26861d89-acc4-4ce5-8b18-0a60f715424e
+  field_novel:
+    -
+      entity: fec32d28-7455-4a8a-a448-67c3af694c28
+  field_publisher:
+    -
+      entity: 6bc8bc63-3c1a-4970-91b2-2f2ea3f2b702
+  field_sort_date:
+    -
+      value: '1958-05-01'
+  field_year:
+    -
+      value: 1958

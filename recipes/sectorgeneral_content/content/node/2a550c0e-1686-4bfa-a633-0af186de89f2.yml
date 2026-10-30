@@ -1,0 +1,102 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2a550c0e-1686-4bfa-a633-0af186de89f2
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    2d8cc63a-c949-4a9d-bfb7-0d8bf9579938: node
+    1a769d87-0bc1-4c92-8ea8-4eaf6448a480: node
+    041f10bb-7c59-494f-a586-9268f3a6337e: node
+    5703d36c-e6c4-4499-97a5-0ddb5c30eefa: media
+    8e18cf5b-6bf3-46d8-88f7-41e38d6484ca: taxonomy_term
+    d95704d4-f38d-4d7c-af90-bc84bb1367d4: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    1b570ef4-719e-4946-8a3b-231033cc201d: taxonomy_term
+    9922c4c6-66f7-4fc3-8ea1-57b3aa987d60: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?300367 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Galassia 32, 15 August 1963'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/galassia/galassia-32-15-august-1963
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 2d8cc63a-c949-4a9d-bfb7-0d8bf9579938
+    -
+      entity: 1a769d87-0bc1-4c92-8ea8-4eaf6448a480
+    -
+      entity: 041f10bb-7c59-494f-a586-9268f3a6337e
+  field_cover:
+    -
+      entity: 5703d36c-e6c4-4499-97a5-0ddb5c30eefa
+  field_cover_artist:
+    -
+      entity: 8e18cf5b-6bf3-46d8-88f7-41e38d6484ca
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?300367 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '15 August 1963'
+  field_editor:
+    -
+      entity: d95704d4-f38d-4d7c-af90-bc84bb1367d4
+  field_isfdb_id:
+    -
+      value: '300367'
+  field_issue_number:
+    -
+      value: '32'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_magazine:
+    -
+      entity: 1b570ef4-719e-4946-8a3b-231033cc201d
+  field_other_contributors:
+    -
+      entity: 9922c4c6-66f7-4fc3-8ea1-57b3aa987d60
+  field_pages:
+    -
+      value: 160
+  field_price:
+    -
+      value: 'Lit 180'
+  field_published_as:
+    -
+      value: 'Il pupo'
+    -
+      value: Emergenza
+    -
+      value: Emily
+  field_sort_date:
+    -
+      value: '1963-08-15'
+  field_year:
+    -
+      value: 1963

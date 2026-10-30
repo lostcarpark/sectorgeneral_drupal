@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 2d3a5cc2-cc3c-49b6-b77b-fd17a7058d77
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    bf8c24c9-6930-4dbf-b65a-4881151dc324: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Federation World, Del Rey, 1988 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 2993bcf735576d089835a5627d1d164fa2e63b2b
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Federation World: Ballantine, 1988'
+      title: ''
+      width: 119
+      height: 200
+      entity: bf8c24c9-6930-4dbf-b65a-4881151dc324

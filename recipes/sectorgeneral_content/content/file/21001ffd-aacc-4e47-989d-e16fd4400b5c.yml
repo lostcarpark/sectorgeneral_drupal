@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 21001ffd-aacc-4e47-989d-e16fd4400b5c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: gfngndsmrs1974.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/gfngndsmrs1974.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 30601
+  status:
+    -
+      value: true

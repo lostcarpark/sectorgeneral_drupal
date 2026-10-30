@@ -1,0 +1,23 @@
+uuid: e6b91cba-879e-4a8d-9ca9-181c498b3ed2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:560e32be-ae82-4367-93e4-dd770ce5cab2'
+  module:
+    - block_content
+  theme:
+    - sectorgeneral_theme
+id: sectorgeneral_theme_banner_credit
+theme: sectorgeneral_theme
+region: footer_bottom
+weight: 20
+provider: null
+plugin: 'block_content:560e32be-ae82-4367-93e4-dd770ce5cab2'
+settings:
+  id: 'block_content:560e32be-ae82-4367-93e4-dd770ce5cab2'
+  label: 'Banner image credit'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

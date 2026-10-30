@@ -1,0 +1,160 @@
+uuid: f101abcb-6495-47c3-bc87-96b7ede325ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.cover_image.field_image_hash
+    - field.field.media.cover_image.field_image_source
+    - field.field.media.cover_image.field_image_url
+    - field.field.media.cover_image.field_media_image
+    - field.field.media.cover_image.field_scanned_by
+    - field.field.media.cover_image.field_source_url
+    - field.field.media.cover_image.field_takedown_date
+    - field.field.media.cover_image.field_takedown_reason
+    - image.style.cover_small
+    - media.type.cover_image
+  module:
+    - datetime
+    - field_group
+    - image
+    - link
+    - path
+third_party_settings:
+  field_group:
+    group_takedown:
+      children:
+        - field_takedown_date
+        - field_takedown_reason
+      label: 'Takedown record'
+      region: content
+      parent_name: ''
+      weight: 7
+      format_type: details
+      format_settings:
+        classes: ''
+        id: ''
+        open: false
+        description: ''
+        required_fields: true
+    group_file:
+      children:
+        - field_image_url
+        - field_image_hash
+      label: 'Image file'
+      region: content
+      parent_name: ''
+      weight: 10
+      format_type: details
+      format_settings:
+        classes: ''
+        id: ''
+        open: false
+        description: ''
+        required_fields: true
+id: media.cover_image.default
+targetEntityType: media
+bundle: cover_image
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_image_hash:
+    type: string_textfield
+    weight: 9
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_image_source:
+    type: entity_reference_autocomplete
+    weight: 2
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_image_url:
+    type: link_default
+    weight: 8
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_media_image:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: cover_small
+    third_party_settings: {  }
+  field_scanned_by:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_source_url:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_takedown_date:
+    type: datetime_default
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_takedown_reason:
+    type: string_textarea
+    weight: 6
+    region: content
+    settings:
+      rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

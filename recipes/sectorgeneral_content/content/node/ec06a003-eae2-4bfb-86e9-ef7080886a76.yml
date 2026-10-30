@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ec06a003-eae2-4bfb-86e9-ef7080886a76
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    58c4561c-64ff-42d6-b7c9-3c4d1c7689b6: node
+    23f02f61-854f-4663-aba1-89a1fea32480: media
+    1a466796-c3ec-44bf-bae0-deef124e7148: taxonomy_term
+    00755522-03bf-4fbb-b9b8-73fc91f84cfa: taxonomy_term
+    26861d89-acc4-4ce5-8b18-0a60f715424e: taxonomy_term
+    4f00b253-4f48-4c29-b920-8819062b3f4f: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    3e7d2170-f99e-4731-9c56-982d211a2a86: taxonomy_term
+    62abe30a-e702-4f8c-a8dd-149acdb38933: taxonomy_term
+    134af15d-c13e-468e-a490-8b485539a877: taxonomy_term
+    c09a9052-1f59-4060-83f2-9c7e4e2a8c44: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?878524 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Häpna!, January 1962'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/hapna/hapna-january-1962
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 58c4561c-64ff-42d6-b7c9-3c4d1c7689b6
+  field_cover:
+    -
+      entity: 23f02f61-854f-4663-aba1-89a1fea32480
+  field_cover_artist:
+    -
+      entity: 1a466796-c3ec-44bf-bae0-deef124e7148
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?878524 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'January 1962'
+  field_editor:
+    -
+      entity: 00755522-03bf-4fbb-b9b8-73fc91f84cfa
+  field_isfdb_id:
+    -
+      value: '878524'
+  field_language:
+    -
+      entity: 26861d89-acc4-4ce5-8b18-0a60f715424e
+  field_magazine:
+    -
+      entity: 4f00b253-4f48-4c29-b920-8819062b3f4f
+  field_other_contributors:
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: 3e7d2170-f99e-4731-9c56-982d211a2a86
+    -
+      entity: 62abe30a-e702-4f8c-a8dd-149acdb38933
+    -
+      entity: 134af15d-c13e-468e-a490-8b485539a877
+    -
+      entity: c09a9052-1f59-4060-83f2-9c7e4e2a8c44
+  field_pages:
+    -
+      value: 98
+  field_price:
+    -
+      value: 'skr 1.80'
+  field_published_as:
+    -
+      value: 'Falskt alarm'
+  field_sort_date:
+    -
+      value: '1962-01-01'
+  field_year:
+    -
+      value: 1962

@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 01bfd768-68ea-4580-9da8-801137c819dc
+  bundle: anthology
+  default_langcode: en
+  depends:
+    388effb1-372e-4213-aa1e-20b4a8da3452: node
+    5b5b9d5b-6356-49ca-8311-3e602be0c376: media
+    6df4b919-0f9b-4cee-a557-0f05c44e360d: taxonomy_term
+    73270d02-2d89-4ef1-bf58-115c7841b051: taxonomy_term
+    d95f4640-19c9-4d44-b35f-75c0221afcaf: taxonomy_term
+    c01e77d7-e6d0-4334-8c03-b71ee8aa1581: taxonomy_term
+    4d565092-f148-4b8f-8093-5be0d5d07faf: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    0025648b-54d7-408f-bfa7-2f03c1512dd1: taxonomy_term
+    bb8bd2c4-ee16-4ee1-a1cc-d1ab949d6431: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1177097 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Santa 2000'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/santa-2000
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Dragon, December 1984.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 388effb1-372e-4213-aa1e-20b4a8da3452
+  field_cover:
+    -
+      entity: 5b5b9d5b-6356-49ca-8311-3e602be0c376
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1177097 (CC BY 4.0).
+  field_editor:
+    -
+      entity: 6df4b919-0f9b-4cee-a557-0f05c44e360d
+    -
+      entity: 73270d02-2d89-4ef1-bf58-115c7841b051
+  field_first_published_year:
+    -
+      value: 1984
+  field_isfdb_id:
+    -
+      value: '1177097'
+  field_other_contributors:
+    -
+      entity: d95f4640-19c9-4d44-b35f-75c0221afcaf
+    -
+      entity: c01e77d7-e6d0-4334-8c03-b71ee8aa1581
+    -
+      entity: 4d565092-f148-4b8f-8093-5be0d5d07faf
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: 0025648b-54d7-408f-bfa7-2f03c1512dd1
+  field_publisher:
+    -
+      entity: bb8bd2c4-ee16-4ee1-a1cc-d1ab949d6431

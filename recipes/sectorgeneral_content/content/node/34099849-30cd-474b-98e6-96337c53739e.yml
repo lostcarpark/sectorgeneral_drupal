@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 34099849-30cd-474b-98e6-96337c53739e
+  bundle: edition
+  default_langcode: en
+  depends:
+    24999d0b-55b0-404e-a637-875b01fe400b: media
+    98198ea5-db97-409a-92f0-7f61cee9333f: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    7dba4fce-58ed-48bb-830b-7609fe63975b: node
+    ff0a937b-0127-482f-9cad-0a1adda0da18: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?328959 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Aliens Among Us, Ian Henry Publications, 1979'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/aliens-among-us/aliens-among-us-ian-henry-publications-1979
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 24999d0b-55b0-404e-a637-875b01fe400b
+  field_cover_artist:
+    -
+      entity: 98198ea5-db97-409a-92f0-7f61cee9333f
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ian Henry Publications, Hornchurch, Essex, No 86025-140-3, with Occupation: Warrior deleted, April 1979”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?328959 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9647534M (CC0).
+  field_date_display:
+    -
+      value: 'April 1979'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isbn:
+    -
+      value: '9780860251408'
+  field_isfdb_id:
+    -
+      value: '328959'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 7dba4fce-58ed-48bb-830b-7609fe63975b
+  field_oclc:
+    -
+      value: '6206026'
+  field_openlibrary_id:
+    -
+      value: OL9647534M
+  field_pages:
+    -
+      value: 162
+  field_price:
+    -
+      value: £3.95
+  field_publisher:
+    -
+      entity: ff0a937b-0127-482f-9cad-0a1adda0da18
+  field_sort_date:
+    -
+      value: '1979-04-01'
+  field_year:
+    -
+      value: 1979

@@ -1,0 +1,26 @@
+uuid: ccae56d9-1ddd-413c-bcc1-9bdd7c07100d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cover_artist
+    - node.type.magazine_issue
+    - taxonomy.vocabulary.people
+id: node.magazine_issue.field_cover_artist
+field_name: field_cover_artist
+entity_type: node
+bundle: magazine_issue
+label: 'Cover artist'
+description: 'Use "Uncredited" if the artist is unknown. Separate several names with commas.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      people: people
+    auto_create: true
+    auto_create_bundle: people
+field_type: entity_reference

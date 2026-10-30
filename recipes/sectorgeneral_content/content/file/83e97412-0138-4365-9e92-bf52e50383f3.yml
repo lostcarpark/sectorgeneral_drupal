@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 83e97412-0138-4365-9e92-bf52e50383f3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mindchangertor.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/mindchangertor.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4221
+  status:
+    -
+      value: true

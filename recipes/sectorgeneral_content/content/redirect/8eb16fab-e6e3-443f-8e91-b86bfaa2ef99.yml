@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 8eb16fab-e6e3-443f-8e91-b86bfaa2ef99
+  bundle: redirect
+  default_langcode: und
+  depends:
+    8f62531c-e6bd-4e45-92ef-467feb825b56: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: _FgDpXLmYL7wOJIRG1IKnI7AZBws0c5oxNO1CfS1DR0
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/pushoverplanet.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 8f62531c-e6bd-4e45-92ef-467feb825b56
+  status_code:
+    -
+      value: 301

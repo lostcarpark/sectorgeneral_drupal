@@ -1,0 +1,119 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8ba64d10-fdec-4baa-b172-475de3855926
+  bundle: anthology
+  default_langcode: en
+  depends:
+    4d139053-8f19-418c-a119-a1173e437ff9: node
+    76b2e2dc-9cc7-4e9f-b842-0d0131aa3101: media
+    62bd0ee0-2aed-4a72-b8c0-23c2cc553e62: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    cfb517de-c06d-4f4d-8605-cf711df41713: taxonomy_term
+    b0034d8c-4700-4416-ac8c-790c9eb9de94: taxonomy_term
+    432a8bdb-a2c7-4b6e-bd93-84b8e37011b2: taxonomy_term
+    e613edcf-203e-48ff-8a70-3dc22f2becd4: taxonomy_term
+    d8ad1c3d-4f9e-4290-9904-f73596c8783e: taxonomy_term
+    1ab17bfb-57b2-441b-b0e5-b5d8462f2649: taxonomy_term
+    649b675e-8e4b-401a-a42a-07cafcd94bc7: taxonomy_term
+    ae1b8ea3-df08-4563-8f60-954b209ec617: taxonomy_term
+    0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea: taxonomy_term
+    d822bab7-5f65-4438-9339-b22260ba5fe0: taxonomy_term
+    e88abba8-bce7-4828-a540-1b7d790a5f9c: taxonomy_term
+    be616e63-0879-4fb2-84fd-d4646f4af6f4: taxonomy_term
+    b226aeaa-e71f-48e7-b1bb-540fe32b5459: taxonomy_term
+    28feabe4-9c4d-485f-bf11-f0a05d115d4e: taxonomy_term
+    09a3233d-8922-4577-8efe-42208e975a29: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?35625 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Best of British SF 2'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/best-british-sf-2
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Futura, Autumn 1977.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 4d139053-8f19-418c-a119-a1173e437ff9
+  field_cover:
+    -
+      entity: 76b2e2dc-9cc7-4e9f-b842-0d0131aa3101
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?35625 (CC BY 4.0).
+  field_editor:
+    -
+      entity: 62bd0ee0-2aed-4a72-b8c0-23c2cc553e62
+  field_first_published_year:
+    -
+      value: 1977
+  field_isfdb_id:
+    -
+      value: '35625'
+  field_other_contributors:
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: cfb517de-c06d-4f4d-8605-cf711df41713
+    -
+      entity: b0034d8c-4700-4416-ac8c-790c9eb9de94
+    -
+      entity: 432a8bdb-a2c7-4b6e-bd93-84b8e37011b2
+    -
+      entity: e613edcf-203e-48ff-8a70-3dc22f2becd4
+    -
+      entity: d8ad1c3d-4f9e-4290-9904-f73596c8783e
+    -
+      entity: 1ab17bfb-57b2-441b-b0e5-b5d8462f2649
+    -
+      entity: 649b675e-8e4b-401a-a42a-07cafcd94bc7
+    -
+      entity: ae1b8ea3-df08-4563-8f60-954b209ec617
+    -
+      entity: 0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea
+    -
+      entity: d822bab7-5f65-4438-9339-b22260ba5fe0
+    -
+      entity: e88abba8-bce7-4828-a540-1b7d790a5f9c
+    -
+      entity: be616e63-0879-4fb2-84fd-d4646f4af6f4
+    -
+      entity: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+  field_publisher:
+    -
+      entity: 28feabe4-9c4d-485f-bf11-f0a05d115d4e
+  field_series:
+    -
+      entity: 09a3233d-8922-4577-8efe-42208e975a29
+  field_series_number:
+    -
+      value: 2

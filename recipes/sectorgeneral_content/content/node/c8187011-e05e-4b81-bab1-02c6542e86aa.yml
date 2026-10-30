@@ -1,0 +1,72 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c8187011-e05e-4b81-bab1-02c6542e86aa
+  bundle: edition
+  default_langcode: en
+  depends:
+    451985ac-b122-4a74-ba94-a0baa3f0666b: media
+    248a2a4d-a8eb-4e13-96f8-c301777749af: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    a7b82729-0189-4053-8e54-a3c316573a0a: node
+    312c69c1-f2fa-409a-a06c-a02d7d19522f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Retired: this serialisation is now listed issue by issue.'
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Open Prison, New Worlds, 1964'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/open-prison/open-prison-new-worlds-1964
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 451985ac-b122-4a74-ba94-a0baa3f0666b
+  field_data_sources:
+    -
+      value: 'James White Information (original site): “NEW WORLDS Nos 139-141, February to April 1964”'
+  field_date_display:
+    -
+      value: 'February to April 1964'
+  field_format:
+    -
+      entity: 248a2a4d-a8eb-4e13-96f8-c301777749af
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: a7b82729-0189-4053-8e54-a3c316573a0a
+  field_publisher:
+    -
+      entity: 312c69c1-f2fa-409a-a06c-a02d7d19522f
+  field_publisher_reference:
+    -
+      value: 139-141
+  field_sort_date:
+    -
+      value: '1964-02-01'
+  field_year:
+    -
+      value: 1964

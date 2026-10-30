@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 1f32e8a9-9cc4-4dc6-b3af-b896a47b639e
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    6296b399-a65b-4ff5-8bea-c3900325b7b9: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Science-Fiction-Stories 73 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: c2c910f12ef6bb904fe62245b988ec4103b251ab
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://images-na.ssl-images-amazon.com/images/I/51XlTYvGB%2BL.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Science-Fiction-Stories 73 cover'
+      title: ''
+      width: 323
+      height: 500
+      entity: 6296b399-a65b-4ff5-8bea-c3900325b7b9
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?641880'
+      title: null
+      options: {  }

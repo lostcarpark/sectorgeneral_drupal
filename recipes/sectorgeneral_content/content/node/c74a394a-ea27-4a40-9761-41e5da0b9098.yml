@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c74a394a-ea27-4a40-9761-41e5da0b9098
+  bundle: edition
+  default_langcode: en
+  depends:
+    ad510d93-66b2-4527-8d94-cad50c655c21: media
+    9ba02792-0c3a-4e38-b5d6-bd1394c702be: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930: node
+    03c0e826-c5ee-456f-8600-d2652179fbeb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Own cover restored: a larger picture of a different edition had replaced it.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Major Operation, Ballantine'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/major-operation/major-operation-ballantine
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: ad510d93-66b2-4527-8d94-cad50c655c21
+  field_cover_artist:
+    -
+      entity: 9ba02792-0c3a-4e38-b5d6-bd1394c702be
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Edition known only from the cover image majoroperationballantine3rd.jpg”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?296627 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL10681786M (CC0).
+  field_date_display:
+    -
+      value: 'February 1971'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345021496'
+  field_isfdb_id:
+    -
+      value: '296627'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930
+  field_oclc:
+    -
+      value: '1179402'
+  field_openlibrary_id:
+    -
+      value: OL10681786M
+  field_pages:
+    -
+      value: 183
+  field_price:
+    -
+      value: $0.95
+  field_printing:
+    -
+      value: '3rd printing'
+  field_publisher:
+    -
+      entity: 03c0e826-c5ee-456f-8600-d2652179fbeb
+  field_sort_date:
+    -
+      value: '1971-02-01'
+  field_year:
+    -
+      value: 1971

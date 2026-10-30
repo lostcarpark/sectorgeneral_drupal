@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e2084de9-fb6b-4977-b4ec-21a662e6e89f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dblcntct1999.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/dblcntct1999.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 77657
+  status:
+    -
+      value: true

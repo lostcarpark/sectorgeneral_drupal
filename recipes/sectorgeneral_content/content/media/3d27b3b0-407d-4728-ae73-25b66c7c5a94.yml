@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 3d27b3b0-407d-4728-ae73-25b66c7c5a94
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    5b012bf1-035c-4913-a5e9-6988e1645f5b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Double Contact, Gateway / Orion, 2026 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 2e266a16281626ae268fd6904808bfbb926157d1
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://m.media-amazon.com/images/I/51jPS8ATAeL.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Double Contact, Gateway / Orion, 2026 cover'
+      title: ''
+      width: 326
+      height: 500
+      entity: 5b012bf1-035c-4913-a5e9-6988e1645f5b
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?1124806'
+      title: null
+      options: {  }

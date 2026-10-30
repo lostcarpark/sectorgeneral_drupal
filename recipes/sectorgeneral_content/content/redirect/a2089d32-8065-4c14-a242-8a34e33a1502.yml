@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: a2089d32-8065-4c14-a242-8a34e33a1502
+  bundle: redirect
+  default_langcode: en
+  depends:
+    06f55312-9fce-44f4-840f-06792db4a229: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: eOdsx0ttj0m8TOgp-C941ITZ2lZPA-1pIoIT8mXDejc
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/secret-visitors/i-visitatori-occulti-futuria-1964
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 06f55312-9fce-44f4-840f-06792db4a229
+  status_code:
+    -
+      value: 301

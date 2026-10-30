@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5b4792ee-74b4-45f9-948c-1d541c517903
+  bundle: anthology
+  default_langcode: en
+  depends:
+    b04ef842-1d51-49f0-bcc3-39c8bcab1fed: node
+    78a65129-41ba-447f-9c7f-04f21fc9f1bf: media
+    edbec0a9-022c-4dc8-b237-079552374317: taxonomy_term
+    77544555-948e-481d-908b-00dd50b37de1: taxonomy_term
+    0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    e613edcf-203e-48ff-8a70-3dc22f2becd4: taxonomy_term
+    814d15a4-f951-437c-a74d-e967699f4db3: taxonomy_term
+    684df443-273d-4c5d-8497-99b2a24f00e6: taxonomy_term
+    fbefdf38-7f6c-4db1-8291-254e8ff7178f: taxonomy_term
+    f9bda808-a974-4928-933a-4226b40ed7b5: taxonomy_term
+    b226aeaa-e71f-48e7-b1bb-540fe32b5459: taxonomy_term
+    1d5a0744-99f6-4322-9ffe-bb40cc2e622c: taxonomy_term
+    2f819fba-eb80-4b2b-82db-dfc3e44005e7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?34501 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Out of This World 4'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/out-world-4
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Blackie, 1964, Hardback. Blackie, 1971, Hardback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: b04ef842-1d51-49f0-bcc3-39c8bcab1fed
+  field_cover:
+    -
+      entity: 78a65129-41ba-447f-9c7f-04f21fc9f1bf
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?34501 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: edbec0a9-022c-4dc8-b237-079552374317
+    -
+      entity: 77544555-948e-481d-908b-00dd50b37de1
+  field_first_published_year:
+    -
+      value: 1964
+  field_isfdb_id:
+    -
+      value: '34501'
+  field_other_contributors:
+    -
+      entity: 0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: e613edcf-203e-48ff-8a70-3dc22f2becd4
+    -
+      entity: 814d15a4-f951-437c-a74d-e967699f4db3
+    -
+      entity: 684df443-273d-4c5d-8497-99b2a24f00e6
+    -
+      entity: edbec0a9-022c-4dc8-b237-079552374317
+    -
+      entity: fbefdf38-7f6c-4db1-8291-254e8ff7178f
+    -
+      entity: f9bda808-a974-4928-933a-4226b40ed7b5
+    -
+      entity: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+  field_publisher:
+    -
+      entity: 1d5a0744-99f6-4322-9ffe-bb40cc2e622c
+  field_series:
+    -
+      entity: 2f819fba-eb80-4b2b-82db-dfc3e44005e7
+  field_series_number:
+    -
+      value: 4

@@ -1,0 +1,25 @@
+uuid: 531b75ae-5bf0-4ed0-902b-666e695e60c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - sectorgeneral
+    - system
+  theme:
+    - sectorgeneral_theme
+id: sectorgeneral_theme_around_the_world
+theme: sectorgeneral_theme
+region: content
+weight: 12
+provider: null
+plugin: sectorgeneral_around_the_world
+settings:
+  id: sectorgeneral_around_the_world
+  label: 'Around the world'
+  label_display: visible
+  provider: sectorgeneral
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

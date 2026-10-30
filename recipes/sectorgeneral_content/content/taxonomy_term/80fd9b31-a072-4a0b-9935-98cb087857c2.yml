@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 80fd9b31-a072-4a0b-9935-98cb087857c2
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Rob Meades'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/rob-meades
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

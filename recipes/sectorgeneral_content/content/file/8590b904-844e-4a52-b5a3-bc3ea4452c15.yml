@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8590b904-844e-4a52-b5a3-bc3ea4452c15
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: vgtlvpmkbg1975.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/vgtlvpmkbg1975.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 142098
+  status:
+    -
+      value: true

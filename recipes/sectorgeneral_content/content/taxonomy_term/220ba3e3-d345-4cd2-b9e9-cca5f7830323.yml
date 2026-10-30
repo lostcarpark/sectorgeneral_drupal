@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 220ba3e3-d345-4cd2-b9e9-cca5f7830323
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Doug Beekman'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/doug-beekman
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 296df89d-d1aa-4d32-bfc0-56a5f11d9226
+  bundle: redirect
+  default_langcode: und
+  depends:
+    56cef02b-2a63-4db1-93af-a8e8a86059f3: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: Nb7v1QBANVCQdemvSkg8lu87e1SAO9HSVTZlAR9KFfU
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: short-stories/type-genie-run
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 56cef02b-2a63-4db1-93af-a8e8a86059f3
+  status_code:
+    -
+      value: 301

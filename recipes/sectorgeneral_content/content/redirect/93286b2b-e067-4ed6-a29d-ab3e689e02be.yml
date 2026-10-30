@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 93286b2b-e067-4ed6-a29d-ab3e689e02be
+  bundle: redirect
+  default_langcode: en
+  depends:
+    06aa2580-8e68-4b72-9a00-f5d252de9de3: taxonomy_term
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: aiC6_ebfU2owVRdERWt2GHqwvpb8SF0nKcTxAw04m3w
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: publisher/futura-orbit
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 06aa2580-8e68-4b72-9a00-f5d252de9de3
+  status_code:
+    -
+      value: 301

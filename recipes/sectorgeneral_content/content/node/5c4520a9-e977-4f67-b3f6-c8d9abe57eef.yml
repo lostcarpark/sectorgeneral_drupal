@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5c4520a9-e977-4f67-b3f6-c8d9abe57eef
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?90609 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Dark Talisman'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/dark-talisman
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>For one mad moment, I entertained the notion that James White had foretold the cosmic punishment of President Richard M. Nixon. The line &quot;Nixon was suffering -- terribly&quot; raised my moralistic hopes still further. But this particular is Ben Nixon, the nerdish brother of genius-level scientist Dr Charles L. Ben has stolen the Doc&#039;s foolproof indestructability device, with consequences that can rightfully be called infernal. The biter is well and truly bitten; over and over and over again. A warning to the curious: DON&#039;T TRY THIS AT HOME!</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?90609 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1958
+  field_isfdb_id:
+    -
+      value: '90609'
+  field_opening_excerpt:
+    -
+      value: '<p>Nixon hung in space, turning slowly.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEBULA SCIENCE FICTION, No. 35, October 1958</p>'
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 6500

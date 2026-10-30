@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 53d05bbb-f921-4f93-9efb-d3bcb70b0e61
+  bundle: redirect
+  default_langcode: und
+  depends:
+    242ab4d4-d289-4280-8ab6-324f95a0ab66: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: Q2h7whKgw8Zbiics9P8tfiRWGQL5XHTm6YJx5LPL0hc
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/tokillorcure.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 242ab4d4-d289-4280-8ab6-324f95a0ab66
+  status_code:
+    -
+      value: 301

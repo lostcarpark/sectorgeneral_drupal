@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 524403d5-e150-49f1-83ad-403d2ae68207
+  bundle: novel
+  default_langcode: en
+  depends:
+    388effb1-372e-4213-aa1e-20b4a8da3452: node
+    2c31e10b-959a-4533-82b6-2f56e54b9b76: node
+    0346a6fe-dcfd-4866-a8a1-550a65207446: node
+    ad7e263f-afa9-49e6-a611-f2fd53633b5e: node
+    575bf27f-73f9-4d5e-bdb8-35ffde6a27aa: node
+    0fc350d1-fc4b-4f0e-97fe-d0cf4450b272: node
+    2d8cc63a-c949-4a9d-bfb7-0d8bf9579938: node
+    d4cd1539-557c-47d8-8cb1-eec206258260: node
+    bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2: node
+    efcd9ff5-c9f2-46c9-9836-63fdf266eafb: node
+    be1383aa-b878-4959-a003-d938c4718c99: media
+    88942e1a-f5b3-4404-b0c6-bd2b1e03d5a2: taxonomy_term
+    0134c200-ce53-4a25-9763-44f04e04d527: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Corrected contents and synopsis credit (scripts/fix_book_contents.php).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The White Papers'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/white-papers
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>Another notable retrtome from NESFA, who have done equally well by the likes of Charles L. Harness, Murray Leinster, and Eric Frank Russell. The contents are Tabled below. For now, however, I&#039;d like to quote part of Mike Resnick&#039;s witty Introduction:</p>
+        <p>&quot;So why (I hear you ask) do I, who can most charitably be termed cynical, and whose endings are not always the happiest, have such admiration for James White? . . . First, because the man is a craftsman and an artist, and I have unbounded respect for both traits . . . And second, and perhaps more importantly, because while I may write about my universe, I wish I could live in his&quot; (p. 15). Click here to read Mike Resnick&#039;s introduction.</p>
+        <p>Also, I can only nod in agreement with this extract from Walt Willis&#039;s &#039;James White&#039; tribute piece: &quot; . . . you were always a better person for reading a James White story. Without lecturing his readers, he always made clear what was the right way to behave in any circumstances, and why&quot; (p. 21).</p>
+        <p>Fiction: &#039;Custom Fitting&#039;; &#039;Commuter&#039;; &#039;House Sitter&#039;; &#039;Sanctuary&#039;; &#039;Christmas Treason&#039;; &#039;The Secret History of Sector General&#039; (article: see under Non-Fiction); &#039;Accident&#039;; &#039;Medic&#039;; &#039;Countercharm&#039;; &#039;Visitor at Large&#039; (see under Short Stories).</p>
+        <p>Fan Writing: &#039;An Introduction to Real Virtuality&#039; (by Bruce Pelz); &#039;The Last Time I Saw Harris&#039;; &#039;The Beacon&#039;; &#039;The Not-So-Hot Gospeller&#039;; &#039;The Long Afternoon of Harrowgate&#039;; &#039;The History of IF&#039;; &#039;The Quinze-y Report&#039;; &#039;Fester on the Fringe&#039;; &#039;The Exorcists of IF&#039;; &#039;The Unreal George Affair&#039; (see under Non-Fiction).</p>
+        <p>More about Sector General: &#039;Sector General Timeline&#039; (Gary Louie); &#039;Notes on the Classification System&#039;; &#039;The Classification System&#039; (Gary Louie).</p>
+      format: basic_html
+      summary: 'To mark the appearance of James at LA con III Worldcon, as Guest of Honour. A selection of ten short stories and nine pieces of fan writing by James, including a timeline of Sector General, and a piece on the classification system that he used. Not forgetting the fantastic introductions by Walt Willis and Mike Resnick.'
+  field_book_type:
+    -
+      value: collection
+  field_contents:
+    -
+      entity: 388effb1-372e-4213-aa1e-20b4a8da3452
+    -
+      entity: 2c31e10b-959a-4533-82b6-2f56e54b9b76
+    -
+      entity: 0346a6fe-dcfd-4866-a8a1-550a65207446
+    -
+      entity: ad7e263f-afa9-49e6-a611-f2fd53633b5e
+    -
+      entity: 575bf27f-73f9-4d5e-bdb8-35ffde6a27aa
+    -
+      entity: 0fc350d1-fc4b-4f0e-97fe-d0cf4450b272
+    -
+      entity: 2d8cc63a-c949-4a9d-bfb7-0d8bf9579938
+    -
+      entity: d4cd1539-557c-47d8-8cb1-eec206258260
+    -
+      entity: bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2
+    -
+      entity: efcd9ff5-c9f2-46c9-9836-63fdf266eafb
+  field_cover:
+    -
+      entity: be1383aa-b878-4959-a003-d938c4718c99
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?38229 (CC BY 4.0).
+  field_editor:
+    -
+      entity: 88942e1a-f5b3-4404-b0c6-bd2b1e03d5a2
+    -
+      entity: 0134c200-ce53-4a25-9763-44f04e04d527
+  field_first_published_year:
+    -
+      value: 1996
+  field_isfdb_id:
+    -
+      value: '38229'
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 130000

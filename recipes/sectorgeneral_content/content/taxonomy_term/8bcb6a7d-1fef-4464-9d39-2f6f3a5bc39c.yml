@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8bcb6a7d-1fef-4464-9d39-2f6f3a5bc39c
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Doris Pitkin Buck'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/doris-pitkin-buck
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

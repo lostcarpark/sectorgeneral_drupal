@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f1f6650a-1152-4eb1-9700-cfbbcc8ef8ee
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: star_surgeon_ballantine_1963.jpg
+  uri:
+    -
+      value: 'public://2016-03/star_surgeon_ballantine_1963_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 23576
+  status:
+    -
+      value: true

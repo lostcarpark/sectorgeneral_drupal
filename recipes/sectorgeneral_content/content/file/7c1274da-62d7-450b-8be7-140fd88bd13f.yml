@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7c1274da-62d7-450b-8be7-140fd88bd13f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: escapeorbitace65.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/escapeorbitace65.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4130
+  status:
+    -
+      value: true

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 94ed3402-972a-4c02-81b2-afe06cc0282a
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Ardrey Marshall'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/ardrey-marshall
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

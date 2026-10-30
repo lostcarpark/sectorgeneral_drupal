@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9d43bf72-8dd6-4da3-b6e0-1c13b0457331
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nblscncfcc1959.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/nblscncfcc1959.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 43852
+  status:
+    -
+      value: true

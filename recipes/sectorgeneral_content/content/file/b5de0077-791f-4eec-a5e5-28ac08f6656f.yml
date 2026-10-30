@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b5de0077-791f-4eec-a5e5-28ac08f6656f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dreammillenniummichaeljoesph74.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/dreammillenniummichaeljoesph74.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3178
+  status:
+    -
+      value: true

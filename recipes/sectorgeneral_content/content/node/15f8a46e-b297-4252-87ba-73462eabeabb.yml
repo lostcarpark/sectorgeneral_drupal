@@ -1,0 +1,112 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 15f8a46e-b297-4252-87ba-73462eabeabb
+  bundle: edition
+  default_langcode: en
+  depends:
+    daa4bb65-1ab6-4782-9e86-54c942964798: media
+    63dd32b6-3f42-4006-b938-7516f8bb702c: taxonomy_term
+    af9ac495-504b-46d0-a128-b7f11172a739: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    62862122-c514-4f24-8c75-e5e6741745f4: node
+    3b909b15-13a9-4c7d-a459-89c332b5236c: taxonomy_term
+    590c12c5-5a6d-4044-b4b1-135c1394b922: taxonomy_term
+    5b7e1140-6ea5-4060-9aad-d89222c43665: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/94330041X'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Der Wunderheiler, Heyne Verlag, 1995'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-healer/der-wunderheiler-heyne-verlag-1995
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: daa4bb65-1ab6-4782-9e86-54c942964798
+  field_cover_artist:
+    -
+      entity: 63dd32b6-3f42-4006-b938-7516f8bb702c
+    -
+      entity: af9ac495-504b-46d0-a128-b7f11172a739
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Wilhelm Heyne, Munich, No 06/4980, ISBN 3-453-07969-8, 1995 as Der Wunderheiler.”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1113043 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL39219649M (CC0).
+        Deutsche Nationalbibliothek record https://d-nb.info/94330041X (CC0).
+  field_date_display:
+    -
+      value: '1995'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9783453079694'
+  field_isfdb_id:
+    -
+      value: '1113043'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 62862122-c514-4f24-8c75-e5e6741745f4
+  field_openlibrary_id:
+    -
+      value: OL39219649M
+  field_pages:
+    -
+      value: 318
+  field_price:
+    -
+      value: 'DM 12.90'
+  field_printing:
+    -
+      value: 'Dt. Erstausg.'
+  field_publisher:
+    -
+      entity: 3b909b15-13a9-4c7d-a459-89c332b5236c
+  field_publisher_reference:
+    -
+      value: 06/4980
+  field_publisher_series:
+    -
+      entity: 590c12c5-5a6d-4044-b4b1-135c1394b922
+  field_publisher_series_number:
+    -
+      value: '4980'
+  field_sort_date:
+    -
+      value: '1995-01-01'
+  field_translator:
+    -
+      entity: 5b7e1140-6ea5-4060-9aad-d89222c43665
+  field_year:
+    -
+      value: 1995

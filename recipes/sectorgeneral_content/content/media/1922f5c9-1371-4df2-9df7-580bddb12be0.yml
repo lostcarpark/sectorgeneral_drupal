@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 1922f5c9-1371-4df2-9df7-580bddb12be0
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    a44694a7-ead0-4357-abfd-09c8831c928c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Dream Millennium, Ballantine, 1974 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 869cd7dcadaae56c89e005fae73c121cacd859d9
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Dream Millennium cover'
+      title: ''
+      width: 100
+      height: 169
+      entity: a44694a7-ead0-4357-abfd-09c8831c928c

@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 906ff072-9fcf-40b0-a7af-78ca53e6f192
+  bundle: edition
+  default_langcode: en
+  depends:
+    e7eac997-8a4e-4c92-b46e-3af995894ea8: media
+    299433a4-6c7c-4d92-bb1b-7ace61a9b125: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    779b62ef-d345-4a4e-8177-ea35a0d9b212: node
+    47dcdfd9-5b9d-431e-b100-e494eb3e62cd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL9472155M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Genocidal Healer, Del Rey, 1992'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/genocidal-healer/genocidal-healer-del-rey-1992
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: e7eac997-8a4e-4c92-b46e-3af995894ea8
+  field_cover_artist:
+    -
+      entity: 299433a4-6c7c-4d92-bb1b-7ace61a9b125
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ballantine/Del Rey, NY, ISBN 0-345-37109-7, February 1992”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?40477 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9472155M (CC0).
+  field_date_display:
+    -
+      value: 'February 1992'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345371096'
+  field_isfdb_id:
+    -
+      value: '40477'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 779b62ef-d345-4a4e-8177-ea35a0d9b212
+  field_oclc:
+    -
+      value: '25160179'
+  field_openlibrary_id:
+    -
+      value: OL9472155M
+  field_pages:
+    -
+      value: 219
+  field_price:
+    -
+      value: $4.99
+  field_publisher:
+    -
+      entity: 47dcdfd9-5b9d-431e-b100-e494eb3e62cd
+  field_sort_date:
+    -
+      value: '1992-02-01'
+  field_year:
+    -
+      value: 1992

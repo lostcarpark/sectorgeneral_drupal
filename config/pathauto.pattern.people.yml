@@ -1,0 +1,23 @@
+uuid: ffbd5bfb-c1e8-4066-ac21-dd2489c3b3a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.people
+  module:
+    - taxonomy
+id: people
+label: People
+type: 'canonical_entities:taxonomy_term'
+pattern: '/people/[term:name]'
+selection_criteria:
+  8072b674-106d-4513-81b2-e27e3dcbd619:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      people: people
+selection_logic: and
+weight: 5
+relationships: {  }

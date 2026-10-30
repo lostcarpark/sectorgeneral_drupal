@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: a8947937-ff5c-494c-bb7f-2d4f2be234f0
+  bundle: redirect
+  default_langcode: und
+  depends:
+    0ed15ef8-7d60-40bf-a183-67d85295468f: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: EpXAYnRn7xfbaise_J8jfOoQexcFTLYTDxjzB8J2upY
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/meatball.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 0ed15ef8-7d60-40bf-a183-67d85295468f
+  status_code:
+    -
+      value: 301

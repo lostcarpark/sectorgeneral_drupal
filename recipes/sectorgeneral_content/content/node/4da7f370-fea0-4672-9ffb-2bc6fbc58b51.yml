@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4da7f370-fea0-4672-9ffb-2bc6fbc58b51
+  bundle: edition
+  default_langcode: en
+  depends:
+    23b4bd71-ef82-45fb-95f3-63732fa40807: media
+    fc970b4c-0852-4449-98b5-489f02f20e33: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    779b62ef-d345-4a4e-8177-ea35a0d9b212: node
+    8fdab28d-c11a-486c-8142-8370fa36490b: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover replaced by a larger image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?40476'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Genocidal Healer, SFBC, 1992'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/genocidal-healer/genocidal-healer-sfbc-1992
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 23b4bd71-ef82-45fb-95f3-63732fa40807
+  field_cover_artist:
+    -
+      entity: fc970b4c-0852-4449-98b5-489f02f20e33
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “BB hardcover SF Book Club edition No 19557, May 1992.”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?40476 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'May 1992'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isfdb_id:
+    -
+      value: '40476'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 779b62ef-d345-4a4e-8177-ea35a0d9b212
+  field_oclc:
+    -
+      value: '26679321'
+  field_pages:
+    -
+      value: 219
+  field_price:
+    -
+      value: $6.98
+  field_printing:
+    -
+      value: 'Book club edition'
+  field_publisher:
+    -
+      entity: 8fdab28d-c11a-486c-8142-8370fa36490b
+  field_publisher_reference:
+    -
+      value: '19557'
+  field_sort_date:
+    -
+      value: '1992-05-01'
+  field_year:
+    -
+      value: 1992

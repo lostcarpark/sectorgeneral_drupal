@@ -1,0 +1,96 @@
+/**
+ * @file
+ * Listing filters as rows of buttons (see src/Hook/ExposedFormHooks.php).
+ *
+ * Each filter is a group of radio buttons; the radios themselves are hidden
+ * and their labels drawn as buttons, the chosen one filled in.
+ */
+
+.views-exposed-form--buttons .form--inline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.views-exposed-form--buttons fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.views-exposed-form--buttons legend {
+  margin-bottom: 0.5rem;
+  padding: 0;
+  color: var(--rt-neutral-800);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* The class is on the fieldset (and, by Drupal, on each radio). */
+.filter-buttons .form-radios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-buttons .form-item {
+  position: relative;
+  margin: 0;
+}
+
+/* Hidden but still focusable and announced. */
+.filter-buttons input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.filter-buttons label.option {
+  display: block;
+  padding: 0.375rem 0.875rem;
+  cursor: pointer;
+  transition:
+    background-color 150ms ease-in-out,
+    border-color 150ms ease-in-out,
+    color 150ms ease-in-out;
+  color: var(--rt-neutral-900);
+  border: 1px solid var(--rt-neutral-200);
+  border-radius: 999px;
+  background-color: var(--rt-white);
+  font-size: 0.9375rem;
+  line-height: 1.3;
+}
+
+.filter-buttons .form-item:hover label.option {
+  border-color: var(--rt-primary-500);
+  color: var(--rt-primary-600);
+}
+
+.filter-buttons input:checked + label.option {
+  color: var(--rt-white);
+  border-color: var(--rt-primary-500);
+  background-color: var(--rt-primary-500);
+}
+
+.filter-buttons input:focus-visible + label.option {
+  outline: 2px solid var(--rt-primary-500);
+  outline-offset: 2px;
+}
+
+/* With JavaScript, choosing applies the filter, so Apply isn't needed. */
+.js .views-exposed-form--buttons .form-actions {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .filter-buttons label.option {
+    transition: none;
+  }
+}

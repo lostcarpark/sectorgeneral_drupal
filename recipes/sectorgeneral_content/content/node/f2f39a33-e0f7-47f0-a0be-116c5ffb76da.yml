@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f2f39a33-e0f7-47f0-a0be-116c5ffb76da
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    3ac249fd-3e13-4041-9802-b00ca1b9f21c: node
+    3caae418-137f-417a-9f5c-d6b0e448db38: media
+    007d86a4-94ea-4b74-a63e-877ea1ab3496: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    36300acd-46ee-45b8-be41-1d56ae6cb991: taxonomy_term
+    1c9ec00b-ba63-4e91-981d-529ee7b83d7a: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+    c88e4753-e8d2-4de5-ac51-4d39961b364c: taxonomy_term
+    59333f1c-aea8-4a6e-baa2-747bf26482c8: taxonomy_term
+    4c60d409-3c82-426f-aea1-2cd81c8a54e1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59642 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds 19, January 1953'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-19-january-1953
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 3ac249fd-3e13-4041-9802-b00ca1b9f21c
+  field_cover:
+    -
+      entity: 3caae418-137f-417a-9f5c-d6b0e448db38
+  field_cover_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59642 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'January 1953'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_interior_artist:
+    -
+      entity: 36300acd-46ee-45b8-be41-1d56ae6cb991
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+    -
+      entity: 1c9ec00b-ba63-4e91-981d-529ee7b83d7a
+  field_isfdb_id:
+    -
+      value: '59642'
+  field_issue_number:
+    -
+      value: '19'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+    -
+      entity: c88e4753-e8d2-4de5-ac51-4d39961b364c
+    -
+      entity: 59333f1c-aea8-4a6e-baa2-747bf26482c8
+    -
+      entity: 4c60d409-3c82-426f-aea1-2cd81c8a54e1
+  field_pages:
+    -
+      value: 100
+  field_price:
+    -
+      value: 2/-
+  field_sort_date:
+    -
+      value: '1953-01-01'
+  field_year:
+    -
+      value: 1953

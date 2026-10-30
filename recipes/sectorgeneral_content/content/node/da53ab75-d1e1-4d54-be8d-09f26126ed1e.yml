@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: da53ab75-d1e1-4d54-be8d-09f26126ed1e
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?84808 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Lights Outside the Windows'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/lights-outside-windows
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Unusually for 1957 (and much later), Captain Miller of the spaceship Star Fire is a woman, as on every other Star Line vessel. &quot;(mere) Men could not take Space -- or, rather, they could not look at it and stay sane.&quot; Something to do with the &#039;space-birth&#039; trauma. The female mind is, however, made of sterner and more pragmatic stuff. Captain Kate Janeway would approve, but I&#039;m not so sure about James T. Kirk or even Jean-Luc Picard.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?84808 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1957
+  field_isfdb_id:
+    -
+      value: '84808'
+  field_opening_excerpt:
+    -
+      value: '<p>Seen through the direct vision port the receding planet Mars was a completely uninteresting object -- a pink circle roughly the size of a golf ball held at arm&#039;s length with blurred edges, the brighter stars in the background showing as faint smudges of grey on the surrounding blackness.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>NEW WORLDS No 56, February 1957 </p>
+        <p>Publication History: URANIA No 441, Italian anthology Sue Altesa Spatiale, July 1956 TERRA SF No 350, August 1982, as Die Lichter des Alls PILOT DURCH ZEIT&amp; RAUM, Ed Ronald Hahn, Ennslin hardback, June 1983 Deadly Litter</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 11500

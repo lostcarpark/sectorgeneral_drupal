@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: eff05d4e-618c-4fd8-bcc7-f99795a49f41
+  bundle: edition
+  default_langcode: en
+  depends:
+    2ea7f198-8285-4883-b0f8-67628c811f1d: taxonomy_term
+    19b1cfbb-06d6-4aeb-b49b-d7bfc8768db5: node
+    452c06f4-d505-43d4-8888-cebe19bce6d2: taxonomy_term
+    f23d26ca-d36f-4139-bf6e-f0ddc2e3af5e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Created from the Polish National Library: https://data.bn.org.pl/api/institutions/bibs.json?id=2052391'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Ostateczna diagnoza, Dom Wydawniczy Rebis, 2007'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/final-diagnosis/ostateczna-diagnoza-dom-wydawniczy-rebis-2007
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'Biblioteka Narodowa record https://data.bn.org.pl/api/institutions/bibs.json?id=2052391 (CC0).'
+  field_date_display:
+    -
+      value: '2007'
+  field_isbn:
+    -
+      value: '9788373018136'
+  field_language:
+    -
+      entity: 2ea7f198-8285-4883-b0f8-67628c811f1d
+  field_novel:
+    -
+      entity: 19b1cfbb-06d6-4aeb-b49b-d7bfc8768db5
+  field_pages:
+    -
+      value: 311
+  field_publisher:
+    -
+      entity: 452c06f4-d505-43d4-8888-cebe19bce6d2
+  field_sort_date:
+    -
+      value: '2007-01-01'
+  field_translator:
+    -
+      entity: f23d26ca-d36f-4139-bf6e-f0ddc2e3af5e
+  field_year:
+    -
+      value: 2007

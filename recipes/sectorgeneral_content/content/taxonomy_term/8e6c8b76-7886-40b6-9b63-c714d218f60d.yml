@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8e6c8b76-7886-40b6-9b63-c714d218f60d
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'A. Bertram Chandler'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/bertram-chandler
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

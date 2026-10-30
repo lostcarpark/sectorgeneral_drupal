@@ -1,0 +1,91 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 55643718-4ca9-413d-b7e4-07926a25d50d
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    bec29265-647d-494a-be01-73b57d2d6a3e: media
+    b2ab0355-9d03-4e36-8878-2668dc1d64ea: taxonomy_term
+    72dc6815-5e19-4169-8ae8-0292db0a975e: taxonomy_term
+    2e686169-2332-48aa-9be4-d45c63a620b6: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    42dd2bc1-eab1-4b0e-adb3-c78567c039fd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?383227 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Urania (collana) 840, 15 June 1980'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/urania-collana/urania-collana-840-15-june-1980
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_cover:
+    -
+      entity: bec29265-647d-494a-be01-73b57d2d6a3e
+  field_cover_artist:
+    -
+      entity: b2ab0355-9d03-4e36-8878-2668dc1d64ea
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?383227 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '15 June 1980'
+  field_editor:
+    -
+      entity: 72dc6815-5e19-4169-8ae8-0292db0a975e
+    -
+      entity: 2e686169-2332-48aa-9be4-d45c63a620b6
+  field_isfdb_id:
+    -
+      value: '383227'
+  field_issue_number:
+    -
+      value: '840'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_magazine:
+    -
+      entity: 42dd2bc1-eab1-4b0e-adb3-c78567c039fd
+  field_pages:
+    -
+      value: 176
+  field_price:
+    -
+      value: 'Lit 1,000'
+  field_published_as:
+    -
+      value: "L'astronave Del Massacro (Complete Novel)"
+  field_sort_date:
+    -
+      value: '1980-06-15'
+  field_year:
+    -
+      value: 1980

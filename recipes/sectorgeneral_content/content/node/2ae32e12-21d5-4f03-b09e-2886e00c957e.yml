@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2ae32e12-21d5-4f03-b09e-2886e00c957e
+  bundle: page
+  default_langcode: en
+  depends:
+    3a174dd6-78ab-4f33-9f68-01df47db208e: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Retitled James White and Sector General'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'James White and Sector General'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /home
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: |-
+        <p>James White (1928–1999) was a science fiction writer from Belfast. He is best known for the Sector General stories, set in a huge hospital in space where doctors of many species treat patients stranger still. The series, begun in 1957 and running to twelve novels, is often credited with defining medical science fiction.</p>
+        <p>White disliked violence, and his stories find their drama in emergencies, puzzles and the effort to understand the alien. This site lists everything he published, in English and in translation, with cover art, synopses and articles about him.</p>
+        <p>Perhaps you are a fan already, who wants to know more, or perhaps you have never heard of James White. Either way, start below, or with Graham Andrews&#039;s <a href="/bio-bibliography">bio-bibliography</a>.</p>
+      format: basic_html
+      summary: ''
+  field_photo:
+    -
+      entity: 3a174dd6-78ab-4f33-9f68-01df47db208e

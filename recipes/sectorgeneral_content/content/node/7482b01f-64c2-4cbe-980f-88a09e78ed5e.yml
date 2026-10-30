@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7482b01f-64c2-4cbe-980f-88a09e78ed5e
+  bundle: edition
+  default_langcode: en
+  depends:
+    9a026f66-a177-4d6c-bde4-43f2ffeff734: media
+    50ffac9c-dc56-4c9d-8ff2-d6914451a381: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    076cb8ba-ada5-4880-8874-aee68d7e662d: node
+    47dcdfd9-5b9d-431e-b100-e494eb3e62cd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL9592726M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Watch Below, Del Rey / Ballantine, 1978'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/watch-below/watch-below-del-rey-ballantine-1978
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 9a026f66-a177-4d6c-bde4-43f2ffeff734
+  field_cover_artist:
+    -
+      entity: 50ffac9c-dc56-4c9d-8ff2-d6914451a381
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?558967 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9592726M (CC0).
+  field_date_display:
+    -
+      value: 'October 1978'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345276919'
+  field_isfdb_id:
+    -
+      value: '558967'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 076cb8ba-ada5-4880-8874-aee68d7e662d
+  field_oclc:
+    -
+      value: '4966595'
+  field_openlibrary_id:
+    -
+      value: OL9592726M
+  field_pages:
+    -
+      value: 189
+  field_price:
+    -
+      value: C$1.95
+  field_publisher:
+    -
+      entity: 47dcdfd9-5b9d-431e-b100-e494eb3e62cd
+  field_sort_date:
+    -
+      value: '1978-10-01'
+  field_year:
+    -
+      value: 1978

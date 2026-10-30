@@ -1,0 +1,102 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1d72e5c7-3c2a-4f49-9cdb-0ac10469ed71
+  bundle: edition
+  default_langcode: en
+  depends:
+    3a058798-35be-4bc1-b92b-b7cc773955cd: media
+    e18816ea-cb4d-4cd6-8cc6-98b43bc3bd68: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    a7b82729-0189-4053-8e54-a3c316573a0a: node
+    628bf776-bc45-4029-b74a-9a58193e41b3: taxonomy_term
+    05569ae9-c23c-4dc3-9e2d-177677c7c0b8: taxonomy_term
+    b28a2375-37b6-498b-98c0-86d0b5625fcc: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/820108952'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Gefängnis im All, Erich Pabel Verlag, 1980'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/open-prison/gefangnis-im-all-erich-pabel-verlag-1980
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 3a058798-35be-4bc1-b92b-b7cc773955cd
+  field_cover_artist:
+    -
+      entity: e18816ea-cb4d-4cd6-8cc6-98b43bc3bd68
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “UTOPIS No 23, Erich P abel, DM480, November 1980 as Gefangnis im All”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?495944 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/820108952 (CC0).
+  field_date_display:
+    -
+      value: 'November 1980'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '495944'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: a7b82729-0189-4053-8e54-a3c316573a0a
+  field_oclc:
+    -
+      value: '720722760'
+  field_pages:
+    -
+      value: 160
+  field_price:
+    -
+      value: DM480
+  field_publisher:
+    -
+      entity: 628bf776-bc45-4029-b74a-9a58193e41b3
+  field_publisher_reference:
+    -
+      value: '23'
+  field_publisher_series:
+    -
+      entity: 05569ae9-c23c-4dc3-9e2d-177677c7c0b8
+  field_publisher_series_number:
+    -
+      value: '23'
+  field_sort_date:
+    -
+      value: '1980-11-01'
+  field_translator:
+    -
+      entity: b28a2375-37b6-498b-98c0-86d0b5625fcc
+  field_year:
+    -
+      value: 1980

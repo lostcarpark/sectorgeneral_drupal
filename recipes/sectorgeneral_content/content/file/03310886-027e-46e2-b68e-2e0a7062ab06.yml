@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 03310886-027e-46e2-b68e-2e0a7062ab06
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mblncshprw1986.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mblncshprw1986.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 116964
+  status:
+    -
+      value: true

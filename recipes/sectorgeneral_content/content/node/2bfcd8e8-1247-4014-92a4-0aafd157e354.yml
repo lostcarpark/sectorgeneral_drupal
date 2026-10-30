@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2bfcd8e8-1247-4014-92a4-0aafd157e354
+  bundle: edition
+  default_langcode: en
+  depends:
+    399be0f4-deec-4b40-8b94-d4248aceed08: media
+    df5c85bd-71ef-4064-acdf-b71d1da29f4c: taxonomy_term
+    64ffa415-ebad-4616-a0eb-e36e906fb642: taxonomy_term
+    b3f4b0b5-716b-4e1f-8d82-c42ca82412ab: node
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+    628bf776-bc45-4029-b74a-9a58193e41b3: taxonomy_term
+    714c17af-37b2-43e9-b314-4ae89d89a1a5: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Year back to 1964, as ISFDB gives it for the Utopia Zukunftsroman series; DNB year 1963 noted'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Jenseits des Todes, Erich Pabel Verlag, 1964'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/second-ending/jenseits-des-todes-erich-pabel-verlag-1964
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Uncertainty over the year: the <a href="https://d-nb.info/455199132">Deutsche Nationalbibliothek</a> gives 1963, but ISFDB, whose dates for the Utopia Zukunftsroman series are reliable, and the original James White Information site give 1964.</p>'
+      format: basic_html
+      summary: ''
+  field_cover:
+    -
+      entity: 399be0f4-deec-4b40-8b94-d4248aceed08
+  field_cover_artist:
+    -
+      entity: df5c85bd-71ef-4064-acdf-b71d1da29f4c
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Utopische Zukunfts Romane No 387, 1964 as Jenseits des Todes”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?714262 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/455199132 (CC0).
+  field_date_display:
+    -
+      value: '1964'
+  field_format:
+    -
+      entity: 64ffa415-ebad-4616-a0eb-e36e906fb642
+  field_in_anthology:
+    -
+      entity: b3f4b0b5-716b-4e1f-8d82-c42ca82412ab
+  field_isfdb_id:
+    -
+      value: '714262'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+  field_oclc:
+    -
+      value: '73753414'
+  field_pages:
+    -
+      value: 63
+  field_price:
+    -
+      value: 'DM 0.70'
+  field_publisher:
+    -
+      entity: 628bf776-bc45-4029-b74a-9a58193e41b3
+  field_publisher_reference:
+    -
+      value: '387'
+  field_publisher_series:
+    -
+      entity: 714c17af-37b2-43e9-b314-4ae89d89a1a5
+  field_publisher_series_number:
+    -
+      value: '387'
+  field_sort_date:
+    -
+      value: '1964-01-01'
+  field_year:
+    -
+      value: 1964

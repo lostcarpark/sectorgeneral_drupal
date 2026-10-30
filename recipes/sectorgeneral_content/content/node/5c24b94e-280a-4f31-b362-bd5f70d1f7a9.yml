@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5c24b94e-280a-4f31-b362-bd5f70d1f7a9
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    214647d4-99c3-41e8-a8fb-747ce5ae5a89: node
+    ebad15a0-9be9-4518-9d92-2dfc4c97dc15: media
+    aa1ef365-9ab4-4cdf-a10a-5dc1457ad29e: taxonomy_term
+    98198ea5-db97-409a-92f0-7f61cee9333f: taxonomy_term
+    86a2249d-43cf-4055-a91b-d33312e73ef2: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    be68b90a-318e-4238-a7b6-259e261b0dde: taxonomy_term
+    7c9de465-649c-43c7-8441-d9cc860c9d03: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?318381 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Perry Rhodan 112, 25 October 1963'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/perry-rhodan/perry-rhodan-112-25-october-1963
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 214647d4-99c3-41e8-a8fb-747ce5ae5a89
+  field_cover:
+    -
+      entity: ebad15a0-9be9-4518-9d92-2dfc4c97dc15
+  field_cover_artist:
+    -
+      entity: aa1ef365-9ab4-4cdf-a10a-5dc1457ad29e
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?318381 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '25 October 1963'
+  field_editor:
+    -
+      entity: 98198ea5-db97-409a-92f0-7f61cee9333f
+  field_interior_artist:
+    -
+      entity: aa1ef365-9ab4-4cdf-a10a-5dc1457ad29e
+    -
+      entity: 86a2249d-43cf-4055-a91b-d33312e73ef2
+  field_isfdb_id:
+    -
+      value: '318381'
+  field_issue_number:
+    -
+      value: '112'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_magazine:
+    -
+      entity: be68b90a-318e-4238-a7b6-259e261b0dde
+  field_other_contributors:
+    -
+      entity: 7c9de465-649c-43c7-8441-d9cc860c9d03
+  field_pages:
+    -
+      value: 68
+  field_price:
+    -
+      value: 'DM 0.70'
+  field_published_as:
+    -
+      value: 'Zwischen Erde und Mars (excerpt)'
+  field_sort_date:
+    -
+      value: '1963-10-25'
+  field_year:
+    -
+      value: 1963

@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8945882e-26c8-4455-8b75-447da0e004de
+  bundle: edition
+  default_langcode: en
+  depends:
+    c915d45e-13d9-42a4-b2d3-75ba4503a6d1: media
+    cd4f17ef-984c-4d7a-bf1e-8e66108ae032: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    2489534c-0801-43c6-89f5-eb25fb1d11ea: taxonomy_term
+    bd265bdc-044c-49d0-abb5-a111e2dcc15e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?496354'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Das Raumschiff der Rätsel, Moewig, 1982'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/all-judgement-fled/das-raumschiff-der-ratsel-moewig-1982
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: c915d45e-13d9-42a4-b2d3-75ba4503a6d1
+  field_cover_artist:
+    -
+      entity: cd4f17ef-984c-4d7a-bf1e-8e66108ae032
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “UTOPIA No 44, Moewig, DM80, August 1982 as Das Raumschiff der Ratsel”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?496354 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'August 1982'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '496354'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_pages:
+    -
+      value: 160
+  field_price:
+    -
+      value: DM80
+  field_publisher:
+    -
+      entity: 2489534c-0801-43c6-89f5-eb25fb1d11ea
+  field_publisher_reference:
+    -
+      value: '44'
+  field_publisher_series:
+    -
+      entity: bd265bdc-044c-49d0-abb5-a111e2dcc15e
+  field_publisher_series_number:
+    -
+      value: '44'
+  field_sort_date:
+    -
+      value: '1982-08-01'
+  field_year:
+    -
+      value: 1982

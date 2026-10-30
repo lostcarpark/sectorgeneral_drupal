@@ -1,0 +1,112 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8109b35b-1b2d-4499-87dd-cdc86ca99798
+  bundle: edition
+  default_langcode: en
+  depends:
+    fd235d27-4bda-4515-b00b-008c391c8535: media
+    63dd32b6-3f42-4006-b938-7516f8bb702c: taxonomy_term
+    af9ac495-504b-46d0-a128-b7f11172a739: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    779b62ef-d345-4a4e-8177-ea35a0d9b212: node
+    3b909b15-13a9-4c7d-a459-89c332b5236c: taxonomy_term
+    590c12c5-5a6d-4044-b4b1-135c1394b922: taxonomy_term
+    5b7e1140-6ea5-4060-9aad-d89222c43665: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/946818002'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Radikaloperation, Heyne Verlag, 1996'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/genocidal-healer/radikaloperation-heyne-verlag-1996
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: fd235d27-4bda-4515-b00b-008c391c8535
+  field_cover_artist:
+    -
+      entity: 63dd32b6-3f42-4006-b938-7516f8bb702c
+    -
+      entity: af9ac495-504b-46d0-a128-b7f11172a739
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Wilhelm Heyne, Munich, No 0604981, ISBN 3-453-09462-X, February 1996 as Radikaloperation”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1113045 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL39219650M (CC0).
+        Deutsche Nationalbibliothek record https://d-nb.info/946818002 (CC0).
+  field_date_display:
+    -
+      value: 'February 1996'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9783453094628'
+  field_isfdb_id:
+    -
+      value: '1113045'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 779b62ef-d345-4a4e-8177-ea35a0d9b212
+  field_openlibrary_id:
+    -
+      value: OL39219650M
+  field_pages:
+    -
+      value: 365
+  field_price:
+    -
+      value: 'DM 12.90'
+  field_printing:
+    -
+      value: 'Dt. Erstausg.'
+  field_publisher:
+    -
+      entity: 3b909b15-13a9-4c7d-a459-89c332b5236c
+  field_publisher_reference:
+    -
+      value: '0604981'
+  field_publisher_series:
+    -
+      entity: 590c12c5-5a6d-4044-b4b1-135c1394b922
+  field_publisher_series_number:
+    -
+      value: '4981'
+  field_sort_date:
+    -
+      value: '1996-02-01'
+  field_translator:
+    -
+      entity: 5b7e1140-6ea5-4060-9aad-d89222c43665
+  field_year:
+    -
+      value: 1996

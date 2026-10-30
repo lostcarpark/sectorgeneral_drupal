@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 9ac4d9ae-fe43-4186-bcfa-cc0ae9dd06b9
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    cd88d78a-c3c2-42e9-b751-98947148ddd6: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Il sogno del millennio, Editrice Nord, 1977 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 2a5d9b549cf9b4161234e10269726cebb4a5cd6f
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.fantascienza.com/catalogo/imgbank/cover/01786.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Il sogno del millennio, Editrice Nord, 1977 cover'
+      title: ''
+      width: 137
+      height: 215
+      entity: cd88d78a-c3c2-42e9-b751-98947148ddd6
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?383164'
+      title: null
+      options: {  }

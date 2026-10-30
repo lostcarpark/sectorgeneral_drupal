@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: f08b3bac-19f4-4a73-b2eb-6359a3d5f55d
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Chad Oliver'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/chad-oliver
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

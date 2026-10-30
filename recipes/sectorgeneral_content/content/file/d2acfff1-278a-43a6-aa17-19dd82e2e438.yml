@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d2acfff1-278a-43a6-aa17-19dd82e2e438
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: finaldiagnosistor.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/finaldiagnosistor.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4508
+  status:
+    -
+      value: true

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: dce47538-1e68-4865-a15f-ffcec4c2d897
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Renato Pestriniero'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/renato-pestriniero
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

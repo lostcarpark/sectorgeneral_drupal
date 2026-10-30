@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 72a48e14-360c-4169-8f00-eab21063ae9b
+  bundle: novel
+  default_langcode: en
+  depends:
+    1a769d87-0bc1-4c92-8ea8-4eaf6448a480: node
+    041f10bb-7c59-494f-a586-9268f3a6337e: node
+    bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2: node
+    2d8cc63a-c949-4a9d-bfb7-0d8bf9579938: node
+    4cad5e00-f923-42cd-a239-def5a90feced: node
+    a5bf74e2-e52e-4976-a9c1-71cc7db8d337: media
+    03c0e826-c5ee-456f-8600-d2652179fbeb: taxonomy_term
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Corrected contents and synopsis credit (scripts/fix_book_contents.php).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Hospital Station'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>The first of twelve books in the Sector General series. This vast sectionalized hospital in space is staffed by almost every species in the galaxy.</p>\r\n\r\n<p>\"The story of Sector General is told in a series of related, but not connected, episodes, each having to do with the particular problems of one alien creature... while O'Mara, the all-too-human head of a circus with as many rings as it has performers, is surely the most unusual space commander yet conceived -- a far cry from the jut-jawed heroic idiot of conventional space opera\" (blurb).&nbsp;</p>\r\n\r\n<h4>Contents</h4>\r\n\r\n<ul>\r\n\t<li>'Medic' (aka 'O'Mara's Orphan');&nbsp;</li>\r\n\t<li>'Sector General';</li>\r\n\t<li>Visitor at Large';</li>\r\n\t<li>'Out-Patient'.&nbsp;</li>\r\n</ul>\r\n\r\n<p>See under individual titles for story details.</p>"
+      format: basic_html
+      summary: 'The first of twelve books in the Sector General series. This vast sectionalized hospital in space is staffed by almost every species in the galaxy.'
+  field_book_type:
+    -
+      value: fixup
+  field_contents:
+    -
+      entity: 1a769d87-0bc1-4c92-8ea8-4eaf6448a480
+    -
+      entity: 041f10bb-7c59-494f-a586-9268f3a6337e
+    -
+      entity: bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2
+    -
+      entity: 2d8cc63a-c949-4a9d-bfb7-0d8bf9579938
+    -
+      entity: 4cad5e00-f923-42cd-a239-def5a90feced
+  field_cover:
+    -
+      entity: a5bf74e2-e52e-4976-a9c1-71cc7db8d337
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4231 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1962
+  field_isfdb_id:
+    -
+      value: '4231'
+  field_publisher:
+    -
+      entity: 03c0e826-c5ee-456f-8600-d2652179fbeb
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_series_number:
+    -
+      value: 1
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 80000

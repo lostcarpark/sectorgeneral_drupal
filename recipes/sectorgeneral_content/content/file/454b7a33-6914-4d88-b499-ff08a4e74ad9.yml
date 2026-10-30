@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 454b7a33-6914-4d88-b499-ff08a4e74ad9
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nwwrldsscn1960.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/nwwrldsscn1960.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 35180
+  status:
+    -
+      value: true

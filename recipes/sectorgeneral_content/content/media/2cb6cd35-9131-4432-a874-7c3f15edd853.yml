@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 2cb6cd35-9131-4432-a874-7c3f15edd853
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    89bab1fe-2e9d-4d6e-a4aa-d836d3774a81: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: james_white_Vita_con_gli_automi.jpg
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: d9f481a8701004315d624deb201ab834e52bc0e0
+  field_media_image:
+    -
+      alt: 'Cover of Vita con gli automi'
+      title: ''
+      width: 413
+      height: 593
+      entity: 89bab1fe-2e9d-4d6e-a4aa-d836d3774a81

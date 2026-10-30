@@ -1,0 +1,120 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a1b73632-daed-4f0f-b0ab-ad28360ad020
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    575bf27f-73f9-4d5e-bdb8-35ffde6a27aa: node
+    27b08d56-6515-478d-8549-e9685947f762: media
+    89b5566a-eec7-4059-8bee-ff1c7d0f6320: taxonomy_term
+    5b2947ef-913a-4e61-b8bb-93c850545564: taxonomy_term
+    9c33ed07-0ea9-4e4d-b234-83ece13e3d36: taxonomy_term
+    4ea801be-d189-4dc2-b4d2-517644ce0a07: taxonomy_term
+    8f1579cb-cb9e-4bdd-a9a5-d75a24d82289: taxonomy_term
+    6ba62818-e03d-4b8c-9c2b-47dd77e15ca4: taxonomy_term
+    4bcd997e-d893-4996-a525-fcb8e02f573e: taxonomy_term
+    49ae309f-e636-4879-bdb5-cefdb13df80c: taxonomy_term
+    dafaa345-a849-4fa4-a300-0a972ce878f2: taxonomy_term
+    f4093413-38dd-4362-94ce-fcdae19febab: taxonomy_term
+    45cf0ca5-5ec0-4e88-bc61-fccd5b87aeb3: taxonomy_term
+    ce4f634c-2740-41de-8c5f-86d0fa33feb9: taxonomy_term
+    42d28fac-d151-4e7b-8752-a405bb0ab8f3: taxonomy_term
+    93a57f1a-e1df-49d8-878f-96e009f928da: taxonomy_term
+    3e7d2170-f99e-4731-9c56-982d211a2a86: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?680782 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Orbit: Het tijdschrift voor science fiction & fantasy, 10 December 1980'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/orbit-het-tijdschrift-voor-science-fiction-fantasy/orbit-het-tijdschrift-voor-science-fiction-fantasy-10-december-1980
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 575bf27f-73f9-4d5e-bdb8-35ffde6a27aa
+  field_cover:
+    -
+      entity: 27b08d56-6515-478d-8549-e9685947f762
+  field_cover_artist:
+    -
+      entity: 89b5566a-eec7-4059-8bee-ff1c7d0f6320
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?680782 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '10 December 1980'
+  field_editor:
+    -
+      entity: 5b2947ef-913a-4e61-b8bb-93c850545564
+  field_interior_artist:
+    -
+      entity: 9c33ed07-0ea9-4e4d-b234-83ece13e3d36
+    -
+      entity: 4ea801be-d189-4dc2-b4d2-517644ce0a07
+    -
+      entity: 8f1579cb-cb9e-4bdd-a9a5-d75a24d82289
+    -
+      entity: 6ba62818-e03d-4b8c-9c2b-47dd77e15ca4
+    -
+      entity: 4bcd997e-d893-4996-a525-fcb8e02f573e
+    -
+      entity: 49ae309f-e636-4879-bdb5-cefdb13df80c
+  field_isfdb_id:
+    -
+      value: '680782'
+  field_language:
+    -
+      entity: dafaa345-a849-4fa4-a300-0a972ce878f2
+  field_magazine:
+    -
+      entity: f4093413-38dd-4362-94ce-fcdae19febab
+  field_other_contributors:
+    -
+      entity: 45cf0ca5-5ec0-4e88-bc61-fccd5b87aeb3
+    -
+      entity: ce4f634c-2740-41de-8c5f-86d0fa33feb9
+    -
+      entity: 42d28fac-d151-4e7b-8752-a405bb0ab8f3
+    -
+      entity: 93a57f1a-e1df-49d8-878f-96e009f928da
+    -
+      entity: 3e7d2170-f99e-4731-9c56-982d211a2a86
+  field_pages:
+    -
+      value: 60
+  field_price:
+    -
+      value: ƒ5.95
+  field_published_as:
+    -
+      value: Pendelaar
+  field_sort_date:
+    -
+      value: '1980-12-10'
+  field_year:
+    -
+      value: 1980

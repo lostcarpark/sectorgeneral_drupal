@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: a0301a2f-7da4-4de2-be4d-c20f8a49b960
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    071d4564-cdcb-4848-b4e9-afc151558828: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: open_prison_1965.jpg
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: e8bbeccda1e34fc76b3197fdceaea5364896ac8a
+  field_media_image:
+    -
+      alt: 'Cover of Open Prison (1965)'
+      title: ''
+      width: 352
+      height: 602
+      entity: 071d4564-cdcb-4848-b4e9-afc151558828

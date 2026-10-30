@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f2532501-c5eb-47eb-b756-1162d51cb45c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: space3b1973.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/space3b1973.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 116548
+  status:
+    -
+      value: true

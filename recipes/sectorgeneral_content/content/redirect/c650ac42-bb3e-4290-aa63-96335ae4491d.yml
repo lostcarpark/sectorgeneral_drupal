@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: c650ac42-bb3e-4290-aa63-96335ae4491d
+  bundle: redirect
+  default_langcode: und
+  depends:
+    85fdf0e4-4fa0-4277-b815-93be296f04ff: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: hENeFwlg_Zctrhn1Sc2WPZEZ1AcG47fPEB0rA8aT1Ws
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/galactic-empires
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 85fdf0e4-4fa0-4277-b815-93be296f04ff
+  status_code:
+    -
+      value: 301

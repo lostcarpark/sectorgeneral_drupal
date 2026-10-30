@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2a310a5c-64c2-418e-97be-4c8f7a040f12
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: anlgaug80.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/anlgaug80.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 72189
+  status:
+    -
+      value: true

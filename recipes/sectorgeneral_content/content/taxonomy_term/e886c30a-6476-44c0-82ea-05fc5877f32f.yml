@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: e886c30a-6476-44c0-82ea-05fc5877f32f
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Gerald Kersh'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/gerald-kersh
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

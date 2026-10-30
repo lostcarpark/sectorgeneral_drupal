@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: a82e9d20-fe3e-4323-8fd0-d7bc2c02ffd2
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    3a645a7b-5dad-46c4-8598-5939dc4e625f: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Hospital Station, Corgi, 1976 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 10e9876e71d091e4d53b9c30f06c9dea121344ee
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/1/1d/HSPTLSTTNX0000.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Hospital Station, Corgi, 1976 cover'
+      title: ''
+      width: 380
+      height: 600
+      entity: 3a645a7b-5dad-46c4-8598-5939dc4e625f
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?256454'
+      title: null
+      options: {  }

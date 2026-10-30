@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d06645b4-20c3-4505-a6af-186ee833b317
+  bundle: edition
+  default_langcode: en
+  depends:
+    c17044e5-a21a-4608-8ddc-6efb4e04f0c7: media
+    3a2c785a-2a72-4818-819c-7d42898ca8e2: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    6edd89e8-88d6-4983-b0a1-6ab6f79a7215: node
+    4dba99c7-905b-46ac-a12f-f4f11a47e3b8: taxonomy_term
+    7de6b89f-5c22-4c02-87be-6eb13aeec424: taxonomy_term
+    84425617-5d6b-47fe-96a0-c88ca1799550: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/730386511'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Das schwarze Inferno, Goldmann, 1973'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/lifeboat/das-schwarze-inferno-goldmann-1973
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: c17044e5-a21a-4608-8ddc-6efb4e04f0c7
+  field_cover_artist:
+    -
+      entity: 3a2c785a-2a72-4818-819c-7d42898ca8e2
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?418074 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL45867139M (CC0).
+        Deutsche Nationalbibliothek record https://d-nb.info/730386511 (CC0).
+  field_date_display:
+    -
+      value: '1973'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isbn:
+    -
+      value: '9783442302802'
+  field_isfdb_id:
+    -
+      value: '418074'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 6edd89e8-88d6-4983-b0a1-6ab6f79a7215
+  field_oclc:
+    -
+      value: '74137343'
+  field_openlibrary_id:
+    -
+      value: OL45867139M
+  field_pages:
+    -
+      value: 155
+  field_price:
+    -
+      value: 'DM 19.50'
+  field_printing:
+    -
+      value: 'Ungekürzte Ausg.'
+  field_publisher:
+    -
+      entity: 4dba99c7-905b-46ac-a12f-f4f11a47e3b8
+  field_publisher_series:
+    -
+      entity: 7de6b89f-5c22-4c02-87be-6eb13aeec424
+  field_sort_date:
+    -
+      value: '1973-01-01'
+  field_translator:
+    -
+      entity: 84425617-5d6b-47fe-96a0-c88ca1799550
+  field_year:
+    -
+      value: 1973

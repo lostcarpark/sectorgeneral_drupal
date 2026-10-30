@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: f6dd168b-fe70-42d9-8632-3ddb02b7bc40
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    4438bdd8-23ad-4ade-9ed4-e27a060aae8f: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Secret Visitors, Digit Books, 1961 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: c39aacb70117aca7209a68e78f052092ea89d04b
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/7/73/THSCRTVSTR0000.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'The Secret Visitors, Digit Books, 1961 cover'
+      title: ''
+      width: 305
+      height: 500
+      entity: 4438bdd8-23ad-4ade-9ed4-e27a060aae8f
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?241169'
+      title: null
+      options: {  }

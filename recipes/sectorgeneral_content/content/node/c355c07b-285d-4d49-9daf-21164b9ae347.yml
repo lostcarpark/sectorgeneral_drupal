@@ -1,0 +1,133 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c355c07b-285d-4d49-9daf-21164b9ae347
+  bundle: anthology
+  default_langcode: en
+  depends:
+    27311f45-da2c-4473-9d07-ce86f3c8451b: node
+    1ebc03e2-207b-4036-9a5b-58c4a6014be6: media
+    a4c7a3cb-58c1-4ff5-b3f2-56d41645f511: taxonomy_term
+    7ea71555-a353-4e4c-addd-fa50ffca0c75: taxonomy_term
+    1de1c3e0-6b12-43d8-be33-087643182745: taxonomy_term
+    c878dcbc-37af-4df2-90c1-64a6640d35cf: taxonomy_term
+    57a0a03e-e37d-4401-9495-9459d2ba68bc: taxonomy_term
+    b320e4a2-1350-4400-ac32-a1aa1a41a72e: taxonomy_term
+    dc5875fa-8328-4d42-8b2e-90f29e3cd770: taxonomy_term
+    3821e984-48db-4086-aab1-348018c3c0c6: taxonomy_term
+    dcad8db6-446f-464d-9d5e-c4c04a54ebac: taxonomy_term
+    290c11ec-faef-4497-bf61-1b967a7bce4a: taxonomy_term
+    caa9cb93-3e4c-41dc-b115-e9d3513a78e6: taxonomy_term
+    9f3bd3b5-63c1-4d95-adbc-12cd5dd0c51b: taxonomy_term
+    9fb07210-087e-4651-8f9e-b0ae728fcaf5: taxonomy_term
+    143896d5-c66c-4355-8958-7b733165c4c2: taxonomy_term
+    1a2da62a-0579-4530-ad45-5732ff735bd5: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    71d59e8d-5eeb-4758-a767-e0986fe25e08: taxonomy_term
+    adac2a1a-3cd0-4cb2-8d67-5d55a1155ae9: taxonomy_term
+    0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea: taxonomy_term
+    8ee192f3-f1c6-48a1-929a-010bf2de03a8: taxonomy_term
+    aa96269a-24d3-4202-a2fc-74696001d8d5: taxonomy_term
+    c061c2b8-47a5-455e-99c7-0fe2bb76877d: taxonomy_term
+    d0ff3439-0842-4017-a94c-3aa477e7c6a2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?29172'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Science Fiction Stories'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/science-fiction-stories
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Octopus Books, October 1979, Hardback. Octopus Books, 1986, Hardback. Octopus Books, 1983, Hardback. Octopus Books, 1987, Hardback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 27311f45-da2c-4473-9d07-ce86f3c8451b
+  field_cover:
+    -
+      entity: 1ebc03e2-207b-4036-9a5b-58c4a6014be6
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?35691 (CC BY 4.0).
+  field_editor:
+    -
+      entity: a4c7a3cb-58c1-4ff5-b3f2-56d41645f511
+    -
+      entity: 7ea71555-a353-4e4c-addd-fa50ffca0c75
+  field_first_published_year:
+    -
+      value: 1979
+  field_isfdb_id:
+    -
+      value: '35691'
+  field_other_contributors:
+    -
+      entity: 1de1c3e0-6b12-43d8-be33-087643182745
+    -
+      entity: c878dcbc-37af-4df2-90c1-64a6640d35cf
+    -
+      entity: 57a0a03e-e37d-4401-9495-9459d2ba68bc
+    -
+      entity: b320e4a2-1350-4400-ac32-a1aa1a41a72e
+    -
+      entity: dc5875fa-8328-4d42-8b2e-90f29e3cd770
+    -
+      entity: 3821e984-48db-4086-aab1-348018c3c0c6
+    -
+      entity: dcad8db6-446f-464d-9d5e-c4c04a54ebac
+    -
+      entity: 290c11ec-faef-4497-bf61-1b967a7bce4a
+    -
+      entity: caa9cb93-3e4c-41dc-b115-e9d3513a78e6
+    -
+      entity: 9f3bd3b5-63c1-4d95-adbc-12cd5dd0c51b
+    -
+      entity: 9fb07210-087e-4651-8f9e-b0ae728fcaf5
+    -
+      entity: 143896d5-c66c-4355-8958-7b733165c4c2
+    -
+      entity: 1a2da62a-0579-4530-ad45-5732ff735bd5
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: 71d59e8d-5eeb-4758-a767-e0986fe25e08
+    -
+      entity: adac2a1a-3cd0-4cb2-8d67-5d55a1155ae9
+    -
+      entity: 0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea
+    -
+      entity: 8ee192f3-f1c6-48a1-929a-010bf2de03a8
+    -
+      entity: aa96269a-24d3-4202-a2fc-74696001d8d5
+    -
+      entity: c061c2b8-47a5-455e-99c7-0fe2bb76877d
+  field_publisher:
+    -
+      entity: d0ff3439-0842-4017-a94c-3aa477e7c6a2

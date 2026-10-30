@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 77196937-e982-4f55-9512-048a9e8b0824
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    da044b06-b98e-4ebd-9797-39273007ab2a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'newworlds140 (old site, unmatched)'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 437cf44c71badc7e709155130d7a54d29ab18962
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'newworlds140 cover'
+      title: ''
+      width: 100
+      height: 148
+      entity: da044b06-b98e-4ebd-9797-39273007ab2a

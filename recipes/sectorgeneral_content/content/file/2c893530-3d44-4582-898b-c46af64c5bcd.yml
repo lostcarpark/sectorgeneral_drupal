@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2c893530-3d44-4582-898b-c46af64c5bcd
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: wofifdec1967.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/wofifdec1967.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 45481
+  status:
+    -
+      value: true

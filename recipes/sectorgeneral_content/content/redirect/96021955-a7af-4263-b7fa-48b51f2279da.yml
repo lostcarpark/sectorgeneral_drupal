@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 96021955-a7af-4263-b7fa-48b51f2279da
+  bundle: redirect
+  default_langcode: und
+  depends:
+    faec9164-3eb1-4408-8e68-372285338816: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: VpcP1ZQ4oo4EtV1SZ7voHW5IbXYi6ygPfKnxhm2R-pw
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/galacticgourmet.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: faec9164-3eb1-4408-8e68-372285338816
+  status_code:
+    -
+      value: 301

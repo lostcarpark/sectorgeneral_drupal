@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 1f53f138-77c9-4b4e-802c-30ad987c1d4a
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'C. J. Cherryh'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/c-j-cherryh
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

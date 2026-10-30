@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: e64def33-f80f-4fcd-a261-a3b969217f22
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    eb5417d4-badc-4c08-bfe0-d034679ed7ca: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Die letzte Diagnose, Heyne, 1999 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 71ec95c1ecac77487c0dc98c64e52adc6d5cf841
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://images-na.ssl-images-amazon.com/images/I/519RYV9G9PL.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Die letzte Diagnose, Heyne, 1999 cover'
+      title: ''
+      width: 302
+      height: 475
+      entity: eb5417d4-badc-4c08-bfe0-d034679ed7ca
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?641690'
+      title: null
+      options: {  }

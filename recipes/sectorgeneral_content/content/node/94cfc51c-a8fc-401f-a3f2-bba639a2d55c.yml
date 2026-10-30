@@ -1,0 +1,102 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 94cfc51c-a8fc-401f-a3f2-bba639a2d55c
+  bundle: edition
+  default_langcode: en
+  depends:
+    9b4dd24f-07a5-4cd3-bd99-ed351c55596a: media
+    7581f70a-2a93-4bb1-acfb-fb53561abddb: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    ee8fc270-52cd-48a1-980e-e07f857327dc: taxonomy_term
+    969be720-ef1b-4bcf-9590-268952a4d63a: taxonomy_term
+    134dd3a2-1848-494f-9459-084d142b98e5: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/770249175'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Die Weltraum-Mediziner, Ullstein, 1977'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/die-weltraum-mediziner-ullstein-1977
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 9b4dd24f-07a5-4cd3-bd99-ed351c55596a
+  field_cover_artist:
+    -
+      entity: 7581f70a-2a93-4bb1-acfb-fb53561abddb
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ullstein No 3331, spring 1977 as Die Weltraum-Medizine”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?634000 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/770249175 (CC0).
+  field_date_display:
+    -
+      value: 'Spring 1977'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9783548033310'
+  field_isfdb_id:
+    -
+      value: '634000'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_pages:
+    -
+      value: 160
+  field_price:
+    -
+      value: 'DM 3.80'
+  field_publisher:
+    -
+      entity: ee8fc270-52cd-48a1-980e-e07f857327dc
+  field_publisher_reference:
+    -
+      value: '3331'
+  field_publisher_series:
+    -
+      entity: 969be720-ef1b-4bcf-9590-268952a4d63a
+  field_publisher_series_number:
+    -
+      value: '128 (3331)'
+  field_sort_date:
+    -
+      value: '1977-04-01'
+  field_translator:
+    -
+      entity: 134dd3a2-1848-494f-9459-084d142b98e5
+  field_year:
+    -
+      value: 1977

@@ -1,0 +1,19 @@
+uuid: 47fe1e9a-0a89-446d-a6fb-e3a3898b324d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_isfdb_id
+    - taxonomy.vocabulary.people
+id: taxonomy_term.people.field_isfdb_id
+field_name: field_isfdb_id
+entity_type: taxonomy_term
+bundle: people
+label: 'ISFDB ID'
+description: "The number at the end of the person's ISFDB page address."
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

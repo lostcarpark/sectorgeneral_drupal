@@ -1,0 +1,85 @@
+uuid: f6bcce86-42bc-46c2-a704-4a1c9a52ff18
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.novel.body
+    - field.field.node.novel.field_alternative_titles
+    - field.field.node.novel.field_book_type
+    - field.field.node.novel.field_contained_books
+    - field.field.node.novel.field_contents
+    - field.field.node.novel.field_cover
+    - field.field.node.novel.field_data_sources
+    - field.field.node.novel.field_editor
+    - field.field.node.novel.field_first_published_year
+    - field.field.node.novel.field_isfdb_id
+    - field.field.node.novel.field_publisher
+    - field.field.node.novel.field_reviews
+    - field.field.node.novel.field_series
+    - field.field.node.novel.field_series_number
+    - field.field.node.novel.field_synopsis_credit
+    - field.field.node.novel.field_wikidata_id
+    - field.field.node.novel.field_wikipedia
+    - field.field.node.novel.field_words
+    - node.type.novel
+  module:
+    - options
+    - user
+id: node.novel.teaser
+targetEntityType: node
+bundle: novel
+mode: teaser
+content:
+  field_book_type:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_cover:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: cover_small
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_first_published_year:
+    type: number_integer
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  book_editions_english: true
+  book_editions_omnibus: true
+  book_editions_translations: true
+  field_alternative_titles: true
+  field_contained_books: true
+  field_contents: true
+  field_data_sources: true
+  field_editor: true
+  field_isfdb_id: true
+  field_publisher: true
+  field_reviews: true
+  field_series: true
+  field_series_number: true
+  field_synopsis_credit: true
+  field_wikidata_id: true
+  field_wikipedia: true
+  field_words: true
+  series_nav: true
+  story_appearances_book_anthologies: true
+  story_appearances_book_magazines: true

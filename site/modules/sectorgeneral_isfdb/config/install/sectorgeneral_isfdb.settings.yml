@@ -1,0 +1,97 @@
+# ISFDB author ID for James White. Find it with: drush sg-isfdb:find-author "James White"
+author_id: 0
+# Seconds to wait between cover image downloads.
+image_delay: 2
+# Open Library, for editions with an ISBN. Its robots.txt asks for 10 seconds
+# between requests.
+openlibrary_base: 'https://openlibrary.org'
+openlibrary_covers_base: 'https://covers.openlibrary.org'
+openlibrary_delay: 10
+# The Polish National Library's open data (CC0), for Polish editions, and the
+# author as its records name him. Seconds between requests.
+bn_base: 'https://data.bn.org.pl'
+bn_author: 'White, James (1928-1999)'
+bn_delay: 3
+# Library catalogues read over Z39.50 (needs YAZ's zoomsh), one entry per
+# library; see Library\Z3950Source for the keys. OPAC SBN states no licence.
+# nkp is the Czech National Library's own catalogue, which holds every Czech
+# publication by legal deposit.
+z3950:
+  sbn:
+    label: 'OPAC SBN'
+    licence: ''
+    language: 'Italian'
+    language_code: 'ita'
+    target: 'opac.sbn.it:2100/nopac'
+    query: '@attr 1=1003 @attr 4=1 "White, James"'
+    author: 'White, James'
+    authority: 'IT\ICCU\RAVV\007818'
+    record_id: '001'
+    record_id_pattern: '/^.+\x5c(\w+)\x5c(\d+)$/'
+    record_id_replace: '$1$2'
+    record_url: 'https://opac.sbn.it/bid/{id}'
+    translator_note: '\btrad(?:\.|uzione|otto)(?:\s+integrale)?(?:\s+dall\x27\p{L}+)?(?:\s+di)?'
+    cover_note: 'copertina di'
+  nkp:
+    label: 'Národní knihovna ČR'
+    licence: 'CC0'
+    language: 'Czech'
+    language_code: 'cze'
+    target: 'aleph.nkp.cz:9991/NKC-UTF'
+    query: '@and @attr 1=1003 @attr 4=1 "White, James" @attr 1=54 cze'
+    author: 'White, James'
+    authority: 'mzk2011618788'
+    unidentified: '1'
+    record_id: '998a'
+    record_url: 'https://aleph.nkp.cz/F/?func=direct&doc_number={id}&local_base=NKC'
+    translator_note: '\b(?:přeložil[aiy]?|přel\.|překlad)'
+# Library catalogues read over SRU, one entry per library; see
+# Library\SruSource for the keys. dnb is the German National Library, whose
+# catalogue data is CC0. Its records name the author without his GND ID, so
+# unidentified is on. Its language index misses older records, so the search
+# is by name alone and the language is checked in each record.
+sru:
+  dnb:
+    label: 'Deutsche Nationalbibliothek'
+    licence: 'CC0'
+    language: 'German'
+    language_code: 'ger'
+    url: 'https://services.dnb.de/sru/dnb'
+    query: 'per="White, James"'
+    record_schema: 'MARC21-xml'
+    delay: '3'
+    parts_query: 'partof={id}'
+    author: 'White, James'
+    authority: '(DE-588)1127604589'
+    unidentified: '1'
+    record_id: '001'
+    record_url: 'https://d-nb.info/{id}'
+    translator_note: '(?:[Aa]us d(?:em|\.)|[Ii]ns)\s[^\]]*?\bvon'
+# ISFDB names → existing Drupal term names. Anything unmatched becomes a new
+# term, listed in the report. Extend these as the report shows new names.
+publisher_aliases:
+  'Ballantine Books': 'Ballantine Books, New York'
+  'Ballantine': 'Ballantine Books, New York'
+  'Del Rey / Ballantine': 'Del Rey'
+  'Del Rey': 'Del Rey'
+  'Corgi': 'Corgi, London, UK'
+  'Transworld / Corgi': 'Corgi, London, UK'
+  'Futura': 'Futura/Orbit, London'
+  'Orbit': 'Futura/Orbit, London'
+  'Futura / Orbit': 'Futura/Orbit, London'
+  'Macdonald': 'Macdonald, UK'
+  'Orb': 'Orb (Tor Books)'
+  'Tor': 'Tor Books'
+  'Heyne': 'Heyne Verlag'
+  'Wilhelm Heyne Verlag': 'Heyne Verlag'
+  'Valentino Bompiani': 'Bompiani'
+  'Arnoldo Mondadori': 'Mondadori'
+magazine_aliases:
+  'New Worlds Science Fiction': 'New Worlds'
+  'Nebula Science Fiction': 'Nebula'
+  'Analog Science Fiction/Science Fact': 'Analog Science Fiction and Fact'
+  'Analog Science Fiction and Fact': 'Analog Science Fiction and Fact'
+  'The Magazine of Fantasy and Science Fiction': 'The Magazine of Fantasy & Science Fiction'
+  'Galaxy Science Fiction': 'Galaxy'
+  'Galaxy Magazine': 'Galaxy'
+  'If': 'Worlds of If'

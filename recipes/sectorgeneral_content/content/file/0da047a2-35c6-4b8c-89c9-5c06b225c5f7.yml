@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0da047a2-35c6-4b8c-89c9-5c06b225c5f7
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sgnlvmplts1963.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/sgnlvmplts1963.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 115009
+  status:
+    -
+      value: true

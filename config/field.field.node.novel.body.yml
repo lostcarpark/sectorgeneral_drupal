@@ -1,0 +1,24 @@
+uuid: 4ecba898-17d6-4abb-b001-1f637fc31f02
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.novel
+  module:
+    - text
+id: node.novel.body
+field_name: body
+entity_type: node
+bundle: novel
+label: Synopsis
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

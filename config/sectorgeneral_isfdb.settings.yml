@@ -1,0 +1,82 @@
+_core:
+  default_config_hash: Zh_n7oOP_dRsdSQcg6ohgPKxW7nhOaxGiw97ohqN8vc
+author_id: 304
+image_delay: 2
+openlibrary_base: 'https://openlibrary.org'
+openlibrary_covers_base: 'https://covers.openlibrary.org'
+openlibrary_delay: 10
+bn_base: 'https://data.bn.org.pl'
+bn_author: 'White, James (1928-1999)'
+bn_delay: 3
+z3950:
+  sbn:
+    label: 'OPAC SBN'
+    licence: ''
+    language: Italian
+    language_code: ita
+    target: 'opac.sbn.it:2100/nopac'
+    query: '@attr 1=1003 @attr 4=1 "White, James"'
+    author: 'White, James'
+    authority: IT\ICCU\RAVV\007818
+    record_id: '001'
+    record_id_pattern: /^.+\x5c(\w+)\x5c(\d+)$/
+    record_id_replace: $1$2
+    record_url: 'https://opac.sbn.it/bid/{id}'
+    translator_note: '\btrad(?:\.|uzione|otto)(?:\s+integrale)?(?:\s+dall\x27\p{L}+)?(?:\s+di)?'
+    cover_note: 'copertina di'
+  nkp:
+    label: 'Národní knihovna ČR'
+    licence: CC0
+    language: Czech
+    language_code: cze
+    target: 'aleph.nkp.cz:9991/NKC-UTF'
+    query: '@and @attr 1=1003 @attr 4=1 "White, James" @attr 1=54 cze'
+    author: 'White, James'
+    authority: mzk2011618788
+    unidentified: '1'
+    record_id: 998a
+    record_url: 'https://aleph.nkp.cz/F/?func=direct&doc_number={id}&local_base=NKC'
+    translator_note: '\b(?:přeložil[aiy]?|přel\.|překlad)'
+sru:
+  dnb:
+    label: 'Deutsche Nationalbibliothek'
+    licence: CC0
+    language: German
+    language_code: ger
+    url: 'https://services.dnb.de/sru/dnb'
+    record_schema: MARC21-xml
+    delay: '3'
+    query: 'per="White, James"'
+    author: 'White, James'
+    authority: (DE-588)1127604589
+    unidentified: '1'
+    record_id: '001'
+    record_url: 'https://d-nb.info/{id}'
+    translator_note: '(?:[Aa]us d(?:em|\.)|[Ii]ns)\s[^\]]*?\bvon'
+    parts_query: 'partof={id}'
+publisher_aliases:
+  'Ballantine Books': 'Ballantine Books, New York'
+  Ballantine: 'Ballantine Books, New York'
+  'Del Rey / Ballantine': 'Del Rey'
+  'Del Rey': 'Del Rey'
+  Corgi: 'Corgi, London, UK'
+  'Transworld / Corgi': 'Corgi, London, UK'
+  Futura: 'Futura/Orbit, London'
+  Orbit: 'Futura/Orbit, London'
+  'Futura / Orbit': 'Futura/Orbit, London'
+  Macdonald: 'Macdonald, UK'
+  Orb: 'Orb (Tor Books)'
+  Tor: 'Tor Books'
+  Heyne: 'Heyne Verlag'
+  'Wilhelm Heyne Verlag': 'Heyne Verlag'
+  'Valentino Bompiani': Bompiani
+  'Arnoldo Mondadori': Mondadori
+magazine_aliases:
+  'New Worlds Science Fiction': 'New Worlds'
+  'Nebula Science Fiction': Nebula
+  'Analog Science Fiction/Science Fact': 'Analog Science Fiction and Fact'
+  'Analog Science Fiction and Fact': 'Analog Science Fiction and Fact'
+  'The Magazine of Fantasy and Science Fiction': 'The Magazine of Fantasy & Science Fiction'
+  'Galaxy Science Fiction': Galaxy
+  'Galaxy Magazine': Galaxy
+  If: 'Worlds of If'

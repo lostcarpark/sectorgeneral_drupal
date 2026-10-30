@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a270eedb-eb19-44fe-8a48-545c12e4c594
+  bundle: edition
+  default_langcode: en
+  depends:
+    109bf10f-2779-4843-8abe-a7ddf56140a6: media
+    be2d07e0-065b-443a-bc39-4dd162d29205: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    6edd89e8-88d6-4983-b0a1-6ab6f79a7215: node
+    2489534c-0801-43c6-89f5-eb25fb1d11ea: taxonomy_term
+    bb347c80-3ecf-4b81-bc7d-b7b97079ed11: taxonomy_term
+    84425617-5d6b-47fe-96a0-c88ca1799550: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/880309504'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Das schwarze Inferno, Moewig, 1988'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/lifeboat/das-schwarze-inferno-moewig-1988
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 109bf10f-2779-4843-8abe-a7ddf56140a6
+  field_cover_artist:
+    -
+      entity: be2d07e0-065b-443a-bc39-4dd162d29205
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?418078 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/880309504 (CC0).
+  field_date_display:
+    -
+      value: 'February 1988'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9783811838420'
+  field_isfdb_id:
+    -
+      value: '418078'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 6edd89e8-88d6-4983-b0a1-6ab6f79a7215
+  field_oclc:
+    -
+      value: '74957964'
+  field_pages:
+    -
+      value: 160
+  field_price:
+    -
+      value: 'DM 7.80'
+  field_publisher:
+    -
+      entity: 2489534c-0801-43c6-89f5-eb25fb1d11ea
+  field_publisher_series:
+    -
+      entity: bb347c80-3ecf-4b81-bc7d-b7b97079ed11
+  field_publisher_series_number:
+    -
+      value: '3842'
+  field_sort_date:
+    -
+      value: '1988-02-01'
+  field_translator:
+    -
+      entity: 84425617-5d6b-47fe-96a0-c88ca1799550
+  field_year:
+    -
+      value: 1988

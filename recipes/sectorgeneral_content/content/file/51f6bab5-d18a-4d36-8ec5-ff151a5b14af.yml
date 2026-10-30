@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 51f6bab5-d18a-4d36-8ec5-ff151a5b14af
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: deadly-litter_ballintine_81_tn.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/deadly-litter_ballintine_81_tn.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 13949
+  status:
+    -
+      value: true

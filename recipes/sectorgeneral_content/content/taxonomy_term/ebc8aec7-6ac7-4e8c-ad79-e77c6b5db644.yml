@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: ebc8aec7-6ac7-4e8c-ad79-e77c6b5db644
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Serena M. Evans'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/serena-m-evans
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

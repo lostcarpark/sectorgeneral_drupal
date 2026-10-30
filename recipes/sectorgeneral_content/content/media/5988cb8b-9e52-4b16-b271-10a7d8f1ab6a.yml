@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 5988cb8b-9e52-4b16-b271-10a7d8f1ab6a
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    6ff87ade-f677-4789-9e2e-157dddd7d5d9: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Science Fiction Story Reader 19 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: c9b56728dd4601bbebdf1725e1401f75a612e454
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/a/a2/SFStR19.JPG'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Science Fiction Story Reader 19 cover'
+      title: ''
+      width: 377
+      height: 586
+      entity: 6ff87ade-f677-4789-9e2e-157dddd7d5d9
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?408081'
+      title: null
+      options: {  }

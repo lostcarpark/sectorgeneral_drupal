@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 5cfdb083-ff5e-47e9-a742-ac29b25763c2
+  bundle: redirect
+  default_langcode: und
+  depends:
+    22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: kA1mUb4ulP70kyd7Y4iBIdIvihdj-lvKm1I_DnMhL38
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/majoroperation.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930
+  status_code:
+    -
+      value: 301

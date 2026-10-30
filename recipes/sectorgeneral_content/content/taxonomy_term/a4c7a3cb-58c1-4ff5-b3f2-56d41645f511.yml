@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: a4c7a3cb-58c1-4ff5-b3f2-56d41645f511
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Tom Boardman'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/tom-boardman
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

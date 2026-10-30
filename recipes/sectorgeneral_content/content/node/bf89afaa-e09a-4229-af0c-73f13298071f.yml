@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: bf89afaa-e09a-4229-af0c-73f13298071f
+  bundle: anthology
+  default_langcode: en
+  depends:
+    d4cd1539-557c-47d8-8cb1-eec206258260: node
+    effffb9c-b25b-4a06-9f90-98662cdca405: media
+    d90d3041-bc4c-47eb-b8aa-0b17698c209c: taxonomy_term
+    ab4d0c20-08a5-4045-b7b0-c6b98ce14dae: taxonomy_term
+    0da82dc8-1a4d-484e-83c9-f650d51b4e3f: taxonomy_term
+    fdb87a4b-2539-4e6d-96aa-154315773264: taxonomy_term
+    2102ba46-316a-44c2-bb1e-3036cd0b2359: taxonomy_term
+    bb6ed531-0723-47de-a894-678e2d00fa0d: taxonomy_term
+    d8dc575e-eda6-44d3-baef-7e1f8e67ef26: taxonomy_term
+    6733983e-c785-4ef1-9370-e7bad379baf0: taxonomy_term
+    4dbd9228-e563-4265-8d27-f489bc19c9af: taxonomy_term
+    b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd: taxonomy_term
+    15c1c552-b810-43ef-83c1-f75456576e32: taxonomy_term
+    a501af09-b649-42fa-9265-f31466d55e9f: taxonomy_term
+    cffafaac-5c11-4b79-bca2-d1199a018079: taxonomy_term
+    0d114890-f134-47a1-a604-b790e635467b: taxonomy_term
+    450925fc-6e74-4aaf-80ae-e37c91fb9ed1: taxonomy_term
+    3b909b15-13a9-4c7d-a459-89c332b5236c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?518599'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Top Science Fiction: Dritter Teil'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/top-science-fiction-dritter-teil
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Heyne, 1990, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: d4cd1539-557c-47d8-8cb1-eec206258260
+  field_cover:
+    -
+      entity: effffb9c-b25b-4a06-9f90-98662cdca405
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1865501 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: d90d3041-bc4c-47eb-b8aa-0b17698c209c
+  field_first_published_year:
+    -
+      value: 1990
+  field_isfdb_id:
+    -
+      value: '1865501'
+  field_other_contributors:
+    -
+      entity: ab4d0c20-08a5-4045-b7b0-c6b98ce14dae
+    -
+      entity: 0da82dc8-1a4d-484e-83c9-f650d51b4e3f
+    -
+      entity: fdb87a4b-2539-4e6d-96aa-154315773264
+    -
+      entity: 2102ba46-316a-44c2-bb1e-3036cd0b2359
+    -
+      entity: bb6ed531-0723-47de-a894-678e2d00fa0d
+    -
+      entity: d8dc575e-eda6-44d3-baef-7e1f8e67ef26
+    -
+      entity: 6733983e-c785-4ef1-9370-e7bad379baf0
+    -
+      entity: 4dbd9228-e563-4265-8d27-f489bc19c9af
+    -
+      entity: b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd
+    -
+      entity: 15c1c552-b810-43ef-83c1-f75456576e32
+    -
+      entity: a501af09-b649-42fa-9265-f31466d55e9f
+    -
+      entity: cffafaac-5c11-4b79-bca2-d1199a018079
+    -
+      entity: 0d114890-f134-47a1-a604-b790e635467b
+    -
+      entity: 450925fc-6e74-4aaf-80ae-e37c91fb9ed1
+  field_publisher:
+    -
+      entity: 3b909b15-13a9-4c7d-a459-89c332b5236c

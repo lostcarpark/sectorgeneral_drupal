@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6eeb7377-9072-419e-bdc4-36b996f93ebc
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    4af4f387-b66d-4c96-b6b8-3f62b8eb5f97: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Secret Visitors, Digit Books, 1961 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 7c76e589fbadd87a550232316fd247a0361e6f29
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Secret Visitors Digit 1961'
+      title: ''
+      width: 100
+      height: 168
+      entity: 4af4f387-b66d-4c96-b6b8-3f62b8eb5f97

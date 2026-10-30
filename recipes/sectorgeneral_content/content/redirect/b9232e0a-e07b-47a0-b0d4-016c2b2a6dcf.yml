@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: b9232e0a-e07b-47a0-b0d4-016c2b2a6dcf
+  bundle: redirect
+  default_langcode: und
+  depends:
+    eefa8b48-adcd-4f2b-b05c-92aa8d0df02b: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: LYYgWQ67kTVCpKzoea_tg-HRbVUKmwV9-39q9Tdp4CY
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: books/star-surgeon/star-surgeon-ballantine-books-1963
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: eefa8b48-adcd-4f2b-b05c-92aa8d0df02b
+  status_code:
+    -
+      value: 301

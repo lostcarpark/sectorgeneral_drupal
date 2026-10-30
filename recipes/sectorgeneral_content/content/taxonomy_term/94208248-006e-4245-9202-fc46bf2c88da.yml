@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 94208248-006e-4245-9202-fc46bf2c88da
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Miles J. Breuer, M.D.'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/miles-j-breuer-md
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

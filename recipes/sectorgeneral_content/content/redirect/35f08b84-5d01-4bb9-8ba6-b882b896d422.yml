@@ -1,0 +1,28 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 35f08b84-5d01-4bb9-8ba6-b882b896d422
+  bundle: redirect
+  default_langcode: und
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: F8AgIDCZlI9EE8DutEREyVB1N4PJXxBiyFBbjHcWSvc
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories.html
+      query: {  }
+  redirect_redirect:
+    -
+      uri: 'internal:/short-stories'
+      title: null
+      options: {  }
+  status_code:
+    -
+      value: 301

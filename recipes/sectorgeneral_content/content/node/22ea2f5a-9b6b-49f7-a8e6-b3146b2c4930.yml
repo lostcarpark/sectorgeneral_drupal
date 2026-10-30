@@ -1,0 +1,102 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930
+  bundle: novel
+  default_langcode: en
+  depends:
+    0aba6c77-b093-4e19-9f09-77fd4ff7a0a1: node
+    c6be35db-6629-46b5-a9a3-3f9780c74d65: node
+    5e234e43-63c3-4de7-b2bd-fd33c365f586: node
+    0ed15ef8-7d60-40bf-a183-67d85295468f: node
+    30b1aa3e-29cb-4423-8a98-4ecbfc391468: node
+    ffb047c7-c976-441b-a03c-56fb0f1c0076: media
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 196, similarity 0.98).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Major Operation'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/major-operation
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>Fix-up novel: &#039;Invader&#039;; &#039;Vertigo&#039;; Blood Brother&#039;; &#039;Meatball&#039;; &#039;Major Operation&#039; (see under Short Stories). &quot;Designed to accommodate virtually any creature brought in for observation or medical care, Sector General was staffed with at least a hundred different species of doctors and nurses. But there was trouble aboard. Some life form had entered the great hospital. The invader was invisible and undetectable -- even by the empathetic Cinrusskins -- and it was creating hallucinations that were causing serious accidents . . .&quot; (blurb). One of those rare fix-ups where the constituent parts hang both together and separately; in the capital reading sense, not punishment!</p>
+        <p>First Publication:</p>
+        <p>Ballantine Books No 345-02149-5-095, February 1971</p>
+        <p>Publication History:</p>
+        <p>BB, 2nd printing, ISBN 345-24229-7-125, October 1974</p>
+        <p>BB, 3rd printing 0-345-29381-9, May 1981</p>
+        <p>Macdonald/Futura, ISBN 0-7088-8185-8, £1-95, February 1987</p>
+        <p>Collected in Beginning Operations, Orb (Tor Books), June 2001</p>
+        <p>Foreign Publication:</p>
+        <p>TERRA No 203, February 1973 as Die Artz der Galaxis</p>
+        <p>Livros Do Brasil No 223, 1976 as A Grande Operacao</p>
+        <p>Uitgerverj/Scala, ISBN 90-6221-641-2, 1977/8 as De Grote Operatie</p>
+        <p>Wilhelm Heyne No 06/4974, 1993 as Grossoperation</p>
+      format: basic_html
+      summary: 'This is the third Sector General novel. Again this was previously published as short stories. Interestingly on the rear cover blurb it says "James White, himself a doctor..."! Well, he had the mind and compassion of a doctor, I suppose.'
+  field_book_type:
+    -
+      value: fixup
+  field_contents:
+    -
+      entity: 0aba6c77-b093-4e19-9f09-77fd4ff7a0a1
+    -
+      entity: c6be35db-6629-46b5-a9a3-3f9780c74d65
+    -
+      entity: 5e234e43-63c3-4de7-b2bd-fd33c365f586
+    -
+      entity: 0ed15ef8-7d60-40bf-a183-67d85295468f
+    -
+      entity: 30b1aa3e-29cb-4423-8a98-4ecbfc391468
+  field_cover:
+    -
+      entity: ffb047c7-c976-441b-a03c-56fb0f1c0076
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4233 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1971
+  field_isfdb_id:
+    -
+      value: '4233'
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_series_number:
+    -
+      value: 3
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 70000

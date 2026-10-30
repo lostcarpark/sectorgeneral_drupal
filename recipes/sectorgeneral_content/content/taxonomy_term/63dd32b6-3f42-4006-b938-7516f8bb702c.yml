@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 63dd32b6-3f42-4006-b938-7516f8bb702c
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Boros Zoltán'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/boros-zoltan
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

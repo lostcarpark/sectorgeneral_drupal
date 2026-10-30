@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: bdeb6824-f2f0-489f-8cb9-75f4d925c3e9
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    113e8f38-7fed-47d7-8eab-8adad4e2d4dd: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Analog Science Fiction and Fact, February 1996 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 58d8e7d85ba626511e5f72262ebff44017becf10
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://isfdb.org/wiki/images/1/1a/ANLGFEB96.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Analog Science Fiction and Fact, February 1996 cover'
+      title: ''
+      width: 331
+      height: 500
+      entity: 113e8f38-7fed-47d7-8eab-8adad4e2d4dd
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?56871'
+      title: null
+      options: {  }

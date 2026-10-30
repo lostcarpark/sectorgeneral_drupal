@@ -1,0 +1,23 @@
+uuid: bca9bd80-a77f-4fcc-aaf3-7b515ab944ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_first_published_year
+    - node.type.anthology
+id: node.anthology.field_first_published_year
+field_name: field_first_published_year
+entity_type: node
+bundle: anthology
+label: Year
+description: 'Year of publication.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

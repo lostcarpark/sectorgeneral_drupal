@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 52838163-a706-4d99-8f83-f6bc7d53e188
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: james-white-sffauthors.jpg
+  uri:
+    -
+      value: 'public://photos/2026-10/james-white-sffauthors.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 24799
+  status:
+    -
+      value: true

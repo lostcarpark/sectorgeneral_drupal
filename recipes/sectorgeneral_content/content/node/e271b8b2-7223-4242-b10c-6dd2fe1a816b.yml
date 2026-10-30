@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e271b8b2-7223-4242-b10c-6dd2fe1a816b
+  bundle: edition
+  default_langcode: en
+  depends:
+    0bb071f1-d117-4b2e-9ea7-89fc12780677: media
+    bb8ddbde-9c0e-4812-9c5f-1860e6f3f81d: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1: node
+    32dfb838-1b85-446d-8f00-f65cfd4d0785: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL7790305M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Ambulance Ship, Corgi, 1980'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/ambulance-ship/ambulance-ship-corgi-1980
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 0bb071f1-d117-4b2e-9ea7-89fc12780677
+  field_cover_artist:
+    -
+      entity: bb8ddbde-9c0e-4812-9c5f-1860e6f3f81d
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Corgi, London, No 0553-11551-8, December 1980”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?152531 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL7790305M (CC0).
+  field_date_display:
+    -
+      value: 'December 1980'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780552115117'
+  field_isfdb_id:
+    -
+      value: '152531'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1
+  field_oclc:
+    -
+      value: '16561931'
+  field_openlibrary_id:
+    -
+      value: OL7790305M
+  field_pages:
+    -
+      value: 224
+  field_price:
+    -
+      value: £1.25
+  field_publisher:
+    -
+      entity: 32dfb838-1b85-446d-8f00-f65cfd4d0785
+  field_publisher_reference:
+    -
+      value: 0553-11551-8
+  field_sort_date:
+    -
+      value: '1980-12-01'
+  field_year:
+    -
+      value: 1980

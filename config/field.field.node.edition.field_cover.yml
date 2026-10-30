@@ -1,0 +1,24 @@
+uuid: 534175c7-6e80-4c9c-93fd-9d5d2b3da45d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cover
+    - media.type.cover_image
+    - node.type.edition
+id: node.edition.field_cover
+field_name: field_cover
+entity_type: node
+bundle: edition
+label: Cover
+description: 'Choose an existing cover from the library or upload a new one.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      cover_image: cover_image
+field_type: entity_reference

@@ -1,0 +1,45 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 169726ab-336a-413f-ae58-c69838bbb4c0
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    7f65d2a5-3673-497a-8d56-cb24cd5b7bce: taxonomy_term
+    0d20f5aa-bbdc-4b14-b552-6941e1c7ae95: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Rymdsjukhuset
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_source:
+    -
+      entity: 7f65d2a5-3673-497a-8d56-cb24cd5b7bce
+  field_media_image:
+    -
+      alt: 'Cover of Rymdsjukhuset'
+      title: ''
+      width: 600
+      height: 1009
+      entity: 0d20f5aa-bbdc-4b14-b552-6941e1c7ae95
+  field_scanned_by:
+    -
+      value: Chariton
+  field_source_url:
+    -
+      uri: 'https://www.librarything.com/work/137615/covers/140031663'
+      title: ''
+      options: {  }

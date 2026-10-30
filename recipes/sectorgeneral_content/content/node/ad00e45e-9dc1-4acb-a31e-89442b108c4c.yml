@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ad00e45e-9dc1-4acb-a31e-89442b108c4c
+  bundle: novel
+  default_langcode: en
+  depends:
+    6116a736-72b5-44a7-8834-c50cb09ca283: media
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover from its earliest English edition.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Tales of Sector General'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/tales-sector-general
+      langcode: en
+      pathauto: 1
+  field_book_type:
+    -
+      value: omnibus
+  field_cover:
+    -
+      entity: 6116a736-72b5-44a7-8834-c50cb09ca283
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1052889 (CC BY 4.0).'
+  field_first_published_year:
+    -
+      value: 1999
+  field_isfdb_id:
+    -
+      value: '1052889'
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698

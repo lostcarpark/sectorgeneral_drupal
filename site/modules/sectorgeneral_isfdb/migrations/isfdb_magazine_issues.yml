@@ -1,0 +1,81 @@
+id: isfdb_magazine_issues
+label: 'ISFDB: magazine issues'
+migration_tags:
+  - isfdb
+migration_dependencies:
+  required:
+    - isfdb_stories
+    - isfdb_books
+source:
+  plugin: isfdb_magazine_issues
+  key: isfdb
+process:
+  _stories:
+    - plugin: isfdb_lookup
+      source: story_ids
+      migration: isfdb_stories
+  field_magazine:
+    plugin: isfdb_term
+    source: magazine
+    vocabulary: magazine
+    aliases: magazine_aliases
+  nid:
+    plugin: isfdb_match
+    source: pub_id
+    strategy: issue
+    bundle: magazine_issue
+    year: year
+    date: date_display
+    edition: regional_edition
+    magazine: '@field_magazine'
+    stories: '@_stories'
+  type:
+    plugin: default_value
+    default_value: magazine_issue
+  title: title
+  field_isfdb_id: pub_id
+  field_issue_number: issue
+  field_year: year
+  field_date_display: date_display
+  field_contents:
+    plugin: isfdb_lookup
+    source: content_ids
+    migration: [isfdb_stories, isfdb_books]
+  field_editor:
+    plugin: isfdb_term
+    source: editors
+    vocabulary: people
+  field_cover_artist:
+    plugin: isfdb_term
+    source: cover_artists
+    vocabulary: people
+  field_interior_artist:
+    plugin: isfdb_term
+    source: interior_artists
+    vocabulary: people
+  field_other_contributors:
+    plugin: isfdb_term
+    source: other_contributors
+    vocabulary: people
+  field_regional_edition: regional_edition
+  field_published_as: published_as
+  field_language:
+    plugin: isfdb_term
+    source: language
+    vocabulary: language
+  field_data_sources: attribution
+  field_price: price
+  field_pages: pages
+  uid:
+    plugin: default_value
+    default_value: 1
+  status:
+    plugin: default_value
+    default_value: 1
+destination:
+  plugin: 'sg_fill:node'
+  merge: [field_contents, field_editor, field_cover_artist, field_interior_artist, field_other_contributors, field_published_as]
+  append: [field_data_sources]
+  # Titles of issues the import created follow its current naming.
+  refresh_created: [title]
+  ignore_conflicts: [title, field_date_display]

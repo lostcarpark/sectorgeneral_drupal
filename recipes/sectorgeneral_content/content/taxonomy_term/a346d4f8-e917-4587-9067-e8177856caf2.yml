@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: a346d4f8-e917-4587-9067-e8177856caf2
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Dermot Ryan'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/dermot-ryan
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 71ccb30f-eae5-4ed3-9541-8050a21cabd1
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    81d3d48e-c61b-4abe-a6b6-e5e692bebf9d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'De buitenste duisternis, Scala, 1976 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: be2e8ea3a3feb335565253efddb906a08997f1b6
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/f/fc/DBTNSTDSTR1976.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'De buitenste duisternis, Scala, 1976 cover'
+      title: ''
+      width: 369
+      height: 600
+      entity: 81d3d48e-c61b-4abe-a6b6-e5e692bebf9d
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?506559'
+      title: null
+      options: {  }

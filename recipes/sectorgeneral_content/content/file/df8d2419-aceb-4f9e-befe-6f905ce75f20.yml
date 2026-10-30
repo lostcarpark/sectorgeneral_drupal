@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: df8d2419-aceb-4f9e-befe-6f905ce75f20
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newworlds81.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/newworlds81.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 15122
+  status:
+    -
+      value: true

@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 5b6b5253-264f-4163-ab1d-a0ab178e5060
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    cd4d6880-1c44-46c8-b502-1a6d1270082f: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Drabble II - Double Century cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 589276e289c2aefb1b0345d3330a486448fd12c0
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/0/0a/DRBBLDBLCN1990.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Drabble II - Double Century cover'
+      title: ''
+      width: 429
+      height: 600
+      entity: cd4d6880-1c44-46c8-b502-1a6d1270082f
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?185929'
+      title: null
+      options: {  }

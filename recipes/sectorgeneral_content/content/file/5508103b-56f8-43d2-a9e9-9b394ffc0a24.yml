@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5508103b-56f8-43d2-a9e9-9b394ffc0a24
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: new-sf-16.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/new-sf-16.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3793
+  status:
+    -
+      value: true

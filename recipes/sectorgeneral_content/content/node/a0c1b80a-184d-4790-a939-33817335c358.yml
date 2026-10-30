@@ -1,0 +1,136 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a0c1b80a-184d-4790-a939-33817335c358
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    efcd9ff5-c9f2-46c9-9836-63fdf266eafb: node
+    71aaab23-6e91-4717-a7cd-5849c8f11c0a: media
+    1b237545-9ab1-4953-8610-2f0747f9c1aa: taxonomy_term
+    fb5350db-9365-4214-830c-4e866b0bca96: taxonomy_term
+    2c1f53c4-8e9b-4abb-a3f8-a3bace9d77ba: taxonomy_term
+    f59e3916-edd5-48b5-a4c9-f31a9ec457bb: taxonomy_term
+    f802c2db-2d91-47e0-99c5-8624f626c1f7: taxonomy_term
+    cedf59fa-8f3a-4bd5-a9e2-723e7d64af63: taxonomy_term
+    84eec1ce-2a54-4170-b53d-48440b7b3eda: taxonomy_term
+    249a0515-5358-48e4-baa7-dcb41a3887bb: taxonomy_term
+    03814cea-809d-48de-9d8b-748f34f6f199: taxonomy_term
+    ab932ee1-854a-4759-9575-489aaabf2010: taxonomy_term
+    8502df4b-f8fb-42ff-a3f9-268283d8a3b2: taxonomy_term
+    9ba02792-0c3a-4e38-b5d6-bd1394c702be: taxonomy_term
+    85e0ae59-1c2e-4b36-bd0d-1412d8a5729d: taxonomy_term
+    f3e97e73-3f69-4529-a093-d2fc4b5b0c98: taxonomy_term
+    95fb5bd8-c12d-4a46-98d0-213cbc1e1fa2: taxonomy_term
+    4851affb-7366-4588-aee0-bfb672388a7a: taxonomy_term
+    e5194d6f-1433-4cad-b77d-c3077b739fb4: taxonomy_term
+    9671b40e-39b6-413f-821f-64fd956b0eb5: taxonomy_term
+    4b30f8a4-e6e0-48be-9f41-803304f266fe: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    02279651-117c-4149-a952-69d764a6378a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?327258 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Algol, October 1976'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/algol/algol-october-1976
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: efcd9ff5-c9f2-46c9-9836-63fdf266eafb
+  field_cover:
+    -
+      entity: 71aaab23-6e91-4717-a7cd-5849c8f11c0a
+  field_cover_artist:
+    -
+      entity: 1b237545-9ab1-4953-8610-2f0747f9c1aa
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?327258 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'October 1976'
+  field_editor:
+    -
+      entity: fb5350db-9365-4214-830c-4e866b0bca96
+  field_interior_artist:
+    -
+      entity: 2c1f53c4-8e9b-4abb-a3f8-a3bace9d77ba
+    -
+      entity: f59e3916-edd5-48b5-a4c9-f31a9ec457bb
+    -
+      entity: f802c2db-2d91-47e0-99c5-8624f626c1f7
+    -
+      entity: cedf59fa-8f3a-4bd5-a9e2-723e7d64af63
+    -
+      entity: 84eec1ce-2a54-4170-b53d-48440b7b3eda
+    -
+      entity: 249a0515-5358-48e4-baa7-dcb41a3887bb
+    -
+      entity: 03814cea-809d-48de-9d8b-748f34f6f199
+    -
+      entity: ab932ee1-854a-4759-9575-489aaabf2010
+    -
+      entity: 8502df4b-f8fb-42ff-a3f9-268283d8a3b2
+    -
+      entity: 9ba02792-0c3a-4e38-b5d6-bd1394c702be
+    -
+      entity: 85e0ae59-1c2e-4b36-bd0d-1412d8a5729d
+    -
+      entity: f3e97e73-3f69-4529-a093-d2fc4b5b0c98
+    -
+      entity: 95fb5bd8-c12d-4a46-98d0-213cbc1e1fa2
+    -
+      entity: 4851affb-7366-4588-aee0-bfb672388a7a
+    -
+      entity: e5194d6f-1433-4cad-b77d-c3077b739fb4
+    -
+      entity: 9671b40e-39b6-413f-821f-64fd956b0eb5
+    -
+      entity: fb5350db-9365-4214-830c-4e866b0bca96
+    -
+      entity: 4b30f8a4-e6e0-48be-9f41-803304f266fe
+  field_isfdb_id:
+    -
+      value: '327258'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 02279651-117c-4149-a952-69d764a6378a
+  field_pages:
+    -
+      value: 68
+  field_price:
+    -
+      value: $1.95
+  field_sort_date:
+    -
+      value: '1976-10-01'
+  field_year:
+    -
+      value: 1976

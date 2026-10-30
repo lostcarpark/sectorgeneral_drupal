@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4efa8598-a28e-420e-86e3-6bd309077d78
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    58b10222-70bb-4f96-ac56-7d74acdaa62e: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Monsters and Medics, Corgi Books / Transworld Publishers, 1977 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: b3c3833f490e0e96d8236157e9ef2a0c97bd33db
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/f/f8/MNSTMDCSEC1977.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Monsters and Medics, Corgi Books / Transworld Publishers, 1977 cover'
+      title: ''
+      width: 397
+      height: 640
+      entity: 58b10222-70bb-4f96-ac56-7d74acdaa62e
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?22635'
+      title: null
+      options: {  }

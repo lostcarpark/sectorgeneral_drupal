@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5b471439-de31-462e-8369-a2bddccf0906
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: escapeo1964.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/escapeo1964.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 103838
+  status:
+    -
+      value: true

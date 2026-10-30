@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: f0d3f443-3d88-4d7f-8f6c-6cbe6da3422c
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    737e031d-9add-48b7-acee-e7620df709a1: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Mind to Mind cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 5d5716e9bd00925fb84c08cedd8ebced9fc2f59b
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/5/59/MLO1119.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Mind to Mind cover'
+      title: ''
+      width: 509
+      height: 600
+      entity: 737e031d-9add-48b7-acee-e7620df709a1
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?22250'
+      title: null
+      options: {  }

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 5795d24e-ba5e-4428-a048-754d7b6b84c2
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Wolfgang Jeschke'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/wolfgang-jeschke
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,108 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b32ca83d-a23d-4c1e-a2bc-d64cf189d303
+  bundle: edition
+  default_langcode: en
+  depends:
+    297ec251-9664-417d-bbca-87c0652a7909: media
+    63dd32b6-3f42-4006-b938-7516f8bb702c: taxonomy_term
+    af9ac495-504b-46d0-a128-b7f11172a739: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    3b909b15-13a9-4c7d-a459-89c332b5236c: taxonomy_term
+    590c12c5-5a6d-4044-b4b1-135c1394b922: taxonomy_term
+    cac26874-6808-4fe6-95f3-c6e3d85fe8e9: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/941501957'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Hospital Station, Heyne, 1994'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/hospital-station-heyne-1994
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 297ec251-9664-417d-bbca-87c0652a7909
+  field_cover_artist:
+    -
+      entity: 63dd32b6-3f42-4006-b938-7516f8bb702c
+    -
+      entity: af9ac495-504b-46d0-a128-b7f11172a739
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?852267 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL39219637M (CC0).
+        Deutsche Nationalbibliothek record https://d-nb.info/941501957 (CC0).
+  field_date_display:
+    -
+      value: '1994'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9783453062191'
+  field_isfdb_id:
+    -
+      value: '852267'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_openlibrary_id:
+    -
+      value: OL39219637M
+  field_pages:
+    -
+      value: 318
+  field_price:
+    -
+      value: 'DM 12.90'
+  field_printing:
+    -
+      value: 'Ungekürzte Neuausg., 2. Aufl.'
+  field_publisher:
+    -
+      entity: 3b909b15-13a9-4c7d-a459-89c332b5236c
+  field_publisher_series:
+    -
+      entity: 590c12c5-5a6d-4044-b4b1-135c1394b922
+  field_publisher_series_number:
+    -
+      value: '4974'
+  field_sort_date:
+    -
+      value: '1994-01-01'
+  field_translator:
+    -
+      entity: cac26874-6808-4fe6-95f3-c6e3d85fe8e9
+  field_year:
+    -
+      value: 1994

@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c45cd35d-4b49-4485-b693-6d01d49d7686
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?96208 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Investigation
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/investigation
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Another of White’s inimitable puzzle-for-spacemen stories. “In the great tradition of Deadly Litter!” – as Donald A. Wollheim, Mr Blurby himself, might have put it. “All the [spacewreck] victims had lost their limbs. The medics think they have the answer, but they are wrong . . .” (actual blurb, from the Ballantine edition). Well, they are and they aren’t. Is that Irish enough for you?</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?96208 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1983
+  field_isfdb_id:
+    -
+      value: '96208'
+  field_opening_excerpt:
+    -
+      value: '<p>The ambulance ship Rhabwar had made the trip from Sector General to the scene of the supposed disaster in record time and with a precision of astrogation, Conway thought, which wld cause Lieutenant Dodds to exhibit symptoms of cranial swelling for many days to come.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>Sector General (Ballantine, March 1983).</p>'
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 17000

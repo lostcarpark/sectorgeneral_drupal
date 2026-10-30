@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: decd5e17-1bb7-4662-81fc-1297eafdf2e1
+  bundle: edition
+  default_langcode: en
+  depends:
+    7d2f0e35-51ce-49dd-82c8-dcd63b93a0b2: media
+    314e735f-e968-4635-b287-0ff56e1ebe9c: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    dafaa345-a849-4fa4-a300-0a972ce878f2: taxonomy_term
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    9ec3b938-d294-468b-8588-647cca7c3f21: taxonomy_term
+    787c3f85-1a35-4866-9584-04e511055ddd: taxonomy_term
+    c81fc25e-6c95-462a-bc7d-a93c74f0274d: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?396703 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'In de ban van het gevaar, Born, 1969'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/all-judgement-fled/de-ban-van-het-gevaar-born-1969
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 7d2f0e35-51ce-49dd-82c8-dcd63b93a0b2
+  field_cover_artist:
+    -
+      entity: 314e735f-e968-4635-b287-0ff56e1ebe9c
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Born, Amsterdam, SF 11,September 1969 as In De Ban Van Het Gevaar”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?396703 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'September 1969'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '396703'
+  field_language:
+    -
+      entity: dafaa345-a849-4fa4-a300-0a972ce878f2
+  field_novel:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_pages:
+    -
+      value: 192
+  field_price:
+    -
+      value: ƒ3.15
+  field_publisher:
+    -
+      entity: 9ec3b938-d294-468b-8588-647cca7c3f21
+  field_publisher_reference:
+    -
+      value: '11'
+  field_publisher_series:
+    -
+      entity: 787c3f85-1a35-4866-9584-04e511055ddd
+  field_publisher_series_number:
+    -
+      value: '11'
+  field_sort_date:
+    -
+      value: '1969-09-01'
+  field_translator:
+    -
+      entity: c81fc25e-6c95-462a-bc7d-a93c74f0274d
+  field_year:
+    -
+      value: 1969

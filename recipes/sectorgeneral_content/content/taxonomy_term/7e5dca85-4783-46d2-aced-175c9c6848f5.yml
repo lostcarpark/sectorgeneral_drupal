@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 7e5dca85-4783-46d2-aced-175c9c6848f5
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Arkady Strugatsky'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/arkady-strugatsky
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

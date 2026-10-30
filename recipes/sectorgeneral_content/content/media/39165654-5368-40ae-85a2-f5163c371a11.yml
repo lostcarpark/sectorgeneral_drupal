@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 39165654-5368-40ae-85a2-f5163c371a11
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    13b6af71-34c7-4994-bd17-5efa4db22397: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Hospital Station, Ballantine Books, 1970 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: ae19784f280b631edab15a730d74bd0afd2bf214
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/9/9b/HSPTLSTTNB1962.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Hospital Station, Ballantine Books, 1970 cover'
+      title: ''
+      width: 380
+      height: 640
+      entity: 13b6af71-34c7-4994-bd17-5efa4db22397
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?278009'
+      title: null
+      options: {  }

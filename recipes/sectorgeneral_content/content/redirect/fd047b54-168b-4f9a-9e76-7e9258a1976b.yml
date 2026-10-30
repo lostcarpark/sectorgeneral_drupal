@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: fd047b54-168b-4f9a-9e76-7e9258a1976b
+  bundle: redirect
+  default_langcode: en
+  depends:
+    e3077af2-8533-4c75-9d0e-ef4a478df96e: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 4PeqF59EtJe22vRSRJ5aA_b73IaRQRalxISY11JLgEM
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/galaxy/galaxy-science-fiction-uk-november-1973
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: e3077af2-8533-4c75-9d0e-ef4a478df96e
+  status_code:
+    -
+      value: 301

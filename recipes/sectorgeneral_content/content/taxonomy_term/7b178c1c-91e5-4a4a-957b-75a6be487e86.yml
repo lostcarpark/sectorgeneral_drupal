@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 7b178c1c-91e5-4a4a-957b-75a6be487e86
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Erberto Tealdi'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/erberto-tealdi
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

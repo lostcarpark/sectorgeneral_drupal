@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c2f59b3f-5ce3-4a40-b6aa-8f76b9ec9b4a
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    9056a240-100e-4100-a45f-e5089ec6c0c6: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Dream Millennium, Ballantine, 1982 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: ad7d9c3cd9a467f042fb074e9294601fd6f60516
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/4/4c/THDRMMLLNN1982.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'The Dream Millennium, Ballantine, 1982 cover'
+      title: ''
+      width: 496
+      height: 840
+      entity: 9056a240-100e-4100-a45f-e5089ec6c0c6
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?38846'
+      title: null
+      options: {  }

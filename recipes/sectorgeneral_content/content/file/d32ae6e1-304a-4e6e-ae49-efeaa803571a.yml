@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d32ae6e1-304a-4e6e-ae49-efeaa803571a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sfvdmttn1965.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/sfvdmttn1965.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 48252
+  status:
+    -
+      value: true

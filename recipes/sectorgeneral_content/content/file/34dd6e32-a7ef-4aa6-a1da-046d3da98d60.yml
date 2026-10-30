@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 34dd6e32-a7ef-4aa6-a1da-046d3da98d60
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: galdec73.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/galdec73.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 81580
+  status:
+    -
+      value: true

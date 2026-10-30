@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 504e8a45-c62f-4218-98af-2dd9892110ab
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    10962f80-683f-4606-98e2-e2c70e85347e: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Alien Emergencies, Orb, 2002 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 7dace8dc1fb91fc195935a0a9122b8d85d4bf715
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Alien Emergencies cover'
+      title: ''
+      width: 100
+      height: 154
+      entity: 10962f80-683f-4606-98e2-e2c70e85347e

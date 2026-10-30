@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 4a23675c-bb12-4142-a814-d5a5c0888843
+  bundle: redirect
+  default_langcode: en
+  depends:
+    42b8f78b-6a45-4b53-8c09-9abae4ded93e: taxonomy_term
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: YI_adWiUkY8zCa3MktUyGRk9B3RKPOFT88_bmy70JnQ
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: format/trade-paperback
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 42b8f78b-6a45-4b53-8c09-9abae4ded93e
+  status_code:
+    -
+      value: 301

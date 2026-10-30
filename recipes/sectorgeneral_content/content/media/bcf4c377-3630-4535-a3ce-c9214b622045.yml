@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: bcf4c377-3630-4535-a3ce-c9214b622045
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    2934f7dd-be20-42e9-9b79-3d0e29446fe5: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Second Ending, Ace, 1963 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 69f1dd00059781d5a5ca94d966f0ef0235e4e309
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Second Ending Ace 1963'
+      title: ''
+      width: 100
+      height: 155
+      entity: 2934f7dd-be20-42e9-9b79-3d0e29446fe5

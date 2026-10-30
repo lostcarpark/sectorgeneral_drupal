@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: dbc9a39b-8f0a-499e-b608-8b937684f5de
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hospital_station_delray_1979.jpg
+  uri:
+    -
+      value: 'public://2016-03/hospital_station_delray_1979.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 50989
+  status:
+    -
+      value: true

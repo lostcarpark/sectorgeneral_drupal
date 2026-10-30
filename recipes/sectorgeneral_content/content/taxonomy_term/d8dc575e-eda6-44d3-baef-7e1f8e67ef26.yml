@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d8dc575e-eda6-44d3-baef-7e1f8e67ef26
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Jack Dann'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/jack-dann
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

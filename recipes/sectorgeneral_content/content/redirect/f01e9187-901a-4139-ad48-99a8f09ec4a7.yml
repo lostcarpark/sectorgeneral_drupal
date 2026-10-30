@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: f01e9187-901a-4139-ad48-99a8f09ec4a7
+  bundle: redirect
+  default_langcode: und
+  depends:
+    c45cd35d-4b49-4485-b693-6d01d49d7686: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: tqQmqsVxyY6j-VKmOqjxI45XeqgisDEgbPDMeSfoxhQ
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/investigation.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: c45cd35d-4b49-4485-b693-6d01d49d7686
+  status_code:
+    -
+      value: 301

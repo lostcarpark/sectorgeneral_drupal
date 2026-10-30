@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 887b6c01-eabd-4f86-adf3-d0f8e0e46d6c
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Matt Davis (I)'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/matt-davis-i
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

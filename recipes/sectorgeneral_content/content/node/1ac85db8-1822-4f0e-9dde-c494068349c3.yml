@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1ac85db8-1822-4f0e-9dde-c494068349c3
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    600d1080-80d7-4115-ab90-323bde9282aa: node
+    83026f0e-f76a-4758-bf54-38130c12477c: media
+    007d86a4-94ea-4b74-a63e-877ea1ab3496: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    9fde016a-2479-4beb-a890-aed1832e423b: taxonomy_term
+    1c9ec00b-ba63-4e91-981d-529ee7b83d7a: taxonomy_term
+    ee4a73eb-1579-42ed-92be-8f604364a802: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    3821e984-48db-4086-aab1-348018c3c0c6: taxonomy_term
+    3f46381b-ddc5-49df-8b46-0127ed761aa0: taxonomy_term
+    e21e4e0b-506c-4726-a477-6fc9418aec3c: taxonomy_term
+    078584af-381d-4b9f-9ce4-0a30014b1987: taxonomy_term
+    b0463f05-52c7-49bb-846d-c832aa808e52: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59663 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds 33, March 1955'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-33-march-1955
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 600d1080-80d7-4115-ab90-323bde9282aa
+  field_cover:
+    -
+      entity: 83026f0e-f76a-4758-bf54-38130c12477c
+  field_cover_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59663 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'March 1955'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_interior_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+    -
+      entity: 9fde016a-2479-4beb-a890-aed1832e423b
+    -
+      entity: 1c9ec00b-ba63-4e91-981d-529ee7b83d7a
+    -
+      entity: ee4a73eb-1579-42ed-92be-8f604364a802
+  field_isfdb_id:
+    -
+      value: '59663'
+  field_issue_number:
+    -
+      value: '33'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: 3821e984-48db-4086-aab1-348018c3c0c6
+    -
+      entity: 3f46381b-ddc5-49df-8b46-0127ed761aa0
+    -
+      entity: e21e4e0b-506c-4726-a477-6fc9418aec3c
+    -
+      entity: 078584af-381d-4b9f-9ce4-0a30014b1987
+    -
+      entity: b0463f05-52c7-49bb-846d-c832aa808e52
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 2/-
+  field_sort_date:
+    -
+      value: '1955-03-01'
+  field_year:
+    -
+      value: 1955

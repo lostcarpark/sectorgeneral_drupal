@@ -1,0 +1,122 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fca399d1-b2e8-4092-b670-ede2cd585a96
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    7ebc130e-24fb-4797-b384-cb98d1b19fc3: node
+    f781a816-4381-452e-b3a8-1b3f78d24c70: node
+    844eaca0-e38b-497c-af21-bd8219e81d94: media
+    007d86a4-94ea-4b74-a63e-877ea1ab3496: taxonomy_term
+    68a16fbb-9fdb-4338-b5d3-987c17a24b98: taxonomy_term
+    082fcd14-5c3f-4409-9833-22ae6f1092d3: taxonomy_term
+    099a0705-9ae5-4e33-ae55-f1a98b50259c: taxonomy_term
+    5601c3c1-d92c-4af9-bd82-4f9bb7f5db6d: taxonomy_term
+    2e3469d1-2615-4209-985c-1873c5a938a8: taxonomy_term
+    e8b94075-d3fe-42f3-94c9-07aba5cf646b: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    cbe398b9-9727-41d8-808d-c33e602e300a: taxonomy_term
+    f3b4e40c-b80d-42b5-b3cb-98792bdf50b3: taxonomy_term
+    46e523ff-22e9-402a-9037-365e21f47b1b: taxonomy_term
+    6f1d8b39-1cf5-4d5d-83f2-b42a10749725: taxonomy_term
+    b0034d8c-4700-4416-ac8c-790c9eb9de94: taxonomy_term
+    bad5091c-3762-4a52-a591-a01d247091c2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?373301 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Extro 2, April/May 1982'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/extro/extro-2-aprilmay-1982
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 7ebc130e-24fb-4797-b384-cb98d1b19fc3
+    -
+      entity: f781a816-4381-452e-b3a8-1b3f78d24c70
+  field_cover:
+    -
+      entity: 844eaca0-e38b-497c-af21-bd8219e81d94
+  field_cover_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?373301 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'April/May 1982'
+  field_editor:
+    -
+      entity: 68a16fbb-9fdb-4338-b5d3-987c17a24b98
+  field_interior_artist:
+    -
+      entity: 082fcd14-5c3f-4409-9833-22ae6f1092d3
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+    -
+      entity: 099a0705-9ae5-4e33-ae55-f1a98b50259c
+    -
+      entity: 5601c3c1-d92c-4af9-bd82-4f9bb7f5db6d
+    -
+      entity: 2e3469d1-2615-4209-985c-1873c5a938a8
+    -
+      entity: e8b94075-d3fe-42f3-94c9-07aba5cf646b
+  field_isfdb_id:
+    -
+      value: '373301'
+  field_issue_number:
+    -
+      value: '2'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: cbe398b9-9727-41d8-808d-c33e602e300a
+  field_other_contributors:
+    -
+      entity: f3b4e40c-b80d-42b5-b3cb-98792bdf50b3
+    -
+      entity: 46e523ff-22e9-402a-9037-365e21f47b1b
+    -
+      entity: 6f1d8b39-1cf5-4d5d-83f2-b42a10749725
+    -
+      entity: b0034d8c-4700-4416-ac8c-790c9eb9de94
+    -
+      entity: bad5091c-3762-4a52-a591-a01d247091c2
+  field_pages:
+    -
+      value: 48
+  field_price:
+    -
+      value: £0.75
+  field_sort_date:
+    -
+      value: '1982-04-01'
+  field_year:
+    -
+      value: 1982

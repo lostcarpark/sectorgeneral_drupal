@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: a323cec8-0409-45ac-8221-9573a752b452
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Michael Carroll (I)'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/michael-carroll-i
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: bcdf3ee3-14c2-40b6-8af5-42e523e4fdd6
+  bundle: redirect
+  default_langcode: und
+  depends:
+    2c173c06-4324-4644-93cc-79dd46396550: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 177TdHDpZH7tFGcmKari9kAFB2LLxS0oN0Q3XbhXRZs
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/beginningoperations.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 2c173c06-4324-4644-93cc-79dd46396550
+  status_code:
+    -
+      value: 301

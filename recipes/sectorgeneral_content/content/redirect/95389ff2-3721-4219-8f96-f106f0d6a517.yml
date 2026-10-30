@@ -1,0 +1,28 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 95389ff2-3721-4219-8f96-f106f0d6a517
+  bundle: redirect
+  default_langcode: und
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: Fc0em8bDn76roreIuw4S15peLA0UjjPX8vGmlZAi7k0
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: people/anthology-contributors
+      query: {  }
+  redirect_redirect:
+    -
+      uri: 'internal:/people/fellow-contributors'
+      title: null
+      options: {  }
+  status_code:
+    -
+      value: 301

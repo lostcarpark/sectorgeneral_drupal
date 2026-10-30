@@ -1,0 +1,168 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fb91761c-80c8-47aa-a109-6f534d2b2cb5
+  bundle: anthology
+  default_langcode: en
+  depends:
+    9b1202e7-a80e-4c92-b146-d00078b4d127: node
+    66da93fa-49b1-45cb-a758-daeb9f74c08b: media
+    14178cf3-1680-4ef3-a078-839fa0b02efa: taxonomy_term
+    98198ea5-db97-409a-92f0-7f61cee9333f: taxonomy_term
+    11d85969-b233-4dd1-9a77-ec64d8efb27c: taxonomy_term
+    b08e66ae-26b1-43d9-b16a-ab65d5cf2606: taxonomy_term
+    5cba97f0-0439-4d9a-ab94-1958e858b964: taxonomy_term
+    fa8e617d-35b3-452e-b5d3-bbcb90f642e5: taxonomy_term
+    d3e741ea-3798-4233-869a-c7cb4a3da3bd: taxonomy_term
+    faff891b-e787-4d30-8a8f-77b749cdee78: taxonomy_term
+    7abccbf8-27eb-4246-95ef-8306fbba6b00: taxonomy_term
+    13b14b44-bdd7-4ba6-be48-56ddf982537c: taxonomy_term
+    ed580a68-ad3d-4cf8-9166-406e9a7472bf: taxonomy_term
+    0d114890-f134-47a1-a604-b790e635467b: taxonomy_term
+    cac19ac7-90ce-4ca5-b5fb-703d249dcbae: taxonomy_term
+    b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd: taxonomy_term
+    3f2a6546-b3c2-4e16-910f-58533bbcd7ca: taxonomy_term
+    3ad33e16-c34e-4b56-9188-4e5c0b7de315: taxonomy_term
+    09e79d44-324e-4614-8fed-e820bb81d3d0: taxonomy_term
+    d5961395-9f8c-44b2-b398-c0e17ec22e68: taxonomy_term
+    20e53796-f833-4bc9-b2ea-d3dbbc7a61d6: taxonomy_term
+    80a1c90b-4e66-442b-8076-a4570b28af43: taxonomy_term
+    c9cf56ac-98a1-453b-a166-0c57605aefd6: taxonomy_term
+    29487726-c436-4adb-8288-35cd2c0fbd24: taxonomy_term
+    ee391b45-261b-41c5-94a4-67e1402f0c66: taxonomy_term
+    50432e03-2c58-4586-9dc5-2d3b504275b9: taxonomy_term
+    e6a60529-2f88-4875-8cd4-f56a6ad66489: taxonomy_term
+    a2d52569-9c5d-453a-aa6a-4a2c176c691d: taxonomy_term
+    ee500118-5a65-4762-80d3-a87045196bd1: taxonomy_term
+    f41fd92b-5f87-499d-bfe9-4745b7da92b4: taxonomy_term
+    13d0b6d3-c8b1-49b2-bf1a-1ab9d43dcb08: taxonomy_term
+    de4a17e3-0e13-4ddf-8932-1251ddaca742: taxonomy_term
+    cbcda45f-44a1-4cdf-b843-e491c5572ae6: taxonomy_term
+    04a391e5-7c2e-4cba-9a92-6da1dfda3816: taxonomy_term
+    0a8a9534-f7a0-4ebb-b22d-e755b0bbe8c7: taxonomy_term
+    75b0b985-9839-4a29-ad29-7579fa4bc192: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?253850'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Supernatural Cats'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/supernatural-cats
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Doubleday, March 1973.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 9b1202e7-a80e-4c92-b146-d00078b4d127
+  field_cover:
+    -
+      entity: 66da93fa-49b1-45cb-a758-daeb9f74c08b
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?845483 (CC BY 4.0).
+  field_editor:
+    -
+      entity: 14178cf3-1680-4ef3-a078-839fa0b02efa
+  field_first_published_year:
+    -
+      value: 1973
+  field_isfdb_id:
+    -
+      value: '845483'
+  field_other_contributors:
+    -
+      entity: 98198ea5-db97-409a-92f0-7f61cee9333f
+    -
+      entity: 11d85969-b233-4dd1-9a77-ec64d8efb27c
+    -
+      entity: b08e66ae-26b1-43d9-b16a-ab65d5cf2606
+    -
+      entity: 5cba97f0-0439-4d9a-ab94-1958e858b964
+    -
+      entity: fa8e617d-35b3-452e-b5d3-bbcb90f642e5
+    -
+      entity: d3e741ea-3798-4233-869a-c7cb4a3da3bd
+    -
+      entity: faff891b-e787-4d30-8a8f-77b749cdee78
+    -
+      entity: 7abccbf8-27eb-4246-95ef-8306fbba6b00
+    -
+      entity: 13b14b44-bdd7-4ba6-be48-56ddf982537c
+    -
+      entity: ed580a68-ad3d-4cf8-9166-406e9a7472bf
+    -
+      entity: 0d114890-f134-47a1-a604-b790e635467b
+    -
+      entity: 14178cf3-1680-4ef3-a078-839fa0b02efa
+    -
+      entity: cac19ac7-90ce-4ca5-b5fb-703d249dcbae
+    -
+      entity: b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd
+    -
+      entity: 3f2a6546-b3c2-4e16-910f-58533bbcd7ca
+    -
+      entity: 3ad33e16-c34e-4b56-9188-4e5c0b7de315
+    -
+      entity: 09e79d44-324e-4614-8fed-e820bb81d3d0
+    -
+      entity: d5961395-9f8c-44b2-b398-c0e17ec22e68
+    -
+      entity: 20e53796-f833-4bc9-b2ea-d3dbbc7a61d6
+    -
+      entity: 80a1c90b-4e66-442b-8076-a4570b28af43
+    -
+      entity: c9cf56ac-98a1-453b-a166-0c57605aefd6
+    -
+      entity: 29487726-c436-4adb-8288-35cd2c0fbd24
+    -
+      entity: ee391b45-261b-41c5-94a4-67e1402f0c66
+    -
+      entity: 50432e03-2c58-4586-9dc5-2d3b504275b9
+    -
+      entity: e6a60529-2f88-4875-8cd4-f56a6ad66489
+    -
+      entity: a2d52569-9c5d-453a-aa6a-4a2c176c691d
+    -
+      entity: ee500118-5a65-4762-80d3-a87045196bd1
+    -
+      entity: f41fd92b-5f87-499d-bfe9-4745b7da92b4
+    -
+      entity: 13d0b6d3-c8b1-49b2-bf1a-1ab9d43dcb08
+    -
+      entity: de4a17e3-0e13-4ddf-8932-1251ddaca742
+    -
+      entity: cbcda45f-44a1-4cdf-b843-e491c5572ae6
+    -
+      entity: 04a391e5-7c2e-4cba-9a92-6da1dfda3816
+    -
+      entity: 0a8a9534-f7a0-4ebb-b22d-e755b0bbe8c7
+  field_publisher:
+    -
+      entity: 75b0b985-9839-4a29-ad29-7579fa4bc192

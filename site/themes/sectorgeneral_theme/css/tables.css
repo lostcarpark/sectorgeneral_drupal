@@ -1,0 +1,55 @@
+/**
+ * @file
+ * Listing tables (books, editions, stories, credits).
+ *
+ * Registration Theme only styles ConReg's own tables, so views tables are
+ * styled here.
+ */
+
+.region-content table {
+  width: 100%;
+  margin-block: 1rem 2rem;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.region-content th {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 2px solid var(--rt-neutral-200);
+  color: var(--rt-neutral-800);
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  text-align: start;
+  text-transform: uppercase;
+}
+
+.region-content th a {
+  color: inherit;
+}
+
+.region-content td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--rt-neutral-100);
+  vertical-align: top;
+}
+
+.region-content tbody tr:hover {
+  background: var(--rt-neutral-050);
+}
+
+/* Cover thumbnail columns stay as narrow as their images. */
+.region-content td:has(> img:only-child),
+.region-content td:has(> a:only-child > img),
+.region-content td.views-field-field-cover {
+  width: 1%;
+  white-space: nowrap;
+}
+
+/* Wide tables scroll sideways on narrow screens instead of the page. */
+@media (max-width: 43.75rem) {
+  .region-content .views-view-table,
+  .region-content table.views-table {
+    display: block;
+    overflow-x: auto;
+  }
+}

@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 116cab19-1620-4bbf-82dd-aa0dac498c81
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    2e622960-3247-4361-981b-83def46864f7: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Code Blue—Emergency, Del Rey, 1987 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: d535587b7d91bad731ebf4733897c35bcaeac2b8
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Code Blue - Emergency: Ballantine, 1987'
+      title: ''
+      width: 100
+      height: 168
+      entity: 2e622960-3247-4361-981b-83def46864f7

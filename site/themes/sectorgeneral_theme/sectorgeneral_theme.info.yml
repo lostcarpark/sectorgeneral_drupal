@@ -1,0 +1,29 @@
+name: 'Sector General'
+type: theme
+description: 'Theme for the James White / Sector General bibliography, built on Registration Theme.'
+core_version_requirement: ^11.3 || ^12
+'base theme': registration_theme
+# The Sector General rocket, 70×127 (the largest copy there is).
+logo: images/logo.png
+regions:
+  header: 'Header (logo)'
+  primary_menu: 'Primary menu'
+  page_title: 'Page title'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer_brand: 'Footer: Brand blurb'
+  footer_pages: 'Footer: Pages links'
+  footer_policies: 'Footer: Policies links'
+  footer_social: 'Footer: Social icons'
+  footer_bottom: 'Footer: Copyright bar'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+libraries:
+  - sectorgeneral_theme/global
+libraries-override:
+  # ConReg's registration form and tables don't appear on this site.
+  registration_theme/register-form: false
+  registration_theme/content-tables: false

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 566e8978-cca7-4e12-afa0-53eb6643b15d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: genocidalhealerbookclub.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/genocidalhealerbookclub.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4424
+  status:
+    -
+      value: true

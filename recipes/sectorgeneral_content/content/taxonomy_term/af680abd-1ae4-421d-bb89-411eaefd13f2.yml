@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: af680abd-1ae4-421d-bb89-411eaefd13f2
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Dennis Rolfe'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/dennis-rolfe
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

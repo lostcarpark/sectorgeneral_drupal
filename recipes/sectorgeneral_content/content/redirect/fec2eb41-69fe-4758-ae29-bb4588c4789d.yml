@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: fec2eb41-69fe-4758-ae29-bb4588c4789d
+  bundle: redirect
+  default_langcode: und
+  depends:
+    20ff98ce-5722-4adb-be4d-fd041564814c: taxonomy_term
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 9TiVjEAdZ0ZDNUU1VjpKUPUctc8DMbu6I9VU8Ahw8GM
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: publishers/futuria
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 20ff98ce-5722-4adb-be4d-fd041564814c
+  status_code:
+    -
+      value: 301

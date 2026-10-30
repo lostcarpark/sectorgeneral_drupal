@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 9a026f66-a177-4d6c-bde4-43f2ffeff734
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    c594fcb4-174a-4b9d-843c-a5907a69337c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Watch Below, Del Rey / Ballantine, 1978 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 580f11f044ecc8235f17c60c13b5a30bf0579583
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/c/ca/THWTCHBLWJ1978.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'The Watch Below, Del Rey / Ballantine, 1978 cover'
+      title: ''
+      width: 374
+      height: 640
+      entity: c594fcb4-174a-4b9d-843c-a5907a69337c
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?558967'
+      title: null
+      options: {  }

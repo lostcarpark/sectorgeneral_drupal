@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 78a65129-41ba-447f-9c7f-04f21fc9f1bf
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    aa10d095-23fe-42db-b7f1-3490895a69d5: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Out of This World 4 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: ef02e338562eb83377e019efb9e3ce831ddc2134
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/c/c9/TFTHSWRLDFD1964.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Out of This World 4 cover'
+      title: ''
+      width: 400
+      height: 577
+      entity: aa10d095-23fe-42db-b7f1-3490895a69d5
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?25383'
+      title: null
+      options: {  }

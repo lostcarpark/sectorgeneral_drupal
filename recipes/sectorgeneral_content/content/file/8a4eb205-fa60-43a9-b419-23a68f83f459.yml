@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8a4eb205-fa60-43a9-b419-23a68f83f459
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: deadlit1964.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/deadlit1964.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 106633
+  status:
+    -
+      value: true

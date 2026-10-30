@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 29211efa-3c13-40c0-a21e-414f8dfd1085
+  bundle: redirect
+  default_langcode: und
+  depends:
+    62862122-c514-4f24-8c75-e5e6741745f4: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: nqc-kOhAW9iUQq-KjVb4trEsAkG3zoHHhi5QoSiHe0Q
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/starhealer.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 62862122-c514-4f24-8c75-e5e6741745f4
+  status_code:
+    -
+      value: 301

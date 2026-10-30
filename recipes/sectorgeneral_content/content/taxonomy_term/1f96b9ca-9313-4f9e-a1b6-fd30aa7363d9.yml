@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 1f96b9ca-9313-4f9e-a1b6-fd30aa7363d9
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Pauline Ashwell'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/pauline-ashwell
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

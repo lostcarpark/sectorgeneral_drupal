@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8aa48b15-484a-4fdd-84b8-6a44f1a4fa95
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Dave Wood'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/dave-wood
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

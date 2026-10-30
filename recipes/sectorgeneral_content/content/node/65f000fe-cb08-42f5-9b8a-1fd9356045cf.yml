@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 65f000fe-cb08-42f5-9b8a-1fd9356045cf
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Imported from the original James White Information site.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'James White and Sector General'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /articles/james-white-and-sector-general
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: |
+        <p><em>By Dave Langford</em></p>
+        <p>One hobby-horse of sf pundits is lamenting the "decline of the publishing midlist". At first yawn this seems unthreatening: so what if some middling-good novels drop out of print? The trouble is that countless sf midlist books, the ones that don't get lead-title promotion or media tie-in sales, have given our genre its distinctive shape ... a shape now being eroded away.</p>
+        <p>Consider the Northern Irish writer James White, whose Sector General space hospital stories have virtually defined the subgenre of multi-species medical sf. (Precursors include L. Ron Hubbard's dire <em>Old Doc Methuselah</em> stories and the competent hackwork of Murray Leinster's Med Service tales.) The UK Internet Bookshop's on-line <em>Books in Print</em> reports that <em>none</em> of this well-loved series is available in Britain; in August 1997 the only listed White novel was a 1987 Macdonald reprint of his 1968 <em>All Judgement Fled</em>.</p>
+        <p>Yet, happily, James White is still with us and still writing, with three Sector General novels published in America this decade -- <em>The Genocidal Healer</em> (Del Rey 1991), <em>The Galactic Gourmet</em> (Tor 1996) and <em>Final Diagnosis</em> (Tor 1997) -- and another one due. His Guest of Honour appearance at the 1996 World SF Convention was commemorated by a new collection, <em>The White Papers</em> (NESFA Press 1996), and his short "Un-Birthday Boy" (<em>Analog</em>) reached the final 1997 Hugo Awards ballot. This is hardly a career that lies in ruins ... merely one that's invisible in the British Isles, owing to that fading of the sf midlist.</p>
+        <p>Pause for a spurt of Sixties nostalgia from your columnist -- who missed out on sex, drugs and rock'n'roll, but religiously queued in bookshops for each issue of E.J. Carnell's anthology <em>New Writings in SF</em>, in hope of another Sector General story.... Besides those above, the series titles are <em>Hospital Station</em> (1962), <em>Star Surgeon</em> (1963), <em>Major Operation</em> (1971, assembled from five <em>New Writings</em> episodes), <em>Ambulance Ship</em> (1979), <em>Sector General</em> (1983), <em>Star Healer</em> (1985) and <em>Code Blue -- Emergency</em> (1987). Stray shorts feature in other White collections. His cheerful background essay "The Secret History of Sector General" appears in <em>Ambulance Ship</em> and, expanded, in <em>The White Papers</em>.</p>
+        <p>As every sf reader should know, Sector Twelve General Hospital is a huge interstellar construction built by many co-operating species, its 384 levels equipped to simulate the home environment of any conceivable alien patient. Conceivable, that is, to the builders' imaginations. White gleefully harasses Sector General medics with a steady stream of inconceivables and seeming-impossibles, ranging in size from an intelligent virus and spacefaring barnacles, via a levitating brontosaur called Emily, to "macro" life-forms like the miles-long Midgard Serpent which is discovered in dismantled form and must be painstakingly assembled, or the continent-sized inhabitant of planet Meatball whose treatment requires not so much surgery as military action.</p>
+        <p>Several well-loved props run through the series. The most famous is the species classification system (originally a homage to E.E. "Doc" Smith's less thought-out version in <em>Children of the Lens</em>) which sums up aliens' shape and biology in a few terse letters. Earth-humans are DBDG and "similar" warm-blooded oxygen-breathers have similar codes, with teddy-bear Orligians also being DBDG while caterpillar-shaped Kelgians are DBLF. Weirder creatures include chlorine-breathing PVSJs and psi-talented V-codes. One buried joke concerns the unfortunate Gogleskan species, classification FOKT, who are unable to prevent themselves from forming mindlessly destructive mobs. This greatly tickled Glasgow's SF group, the Friends Of Kilgore Trout.</p>
+        <p>Also notable is the hospital's system of Educator tapes, which help prepare doctors for other-species surgery by uploading the skills of an expert from the relevant world. The downside is that an entire and often cantankerous e-t personality is loose in your head, objecting to your vile choice of food (a regular canteen sight is a Senior Physician eating sandwiches of unidentifiable content with his eyes tight shut) and imposing strange glandular urges. In "Countercharm", series hero Dr Conway uses a tape recorded from a randy Melfan ELNT, and finds himself distracted from vital operations by an uncontrollable case of the hots for his gorgeous Melfan pupil -- who happens to be a giant crab.</p>
+        <p>The regular human cast includes problem-solving Conway (who for ages appeared to have no first name -- <em>very</em> late in the series it's revealed to be Peter); his busty girl-friend and eventual wife Nurse (later Pathologist) Murchison, whose first name I have yet to detect; and the irascible Chief Psychologist O'Mara, wielder of deadly sarcasm and -- at his worst -- a feared politeness. Conway's closest friend is the universally popular Dr Prilicla, a fragile e-t who resembles a giant and beautiful dragonfly, carries diplomacy to the point of fibbing (since its empathic talent makes it cringe from hostile emotion), and likes to weave its canteen spaghetti into an edible cable to be chomped while hovering in mid-air. Sector General's staff and wards contain countless further aliens, each with their own quirky charm. It's a running joke that the hottest hospital gossip concerns sexual antics in the methane section whose ethereal, crystalline patients live at 120-140 degrees below zero.</p>
+        <p>Yes, the sequence offers copious fun as well as xenobiological ingenuity. "Almost wilfully upbeat," wrote John Clute. What it also contains -- showing clearly through transparent storytelling that puts on no literary airs -- is the compassion and rare anger of a good man. (In the sf world there are few if any nicer fellows than James White.) From the first story in 1957 to <em>Final Diagnosis</em> forty years later, it's repeatedly stressed that xenophobia in all its forms is a loathsome disease requiring salutary treatment. The Monitor Corps, this interstellar community's police, hates war and stamps it out ruthlessly with nonlethal weapons like sleepy gas. At Sector General's bleakest hour in <em>Star Surgeon</em>, when the hospital is besieged by a space fleet and under missile attack, the defending Monitors grit their teeth and accept that "fanatically tolerant" medical staff will -- must -- give enemy casualties the same degree of care as their own wounded.</p>
+        <p>This moral sense illuminates some later and darker segments, when after all his brilliant diagnoses and miracle cures Conway is kicked upstairs to tackle cases that can't be solved at a stroke: the Gogleskans' grim evolutionary dilemma, the slow decline of Hudlar old age. Monitor Fleet Commander Dermod has spent his life expiating his role in the small but bloody war of "Occupation: Warrior" (1959), a story whose Sector General links were removed by an editor who thought it too grim for the series. <em>The Genocidal Healer</em> stars Lioren, an alien doctor with a fearful weight on his conscience following the medical disaster commemorated in the title, who works his way painfully towards what amounts to a non-sectarian and non-theistic religion of confession and forgiveness. Somewhere in there is a refraction of this Belfast-born author's pain at his country's troubles -- while, in a deadpan gesture to the death-or-glory school of military sf, war and violence are here presented as a sick, enfeebled race's last remaining means of sexual stimulation. (The Marquis de Sade might recognize his own face in that mirror.) One early book spoke wistfully of "the diagnosis and treatment of a diseased interstellar culture, entailing the surgical removal of deeply rooted prejudice and unsane moral values ..." If only.</p>
+        <p>The late sidelining of Conway and introduction of alien viewpoint characters like Lioren gave the series considerable new pep. One or two stories had perhaps strained overmuch for xenological novelty: I couldn't quite suspend my disbelief in the species whose sensitive, intelligent, telepathic foetal stage is trapped inside a mindlessly violent adult-form body, especially when they've somehow developed interstellar flight in cahoots with completely different aliens who can't see the stars since they are blind. Even Conway's famous hunches couldn't unravel more than part of that tangle -- it needed <em>lots</em> of telepathic exposition in traditional italics.</p>
+        <p>But Cha Thrat, the prickly and eccentric e-t "warrior-surgeon" who carves a swathe of chaos through Sector General's organization in <em>Code Blue -- Emergency</em>, is a most likeable character whose adventures reveal secrets of the hospital's unheroic infrastructure. The intricacies of bedpans and maintenance tunnels prove as fascinating as major surgery. White also has fun with the superbly arrogant alien master-chef of <em>The Galactic Gourmet</em>, who tackles the greatest challenge of his career -- that of somehow, against impossible odds, making hospital food tasty -- without poisoning many people, much. (We will not speak of the crottled greeps.) His finest hour comes when he wins the hearts and saves the lives of a new, doomed-seeming species via "the first known instance of culinary first contact".</p>
+        <p>The latest instalment to appear, <em>Final Diagnosis</em>, sees Sector General through the eyes of an initially xenophobic patient; his story revisits and interestingly develops an ingenious idea from <em>Star Surgeon</em>. Owing to the need to summarize this book, the background info-dumps invariably provided as a courtesy to newcomers are here unusually extensive; old hands may find themselves skipping some sections.</p>
+        <p>What next? "The Secret Life of Sector General" alarmingly hinted that the sequence might stop at a nice, round ten books. However, James White proudly reports that he's delivered number 11 to Tor Books: <em>Mind Changer</em>, tracing the career, from the hospital's construction to his own impending retirement, of the dour, nasty, sarcastic Chief Psychologist O'Mara, who hasn't been a viewpoint character since early in <em>Hospital Station</em>. Pressed for juicy titbits, our author declared: "There are some very funny and very serious bits in between, but if you need more cryptic hints they will need 89,157 words to tell you about them, so there." I am all agog.</p>
+        <p>Sector General is one of the few places in sf that one would really, really like to exist. How about some new British editions, chaps?</p>
+        <p>This old Dave Langford column title (dating back to 1983 in <em>White Dwarf</em>) was revived for <a href="http://www.jeapes.ndirect.co.uk/odyssey/"><em>Odyssey</em></a> magazine in 1997.</p>
+        <p>Reproduced with kind permission of Dave Langford.</p>
+        <p><a href="/">Sector General</a></p>
+        <p><a href="contactus.php">Contact Us</a></p>
+        <p>Back to Top</p>
+      format: basic_html
+      summary: ''

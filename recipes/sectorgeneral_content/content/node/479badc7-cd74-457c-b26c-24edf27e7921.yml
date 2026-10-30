@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 479badc7-cd74-457c-b26c-24edf27e7921
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?84809 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Deadly Litter'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/deadly-litter
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Captain Gregory seeks vital information from James Andrew Caulfield, erstwhile Engineer on the passenger-carrying freighter Sunflower and proven interplanetary litterbug. &quot;There had been a time when people thought it funny that a ship could be wrecked by . . . a frigid, iron-hard potato peeling. But among spacemen . . . it was the sort of joke at which you died laughing.&quot; Caulfield&#039;s eleven-year-old crime has already cost one ship and eighteen lives and the death toll might keep rising indefinitely. &#039;Deadly Litter&#039; should have won a Hugo and/or an Edgar award from the mystery writers of America.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?84809 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1960
+  field_isfdb_id:
+    -
+      value: '84809'
+  field_opening_excerpt:
+    -
+      value: '<p>The man who opened the door did not waste his breath asking who they were or what they wanted, he merely stared at Captain Gregory and the two space officers behind him and waited.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>SCIENCE FICTION ADVENTURES No 13, February 1960 Deadly Litter</p>'
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 17250

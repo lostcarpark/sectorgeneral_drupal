@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: a04d46ef-720a-48a0-a357-52536ff2ca70
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    1248ec3e-bc50-4a26-92e1-bec246a673ad: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Star Surgeon, Del Rey / Ballantine, 1981 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: a18276782f83f88fc59f469a8cbff66945ca3b9b
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/6/60/STRSRGNKQM1981.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Star Surgeon, Del Rey / Ballantine, 1981 cover'
+      title: ''
+      width: 381
+      height: 640
+      entity: 1248ec3e-bc50-4a26-92e1-bec246a673ad
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?561211'
+      title: null
+      options: {  }

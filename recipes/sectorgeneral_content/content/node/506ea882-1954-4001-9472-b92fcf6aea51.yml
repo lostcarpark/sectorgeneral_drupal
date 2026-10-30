@@ -1,0 +1,83 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 506ea882-1954-4001-9472-b92fcf6aea51
+  bundle: edition
+  default_langcode: en
+  depends:
+    3ded96f8-89fc-4cbd-80de-c8b9a338c49a: media
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    076cb8ba-ada5-4880-8874-aee68d7e662d: node
+    b99f0a2a-ae7d-4f48-b18d-cb0c230c3009: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?304500'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Watch Below, Ronald Whiting & Wheaton, 1966'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/watch-below/watch-below-ronald-whiting-wheaton-1966
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 3ded96f8-89fc-4cbd-80de-c8b9a338c49a
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ronald Whiting & Wheaton, March 1966”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?304500 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'March 1966'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isfdb_id:
+    -
+      value: '304500'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 076cb8ba-ada5-4880-8874-aee68d7e662d
+  field_oclc:
+    -
+      value: '6446475'
+  field_pages:
+    -
+      value: 192
+  field_price:
+    -
+      value: 18/-
+  field_publisher:
+    -
+      entity: b99f0a2a-ae7d-4f48-b18d-cb0c230c3009
+  field_sort_date:
+    -
+      value: '1966-03-01'
+  field_year:
+    -
+      value: 1966

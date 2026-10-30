@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6b9c2460-4878-43e0-9585-54f5b8b3b1c9
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    c5a45ff8-9365-4807-845a-40e88c28a20c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Sector General, Del Rey, 1983 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 959a94f136ffd65111a3b812f3cb8f2ac6aa21be
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Sector General cover'
+      title: ''
+      width: 100
+      height: 161
+      entity: c5a45ff8-9365-4807-845a-40e88c28a20c

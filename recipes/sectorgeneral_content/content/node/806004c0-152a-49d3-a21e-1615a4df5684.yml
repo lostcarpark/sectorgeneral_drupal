@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 806004c0-152a-49d3-a21e-1615a4df5684
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    5e000242-78e2-4513-ba9c-451613a6c9d9: node
+    3611d5a1-4c7d-4b9d-886c-ab54d0aff3c4: media
+    843bed2f-13a9-43e3-8732-8f2f5c44f06e: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    007d86a4-94ea-4b74-a63e-877ea1ab3496: taxonomy_term
+    1c9ec00b-ba63-4e91-981d-529ee7b83d7a: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    b226aeaa-e71f-48e7-b1bb-540fe32b5459: taxonomy_term
+    15b4b4fc-75c7-476e-99ac-3d01f105cf30: taxonomy_term
+    0ace682b-7932-42e9-8884-e2a79cec29cb: taxonomy_term
+    f6b91abe-d1df-49d4-93cf-fc21dda26ed1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59639 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds 44, February 1956'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-44-february-1956
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 5e000242-78e2-4513-ba9c-451613a6c9d9
+  field_cover:
+    -
+      entity: 3611d5a1-4c7d-4b9d-886c-ab54d0aff3c4
+  field_cover_artist:
+    -
+      entity: 843bed2f-13a9-43e3-8732-8f2f5c44f06e
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59639 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'February 1956'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_interior_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+    -
+      entity: 1c9ec00b-ba63-4e91-981d-529ee7b83d7a
+  field_isfdb_id:
+    -
+      value: '59639'
+  field_issue_number:
+    -
+      value: '44'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+    -
+      entity: 15b4b4fc-75c7-476e-99ac-3d01f105cf30
+    -
+      entity: 0ace682b-7932-42e9-8884-e2a79cec29cb
+    -
+      entity: f6b91abe-d1df-49d4-93cf-fc21dda26ed1
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 2/-
+  field_sort_date:
+    -
+      value: '1956-02-01'
+  field_year:
+    -
+      value: 1956

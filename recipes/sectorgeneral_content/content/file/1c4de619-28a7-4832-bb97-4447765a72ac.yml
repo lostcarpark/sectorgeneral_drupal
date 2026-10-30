@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1c4de619-28a7-4832-bb97-4447765a72ac
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: OUT_OF_THIS_WORLD_8_1970.jpg
+  uri:
+    -
+      value: 'public://covers/2026-10/OUT_OF_THIS_WORLD_8_1970.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 58531
+  status:
+    -
+      value: true

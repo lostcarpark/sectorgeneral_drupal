@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 2d3c917b-daad-4118-8ff1-79885a2ba89a
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Neil Gaiman'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/neil-gaiman
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

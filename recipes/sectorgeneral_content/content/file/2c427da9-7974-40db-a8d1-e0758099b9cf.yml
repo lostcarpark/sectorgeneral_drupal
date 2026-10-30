@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2c427da9-7974-40db-a8d1-e0758099b9cf
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: underkillcorgi.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/underkillcorgi.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4377
+  status:
+    -
+      value: true

@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 9290d904-1c66-4432-a023-5e2f301b2596
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    c4d1ba71-f070-458b-9d6a-219bf31b77b5: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Monsters and Medics, Corgi, 1977 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 12190afe1bd893e0f00e711a71beb678227c82da
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Monsters and Medics cover'
+      title: ''
+      width: 151
+      height: 250
+      entity: c4d1ba71-f070-458b-9d6a-219bf31b77b5

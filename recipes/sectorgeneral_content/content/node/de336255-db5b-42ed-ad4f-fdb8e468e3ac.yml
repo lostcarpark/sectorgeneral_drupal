@@ -1,0 +1,167 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: de336255-db5b-42ed-ad4f-fdb8e468e3ac
+  bundle: anthology
+  default_langcode: en
+  depends:
+    ad7e263f-afa9-49e6-a611-f2fd53633b5e: node
+    c577c8b0-483d-4cd4-8955-7d010ada0a61: media
+    9d7f4eb4-cb50-4b5f-8cb1-194d568638d0: taxonomy_term
+    e613edcf-203e-48ff-8a70-3dc22f2becd4: taxonomy_term
+    0ace682b-7932-42e9-8884-e2a79cec29cb: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    c78b7f7e-db91-4f83-a832-aa696e236b01: taxonomy_term
+    caa9cb93-3e4c-41dc-b115-e9d3513a78e6: taxonomy_term
+    b17e3f4f-d1a8-4d64-ac53-6c80be0f8fed: taxonomy_term
+    a966258d-b058-44e1-8e6e-ca2a9a84234c: taxonomy_term
+    d0c75285-95f3-4e3f-92d2-04c05cc6456f: taxonomy_term
+    dcad8db6-446f-464d-9d5e-c4c04a54ebac: taxonomy_term
+    0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea: taxonomy_term
+    68627b15-48ef-424f-8eb9-3d4eae01e52c: taxonomy_term
+    07e04449-4459-4095-93e6-b2b8657c8a95: taxonomy_term
+    cf488f33-9eae-4454-b31a-8cf9de917a3b: taxonomy_term
+    f6b91abe-d1df-49d4-93cf-fc21dda26ed1: taxonomy_term
+    2562daef-f6ed-42d1-ac7f-871e98770716: taxonomy_term
+    2d1fce49-c2ae-4532-941f-7d8b0b50ff31: taxonomy_term
+    99292b66-1a21-4351-b97b-c7b6a82585be: taxonomy_term
+    7323227d-8516-4ab7-b069-fa79dfe8731c: taxonomy_term
+    4a5b63d2-ed7c-4289-8a8c-b82410d42ddd: taxonomy_term
+    3e34be02-3d11-4eb1-aed4-3e48ea3d608d: taxonomy_term
+    09e79d44-324e-4614-8fed-e820bb81d3d0: taxonomy_term
+    d8ad1c3d-4f9e-4290-9904-f73596c8783e: taxonomy_term
+    1ab17bfb-57b2-441b-b0e5-b5d8462f2649: taxonomy_term
+    adb73a1d-c8ca-4180-9fc8-1d0ce5b42837: taxonomy_term
+    fb417e38-18a3-427b-9783-8b33f490e50e: taxonomy_term
+    6c608748-b95d-4c59-83a0-93710e6720f9: taxonomy_term
+    b475f662-c9a4-42e7-8c49-a7911be673a2: taxonomy_term
+    c413dffe-22ba-437b-903a-5fcd38c9282d: taxonomy_term
+    e30a0ee6-7d00-40fb-a44a-743a504e93fb: taxonomy_term
+    be616e63-0879-4fb2-84fd-d4646f4af6f4: taxonomy_term
+    f5ea8714-b46d-4d8c-b8f3-df4e906ac963: taxonomy_term
+    b0034d8c-4700-4416-ac8c-790c9eb9de94: taxonomy_term
+    b226aeaa-e71f-48e7-b1bb-540fe32b5459: taxonomy_term
+    13ce9587-1f76-40dc-bd04-e4ea96c9f883: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?34620 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The British Way'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/british-way
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Borealis / White Wolf Publishing, February 1998, Trade Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: ad7e263f-afa9-49e6-a611-f2fd53633b5e
+  field_cover:
+    -
+      entity: c577c8b0-483d-4cd4-8955-7d010ada0a61
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?34620 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 9d7f4eb4-cb50-4b5f-8cb1-194d568638d0
+  field_first_published_year:
+    -
+      value: 1998
+  field_isfdb_id:
+    -
+      value: '34620'
+  field_other_contributors:
+    -
+      entity: e613edcf-203e-48ff-8a70-3dc22f2becd4
+    -
+      entity: 0ace682b-7932-42e9-8884-e2a79cec29cb
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: c78b7f7e-db91-4f83-a832-aa696e236b01
+    -
+      entity: caa9cb93-3e4c-41dc-b115-e9d3513a78e6
+    -
+      entity: b17e3f4f-d1a8-4d64-ac53-6c80be0f8fed
+    -
+      entity: a966258d-b058-44e1-8e6e-ca2a9a84234c
+    -
+      entity: d0c75285-95f3-4e3f-92d2-04c05cc6456f
+    -
+      entity: dcad8db6-446f-464d-9d5e-c4c04a54ebac
+    -
+      entity: 0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea
+    -
+      entity: 68627b15-48ef-424f-8eb9-3d4eae01e52c
+    -
+      entity: 07e04449-4459-4095-93e6-b2b8657c8a95
+    -
+      entity: cf488f33-9eae-4454-b31a-8cf9de917a3b
+    -
+      entity: f6b91abe-d1df-49d4-93cf-fc21dda26ed1
+    -
+      entity: 2562daef-f6ed-42d1-ac7f-871e98770716
+    -
+      entity: 2d1fce49-c2ae-4532-941f-7d8b0b50ff31
+    -
+      entity: 99292b66-1a21-4351-b97b-c7b6a82585be
+    -
+      entity: 7323227d-8516-4ab7-b069-fa79dfe8731c
+    -
+      entity: 4a5b63d2-ed7c-4289-8a8c-b82410d42ddd
+    -
+      entity: 3e34be02-3d11-4eb1-aed4-3e48ea3d608d
+    -
+      entity: 09e79d44-324e-4614-8fed-e820bb81d3d0
+    -
+      entity: d8ad1c3d-4f9e-4290-9904-f73596c8783e
+    -
+      entity: 1ab17bfb-57b2-441b-b0e5-b5d8462f2649
+    -
+      entity: adb73a1d-c8ca-4180-9fc8-1d0ce5b42837
+    -
+      entity: fb417e38-18a3-427b-9783-8b33f490e50e
+    -
+      entity: 6c608748-b95d-4c59-83a0-93710e6720f9
+    -
+      entity: b475f662-c9a4-42e7-8c49-a7911be673a2
+    -
+      entity: c413dffe-22ba-437b-903a-5fcd38c9282d
+    -
+      entity: e30a0ee6-7d00-40fb-a44a-743a504e93fb
+    -
+      entity: be616e63-0879-4fb2-84fd-d4646f4af6f4
+    -
+      entity: f5ea8714-b46d-4d8c-b8f3-df4e906ac963
+    -
+      entity: b0034d8c-4700-4416-ac8c-790c9eb9de94
+    -
+      entity: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+  field_publisher:
+    -
+      entity: 13ce9587-1f76-40dc-bd04-e4ea96c9f883

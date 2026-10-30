@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: ded656cd-f453-4daf-97c6-50c101544cc8
+  bundle: redirect
+  default_langcode: und
+  depends:
+    cb57b576-bba0-4654-976b-ef9f8b91a06f: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: V9d3LhCtGIDImyh2X6bYYS87Hbi6pxc-C3z3PfrT9_4
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/dreammillennium.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: cb57b576-bba0-4654-976b-ef9f8b91a06f
+  status_code:
+    -
+      value: 301

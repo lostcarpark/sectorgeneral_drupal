@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 809f2d30-8095-45d4-b6dd-0dda7cffaeb4
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?78477 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Resident Physician'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/resident-physician
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>But Lonvellin, the ELPH patient, has a much smaller insiderkick. &#039;Resident Physician&#039; was later subsumed into the novel Star Surgeon, which had the unfortunate effect of making it into an almost &#039;invisible&#039; story. Whites BIG ALIEN/little alien idea probably had germinated from multiple re-readings of Needle (1950) by Hal clement. Conway to O&#039;Mara: &quot;. . . An intelligent, amoebic life-form, an organized collection of sub-microscopic, virus-type cells, would make the most efficient doctor obtainable.&quot; Nanotechnology, in all but name.</p>
+        <p>*In future, all first lines will be quoted from the book version of any story later made part of a fix-up novel.</p>
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?78477 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1961
+  field_isfdb_id:
+    -
+      value: '78477'
+  field_opening_excerpt:
+    -
+      value: '<p>Far out on the galactic Rim, where . . . (oops!, a false start.) The patient brought into the observation ward was a large specimen -- about one thousand pounds mass, Conway estimated -- and resembled a giant upright pear.*</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WORLDS No 110,September 1961 GALACTIC EMPIRES Vol 1, Ed Brian Alldis, /Futura, Autumn 1976 GALACTIC EMPIRESWeidenfield &amp; Nicholson, London, hardcover IMPERIOS GALaCTICO 2,Editorial Bregeura SA, Barcelona, 1977 GALACTIC EMPIRES 1, Avon Books pb Edition, $2.25, February 1979. GALACTIC EMPIRES combined Vols 1 &amp; 2, Arrow Books, £4-99, 1988 Star Surgeon</p>'
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 10500

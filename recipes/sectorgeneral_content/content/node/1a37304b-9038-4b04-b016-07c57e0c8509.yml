@@ -1,0 +1,85 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1a37304b-9038-4b04-b016-07c57e0c8509
+  bundle: edition
+  default_langcode: en
+  depends:
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    a7b82729-0189-4053-8e54-a3c316573a0a: node
+    a7db68df-cbcb-4bf3-ad1e-26874fce4a71: taxonomy_term
+    0094b470-35c6-4b64-9ac8-cfe7b5bf2570: taxonomy_term
+    11fb5cc2-69f9-416b-b417-03f6edef8a0e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the OPAC SBN: https://opac.sbn.it/bid/TSA1545230'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Partenza da Zero, Mondadori, 1964'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/open-prison/partenza-da-zero-mondadori-1964
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “URANIA No 355, lire 200,October 1964 as Partenza da Zero”
+        OPAC SBN record https://opac.sbn.it/bid/TSA1545230.
+        OPAC SBN record https://opac.sbn.it/bid/RAV0074158.
+        OPAC SBN record https://opac.sbn.it/bid/RAV1078898.
+  field_date_display:
+    -
+      value: 'October 1964'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: a7b82729-0189-4053-8e54-a3c316573a0a
+  field_pages:
+    -
+      value: 134
+  field_price:
+    -
+      value: 'lire 200'
+  field_publisher:
+    -
+      entity: a7db68df-cbcb-4bf3-ad1e-26874fce4a71
+  field_publisher_reference:
+    -
+      value: '355'
+  field_publisher_series:
+    -
+      entity: 0094b470-35c6-4b64-9ac8-cfe7b5bf2570
+  field_publisher_series_number:
+    -
+      value: '355'
+  field_sort_date:
+    -
+      value: '1964-10-01'
+  field_translator:
+    -
+      entity: 11fb5cc2-69f9-416b-b417-03f6edef8a0e
+  field_year:
+    -
+      value: 1964

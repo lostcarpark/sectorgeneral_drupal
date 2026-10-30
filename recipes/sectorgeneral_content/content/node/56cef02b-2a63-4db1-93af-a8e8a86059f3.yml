@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 56cef02b-2a63-4db1-93af-a8e8a86059f3
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Merged duplicate node 618 ("Type "Genie" & Run").'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: "Type 'Genie' and Run"
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/type-genie-and-run
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>At one time, James White did little more than loiter beside the cybernetic superhighway. But he learned fast*. ‘Type “Genie” and Run’ is a comic-inferno fable about those perverse inanimate objects that pass themselves off as ‘computers’. Just like Tron, in fact, only with real words. The first-person narrator remains hidden behind his cloak of anonymity, which mught or might not be significant.</p>
+        <p>*James always did beat me at Space Invaders (et bloody cetera). These shock victories/defeats caused no upset in the computer-gaming world.**</p>
+        <p>**His Favorite Game in later years was X-wing, and apparently he was very good.</p>
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1227315 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1989
+  field_isfdb_id:
+    -
+      value: '1227315'
+  field_opening_excerpt:
+    -
+      value: '<p>This was not the first time that the stupid thing had raised his blood pressure or caused him to use words which would have been familiar to the ancient Anglo-Saxons.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>THE GATE No 1, April 1989</p>'
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 5000

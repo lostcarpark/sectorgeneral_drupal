@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 82d3ce7b-fe52-4335-a2b9-678d4edfd016
+  bundle: redirect
+  default_langcode: und
+  depends:
+    660e6627-c58e-4d71-884e-bf8916e3575d: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 1b_g0xic0IjSaAsBSlgnrDHTjytwRADQcenyqOULcss
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/silentstarsgoby.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 660e6627-c58e-4d71-884e-bf8916e3575d
+  status_code:
+    -
+      value: 301

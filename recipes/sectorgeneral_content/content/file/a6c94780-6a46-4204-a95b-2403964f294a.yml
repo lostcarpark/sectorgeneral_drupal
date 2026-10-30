@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a6c94780-6a46-4204-a95b-2403964f294a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hstrsdcrtr1984.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/hstrsdcrtr1984.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 129729
+  status:
+    -
+      value: true

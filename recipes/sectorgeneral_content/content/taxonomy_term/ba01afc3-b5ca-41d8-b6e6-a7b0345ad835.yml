@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: ba01afc3-b5ca-41d8-b6e6-a7b0345ad835
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'W. E. B. Du Bois'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/w-e-b-du-bois
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

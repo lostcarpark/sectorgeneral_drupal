@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 934e4bc5-74ff-4dbe-b8eb-bcd014512429
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 413jozd-kll.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/413jozd-kll.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 30491
+  status:
+    -
+      value: true

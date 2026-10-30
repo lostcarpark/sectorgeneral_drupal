@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2632be9d-a295-422b-a58c-927073c0a9d8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: gfngnsmllr1980.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/gfngnsmllr1980.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 34305
+  status:
+    -
+      value: true

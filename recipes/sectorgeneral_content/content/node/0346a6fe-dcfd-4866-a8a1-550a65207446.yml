@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0346a6fe-dcfd-4866-a8a1-550a65207446
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63861 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Housesitter
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/housesitter
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>As George Orwell once wrote about Charles Dickens: ‘. . . you can only create if you can care” (from The Lion and the Unicorn, 1941). James White really did care about ‘The Housesitter’ – his last short story, and one of his very best. It also undercuts those critics who have condemned his work for showing too much sentiment and not enough strength. Jim tried to exorcize the most awful hurt any parent can suffer with a sympathetic word-spell. The stronger the sunshine, the deeper the shadows.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63861 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1996
+  field_isfdb_id:
+    -
+      value: '63861'
+  field_opening_excerpt:
+    -
+      value: '<p>.The thunder was like the constant rumbling of a heavy freight train across the arch of the nght sky, and the lightning was so bright and continuous that the rain-lashed garden had no chance to get dark before the next flash lit itup again.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>The White Papers, Nesfa Press, September 1996</p>'
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 7500

@@ -1,0 +1,87 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 09299492-11c0-4746-aada-a8c29b24414c
+  bundle: anthology
+  default_langcode: en
+  depends:
+    f9ffc49f-fb23-4194-b825-52ff8f98a097: node
+    158c3cc2-7699-4980-931c-79d6c21e0bca: media
+    2c6833c5-d003-4fb9-8266-9faa1cba32f3: taxonomy_term
+    442cf31b-603b-4a86-afc4-a9778051297f: taxonomy_term
+    a719ea25-6241-4815-a4ef-1c175bf9b9df: taxonomy_term
+    8cc6971d-912b-4a0b-8fda-8e2d872c282c: taxonomy_term
+    f950dcdb-959f-4a83-a443-efaf452c2e0e: taxonomy_term
+    2489534c-0801-43c6-89f5-eb25fb1d11ea: taxonomy_term
+    10cc2a7b-e0d3-4fa5-9fb1-e361441dae16: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?399630'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Analog 5'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/analog-5
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Moewig, October 1982, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: f9ffc49f-fb23-4194-b825-52ff8f98a097
+  field_cover:
+    -
+      entity: 158c3cc2-7699-4980-931c-79d6c21e0bca
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1504858 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 2c6833c5-d003-4fb9-8266-9faa1cba32f3
+  field_first_published_year:
+    -
+      value: 1982
+  field_isfdb_id:
+    -
+      value: '1504858'
+  field_other_contributors:
+    -
+      entity: 442cf31b-603b-4a86-afc4-a9778051297f
+    -
+      entity: a719ea25-6241-4815-a4ef-1c175bf9b9df
+    -
+      entity: 8cc6971d-912b-4a0b-8fda-8e2d872c282c
+    -
+      entity: f950dcdb-959f-4a83-a443-efaf452c2e0e
+  field_publisher:
+    -
+      entity: 2489534c-0801-43c6-89f5-eb25fb1d11ea
+  field_series:
+    -
+      entity: 10cc2a7b-e0d3-4fa5-9fb1-e361441dae16
+  field_series_number:
+    -
+      value: 5

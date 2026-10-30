@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 800be203-c9c1-44f2-ad47-7e4449e1deed
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2: node
+    790e4652-ba8c-4551-920b-40cf832751d8: media
+    3dcf566c-0c3c-4359-942c-03113ac5727d: taxonomy_term
+    a75064f9-b88f-4d92-b8b4-8dc918f6fc49: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    ae1b8ea3-df08-4563-8f60-954b209ec617: taxonomy_term
+    ff052358-5b35-48be-bb3c-6aad41eafd86: taxonomy_term
+    b0463f05-52c7-49bb-846d-c832aa808e52: taxonomy_term
+    6a823900-9a13-45e5-98e2-dfe4272c467e: taxonomy_term
+    cfb517de-c06d-4f4d-8605-cf711df41713: taxonomy_term
+    6d783a4a-9344-4f89-9f05-a4faec4ca335: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?311152 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds, March 1960 (US edition)'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-march-1960-us-edition
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2
+  field_cover:
+    -
+      entity: 790e4652-ba8c-4551-920b-40cf832751d8
+  field_cover_artist:
+    -
+      entity: 3dcf566c-0c3c-4359-942c-03113ac5727d
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?311152 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'March 1960'
+  field_editor:
+    -
+      entity: a75064f9-b88f-4d92-b8b4-8dc918f6fc49
+  field_isfdb_id:
+    -
+      value: '311152'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: ae1b8ea3-df08-4563-8f60-954b209ec617
+    -
+      entity: ff052358-5b35-48be-bb3c-6aad41eafd86
+    -
+      entity: b0463f05-52c7-49bb-846d-c832aa808e52
+    -
+      entity: 6a823900-9a13-45e5-98e2-dfe4272c467e
+    -
+      entity: cfb517de-c06d-4f4d-8605-cf711df41713
+    -
+      entity: 6d783a4a-9344-4f89-9f05-a4faec4ca335
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: $0.35
+  field_regional_edition:
+    -
+      value: 'US edition'
+  field_sort_date:
+    -
+      value: '1960-03-01'
+  field_year:
+    -
+      value: 1960

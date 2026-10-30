@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: d5c97524-d488-455c-99f5-356b640dc0ce
+  bundle: redirect
+  default_langcode: und
+  depends:
+    e61ca6ea-4c23-4b94-9b2f-cb61764a7129: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: E_Dh4fTjdQnM0njOh-FJHh2D9lnNz3ZNMp6lAp8YMWo
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/combinedoperation.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: e61ca6ea-4c23-4b94-9b2f-cb61764a7129
+  status_code:
+    -
+      value: 301

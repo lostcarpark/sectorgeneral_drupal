@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7be9f892-33c7-436a-b4ee-465fe9d52549
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: doublecontacttor.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/doublecontacttor.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3644
+  status:
+    -
+      value: true

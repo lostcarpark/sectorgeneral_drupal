@@ -1,0 +1,36 @@
+{#
+/**
+ * @file
+ * Book header: cover on the left; summary line, relation, details and
+ * synopsis (or notes) on the right.
+ */
+#}
+{% set has_cover = cover|render|striptags('<img>')|trim is not empty %}
+<div class="book-header{{ has_cover ? '' : ' book-header--no-cover' }}">
+  {% if has_cover %}
+    <div class="book-header__cover">{{ cover }}</div>
+  {% endif %}
+  <div class="book-header__text">
+    {% if summary %}
+      <ul class="book-header__summary">
+        {% for item in summary %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if relation|render|striptags|trim %}
+      <p class="book-header__relation">{{ relation }}</p>
+    {% endif %}
+    {% if details|render|striptags|trim %}
+      <div class="book-header__details">{{ details }}</div>
+    {% endif %}
+    {% if synopsis|render|striptags|trim %}
+      <div class="book-header__synopsis">
+        {{ synopsis }}
+        {% if credit %}
+          <p class="book-header__credit">{{ 'Synopsis by @name'|t({'@name': credit}) }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</div>

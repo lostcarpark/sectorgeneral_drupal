@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: f6983f8f-cc31-40a3-93eb-2b35e16bb657
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Roger Dee'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/roger-dee
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

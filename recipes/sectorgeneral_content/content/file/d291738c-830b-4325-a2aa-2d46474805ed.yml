@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d291738c-830b-4325-a2aa-2d46474805ed
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: secretvisitorsdigit2.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/secretvisitorsdigit2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4274
+  status:
+    -
+      value: true

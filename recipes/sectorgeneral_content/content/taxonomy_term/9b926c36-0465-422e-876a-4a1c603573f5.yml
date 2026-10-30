@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 9b926c36-0465-422e-876a-4a1c603573f5
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'John Lydecker'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/john-lydecker
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

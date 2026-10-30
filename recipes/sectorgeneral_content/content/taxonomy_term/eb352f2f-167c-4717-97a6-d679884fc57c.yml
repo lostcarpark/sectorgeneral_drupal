@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: eb352f2f-167c-4717-97a6-d679884fc57c
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Roy Jackson'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/roy-jackson
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

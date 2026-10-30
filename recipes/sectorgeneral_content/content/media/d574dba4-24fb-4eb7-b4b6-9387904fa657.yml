@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: d574dba4-24fb-4eb7-b4b6-9387904fa657
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    e485148c-01a5-4314-bc6e-22571657b3a5: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'O amanhã está muito longe, Livros do Brasil, 1974 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 0169e954b8de2e6c57caac435e3bf1e618b96004
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/4/45/MNHSTMTLNG1974.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'O amanhã está muito longe, Livros do Brasil, 1974 cover'
+      title: ''
+      width: 300
+      height: 450
+      entity: e485148c-01a5-4314-bc6e-22571657b3a5
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?373603'
+      title: null
+      options: {  }

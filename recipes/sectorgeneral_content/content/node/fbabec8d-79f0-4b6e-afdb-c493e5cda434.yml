@@ -1,0 +1,87 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fbabec8d-79f0-4b6e-afdb-c493e5cda434
+  bundle: anthology
+  default_langcode: en
+  depends:
+    85389460-62f1-481a-ac36-b6d004568ad1: node
+    99c6c37e-66f4-45a3-bb4e-1b1f5b8855f3: media
+    06a0f7e1-bace-4cdf-bf7f-3f9f4b88557d: taxonomy_term
+    0d114890-f134-47a1-a604-b790e635467b: taxonomy_term
+    c2affdde-1fbc-42fb-9fd8-197e6ef2bb29: taxonomy_term
+    3e7d2170-f99e-4731-9c56-982d211a2a86: taxonomy_term
+    dc5875fa-8328-4d42-8b2e-90f29e3cd770: taxonomy_term
+    3b909b15-13a9-4c7d-a459-89c332b5236c: taxonomy_term
+    3cb81b0a-3c09-450e-8370-f80be8fe36f5: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?377851'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Heimkehr zu den Sternen'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/heimkehr-zu-den-sternen
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Heyne, July 1963, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 85389460-62f1-481a-ac36-b6d004568ad1
+  field_cover:
+    -
+      entity: 99c6c37e-66f4-45a3-bb4e-1b1f5b8855f3
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1392094 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 06a0f7e1-bace-4cdf-bf7f-3f9f4b88557d
+  field_first_published_year:
+    -
+      value: 1963
+  field_isfdb_id:
+    -
+      value: '1392094'
+  field_other_contributors:
+    -
+      entity: 0d114890-f134-47a1-a604-b790e635467b
+    -
+      entity: c2affdde-1fbc-42fb-9fd8-197e6ef2bb29
+    -
+      entity: 3e7d2170-f99e-4731-9c56-982d211a2a86
+    -
+      entity: dc5875fa-8328-4d42-8b2e-90f29e3cd770
+  field_publisher:
+    -
+      entity: 3b909b15-13a9-4c7d-a459-89c332b5236c
+  field_series:
+    -
+      entity: 3cb81b0a-3c09-450e-8370-f80be8fe36f5
+  field_series_number:
+    -
+      value: 3

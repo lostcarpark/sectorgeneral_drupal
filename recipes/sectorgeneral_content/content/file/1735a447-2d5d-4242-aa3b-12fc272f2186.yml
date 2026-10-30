@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1735a447-2d5d-4242-aa3b-12fc272f2186
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ybsfjm1963.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/ybsfjm1963.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 127431
+  status:
+    -
+      value: true

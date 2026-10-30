@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f3445617-19b5-4852-ac81-a21588fc319c
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Incident on a Colonising Starship Where All Living Things are in Suspended Animation...'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/incident-colonising-starship-where-all-living-things-are-suspended-animation
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?560861 (CC BY 4.0).'
+  field_first_published_year:
+    -
+      value: 1990
+  field_isfdb_id:
+    -
+      value: '560861'

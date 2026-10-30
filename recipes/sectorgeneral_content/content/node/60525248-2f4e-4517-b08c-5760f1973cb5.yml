@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 60525248-2f4e-4517-b08c-5760f1973cb5
+  bundle: edition
+  default_langcode: en
+  depends:
+    9331cea4-01f6-41fc-b160-f2a794eda661: media
+    97841bd3-dee2-4f0f-b308-b40dc387a99d: taxonomy_term
+    64ffa415-ebad-4616-a0eb-e36e906fb642: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+    2489534c-0801-43c6-89f5-eb25fb1d11ea: taxonomy_term
+    cb7b58db-1396-485b-9e45-6df9a92afc35: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/455019177'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Herr der Roboter, Moewig, 1963'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/second-ending/herr-der-roboter-moewig-1963
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 9331cea4-01f6-41fc-b160-f2a794eda661
+  field_cover_artist:
+    -
+      entity: 97841bd3-dee2-4f0f-b308-b40dc387a99d
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Terra Utopische Romane, Bond 278.1963 as Herr der Roboter”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?500806 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/455019177 (CC0).
+  field_date_display:
+    -
+      value: '1963'
+  field_format:
+    -
+      entity: 64ffa415-ebad-4616-a0eb-e36e906fb642
+  field_isfdb_id:
+    -
+      value: '500806'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+  field_oclc:
+    -
+      value: '73741604'
+  field_pages:
+    -
+      value: 62
+  field_price:
+    -
+      value: 'DM 0.70'
+  field_publisher:
+    -
+      entity: 2489534c-0801-43c6-89f5-eb25fb1d11ea
+  field_publisher_reference:
+    -
+      value: '278'
+  field_publisher_series:
+    -
+      entity: cb7b58db-1396-485b-9e45-6df9a92afc35
+  field_publisher_series_number:
+    -
+      value: '278'
+  field_sort_date:
+    -
+      value: '1963-01-01'
+  field_year:
+    -
+      value: 1963

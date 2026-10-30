@@ -1,0 +1,26 @@
+uuid: f6a6b5de-1896-47af-8dad-632e318f53e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_language
+    - node.type.magazine_issue
+    - taxonomy.vocabulary.language
+id: node.magazine_issue.field_language
+field_name: field_language
+entity_type: node
+bundle: magazine_issue
+label: Language
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      language: language
+    auto_create: true
+    auto_create_bundle: language
+field_type: entity_reference

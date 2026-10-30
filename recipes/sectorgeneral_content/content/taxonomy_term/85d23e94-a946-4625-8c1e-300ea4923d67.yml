@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 85d23e94-a946-4625-8c1e-300ea4923d67
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Maria Benedetta De Castiglione'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/maria-benedetta-de-castiglione
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

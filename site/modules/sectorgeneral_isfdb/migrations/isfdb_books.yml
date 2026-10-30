@@ -1,0 +1,56 @@
+id: isfdb_books
+label: 'ISFDB: books'
+migration_tags:
+  - isfdb
+migration_dependencies:
+  required:
+    - isfdb_stories
+source:
+  plugin: isfdb_titles
+  key: isfdb
+  types: [NOVEL, COLLECTION, OMNIBUS, CHAPBOOK, NONFICTION]
+  # Only works published as a book (see isfdb_stories for the rest).
+  book_publication: required
+  # Books are his own works; compilations that exist only in translation
+  # become editions of the books they contain.
+  languages: [English]
+  contents: true
+process:
+  _stories:
+    - plugin: isfdb_lookup
+      source: story_ids
+      migration: isfdb_stories
+  nid:
+    plugin: isfdb_match
+    source: title_id
+    strategy: title
+    bundle: novel
+    title: title
+    alt_titles: alt_titles
+  type:
+    plugin: default_value
+    default_value: novel
+  title: title
+  field_isfdb_id: title_id
+  field_book_type: book_type
+  field_first_published_year: year
+  field_alternative_titles: alt_titles
+  field_series:
+    plugin: isfdb_term
+    source: series
+    vocabulary: series
+  field_series_number: series_number
+  field_contents: '@_stories'
+  field_data_sources: attribution
+  uid:
+    plugin: default_value
+    default_value: 1
+  status:
+    plugin: default_value
+    default_value: 1
+destination:
+  plugin: 'sg_fill:node'
+  merge: [field_alternative_titles, field_contents]
+  append: [field_data_sources]
+  # "Fix-up novel" is an editorial choice ISFDB doesn't make.
+  ignore_conflicts: [field_book_type, field_series_number]

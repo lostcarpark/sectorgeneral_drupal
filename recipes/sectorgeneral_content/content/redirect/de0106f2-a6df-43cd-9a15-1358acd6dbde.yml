@@ -1,0 +1,28 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: de0106f2-a6df-43cd-9a15-1358acd6dbde
+  bundle: redirect
+  default_langcode: und
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: rkzIids8-hpLLhPAlGHGmuoo5ZeW8C9dU3hjt6BFFZ8
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books.html
+      query: {  }
+  redirect_redirect:
+    -
+      uri: 'internal:/books'
+      title: null
+      options: {  }
+  status_code:
+    -
+      value: 301

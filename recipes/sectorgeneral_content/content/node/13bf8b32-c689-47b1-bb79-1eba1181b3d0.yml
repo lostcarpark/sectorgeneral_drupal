@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 13bf8b32-c689-47b1-bb79-1eba1181b3d0
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63762 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'In Loving Memory'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/loving-memory
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>As explained in White&#039;s Introduction to Monsters and Medics, &#039;In Loving Memory&#039; was inspired by one of his in-between-stories conversations with &#039;a writer friend&#039; (a young Bobby Shaw). They decided to start one short story apiece with a man sitting on a rock, and take it from there. White transposed his rock -- but I&#039;m giving away an important plot-bit. Problem: The planet Kallec will spiral down into its own sun within thirty years, but all forms of life there face destruction long before then. Solution: A &#039;standardization treatment&#039; for turning diverse creatures into true Citizens of the Galaxy. Enter Earthman Ralston and Naleen, his Kallecian sweetheart, who rejects the treatment …</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63762 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1956
+  field_isfdb_id:
+    -
+      value: '63762'
+  field_opening_excerpt:
+    -
+      value: '<p>Every day Ralston went for a walk.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>NEBULA SCIENCE FICTION No 15, January 1956 </p>
+        <p>Publication History: Monsters and Medics</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 5000

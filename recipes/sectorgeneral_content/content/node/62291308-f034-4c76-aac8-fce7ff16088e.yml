@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 62291308-f034-4c76-aac8-fce7ff16088e
+  bundle: edition
+  default_langcode: en
+  depends:
+    be1383aa-b878-4959-a003-d938c4718c99: media
+    30ff9d33-d4ce-47cc-8389-6c5954864a5f: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    691af107-bc16-4e06-b9cf-b4af59b86286: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    524403d5-e150-49f1-83ad-403d2ae68207: node
+    08fdfb9f-e25a-42ae-a42b-6701d0637704: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?433232 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The White Papers, NESFA Press, 1998'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/white-papers/white-papers-nesfa-press-1998
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: be1383aa-b878-4959-a003-d938c4718c99
+  field_cover_artist:
+    -
+      entity: 30ff9d33-d4ce-47cc-8389-6c5954864a5f
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Second printing published May 1998”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?433232 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL8334943M (CC0).
+  field_date_display:
+    -
+      value: 'May 1998'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_introduction_by:
+    -
+      entity: 691af107-bc16-4e06-b9cf-b4af59b86286
+  field_isbn:
+    -
+      value: '9780915368716'
+  field_isfdb_id:
+    -
+      value: '433232'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 524403d5-e150-49f1-83ad-403d2ae68207
+  field_oclc:
+    -
+      value: '39956141'
+  field_openlibrary_id:
+    -
+      value: OL8334943M
+  field_pages:
+    -
+      value: 400
+  field_price:
+    -
+      value: $25.00
+  field_printing:
+    -
+      value: 'Second printing'
+  field_publisher:
+    -
+      entity: 08fdfb9f-e25a-42ae-a42b-6701d0637704
+  field_sort_date:
+    -
+      value: '1998-05-01'
+  field_year:
+    -
+      value: 1998

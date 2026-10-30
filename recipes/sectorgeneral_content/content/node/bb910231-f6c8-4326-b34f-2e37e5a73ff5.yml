@@ -1,0 +1,103 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: bb910231-f6c8-4326-b34f-2e37e5a73ff5
+  bundle: edition
+  default_langcode: en
+  depends:
+    b9fa6a80-8cb7-44d7-99b1-43d4f19be736: media
+    9671b40e-39b6-413f-821f-64fd956b0eb5: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    faec9164-3eb1-4408-8e68-372285338816: node
+    9a196fcd-0584-4ca7-8ef6-6b2cdd8886e7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL9837703M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Galactic Gourmet, Tor, 1997'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/galactic-gourmet/galactic-gourmet-tor-1997
+      langcode: en
+      pathauto: 1
+  field_buy_links:
+    -
+      uri: 'http://www.amazon.com/exec/obidos/ASIN/0812562674/sectorgeneral-20'
+      title: 'US Buyers Paperback Edition'
+      options: {  }
+    -
+      uri: 'http://www.amazon.co.uk/exec/obidos/ASIN/0812562674/sectorgeneral-21'
+      title: 'UK Buyers Paperback Edition'
+      options: {  }
+  field_cover:
+    -
+      entity: b9fa6a80-8cb7-44d7-99b1-43d4f19be736
+  field_cover_artist:
+    -
+      entity: 9671b40e-39b6-413f-821f-64fd956b0eb5
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Tor Books, NY, ISBN 0-812-56267-4, paperback, April 1997”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?40293 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9837703M (CC0).
+  field_date_display:
+    -
+      value: 'April 1997'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780812562675'
+  field_isfdb_id:
+    -
+      value: '40293'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: faec9164-3eb1-4408-8e68-372285338816
+  field_oclc:
+    -
+      value: '36972299'
+  field_openlibrary_id:
+    -
+      value: OL9837703M
+  field_pages:
+    -
+      value: 312
+  field_price:
+    -
+      value: $5.99
+  field_publisher:
+    -
+      entity: 9a196fcd-0584-4ca7-8ef6-6b2cdd8886e7
+  field_sort_date:
+    -
+      value: '1997-04-01'
+  field_year:
+    -
+      value: 1997

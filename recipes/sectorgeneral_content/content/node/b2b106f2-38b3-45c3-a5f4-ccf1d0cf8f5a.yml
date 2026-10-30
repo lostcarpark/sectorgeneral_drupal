@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b2b106f2-38b3-45c3-a5f4-ccf1d0cf8f5a
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+    ea758f2a-a906-45bd-9035-59fdbcc63c00: media
+    31b4c157-d7f4-4a51-807e-34645ed4ca6e: taxonomy_term
+    508cb6ca-3afc-4fe8-868a-76a32cc3c57f: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    484ca364-912c-4b58-879f-a48aabe23f60: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?299741 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Futuria 2, 1 October 1964'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/futuria/futuria-2-1-october-1964
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: fec32d28-7455-4a8a-a448-67c3af694c28
+  field_cover:
+    -
+      entity: ea758f2a-a906-45bd-9035-59fdbcc63c00
+  field_cover_artist:
+    -
+      entity: 31b4c157-d7f4-4a51-807e-34645ed4ca6e
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?299741 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '1 October 1964'
+  field_editor:
+    -
+      entity: 508cb6ca-3afc-4fe8-868a-76a32cc3c57f
+  field_isfdb_id:
+    -
+      value: '299741'
+  field_issue_number:
+    -
+      value: '2'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_magazine:
+    -
+      entity: 484ca364-912c-4b58-879f-a48aabe23f60
+  field_pages:
+    -
+      value: 160
+  field_price:
+    -
+      value: 'Lit 200'
+  field_published_as:
+    -
+      value: 'I visitatori occulti (Complete Novel)'
+  field_sort_date:
+    -
+      value: '1964-10-01'
+  field_year:
+    -
+      value: 1964

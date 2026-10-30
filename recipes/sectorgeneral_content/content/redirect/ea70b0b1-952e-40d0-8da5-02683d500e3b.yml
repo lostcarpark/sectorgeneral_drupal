@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: ea70b0b1-952e-40d0-8da5-02683d500e3b
+  bundle: redirect
+  default_langcode: und
+  depends:
+    041f10bb-7c59-494f-a586-9268f3a6337e: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: bJRvQEyqAM6ZRODYx5B-aTPAuhs3rMfQWrDIVOC2LKo
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/troublewithemily.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 041f10bb-7c59-494f-a586-9268f3a6337e
+  status_code:
+    -
+      value: 301

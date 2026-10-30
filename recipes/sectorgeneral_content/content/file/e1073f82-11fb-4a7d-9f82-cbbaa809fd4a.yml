@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e1073f82-11fb-4a7d-9f82-cbbaa809fd4a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mblncshpjt1980.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mblncshpjt1980.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 103721
+  status:
+    -
+      value: true

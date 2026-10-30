@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: efe5ae0a-9336-4e60-a2c0-30ada09fd77d
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    8847de78-d546-4a6a-a812-4c72294eed0c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Analog Science Fiction and Fact, December 1988 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 3c4b04dfcb8f75b3ebf36ddda4eb2b41754b63dd
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Analog Science Fiction and Fact, December 1988 cover'
+      title: ''
+      width: 100
+      height: 150
+      entity: 8847de78-d546-4a6a-a812-4c72294eed0c

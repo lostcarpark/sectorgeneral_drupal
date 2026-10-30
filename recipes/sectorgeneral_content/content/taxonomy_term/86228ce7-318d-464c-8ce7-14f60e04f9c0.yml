@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 86228ce7-318d-464c-8ce7-14f60e04f9c0
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Otis Kidwell Burger'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/otis-kidwell-burger
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

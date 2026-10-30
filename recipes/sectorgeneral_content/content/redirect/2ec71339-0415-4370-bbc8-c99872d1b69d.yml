@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 2ec71339-0415-4370-bbc8-c99872d1b69d
+  bundle: redirect
+  default_langcode: und
+  depends:
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 8qhkxATfng5HDGvLi8B0t0Zohdzc6NLV9Wfb9Q3ib00
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/hospitalstation.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 72a48e14-360c-4169-8f00-eab21063ae9b
+  status_code:
+    -
+      value: 301

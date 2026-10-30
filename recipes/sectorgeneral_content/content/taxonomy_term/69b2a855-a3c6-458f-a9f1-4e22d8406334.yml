@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 69b2a855-a3c6-458f-a9f1-4e22d8406334
+  bundle: series
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'The Best from Galaxy'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /series/best-galaxy
+      langcode: en
+      pathauto: 1

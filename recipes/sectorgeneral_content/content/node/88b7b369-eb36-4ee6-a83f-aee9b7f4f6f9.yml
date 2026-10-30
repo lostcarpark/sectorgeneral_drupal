@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 88b7b369-eb36-4ee6-a83f-aee9b7f4f6f9
+  bundle: edition
+  default_langcode: en
+  depends:
+    21e4ee57-369e-4981-a9f3-195c100d79e3: media
+    1275b65b-0544-4918-a6f8-3476ee99a45a: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    06aa2580-8e68-4b72-9a00-f5d252de9de3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL22416200M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Star Surgeon, Futura/Orbit, 1986'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-surgeon/star-surgeon-futuraorbit-1986
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 21e4ee57-369e-4981-a9f3-195c100d79e3
+  field_cover_artist:
+    -
+      entity: 1275b65b-0544-4918-a6f8-3476ee99a45a
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Futura Orbit books, ISBN 0-7088-8188-2, £1-95, December 1986”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?32116 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL22416200M (CC0).
+  field_date_display:
+    -
+      value: 'December 1986'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780708881880'
+  field_isfdb_id:
+    -
+      value: '32116'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+  field_oclc:
+    -
+      value: '16083878'
+  field_openlibrary_id:
+    -
+      value: OL22416200M
+  field_pages:
+    -
+      value: 156
+  field_price:
+    -
+      value: £1-95
+  field_publisher:
+    -
+      entity: 06aa2580-8e68-4b72-9a00-f5d252de9de3
+  field_sort_date:
+    -
+      value: '1986-12-01'
+  field_year:
+    -
+      value: 1986

@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c5c856d9-0a2e-48db-9606-2aa5e076695d
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    449a0195-e591-448a-8163-8471bbdf8379: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Ambulance Ship, Macdonald, 1986 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 072dd59cb2ca01a1743ff31d41e24fa208335f2b
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/e/e1/AMBLNCSP1987.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Ambulance Ship, Macdonald, 1986 cover'
+      title: ''
+      width: 370
+      height: 600
+      entity: 449a0195-e591-448a-8163-8471bbdf8379
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?2381'
+      title: null
+      options: {  }

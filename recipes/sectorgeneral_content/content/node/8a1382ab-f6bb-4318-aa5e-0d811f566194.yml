@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8a1382ab-f6bb-4318-aa5e-0d811f566194
+  bundle: edition
+  default_langcode: en
+  depends:
+    2352a899-d4ec-49ad-a6f0-cd30dc59af4e: media
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    a7b82729-0189-4053-8e54-a3c316573a0a: node
+    0fc0637d-f524-4bf9-a5cb-64be66c6edde: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 163, similarity 0.93).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Escape Orbit, Ace, 1964'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/open-prison/escape-orbit-ace-1964
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 2352a899-d4ec-49ad-a6f0-cd30dc59af4e
+  field_data_sources:
+    -
+      value: 'James White Information (original site): “Ace F-317, 40 cents, US title The Escape Orbit, October 1964”'
+  field_date_display:
+    -
+      value: 'October 1964'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: a7b82729-0189-4053-8e54-a3c316573a0a
+  field_price:
+    -
+      value: '40 cents'
+  field_publisher:
+    -
+      entity: 0fc0637d-f524-4bf9-a5cb-64be66c6edde
+  field_sort_date:
+    -
+      value: '1964-10-01'
+  field_year:
+    -
+      value: 1964

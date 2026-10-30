@@ -1,0 +1,122 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c5ad7890-e8bd-4ace-a635-3e46c271621f
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    214647d4-99c3-41e8-a8fb-747ce5ae5a89: node
+    96b9b7e6-4eef-46f6-96e9-6ede3d16cf68: media
+    b976d15c-40a8-4228-a2d2-127d8454ce91: taxonomy_term
+    999e3e00-e1c2-4f79-a07d-21224db8a33a: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    8955183c-a352-45ff-a1b6-fd17a84b825a: taxonomy_term
+    b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    2102ba46-316a-44c2-bb1e-3036cd0b2359: taxonomy_term
+    ac6e1897-eb31-405d-9f5a-df95879ca349: taxonomy_term
+    9d8c75ec-74e6-4afc-9937-ec36c5badcc7: taxonomy_term
+    22b13841-2b0e-4bbf-b463-a026fd972f6d: taxonomy_term
+    3fc3c9db-c83e-4f72-8400-7ab17dff4c67: taxonomy_term
+    349e26df-7166-4b34-b043-d7e3afb17309: taxonomy_term
+    e136dd4e-131c-4405-9fef-f40b80c1779c: taxonomy_term
+    8e41b7f9-0824-43a8-9494-032d7cb3171e: taxonomy_term
+    d799ad72-909c-4c2c-ad43-f398b8402f49: taxonomy_term
+    8bcb6a7d-1fef-4464-9d39-2f6f3a5bc39c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?60951 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Magazine of Fantasy & Science Fiction, April 1963'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/magazine-fantasy-science-fiction/magazine-fantasy-science-fiction-april-1963
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 214647d4-99c3-41e8-a8fb-747ce5ae5a89
+  field_cover:
+    -
+      entity: 96b9b7e6-4eef-46f6-96e9-6ede3d16cf68
+  field_cover_artist:
+    -
+      entity: b976d15c-40a8-4228-a2d2-127d8454ce91
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?60951 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'April 1963'
+  field_editor:
+    -
+      entity: 999e3e00-e1c2-4f79-a07d-21224db8a33a
+  field_isfdb_id:
+    -
+      value: '60951'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 8955183c-a352-45ff-a1b6-fd17a84b825a
+  field_other_contributors:
+    -
+      entity: b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: 2102ba46-316a-44c2-bb1e-3036cd0b2359
+    -
+      entity: ac6e1897-eb31-405d-9f5a-df95879ca349
+    -
+      entity: 9d8c75ec-74e6-4afc-9937-ec36c5badcc7
+    -
+      entity: 22b13841-2b0e-4bbf-b463-a026fd972f6d
+    -
+      entity: 3fc3c9db-c83e-4f72-8400-7ab17dff4c67
+    -
+      entity: 349e26df-7166-4b34-b043-d7e3afb17309
+    -
+      entity: e136dd4e-131c-4405-9fef-f40b80c1779c
+    -
+      entity: 8e41b7f9-0824-43a8-9494-032d7cb3171e
+    -
+      entity: d799ad72-909c-4c2c-ad43-f398b8402f49
+    -
+      entity: 8bcb6a7d-1fef-4464-9d39-2f6f3a5bc39c
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: $0.40
+  field_regional_edition:
+    -
+      value: 'US edition'
+  field_sort_date:
+    -
+      value: '1963-04-01'
+  field_year:
+    -
+      value: 1963

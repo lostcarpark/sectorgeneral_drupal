@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 96561c07-4006-4936-b782-700ad79c8272
+  bundle: redirect
+  default_langcode: und
+  depends:
+    daad753c-b864-474b-b1d4-c65652c6916a: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: ptGJzBLggGkK1KH1iF-4rBaHwKmDOgbdCvXZpVoEMz8
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/interpreters.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: daad753c-b864-474b-b1d4-c65652c6916a
+  status_code:
+    -
+      value: 301

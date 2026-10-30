@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 53a39ab9-e44c-46ef-a0d2-1808b20ba2c0
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newwroct1960.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/newwroct1960.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 144216
+  status:
+    -
+      value: true

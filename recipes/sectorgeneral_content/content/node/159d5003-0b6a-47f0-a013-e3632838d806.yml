@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 159d5003-0b6a-47f0-a013-e3632838d806
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    b04ef842-1d51-49f0-bcc3-39c8bcab1fed: node
+    37ab88d1-5772-4acf-b314-937ff1e27843: media
+    1a466796-c3ec-44bf-bae0-deef124e7148: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    cfb517de-c06d-4f4d-8605-cf711df41713: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+    efbd6ccf-ef5d-4b27-b38c-0e1421032f9b: taxonomy_term
+    e613edcf-203e-48ff-8a70-3dc22f2becd4: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?154301 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds 99, October 1960'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-99-october-1960
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: b04ef842-1d51-49f0-bcc3-39c8bcab1fed
+  field_cover:
+    -
+      entity: 37ab88d1-5772-4acf-b314-937ff1e27843
+  field_cover_artist:
+    -
+      entity: 1a466796-c3ec-44bf-bae0-deef124e7148
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?154301 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'October 1960'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_isfdb_id:
+    -
+      value: '154301'
+  field_issue_number:
+    -
+      value: '99'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: cfb517de-c06d-4f4d-8605-cf711df41713
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+    -
+      entity: efbd6ccf-ef5d-4b27-b38c-0e1421032f9b
+    -
+      entity: e613edcf-203e-48ff-8a70-3dc22f2becd4
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 2/6
+  field_sort_date:
+    -
+      value: '1960-10-01'
+  field_year:
+    -
+      value: 1960

@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 133dfdb9-ac83-459d-bd6d-71bc25f98a3f
+  bundle: edition
+  default_langcode: en
+  depends:
+    208fd71c-7098-4540-bb97-184991c4aa4c: media
+    65a33aeb-6a2f-4063-8182-785ddcdd6309: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    7dba4fce-58ed-48bb-830b-7609fe63975b: node
+    ad283596-2c48-4859-91d6-30b8ded3de98: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL15060322M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Aliens Among Us, Corgi Books / Transworld Publishers, 1970'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/aliens-among-us/aliens-among-us-corgi-books-transworld-publishers-1970
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 208fd71c-7098-4540-bb97-184991c4aa4c
+  field_cover_artist:
+    -
+      entity: 65a33aeb-6a2f-4063-8182-785ddcdd6309
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?152521 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL15060322M (CC0).
+  field_date_display:
+    -
+      value: 'June 1970'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780552084611'
+  field_isfdb_id:
+    -
+      value: '152521'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 7dba4fce-58ed-48bb-830b-7609fe63975b
+  field_oclc:
+    -
+      value: '30300781'
+  field_openlibrary_id:
+    -
+      value: OL15060322M
+  field_pages:
+    -
+      value: 223
+  field_price:
+    -
+      value: £0.25
+  field_publisher:
+    -
+      entity: ad283596-2c48-4859-91d6-30b8ded3de98
+  field_sort_date:
+    -
+      value: '1970-06-01'
+  field_year:
+    -
+      value: 1970

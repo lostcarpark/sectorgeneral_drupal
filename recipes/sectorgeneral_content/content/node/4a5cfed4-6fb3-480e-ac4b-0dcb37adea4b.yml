@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4a5cfed4-6fb3-480e-ac4b-0dcb37adea4b
+  bundle: edition
+  default_langcode: en
+  depends:
+    2850b447-8535-46e6-8cc6-337e2d82631a: media
+    e8af6b37-0ba9-40c7-a0cf-afc743741aea: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    26861d89-acc4-4ce5-8b18-0a60f715424e: taxonomy_term
+    6edd89e8-88d6-4983-b0a1-6ab6f79a7215: node
+    27b31afa-1bbd-4393-a4f6-25e1fc31519b: taxonomy_term
+    44b33fe2-2e51-4099-b74b-a0b99fe76928: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?683236'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'SOS från rymden, B. Wahlström, 1977'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/lifeboat/sos-fran-rymden-b-wahlstrom-1977
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 2850b447-8535-46e6-8cc6-337e2d82631a
+  field_cover_artist:
+    -
+      entity: e8af6b37-0ba9-40c7-a0cf-afc743741aea
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?683236 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '1977'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9789132414015'
+  field_isfdb_id:
+    -
+      value: '683236'
+  field_language:
+    -
+      entity: 26861d89-acc4-4ce5-8b18-0a60f715424e
+  field_novel:
+    -
+      entity: 6edd89e8-88d6-4983-b0a1-6ab6f79a7215
+  field_oclc:
+    -
+      value: '186155888'
+  field_pages:
+    -
+      value: 159
+  field_price:
+    -
+      value: 'skr 7.50'
+  field_publisher:
+    -
+      entity: 27b31afa-1bbd-4393-a4f6-25e1fc31519b
+  field_publisher_series:
+    -
+      entity: 44b33fe2-2e51-4099-b74b-a0b99fe76928
+  field_publisher_series_number:
+    -
+      value: '22'
+  field_sort_date:
+    -
+      value: '1977-01-01'
+  field_year:
+    -
+      value: 1977

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 621b71ee-98d6-4885-a43e-b95795a7c069
+  bundle: redirect
+  default_langcode: und
+  depends:
+    51b2812d-97bb-439f-a331-36b94113bbd4: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: X2RPf3rgHThJ8s5Ey-YKO61CO0HuZVio-MXH_N8IM3M
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: interviewsjeeves.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 51b2812d-97bb-439f-a331-36b94113bbd4
+  status_code:
+    -
+      value: 301

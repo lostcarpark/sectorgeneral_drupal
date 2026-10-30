@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 5cba4392-3519-473d-a3d2-30130620ad79
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'H. R. Van Dongen'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/h-r-van-dongen
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,100 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 871290fa-100a-4ae9-9e39-fd62f64498de
+  bundle: edition
+  default_langcode: en
+  depends:
+    03c684e3-08a6-4075-b4e3-9470d159c58e: media
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    32dfb838-1b85-446d-8f00-f65cfd4d0785: taxonomy_term
+    a88b0f20-7571-47e1-ad97-312850573df6: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL15060775M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Star Surgeon, Corgi, 1976'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-surgeon/star-surgeon-corgi-1976-0
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 03c684e3-08a6-4075-b4e3-9470d159c58e
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Corgi SF Collectors’ edition No 0/552/10213X, 60p, July 1976”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?152511 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL15060775M (CC0).
+  field_date_display:
+    -
+      value: 'July 1976'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780552102131'
+  field_isfdb_id:
+    -
+      value: '152511'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+  field_oclc:
+    -
+      value: '494137304'
+  field_openlibrary_id:
+    -
+      value: OL15060775M
+  field_pages:
+    -
+      value: 1
+  field_price:
+    -
+      value: 60p
+  field_printing:
+    -
+      value: "SF Collectors' edition"
+  field_publisher:
+    -
+      entity: 32dfb838-1b85-446d-8f00-f65cfd4d0785
+  field_publisher_reference:
+    -
+      value: 0/552/10213X
+  field_publisher_series:
+    -
+      entity: a88b0f20-7571-47e1-ad97-312850573df6
+  field_sort_date:
+    -
+      value: '1976-07-01'
+  field_year:
+    -
+      value: 1976

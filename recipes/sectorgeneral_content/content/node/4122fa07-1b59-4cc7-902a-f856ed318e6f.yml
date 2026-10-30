@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4122fa07-1b59-4cc7-902a-f856ed318e6f
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    a7b82729-0189-4053-8e54-a3c316573a0a: node
+    321fd8c1-b334-4127-9109-ab18fd74cbc5: media
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    e613edcf-203e-48ff-8a70-3dc22f2becd4: taxonomy_term
+    c19a9e24-e62a-4008-9c31-c3905ab80696: taxonomy_term
+    d894ab54-8111-472b-8532-c851beed721a: taxonomy_term
+    46e523ff-22e9-402a-9037-365e21f47b1b: taxonomy_term
+    c820296a-92d0-4cc4-8842-8ed4a7d0895f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?181125 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds, March 1964'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-march-1964
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: a7b82729-0189-4053-8e54-a3c316573a0a
+  field_cover:
+    -
+      entity: 321fd8c1-b334-4127-9109-ab18fd74cbc5
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?181125 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'March 1964'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_isfdb_id:
+    -
+      value: '181125'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: e613edcf-203e-48ff-8a70-3dc22f2becd4
+    -
+      entity: c19a9e24-e62a-4008-9c31-c3905ab80696
+    -
+      entity: d894ab54-8111-472b-8532-c851beed721a
+    -
+      entity: 46e523ff-22e9-402a-9037-365e21f47b1b
+    -
+      entity: c820296a-92d0-4cc4-8842-8ed4a7d0895f
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 3/-
+  field_published_as:
+    -
+      value: 'Open Prison (Part 2 of 3)'
+  field_sort_date:
+    -
+      value: '1964-03-01'
+  field_year:
+    -
+      value: 1964

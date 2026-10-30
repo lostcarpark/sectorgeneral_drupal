@@ -1,0 +1,103 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 43d08242-bd45-4ad5-8ab2-69223ec6989a
+  bundle: anthology
+  default_langcode: en
+  depends:
+    2d8cc63a-c949-4a9d-bfb7-0d8bf9579938: node
+    bb9979dd-70d2-4ceb-9efc-10a8fd90f818: media
+    edbec0a9-022c-4dc8-b237-079552374317: taxonomy_term
+    77544555-948e-481d-908b-00dd50b37de1: taxonomy_term
+    e2b34650-5251-4a2a-a4e9-883d41799498: taxonomy_term
+    14b5e5da-b0be-43d2-aa4e-343c47ab785e: taxonomy_term
+    be616e63-0879-4fb2-84fd-d4646f4af6f4: taxonomy_term
+    57a0a03e-e37d-4401-9495-9459d2ba68bc: taxonomy_term
+    6510e8cf-7bf3-4552-83ba-5bcb25a7b2de: taxonomy_term
+    4cc87caa-7fc0-4fad-9ab3-ad2d37f02902: taxonomy_term
+    608bf062-d8ab-4c72-9914-113aa0808b2e: taxonomy_term
+    261fdeab-3e02-4188-a0c0-f59d172121a3: taxonomy_term
+    7c651cfd-07bf-4b75-be5c-cb6025655bbd: taxonomy_term
+    08e5d488-60dc-48d7-bfe0-12b051b88940: taxonomy_term
+    1d5a0744-99f6-4322-9ffe-bb40cc2e622c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?55401'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Worlds Apart'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/worlds-apart
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Blackie, September 1966.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 2d8cc63a-c949-4a9d-bfb7-0d8bf9579938
+  field_cover:
+    -
+      entity: bb9979dd-70d2-4ceb-9efc-10a8fd90f818
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?36422 (CC BY 4.0).
+  field_editor:
+    -
+      entity: edbec0a9-022c-4dc8-b237-079552374317
+    -
+      entity: 77544555-948e-481d-908b-00dd50b37de1
+  field_first_published_year:
+    -
+      value: 1966
+  field_isfdb_id:
+    -
+      value: '36422'
+  field_other_contributors:
+    -
+      entity: e2b34650-5251-4a2a-a4e9-883d41799498
+    -
+      entity: 14b5e5da-b0be-43d2-aa4e-343c47ab785e
+    -
+      entity: be616e63-0879-4fb2-84fd-d4646f4af6f4
+    -
+      entity: 57a0a03e-e37d-4401-9495-9459d2ba68bc
+    -
+      entity: 6510e8cf-7bf3-4552-83ba-5bcb25a7b2de
+    -
+      entity: 4cc87caa-7fc0-4fad-9ab3-ad2d37f02902
+    -
+      entity: 608bf062-d8ab-4c72-9914-113aa0808b2e
+    -
+      entity: 261fdeab-3e02-4188-a0c0-f59d172121a3
+    -
+      entity: 7c651cfd-07bf-4b75-be5c-cb6025655bbd
+    -
+      entity: 08e5d488-60dc-48d7-bfe0-12b051b88940
+  field_publisher:
+    -
+      entity: 1d5a0744-99f6-4322-9ffe-bb40cc2e622c

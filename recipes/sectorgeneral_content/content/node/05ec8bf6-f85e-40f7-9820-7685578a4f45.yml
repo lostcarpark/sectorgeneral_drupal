@@ -1,0 +1,162 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 05ec8bf6-f85e-40f7-9820-7685578a4f45
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Imported from the original James White Information site.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Sector General Timeline'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /articles/sector-general-timeline
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: |
+        <p><em>By Gary Louie</em></p>
+        <p>James White's Sector General stories follow an internal sequence which can be discerned by careful reading of the stories. Since dates are rarely given, only the order-and occasionally the timing-of stories can be derived.</p>
+        <p>Gary Louie was working on a James White concordance. As part of that he completed a Sector General Time line, for the sector generl series including all short stories and up as far as the novel Final Diagnosis.</p>
+        <p>This article appeared in the White Papers. Unfortunatly Gary Louie passed away, before the concordance was completed. </p>
+        <p>Custom Fitting</p>
+        <p>The tailor Hewlitt accepts a commission to de-sign, cut, and build a suit for His Excellency the Lord Scrennagle of Dutha.</p>
+        <p>Tableau</p>
+        <p>After a bad first contact, Earth and Orligia are at war for three years.</p>
+        <p>Tableau</p>
+        <p>Earth-human MacEwan and Orligian Grawlya-Ki are stopped.</p>
+        <p>Tableau</p>
+        <p>After 236 years, Grawlya-Ki and MacEwan are brought out of stasis.</p>
+        <p>Accident</p>
+        <p>Orligian Grawlya-Ki and Earth-human Mac-Ewan conceive the idea of Sector General.</p>
+        <p>Occupation: Warrior </p>
+        <p>Major Dermod (Seventeenth Earth depedition-ary Force) wages war on a Normal Kelgian mili-tary force.</p>
+        <p>Star Healer</p>
+        <p>The young Conway is orphaned on Braemar and raised by his Grandmother.</p>
+        <p>Medic</p>
+        <p>Mr. O'Mara cares for a Hudlar infant during the construction of Sector General.</p>
+        <p>(Major O'Mara is made Chief of Psychology at Sector General.)</p>
+        <p>(Junior Intern Conway arrives at Sector Gen-eral.)</p>
+        <p>Sector General</p>
+        <p>Junior Intern Conway takes his first Educator Tape while treating a Telfi gestalt.</p>
+        <p>Sector General</p>
+        <p>Junior Intern Conway is forced to kill an AACP life form to prevent further loss of life and dam-age to Sector General.</p>
+        <p>Trouble with Emily</p>
+        <p>Doctor Arretapec visits Sector General to work with Junior Intern Conway on Emily.</p>
+        <p>Visitor at Large</p>
+        <p>Doctor Prilicla arrives at Sector General. Visitor at Large </p>
+        <p>Visitor at Large</p>
+        <p>SRTT Visitor gets loose in Sector General, caus-ing havoc.</p>
+        <p>Out-Patient</p>
+        <p>Doctor Conway is promoted to Senior Physi-cian.</p>
+        <p>Out-Patient</p>
+        <p>The Federation makes contact with the lans. </p>
+        <p>Countercharm </p>
+        <p>Senior Physician Conway takes his first long-term Educator Tape.</p>
+        <p>(Doctor Conway gets married to Nurse Mur-chison.)</p>
+        <p>(Senior Physician Mannen's dog dies.) </p>
+        <p>Invader</p>
+        <p>Thought Controlled Tool appears at Sector Gen-eral.</p>
+        <p>Vertigo</p>
+        <p>The Federation makes contact with the Dram-bon Rollers.</p>
+        <p>Blood Brother</p>
+        <p>Senior Physician Conway finds a Drambon Phy-sician.</p>
+        <p>Meatball</p>
+        <p>The Drambon Physician cures an injured Kelgian in Sector General.</p>
+        <p>Major Operation</p>
+        <p>Senior Physician Conway directs an operation on the Drambon Strata Creature.</p>
+        <p>Spacebird</p>
+        <p>The Spacebird is found by the Monitor Corps Scoutship Torrance in Sector 9.</p>
+        <p>Contagion</p>
+        <p>The Sector General Ambulance Ship Rhabwar commissioned.</p>
+        <p>Contagion</p>
+        <p>The Earth Generation Ship Einstein is found and abandoned again.</p>
+        <p>Quarantine</p>
+        <p>Senior Physician Conway declares Contamina-tion One alert in Sector General.</p>
+        <p>Quarantine</p>
+        <p>The Federation makes contact with Dwerla. </p>
+        <p>Recovery </p>
+        <p>The Ambulance Ship Rhabwar rescues a Protec-tor of the Unborn aboard a Blind One's ship.</p>
+        <p>Survivor</p>
+        <p>An EGCL transmitting empath is admitted to Sector General.</p>
+        <p>Investigation</p>
+        <p>Casualties near a wreck lead Major Fletcher to think a serious crime had been committed.</p>
+        <p>Combined Operation</p>
+        <p>The massive CRLT Gestalt is settled on a new world after surgery.</p>
+        <p>Star Surgeon</p>
+        <p>An ELPH Patient, Lonvellin, is suspected of committing murder on its companion and phy-sician.</p>
+        <p>Star Surgeon</p>
+        <p>Senior Physician Conway visits Etla the Sick.</p>
+        <p>Star Surgeon</p>
+        <p>Lonvellin is killed by a nuclear warhead on Etla the Sick.</p>
+        <p>Star Surgeon</p>
+        <p>The Etlan Empire is at war with the Federation and attacks Sector General.</p>
+        <p>Star Surgeon</p>
+        <p>Senior Physician Conway takes seven Educator Tapes and acts as a walking translator on Sector General.</p>
+        <p>Final Diagnosis</p>
+        <p>As a child, the patient Hewlitt is exposed to a virus and is orphaned in a flyer crash.</p>
+        <p>Star Healer</p>
+        <p>The Trainee Danalta arrives at Sector General.</p>
+        <p>Star Healer</p>
+        <p>Senior Physician Conway is relieved of duty on Rhabwar while he considers a promotion to Di-agnostician.</p>
+        <p>Star Healer</p>
+        <p>Senior Physician Prilicla is promoted to Senior Medical Officer aboard the Ambulance Ship Rhabwar.</p>
+        <p>Star Healer</p>
+        <p>Senior Physician Conway meets the Healer Khone on Goglesk.</p>
+        <p>Star Healer</p>
+        <p>Acting Diagnostician Conway adjusts to carry-ing several Educator Tapes.</p>
+        <p>Star Healer</p>
+        <p>The Gogleskan Healer Khone requests to visit Sector General.</p>
+        <p>Star Healer</p>
+        <p>A sentient Protector of the Unborn is born.</p>
+        <p>Star Healer</p>
+        <p>Doctor Conway is confirmed as Diagnostician-in-Charge of Surgery.</p>
+        <p>Code Blue - Emergency</p>
+        <p>The Sommaradvan Cha Thrat arrives at Sector General.</p>
+        <p>Code Blue - Emergency</p>
+        <p>The Chalder hypochondriac patient Muro-meshomon leaves Sector General.</p>
+        <p>Code Blue - Emergency</p>
+        <p>The Gogleskan Khone arrives at Sector General with its child.</p>
+        <p>(The Cromsaggar Incident.)</p>
+        <p>Genocidal Healer</p>
+        <p>Surgeon-Captain Lioren is court-martialed for the Cromsaggar Incident.</p>
+        <p>Genocidal Healer </p>
+        <p>Ex-Diagnostician Mannen is a terminal patient.</p>
+        <p>The Galactic Gourmet</p>
+        <p>Chief Dietician Gurronsevas arrives at Sector General.</p>
+        <p>The Galactic Gourmet </p>
+        <p>The Federation makes contact with the Wem. </p>
+        <p>The Galactic Gourmet </p>
+        <p>Diagnostician-in-Charge of Surgery Conway's first name is revealed.</p>
+        <p>Final Diagnosis</p>
+        <p>Patient Hewlitt arrives at Sector General with a non-specific ailment.</p>
+        <p>Final Diagnosis</p>
+        <p>A intelligent collection of viruses infect a series of hosts, ofdifferent physiological classifications, raising the fear of inter-species contagion.</p>
+        <p>Reproduced with kind permission of Bruce Pelz and Bruce Louie.</p>
+        <p><a href="/">Sector General</a></p>
+        <p><a href="contactus.php">Contact Us</a></p>
+        <p>Back to Top</p>
+      format: basic_html
+      summary: ''

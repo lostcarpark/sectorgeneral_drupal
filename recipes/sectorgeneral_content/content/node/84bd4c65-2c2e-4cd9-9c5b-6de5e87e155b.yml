@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 84bd4c65-2c2e-4cd9-9c5b-6de5e87e155b
+  bundle: edition
+  default_langcode: en
+  depends:
+    9f6e93cd-40d3-44ed-b47b-5e6b045ee614: media
+    85c35dc9-412c-4cff-896f-d86d66734a3c: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    47dcdfd9-5b9d-431e-b100-e494eb3e62cd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL9568607M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'All Judgement Fled, Del Rey, 1979'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/all-judgement-fled/all-judgement-fled-del-rey-1979
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 9f6e93cd-40d3-44ed-b47b-5e6b045ee614
+  field_cover_artist:
+    -
+      entity: 85c35dc9-412c-4cff-896f-d86d66734a3c
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “BB/Del Rey, NY, No 345-28025-3-175, April 1979”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?2141 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9568607M (CC0).
+  field_date_display:
+    -
+      value: 'April 1979'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345280251'
+  field_isfdb_id:
+    -
+      value: '2141'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_oclc:
+    -
+      value: '11241194'
+  field_openlibrary_id:
+    -
+      value: OL9568607M
+  field_pages:
+    -
+      value: 215
+  field_price:
+    -
+      value: $1.75
+  field_publisher:
+    -
+      entity: 47dcdfd9-5b9d-431e-b100-e494eb3e62cd
+  field_sort_date:
+    -
+      value: '1979-04-01'
+  field_year:
+    -
+      value: 1979

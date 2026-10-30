@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 43fd65fb-28fd-4bb8-97ae-40990648a3f1
+  bundle: edition
+  default_langcode: en
+  depends:
+    208fd71c-7098-4540-bb97-184991c4aa4c: media
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    7dba4fce-58ed-48bb-830b-7609fe63975b: node
+    32dfb838-1b85-446d-8f00-f65cfd4d0785: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 341, similarity 0.98).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Aliens Among Us, Corgi'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/aliens-among-us/aliens-among-us-corgi
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 208fd71c-7098-4540-bb97-184991c4aa4c
+  field_data_sources:
+    -
+      value: 'James White Information (original site): “Edition known only from the cover image aliensamonguscorgi.jpg”'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 7dba4fce-58ed-48bb-830b-7609fe63975b
+  field_publisher:
+    -
+      entity: 32dfb838-1b85-446d-8f00-f65cfd4d0785
+  field_sort_date:
+    -
+      value: '9999-12-31'

@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: d45012f7-1b77-4d09-9bd8-2afd3f2d65b2
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    18d0a7da-b945-4fed-871f-5750c68a9627: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Aliens Among Us, Futura/Orbit, 1988 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: a984f824584972c2d77ba68ea8400bfb22ba84b4
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Aliens Among Us cover'
+      title: ''
+      width: 341
+      height: 560
+      entity: 18d0a7da-b945-4fed-871f-5750c68a9627

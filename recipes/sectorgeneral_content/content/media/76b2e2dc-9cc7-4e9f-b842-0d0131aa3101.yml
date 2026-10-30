@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 76b2e2dc-9cc7-4e9f-b842-0d0131aa3101
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    40f89ac3-7ec1-432d-9efb-2f254027508f: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Best of British SF 2 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 5fa722bede9bc90530657fd9833a36be2489e6ae
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/4/48/THBSSHSFF61977.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'The Best of British SF 2 cover'
+      title: ''
+      width: 369
+      height: 600
+      entity: 40f89ac3-7ec1-432d-9efb-2f254027508f
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?35756'
+      title: null
+      options: {  }

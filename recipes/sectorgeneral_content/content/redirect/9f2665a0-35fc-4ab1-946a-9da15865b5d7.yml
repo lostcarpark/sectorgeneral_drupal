@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 9f2665a0-35fc-4ab1-946a-9da15865b5d7
+  bundle: redirect
+  default_langcode: und
+  depends:
+    9441a0ae-4580-4218-a3a1-9938fd3cada4: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 2Bu1d0yQ76EEu1f2QEJwkIgwYVRSE200ZXEAUImN3yw
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/occupationwarrior.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 9441a0ae-4580-4218-a3a1-9938fd3cada4
+  status_code:
+    -
+      value: 301

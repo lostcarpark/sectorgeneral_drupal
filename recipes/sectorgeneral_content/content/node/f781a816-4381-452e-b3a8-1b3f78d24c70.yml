@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f781a816-4381-452e-b3a8-1b3f78d24c70
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Long Will Live the King'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/long-will-live-king
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1376238 (CC BY 4.0).'
+  field_first_published_year:
+    -
+      value: 1982
+  field_isfdb_id:
+    -
+      value: '1376238'

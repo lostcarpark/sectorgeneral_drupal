@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 496ce6f4-9f85-4794-acfb-03631ff857da
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thdrmmllnn1974.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thdrmmllnn1974.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 114583
+  status:
+    -
+      value: true

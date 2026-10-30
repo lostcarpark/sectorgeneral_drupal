@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: ad510d93-66b2-4527-8d94-cad50c655c21
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    e88f926c-980f-4e68-afee-b446ccfba22c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Major Operation, Ballantine cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: fd7e02e890be5a8aa80e4e664256c8447ad1d1d7
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/b/bb/MJRPRTNXQG1971.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Major Operation, Ballantine cover'
+      title: ''
+      width: 373
+      height: 640
+      entity: e88f926c-980f-4e68-afee-b446ccfba22c
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?296627'
+      title: null
+      options: {  }

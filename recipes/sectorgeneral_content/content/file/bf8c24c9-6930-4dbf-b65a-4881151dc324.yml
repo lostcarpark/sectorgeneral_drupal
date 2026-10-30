@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bf8c24c9-6930-4dbf-b65a-4881151dc324
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: federation-world_ballintine_88_correct_tn.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/federation-world_ballintine_88_correct_tn.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 18098
+  status:
+    -
+      value: true

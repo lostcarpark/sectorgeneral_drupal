@@ -1,0 +1,96 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5d2b02c2-b58f-4b14-bb3f-d43e27f75b21
+  bundle: edition
+  default_langcode: en
+  depends:
+    4efa8598-a28e-420e-86e3-6bd309077d78: media
+    da910cae-a7bd-48c7-9aa6-5e09256dc954: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    7ca95962-725e-438b-9860-913571c7b174: node
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+    ad283596-2c48-4859-91d6-30b8ded3de98: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL7790239M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Monsters and Medics, Corgi Books / Transworld Publishers, 1977'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/monsters-and-medics/monsters-and-medics-corgi-books-transworld-publishers-1977
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 4efa8598-a28e-420e-86e3-6bd309077d78
+  field_cover_artist:
+    -
+      entity: da910cae-a7bd-48c7-9aa6-5e09256dc954
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?22635 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL7790239M (CC0).
+  field_date_display:
+    -
+      value: 'May 1977'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780552104623'
+  field_isfdb_id:
+    -
+      value: '22635'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 7ca95962-725e-438b-9860-913571c7b174
+    -
+      entity: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+  field_oclc:
+    -
+      value: '16381746'
+  field_openlibrary_id:
+    -
+      value: OL7790239M
+  field_pages:
+    -
+      value: 1
+  field_price:
+    -
+      value: £0.75
+  field_publisher:
+    -
+      entity: ad283596-2c48-4859-91d6-30b8ded3de98
+  field_sort_date:
+    -
+      value: '1977-05-01'
+  field_year:
+    -
+      value: 1977

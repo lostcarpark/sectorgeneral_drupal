@@ -1,0 +1,18 @@
+{#
+/**
+ * @file
+ * Language card: a fan of covers, the language and its figures.
+ */
+#}
+<article class="language-card">
+  <div class="language-card__covers" aria-hidden="true">{{- covers -}}</div>
+  <h2 class="language-card__name">
+    <a class="language-card__link" href="{{ url }}">{{ name }}</a>
+  </h2>
+  {% if summary %}
+    <p class="language-card__summary">{{ summary|safe_join(' · ') }}</p>
+  {% endif %}
+  {% if detail %}
+    <p class="language-card__detail">{{ detail|safe_join(' · ') }}</p>
+  {% endif %}
+</article>

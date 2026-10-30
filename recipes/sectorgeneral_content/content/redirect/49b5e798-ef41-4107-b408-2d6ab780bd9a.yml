@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 49b5e798-ef41-4107-b408-2d6ab780bd9a
+  bundle: redirect
+  default_langcode: und
+  depends:
+    4d139053-8f19-418c-a119-a1173e437ff9: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: zLi5QSrpWjnXxwTEl7JOY3bMn6d-s8oC98p5snVLWC0
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/tableau.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 4d139053-8f19-418c-a119-a1173e437ff9
+  status_code:
+    -
+      value: 301

@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 334a981f-8e59-4948-ba1a-09ccda904feb
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    d19261bd-b4f6-43d3-afc6-a7884f39c81f: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Analog Science Fiction and Fact, February 1985 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 4160f8e48d654ea6ab538bb1c4a926abe1579158
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Analog Science Fiction and Fact, February 1985 cover'
+      title: ''
+      width: 138
+      height: 200
+      entity: d19261bd-b4f6-43d3-afc6-a7884f39c81f

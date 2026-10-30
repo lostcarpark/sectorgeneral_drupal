@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6c25b734-d2a2-4571-80ad-708048afe572
+  bundle: edition
+  default_langcode: en
+  depends:
+    26861d89-acc4-4ce5-8b18-0a60f715424e: taxonomy_term
+    6edd89e8-88d6-4983-b0a1-6ab6f79a7215: node
+    6eb2a8ac-be44-49d9-aae3-2c93185fc228: taxonomy_term
+    44b33fe2-2e51-4099-b74b-a0b99fe76928: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Imported from the original James White Information site.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'SOS från rymden, Wahlströms, 1976'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/lifeboat/sos-fran-rymden-wahlstroms-1976
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'James White Information (original site): “KOSMOS S-F Bocker, Sweden, 1976 as SOS Fran Rymden”'
+  field_date_display:
+    -
+      value: '1976'
+  field_language:
+    -
+      entity: 26861d89-acc4-4ce5-8b18-0a60f715424e
+  field_novel:
+    -
+      entity: 6edd89e8-88d6-4983-b0a1-6ab6f79a7215
+  field_publisher:
+    -
+      entity: 6eb2a8ac-be44-49d9-aae3-2c93185fc228
+  field_publisher_series:
+    -
+      entity: 44b33fe2-2e51-4099-b74b-a0b99fe76928
+  field_sort_date:
+    -
+      value: '1976-01-01'
+  field_year:
+    -
+      value: 1976

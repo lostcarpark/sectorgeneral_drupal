@@ -1,0 +1,90 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2ea9c21c-f04f-4515-a9ec-6a13f167149b
+  bundle: edition
+  default_langcode: en
+  depends:
+    253440b9-728f-453e-b5f7-dda758b1e16e: media
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    42f8cd6a-fb85-4103-81dc-fe7f5ce071de: node
+    5c6c890b-c606-42d8-a28e-27d8c63ce076: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL27104147M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The First Protector, Ebury Press, 2000'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/first-protector/first-protector-ebury-press-2000
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 253440b9-728f-453e-b5f7-dda758b1e16e
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ebury Press, 2000, paperback, ISBN 0-09-187330-4, £ 5.99”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?219017 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL27104147M (CC0).
+  field_date_display:
+    -
+      value: '2000'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780091873301'
+  field_isfdb_id:
+    -
+      value: '219017'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 42f8cd6a-fb85-4103-81dc-fe7f5ce071de
+  field_oclc:
+    -
+      value: '59397739'
+  field_openlibrary_id:
+    -
+      value: OL27104147M
+  field_pages:
+    -
+      value: 284
+  field_price:
+    -
+      value: '£ 5.99'
+  field_publisher:
+    -
+      entity: 5c6c890b-c606-42d8-a28e-27d8c63ce076
+  field_sort_date:
+    -
+      value: '2000-01-01'
+  field_year:
+    -
+      value: 2000

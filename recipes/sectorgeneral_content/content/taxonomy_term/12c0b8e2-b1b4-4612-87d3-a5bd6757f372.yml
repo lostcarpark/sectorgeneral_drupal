@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 12c0b8e2-b1b4-4612-87d3-a5bd6757f372
+  bundle: image_source
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Galactic Central'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_website:
+    -
+      uri: 'https://www.philsp.com/'
+      title: null
+      options: {  }

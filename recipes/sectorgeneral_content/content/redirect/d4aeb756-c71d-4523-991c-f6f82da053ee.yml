@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: d4aeb756-c71d-4523-991c-f6f82da053ee
+  bundle: redirect
+  default_langcode: en
+  depends:
+    f3dad958-22d6-4f44-9dd3-577e6b2a559c: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: rU1naSuXMwKaEHqJoX_SvTp0tVkDCJO3Jt6mIqAECeQ
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/new-worlds/new-worlds-science-fiction-us-april-1960
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: f3dad958-22d6-4f44-9dd3-577e6b2a559c
+  status_code:
+    -
+      value: 301

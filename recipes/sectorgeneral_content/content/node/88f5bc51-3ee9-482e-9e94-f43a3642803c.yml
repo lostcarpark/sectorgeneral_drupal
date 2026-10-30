@@ -1,0 +1,90 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 88f5bc51-3ee9-482e-9e94-f43a3642803c
+  bundle: edition
+  default_langcode: en
+  depends:
+    bb1c5a31-0776-4f79-bdaf-13a8dbb6a9c1: media
+    3dc2ecdc-c68c-4e0d-b9cd-ebd62c592d90: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    076cb8ba-ada5-4880-8874-aee68d7e662d: node
+    03c0e826-c5ee-456f-8600-d2652179fbeb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover replaced by a larger image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?49672'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Watch Below, Ballantine, 1966'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/watch-below/watch-below-ballantine-1966
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: bb1c5a31-0776-4f79-bdaf-13a8dbb6a9c1
+  field_cover_artist:
+    -
+      entity: 3dc2ecdc-c68c-4e0d-b9cd-ebd62c592d90
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ballantine Books No U2285, February 1966”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?49672 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'February 1966'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '49672'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 076cb8ba-ada5-4880-8874-aee68d7e662d
+  field_oclc:
+    -
+      value: '7354256'
+  field_pages:
+    -
+      value: 189
+  field_price:
+    -
+      value: $0.50
+  field_publisher:
+    -
+      entity: 03c0e826-c5ee-456f-8600-d2652179fbeb
+  field_publisher_reference:
+    -
+      value: U2285
+  field_sort_date:
+    -
+      value: '1966-02-01'
+  field_year:
+    -
+      value: 1966

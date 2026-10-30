@@ -1,0 +1,21 @@
+uuid: 9e001c63-cd47-4c49-93c3-6615cde0982b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_takedown_date
+    - media.type.photo
+  module:
+    - datetime
+id: media.photo.field_takedown_date
+field_name: field_takedown_date
+entity_type: media
+bundle: photo
+label: 'Taken down on'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

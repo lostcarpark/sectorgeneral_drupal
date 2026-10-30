@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: d1da263a-4362-4cd6-9301-a279bac3582b
+  bundle: redirect
+  default_langcode: und
+  depends:
+    afe159d5-43dd-4d3d-8c60-73d7aafb0c2f: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: cXbz1MlkhNJfpwUkqgqGx33ZCEGrCp95GJmZdyUZcus
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/new-worlds/new-worlds-magazine-december-1956
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: afe159d5-43dd-4d3d-8c60-73d7aafb0c2f
+  status_code:
+    -
+      value: 301

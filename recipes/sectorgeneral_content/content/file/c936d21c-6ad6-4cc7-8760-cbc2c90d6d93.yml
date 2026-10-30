@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c936d21c-6ad6-4cc7-8760-cbc2c90d6d93
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nnthrpmrph2015.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/nnthrpmrph2015.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 136957
+  status:
+    -
+      value: true

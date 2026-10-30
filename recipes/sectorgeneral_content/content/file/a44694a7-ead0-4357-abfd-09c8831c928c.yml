@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a44694a7-ead0-4357-abfd-09c8831c928c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dreammillenniumballantine74.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/dreammillenniumballantine74.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4894
+  status:
+    -
+      value: true

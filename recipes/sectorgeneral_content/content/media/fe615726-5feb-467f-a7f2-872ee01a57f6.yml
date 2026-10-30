@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: fe615726-5feb-467f-a7f2-872ee01a57f6
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    70cec29f-79b9-4abf-9833-ee1f8cae6999: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Secret Visitors, Ace, 1957 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: d1ad4e2a909e60dca55345832f3eaf1b53583b04
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Secret Visitors cover'
+      title: ''
+      width: 326
+      height: 506
+      entity: 70cec29f-79b9-4abf-9833-ee1f8cae6999

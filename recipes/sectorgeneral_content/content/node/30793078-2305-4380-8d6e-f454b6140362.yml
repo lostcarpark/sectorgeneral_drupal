@@ -1,0 +1,106 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 30793078-2305-4380-8d6e-f454b6140362
+  bundle: edition
+  default_langcode: en
+  depends:
+    20c7884c-bf8d-488f-98b8-d6d1827ca8e8: media
+    1275b65b-0544-4918-a6f8-3476ee99a45a: taxonomy_term
+    476c27c9-4cc1-4dae-8014-209aa9d3cfff: taxonomy_term
+    8369f22b-e1bf-4992-9ec5-fd789acdd842: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    2c173c06-4324-4644-93cc-79dd46396550: node
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930: node
+    6f3fa5f6-86dd-4b27-9700-c634c13d7875: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?651937 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Beginning Operations, Orb, 2011'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/beginning-operations/beginning-operations-orb-2011
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 20c7884c-bf8d-488f-98b8-d6d1827ca8e8
+  field_cover_artist:
+    -
+      entity: 1275b65b-0544-4918-a6f8-3476ee99a45a
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?651937 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL29601268M (CC0).
+  field_date_display:
+    -
+      value: 'April 2011'
+  field_format:
+    -
+      entity: 476c27c9-4cc1-4dae-8014-209aa9d3cfff
+  field_introduction_by:
+    -
+      entity: 8369f22b-e1bf-4992-9ec5-fd789acdd842
+  field_isbn:
+    -
+      value: '9781429982290'
+  field_isfdb_id:
+    -
+      value: '651937'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 2c173c06-4324-4644-93cc-79dd46396550
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+    -
+      entity: 22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930
+  field_oclc:
+    -
+      value: '1002679002'
+  field_openlibrary_id:
+    -
+      value: OL29601268M
+  field_pages:
+    -
+      value: 512
+  field_price:
+    -
+      value: $7.99
+  field_publisher:
+    -
+      entity: 6f3fa5f6-86dd-4b27-9700-c634c13d7875
+  field_sort_date:
+    -
+      value: '2011-04-01'
+  field_year:
+    -
+      value: 2011

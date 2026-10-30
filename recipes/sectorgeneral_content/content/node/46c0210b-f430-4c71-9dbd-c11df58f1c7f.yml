@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 46c0210b-f430-4c71-9dbd-c11df58f1c7f
+  bundle: anthology
+  default_langcode: en
+  depends:
+    f9ffc49f-fb23-4194-b825-52ff8f98a097: node
+    d1a8627b-0782-41dc-a7cd-b7dd3250854a: media
+    d95f4640-19c9-4d44-b35f-75c0221afcaf: taxonomy_term
+    79cf55cd-195a-44ce-b538-4da7a00a72c2: taxonomy_term
+    450925fc-6e74-4aaf-80ae-e37c91fb9ed1: taxonomy_term
+    3e7d2170-f99e-4731-9c56-982d211a2a86: taxonomy_term
+    8cf6bd21-58ef-4709-8632-2b3eea20c495: taxonomy_term
+    d8dc575e-eda6-44d3-baef-7e1f8e67ef26: taxonomy_term
+    9c4c0e64-d5b7-46cc-b13a-f02fa9a76538: taxonomy_term
+    75ac3ca7-fc57-47df-9502-5e0b366a6d35: taxonomy_term
+    2d1fce49-c2ae-4532-941f-7d8b0b50ff31: taxonomy_term
+    cffafaac-5c11-4b79-bca2-d1199a018079: taxonomy_term
+    eda19632-c0b7-4c3a-894c-b6226ca7c402: taxonomy_term
+    ec2a5d5a-6e47-49fc-9133-373fd1f4aaaa: taxonomy_term
+    8e964fc8-5555-4c38-b797-8f22500a1b88: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?769526'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: "World's Best SF 2"
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/worlds-best-sf-2
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Bastei Lübbe, July 1983, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: f9ffc49f-fb23-4194-b825-52ff8f98a097
+  field_cover:
+    -
+      entity: d1a8627b-0782-41dc-a7cd-b7dd3250854a
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?2717007 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: d95f4640-19c9-4d44-b35f-75c0221afcaf
+    -
+      entity: 79cf55cd-195a-44ce-b538-4da7a00a72c2
+  field_first_published_year:
+    -
+      value: 1983
+  field_isfdb_id:
+    -
+      value: '2717007'
+  field_other_contributors:
+    -
+      entity: 450925fc-6e74-4aaf-80ae-e37c91fb9ed1
+    -
+      entity: 3e7d2170-f99e-4731-9c56-982d211a2a86
+    -
+      entity: 8cf6bd21-58ef-4709-8632-2b3eea20c495
+    -
+      entity: d8dc575e-eda6-44d3-baef-7e1f8e67ef26
+    -
+      entity: 9c4c0e64-d5b7-46cc-b13a-f02fa9a76538
+    -
+      entity: 75ac3ca7-fc57-47df-9502-5e0b366a6d35
+    -
+      entity: 2d1fce49-c2ae-4532-941f-7d8b0b50ff31
+    -
+      entity: cffafaac-5c11-4b79-bca2-d1199a018079
+    -
+      entity: eda19632-c0b7-4c3a-894c-b6226ca7c402
+    -
+      entity: ec2a5d5a-6e47-49fc-9133-373fd1f4aaaa
+  field_publisher:
+    -
+      entity: 8e964fc8-5555-4c38-b797-8f22500a1b88

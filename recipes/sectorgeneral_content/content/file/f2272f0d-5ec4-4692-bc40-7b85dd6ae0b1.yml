@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f2272f0d-5ec4-4692-bc40-7b85dd6ae0b1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dsprmthspr1976.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/dsprmthspr1976.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 73798
+  status:
+    -
+      value: true

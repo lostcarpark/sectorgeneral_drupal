@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 7b5abe3a-39d5-413e-855d-4c9529ee36b8
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Michael Stall'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/michael-stall
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

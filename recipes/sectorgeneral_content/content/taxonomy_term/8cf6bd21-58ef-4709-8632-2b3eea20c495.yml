@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8cf6bd21-58ef-4709-8632-2b3eea20c495
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Gardner Dozois'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/gardner-dozois
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

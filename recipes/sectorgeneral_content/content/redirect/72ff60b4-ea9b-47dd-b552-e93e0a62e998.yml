@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 72ff60b4-ea9b-47dd-b552-e93e0a62e998
+  bundle: redirect
+  default_langcode: und
+  depends:
+    e0fd36c3-6f71-473a-a95c-dca3f6402cad: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: Xf9OMkv6fpSm-1lqrwzzMoMFB-mv04Rx7qtbt8szpOM
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/mindchanger.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: e0fd36c3-6f71-473a-a95c-dca3f6402cad
+  status_code:
+    -
+      value: 301

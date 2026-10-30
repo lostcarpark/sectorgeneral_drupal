@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: f94b01f1-ead1-4c77-8ad1-cd8a5b1ca20a
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Wallace Macfarlane'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/wallace-macfarlane
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

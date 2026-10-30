@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 440695f9-01e3-46d2-964d-91daa30e1d25
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    0315f9da-56bc-4c4a-93ce-1577a2d854e1: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Deadly Litter, Del Rey / Ballantine, 1981 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 8fc85a481b310b741cabd0798c5900e14049fdaf
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/6/64/DDLLTTRXBX1981.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Deadly Litter, Del Rey / Ballantine, 1981 cover'
+      title: ''
+      width: 387
+      height: 640
+      entity: 0315f9da-56bc-4c4a-93ce-1577a2d854e1
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?501868'
+      title: null
+      options: {  }

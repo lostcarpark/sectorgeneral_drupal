@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e3e5b4ad-f28d-4bd6-b3a3-5e00cc8300ec
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: federationworldmcdonald90.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/federationworldmcdonald90.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4211
+  status:
+    -
+      value: true

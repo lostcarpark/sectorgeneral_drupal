@@ -1,0 +1,92 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5a17a1b3-bde4-410c-a370-f1c7616ceecf
+  bundle: edition
+  default_langcode: en
+  depends:
+    bb47ae72-7f27-41ef-ae36-75e4c364e0b5: media
+    8071308f-5acd-4658-b783-94f955f6baa7: taxonomy_term
+    42b8f78b-6a45-4b53-8c09-9abae4ded93e: taxonomy_term
+    dafaa345-a849-4fa4-a300-0a972ce878f2: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    12197298-dc4f-4b62-8dc7-f1bd2bddb90b: taxonomy_term
+    6aeb86f5-36b4-4067-9170-88f5902a92d6: taxonomy_term
+    b32d48a5-f5ba-430d-af61-7bc7af40bc14: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Translator name repaired: it had swallowed the rest of an ISFDB note.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Hospitaal tussen de sterren, Scala, 1977'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/hospitaal-tussen-de-sterren-scala-1977
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: bb47ae72-7f27-41ef-ae36-75e4c364e0b5
+  field_cover_artist:
+    -
+      entity: 8071308f-5acd-4658-b783-94f955f6baa7
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ridderhof/Scala, Rotterdam, ISBN 90-6221-551-3, August 1977 as Hospitaal Tussen de Sterran”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?521653 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'August 1977'
+  field_format:
+    -
+      entity: 42b8f78b-6a45-4b53-8c09-9abae4ded93e
+  field_isbn:
+    -
+      value: '9789062215515'
+  field_isfdb_id:
+    -
+      value: '521653'
+  field_language:
+    -
+      entity: dafaa345-a849-4fa4-a300-0a972ce878f2
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_pages:
+    -
+      value: 221
+  field_publisher:
+    -
+      entity: 12197298-dc4f-4b62-8dc7-f1bd2bddb90b
+  field_publisher_series:
+    -
+      entity: 6aeb86f5-36b4-4067-9170-88f5902a92d6
+  field_sort_date:
+    -
+      value: '1977-08-01'
+  field_translator:
+    -
+      entity: b32d48a5-f5ba-430d-af61-7bc7af40bc14
+  field_year:
+    -
+      value: 1977

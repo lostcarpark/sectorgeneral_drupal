@@ -1,0 +1,78 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3c39cdad-806b-4a41-9221-48eb0ad82b35
+  bundle: edition
+  default_langcode: en
+  depends:
+    d69c70a3-6bc8-40e8-a694-103fcc819895: media
+    476c27c9-4cc1-4dae-8014-209aa9d3cfff: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    e0fd36c3-6f71-473a-a95c-dca3f6402cad: node
+    d230c1fd-533c-41e3-90d7-b3345a0fae62: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?1126012'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Mind Changer, Gateway / Orion, 2026'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/mind-changer/mind-changer-gateway-orion-2026
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: d69c70a3-6bc8-40e8-a694-103fcc819895
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1126012 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '27 August 2026'
+  field_format:
+    -
+      entity: 476c27c9-4cc1-4dae-8014-209aa9d3cfff
+  field_isbn:
+    -
+      value: '9781399636353'
+  field_isfdb_id:
+    -
+      value: '1126012'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: e0fd36c3-6f71-473a-a95c-dca3f6402cad
+  field_price:
+    -
+      value: £4.99
+  field_publisher:
+    -
+      entity: d230c1fd-533c-41e3-90d7-b3345a0fae62
+  field_sort_date:
+    -
+      value: '2026-08-27'
+  field_year:
+    -
+      value: 2026

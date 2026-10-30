@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 71a7d988-6206-49d5-a6d8-a283f6528e5c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: u518.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/u518.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 60748
+  status:
+    -
+      value: true

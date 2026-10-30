@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e1589fde-7ee2-492d-8985-e7963aeacc54
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hpnsptmbrg1958.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/hpnsptmbrg1958.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 73691
+  status:
+    -
+      value: true

@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: ebad15a0-9be9-4518-9d92-2dfc4c97dc15
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    5a1eb558-4c47-4e23-8a2c-3e70d0ef6594: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Perry Rhodan 112, 25 October 1963 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: d89b5c9dcd9d722b115e6525e4d3c93619f619d0
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/4/48/PRRRHDNDRM1963.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Perry Rhodan 112, 25 October 1963 cover'
+      title: ''
+      width: 350
+      height: 510
+      entity: 5a1eb558-4c47-4e23-8a2c-3e70d0ef6594
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?318381'
+      title: null
+      options: {  }

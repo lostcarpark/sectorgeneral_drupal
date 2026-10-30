@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: eef84fc0-7f9a-4f9b-a9de-0dbf82659d08
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Blanka Kuczborska'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/blanka-kuczborska
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

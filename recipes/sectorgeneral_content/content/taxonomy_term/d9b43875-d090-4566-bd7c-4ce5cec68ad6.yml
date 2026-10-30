@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d9b43875-d090-4566-bd7c-4ce5cec68ad6
+  bundle: publisher
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Del Rey / Ballantine / SFBC'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /publishers/del-rey-ballantine-sfbc
+      langcode: en
+      pathauto: 1

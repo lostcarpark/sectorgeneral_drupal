@@ -1,0 +1,20 @@
+uuid: 2bc7f038-b9fb-4ba1-b720-a08d42b02e2d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sectorgeneral_theme
+id: sectorgeneral_theme_messages
+theme: sectorgeneral_theme
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: ''
+  label_display: '0'
+  provider: system
+visibility: {  }

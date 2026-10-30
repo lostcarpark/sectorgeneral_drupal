@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 30fa8f10-0721-4a3f-9723-b10f41bed3d6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newwrjun53.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/newwrjun53.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 38293
+  status:
+    -
+      value: true

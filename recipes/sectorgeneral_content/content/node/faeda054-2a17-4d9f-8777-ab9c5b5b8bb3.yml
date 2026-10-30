@@ -1,0 +1,102 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: faeda054-2a17-4d9f-8777-ab9c5b5b8bb3
+  bundle: edition
+  default_langcode: en
+  depends:
+    a3699c3e-43e4-40ae-8b34-8d2afe450f87: media
+    cf5da66c-1992-40c8-b759-d59ac2bcea79: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+    628bf776-bc45-4029-b74a-9a58193e41b3: taxonomy_term
+    05569ae9-c23c-4dc3-9e2d-177677c7c0b8: taxonomy_term
+    0a0646e6-374c-43c9-bae8-3957bab2ab70: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/820043583'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Die Außerirdischen, Erich Pabel Verlag, 1979'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/secret-visitors/die-ausserirdischen-erich-pabel-verlag-1979
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: a3699c3e-43e4-40ae-8b34-8d2afe450f87
+  field_cover_artist:
+    -
+      entity: cf5da66c-1992-40c8-b759-d59ac2bcea79
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Erich Pabel Verlag No 1, DM80, February 1979 as Die Auberisischen”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?495332 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/820043583 (CC0).
+  field_date_display:
+    -
+      value: 'February 1979'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '495332'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: fec32d28-7455-4a8a-a448-67c3af694c28
+  field_oclc:
+    -
+      value: '720700086'
+  field_pages:
+    -
+      value: 161
+  field_price:
+    -
+      value: DM80
+  field_publisher:
+    -
+      entity: 628bf776-bc45-4029-b74a-9a58193e41b3
+  field_publisher_reference:
+    -
+      value: '1'
+  field_publisher_series:
+    -
+      entity: 05569ae9-c23c-4dc3-9e2d-177677c7c0b8
+  field_publisher_series_number:
+    -
+      value: '1'
+  field_sort_date:
+    -
+      value: '1979-02-01'
+  field_translator:
+    -
+      entity: 0a0646e6-374c-43c9-bae8-3957bab2ab70
+  field_year:
+    -
+      value: 1979

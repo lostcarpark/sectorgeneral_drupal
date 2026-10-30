@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 8a179119-63b2-4e2c-8c2b-12e48eac65ba
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    eac6541c-07cc-4a29-ac39-1fb9ae0e36f0: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Worlds 54, December 1956 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: f98c918ba6d087fd6dd0f88c999e5078ffd2a9ca
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'New Worlds 54, December 1956 cover'
+      title: ''
+      width: 135
+      height: 200
+      entity: eac6541c-07cc-4a29-ac39-1fb9ae0e36f0

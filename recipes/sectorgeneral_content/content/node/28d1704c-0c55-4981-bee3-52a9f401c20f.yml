@@ -1,0 +1,106 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 28d1704c-0c55-4981-bee3-52a9f401c20f
+  bundle: edition
+  default_langcode: en
+  depends:
+    8b04456d-eee2-490a-a46a-d68ea37e9190: media
+    1275b65b-0544-4918-a6f8-3476ee99a45a: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    078cb739-0c4e-46ae-9daa-7ae850bcd13d: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    e6160e70-e473-45de-907c-06d1f5142296: node
+    2d0a3410-a4d5-43b2-aca8-9f79b0370788: node
+    779b62ef-d345-4a4e-8177-ea35a0d9b212: node
+    45dc1e21-39a6-4517-a068-e3f86ea4b4fd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?329002 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'General Practice, Orb / SFBC, 2003'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/general-practice/general-practice-orb-sfbc-2003
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 8b04456d-eee2-490a-a46a-d68ea37e9190
+  field_cover_artist:
+    -
+      entity: 1275b65b-0544-4918-a6f8-3476ee99a45a
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?329002 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL7916260M (CC0).
+  field_date_display:
+    -
+      value: 'June 2003'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_introduction_by:
+    -
+      entity: 078cb739-0c4e-46ae-9daa-7ae850bcd13d
+  field_isbn:
+    -
+      value: '9780739433874'
+  field_isfdb_id:
+    -
+      value: '329002'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: e6160e70-e473-45de-907c-06d1f5142296
+    -
+      entity: 2d0a3410-a4d5-43b2-aca8-9f79b0370788
+    -
+      entity: 779b62ef-d345-4a4e-8177-ea35a0d9b212
+  field_oclc:
+    -
+      value: '51519711'
+  field_openlibrary_id:
+    -
+      value: OL7916260M
+  field_pages:
+    -
+      value: 510
+  field_price:
+    -
+      value: $12.99
+  field_publisher:
+    -
+      entity: 45dc1e21-39a6-4517-a068-e3f86ea4b4fd
+  field_publisher_reference:
+    -
+      value: '57360'
+  field_sort_date:
+    -
+      value: '2003-06-01'
+  field_year:
+    -
+      value: 2003

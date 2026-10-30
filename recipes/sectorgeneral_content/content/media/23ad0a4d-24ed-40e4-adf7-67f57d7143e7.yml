@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 23ad0a4d-24ed-40e4-adf7-67f57d7143e7
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    9906d964-ec2f-4836-87e5-a42b719c2c87: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Final Diagnosis, Gateway / Orion, 2026 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: e8a23d6a3f419d990d40c2712b992db7acfa62ad
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://m.media-amazon.com/images/I/81K0CPizz+L.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Final Diagnosis, Gateway / Orion, 2026 cover'
+      title: ''
+      width: 1600
+      height: 2456
+      entity: 9906d964-ec2f-4836-87e5-a42b719c2c87
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?1126011'
+      title: null
+      options: {  }

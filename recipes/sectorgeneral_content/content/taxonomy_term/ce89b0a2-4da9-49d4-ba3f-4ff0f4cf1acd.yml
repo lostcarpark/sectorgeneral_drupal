@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: ce89b0a2-4da9-49d4-ba3f-4ff0f4cf1acd
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Patrick G. Conner'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/patrick-g-conner
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

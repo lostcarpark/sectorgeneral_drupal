@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a7b82729-0189-4053-8e54-a3c316573a0a
+  bundle: novel
+  default_langcode: en
+  depends:
+    a0301a2f-7da4-4de2-be4d-c20f8a49b960: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4238 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Open Prison'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/open-prison
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>&quot;Take the problem of what to do with captured prisoners-of-war when they do not breathe the same atmosphere as you do, and the chances are you&#039;ll come up with the answer: put them on a planet where they can breathe; leave a satellite monitor to see that they don&#039;t try to escape and leave them to their own resources&quot; (from Tom Boardman, Jr.&#039;s introduction to the Four Square edition). Some prisoners plot escape; others just till their plots of land. The newly arrived Sector Marshall must avert a pointless civil war. Starship Troopers was nothing like this, I&#039;m happy to say.</p>'
+      format: basic_html
+      summary: 'Imagine a whole planet as a human prisoner-of-war camp in an intergalactic war. Open Prison was also published in the US as The Escape Orbit by Ace in 1965.'
+  field_alternative_titles:
+    -
+      value: 'The Escape Orbit'
+    -
+      value: 'Open Prison (Part 1 of 3)'
+    -
+      value: 'Open Prison (Part 2 of 3)'
+    -
+      value: 'Open Prison (Part 3 of 3)'
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: a0301a2f-7da4-4de2-be4d-c20f8a49b960
+  field_data_sources:
+    -
+      value: "James White Information (original site). Synopsis by Graham Andrews.\r\nISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4238 (CC BY 4.0)."
+  field_first_published_year:
+    -
+      value: 1964
+  field_isfdb_id:
+    -
+      value: '4238'
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 58000

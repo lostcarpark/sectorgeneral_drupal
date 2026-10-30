@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4359ec62-68f3-42d1-b800-ff2e5d31d3b6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hospital_station_orbit_1986.jpg
+  uri:
+    -
+      value: 'public://2016-03/hospital_station_orbit_1986.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 53721
+  status:
+    -
+      value: true

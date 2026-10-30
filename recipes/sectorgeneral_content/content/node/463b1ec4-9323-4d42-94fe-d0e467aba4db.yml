@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 463b1ec4-9323-4d42-94fe-d0e467aba4db
+  bundle: edition
+  default_langcode: en
+  depends:
+    9a3df5b8-7d00-42ec-9fdf-1548ab27a1e7: media
+    b93468e3-67eb-4018-85a0-bb2eea320939: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    6edd89e8-88d6-4983-b0a1-6ab6f79a7215: node
+    c6efc343-9efd-4e27-a07a-23eb92da4a29: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL15178068M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Dark Inferno, Michael Joseph, 1972'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/lifeboat/dark-inferno-michael-joseph-1972
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 9a3df5b8-7d00-42ec-9fdf-1548ab27a1e7
+  field_cover_artist:
+    -
+      entity: b93468e3-67eb-4018-85a0-bb2eea320939
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Michael Joseph, London, 2/10/72”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?304495 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL15178068M (CC0).
+  field_date_display:
+    -
+      value: '2 October 1972'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isbn:
+    -
+      value: '9780718109912'
+  field_isfdb_id:
+    -
+      value: '304495'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 6edd89e8-88d6-4983-b0a1-6ab6f79a7215
+  field_oclc:
+    -
+      value: '2783263'
+  field_openlibrary_id:
+    -
+      value: OL15178068M
+  field_pages:
+    -
+      value: 158
+  field_price:
+    -
+      value: £1.75
+  field_publisher:
+    -
+      entity: c6efc343-9efd-4e27-a07a-23eb92da4a29
+  field_sort_date:
+    -
+      value: '1972-10-02'
+  field_year:
+    -
+      value: 1972

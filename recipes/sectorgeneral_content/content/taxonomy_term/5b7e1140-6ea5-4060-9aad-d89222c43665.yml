@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 5b7e1140-6ea5-4060-9aad-d89222c43665
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Kalla Wefel'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/kalla-wefel
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 86599c1b-e774-4e6f-b0a5-5e3a3d893bb1
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Langdon Jones'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/langdon-jones
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

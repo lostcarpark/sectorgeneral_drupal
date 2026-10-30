@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 174b739c-601b-446d-8199-26b011b71a60
+  bundle: redirect
+  default_langcode: en
+  depends:
+    976364aa-ef14-40a2-a4fb-6739877cb020: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: adYa3jIYaadC8MxjuKrH4EV9pG5_gZbj4kBLCp4i6ys
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/new-worlds/new-worlds-science-fiction-us-may-1960
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 976364aa-ef14-40a2-a4fb-6739877cb020
+  status_code:
+    -
+      value: 301

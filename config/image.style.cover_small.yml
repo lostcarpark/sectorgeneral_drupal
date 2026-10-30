@@ -1,0 +1,15 @@
+uuid: a02cc6e1-581f-4261-9282-6165dad6b177
+langcode: en
+status: true
+dependencies: {  }
+name: cover_small
+label: 'Cover small (160 wide)'
+effects:
+  78f137c3-57f7-4bea-9ca8-7af4ab2f6c70:
+    uuid: 78f137c3-57f7-4bea-9ca8-7af4ab2f6c70
+    id: image_scale
+    weight: 0
+    data:
+      width: 160
+      height: null
+      upscale: false

@@ -1,0 +1,26 @@
+uuid: 000069f0-3512-4411-bdcf-4c29078e6a44
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_image_source
+    - media.type.cover_image
+    - taxonomy.vocabulary.image_source
+id: media.cover_image.field_image_source
+field_name: field_image_source
+entity_type: media
+bundle: cover_image
+label: 'Image source'
+description: 'Where this scan was found (e.g. ISFDB, Open Library, own scan).'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      image_source: image_source
+    auto_create: true
+    auto_create_bundle: image_source
+field_type: entity_reference

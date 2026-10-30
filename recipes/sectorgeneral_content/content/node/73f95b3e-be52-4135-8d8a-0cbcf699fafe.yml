@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 73f95b3e-be52-4135-8d8a-0cbcf699fafe
+  bundle: edition
+  default_langcode: en
+  depends:
+    ee0e1b6c-2ac8-42db-a7b5-bf2bcbc15cd6: media
+    1275b65b-0544-4918-a6f8-3476ee99a45a: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    88796287-685a-48a2-b1cd-1c435ba27f09: node
+    06aa2580-8e68-4b72-9a00-f5d252de9de3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL15125861M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Sector General, Futura/Orbit, 1987'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/sector-general/sector-general-futuraorbit-1987
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: ee0e1b6c-2ac8-42db-a7b5-bf2bcbc15cd6
+  field_cover_artist:
+    -
+      entity: 1275b65b-0544-4918-a6f8-3476ee99a45a
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Macdonald/Futura/Orbit ISBN 0-7088-8186-6, SEPTEMBER 1987”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?152541 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL15125861M (CC0).
+  field_date_display:
+    -
+      value: 'September 1987'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780708881866'
+  field_isfdb_id:
+    -
+      value: '152541'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 88796287-685a-48a2-b1cd-1c435ba27f09
+  field_oclc:
+    -
+      value: '17952369'
+  field_openlibrary_id:
+    -
+      value: OL15125861M
+  field_pages:
+    -
+      value: 196
+  field_price:
+    -
+      value: £2.50
+  field_publisher:
+    -
+      entity: 06aa2580-8e68-4b72-9a00-f5d252de9de3
+  field_sort_date:
+    -
+      value: '1987-09-01'
+  field_year:
+    -
+      value: 1987

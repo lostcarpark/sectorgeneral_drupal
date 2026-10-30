@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c39ba769-35a6-48de-ba94-5d460172427b
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+    5f12a710-c7a9-4052-afdb-6af1d0344dde: media
+    007d86a4-94ea-4b74-a63e-877ea1ab3496: taxonomy_term
+    00755522-03bf-4fbb-b9b8-73fc91f84cfa: taxonomy_term
+    26861d89-acc4-4ce5-8b18-0a60f715424e: taxonomy_term
+    4f00b253-4f48-4c29-b920-8819062b3f4f: taxonomy_term
+    b0463f05-52c7-49bb-846d-c832aa808e52: taxonomy_term
+    6d04c3b6-1e79-48b1-b7d2-8df5f0bcd62a: taxonomy_term
+    db3c437f-7233-4397-b4a7-2f165ab579e2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?879260 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Häpna!, 1 July 1958'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/hapna/hapna-1-july-1958
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: fec32d28-7455-4a8a-a448-67c3af694c28
+  field_cover:
+    -
+      entity: 5f12a710-c7a9-4052-afdb-6af1d0344dde
+  field_cover_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?879260 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '1 July 1958'
+  field_editor:
+    -
+      entity: 00755522-03bf-4fbb-b9b8-73fc91f84cfa
+  field_isfdb_id:
+    -
+      value: '879260'
+  field_language:
+    -
+      entity: 26861d89-acc4-4ce5-8b18-0a60f715424e
+  field_magazine:
+    -
+      entity: 4f00b253-4f48-4c29-b920-8819062b3f4f
+  field_other_contributors:
+    -
+      entity: b0463f05-52c7-49bb-846d-c832aa808e52
+    -
+      entity: 6d04c3b6-1e79-48b1-b7d2-8df5f0bcd62a
+    -
+      entity: db3c437f-7233-4397-b4a7-2f165ab579e2
+  field_pages:
+    -
+      value: 98
+  field_price:
+    -
+      value: 'skr 1.75'
+  field_published_as:
+    -
+      value: 'Turistplaneten (Part 3 of 5)'
+  field_sort_date:
+    -
+      value: '1958-07-01'
+  field_year:
+    -
+      value: 1958

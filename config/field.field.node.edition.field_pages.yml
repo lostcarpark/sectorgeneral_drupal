@@ -1,0 +1,23 @@
+uuid: a56545e2-a2ad-4f83-904e-b809f2f1e23a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pages
+    - node.type.edition
+id: node.edition.field_pages
+field_name: field_pages
+entity_type: node
+bundle: edition
+label: Pages
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

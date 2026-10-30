@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 426fc78d-3814-4631-b5f2-831837cd288b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: strrnvnglx1982.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/strrnvnglx1982.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 91712
+  status:
+    -
+      value: true

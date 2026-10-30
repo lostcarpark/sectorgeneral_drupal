@@ -1,0 +1,27 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json
+name: Book header
+status: stable
+description: The opening of a book or edition page - the cover and its credit beside a one-line summary, what it is an edition of, other details and the synopsis or notes. Stacks on narrow screens.
+props:
+  type: object
+  properties:
+    summary:
+      type: array
+      title: Summary
+      description: Short facts shown as one line, e.g. "Fix-up novel", "Sector General, book 2", "First published 1963". Strings or render arrays.
+    credit:
+      type: string
+      title: Synopsis credit
+      description: Who wrote the synopsis.
+slots:
+  cover:
+    title: Cover
+    description: The cover image, with its credit line.
+  relation:
+    title: Relation
+    description: What this is part of, e.g. "An edition of Star Surgeon".
+  details:
+    title: Details
+    description: Other titles, editors and the like.
+  synopsis:
+    title: Synopsis

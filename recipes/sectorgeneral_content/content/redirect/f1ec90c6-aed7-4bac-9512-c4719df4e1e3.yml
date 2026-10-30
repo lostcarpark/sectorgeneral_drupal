@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: f1ec90c6-aed7-4bac-9512-c4719df4e1e3
+  bundle: redirect
+  default_langcode: und
+  depends:
+    4684e80b-b2ce-4e86-a094-7e0e0960eed2: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: cUO9TCZVkNooQV9AOSPUCaSCuryFeqsc8IcB6Osa_hs
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/tomorrowistoofar.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 4684e80b-b2ce-4e86-a094-7e0e0960eed2
+  status_code:
+    -
+      value: 301

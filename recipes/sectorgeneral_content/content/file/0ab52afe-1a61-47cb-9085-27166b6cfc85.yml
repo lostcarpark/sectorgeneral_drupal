@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0ab52afe-1a61-47cb-9085-27166b6cfc85
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hpnprllvbp1963.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/hpnprllvbp1963.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 53505
+  status:
+    -
+      value: true

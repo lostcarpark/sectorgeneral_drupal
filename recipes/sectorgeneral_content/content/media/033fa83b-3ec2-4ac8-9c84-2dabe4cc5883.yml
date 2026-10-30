@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 033fa83b-3ec2-4ac8-9c84-2dabe4cc5883
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    17f1e248-4211-408f-a116-9e8dde45b7a8: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Worlds 44, February 1956 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 4593abbb1257d6407115fc904325d9a5b808b6ce
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'New Worlds 44, February 1956 cover'
+      title: ''
+      width: 140
+      height: 200
+      entity: 17f1e248-4211-408f-a116-9e8dde45b7a8

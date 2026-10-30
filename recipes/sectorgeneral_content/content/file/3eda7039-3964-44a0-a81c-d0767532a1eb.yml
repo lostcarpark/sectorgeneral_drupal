@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3eda7039-3964-44a0-a81c-d0767532a1eb
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newwroct1959.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/newwroct1959.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 129172
+  status:
+    -
+      value: true

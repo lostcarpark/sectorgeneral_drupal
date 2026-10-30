@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: fbe7d32c-b76a-4685-ae97-64b844288d04
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    bb93fe7e-5209-4134-b148-20a90a21c2b4: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Tomorrow Is Too Far, Michael Joseph cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 4a098a63d3a026872e5f1e149d9d2aca9d042e4e
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Tomorrow Is Too Far cover'
+      title: ''
+      width: 100
+      height: 156
+      entity: bb93fe7e-5209-4134-b148-20a90a21c2b4

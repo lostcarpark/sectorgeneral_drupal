@@ -1,0 +1,72 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2a2738dd-5c5a-449f-a670-374df27652eb
+  bundle: edition
+  default_langcode: en
+  depends:
+    4d2a13ac-57e1-4c2b-8e8d-b869a4f0c105: media
+    248a2a4d-a8eb-4e13-96f8-c301777749af: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+    312c69c1-f2fa-409a-a06c-a02d7d19522f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Retired: this serialisation is now listed issue by issue.'
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Tourist Planet, New Worlds, 1956'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/secret-visitors/tourist-planet-new-worlds-1956
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 4d2a13ac-57e1-4c2b-8e8d-b869a4f0c105
+  field_data_sources:
+    -
+      value: 'James White Information (original site): “NEW WORLDS Nos 52-54,October-December 1956 3-part Serial Novel titled Tourist Planet.”'
+  field_date_display:
+    -
+      value: 'October & December 1956'
+  field_format:
+    -
+      entity: 248a2a4d-a8eb-4e13-96f8-c301777749af
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: fec32d28-7455-4a8a-a448-67c3af694c28
+  field_publisher:
+    -
+      entity: 312c69c1-f2fa-409a-a06c-a02d7d19522f
+  field_publisher_reference:
+    -
+      value: 52-54
+  field_sort_date:
+    -
+      value: '1956-10-01'
+  field_year:
+    -
+      value: 1956

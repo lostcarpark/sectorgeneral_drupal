@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6cf0c327-69b9-430c-b2e9-26d40e7398d0
+  bundle: novel
+  default_langcode: en
+  depends:
+    8a805153-b8fc-457b-86dd-2af80b164a28: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 220, similarity 0.97).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Underkill
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/underkill
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Back to Books Main Next: Futures Past</p>'
+      format: basic_html
+      summary: 'Not so much a sequel as a parallel to The Dream Millennium, set in a hospital in Belfast.'
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: 8a805153-b8fc-457b-86dd-2af80b164a28
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4240 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1979
+  field_isfdb_id:
+    -
+      value: '4240'

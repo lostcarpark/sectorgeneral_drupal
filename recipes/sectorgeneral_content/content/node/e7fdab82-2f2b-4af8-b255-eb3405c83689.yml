@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e7fdab82-2f2b-4af8-b255-eb3405c83689
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    85389460-62f1-481a-ac36-b6d004568ad1: node
+    85832c62-a0dd-4d73-97fa-a299404aa6b5: media
+    31f49081-a369-463f-b18d-7a164c3db5c4: taxonomy_term
+    beb8caf4-7511-4472-90b1-58838be054fc: taxonomy_term
+    4c52425b-7b83-4e9e-af00-d52f9ab47cb3: taxonomy_term
+    8dcf985c-e1b2-4d9e-8e48-8e78198a41d1: taxonomy_term
+    f7a8e920-2961-43d1-9802-ad88d5bb1b61: taxonomy_term
+    ef4ac55c-1588-459e-9e7f-a796562ef6c8: taxonomy_term
+    b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd: taxonomy_term
+    77431aea-1ee2-4f24-bd1e-8093f2e5c980: taxonomy_term
+    999e3e00-e1c2-4f79-a07d-21224db8a33a: taxonomy_term
+    e8acca28-b2bf-4bc5-a8d6-a58a1600753f: taxonomy_term
+    f98aa85e-5cbb-4fc6-8f60-c6ce7f9c801f: taxonomy_term
+    1bc3aff3-206c-44f9-999b-d9689ffebd21: taxonomy_term
+    861c0d55-f559-490a-ac4d-7a55c15ce752: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?458102 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Fiction 118, September 1963'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/fiction/fiction-118-september-1963
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 85389460-62f1-481a-ac36-b6d004568ad1
+  field_cover:
+    -
+      entity: 85832c62-a0dd-4d73-97fa-a299404aa6b5
+  field_cover_artist:
+    -
+      entity: 31f49081-a369-463f-b18d-7a164c3db5c4
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?458102 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'September 1963'
+  field_editor:
+    -
+      entity: beb8caf4-7511-4472-90b1-58838be054fc
+  field_isfdb_id:
+    -
+      value: '458102'
+  field_issue_number:
+    -
+      value: '118'
+  field_language:
+    -
+      entity: 4c52425b-7b83-4e9e-af00-d52f9ab47cb3
+  field_magazine:
+    -
+      entity: 8dcf985c-e1b2-4d9e-8e48-8e78198a41d1
+  field_other_contributors:
+    -
+      entity: f7a8e920-2961-43d1-9802-ad88d5bb1b61
+    -
+      entity: ef4ac55c-1588-459e-9e7f-a796562ef6c8
+    -
+      entity: b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd
+    -
+      entity: 77431aea-1ee2-4f24-bd1e-8093f2e5c980
+    -
+      entity: 999e3e00-e1c2-4f79-a07d-21224db8a33a
+    -
+      entity: e8acca28-b2bf-4bc5-a8d6-a58a1600753f
+    -
+      entity: f98aa85e-5cbb-4fc6-8f60-c6ce7f9c801f
+    -
+      entity: 1bc3aff3-206c-44f9-999b-d9689ffebd21
+    -
+      entity: 861c0d55-f559-490a-ac4d-7a55c15ce752
+  field_pages:
+    -
+      value: 180
+  field_price:
+    -
+      value: F2.50
+  field_published_as:
+    -
+      value: 'Mystère au rayon des jouets'
+  field_sort_date:
+    -
+      value: '1963-09-01'
+  field_year:
+    -
+      value: 1963

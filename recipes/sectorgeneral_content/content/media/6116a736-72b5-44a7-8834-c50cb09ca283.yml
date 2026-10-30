@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6116a736-72b5-44a7-8834-c50cb09ca283
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    31b51cdd-c373-4d51-84f1-5ad7ab8b6b3b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Tales of Sector General, SFBC, 1999 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 9c01de7b3baa85d0ad0e40b75e4e95add68d83af
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/e/e3/TLSFSCTRGN2003.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Tales of Sector General, SFBC, 1999 cover'
+      title: ''
+      width: 480
+      height: 521
+      entity: 31b51cdd-c373-4d51-84f1-5ad7ab8b6b3b
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?301464'
+      title: null
+      options: {  }

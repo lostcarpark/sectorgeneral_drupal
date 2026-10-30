@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 88942e1a-f5b3-4404-b0c6-bd2b1e03d5a2
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Mark Olson'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/mark-olson
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

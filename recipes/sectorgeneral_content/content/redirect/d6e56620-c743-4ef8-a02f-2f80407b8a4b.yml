@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: d6e56620-c743-4ef8-a02f-2f80407b8a4b
+  bundle: redirect
+  default_langcode: en
+  depends:
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: UBQUW6KoPN-_72bo8l7F_PE6pdIWA3iELbakjzLSjCI
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: novels/hospital-station
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 72a48e14-360c-4169-8f00-eab21063ae9b
+  status_code:
+    -
+      value: 301

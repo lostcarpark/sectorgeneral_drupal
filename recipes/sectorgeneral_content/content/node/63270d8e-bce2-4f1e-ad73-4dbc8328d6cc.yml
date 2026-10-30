@@ -1,0 +1,124 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 63270d8e-bce2-4f1e-ad73-4dbc8328d6cc
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    041f10bb-7c59-494f-a586-9268f3a6337e: node
+    1a769d87-0bc1-4c92-8ea8-4eaf6448a480: node
+    bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2: node
+    9c71afe2-866f-426e-970d-fcaba9ea3959: media
+    8e955d40-def3-43e7-85d8-fd6ef735df15: taxonomy_term
+    19ba0198-7278-4d39-b590-ff07a9ffe8c6: taxonomy_term
+    66980a08-ce3f-4643-8d3c-9f76819cd211: taxonomy_term
+    9ccee2b5-b1bd-4831-bbf3-09383d0be2d1: taxonomy_term
+    fc6ef891-6ddc-411b-8137-7a6abd05252a: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    c1eb56e9-3c70-43f3-bd0d-7d655c312e03: taxonomy_term
+    0fab1d3d-18cb-4ff2-a5fe-b54783bcefbb: taxonomy_term
+    dcca36a7-a7f9-48c7-87f0-62dc794d5b25: taxonomy_term
+    146741d1-d476-4382-a48e-5bb4b1bd724f: taxonomy_term
+    d764528c-d74b-4344-a75b-b8d1d6f6e721: taxonomy_term
+    4a1bf35b-abd3-43eb-873b-ab22644c0d9c: taxonomy_term
+    f8e8a3de-bb8b-4d36-98ae-09900269f40b: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1129684 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Galaktika folyóirat, April 1987'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/galaktika-folyoirat/galaktika-folyoirat-april-1987
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 041f10bb-7c59-494f-a586-9268f3a6337e
+    -
+      entity: 1a769d87-0bc1-4c92-8ea8-4eaf6448a480
+    -
+      entity: bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2
+  field_cover:
+    -
+      entity: 9c71afe2-866f-426e-970d-fcaba9ea3959
+  field_cover_artist:
+    -
+      entity: 8e955d40-def3-43e7-85d8-fd6ef735df15
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1129684 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'April 1987'
+  field_editor:
+    -
+      entity: 19ba0198-7278-4d39-b590-ff07a9ffe8c6
+  field_interior_artist:
+    -
+      entity: 66980a08-ce3f-4643-8d3c-9f76819cd211
+  field_isfdb_id:
+    -
+      value: '1129684'
+  field_language:
+    -
+      entity: 9ccee2b5-b1bd-4831-bbf3-09383d0be2d1
+  field_magazine:
+    -
+      entity: fc6ef891-6ddc-411b-8137-7a6abd05252a
+  field_other_contributors:
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: c1eb56e9-3c70-43f3-bd0d-7d655c312e03
+    -
+      entity: 0fab1d3d-18cb-4ff2-a5fe-b54783bcefbb
+    -
+      entity: dcca36a7-a7f9-48c7-87f0-62dc794d5b25
+    -
+      entity: 146741d1-d476-4382-a48e-5bb4b1bd724f
+    -
+      entity: d764528c-d74b-4344-a75b-b8d1d6f6e721
+    -
+      entity: 4a1bf35b-abd3-43eb-873b-ab22644c0d9c
+    -
+      entity: f8e8a3de-bb8b-4d36-98ae-09900269f40b
+  field_pages:
+    -
+      value: 96
+  field_price:
+    -
+      value: 'Ft 28'
+  field_published_as:
+    -
+      value: 'Általános szektor (part 2 of 2)'
+    -
+      value: 'Bajok Emilyvel'
+    -
+      value: 'Látogató nagyban (part 1 of 2)'
+  field_sort_date:
+    -
+      value: '1987-04-01'
+  field_year:
+    -
+      value: 1987

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b2ca210f-c7b0-445b-971d-1daf55d8c096
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Steve Jones'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/steve-jones
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

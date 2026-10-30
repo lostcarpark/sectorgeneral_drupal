@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 59753821-1c8c-4944-9043-b2b3f46b5c5d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 41xxx1-kkxl.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/41xxx1-kkxl.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 27731
+  status:
+    -
+      value: true

@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 8dab3e78-c90a-4939-bf80-577a16c97ba0
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    2dd3d409-2398-4b93-8eeb-14331b8acbfe: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Ambulance Ship cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 80849e2d698e2dbd6f360244cf6378f555a4df80
+  field_media_image:
+    -
+      alt: 'Cover showing a wedge shaped ship bearing red cross livery approaching a badly damaged spherical station'
+      title: ''
+      width: 348
+      height: 600
+      entity: 2dd3d409-2398-4b93-8eeb-14331b8acbfe

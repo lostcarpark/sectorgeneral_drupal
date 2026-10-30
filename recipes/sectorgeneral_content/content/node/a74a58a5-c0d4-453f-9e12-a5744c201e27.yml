@@ -1,0 +1,90 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a74a58a5-c0d4-453f-9e12-a5744c201e27
+  bundle: edition
+  default_langcode: en
+  depends:
+    df05d34a-0896-414e-ba78-e6272662709f: media
+    1275b65b-0544-4918-a6f8-3476ee99a45a: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    62862122-c514-4f24-8c75-e5e6741745f4: node
+    06aa2580-8e68-4b72-9a00-f5d252de9de3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL28174348M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Star Healer, Orbit, 1988'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-healer/star-healer-orbit-1988
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: df05d34a-0896-414e-ba78-e6272662709f
+  field_cover_artist:
+    -
+      entity: 1275b65b-0544-4918-a6f8-3476ee99a45a
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?327309 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL28174348M (CC0).
+  field_date_display:
+    -
+      value: '1988'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780708881873'
+  field_isfdb_id:
+    -
+      value: '327309'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 62862122-c514-4f24-8c75-e5e6741745f4
+  field_openlibrary_id:
+    -
+      value: OL28174348M
+  field_pages:
+    -
+      value: 217
+  field_price:
+    -
+      value: £2.99
+  field_publisher:
+    -
+      entity: 06aa2580-8e68-4b72-9a00-f5d252de9de3
+  field_sort_date:
+    -
+      value: '1988-01-01'
+  field_year:
+    -
+      value: 1988

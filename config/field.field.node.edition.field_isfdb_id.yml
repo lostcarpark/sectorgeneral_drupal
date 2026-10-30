@@ -1,0 +1,19 @@
+uuid: ed982430-63cf-4e38-9ba7-9ba11c6f6aa1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_isfdb_id
+    - node.type.edition
+id: node.edition.field_isfdb_id
+field_name: field_isfdb_id
+entity_type: node
+bundle: edition
+label: 'ISFDB ID'
+description: 'The number at the end of the ISFDB page address for this record.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

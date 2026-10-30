@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c7e922de-92da-4279-a3cf-37eba01340cf
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Arndt Ellmer'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/arndt-ellmer
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

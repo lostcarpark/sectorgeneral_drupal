@@ -1,0 +1,90 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 10e3c979-8e5f-4fde-9b99-a6e8105cfa15
+  bundle: edition
+  default_langcode: en
+  depends:
+    f799576e-b9ff-4b6e-8261-f966d5e7835f: media
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    77839f28-06fe-4a5d-819c-9a837540e410: node
+    32dfb838-1b85-446d-8f00-f65cfd4d0785: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL28038277M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Deadly Litter, Corgi, 1968'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/deadly-litter/deadly-litter-corgi-1968
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: f799576e-b9ff-4b6e-8261-f966d5e7835f
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Transworld/Corgi, London, No 552-08052-7, December 1968”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?152551 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL28038277M (CC0).
+  field_date_display:
+    -
+      value: 'December 1968'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780552080521'
+  field_isfdb_id:
+    -
+      value: '152551'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 77839f28-06fe-4a5d-819c-9a837540e410
+  field_oclc:
+    -
+      value: '4065694'
+  field_openlibrary_id:
+    -
+      value: OL28038277M
+  field_pages:
+    -
+      value: 157
+  field_price:
+    -
+      value: 3/6
+  field_publisher:
+    -
+      entity: 32dfb838-1b85-446d-8f00-f65cfd4d0785
+  field_sort_date:
+    -
+      value: '1968-12-01'
+  field_year:
+    -
+      value: 1968

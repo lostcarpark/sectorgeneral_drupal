@@ -1,0 +1,47 @@
+uuid: 4b55fd0f-517f-4e9d-b00c-9ff5f692399e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.cover_small
+    - field.field.media.cover_image.field_image_hash
+    - field.field.media.cover_image.field_image_source
+    - field.field.media.cover_image.field_image_url
+    - field.field.media.cover_image.field_media_image
+    - field.field.media.cover_image.field_scanned_by
+    - field.field.media.cover_image.field_source_url
+    - field.field.media.cover_image.field_takedown_date
+    - field.field.media.cover_image.field_takedown_reason
+    - image.style.cover_small
+    - media.type.cover_image
+  module:
+    - image
+id: media.cover_image.cover_small
+targetEntityType: media
+bundle: cover_image
+mode: cover_small
+content:
+  field_media_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: cover_small
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  cover_credit: true
+  created: true
+  field_image_hash: true
+  field_image_source: true
+  field_image_url: true
+  field_scanned_by: true
+  field_source_url: true
+  field_takedown_date: true
+  field_takedown_reason: true
+  name: true
+  thumbnail: true
+  uid: true

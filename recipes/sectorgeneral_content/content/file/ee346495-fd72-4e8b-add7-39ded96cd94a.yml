@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ee346495-fd72-4e8b-add7-39ded96cd94a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fdrtnwrldj1988.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/fdrtnwrldj1988.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 69485
+  status:
+    -
+      value: true

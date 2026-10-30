@@ -1,0 +1,228 @@
+uuid: d8aa3af2-f874-4006-8f36-1d6e5aa0a09f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_first_published_year
+    - field.storage.node.field_series
+    - field.storage.node.field_words
+    - node.type.short_story
+    - system.menu.main
+  module:
+    - node
+    - user
+id: short_stories
+label: 'Short stories'
+module: views
+description: "Sortable list of James White's short fiction."
+tag: ''
+base_table: node_field_data
+base_field: nid
+display:
+  default:
+    id: default
+    display_title: Default
+    display_plugin: default
+    position: 0
+    display_options:
+      title: 'Short stories by James White'
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+          label: Title
+          element_label_colon: false
+          type: string
+          settings:
+            link_to_entity: true
+        field_first_published_year:
+          id: field_first_published_year
+          table: node__field_first_published_year
+          field: field_first_published_year
+          plugin_id: field
+          label: 'First published'
+          element_label_colon: false
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: false
+        field_words:
+          id: field_words
+          table: node__field_words
+          field: field_words
+          plugin_id: field
+          label: Words
+          element_label_colon: false
+          type: number_integer
+          settings:
+            thousand_separator: ','
+            prefix_suffix: false
+        field_series:
+          id: field_series
+          table: node__field_series
+          field: field_series
+          plugin_id: field
+          label: Series
+          element_label_colon: false
+          type: entity_reference_label
+          settings:
+            link: true
+      pager:
+        type: none
+        options:
+          offset: 0
+      exposed_form:
+        type: basic
+        options: {  }
+      access:
+        type: perm
+        options:
+          perm: 'access content'
+      cache:
+        type: tag
+        options: {  }
+      empty:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          plugin_id: text_custom
+          empty: true
+          content: 'No short stories have been added yet.'
+      sorts:
+        field_first_published_year_value:
+          id: field_first_published_year_value
+          table: node__field_first_published_year
+          field: field_first_published_year_value
+          plugin_id: standard
+          order: ASC
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          plugin_id: standard
+          order: ASC
+      filters:
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+          value:
+            short_story: short_story
+          group: 1
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: table
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          columns:
+            title: title
+            field_first_published_year: field_first_published_year
+            field_words: field_words
+            field_series: field_series
+          default: '-1'
+          info:
+            title:
+              sortable: true
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            field_first_published_year:
+              sortable: true
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            field_words:
+              sortable: true
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            field_series:
+              sortable: true
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+          override: true
+          sticky: false
+          summary: ''
+          empty_table: false
+          caption: ''
+          description: ''
+      row:
+        type: fields
+        options: {  }
+      query:
+        type: views_query
+        options: {  }
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_first_published_year'
+        - 'config:field.storage.node.field_series'
+        - 'config:field.storage.node.field_words'
+  page:
+    id: page
+    display_title: Page
+    display_plugin: page
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: short-stories
+      menu:
+        type: normal
+        title: 'Short stories'
+        description: ''
+        weight: 2
+        enabled: true
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_first_published_year'
+        - 'config:field.storage.node.field_series'
+        - 'config:field.storage.node.field_words'

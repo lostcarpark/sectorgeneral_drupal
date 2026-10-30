@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 250007ea-7d89-4b9a-ae01-29d91291305c
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    ebcf6aca-6cfe-446d-9039-cb58520ab2f3: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Nebula 9, August 1954 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: cce0591758198a1bf48e71c4bd0c0cef156bd398
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Nebula 9, August 1954 cover'
+      title: ''
+      width: 100
+      height: 161
+      entity: ebcf6aca-6cfe-446d-9039-cb58520ab2f3

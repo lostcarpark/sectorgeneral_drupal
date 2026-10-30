@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 267922da-ba87-4559-9874-bcd2a332cd29
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: new-sf-7.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/new-sf-7.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3780
+  status:
+    -
+      value: true

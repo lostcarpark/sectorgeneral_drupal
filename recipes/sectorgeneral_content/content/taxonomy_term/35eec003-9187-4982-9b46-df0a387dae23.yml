@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 35eec003-9187-4982-9b46-df0a387dae23
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Mel Hunter'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/mel-hunter
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

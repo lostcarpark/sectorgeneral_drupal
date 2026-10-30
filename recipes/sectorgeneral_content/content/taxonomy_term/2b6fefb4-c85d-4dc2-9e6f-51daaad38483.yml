@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 2b6fefb4-c85d-4dc2-9e6f-51daaad38483
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Robert Silverberg'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/robert-silverberg
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

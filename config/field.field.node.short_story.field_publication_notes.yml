@@ -1,0 +1,22 @@
+uuid: 756def7d-172b-4c57-9e86-760b91180613
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_publication_notes
+    - node.type.short_story
+  module:
+    - text
+id: node.short_story.field_publication_notes
+field_name: field_publication_notes
+entity_type: node
+bundle: short_story
+label: 'Publication notes'
+description: 'Other appearances: anthologies by other editors, translations, broadcasts.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

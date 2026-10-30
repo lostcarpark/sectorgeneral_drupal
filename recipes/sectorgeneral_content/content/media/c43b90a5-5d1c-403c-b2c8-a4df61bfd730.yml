@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c43b90a5-5d1c-403c-b2c8-a4df61bfd730
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    683d8b72-161f-4771-8a00-0be9259f6ba8: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Hospital Station, Ballantine, 1962 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 8272c810973ed49f4310fc4f2b173e672abd1263
+  field_media_image:
+    -
+      alt: 'Hospital Station, Ballantine, 1962'
+      title: ''
+      width: 172
+      height: 293
+      entity: 683d8b72-161f-4771-8a00-0be9259f6ba8

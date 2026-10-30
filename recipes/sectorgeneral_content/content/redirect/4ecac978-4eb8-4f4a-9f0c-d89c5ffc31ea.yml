@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 4ecac978-4eb8-4f4a-9f0c-d89c5ffc31ea
+  bundle: redirect
+  default_langcode: und
+  depends:
+    432c1361-245d-4026-a1e4-5a42236130e0: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 48YSMMJr43_5RgneK2RGKgw5MnQR-55dMJZMILHwMBc
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/new-worlds/new-worlds-magazine-january-1962
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 432c1361-245d-4026-a1e4-5a42236130e0
+  status_code:
+    -
+      value: 301

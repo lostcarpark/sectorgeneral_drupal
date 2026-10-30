@@ -1,0 +1,38 @@
+uuid: 5d5a9e7a-4995-41c2-8425-476ede4d46d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_image
+    - media.type.cover_image
+  module:
+    - image
+id: media.cover_image.field_media_image
+field_name: field_media_image
+entity_type: media
+bundle: cover_image
+label: Image
+description: 'Upload the largest, best-quality scan available. Smaller sizes are generated automatically.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: 'covers/[date:custom:Y-m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

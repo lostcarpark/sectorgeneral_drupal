@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: f799576e-b9ff-4b6e-8261-f966d5e7835f
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    c5a974ec-b873-4e65-a0f0-12cff5c1ec4c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Deadly Litter, Corgi, 1968 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 38fb5f2e82163ea9b2de934b51fdaa83feb83a92
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/e/ec/DDLLTTRRDB1968.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Deadly Litter, Corgi, 1968 cover'
+      title: ''
+      width: 303
+      height: 500
+      entity: c5a974ec-b873-4e65-a0f0-12cff5c1ec4c
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?152551'
+      title: null
+      options: {  }

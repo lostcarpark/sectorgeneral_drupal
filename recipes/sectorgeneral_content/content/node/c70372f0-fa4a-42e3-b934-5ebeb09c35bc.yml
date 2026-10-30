@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c70372f0-fa4a-42e3-b934-5ebeb09c35bc
+  bundle: edition
+  default_langcode: en
+  depends:
+    f74b7154-f411-4545-9052-52fd7247eeca: media
+    42b8f78b-6a45-4b53-8c09-9abae4ded93e: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    0492c5ea-ae95-4c4b-94a9-f0af01b62812: taxonomy_term
+    32d6a7fd-483f-4014-8d98-6fc2860ce1af: taxonomy_term
+    5ce17d86-1081-48a4-813e-2c513ffbf674: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the OPAC SBN: https://opac.sbn.it/bid/RAV0801694'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Ospedale da combattimento, Editrice Nord, 2001'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-surgeon/ospedale-da-combattimento-editrice-nord-2001
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: f74b7154-f411-4545-9052-52fd7247eeca
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?386728 (CC BY 4.0).
+        OPAC SBN record https://opac.sbn.it/bid/RAV0801694.
+  field_date_display:
+    -
+      value: 'November 2001'
+  field_format:
+    -
+      entity: 42b8f78b-6a45-4b53-8c09-9abae4ded93e
+  field_isbn:
+    -
+      value: '9788842911913'
+  field_isfdb_id:
+    -
+      value: '386728'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+  field_oclc:
+    -
+      value: '801154030'
+  field_pages:
+    -
+      value: 254
+  field_price:
+    -
+      value: 'Lit 24,000'
+  field_publisher:
+    -
+      entity: 0492c5ea-ae95-4c4b-94a9-f0af01b62812
+  field_publisher_series:
+    -
+      entity: 32d6a7fd-483f-4014-8d98-6fc2860ce1af
+  field_publisher_series_number:
+    -
+      value: '192'
+  field_sort_date:
+    -
+      value: '2001-11-01'
+  field_translator:
+    -
+      entity: 5ce17d86-1081-48a4-813e-2c513ffbf674
+  field_year:
+    -
+      value: 2001

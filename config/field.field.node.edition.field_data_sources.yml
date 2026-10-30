@@ -1,0 +1,19 @@
+uuid: 83a88a51-e5b8-415d-852d-81b5bcc32a22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_data_sources
+    - node.type.edition
+id: node.edition.field_data_sources
+field_name: field_data_sources
+entity_type: node
+bundle: edition
+label: 'Data sources'
+description: 'Where these details came from (e.g. ISFDB, original James White Information site, own copy). Shown as attribution.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

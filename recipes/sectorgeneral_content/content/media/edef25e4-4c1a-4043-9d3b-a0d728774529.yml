@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: edef25e4-4c1a-4043-9d3b-a0d728774529
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    9e98e2ac-21a3-4204-927b-f371be961527: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Galactic Empires Volume One cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: ececb3f57f0cf5ed580cffbe264b3837b19cf8de
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/4/49/GLCTCMPRSL1979.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Galactic Empires Volume One cover'
+      title: ''
+      width: 365
+      height: 600
+      entity: 9e98e2ac-21a3-4204-927b-f371be961527
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?209541'
+      title: null
+      options: {  }

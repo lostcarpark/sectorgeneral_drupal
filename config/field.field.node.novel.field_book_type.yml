@@ -1,0 +1,23 @@
+uuid: 530f6dbb-8b08-4acf-a0ba-f739fbfdadf5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_book_type
+    - node.type.novel
+  module:
+    - options
+id: node.novel.field_book_type
+field_name: field_book_type
+entity_type: node
+bundle: novel
+label: 'Type of book'
+description: 'A fix-up novel is one built from stories first published separately, such as Hospital Station.'
+required: true
+translatable: true
+default_value:
+  -
+    value: novel
+default_value_callback: ''
+settings: {  }
+field_type: list_string

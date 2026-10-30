@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: e73f9765-230b-4d1c-ac66-6390ec8695b2
+  bundle: redirect
+  default_langcode: und
+  depends:
+    2c31e10b-959a-4533-82b6-2f56e54b9b76: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: V2Nw96qS7CyI0-Cryoh696Ood47HTtgQh-91a-5Gy2Y
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/sanctuary.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 2c31e10b-959a-4533-82b6-2f56e54b9b76
+  status_code:
+    -
+      value: 301

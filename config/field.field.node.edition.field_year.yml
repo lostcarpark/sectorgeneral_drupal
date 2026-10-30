@@ -1,0 +1,23 @@
+uuid: aa2627e9-dbf4-464c-8399-79b80744efe0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_year
+    - node.type.edition
+id: node.edition.field_year
+field_name: field_year
+entity_type: node
+bundle: edition
+label: Year
+description: 'Year of publication, used for sorting.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

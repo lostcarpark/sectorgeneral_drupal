@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 314e735f-e968-4635-b287-0ff56e1ebe9c
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Lemaire
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/lemaire
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

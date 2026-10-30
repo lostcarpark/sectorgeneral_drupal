@@ -1,0 +1,100 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 122887a8-d661-44b4-8388-f87d27b149bd
+  bundle: edition
+  default_langcode: en
+  depends:
+    3edcd9db-86b3-40b2-94f4-826bc2468e31: media
+    9671b40e-39b6-413f-821f-64fd956b0eb5: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    6edd89e8-88d6-4983-b0a1-6ab6f79a7215: node
+    03c0e826-c5ee-456f-8600-d2652179fbeb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL10683351M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Lifeboat, Ballantine, 1980'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/lifeboat/lifeboat-ballantine-1980
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 3edcd9db-86b3-40b2-94f4-826bc2468e31
+  field_cover_artist:
+    -
+      entity: 9671b40e-39b6-413f-821f-64fd956b0eb5
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ballantine, 2nd printing, No 3-28693-6-195, March 1980”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?103371 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL10683351M (CC0).
+  field_date_display:
+    -
+      value: 'March 1980'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345286932'
+  field_isfdb_id:
+    -
+      value: '103371'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 6edd89e8-88d6-4983-b0a1-6ab6f79a7215
+  field_oclc:
+    -
+      value: '28969860'
+  field_openlibrary_id:
+    -
+      value: OL10683351M
+  field_pages:
+    -
+      value: 186
+  field_price:
+    -
+      value: $1.95
+  field_printing:
+    -
+      value: '2nd printing'
+  field_publisher:
+    -
+      entity: 03c0e826-c5ee-456f-8600-d2652179fbeb
+  field_publisher_reference:
+    -
+      value: 3-28693-6-195
+  field_sort_date:
+    -
+      value: '1980-03-01'
+  field_year:
+    -
+      value: 1980

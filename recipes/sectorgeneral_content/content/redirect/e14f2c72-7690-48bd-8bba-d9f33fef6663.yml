@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: e14f2c72-7690-48bd-8bba-d9f33fef6663
+  bundle: redirect
+  default_langcode: und
+  depends:
+    c74a394a-ea27-4a40-9761-41e5da0b9098: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: qVXsECrruoBlwsAlCrWKHTCl-ZFwxOb49LwrTxoPNAc
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: books/major-operation/major-operation-ballantine-books-1971
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: c74a394a-ea27-4a40-9761-41e5da0b9098
+  status_code:
+    -
+      value: 301

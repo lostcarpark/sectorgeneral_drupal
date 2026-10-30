@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8fc19630-e0a1-4fe3-9204-d89a07349109
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Gray Morrow'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/gray-morrow
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

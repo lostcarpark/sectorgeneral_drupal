@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4320a403-91cb-4bcb-89b7-151315b72eb6
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    48d037e6-7cda-4d39-844c-28e8fea700d6: media
+    b3581c83-feca-4a2c-a613-dd076e4482c5: taxonomy_term
+    3e7d2170-f99e-4731-9c56-982d211a2a86: taxonomy_term
+    8fc19630-e0a1-4fe3-9204-d89a07349109: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    24b03e01-5229-4911-8a9b-0314d0aa912a: taxonomy_term
+    4f9adbc3-9e4e-46ad-882d-3e3d0f714f7d: taxonomy_term
+    4694fff6-aab0-4cf4-8ab5-b90626a59d86: taxonomy_term
+    fc5626b6-3c22-4411-af49-f4421015f9c7: taxonomy_term
+    d96bdba3-aaea-40f4-b025-73966b248e42: taxonomy_term
+    fb74c393-8501-42f6-9488-e2985f546df6: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?58733 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'If / Worlds of If, February 1968'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/if-worlds-if/if-worlds-if-february-1968
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_cover:
+    -
+      entity: 48d037e6-7cda-4d39-844c-28e8fea700d6
+  field_cover_artist:
+    -
+      entity: b3581c83-feca-4a2c-a613-dd076e4482c5
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?58733 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'February 1968'
+  field_editor:
+    -
+      entity: 3e7d2170-f99e-4731-9c56-982d211a2a86
+  field_interior_artist:
+    -
+      entity: 8fc19630-e0a1-4fe3-9204-d89a07349109
+  field_isfdb_id:
+    -
+      value: '58733'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 24b03e01-5229-4911-8a9b-0314d0aa912a
+  field_other_contributors:
+    -
+      entity: 4f9adbc3-9e4e-46ad-882d-3e3d0f714f7d
+    -
+      entity: 4694fff6-aab0-4cf4-8ab5-b90626a59d86
+    -
+      entity: fc5626b6-3c22-4411-af49-f4421015f9c7
+    -
+      entity: d96bdba3-aaea-40f4-b025-73966b248e42
+    -
+      entity: fb74c393-8501-42f6-9488-e2985f546df6
+  field_pages:
+    -
+      value: 164
+  field_price:
+    -
+      value: $0.60
+  field_published_as:
+    -
+      value: 'All Judgment Fled (Part 3 of 3)'
+  field_sort_date:
+    -
+      value: '1968-02-01'
+  field_year:
+    -
+      value: 1968

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: a8b8b818-3647-4c32-a5a1-29628153e6d6
+  bundle: redirect
+  default_langcode: en
+  depends:
+    50f36740-48f0-4c0f-a203-3d93c67ec14b: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 5e9yknlc0I3RYB9rlO1xTX3Iib_iXtN9CbEvh-8ZRCE
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: edition/hospital-station-corgi-1967
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 50f36740-48f0-4c0f-a203-3d93c67ec14b
+  status_code:
+    -
+      value: 301

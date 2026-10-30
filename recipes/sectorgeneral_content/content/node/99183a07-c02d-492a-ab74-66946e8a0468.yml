@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 99183a07-c02d-492a-ab74-66946e8a0468
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?51774 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Answer Came There None'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/answer-came-there-none
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>The title derives from Alice Through the Looking-Glass: “But answer came there none/And this was scarcely odd, because/They’d eaten every one.” Jan and pater are a married-couple Terran searchship crew making their second visit in umpteen years to an unfortunately lon-dead extrasolar planet. They eventually get some half-answers to the question of why long-lived, stable, and technologically advanced civilizations so often come to a hard end. I can detect a strong, if gender-transposed, link between them and J(ames) and P(eggy) White. “Suddenly they were hugging each other, a ridiculous and senseless thing to do considering the thickness of their suits. But it did not matter.”</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?51774 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1974
+  field_isfdb_id:
+    -
+      value: '51774'
+  field_opening_excerpt:
+    -
+      value: '<p>Like a green and seemingly virginal carpet, the planetary surface unrolled five miles below the slowing ship.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>GALAXY January 1974 THE BEST FROM GALAXY 3, ed James Baen, Award Book, 1975 Monsters and Medics</p>'
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 7500

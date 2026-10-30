@@ -1,0 +1,83 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: bd8b81fa-0f0d-42d0-a1b4-b82930bacb96
+  bundle: edition
+  default_langcode: en
+  depends:
+    117d9b51-ff81-4051-9914-1027bc16e07a: media
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+    e2b7f90b-afc7-4307-8ea9-91988f73f329: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover replaced by a larger image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?387852'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Secret Visitors, Digit Books'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/secret-visitors/secret-visitors-digit-books
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 117d9b51-ff81-4051-9914-1027bc16e07a
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Edition known only from the cover image secretvisitorsdigit2.jpg”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?387852 (CC BY 4.0).
+  field_date_display:
+    -
+      value: '1963'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '387852'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: fec32d28-7455-4a8a-a448-67c3af694c28
+  field_pages:
+    -
+      value: 158
+  field_price:
+    -
+      value: 2/6
+  field_publisher:
+    -
+      entity: e2b7f90b-afc7-4307-8ea9-91988f73f329
+  field_publisher_reference:
+    -
+      value: R725
+  field_sort_date:
+    -
+      value: '1963-01-01'
+  field_year:
+    -
+      value: 1963

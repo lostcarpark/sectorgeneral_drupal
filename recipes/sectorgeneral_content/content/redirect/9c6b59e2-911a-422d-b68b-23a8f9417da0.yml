@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 9c6b59e2-911a-422d-b68b-23a8f9417da0
+  bundle: redirect
+  default_langcode: und
+  depends:
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: mA5xSWu8w5mH1TtmdUqGS-i5DafzQfRc_8EjKqyya4g
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/secretvisitors.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: fec32d28-7455-4a8a-a448-67c3af694c28
+  status_code:
+    -
+      value: 301

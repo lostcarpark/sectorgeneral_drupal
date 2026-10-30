@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 68a10f10-6ee5-420b-a180-75544b7cb56a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: vntrscncfc1963.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/vntrscncfc1963.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 43402
+  status:
+    -
+      value: true

@@ -1,0 +1,15 @@
+uuid: d889c471-abb0-44f9-95aa-3e21793c72dd
+langcode: en
+status: true
+dependencies: {  }
+name: cover_large
+label: 'Cover large (800 wide)'
+effects:
+  b54377ec-fb2f-4dbf-8de6-d64866d2114d:
+    uuid: b54377ec-fb2f-4dbf-8de6-d64866d2114d
+    id: image_scale
+    weight: 0
+    data:
+      width: 800
+      height: null
+      upscale: false

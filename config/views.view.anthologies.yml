@@ -1,0 +1,125 @@
+uuid: cd16517f-d1e5-407f-90de-ec13b42765a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.anthology
+    - system.menu.main
+  module:
+    - node
+    - user
+id: anthologies
+label: Anthologies
+module: views
+description: 'Anthologies by other editors that include James White stories.'
+tag: ''
+base_table: node_field_data
+base_field: nid
+display:
+  default:
+    id: default
+    display_title: Default
+    display_plugin: default
+    position: 0
+    display_options:
+      title: 'Anthologies with James White stories'
+      pager:
+        type: none
+        options:
+          offset: 0
+      exposed_form:
+        type: basic
+        options: {  }
+      access:
+        type: perm
+        options:
+          perm: 'access content'
+      cache:
+        type: tag
+        options: {  }
+      sorts:
+        field_first_published_year_value:
+          id: field_first_published_year_value
+          table: node__field_first_published_year
+          field: field_first_published_year_value
+          plugin_id: standard
+          order: ASC
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          plugin_id: standard
+          order: ASC
+      filters:
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+          value:
+            anthology: anthology
+          group: 1
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: grid_responsive
+        options:
+          grouping: {  }
+          columns: 4
+          cell_min_width: 180
+          grid_gutter: 16
+          alignment: horizontal
+      row:
+        type: 'entity:node'
+        options:
+          view_mode: teaser
+      query:
+        type: views_query
+        options: {  }
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  page:
+    id: page
+    display_title: Page
+    display_plugin: page
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: anthologies
+      menu:
+        type: normal
+        title: Anthologies
+        description: ''
+        weight: 2
+        enabled: true
+        expanded: false
+        menu_name: main
+        parent: 'views_view:views.short_stories.page'
+        context: '0'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0d9f10b1-76b9-436d-9e47-1d31e892699f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: all-judgement-fled.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/all-judgement-fled.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 45646
+  status:
+    -
+      value: true

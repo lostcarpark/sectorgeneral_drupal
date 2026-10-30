@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c79d9691-6bf2-41e2-a87e-0a7ac5ef83d1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: tommorowistoofarballantine.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/tommorowistoofarballantine.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4911
+  status:
+    -
+      value: true

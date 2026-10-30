@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 5efd3728-8b20-4a3e-b51e-fd99ddc3a802
+  bundle: redirect
+  default_langcode: und
+  depends:
+    b5ce4bb3-1a94-4a0f-a190-ef8a3cd3b833: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: Emz5x3keRZhmj00lx7FScHilr_UYURmWXtkJLekooRA
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/redalert.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: b5ce4bb3-1a94-4a0f-a190-ef8a3cd3b833
+  status_code:
+    -
+      value: 301

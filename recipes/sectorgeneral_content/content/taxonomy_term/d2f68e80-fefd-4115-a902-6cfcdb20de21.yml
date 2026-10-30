@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d2f68e80-fefd-4115-a902-6cfcdb20de21
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Leslie F. Stone'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/leslie-f-stone
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

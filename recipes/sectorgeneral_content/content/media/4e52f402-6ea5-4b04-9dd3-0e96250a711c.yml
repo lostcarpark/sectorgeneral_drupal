@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4e52f402-6ea5-4b04-9dd3-0e96250a711c
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    2c427da9-7974-40db-a8d1-e0758099b9cf: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Underkill, Corgi, 1979 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: c93b02196e6e5d4a275213e07732b24cee0056a2
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Underkill: Corgi 1979'
+      title: ''
+      width: 100
+      height: 161
+      entity: 2c427da9-7974-40db-a8d1-e0758099b9cf

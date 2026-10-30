@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c1ac0c3e-6fb3-4842-b06b-4bc0ca67ce6b
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Sydney J. Van Scyoc'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/sydney-j-van-scyoc
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

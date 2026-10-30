@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: fc2ddef8-6599-4016-bad3-32c67782ed44
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    2ad637a7-20f0-4d58-90b3-eb7bd894eaaa: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Star Surgeon, Corgi, 1967 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 7ba7ccafff65bc5f2f0fbd537bfddf5b131d69e1
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/1/1c/STRSRGNPQB1967.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Star Surgeon, Corgi, 1967 cover'
+      title: ''
+      width: 254
+      height: 417
+      entity: 2ad637a7-20f0-4d58-90b3-eb7bd894eaaa
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?312413'
+      title: null
+      options: {  }

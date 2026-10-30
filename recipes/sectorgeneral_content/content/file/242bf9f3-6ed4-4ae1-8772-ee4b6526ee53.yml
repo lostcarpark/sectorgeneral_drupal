@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 242bf9f3-6ed4-4ae1-8772-ee4b6526ee53
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: analog-feb-96.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/analog-feb-96.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3982
+  status:
+    -
+      value: true

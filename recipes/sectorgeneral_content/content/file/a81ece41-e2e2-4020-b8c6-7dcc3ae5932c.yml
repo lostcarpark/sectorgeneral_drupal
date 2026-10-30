@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a81ece41-e2e2-4020-b8c6-7dcc3ae5932c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: galjan74.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/galjan74.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 66430
+  status:
+    -
+      value: true

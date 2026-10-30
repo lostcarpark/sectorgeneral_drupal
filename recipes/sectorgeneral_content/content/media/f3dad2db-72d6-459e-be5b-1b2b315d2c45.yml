@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: f3dad2db-72d6-459e-be5b-1b2b315d2c45
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    5fb4e008-9bb8-47ef-aa27-ebdf28926c54: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Genocidal Healer, Del Rey, 1992 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 23fc0eb5ec493c73ef1b95edb43f95d346ae6090
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Genocidal Healer: Ballantine Books, 1992'
+      title: ''
+      width: 100
+      height: 168
+      entity: 5fb4e008-9bb8-47ef-aa27-ebdf28926c54

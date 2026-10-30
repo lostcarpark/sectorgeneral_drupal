@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 372b8958-1072-4a82-98a8-333f7e3bd654
+  bundle: anthology
+  default_langcode: en
+  depends:
+    0ed15ef8-7d60-40bf-a183-67d85295468f: node
+    78be362d-da74-45cf-86af-73d106f0b7ba: media
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    d0c75285-95f3-4e3f-92d2-04c05cc6456f: taxonomy_term
+    078584af-381d-4b9f-9ce4-0a30014b1987: taxonomy_term
+    cfb517de-c06d-4f4d-8605-cf711df41713: taxonomy_term
+    22786c6e-1ede-49f9-92d4-dede4b5e833c: taxonomy_term
+    a44e3066-2446-4ed4-bd48-b8f6ea2541c4: taxonomy_term
+    eebaa47d-75ad-4975-b6ea-661419f420ab: taxonomy_term
+    d039de82-9a81-4c76-ad65-2d5996bf2275: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover replaced by a larger image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?23816'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Writings in SF 16'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/new-writings-sf-16
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Dobson, January 1970. Corgi paperback, March 1970.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 0ed15ef8-7d60-40bf-a183-67d85295468f
+  field_cover:
+    -
+      entity: 78be362d-da74-45cf-86af-73d106f0b7ba
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?34486 (CC BY 4.0).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1328351 (CC BY 4.0).
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_first_published_year:
+    -
+      value: 1970
+  field_isfdb_id:
+    -
+      value: '34486'
+  field_other_contributors:
+    -
+      entity: d0c75285-95f3-4e3f-92d2-04c05cc6456f
+    -
+      entity: 078584af-381d-4b9f-9ce4-0a30014b1987
+    -
+      entity: cfb517de-c06d-4f4d-8605-cf711df41713
+    -
+      entity: 22786c6e-1ede-49f9-92d4-dede4b5e833c
+    -
+      entity: a44e3066-2446-4ed4-bd48-b8f6ea2541c4
+  field_publisher:
+    -
+      entity: eebaa47d-75ad-4975-b6ea-661419f420ab
+  field_series:
+    -
+      entity: d039de82-9a81-4c76-ad65-2d5996bf2275
+  field_series_number:
+    -
+      value: 16

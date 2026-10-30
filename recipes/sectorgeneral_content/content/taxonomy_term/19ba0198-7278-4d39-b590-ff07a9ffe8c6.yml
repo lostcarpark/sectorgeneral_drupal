@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 19ba0198-7278-4d39-b590-ff07a9ffe8c6
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Sziládi János'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/sziladi-janos
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

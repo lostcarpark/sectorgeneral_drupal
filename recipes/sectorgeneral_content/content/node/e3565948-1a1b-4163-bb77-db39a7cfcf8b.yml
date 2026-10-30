@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e3565948-1a1b-4163-bb77-db39a7cfcf8b
+  bundle: edition
+  default_langcode: en
+  depends:
+    668e2d03-39c3-4ff4-9a57-51cfadffc77e: media
+    9ba02792-0c3a-4e38-b5d6-bd1394c702be: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    076cb8ba-ada5-4880-8874-aee68d7e662d: node
+    03c0e826-c5ee-456f-8600-d2652179fbeb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL9634252M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Watch Below, Ballantine, 1972'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/watch-below/watch-below-ballantine-1972
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 668e2d03-39c3-4ff4-9a57-51cfadffc77e
+  field_cover_artist:
+    -
+      entity: 9ba02792-0c3a-4e38-b5d6-bd1394c702be
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ballantine, No 0275-7-085, October 1972”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?280565 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9634252M (CC0).
+  field_date_display:
+    -
+      value: 'October 1972'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345027955'
+  field_isfdb_id:
+    -
+      value: '280565'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 076cb8ba-ada5-4880-8874-aee68d7e662d
+  field_oclc:
+    -
+      value: '17683077'
+  field_openlibrary_id:
+    -
+      value: OL9634252M
+  field_pages:
+    -
+      value: 189
+  field_price:
+    -
+      value: $0.95
+  field_publisher:
+    -
+      entity: 03c0e826-c5ee-456f-8600-d2652179fbeb
+  field_publisher_reference:
+    -
+      value: 0275-7-085
+  field_sort_date:
+    -
+      value: '1972-10-01'
+  field_year:
+    -
+      value: 1972

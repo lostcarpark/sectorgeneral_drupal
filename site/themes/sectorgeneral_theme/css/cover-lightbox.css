@@ -1,0 +1,69 @@
+/**
+ * @file
+ * A cover's full-size image over the page (js/cover-lightbox.js).
+ */
+
+.book-header__cover a[href$=".jpg"],
+.book-header__cover a[href$=".jpeg"],
+.book-header__cover a[href$=".png"],
+.node--view-mode-full .field--name-field-cover a[href$=".jpg"],
+.node--view-mode-full .field--name-field-cover a[href$=".jpeg"],
+.node--view-mode-full .field--name-field-cover a[href$=".png"] {
+  cursor: zoom-in;
+}
+
+.cover-lightbox {
+  max-width: 94vw;
+  max-height: 94vh;
+  padding: 0;
+  cursor: zoom-out;
+  border: 0;
+  background: transparent;
+  box-shadow: 0 10px 40px rgb(0, 0, 0, 0.6);
+}
+
+.cover-lightbox::backdrop {
+  background: rgb(0, 0, 0, 0.8);
+}
+
+.cover-lightbox__image {
+  display: block;
+  width: auto;
+  max-width: 94vw;
+  height: auto;
+  max-height: 94vh;
+}
+
+.cover-lightbox__close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  cursor: pointer;
+  color: #fff;
+  border: 0;
+  border-radius: 50%;
+  background: rgb(0, 0, 0, 0.55);
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.cover-lightbox__close:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .cover-lightbox[open],
+  .cover-lightbox[open]::backdrop {
+    animation: cover-lightbox-in 150ms ease-out;
+  }
+}
+
+@keyframes cover-lightbox-in {
+  from {
+    opacity: 0;
+  }
+}

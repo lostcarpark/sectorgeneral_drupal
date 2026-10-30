@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: f98df4ca-e148-424e-bf99-3c17a553d7de
+  bundle: redirect
+  default_langcode: en
+  depends:
+    800be203-c9c1-44f2-ad47-7e4449e1deed: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: jWzLl8k5H2J0BwhyL_r-ot0O-aTSD2GUddnf3RjaALY
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/new-worlds/new-worlds-science-fiction-us-march-1960
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 800be203-c9c1-44f2-ad47-7e4449e1deed
+  status_code:
+    -
+      value: 301

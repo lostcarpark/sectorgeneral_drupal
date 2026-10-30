@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: f0b0e874-65b0-47ba-a0c0-82ad0051c2d3
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    5956f446-5913-413d-b8d7-ee89d65e2a3d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Worlds 71, May 1958 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 08ed7f937268ab96d9ebfbb1ed85c8e9baec7a08
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'New Worlds 71, May 1958 cover'
+      title: ''
+      width: 138
+      height: 200
+      entity: 5956f446-5913-413d-b8d7-ee89d65e2a3d

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5942cd39-0b67-47c3-8fb1-a1fb25f83f05
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bgnnngprtn2026.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/bgnnngprtn2026.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 154254
+  status:
+    -
+      value: true

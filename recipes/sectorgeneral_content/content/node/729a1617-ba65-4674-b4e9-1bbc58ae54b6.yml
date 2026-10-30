@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 729a1617-ba65-4674-b4e9-1bbc58ae54b6
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    809f2d30-8095-45d4-b6dd-0dda7cffaeb4: node
+    9cc136b5-0960-4ca5-891d-d8390c53e93a: media
+    007d86a4-94ea-4b74-a63e-877ea1ab3496: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    e613edcf-203e-48ff-8a70-3dc22f2becd4: taxonomy_term
+    6352ffef-5d56-440c-adca-741ea5e12d66: taxonomy_term
+    3e639692-8efc-4d22-aa5a-fb5805e0a306: taxonomy_term
+    47585aa7-56cf-473b-a310-059cd2902814: taxonomy_term
+    eac81a81-588c-4d88-b2a8-422b63f27b72: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?154781 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds 110, September 1961'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-110-september-1961
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 809f2d30-8095-45d4-b6dd-0dda7cffaeb4
+  field_cover:
+    -
+      entity: 9cc136b5-0960-4ca5-891d-d8390c53e93a
+  field_cover_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?154781 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'September 1961'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_isfdb_id:
+    -
+      value: '154781'
+  field_issue_number:
+    -
+      value: '110'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: e613edcf-203e-48ff-8a70-3dc22f2becd4
+    -
+      entity: 6352ffef-5d56-440c-adca-741ea5e12d66
+    -
+      entity: 3e639692-8efc-4d22-aa5a-fb5805e0a306
+    -
+      entity: 47585aa7-56cf-473b-a310-059cd2902814
+    -
+      entity: eac81a81-588c-4d88-b2a8-422b63f27b72
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 2/6
+  field_sort_date:
+    -
+      value: '1961-09-01'
+  field_year:
+    -
+      value: 1961

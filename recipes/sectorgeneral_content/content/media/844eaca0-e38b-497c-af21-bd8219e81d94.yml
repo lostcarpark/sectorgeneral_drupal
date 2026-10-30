@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 844eaca0-e38b-497c-af21-bd8219e81d94
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    f41b50d2-bb4e-47bc-a35b-6e48c7a4fca4: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Extro 2, April/May 1982 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 3218229afc89c1325de883119c41d8d598ebce7d
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Extro 2, April/May 1982 cover'
+      title: ''
+      width: 100
+      height: 144
+      entity: f41b50d2-bb4e-47bc-a35b-6e48c7a4fca4

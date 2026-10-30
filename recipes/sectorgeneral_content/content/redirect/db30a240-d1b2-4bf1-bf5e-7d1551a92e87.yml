@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: db30a240-d1b2-4bf1-bf5e-7d1551a92e87
+  bundle: redirect
+  default_langcode: und
+  depends:
+    58c4561c-64ff-42d6-b7c9-3c4d1c7689b6: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 9ied3WTmP5cBKKGfvcqsZ2RdyV3dyRuxQ6ZkMo9RApo
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/falsealarm.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 58c4561c-64ff-42d6-b7c9-3c4d1c7689b6
+  status_code:
+    -
+      value: 301

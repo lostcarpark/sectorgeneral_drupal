@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 7738a28e-7f1c-43fe-94b1-6a0042fa815f
+  bundle: redirect
+  default_langcode: en
+  depends:
+    11fa2a69-c650-4cbb-9304-4d8c148eed95: taxonomy_term
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: JhMitx2JZUCdx48WEkyJg6VEaaznrPs8X3Oqy7krIIY
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: publisher/macdonald
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 11fa2a69-c650-4cbb-9304-4d8c148eed95
+  status_code:
+    -
+      value: 301

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 64a48742-37e6-4ea6-b099-6afe944bb013
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Tony Steele'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/tony-steele
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

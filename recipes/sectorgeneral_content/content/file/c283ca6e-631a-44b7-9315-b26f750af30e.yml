@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c283ca6e-631a-44b7-9315-b26f750af30e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: major-operation.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/major-operation.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 55223
+  status:
+    -
+      value: true

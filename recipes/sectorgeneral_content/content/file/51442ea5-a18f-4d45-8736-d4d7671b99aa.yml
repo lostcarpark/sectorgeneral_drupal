@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 51442ea5-a18f-4d45-8736-d4d7671b99aa
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ndbnvnhtgv1969.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/ndbnvnhtgv1969.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 44488
+  status:
+    -
+      value: true

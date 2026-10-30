@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 432c1361-245d-4026-a1e4-5a42236130e0
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    84d44110-a366-4db4-81d6-1a014d2f1d66: node
+    4b047f02-4167-4cf5-8f2a-05df5f6b6652: media
+    007d86a4-94ea-4b74-a63e-877ea1ab3496: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    b226aeaa-e71f-48e7-b1bb-540fe32b5459: taxonomy_term
+    a12a659b-6216-44b8-92b5-327a4e7cf1c9: taxonomy_term
+    d822bab7-5f65-4438-9339-b22260ba5fe0: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Merged duplicate node 626 ("Field Hospital").'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds 114, January 1962'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-114-january-1962
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 84d44110-a366-4db4-81d6-1a014d2f1d66
+  field_cover:
+    -
+      entity: 4b047f02-4167-4cf5-8f2a-05df5f6b6652
+  field_cover_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?169771 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'January 1962'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_isfdb_id:
+    -
+      value: '169771'
+  field_issue_number:
+    -
+      value: '114'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+    -
+      entity: a12a659b-6216-44b8-92b5-327a4e7cf1c9
+    -
+      entity: d822bab7-5f65-4438-9339-b22260ba5fe0
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 2/6
+  field_published_as:
+    -
+      value: 'Field Hospital (Part 1 of 3)'
+  field_sort_date:
+    -
+      value: '1962-01-01'
+  field_year:
+    -
+      value: 1962

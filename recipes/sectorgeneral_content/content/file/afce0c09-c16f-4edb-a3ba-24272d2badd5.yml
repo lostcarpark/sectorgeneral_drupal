@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: afce0c09-c16f-4edb-a3ba-24272d2badd5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: alljudgementfledorbit.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/alljudgementfledorbit.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3720
+  status:
+    -
+      value: true

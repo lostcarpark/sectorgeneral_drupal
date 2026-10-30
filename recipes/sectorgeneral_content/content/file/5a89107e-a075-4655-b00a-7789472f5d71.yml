@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5a89107e-a075-4655-b00a-7789472f5d71
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: scncfctndb1959.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/scncfctndb1959.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 130677
+  status:
+    -
+      value: true

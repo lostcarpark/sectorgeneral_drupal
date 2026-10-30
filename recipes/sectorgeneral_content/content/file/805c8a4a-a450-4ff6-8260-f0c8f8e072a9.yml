@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 805c8a4a-a450-4ff6-8260-f0c8f8e072a9
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fantastic_1961_june_july.jpg
+  uri:
+    -
+      value: 'public://covers/2026-10/fantastic_1961_june_july.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 429021
+  status:
+    -
+      value: true

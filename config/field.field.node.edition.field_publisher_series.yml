@@ -1,0 +1,26 @@
+uuid: 1bb11fd7-1ae4-46ad-9f2e-d0430ae53f33
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_publisher_series
+    - node.type.edition
+    - taxonomy.vocabulary.publisher_series
+id: node.edition.field_publisher_series
+field_name: field_publisher_series
+entity_type: node
+bundle: edition
+label: 'Publisher series'
+description: "e.g. SF Collectors' Library."
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      publisher_series: publisher_series
+    auto_create: true
+    auto_create_bundle: publisher_series
+field_type: entity_reference

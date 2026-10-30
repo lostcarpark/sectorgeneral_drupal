@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 0d42a515-c132-432c-a219-61aa53a40dc1
+  bundle: redirect
+  default_langcode: und
+  depends:
+    4b81c353-ee5a-436d-874d-15f4358ed29e: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: Cyqv0rmSFRcP1iBF1vZ2TbtS0HCHeDNJLCm7A3Q_Vjw
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/new-worlds/new-worlds-magazine-march-1962
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 4b81c353-ee5a-436d-874d-15f4358ed29e
+  status_code:
+    -
+      value: 301

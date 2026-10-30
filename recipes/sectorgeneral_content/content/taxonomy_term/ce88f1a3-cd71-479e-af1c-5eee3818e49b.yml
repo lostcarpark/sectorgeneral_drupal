@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: ce88f1a3-cd71-479e-af1c-5eee3818e49b
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Samuel R. Delany'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/samuel-r-delany
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

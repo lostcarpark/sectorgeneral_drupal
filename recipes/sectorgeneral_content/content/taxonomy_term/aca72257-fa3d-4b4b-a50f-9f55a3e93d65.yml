@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: aca72257-fa3d-4b4b-a50f-9f55a3e93d65
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Nevin Washington'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/nevin-washington
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

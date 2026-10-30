@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 39ea7de3-9e0f-4961-8636-c25ea5995577
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?327861 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The High Road'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/high-road
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>Editorial blether: &quot;Dr. Conway and the Sector General hospital staff are taking a well-earned vacation at the moment so author James White has himself returned to Earth to recount a story of early spaceflight. There is more than one road to a given goal and it depends upon which one you take to get there first.&quot; &#039;Early spaceflight&#039; is painfully correct. I&#039;m afraid that &#039;The High Road has dated in all the wrong ways.* Jim took the auctorial Low Road, this one (and only) time.</p>
+        <p>*Unlike, say, Henry Kuttner&#039;s Fury (1947). Or, say again, The Secret Visitors (see under Books).</p>
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?327861 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1959
+  field_isfdb_id:
+    -
+      value: '327861'
+  field_opening_excerpt:
+    -
+      value: '<p>A harsh, angry voice was saying: &quot;. . . Eight . . . Seven . . . Six . . .&quot; as if each numeral was a dirty word.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WORLDS No 87, October 1959 New Worlds US Reprint Edition, May 1960</p>'
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 12500

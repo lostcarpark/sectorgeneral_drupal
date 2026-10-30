@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b134c513-daeb-412a-b17c-739f0197c3b7
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drrdschndh1967.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/drrdschndh1967.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 55492
+  status:
+    -
+      value: true

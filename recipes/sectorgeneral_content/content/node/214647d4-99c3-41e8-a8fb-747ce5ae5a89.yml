@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 214647d4-99c3-41e8-a8fb-747ce5ae5a89
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63755 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Fast Trip'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/fast-trip
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Ramsey, the first real passenger-carrying spaceship, is on a sixteen-week course to Mars. Then the radio, food supply, fuel tank, and Captain Ramsey himself (skippers are psychologically tailored to fir their ships) all go phffft! Engineer/’obsolete’ captain Herdman explains the three-cornered problem: “First, our captain is physically incapable of handling the approach and landing when we reach Mars. Second, when we reach Mars we will be going too fast because we haven’t enough fuel to decelerate into a landing orbit. And third, there isn’t enough food to keep us alive anyway.” One of those constants should have been treated as a variable factor . . . but that’s your lot.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63755 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1963
+  field_isfdb_id:
+    -
+      value: '63755'
+  field_opening_excerpt:
+    -
+      value: '<p>With the sounding of the five second warning the clicking, whining bedlam inside Ramsey built suddenly to a climax.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>FANTASY &amp;SF, April 1965 FANTASY &amp; SF Brutish Edition, August 1963 OUT OF THIS WORLD 6, Blackie, 15/-, October 1967 Macmillan Topliner Collection IN TIME TO COME, 1975 </p>
+        <p>Foreign Publication: F&amp;SF German Edition, Heyne Bucher No 248 as Zwischen Erde und Mars FICTION No 130, September 1964 as e Pilote</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 16500

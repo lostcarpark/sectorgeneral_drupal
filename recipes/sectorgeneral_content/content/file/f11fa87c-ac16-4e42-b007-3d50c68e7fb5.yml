@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f11fa87c-ac16-4e42-b007-3d50c68e7fb5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 11334.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/11334.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 8160
+  status:
+    -
+      value: true

@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 600d1080-80d7-4115-ab90-323bde9282aa
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?75505 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Star Walk'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/star-walk
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Star Walk No. 17 is a postal area far out on the Galactic Rim. (To Chief Psychologist O&#039;Meara, c/o Sector Twelve, General Hospital, Milky Way Galaxy, Star Walk No. 17 C.) courier-ship pilot Carmicheal (sic) and his Girl Everyday, Evelyn, get themselves into … I&#039;m not sure what, exactly. John Carnell, the normally astute editor of New Worlds, should have marked this one RETURN TO SENDER. Sorry, Jim.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?75505 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1955
+  field_isfdb_id:
+    -
+      value: '75505'
+  field_opening_excerpt:
+    -
+      value: '<p>He&#039;d certainly picked a fine spot to land this trip, Carmicheal thought disgustedly as the creep bounced and jolted its way towards the grounded C-ship; frozen, iron-hard soil split by a maze of cracks and gullies and strewn with rocks of every shape and size.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WORLDS No 33, March 1955</p>'
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 18500

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: f803184c-85c0-48c0-9f3e-70d2579435ca
+  bundle: redirect
+  default_langcode: und
+  depends:
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: fYHQrha6X-R65pBB3Qiq3i_giND7l8oHxP0ENu7JzVg
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/secondending.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+  status_code:
+    -
+      value: 301

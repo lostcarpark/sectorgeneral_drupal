@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 21b99338-c8e7-472c-a9ad-026f0cffcf59
+  bundle: edition
+  default_langcode: en
+  depends:
+    c21435b0-b329-40f3-90ad-dbceab5603a2: media
+    1275b65b-0544-4918-a6f8-3476ee99a45a: taxonomy_term
+    42b8f78b-6a45-4b53-8c09-9abae4ded93e: taxonomy_term
+    8369f22b-e1bf-4992-9ec5-fd789acdd842: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    2c173c06-4324-4644-93cc-79dd46396550: node
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930: node
+    6f3fa5f6-86dd-4b27-9700-c634c13d7875: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?327415 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Beginning Operations, Orb'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/beginning-operations/beginning-operations-orb-0
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: c21435b0-b329-40f3-90ad-dbceab5603a2
+  field_cover_artist:
+    -
+      entity: 1275b65b-0544-4918-a6f8-3476ee99a45a
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?327415 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL3944409M (CC0).
+  field_format:
+    -
+      entity: 42b8f78b-6a45-4b53-8c09-9abae4ded93e
+  field_introduction_by:
+    -
+      entity: 8369f22b-e1bf-4992-9ec5-fd789acdd842
+  field_isbn:
+    -
+      value: '9780312875442'
+  field_isfdb_id:
+    -
+      value: '327415'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 2c173c06-4324-4644-93cc-79dd46396550
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+    -
+      entity: 22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930
+  field_openlibrary_id:
+    -
+      value: OL3944409M
+  field_pages:
+    -
+      value: 511
+  field_price:
+    -
+      value: $19.95
+  field_publisher:
+    -
+      entity: 6f3fa5f6-86dd-4b27-9700-c634c13d7875
+  field_sort_date:
+    -
+      value: '9999-12-31'

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b9dda5f3-ea69-48aa-ae74-4d63212f2413
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: major-operation-ballintine_tn.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/major-operation-ballintine_tn.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 16618
+  status:
+    -
+      value: true

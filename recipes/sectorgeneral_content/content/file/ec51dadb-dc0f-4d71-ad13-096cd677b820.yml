@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ec51dadb-dc0f-4d71-ad13-096cd677b820
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newwrmar1959.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/newwrmar1959.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 152719
+  status:
+    -
+      value: true

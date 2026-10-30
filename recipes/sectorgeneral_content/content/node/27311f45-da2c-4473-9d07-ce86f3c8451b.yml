@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 27311f45-da2c-4473-9d07-ce86f3c8451b
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?71712 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Crossfire
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/crossfire
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>I can remember a time when Belfast was strewn with unexploded German bombs from the Second World War, and so -- of course -- could James White. &#039;Crossfire&#039; features Cotrell and Nelson (plus late-comer Corporal Barnes), a painfully British bomb-disposal team in some unspecified war. They are forced to confront Something From Out There. The ending should come as no real surprise, but Sergeant White makes effective use of his stint in the Air Training Corps. War Picture Library meets Thrilling Wonder Stories -- why not?</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?71712 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1953
+  field_isfdb_id:
+    -
+      value: '71712'
+  field_opening_excerpt:
+    -
+      value: '<p>Cotrell sat on the losse earth at the crater&#039;s rim and watched the tank close up to point-blank range.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>NEW WORLDS No. 2, May 1953 </p>
+        <p>Publication History: THE BEST FROM NEW WORLDS, TV Boardman, February 1955 SCIENCE FICTION STORIES, Ed Tom Boardman, Octopus Books, 1979</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 9000

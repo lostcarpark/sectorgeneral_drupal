@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7d71eafa-3d8d-4923-b825-acdf5251cfdf
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mlo4282.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mlo4282.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 108786
+  status:
+    -
+      value: true

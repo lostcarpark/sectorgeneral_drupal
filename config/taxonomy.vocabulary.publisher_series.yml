@@ -1,0 +1,9 @@
+uuid: 2d01923b-3ba0-45ad-ac7b-31af642d4f5a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Publisher series'
+vid: publisher_series
+description: "Imprint lines such as the Corgi SF Collectors' Library."
+weight: 0
+new_revision: false

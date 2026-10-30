@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: dde40ac2-69dc-448b-8ef5-bf0509308f27
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fsfmar87.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/fsfmar87.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 136551
+  status:
+    -
+      value: true

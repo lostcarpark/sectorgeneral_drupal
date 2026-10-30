@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b47b50bd-c3eb-447c-9082-602d4cb5fff7
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Ernest Taves'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/ernest-taves
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

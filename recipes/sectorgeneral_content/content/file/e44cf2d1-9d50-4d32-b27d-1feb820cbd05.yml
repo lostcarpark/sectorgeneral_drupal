@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e44cf2d1-9d50-4d32-b27d-1feb820cbd05
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: joase1962both.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/joase1962both.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 143635
+  status:
+    -
+      value: true

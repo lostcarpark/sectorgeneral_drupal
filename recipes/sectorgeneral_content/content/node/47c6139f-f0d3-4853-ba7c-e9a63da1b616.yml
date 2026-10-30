@@ -1,0 +1,78 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 47c6139f-f0d3-4853-ba7c-e9a63da1b616
+  bundle: edition
+  default_langcode: en
+  depends:
+    bfe44666-13ab-4176-af3c-0b977a7e9b46: media
+    476c27c9-4cc1-4dae-8014-209aa9d3cfff: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    d230c1fd-533c-41e3-90d7-b3345a0fae62: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?1109388'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Hospital Station, Gateway / Orion, 2026'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/hospital-station-gateway-orion-2026
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: bfe44666-13ab-4176-af3c-0b977a7e9b46
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1109388 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '21 May 2026'
+  field_format:
+    -
+      entity: 476c27c9-4cc1-4dae-8014-209aa9d3cfff
+  field_isbn:
+    -
+      value: '9781399636230'
+  field_isfdb_id:
+    -
+      value: '1109388'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_price:
+    -
+      value: £4.99
+  field_publisher:
+    -
+      entity: d230c1fd-533c-41e3-90d7-b3345a0fae62
+  field_sort_date:
+    -
+      value: '2026-05-21'
+  field_year:
+    -
+      value: 2026

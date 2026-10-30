@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 2f123e94-14d5-4b72-9781-e2776ab2c3ee
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'David Langford'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/david-langford
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

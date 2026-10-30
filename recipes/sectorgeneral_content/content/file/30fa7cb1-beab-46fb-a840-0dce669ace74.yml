@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 30fa7cb1-beab-46fb-a840-0dce669ace74
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newwrdec1956.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/newwrdec1956.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 42107
+  status:
+    -
+      value: true

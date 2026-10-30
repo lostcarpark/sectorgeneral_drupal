@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 31f49081-a369-463f-b18d-7a164c3db5c4
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Lucien Le Piez'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/lucien-le-piez
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

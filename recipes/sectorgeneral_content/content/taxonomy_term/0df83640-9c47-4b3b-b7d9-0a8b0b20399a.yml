@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 0df83640-9c47-4b3b-b7d9-0a8b0b20399a
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Johanna Sinisalo'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/johanna-sinisalo
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,18 @@
+uuid: e4822db5-6e38-4e12-8c8c-12c9084a5394
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sectorgeneral_theme
+id: sectorgeneral_theme_page_title
+theme: sectorgeneral_theme
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: ''
+  label_display: '0'
+  provider: core
+visibility: {  }

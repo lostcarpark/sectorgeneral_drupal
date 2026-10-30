@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c15d65db-8d32-40ef-8841-e797c0c1452b
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    566e8978-cca7-4e12-afa0-53eb6643b15d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Genocidal Healer, SFBC, 1992 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 92bc6ecb4828f1a73b8d1aaad55370773a5e0709
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Genocidal Healer: Book Club Edition'
+      title: ''
+      width: 100
+      height: 149
+      entity: 566e8978-cca7-4e12-afa0-53eb6643b15d

@@ -1,0 +1,96 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: bb9900f9-ced8-4434-bdea-6158df105601
+  bundle: edition
+  default_langcode: en
+  depends:
+    228ff5ad-e9fc-494e-9fd6-c4dcd57b73ec: media
+    cd4f17ef-984c-4d7a-bf1e-8e66108ae032: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    4684e80b-b2ce-4e86-a094-7e0e0960eed2: node
+    2489534c-0801-43c6-89f5-eb25fb1d11ea: taxonomy_term
+    05569ae9-c23c-4dc3-9e2d-177677c7c0b8: taxonomy_term
+    2a2a2898-1fb3-436e-8a3a-caa24258df6e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?498278'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Minuszeit, Moewig, 1983'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/tomorrow-too-far/minuszeit-moewig-1983
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 228ff5ad-e9fc-494e-9fd6-c4dcd57b73ec
+  field_cover_artist:
+    -
+      entity: cd4f17ef-984c-4d7a-bf1e-8e66108ae032
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?498278 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'June 1983'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '498278'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 4684e80b-b2ce-4e86-a094-7e0e0960eed2
+  field_pages:
+    -
+      value: 160
+  field_price:
+    -
+      value: 'DM 5.80'
+  field_publisher:
+    -
+      entity: 2489534c-0801-43c6-89f5-eb25fb1d11ea
+  field_publisher_reference:
+    -
+      value: UC54
+  field_publisher_series:
+    -
+      entity: 05569ae9-c23c-4dc3-9e2d-177677c7c0b8
+  field_publisher_series_number:
+    -
+      value: '54'
+  field_sort_date:
+    -
+      value: '1983-06-01'
+  field_translator:
+    -
+      entity: 2a2a2898-1fb3-436e-8a3a-caa24258df6e
+  field_year:
+    -
+      value: 1983

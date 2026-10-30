@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 028e0341-e182-49d1-87ad-76cd155448d9
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: new-sf-12.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/new-sf-12.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4820
+  status:
+    -
+      value: true

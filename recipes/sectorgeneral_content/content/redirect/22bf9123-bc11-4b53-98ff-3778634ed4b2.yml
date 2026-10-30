@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 22bf9123-bc11-4b53-98ff-3778634ed4b2
+  bundle: redirect
+  default_langcode: und
+  depends:
+    b04ef842-1d51-49f0-bcc3-39c8bcab1fed: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: rrL2md9wUdIEriIIvAa_wNeHMft7AOvkd7wAuYSjW4A
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/apprentice.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: b04ef842-1d51-49f0-bcc3-39c8bcab1fed
+  status_code:
+    -
+      value: 301

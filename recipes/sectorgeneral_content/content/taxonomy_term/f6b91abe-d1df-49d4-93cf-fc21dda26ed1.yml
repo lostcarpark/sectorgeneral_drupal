@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: f6b91abe-d1df-49d4-93cf-fc21dda26ed1
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'J. T. McIntosh'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/j-t-mcintosh
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

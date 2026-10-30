@@ -1,0 +1,75 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  bundle: novel
+  default_langcode: en
+  depends:
+    d4ec26a4-75bc-4343-92e0-6317b2d6c814: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 180, similarity 0.96).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'All Judgement Fled'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/all-judgement-fled
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>The title was derived from Shakespeare&#039;s &quot;O, judgment! thou art fled to brutish beasts,/And men have lost their reason&quot; (Julius Caesar). But whose judgment? Who are the brutish beasts? And has reason really been lost, or simply misplaced? In the near future, a gigantic alien vessel known only as The Ship appears twelve million miles beyond the orbit of Mars. Six Earthmen in two spacecraft are sent to investigate this Big Indifferent Object, which is filled with hull-to-hull aliens of variant species. But, given the fraught situation and language difficulties, how can they separate crew members from passengers -- or worse? &quot;What we have here is a failure of communication&quot; (Paul Newman, in Cool Hand Luke).</p>'
+      format: basic_html
+      summary: 'Six astronauts are sent out to investigate an apparently derelict space ship. Upon entry to the spaceship the nightmare begins as they uncover a labyrinthine world filled with horror.'
+  field_alternative_titles:
+    -
+      value: 'All Judgment Fled (Part 1 of 3)'
+    -
+      value: 'All Judgment Fled (Part 2 of 3)'
+    -
+      value: 'All Judgment Fled (Part 3 of 3)'
+    -
+      value: 'All Judgement Fled'
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: d4ec26a4-75bc-4343-92e0-6317b2d6c814
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4242 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1968
+  field_isfdb_id:
+    -
+      value: '4242'
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 64500

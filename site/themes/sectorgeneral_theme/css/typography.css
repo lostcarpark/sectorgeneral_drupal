@@ -1,0 +1,52 @@
+/**
+ * @file
+ * Headings within page content.
+ *
+ * The base theme's sizes (h2 2.25rem) are close to the 2.5rem page title in
+ * the banner, so section headings competed with it. In content each level
+ * steps down further, with h2 about two-thirds of the title.
+ */
+
+.layout-content h1 {
+  font-size: 2rem;
+}
+
+.layout-content h2 {
+  margin-block: 2rem 0.75rem;
+  font-size: 1.625rem;
+}
+
+.layout-content h3 {
+  margin-block: 1.5rem 0.5rem;
+  font-size: 1.3125rem;
+}
+
+.layout-content h4 {
+  font-size: 1.125rem;
+}
+
+.layout-content h5 {
+  font-size: 1rem;
+}
+
+.layout-content h6 {
+  font-size: 0.9375rem;
+}
+
+@media (max-width: 48rem) {
+  .layout-content h1 {
+    font-size: 1.75rem;
+  }
+
+  .layout-content h2 {
+    font-size: 1.4375rem;
+  }
+
+  .layout-content h3 {
+    font-size: 1.1875rem;
+  }
+
+  .layout-content h4 {
+    font-size: 1.0625rem;
+  }
+}

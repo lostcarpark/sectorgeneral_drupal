@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c9da80f5-2cfe-4b6f-9a79-59d1ba7c3870
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    47ff2c4f-6155-4a1f-bfec-948cfd725f65: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Star Surgeon, Ballantine, 1968 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: ffdb248dfe77f784ccab6ae207e72deef740feb7
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/b/be/STRSRGNEE1968.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Star Surgeon, Ballantine, 1968 cover'
+      title: ''
+      width: 372
+      height: 640
+      entity: 47ff2c4f-6155-4a1f-bfec-948cfd725f65
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?32119'
+      title: null
+      options: {  }

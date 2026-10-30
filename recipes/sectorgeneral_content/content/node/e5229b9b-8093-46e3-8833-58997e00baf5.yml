@@ -1,0 +1,114 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e5229b9b-8093-46e3-8833-58997e00baf5
+  bundle: anthology
+  default_langcode: en
+  depends:
+    5786eb34-83c5-4eae-8125-0c0949615759: node
+    3a489ffa-3e43-41e4-9529-ff11182411c7: media
+    9be5cd51-54f5-4835-8aa6-8459349ae07a: taxonomy_term
+    bedc199f-cef0-4b30-9081-69275cc8e644: taxonomy_term
+    a4faf6ef-69d9-45b6-9259-1a8f1aa0b172: taxonomy_term
+    fa5e6b46-fd0f-4707-8479-f12ef1c5f614: taxonomy_term
+    436efbe6-af7b-4688-b621-81666ceaf732: taxonomy_term
+    f628b78f-67b3-4ba9-9be7-9347b6e06364: taxonomy_term
+    4d565092-f148-4b8f-8093-5be0d5d07faf: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    014399ab-eb12-46c4-bb86-24a6b218b4cf: taxonomy_term
+    dad8c6a2-6bca-4446-8644-1b3b06999c09: taxonomy_term
+    dd236beb-c134-4b7c-85a3-7671ccaeecaa: taxonomy_term
+    02190469-bf71-44f0-8e46-ccfac7683ae7: taxonomy_term
+    290c11ec-faef-4497-bf61-1b967a7bce4a: taxonomy_term
+    c0203d18-7090-428a-998b-e3614a84d77d: taxonomy_term
+    497c89ea-21ec-4b55-ac1b-e7c9dc5c66b9: taxonomy_term
+    0fc0637d-f524-4bf9-a5cb-64be66c6edde: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?261128'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Combat SF'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/combat-sf
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Ace Books, New York, June 1981.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 5786eb34-83c5-4eae-8125-0c0949615759
+  field_cover:
+    -
+      entity: 3a489ffa-3e43-41e4-9529-ff11182411c7
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?35756 (CC BY 4.0).
+  field_editor:
+    -
+      entity: 9be5cd51-54f5-4835-8aa6-8459349ae07a
+  field_first_published_year:
+    -
+      value: 1981
+  field_isfdb_id:
+    -
+      value: '35756'
+  field_other_contributors:
+    -
+      entity: bedc199f-cef0-4b30-9081-69275cc8e644
+    -
+      entity: a4faf6ef-69d9-45b6-9259-1a8f1aa0b172
+    -
+      entity: fa5e6b46-fd0f-4707-8479-f12ef1c5f614
+    -
+      entity: 436efbe6-af7b-4688-b621-81666ceaf732
+    -
+      entity: f628b78f-67b3-4ba9-9be7-9347b6e06364
+    -
+      entity: 4d565092-f148-4b8f-8093-5be0d5d07faf
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: 014399ab-eb12-46c4-bb86-24a6b218b4cf
+    -
+      entity: dad8c6a2-6bca-4446-8644-1b3b06999c09
+    -
+      entity: dd236beb-c134-4b7c-85a3-7671ccaeecaa
+    -
+      entity: 02190469-bf71-44f0-8e46-ccfac7683ae7
+    -
+      entity: 290c11ec-faef-4497-bf61-1b967a7bce4a
+    -
+      entity: c0203d18-7090-428a-998b-e3614a84d77d
+    -
+      entity: 9be5cd51-54f5-4835-8aa6-8459349ae07a
+    -
+      entity: 497c89ea-21ec-4b55-ac1b-e7c9dc5c66b9
+  field_publisher:
+    -
+      entity: 0fc0637d-f524-4bf9-a5cb-64be66c6edde

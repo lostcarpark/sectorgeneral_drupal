@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 40f89ac3-7ec1-432d-9efb-2f254027508f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thbsshsff61977.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thbsshsff61977.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 85497
+  status:
+    -
+      value: true

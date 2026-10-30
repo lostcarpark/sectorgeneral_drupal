@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 08e09c37-5bca-40c7-b570-043cd4d9c588
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Dave Hardy'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/dave-hardy
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

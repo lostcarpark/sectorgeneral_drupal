@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: dad8c6a2-6bca-4446-8644-1b3b06999c09
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Gene Wolfe'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/gene-wolfe
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

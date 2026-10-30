@@ -1,0 +1,24 @@
+uuid: ef96c35a-5491-4659-b008-4768d4eeabca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cover
+    - media.type.cover_image
+    - node.type.magazine_issue
+id: node.magazine_issue.field_cover
+field_name: field_cover
+entity_type: node
+bundle: magazine_issue
+label: Cover
+description: 'Choose an existing cover from the library or upload a new one.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      cover_image: cover_image
+field_type: entity_reference

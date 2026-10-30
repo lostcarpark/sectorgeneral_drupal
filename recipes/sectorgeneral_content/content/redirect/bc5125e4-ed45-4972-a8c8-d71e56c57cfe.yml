@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: bc5125e4-ed45-4972-a8c8-d71e56c57cfe
+  bundle: redirect
+  default_langcode: und
+  depends:
+    0fc350d1-fc4b-4f0e-97fe-d0cf4450b272: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: r5n0B7dG5AqVGjZ3EA4uCnOfGa68t7olIJPRQj-rwZg
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/accident.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 0fc350d1-fc4b-4f0e-97fe-d0cf4450b272
+  status_code:
+    -
+      value: 301

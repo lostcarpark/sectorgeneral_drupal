@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b98b9b6d-e9e3-4e7a-afdf-3977e2201426
+  bundle: edition
+  default_langcode: en
+  depends:
+    27b067d3-adf5-418d-83e9-51d4fddf7855: taxonomy_term
+    076cb8ba-ada5-4880-8874-aee68d7e662d: node
+    cb120832-d802-4b60-83f3-dd81e5bc4f09: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Imported from the original James White Information site.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Watch Below, Hayakawa Publishing, 1983'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/watch-below/watch-below-hayakawa-publishing-1983
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'James White Information (original site): “Hayakawa Publishing Inc,Tokyo, 1983”'
+  field_date_display:
+    -
+      value: '1983'
+  field_language:
+    -
+      entity: 27b067d3-adf5-418d-83e9-51d4fddf7855
+  field_novel:
+    -
+      entity: 076cb8ba-ada5-4880-8874-aee68d7e662d
+  field_publisher:
+    -
+      entity: cb120832-d802-4b60-83f3-dd81e5bc4f09
+  field_sort_date:
+    -
+      value: '1983-01-01'
+  field_year:
+    -
+      value: 1983

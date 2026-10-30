@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: afefc743-e7df-4e9c-8a54-207593670935
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    e4e707c4-a35b-425a-952b-1360b4f69cdf: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Galaxy, January 1974 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: dd271825e32696985a095074d40e9174a534b5af
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Galaxy, January 1974 cover'
+      title: ''
+      width: 100
+      height: 150
+      entity: e4e707c4-a35b-425a-952b-1360b4f69cdf

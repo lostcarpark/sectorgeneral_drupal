@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 0c3cd2b6-fdd5-43e4-a200-78ef384a33e1
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    0261ef70-8528-4bf7-8300-f1662e7ae923: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Hospital Station, Heyne Verlag, 1993 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: a11803220086c414c97fd42b31bd034dce27cc0c
+  field_media_image:
+    -
+      alt: 'Hospital Station, Heyne Verlag, 1993'
+      title: ''
+      width: 321
+      height: 500
+      entity: 0261ef70-8528-4bf7-8300-f1662e7ae923

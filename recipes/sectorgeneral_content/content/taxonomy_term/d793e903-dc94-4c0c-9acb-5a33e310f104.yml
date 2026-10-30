@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d793e903-dc94-4c0c-9acb-5a33e310f104
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Richard Matheson'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/richard-matheson
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

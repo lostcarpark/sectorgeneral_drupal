@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 40d3e4ac-5ab6-4c39-a0f2-111783458820
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hpnjnmpqhb1958.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/hpnjnmpqhb1958.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 44481
+  status:
+    -
+      value: true

@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: faec9164-3eb1-4408-8e68-372285338816
+  bundle: novel
+  default_langcode: en
+  depends:
+    987abfa5-a4cd-49af-be6c-5f3280c6d956: media
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 240, similarity 0.92).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Galactic Gourmet'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/galactic-gourmet
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>After the main course of Genocidal Healer came the pineapple chunks of Galactic Gourmet. Gurransevas, Tralthan FGLI master chef, takes on &quot;the greatest challenge of his professional life: making hospital food palatable&quot; (blurb). He starts by throwing his mighty Tralthan weight about, but hubris is finally clobbered by nemesis -- in the best possible taste, of course. White&#039;s ability to avoid the black-and-white characterization that marked, or marred, most &#039;traditional&#039; sf pulp writing is well showcased here. As Harry Harrison once said (possibly at the bar of Dublin&#039;s old-time Parliament Inn): &quot;You could always tell who the hero was by his white space helmet.&quot; A white chef&#039;s hat doesn&#039;t really count, or does it?</p>'
+      format: basic_html
+      summary: "This Sector General book tells the story of a gourmet chef, who eventually becomes the hospital's chief dietician, but not before some hilarious errors."
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: 987abfa5-a4cd-49af-be6c-5f3280c6d956
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?5766 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1996
+  field_isfdb_id:
+    -
+      value: '5766'
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_series_number:
+    -
+      value: 9
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 90000

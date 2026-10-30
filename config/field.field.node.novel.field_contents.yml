@@ -1,0 +1,24 @@
+uuid: 6a4f3e46-2c00-4fc7-ad04-bd336a072da6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contents
+    - node.type.novel
+    - node.type.short_story
+id: node.novel.field_contents
+field_name: field_contents
+entity_type: node
+bundle: novel
+label: Contents
+description: "Stories in this volume, in order. Drag to reorder. Each story's page lists where it appeared automatically."
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      short_story: short_story
+field_type: entity_reference

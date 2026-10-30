@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 70cec29f-79b9-4abf-9833-ee1f8cae6999
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: the-secret-visitors-ace-double.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/the-secret-visitors-ace-double.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 40826
+  status:
+    -
+      value: true

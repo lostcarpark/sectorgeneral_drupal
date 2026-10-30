@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2c55abfc-e05a-4788-9793-71022c0de564
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 410-nezj21l.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/410-nezj21l.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 30014
+  status:
+    -
+      value: true

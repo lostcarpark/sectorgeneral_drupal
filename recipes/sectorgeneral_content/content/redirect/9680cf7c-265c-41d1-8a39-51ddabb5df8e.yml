@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 9680cf7c-265c-41d1-8a39-51ddabb5df8e
+  bundle: redirect
+  default_langcode: und
+  depends:
+    56cef02b-2a63-4db1-93af-a8e8a86059f3: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 6awm2DVA1gRLCjo3KlAuSRwgQ7n47jjWwI2OzAydSx4
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/typegenie.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 56cef02b-2a63-4db1-93af-a8e8a86059f3
+  status_code:
+    -
+      value: 301

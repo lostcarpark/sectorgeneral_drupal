@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b43d2e0a-2c8b-406e-b4b2-5f29f70321ba
+  bundle: edition
+  default_langcode: en
+  depends:
+    bea8fd54-d50d-470c-94f3-6b2966a8cdf7: media
+    1275b65b-0544-4918-a6f8-3476ee99a45a: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    2f123e94-14d5-4b72-9781-e2776ab2c3ee: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    8bdbbc29-9006-4e7e-be08-908c6ec36789: node
+    a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1: node
+    88796287-685a-48a2-b1cd-1c435ba27f09: node
+    62862122-c514-4f24-8c75-e5e6741745f4: node
+    6f3fa5f6-86dd-4b27-9700-c634c13d7875: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1995 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Alien Emergencies, Orb, 2002'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/alien-emergencies/alien-emergencies-orb-2002
+      langcode: en
+      pathauto: 1
+  field_buy_links:
+    -
+      uri: 'http://www.amazon.com/exec/obidos/ASIN/0312877706/sectorgeneral-20'
+      title: 'US Buyers Paperback Edition'
+      options: {  }
+    -
+      uri: 'http://www.amazon.co.uk/exec/obidos/ASIN/0312877706/sectorgeneral-21'
+      title: 'UK Buyers Paperback Edition'
+      options: {  }
+  field_cover:
+    -
+      entity: bea8fd54-d50d-470c-94f3-6b2966a8cdf7
+  field_cover_artist:
+    -
+      entity: 1275b65b-0544-4918-a6f8-3476ee99a45a
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Orb (Tor Books); ISBN: 0312877706; Paperback - 608 pages (April 2002).”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1995 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL3955692M (CC0).
+  field_date_display:
+    -
+      value: 'April 2002'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_introduction_by:
+    -
+      entity: 2f123e94-14d5-4b72-9781-e2776ab2c3ee
+  field_isbn:
+    -
+      value: '9780312877705'
+  field_isfdb_id:
+    -
+      value: '1995'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 8bdbbc29-9006-4e7e-be08-908c6ec36789
+    -
+      entity: a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1
+    -
+      entity: 88796287-685a-48a2-b1cd-1c435ba27f09
+    -
+      entity: 62862122-c514-4f24-8c75-e5e6741745f4
+  field_oclc:
+    -
+      value: '48451019'
+  field_openlibrary_id:
+    -
+      value: OL3955692M
+  field_pages:
+    -
+      value: 608
+  field_price:
+    -
+      value: $19.95
+  field_publisher:
+    -
+      entity: 6f3fa5f6-86dd-4b27-9700-c634c13d7875
+  field_sort_date:
+    -
+      value: '2002-04-01'
+  field_year:
+    -
+      value: 2002

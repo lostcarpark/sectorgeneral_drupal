@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3f04f85a-4536-4650-b93d-e9cd888d841e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thwtchblwk1972.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thwtchblwk1972.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 58925
+  status:
+    -
+      value: true

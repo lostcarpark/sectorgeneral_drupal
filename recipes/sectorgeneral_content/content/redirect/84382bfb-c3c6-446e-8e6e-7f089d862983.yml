@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 84382bfb-c3c6-446e-8e6e-7f089d862983
+  bundle: redirect
+  default_langcode: und
+  depends:
+    a50b4cf2-1bd0-42ff-845f-3d30a5fc9882: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 8p1E87lTpIwoozHvClRZRgTNRg_mHnoMBfAVmhvOUrs
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/new-writings-sf-1973
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: a50b4cf2-1bd0-42ff-845f-3d30a5fc9882
+  status_code:
+    -
+      value: 301

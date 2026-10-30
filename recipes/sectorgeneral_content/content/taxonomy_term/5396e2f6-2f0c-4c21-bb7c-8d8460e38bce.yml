@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 5396e2f6-2f0c-4c21-bb7c-8d8460e38bce
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Ed M. Clinton, Jr.'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/ed-m-clinton-jr
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

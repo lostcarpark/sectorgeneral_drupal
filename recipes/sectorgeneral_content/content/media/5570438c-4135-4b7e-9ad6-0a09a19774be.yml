@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 5570438c-4135-4b7e-9ad6-0a09a19774be
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    37addd15-9533-4007-930c-86b064254c6b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Writings in SF 22 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 4a1fa74aaec013b87362296124f17a9926e88698
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/5/5d/NWWRTSF221973.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'New Writings in SF 22 cover'
+      title: ''
+      width: 300
+      height: 451
+      entity: 37addd15-9533-4007-930c-86b064254c6b
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?23817'
+      title: null
+      options: {  }

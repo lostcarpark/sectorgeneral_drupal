@@ -1,0 +1,111 @@
+uuid: 90770a7a-b966-4554-b000-fa212551baeb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.edition.body
+    - field.field.node.edition.field_buy_links
+    - field.field.node.edition.field_cover
+    - field.field.node.edition.field_cover_artist
+    - field.field.node.edition.field_data_sources
+    - field.field.node.edition.field_date_display
+    - field.field.node.edition.field_format
+    - field.field.node.edition.field_in_anthology
+    - field.field.node.edition.field_interior_artist
+    - field.field.node.edition.field_introduction_by
+    - field.field.node.edition.field_isbn
+    - field.field.node.edition.field_isfdb_id
+    - field.field.node.edition.field_language
+    - field.field.node.edition.field_narrator
+    - field.field.node.edition.field_novel
+    - field.field.node.edition.field_oclc
+    - field.field.node.edition.field_openlibrary_id
+    - field.field.node.edition.field_pages
+    - field.field.node.edition.field_price
+    - field.field.node.edition.field_printing
+    - field.field.node.edition.field_publication_date
+    - field.field.node.edition.field_publisher
+    - field.field.node.edition.field_publisher_reference
+    - field.field.node.edition.field_publisher_series
+    - field.field.node.edition.field_publisher_series_number
+    - field.field.node.edition.field_sort_date
+    - field.field.node.edition.field_translator
+    - field.field.node.edition.field_verified
+    - field.field.node.edition.field_verified_note
+    - field.field.node.edition.field_year
+    - node.type.edition
+  module:
+    - user
+id: node.edition.teaser
+targetEntityType: node
+bundle: edition
+mode: teaser
+content:
+  field_cover:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: cover_small
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_date_display:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+      link_rel: canonical
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_language:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_publisher:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  edition_nav: true
+  field_buy_links: true
+  field_cover_artist: true
+  field_data_sources: true
+  field_format: true
+  field_in_anthology: true
+  field_interior_artist: true
+  field_introduction_by: true
+  field_isbn: true
+  field_isfdb_id: true
+  field_narrator: true
+  field_novel: true
+  field_oclc: true
+  field_openlibrary_id: true
+  field_pages: true
+  field_price: true
+  field_printing: true
+  field_publication_date: true
+  field_publisher_reference: true
+  field_publisher_series: true
+  field_publisher_series_number: true
+  field_sort_date: true
+  field_translator: true
+  field_verified: true
+  field_verified_note: true
+  field_year: true

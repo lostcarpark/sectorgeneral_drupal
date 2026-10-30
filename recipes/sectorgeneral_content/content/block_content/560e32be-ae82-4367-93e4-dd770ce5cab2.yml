@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 560e32be-ae82-4367-93e4-dd770ce5cab2
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Banner image credit'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<p class="banner-credit">Banner image: <a href="https://esahubble.org/images/heic1104a/">Flocculent spiral NGC 2841</a> (cropped). Credit: NASA, ESA and the Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration. Acknowledgment: M. Crockett and S. Kaviraj (Oxford University, UK), R. O''Connell (University of Virginia), B. Whitmore (STScI) and the WFC3 Scientific Oversight Committee. <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>'
+      format: basic_html
+      summary: ''

@@ -1,0 +1,17 @@
+uuid: 13aaffbb-7ea5-462b-a5a4-7297576784a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.card
+    - taxonomy.vocabulary.language
+id: taxonomy_term.language.card
+targetEntityType: taxonomy_term
+bundle: language
+mode: card
+content: {  }
+hidden:
+  description: true
+  language_publications_editions: true
+  language_publications_issues: true
+  language_summary: true

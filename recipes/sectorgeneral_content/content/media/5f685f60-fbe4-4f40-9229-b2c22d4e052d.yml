@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 5f685f60-fbe4-4f40-9229-b2c22d4e052d
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    03949fec-a5f8-49b8-a798-d8e231a678ab: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Writings in SF 18 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 006d0cf0f41690745341fd50605e956e617c06e6
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'New Writings in SF 18 cover'
+      title: ''
+      width: 100
+      height: 164
+      entity: 03949fec-a5f8-49b8-a798-d8e231a678ab

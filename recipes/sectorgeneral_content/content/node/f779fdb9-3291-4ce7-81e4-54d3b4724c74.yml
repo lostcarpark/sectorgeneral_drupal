@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f779fdb9-3291-4ce7-81e4-54d3b4724c74
+  bundle: edition
+  default_langcode: en
+  depends:
+    7c2dcf61-ace2-4faf-8c31-1f08e42d1546: media
+    2ea7f198-8285-4883-b0f8-67628c811f1d: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    9ad11926-1d13-43d0-9a9b-8999c5526437: taxonomy_term
+    e589a2a6-18d0-4ba7-b487-6f9e1e8eba0c: taxonomy_term
+    a9ab5940-0b20-48cf-b9fb-da0c8a912d9f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Polish National Library: https://data.bn.org.pl/api/institutions/bibs.json?id=1184384'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Szpital Kosmiczny, Wydawnictwa Alfa, 1987'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/szpital-kosmiczny-wydawnictwa-alfa-1987
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 7c2dcf61-ace2-4faf-8c31-1f08e42d1546
+  field_data_sources:
+    -
+      value: "James White Information (original site): “Wydawnictwa ALFA, Warsaw, Cena zL 250, 1987 as Szpital Kosmiczny”\r\nBiblioteka Narodowa record https://data.bn.org.pl/api/institutions/bibs.json?id=1184384 (CC0)."
+  field_date_display:
+    -
+      value: '1987'
+  field_isbn:
+    -
+      value: '9788370011178'
+  field_language:
+    -
+      entity: 2ea7f198-8285-4883-b0f8-67628c811f1d
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_pages:
+    -
+      value: 268
+  field_price:
+    -
+      value: 'Cena zL 250'
+  field_publisher:
+    -
+      entity: 9ad11926-1d13-43d0-9a9b-8999c5526437
+  field_publisher_series:
+    -
+      entity: e589a2a6-18d0-4ba7-b487-6f9e1e8eba0c
+  field_publisher_series_number:
+    -
+      value: '7'
+  field_sort_date:
+    -
+      value: '1987-01-01'
+  field_translator:
+    -
+      entity: a9ab5940-0b20-48cf-b9fb-da0c8a912d9f
+  field_verified:
+    -
+      value: false
+  field_year:
+    -
+      value: 1987

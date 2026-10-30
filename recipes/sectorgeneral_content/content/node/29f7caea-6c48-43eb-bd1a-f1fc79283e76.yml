@@ -1,0 +1,106 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 29f7caea-6c48-43eb-bd1a-f1fc79283e76
+  bundle: edition
+  default_langcode: en
+  depends:
+    bea8fd54-d50d-470c-94f3-6b2966a8cdf7: media
+    1275b65b-0544-4918-a6f8-3476ee99a45a: taxonomy_term
+    476c27c9-4cc1-4dae-8014-209aa9d3cfff: taxonomy_term
+    2f123e94-14d5-4b72-9781-e2776ab2c3ee: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    8bdbbc29-9006-4e7e-be08-908c6ec36789: node
+    a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1: node
+    88796287-685a-48a2-b1cd-1c435ba27f09: node
+    62862122-c514-4f24-8c75-e5e6741745f4: node
+    6f3fa5f6-86dd-4b27-9700-c634c13d7875: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?651935 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Alien Emergencies, Orb, 2010'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/alien-emergencies/alien-emergencies-orb-2010
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: bea8fd54-d50d-470c-94f3-6b2966a8cdf7
+  field_cover_artist:
+    -
+      entity: 1275b65b-0544-4918-a6f8-3476ee99a45a
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?651935 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL29590270M (CC0).
+  field_date_display:
+    -
+      value: '1 April 2010'
+  field_format:
+    -
+      entity: 476c27c9-4cc1-4dae-8014-209aa9d3cfff
+  field_introduction_by:
+    -
+      entity: 2f123e94-14d5-4b72-9781-e2776ab2c3ee
+  field_isbn:
+    -
+      value: '9781429982283'
+  field_isfdb_id:
+    -
+      value: '651935'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 8bdbbc29-9006-4e7e-be08-908c6ec36789
+    -
+      entity: a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1
+    -
+      entity: 88796287-685a-48a2-b1cd-1c435ba27f09
+    -
+      entity: 62862122-c514-4f24-8c75-e5e6741745f4
+  field_oclc:
+    -
+      value: '865173332'
+  field_openlibrary_id:
+    -
+      value: OL29590270M
+  field_pages:
+    -
+      value: 540
+  field_price:
+    -
+      value: $7.99
+  field_publisher:
+    -
+      entity: 6f3fa5f6-86dd-4b27-9700-c634c13d7875
+  field_sort_date:
+    -
+      value: '2010-04-01'
+  field_year:
+    -
+      value: 2010

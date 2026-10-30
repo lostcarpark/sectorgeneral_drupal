@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ba9e0c2b-cc7b-4236-a1c5-18f055adb783
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    388effb1-372e-4213-aa1e-20b4a8da3452: node
+    dd71735f-7120-4b76-97bb-fd4d46844fde: media
+    35eec003-9187-4982-9b46-df0a387dae23: taxonomy_term
+    98198ea5-db97-409a-92f0-7f61cee9333f: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    8955183c-a352-45ff-a1b6-fd17a84b825a: taxonomy_term
+    b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd: taxonomy_term
+    51901fc6-206c-4637-8b41-b0685c9e81d5: taxonomy_term
+    631dbc1f-2d4f-4438-9ee4-3b4f9a26ee8d: taxonomy_term
+    4dbd9228-e563-4265-8d27-f489bc19c9af: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?430659 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Magazine of Fantasy & Science Fiction, January 1964 (UK edition)'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/magazine-fantasy-science-fiction/magazine-fantasy-science-fiction-january-1964-uk-edition
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 388effb1-372e-4213-aa1e-20b4a8da3452
+  field_cover:
+    -
+      entity: dd71735f-7120-4b76-97bb-fd4d46844fde
+  field_cover_artist:
+    -
+      entity: 35eec003-9187-4982-9b46-df0a387dae23
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?430659 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'January 1964'
+  field_editor:
+    -
+      entity: 98198ea5-db97-409a-92f0-7f61cee9333f
+  field_isfdb_id:
+    -
+      value: '430659'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 8955183c-a352-45ff-a1b6-fd17a84b825a
+  field_other_contributors:
+    -
+      entity: b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd
+    -
+      entity: 51901fc6-206c-4637-8b41-b0685c9e81d5
+    -
+      entity: 631dbc1f-2d4f-4438-9ee4-3b4f9a26ee8d
+    -
+      entity: 4dbd9228-e563-4265-8d27-f489bc19c9af
+  field_pages:
+    -
+      value: 112
+  field_price:
+    -
+      value: 2/6
+  field_regional_edition:
+    -
+      value: 'UK edition'
+  field_sort_date:
+    -
+      value: '1964-01-01'
+  field_year:
+    -
+      value: 1964

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b9642ab3-51a1-431e-be29-a239db37037d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sctrgnrl251983.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/sctrgnrl251983.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 119618
+  status:
+    -
+      value: true

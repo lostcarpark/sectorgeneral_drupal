@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 35de36fd-0269-4ba3-b6c8-ff57be76985f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ssfrnrmdnq1977.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/ssfrnrmdnq1977.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 23540
+  status:
+    -
+      value: true

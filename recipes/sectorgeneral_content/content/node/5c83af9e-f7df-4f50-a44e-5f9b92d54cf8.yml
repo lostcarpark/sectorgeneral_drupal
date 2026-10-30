@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5c83af9e-f7df-4f50-a44e-5f9b92d54cf8
+  bundle: edition
+  default_langcode: en
+  depends:
+    12ad99a2-495d-4a12-a242-5e235375e7fd: media
+    98198ea5-db97-409a-92f0-7f61cee9333f: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    cb57b576-bba0-4654-976b-ef9f8b91a06f: node
+    32dfb838-1b85-446d-8f00-f65cfd4d0785: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?152611 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Dream Millennium, Corgi, 1976'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/dream-millennium/dream-millennium-corgi-1976
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 12ad99a2-495d-4a12-a242-5e235375e7fd
+  field_cover_artist:
+    -
+      entity: 98198ea5-db97-409a-92f0-7f61cee9333f
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Transworld/Corgi, London, No 0552-10062-5, 65p, June 1976”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?152611 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL24353833M (CC0).
+  field_date_display:
+    -
+      value: 'June 1976'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780552100625'
+  field_isfdb_id:
+    -
+      value: '152611'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: cb57b576-bba0-4654-976b-ef9f8b91a06f
+  field_oclc:
+    -
+      value: '16362468'
+  field_openlibrary_id:
+    -
+      value: OL24353833M
+  field_pages:
+    -
+      value: 222
+  field_price:
+    -
+      value: 65p
+  field_publisher:
+    -
+      entity: 32dfb838-1b85-446d-8f00-f65cfd4d0785
+  field_sort_date:
+    -
+      value: '1976-06-01'
+  field_year:
+    -
+      value: 1976

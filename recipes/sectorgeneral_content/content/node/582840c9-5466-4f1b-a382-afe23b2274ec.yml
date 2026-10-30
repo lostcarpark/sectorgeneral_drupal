@@ -1,0 +1,118 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 582840c9-5466-4f1b-a382-afe23b2274ec
+  bundle: anthology
+  default_langcode: en
+  depends:
+    4d139053-8f19-418c-a119-a1173e437ff9: node
+    21d8b359-7369-4b32-a083-2c8887457367: media
+    d8ad1c3d-4f9e-4290-9904-f73596c8783e: taxonomy_term
+    e613edcf-203e-48ff-8a70-3dc22f2becd4: taxonomy_term
+    0ace682b-7932-42e9-8884-e2a79cec29cb: taxonomy_term
+    290c11ec-faef-4497-bf61-1b967a7bce4a: taxonomy_term
+    a8a950c5-5e72-4aca-9b7f-53cafeb574af: taxonomy_term
+    0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea: taxonomy_term
+    430e4550-a5ab-4c05-80b1-fcfaa2210653: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+    86599c1b-e774-4e6f-b0a5-5e3a3d893bb1: taxonomy_term
+    cfb517de-c06d-4f4d-8605-cf711df41713: taxonomy_term
+    c19a9e24-e62a-4008-9c31-c3905ab80696: taxonomy_term
+    e88abba8-bce7-4828-a540-1b7d790a5f9c: taxonomy_term
+    6a823900-9a13-45e5-98e2-dfe4272c467e: taxonomy_term
+    24191f61-086f-4c44-99ce-62db4fab417b: taxonomy_term
+    b226aeaa-e71f-48e7-b1bb-540fe32b5459: taxonomy_term
+    8da39da9-d85f-406e-99bb-7ca45e41e264: taxonomy_term
+    3c530a9f-ea81-47e2-9345-a9d9c1ed5b37: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?36310 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Best of New Worlds'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/best-new-worlds-0
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Compact, November 1965.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 4d139053-8f19-418c-a119-a1173e437ff9
+  field_cover:
+    -
+      entity: 21d8b359-7369-4b32-a083-2c8887457367
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?36310 (CC BY 4.0).
+  field_editor:
+    -
+      entity: d8ad1c3d-4f9e-4290-9904-f73596c8783e
+  field_first_published_year:
+    -
+      value: 1965
+  field_isfdb_id:
+    -
+      value: '36310'
+  field_other_contributors:
+    -
+      entity: e613edcf-203e-48ff-8a70-3dc22f2becd4
+    -
+      entity: 0ace682b-7932-42e9-8884-e2a79cec29cb
+    -
+      entity: d8ad1c3d-4f9e-4290-9904-f73596c8783e
+    -
+      entity: 290c11ec-faef-4497-bf61-1b967a7bce4a
+    -
+      entity: a8a950c5-5e72-4aca-9b7f-53cafeb574af
+    -
+      entity: 0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea
+    -
+      entity: 430e4550-a5ab-4c05-80b1-fcfaa2210653
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+    -
+      entity: 86599c1b-e774-4e6f-b0a5-5e3a3d893bb1
+    -
+      entity: cfb517de-c06d-4f4d-8605-cf711df41713
+    -
+      entity: c19a9e24-e62a-4008-9c31-c3905ab80696
+    -
+      entity: e88abba8-bce7-4828-a540-1b7d790a5f9c
+    -
+      entity: 6a823900-9a13-45e5-98e2-dfe4272c467e
+    -
+      entity: 24191f61-086f-4c44-99ce-62db4fab417b
+    -
+      entity: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+  field_publisher:
+    -
+      entity: 8da39da9-d85f-406e-99bb-7ca45e41e264
+  field_series:
+    -
+      entity: 3c530a9f-ea81-47e2-9345-a9d9c1ed5b37

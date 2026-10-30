@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 039b655d-5943-452c-8638-55e1faf8295f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: silentstarsgobyballintine.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/silentstarsgobyballintine.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4465
+  status:
+    -
+      value: true

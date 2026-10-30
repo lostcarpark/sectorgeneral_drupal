@@ -1,0 +1,24 @@
+uuid: b50b2c62-ae60-42a5-a000-c7b0ce1e2028
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_novel
+    - node.type.edition
+    - node.type.novel
+id: node.edition.field_novel
+field_name: field_novel
+entity_type: node
+bundle: edition
+label: Book
+description: 'The book this is an edition of. Add more than one if the volume combines several books.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      novel: novel
+field_type: entity_reference

@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 625d7a33-4e04-413b-9084-67e58f4e6715
+  bundle: anthology
+  default_langcode: en
+  depends:
+    3ac249fd-3e13-4041-9802-b00ca1b9f21c: node
+    8d290f44-7ce0-4f69-b0cb-bbfd3d947a70: media
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    b356bb34-8da4-44b9-803e-23b82b1a8cd1: taxonomy_term
+    af91cef5-7e1f-4b15-9749-0604ee0dc1d0: taxonomy_term
+    3821e984-48db-4086-aab1-348018c3c0c6: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+    33733e5a-94b6-4e70-8235-a87c42379cd2: taxonomy_term
+    987d69ae-4621-4ce9-a413-3966e6e5a07c: taxonomy_term
+    f6b91abe-d1df-49d4-93cf-fc21dda26ed1: taxonomy_term
+    4be88567-cc89-4456-86c3-a63c5b74021a: taxonomy_term
+    856bd37f-cc37-4822-89b1-5460efb27f6a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?15121'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Gateway to the Stars'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/gateway-stars
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Museum Press, March 1955, Hardback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 3ac249fd-3e13-4041-9802-b00ca1b9f21c
+  field_cover:
+    -
+      entity: 8d290f44-7ce0-4f69-b0cb-bbfd3d947a70
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?36061 (CC BY 4.0).
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_first_published_year:
+    -
+      value: 1955
+  field_isfdb_id:
+    -
+      value: '36061'
+  field_other_contributors:
+    -
+      entity: b356bb34-8da4-44b9-803e-23b82b1a8cd1
+    -
+      entity: af91cef5-7e1f-4b15-9749-0604ee0dc1d0
+    -
+      entity: 3821e984-48db-4086-aab1-348018c3c0c6
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+    -
+      entity: 33733e5a-94b6-4e70-8235-a87c42379cd2
+    -
+      entity: 987d69ae-4621-4ce9-a413-3966e6e5a07c
+    -
+      entity: f6b91abe-d1df-49d4-93cf-fc21dda26ed1
+    -
+      entity: 4be88567-cc89-4456-86c3-a63c5b74021a
+  field_publisher:
+    -
+      entity: 856bd37f-cc37-4822-89b1-5460efb27f6a

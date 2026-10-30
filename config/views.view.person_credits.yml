@@ -1,0 +1,644 @@
+uuid: b019f1fd-3b90-4808-9fd9-89b9e30a8e01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cover
+    - field.storage.node.field_first_published_year
+    - field.storage.node.field_year
+    - taxonomy.vocabulary.people
+  module:
+    - datetime
+    - eva
+    - node
+    - user
+id: person_credits
+label: 'Person credits'
+module: views
+description: "Work by role, shown on each person's page."
+tag: ''
+base_table: node_field_data
+base_field: nid
+display:
+  default:
+    id: default
+    display_title: Default
+    display_plugin: default
+    position: 0
+    display_options:
+      fields:
+        view_node:
+          id: view_node
+          table: node
+          field: view_node
+          entity_type: node
+          plugin_id: entity_link
+          label: ''
+          exclude: true
+          text: ''
+          output_url_as_text: true
+          absolute: false
+        field_cover:
+          id: field_cover
+          table: node__field_cover
+          field: field_cover
+          plugin_id: field
+          label: ''
+          alter:
+            make_link: true
+            path: '{{ view_node }}'
+          element_label_colon: false
+          empty: '<span class="cover-thumb-placeholder"></span>'
+          type: entity_reference_entity_view
+          settings:
+            view_mode: cover_thumb
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+          label: Title
+          element_label_colon: false
+          type: string
+          settings:
+            link_to_entity: true
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          entity_type: node
+          entity_field: type
+          plugin_id: field
+          label: Type
+          element_label_colon: false
+          type: entity_reference_label
+          settings:
+            link: false
+        field_year:
+          id: field_year
+          table: node__field_year
+          field: field_year
+          plugin_id: field
+          label: Year
+          element_label_colon: false
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: false
+        field_first_published_year:
+          id: field_first_published_year
+          table: node__field_first_published_year
+          field: field_first_published_year
+          plugin_id: field
+          label: Year
+          element_label_colon: false
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: false
+      pager:
+        type: none
+        options:
+          offset: 0
+      exposed_form:
+        type: basic
+        options: {  }
+      access:
+        type: perm
+        options:
+          perm: 'access content'
+      cache:
+        type: tag
+        options: {  }
+      sorts:
+        field_year_value:
+          id: field_year_value
+          table: node__field_year
+          field: field_year_value
+          plugin_id: standard
+          order: ASC
+        field_first_published_year_value:
+          id: field_first_published_year_value
+          table: node__field_first_published_year
+          field: field_first_published_year_value
+          plugin_id: standard
+          order: ASC
+        field_sort_date_value:
+          id: field_sort_date_value
+          table: node__field_sort_date
+          field: field_sort_date_value
+          plugin_id: standard
+          order: ASC
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          plugin_id: standard
+          order: ASC
+      arguments:
+        field_cover_artist_target_id:
+          id: field_cover_artist_target_id
+          table: node__field_cover_artist
+          field: field_cover_artist_target_id
+          plugin_id: numeric
+          default_action: empty
+          specify_validation: true
+          validate:
+            type: 'entity:taxonomy_term'
+            fail: empty
+          validate_options:
+            bundles:
+              people: people
+            access: true
+            operation: view
+            multiple: 0
+      filters:
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: table
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          columns:
+            view_node: view_node
+            field_cover: field_cover
+            title: title
+            type: type
+            field_year: field_year
+            field_first_published_year: field_first_published_year
+          default: '-1'
+          info:
+            view_node:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            field_cover:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            title:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            type:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            field_year:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+            field_first_published_year:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: true
+              responsive: ''
+          override: true
+          sticky: false
+          summary: ''
+          empty_table: false
+          caption: ''
+          description: ''
+      row:
+        type: fields
+        options: {  }
+      query:
+        type: views_query
+        options: {  }
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cover'
+        - 'config:field.storage.node.field_first_published_year'
+        - 'config:field.storage.node.field_year'
+  anthology_contributors:
+    id: anthology_contributors
+    display_title: 'Appeared alongside James White in'
+    display_plugin: entity_view
+    position: 7
+    display_options:
+      title: 'Appeared alongside James White in'
+      arguments:
+        field_other_contributors_target_id:
+          id: field_other_contributors_target_id
+          table: node__field_other_contributors
+          field: field_other_contributors_target_id
+          plugin_id: entity_target_id
+          default_action: empty
+          specify_validation: true
+          validate:
+            type: 'entity:taxonomy_term'
+            fail: empty
+          validate_options:
+            bundles:
+              people: people
+            access: true
+            operation: view
+            multiple: 0
+          target_entity_type_id: taxonomy_term
+      defaults:
+        title: false
+        arguments: false
+        header: false
+      header:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          plugin_id: text_custom
+          empty: false
+          content: '<h2>Appeared alongside James White in</h2>'
+          tokenize: false
+      display_extenders: {  }
+      entity_type: taxonomy_term
+      bundles:
+        - people
+      show_title: false
+      argument_mode: id
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cover'
+        - 'config:field.storage.node.field_first_published_year'
+        - 'config:field.storage.node.field_year'
+  cover_artists:
+    id: cover_artists
+    display_title: 'Cover art'
+    display_plugin: entity_view
+    position: 1
+    display_options:
+      title: 'Cover art'
+      arguments:
+        field_cover_artist_target_id:
+          id: field_cover_artist_target_id
+          table: node__field_cover_artist
+          field: field_cover_artist_target_id
+          plugin_id: entity_target_id
+          default_action: empty
+          specify_validation: true
+          validate:
+            type: 'entity:taxonomy_term'
+            fail: empty
+          validate_options:
+            bundles:
+              people: people
+            access: true
+            operation: view
+            multiple: 0
+          target_entity_type_id: taxonomy_term
+      defaults:
+        title: false
+        arguments: false
+        header: false
+      header:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          plugin_id: text_custom
+          empty: false
+          content: '<h2>Cover art</h2>'
+          tokenize: false
+      display_extenders: {  }
+      entity_type: taxonomy_term
+      bundles:
+        - people
+      show_title: false
+      argument_mode: id
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cover'
+        - 'config:field.storage.node.field_first_published_year'
+        - 'config:field.storage.node.field_year'
+  editors:
+    id: editors
+    display_title: Edited
+    display_plugin: entity_view
+    position: 3
+    display_options:
+      title: Edited
+      arguments:
+        field_editor_target_id:
+          id: field_editor_target_id
+          table: node__field_editor
+          field: field_editor_target_id
+          plugin_id: entity_target_id
+          default_action: empty
+          specify_validation: true
+          validate:
+            type: 'entity:taxonomy_term'
+            fail: empty
+          validate_options:
+            bundles:
+              people: people
+            access: true
+            operation: view
+            multiple: 0
+          target_entity_type_id: taxonomy_term
+      defaults:
+        title: false
+        arguments: false
+        header: false
+      header:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          plugin_id: text_custom
+          empty: false
+          content: '<h2>Edited</h2>'
+          tokenize: false
+      display_extenders: {  }
+      entity_type: taxonomy_term
+      bundles:
+        - people
+      show_title: false
+      argument_mode: id
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cover'
+        - 'config:field.storage.node.field_first_published_year'
+        - 'config:field.storage.node.field_year'
+  interior_artists:
+    id: interior_artists
+    display_title: 'Interior art'
+    display_plugin: entity_view
+    position: 2
+    display_options:
+      title: 'Interior art'
+      arguments:
+        field_interior_artist_target_id:
+          id: field_interior_artist_target_id
+          table: node__field_interior_artist
+          field: field_interior_artist_target_id
+          plugin_id: entity_target_id
+          default_action: empty
+          specify_validation: true
+          validate:
+            type: 'entity:taxonomy_term'
+            fail: empty
+          validate_options:
+            bundles:
+              people: people
+            access: true
+            operation: view
+            multiple: 0
+          target_entity_type_id: taxonomy_term
+      defaults:
+        title: false
+        arguments: false
+        header: false
+      header:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          plugin_id: text_custom
+          empty: false
+          content: '<h2>Interior art</h2>'
+          tokenize: false
+      display_extenders: {  }
+      entity_type: taxonomy_term
+      bundles:
+        - people
+      show_title: false
+      argument_mode: id
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cover'
+        - 'config:field.storage.node.field_first_published_year'
+        - 'config:field.storage.node.field_year'
+  introductions:
+    id: introductions
+    display_title: Introductions
+    display_plugin: entity_view
+    position: 5
+    display_options:
+      title: Introductions
+      arguments:
+        field_introduction_by_target_id:
+          id: field_introduction_by_target_id
+          table: node__field_introduction_by
+          field: field_introduction_by_target_id
+          plugin_id: entity_target_id
+          default_action: empty
+          specify_validation: true
+          validate:
+            type: 'entity:taxonomy_term'
+            fail: empty
+          validate_options:
+            bundles:
+              people: people
+            access: true
+            operation: view
+            multiple: 0
+          target_entity_type_id: taxonomy_term
+      defaults:
+        title: false
+        arguments: false
+        header: false
+      header:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          plugin_id: text_custom
+          empty: false
+          content: '<h2>Introductions</h2>'
+          tokenize: false
+      display_extenders: {  }
+      entity_type: taxonomy_term
+      bundles:
+        - people
+      show_title: false
+      argument_mode: id
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cover'
+        - 'config:field.storage.node.field_first_published_year'
+        - 'config:field.storage.node.field_year'
+  narrators:
+    id: narrators
+    display_title: Narrated
+    display_plugin: entity_view
+    position: 6
+    display_options:
+      title: Narrated
+      arguments:
+        field_narrator_target_id:
+          id: field_narrator_target_id
+          table: node__field_narrator
+          field: field_narrator_target_id
+          plugin_id: entity_target_id
+          default_action: empty
+          specify_validation: true
+          validate:
+            type: 'entity:taxonomy_term'
+            fail: empty
+          validate_options:
+            bundles:
+              people: people
+            access: true
+            operation: view
+            multiple: 0
+          target_entity_type_id: taxonomy_term
+      defaults:
+        title: false
+        arguments: false
+        header: false
+      header:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          plugin_id: text_custom
+          empty: false
+          content: '<h2>Narrated</h2>'
+          tokenize: false
+      display_extenders: {  }
+      entity_type: taxonomy_term
+      bundles:
+        - people
+      show_title: false
+      argument_mode: id
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cover'
+        - 'config:field.storage.node.field_first_published_year'
+        - 'config:field.storage.node.field_year'
+  translators:
+    id: translators
+    display_title: Translated
+    display_plugin: entity_view
+    position: 4
+    display_options:
+      title: Translated
+      arguments:
+        field_translator_target_id:
+          id: field_translator_target_id
+          table: node__field_translator
+          field: field_translator_target_id
+          plugin_id: entity_target_id
+          default_action: empty
+          specify_validation: true
+          validate:
+            type: 'entity:taxonomy_term'
+            fail: empty
+          validate_options:
+            bundles:
+              people: people
+            access: true
+            operation: view
+            multiple: 0
+          target_entity_type_id: taxonomy_term
+      defaults:
+        title: false
+        arguments: false
+        header: false
+      header:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          plugin_id: text_custom
+          empty: false
+          content: '<h2>Translated</h2>'
+          tokenize: false
+      display_extenders: {  }
+      entity_type: taxonomy_term
+      bundles:
+        - people
+      show_title: false
+      argument_mode: id
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cover'
+        - 'config:field.storage.node.field_first_published_year'
+        - 'config:field.storage.node.field_year'

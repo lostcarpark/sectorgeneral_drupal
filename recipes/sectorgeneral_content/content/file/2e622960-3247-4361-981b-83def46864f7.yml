@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2e622960-3247-4361-981b-83def46864f7
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: codeblueemergencyballintine.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/codeblueemergencyballintine.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4790
+  status:
+    -
+      value: true

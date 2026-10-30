@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 779b62ef-d345-4a4e-8177-ea35a0d9b212
+  bundle: novel
+  default_langcode: en
+  depends:
+    e7eac997-8a4e-4c92-b46e-3af995894ea8: media
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 237, similarity 0.98).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Genocidal Healer'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/genocidal-healer
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Sector General the Eighth, but White used the once-cosy hospital setting to consider terminal illness, euthanasia, pangalactic theology, and many other deep-thinky bits. Surgeon-Captain Lioren is a Tarlan BRLH medic whose professional negligence had almost wiped out the pathologically violent Cromsaggars. Lioren demands the death penalty for himself, but he doesn&#039;t get it (a good thing, too, this being only page fifty). His redemption begins with easing the inevitable death of Earth-human Diagnostician Mannen, who has been a Sector Generaller since they built the place around him. He also treats Hellishomar the Cutter, a Groalterri patient who shares his moral anxieties: &quot;I am guilty of a great and terrible sin&quot; (p.110). Their matching problems are none-too-easily resolved, and there&#039;s a dash of macro-surgery at the climax.</p>'
+      format: basic_html
+      summary: 'What would you do with a doctor who - through his zeal to cure a plague - wiped out a planetary population? Make him a trainee psychologist of course!'
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: e7eac997-8a4e-4c92-b46e-3af995894ea8
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4237 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1992
+  field_isfdb_id:
+    -
+      value: '4237'
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_series_number:
+    -
+      value: 8
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 85000

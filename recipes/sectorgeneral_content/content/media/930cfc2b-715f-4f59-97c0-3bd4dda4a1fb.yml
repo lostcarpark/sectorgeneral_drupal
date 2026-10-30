@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 930cfc2b-715f-4f59-97c0-3bd4dda4a1fb
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    3241b42c-2b76-40e0-8b0a-42a744f3977b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Ambulance Ship, Corgi, 1980 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 54818ec8d12304ace7dbc447fbb3588b15ee95f3
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Ambulance Ship cover'
+      title: ''
+      width: 120
+      height: 200
+      entity: 3241b42c-2b76-40e0-8b0a-42a744f3977b

@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 56aeb3da-0cc4-4660-8ca8-03ea281d5bad
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    b80799a3-34ee-42b1-9490-1bcb98e3568b: node
+    ff2ad305-53a5-4183-98d3-8cd63f93f9fc: media
+    eaa92a66-c981-491d-ad33-7b3c316e4ce6: taxonomy_term
+    00755522-03bf-4fbb-b9b8-73fc91f84cfa: taxonomy_term
+    26861d89-acc4-4ce5-8b18-0a60f715424e: taxonomy_term
+    4f00b253-4f48-4c29-b920-8819062b3f4f: taxonomy_term
+    b50b1746-af44-49ff-acd4-5d83c98146bb: taxonomy_term
+    261fdeab-3e02-4188-a0c0-f59d172121a3: taxonomy_term
+    f6b91abe-d1df-49d4-93cf-fc21dda26ed1: taxonomy_term
+    e9f4476b-6af0-44ef-bced-13a0b85ee33c: taxonomy_term
+    b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd: taxonomy_term
+    a3be9ecb-6fcc-40a7-9516-fe79a089da0d: taxonomy_term
+    e613edcf-203e-48ff-8a70-3dc22f2becd4: taxonomy_term
+    380cbdc7-a57c-43ab-9ebc-1c10a91a103b: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1076387 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Häpna!, April 1964'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/hapna/hapna-april-1964
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: b80799a3-34ee-42b1-9490-1bcb98e3568b
+  field_cover:
+    -
+      entity: ff2ad305-53a5-4183-98d3-8cd63f93f9fc
+  field_cover_artist:
+    -
+      entity: eaa92a66-c981-491d-ad33-7b3c316e4ce6
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1076387 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'April 1964'
+  field_editor:
+    -
+      entity: 00755522-03bf-4fbb-b9b8-73fc91f84cfa
+  field_isfdb_id:
+    -
+      value: '1076387'
+  field_language:
+    -
+      entity: 26861d89-acc4-4ce5-8b18-0a60f715424e
+  field_magazine:
+    -
+      entity: 4f00b253-4f48-4c29-b920-8819062b3f4f
+  field_other_contributors:
+    -
+      entity: b50b1746-af44-49ff-acd4-5d83c98146bb
+    -
+      entity: 261fdeab-3e02-4188-a0c0-f59d172121a3
+    -
+      entity: f6b91abe-d1df-49d4-93cf-fc21dda26ed1
+    -
+      entity: e9f4476b-6af0-44ef-bced-13a0b85ee33c
+    -
+      entity: b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd
+    -
+      entity: a3be9ecb-6fcc-40a7-9516-fe79a089da0d
+    -
+      entity: e613edcf-203e-48ff-8a70-3dc22f2becd4
+    -
+      entity: 380cbdc7-a57c-43ab-9ebc-1c10a91a103b
+  field_pages:
+    -
+      value: 98
+  field_published_as:
+    -
+      value: 'En natt i varuhuset'
+  field_sort_date:
+    -
+      value: '1964-04-01'
+  field_year:
+    -
+      value: 1964

@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ce18b8b6-4bdc-4590-bb74-093888cff74d
+  bundle: anthology
+  default_langcode: en
+  depends:
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    9e45dbd9-d7e5-4337-9eb6-d14ad84449e5: media
+    6c390de1-fdf2-4f53-b225-adfaa43a3422: taxonomy_term
+    a7db68df-cbcb-4bf3-ad1e-26874fce4a71: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?397793'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Millemondi Estate 1996'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/millemondi-estate-1996
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Mondadori, June 1996, Trade Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_cover:
+    -
+      entity: 9e45dbd9-d7e5-4337-9eb6-d14ad84449e5
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1493452 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 6c390de1-fdf2-4f53-b225-adfaa43a3422
+  field_first_published_year:
+    -
+      value: 1996
+  field_isfdb_id:
+    -
+      value: '1493452'
+  field_publisher:
+    -
+      entity: a7db68df-cbcb-4bf3-ad1e-26874fce4a71

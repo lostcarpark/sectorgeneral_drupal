@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 9ba02792-0c3a-4e38-b5d6-bd1394c702be
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Dean Ellis'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/dean-ellis
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

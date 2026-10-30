@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d14f2652-71d4-43eb-bf82-b6230685c4ec
+  bundle: edition
+  default_langcode: en
+  depends:
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    77839f28-06fe-4a5d-819c-9a837540e410: node
+    a7db68df-cbcb-4bf3-ad1e-26874fce4a71: taxonomy_term
+    6140a99f-b5f8-4ec2-b6b2-5038bd7d85fb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the OPAC SBN: https://opac.sbn.it/bid/LIA0245656'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Vortice di Relitti, Mondadori, 1979'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/deadly-litter/vortice-di-relitti-mondadori-1979
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Mondadori No 770, February 1979 as Vortice di Relitti”
+        OPAC SBN record https://opac.sbn.it/bid/LIA0245656.
+  field_date_display:
+    -
+      value: 'February 1979'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: 77839f28-06fe-4a5d-819c-9a837540e410
+  field_pages:
+    -
+      value: 156
+  field_publisher:
+    -
+      entity: a7db68df-cbcb-4bf3-ad1e-26874fce4a71
+  field_publisher_reference:
+    -
+      value: '770'
+  field_sort_date:
+    -
+      value: '1979-02-01'
+  field_translator:
+    -
+      entity: 6140a99f-b5f8-4ec2-b6b2-5038bd7d85fb
+  field_year:
+    -
+      value: 1979

@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 85548980-346c-44bd-900a-d6bf6f593fcb
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Kollision i rymden'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/kollision-i-rymden
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?3523327 (CC BY 4.0).'
+  field_first_published_year:
+    -
+      value: 1956
+  field_isfdb_id:
+    -
+      value: '3523327'

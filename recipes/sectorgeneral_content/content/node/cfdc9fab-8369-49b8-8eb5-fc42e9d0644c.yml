@@ -1,0 +1,109 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cfdc9fab-8369-49b8-8eb5-fc42e9d0644c
+  bundle: anthology
+  default_langcode: en
+  depends:
+    85389460-62f1-481a-ac36-b6d004568ad1: node
+    5e29fa45-2717-4190-a10e-bee357bb48e7: media
+    3ca1637a-491a-4b74-9d92-697f127727a0: taxonomy_term
+    dc5875fa-8328-4d42-8b2e-90f29e3cd770: taxonomy_term
+    62abe30a-e702-4f8c-a8dd-149acdb38933: taxonomy_term
+    f25d9b83-da1c-429d-b654-3085f8b01cee: taxonomy_term
+    85906894-fdb3-4366-bb52-3ee2847aeccd: taxonomy_term
+    9be5cd51-54f5-4835-8aa6-8459349ae07a: taxonomy_term
+    caa9cb93-3e4c-41dc-b115-e9d3513a78e6: taxonomy_term
+    b03cfa95-b8be-47cd-9776-6843244bef9d: taxonomy_term
+    e33e632a-df4c-4fc6-a381-4afca12a5dc0: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd: taxonomy_term
+    9debb451-3799-45c4-9bfd-b0bc8ab3165b: taxonomy_term
+    999e3e00-e1c2-4f79-a07d-21224db8a33a: taxonomy_term
+    97ff0014-3c18-4a53-a26e-db8b9c654612: taxonomy_term
+    21433e37-f72c-4f91-b798-dc0cc8e1d1f2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?57'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '13 Above the Night'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/13-above-night
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Dell, November 1965.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 85389460-62f1-481a-ac36-b6d004568ad1
+  field_cover:
+    -
+      entity: 5e29fa45-2717-4190-a10e-bee357bb48e7
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?36082 (CC BY 4.0).
+  field_editor:
+    -
+      entity: 3ca1637a-491a-4b74-9d92-697f127727a0
+  field_first_published_year:
+    -
+      value: 1965
+  field_isfdb_id:
+    -
+      value: '36082'
+  field_other_contributors:
+    -
+      entity: dc5875fa-8328-4d42-8b2e-90f29e3cd770
+    -
+      entity: 62abe30a-e702-4f8c-a8dd-149acdb38933
+    -
+      entity: f25d9b83-da1c-429d-b654-3085f8b01cee
+    -
+      entity: 85906894-fdb3-4366-bb52-3ee2847aeccd
+    -
+      entity: 9be5cd51-54f5-4835-8aa6-8459349ae07a
+    -
+      entity: caa9cb93-3e4c-41dc-b115-e9d3513a78e6
+    -
+      entity: b03cfa95-b8be-47cd-9776-6843244bef9d
+    -
+      entity: e33e632a-df4c-4fc6-a381-4afca12a5dc0
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd
+    -
+      entity: 9debb451-3799-45c4-9bfd-b0bc8ab3165b
+    -
+      entity: 999e3e00-e1c2-4f79-a07d-21224db8a33a
+    -
+      entity: 97ff0014-3c18-4a53-a26e-db8b9c654612
+  field_publisher:
+    -
+      entity: 21433e37-f72c-4f91-b798-dc0cc8e1d1f2

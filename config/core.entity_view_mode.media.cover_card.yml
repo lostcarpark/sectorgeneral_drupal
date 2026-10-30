@@ -1,0 +1,11 @@
+uuid: c76d16d6-86ef-4544-9b3b-616b2a4d1c2f
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.cover_card
+label: 'Cover card'
+description: null
+targetEntityType: media
+cache: true

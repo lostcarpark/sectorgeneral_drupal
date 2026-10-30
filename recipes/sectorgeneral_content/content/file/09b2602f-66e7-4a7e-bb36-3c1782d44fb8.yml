@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 09b2602f-66e7-4a7e-bb36-3c1782d44fb8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pnprsnrcbk1970.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/pnprsnrcbk1970.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 132173
+  status:
+    -
+      value: true

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: ff052358-5b35-48be-bb3c-6aad41eafd86
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'E. Henley'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/e-henley
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

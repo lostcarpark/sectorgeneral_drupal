@@ -1,0 +1,19 @@
+services:
+  Drupal\sectorgeneral_isfdb\Merger:
+    autowire: true
+  Drupal\sectorgeneral_isfdb\DuplicateFinder:
+    autowire: true
+  Drupal\sectorgeneral_isfdb\CoverFetcher:
+    autowire: true
+  Drupal\sectorgeneral_isfdb\OpenLibrary:
+    autowire: true
+  Drupal\sectorgeneral_isfdb\LibraryImporter:
+    autowire: true
+  Drupal\sectorgeneral_isfdb\Library\BibliotekaNarodowaSource:
+    autowire: true
+  Drupal\sectorgeneral_isfdb\Library\CatalogueSources:
+    autowire: true
+  Drupal\sectorgeneral_isfdb\Library\LibrarySources:
+    autowire: true
+  Drupal\sectorgeneral_isfdb\LibraryRecords:
+    autowire: true

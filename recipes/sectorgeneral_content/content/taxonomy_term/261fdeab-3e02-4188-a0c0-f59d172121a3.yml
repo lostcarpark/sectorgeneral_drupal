@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 261fdeab-3e02-4188-a0c0-f59d172121a3
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'H. L. Gold'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/h-l-gold
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

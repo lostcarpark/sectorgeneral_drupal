@@ -1,0 +1,72 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0d9b2c30-9bf6-4cf7-93b2-be3c80b97615
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Imported from the original James White Information site.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Introduction from The White Papers'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /articles/introduction-white-papers
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: |
+        <p><em>By Mike Resnick</em></p>
+        <p>I'm about to make public a secret vice. Its name is James White, and for well over a third of a century I have been searching for a James White book or story that I could put down before finishing.</p>
+        <p>I haven't found one yet - and I've read every word of science fiction he's written to date. I even stopped by a British book store to buy <em>Underkill</em>, the one novel he didn't sell to the United States.</p>
+        <p>The strange thing is that each time a new White book comes out, I look at the cover blurb and say, "This time you've done it, James my boy. This time you've picked a subject even <em>you</em> can't make interesting."</p>
+        <p>I must confess that over the years I've learned to say it very softly, because he makes a liar out of me every time.</p>
+        <p>I do a lot of speaking at conventions, and I write some columns about science fiction, and one of the things I keep pointing out is that there is really no need for five-book trilogies, that <em>good</em> writers can usually say what they have to say in one well-conceived and well-executed book. I take great pride in the fact that I turned down a <em>Star Trek</em> novel and a <em>Star Wars</em> trilogy in the same calendar year.</p>
+        <p>That said, I must point out that there are exceptions to every rule - and I publicly promise that if James White ever stops writing his Sector General books, I will personally break one of his knees each day until he relents. And if it takes him more than two days to give in, I'll go to work on his elbows.</p>
+        <p>If White is addictive (and he is), then beware the tales of this fabulous hospital in space, because once they grab hold of your sense of wonder you will be hopelessly hooked for life. And like any addict, you'll find that you don't mind in the least.</p>
+        <p>The stories are populated by the most memorable crew of aliens ever created - and that includes every creature from Stanley Weinbaum's to (insert the author of your choice here). The four-letter biological classification system is a marvel, and has been swiped - well, let's be generous and say built upon - more than once. The tapes that each surgeon carries around inside his head are another touch of genius. The problems O'Mara and Conway and the empath Prilicla and the elephantine Thornnastor and the rest of the crew must face in each story are always fascinating, and the solutions are both logical and fair.</p>
+        <p>The books began as simple - well, actually, incredibly complex - medical problems in the brilliantly-realized Sector General, but as the series has continued, the focus has become more serious and mature. By the time of <em>The Genocidal Healer</em>, White was dealing with themes as important and powerful as any writer in the field - and handling them better than most.</p>
+        <p>White didn't exactly <em>create</em> the sub-genre of Medical Science Fiction, but I don't think there's any doubt in anyone's mind at this late date that the Sector General stories <em>define</em> it.</p>
+        <p>I don't want you to get the idea that James White is a one- shot artist, a guy who lucked out on the Sector General stories and didn't do much else worthwhile.</p>
+        <p>Take, for example, <em>The Escape Orbit</em>. Here's a good old- fashioned science fiction problem story. There's a war. Human prisoners are dropped onto a planet that possesses no metals and no fissionable materials. The enemy ships never land.</p>
+        <p>Okay - how do you plan an escape?</p>
+        <p>White not only plans it and pulls it off, he has you believing it. The only problem I have with the book is why Hollywood hasn't bought it, adapted it, and made umpteen gazillion dollars at the box office with it.</p>
+        <p>Then there's <em>All Judgment Fled</em>, my personal favorite. I never knew quite how to describe it until <em>Rendezvous with Rama</em> came out and won the 1974 Hugo. Now I just tell people that if they want to read <em>Rama</em> done right (sorry, Arthur), pick up <em>All Judgment Fled</em>.</p>
+        <p>Like <em>Rama</em>, this one has a mysterious space vehicle approaching the Earth, and, like <em>Rama</em>, a human crew goes out to investigate it.</p>
+        <p>But unlike <em>Rama</em>, the solution to the multitude of frustrating puzzles is logical and satisfying - and you don't have to hunt up the sequel(s) to find out what it is.</p>
+        <p>What can I tell you about <em>Lifeboat</em> except to say that it's a totally fresh and intriguing handling of an old theme? Too bad Hitchcock didn't make <em>this</em> one instead of the mundane one about a bunch of men and a Tallulah duking it out in an ocean liner's lifeboat.</p>
+        <p><em>Deadly Litter</em>? It's a notion so unique, so out-and-out brilliant that I use it whenever I'm lecturing beginners about what science fiction actually deals with when it's done properly.</p>
+        <p><em>The Watch Below</em>? Fabulous story. In fact, <em>two</em> fabulous stories that dovetail beautifully by the end of the book.</p>
+        <p>Hopeful science fiction writers could learn a lot about their craft by studying White's various novels and short stories. No one presents a wider selection of consistent, believable aliens. But just as important, I consider him without peer in creating alien environments.</p>
+        <p>He's not so bad on human environments, either. Once he's described a room, or a ship, or a hospital for that matter, you feel like you've been there. He doesn't content himself with physical outlines, but adds textures as well.</p>
+        <p>Perhaps the most distinctive thing about him - it runs through every story, never intrusive but always there - is his devout belief in a benevolent, ultimately reasonable, universe. Like Clifford D. Simak before him, James White believes in the decency of all intelligent beings.</p>
+        <p>So why (I hear you ask) do I, who can most charitably be termed cynical, and whose endings are not always the happiest, have such admiration for James White?</p>
+        <p>First, because the man's a craftsman and an artist, and I have unbounded respect for both traits.</p>
+        <p>And second, and perhaps more importantly, because while I may write about <em>my</em> universe, I wish I could live in <em>his</em>.</p>
+        <p>Reproduced with kind permission of Mike Resnick.</p>
+        <p><a href="/">Sector General</a></p>
+        <p><a href="contactus.php">Contact Us</a></p>
+        <p>Back to Top</p>
+      format: basic_html
+      summary: ''

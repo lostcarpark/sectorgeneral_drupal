@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: ff7fc067-5bf6-42ef-84bd-fd2d2d723f3d
+  bundle: redirect
+  default_langcode: und
+  depends:
+    1f7e2d67-9523-43b6-b2fc-b66704b77066: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: mdADmLykHi-klKfbg19Ak8QvJ7WLOWDkgLwgWAyFU2c
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/futurespast.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 1f7e2d67-9523-43b6-b2fc-b66704b77066
+  status_code:
+    -
+      value: 301

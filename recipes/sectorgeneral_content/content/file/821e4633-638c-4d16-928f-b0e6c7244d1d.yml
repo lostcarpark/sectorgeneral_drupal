@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 821e4633-638c-4d16-928f-b0e6c7244d1d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ambulanceshipmcdonald.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/ambulanceshipmcdonald.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4708
+  status:
+    -
+      value: true

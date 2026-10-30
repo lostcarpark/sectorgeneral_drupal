@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: dc6726ac-88b0-4764-ba84-34c2113a8086
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: starsurgeon.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/starsurgeon.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 70790
+  status:
+    -
+      value: true

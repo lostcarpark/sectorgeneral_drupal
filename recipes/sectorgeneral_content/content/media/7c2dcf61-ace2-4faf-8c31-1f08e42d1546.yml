@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 7c2dcf61-ace2-4faf-8c31-1f08e42d1546
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    941dbeab-a2e5-4c15-b2b1-e0cb3432c7bb: taxonomy_term
+    95c221c1-8859-454a-a1c1-529176ac3d84: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: james_white_Szpital_Kosmiczny.jpg
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_source:
+    -
+      entity: 941dbeab-a2e5-4c15-b2b1-e0cb3432c7bb
+  field_media_image:
+    -
+      alt: 'Cover of Szpital Kosmiczny (Hospital Station)'
+      title: ''
+      width: 443
+      height: 700
+      entity: 95c221c1-8859-454a-a1c1-529176ac3d84
+  field_source_url:
+    -
+      uri: 'https://allegro.pl/produkt/james-white-szpital-kosmiczny-1987-dedykacjaautora-9b215dfc-9a12-4c32-b27f-0bbbfaefc848?offerId=18223258429'
+      title: ''
+      options: {  }

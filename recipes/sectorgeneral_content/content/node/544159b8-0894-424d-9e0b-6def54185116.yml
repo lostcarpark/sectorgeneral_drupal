@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 544159b8-0894-424d-9e0b-6def54185116
+  bundle: edition
+  default_langcode: en
+  depends:
+    b070dc34-fd1d-4800-a014-dfb4798d7eaf: media
+    5cba4392-3519-473d-a3d2-30130620ad79: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    7ca95962-725e-438b-9860-913571c7b174: node
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+    32dfb838-1b85-446d-8f00-f65cfd4d0785: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL4896264M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Monsters and Medics, Corgi, 1977'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/monsters-and-medics/monsters-and-medics-corgi-1977
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: b070dc34-fd1d-4800-a014-dfb4798d7eaf
+  field_cover_artist:
+    -
+      entity: 5cba4392-3519-473d-a3d2-30130620ad79
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Corgi, 1977”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?22634 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL4896264M (CC0).
+  field_date_display:
+    -
+      value: '1977'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345256232'
+  field_isfdb_id:
+    -
+      value: '22634'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 7ca95962-725e-438b-9860-913571c7b174
+    -
+      entity: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+  field_oclc:
+    -
+      value: '2645412'
+  field_openlibrary_id:
+    -
+      value: OL4896264M
+  field_pages:
+    -
+      value: 266
+  field_price:
+    -
+      value: $1.50
+  field_publisher:
+    -
+      entity: 32dfb838-1b85-446d-8f00-f65cfd4d0785
+  field_sort_date:
+    -
+      value: '1977-01-01'
+  field_year:
+    -
+      value: 1977

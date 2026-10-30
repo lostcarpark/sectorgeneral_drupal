@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b04ef842-1d51-49f0-bcc3-39c8bcab1fed
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63763 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Apprentice'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/apprentice
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Nicholson interfaces with Redmond, the ground-floor supervisor, salesgirl Miss (Arthura?) Clarke, and Harnrigg -- a working-class centauroid Apprentice from Another World. Harnrigg has perpetrated some (quote) &quot;Horseplay at the music counter&quot; (unquote). In pre-decimal currency, the estimated cost of damage is seven pounds, three shillings and sixpence. Including sales tax. They might have knocked off the odd farthing to round it down. Harnrigg means well but he&#039;s the proverbial bull -- sorry centaur -- in a china shop. &#039;Coops&#039; department store is an autobiographical pun on the now-defunct Belfast Co-operative society emporium, where Jim was working at the time.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63763 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1960
+  field_isfdb_id:
+    -
+      value: '63763'
+  field_opening_excerpt:
+    -
+      value: '<p>Up until eleven thirty a.m. Arthur Richard Nicholson, the personnel manager of Coop&#039;s department store, had had a fairly average day.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WORLDS No 99, October 1960 OUT OF THIS WORLD 3, Blackie, May 1962 OUT OF THIS WORLD OMNIBUS, Blackie, £1-25, June 1971 Monsters and Medics (not in Corgi edition: see under Books)</p>'
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 14250

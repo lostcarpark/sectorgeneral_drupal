@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 27dfa1a3-e914-493e-a25e-ba9299ac676d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thbsrldsb11965.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thbsrldsb11965.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 69912
+  status:
+    -
+      value: true

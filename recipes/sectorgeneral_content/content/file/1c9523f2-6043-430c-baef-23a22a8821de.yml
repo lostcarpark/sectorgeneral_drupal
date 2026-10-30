@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1c9523f2-6043-430c-baef-23a22a8821de
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: tpsfpjhgmn1986.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/tpsfpjhgmn1986.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 44482
+  status:
+    -
+      value: true

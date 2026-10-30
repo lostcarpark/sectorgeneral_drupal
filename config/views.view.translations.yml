@@ -1,0 +1,148 @@
+uuid: d9e6e2ee-1e10-44c1-a23d-c612d82d3b72
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.card
+    - system.menu.main
+    - taxonomy.vocabulary.language
+  module:
+    - node
+    - taxonomy
+    - user
+id: translations
+label: Translations
+module: views
+description: 'Languages James White has been published in, as cards.'
+tag: ''
+base_table: taxonomy_term_field_data
+base_field: tid
+display:
+  default:
+    id: default
+    display_title: Default
+    display_plugin: default
+    position: 0
+    display_options:
+      title: 'James White in translation'
+      pager:
+        type: none
+        options:
+          offset: 0
+      exposed_form:
+        type: basic
+        options: {  }
+      access:
+        type: perm
+        options:
+          perm: 'access content'
+      cache:
+        type: tag
+        options: {  }
+      sorts:
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: standard
+          order: ASC
+      filters:
+        vid:
+          id: vid
+          table: taxonomy_term_field_data
+          field: vid
+          entity_type: taxonomy_term
+          entity_field: vid
+          plugin_id: bundle
+          value:
+            language: language
+          group: 1
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: string
+          operator: '!='
+          value: English
+          group: 1
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          relationship: publications
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: grid_responsive
+        options:
+          grouping: {  }
+          columns: 4
+          cell_min_width: 220
+          grid_gutter: 24
+          alignment: horizontal
+      row:
+        type: 'entity:taxonomy_term'
+        options:
+          view_mode: card
+      query:
+        type: views_query
+        options: {  }
+      relationships:
+        publications:
+          id: publications
+          table: taxonomy_term_field_data
+          field: reverse__node__field_language
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: true
+      group_by: true
+      header:
+        result:
+          id: result
+          table: views
+          field: result
+          plugin_id: result
+          empty: false
+          content: '<p class="view-intro">James White''s work has appeared in @total languages besides English. Choose one to see every edition and magazine appearance, by date.</p>'
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_interface'
+        - user.permissions
+      tags: {  }
+  page:
+    id: page
+    display_title: Page
+    display_plugin: page
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: translations
+      menu:
+        type: normal
+        title: Translations
+        description: ''
+        weight: 1
+        enabled: true
+        expanded: false
+        menu_name: main
+        parent: 'views_view:views.books.page'
+        context: '0'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_interface'
+        - user.permissions
+      tags: {  }

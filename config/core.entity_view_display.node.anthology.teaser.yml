@@ -1,0 +1,66 @@
+uuid: 14d39b6f-f00b-4a75-ab5b-ae1c51fb8868
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.anthology.body
+    - field.field.node.anthology.field_contents
+    - field.field.node.anthology.field_cover
+    - field.field.node.anthology.field_data_sources
+    - field.field.node.anthology.field_editor
+    - field.field.node.anthology.field_first_published_year
+    - field.field.node.anthology.field_isfdb_id
+    - field.field.node.anthology.field_other_contributors
+    - field.field.node.anthology.field_publisher
+    - field.field.node.anthology.field_series
+    - field.field.node.anthology.field_series_number
+    - node.type.anthology
+  module:
+    - sectorgeneral
+    - user
+id: node.anthology.teaser
+targetEntityType: node
+bundle: anthology
+mode: teaser
+content:
+  field_cover:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: cover_small
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_editor:
+    type: sectorgeneral_people_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_first_published_year:
+    type: number_integer
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_contents: true
+  field_data_sources: true
+  field_isfdb_id: true
+  field_other_contributors: true
+  field_publisher: true
+  field_series: true
+  field_series_number: true

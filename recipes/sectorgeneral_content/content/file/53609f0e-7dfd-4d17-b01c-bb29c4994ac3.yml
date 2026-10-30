@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 53609f0e-7dfd-4d17-b01c-bb29c4994ac3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thbgbkfscn0000.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thbgbkfscn0000.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 104980
+  status:
+    -
+      value: true

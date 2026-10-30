@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 7281d48e-a9e3-4a04-985e-1b1afc102c8f
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'William F. Temple'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/william-f-temple
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

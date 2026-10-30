@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b3f4b0b5-716b-4e1f-8d82-c42ca82412ab
+  bundle: anthology
+  default_langcode: en
+  depends:
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+    399be0f4-deec-4b40-8b94-d4248aceed08: media
+    fcdcfc4a-ca76-4614-9eb2-a2471c69ca76: taxonomy_term
+    3bda7690-3cc9-4052-9e0e-e67f67495dac: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?714262'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Jenseits des Todes'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/jenseits-des-todes
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Pabel, 18 February 1964, Digest.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+  field_cover:
+    -
+      entity: 399be0f4-deec-4b40-8b94-d4248aceed08
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?3541868 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: fcdcfc4a-ca76-4614-9eb2-a2471c69ca76
+  field_first_published_year:
+    -
+      value: 1964
+  field_isfdb_id:
+    -
+      value: '3541868'
+  field_publisher:
+    -
+      entity: 3bda7690-3cc9-4052-9e0e-e67f67495dac

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8d96a899-aea1-422a-b49e-30ca2f15d70e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: kmpfdrwltr1978.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/kmpfdrwltr1978.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 33252
+  status:
+    -
+      value: true

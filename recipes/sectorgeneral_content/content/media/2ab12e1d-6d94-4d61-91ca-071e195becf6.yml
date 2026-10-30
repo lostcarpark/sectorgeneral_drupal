@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 2ab12e1d-6d94-4d61-91ca-071e195becf6
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    9643a051-5b3d-4627-b22f-c4890424398d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Chirurgien galactique, Librairie Des Champs-Élysées, 1981 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 3ac45c6260f1d3906a33d82544c2908ba6888723
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Chirurgien galactique cover'
+      title: ''
+      width: 348
+      height: 519
+      entity: 9643a051-5b3d-4627-b22f-c4890424398d

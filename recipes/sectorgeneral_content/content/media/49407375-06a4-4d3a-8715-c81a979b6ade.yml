@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 49407375-06a4-4d3a-8715-c81a979b6ade
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    805c8a4a-a450-4ff6-8260-f0c8f8e072a9: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: fantastic_1961_june_july.jpg
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 1f47c0a5f8dd539dc4952c5db3e7127e8bb86765
+  field_media_image:
+    -
+      alt: 'Fantastic magazine - June and July 1961 covers'
+      title: ''
+      width: 863
+      height: 600
+      entity: 805c8a4a-a450-4ff6-8260-f0c8f8e072a9

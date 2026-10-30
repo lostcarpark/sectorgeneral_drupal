@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 12ad99a2-495d-4a12-a242-5e235375e7fd
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    56f56854-f403-46ab-8ec5-f7f6029bcab0: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Dream Millennium, Corgi, 1976 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 3cfa0f0cfea456b20f0986c93fc919dd74ff8cf0
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/5/59/THDRMMLLNM1976.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'The Dream Millennium, Corgi, 1976 cover'
+      title: ''
+      width: 869
+      height: 1381
+      entity: 56f56854-f403-46ab-8ec5-f7f6029bcab0
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?152611'
+      title: null
+      options: {  }

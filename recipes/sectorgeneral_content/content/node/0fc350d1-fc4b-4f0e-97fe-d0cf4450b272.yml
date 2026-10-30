@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0fc350d1-fc4b-4f0e-97fe-d0cf4450b272
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63862 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Accident
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/accident
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>‘Accident’ probably wasn’t Jim’s version of those superhero ‘secret origin’ stories that mase Superman DC National Comics what they were thirty-five years ago – but that’s how I choose to see it. Grawlya –Ki and MacEwan, of ‘Tableau’ fame, have been revivified two centuries later. Since then, these “only two entities in the whole Federation with direct experience of war, had grown increasingly monomaniacal on the subject until the honour and rspect accorded them had gradually changed to reactions of impatience and embarrassment0.” Then a ground-transporter accident at the Nidia spaceport gives them the Big Idea that would mature into Sector Twelve General Hospital.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63862 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1983
+  field_isfdb_id:
+    -
+      value: '63862'
+  field_opening_excerpt:
+    -
+      value: '<p>Rellin complex was Nidia’s largest air terminal, its only spaceort, and, MacEwan thought cynically, its most popular zoo.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>Sector General (Ballantine, March 1983) The White Papers</p>'
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 11500

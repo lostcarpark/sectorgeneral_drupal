@@ -1,0 +1,70 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a5d12d51-d64f-437c-8e8e-701ea08835f1
+  bundle: short_story
+  default_langcode: en
+  depends:
+    6401dad9-6de7-49d5-91ee-ce109aa091f2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?48612 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Something of Value'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/something-value
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>Mission statement: “. . . The primary purpose of the Federation is to seek out the intelligent races of the galaxy and bring them to this place of safety before they perish in some natural catastrophe or in some unnatural manner devised by themselves. [They] will grow in knowledge and in numbers and, in the fullness of time, they will intermingle and share in the fruits of their respective cultures.”</p>
+        <p>Ergo: This non-Hospital Station, etc Galactic Federation intends the Dyson sphere living space to be a paradisical Shaangri-La – writ large. Jim admired Lost Horizon (1933), the classic novel by James Hilton which intriduced ‘Shangri-La’ to the mundane world. More specifically, he deals with the problem of how those Master-and-Slave Teldians can be made to fit into the New Worlds Order.</p>
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?48612 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1985
+  field_isfdb_id:
+    -
+      value: '48612'
+  field_opening_excerpt:
+    -
+      value: '<p>40,000</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>Analog, February 1985. Federation World</p>'
+      format: basic_html
+  field_series:
+    -
+      entity: 6401dad9-6de7-49d5-91ee-ce109aa091f2
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'

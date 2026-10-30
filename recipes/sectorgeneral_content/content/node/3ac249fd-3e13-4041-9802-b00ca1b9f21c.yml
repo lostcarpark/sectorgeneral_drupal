@@ -1,0 +1,79 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3ac249fd-3e13-4041-9802-b00ca1b9f21c
+  bundle: short_story
+  default_langcode: en
+  depends:
+    c1593f6a-74a2-43b1-8883-6c5e0f1e740a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63751 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Assisted Passage'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/assisted-passage
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>and the corporal, who was also a keen amateur gardener, and himself had become very pally.</p>
+        <p>&#039;Assisted Passage&#039; is a titular allusion to the 1950s Anglo-Australian £10 per convict -- sorry colonist -- emigration. Doc Mathewson helps a marooned humanoid alien calling himself Allen to escape from Woomera rocket range back into space, using an Ion Drive of other-worldly invention. Wilson Tucker was then developing this E.T./Starman &#039;anticipation&#039; at novel-length, in The Time Masters (1953: revised edition, 1971). There&#039;s also a period-piece of Cold War paranoia: &quot;Why aren&#039;t you with Allen&#039;s friends, safe and sound, back in …&quot; (Major Turner to Doc Mathewson).</p>
+        <p>*&quot;Self praise is no recommendation&quot; (I can almost hear James saying it).</p>
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63751 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1953
+  field_isfdb_id:
+    -
+      value: '63751'
+  field_opening_excerpt:
+    -
+      value: '<p>He knew himself to have that rare knack of making friends with everybody,*</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>NEW WORLDS No. 19, January 1953 </p>
+        <p>Publication History: Gateway to the Stars, Ed John Carnell, Museum Press, March 1955 Futures Past, James White collection</p>
+      format: basic_html
+  field_series:
+    -
+      entity: c1593f6a-74a2-43b1-8883-6c5e0f1e740a
+  field_series_number:
+    -
+      value: 1
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 7500

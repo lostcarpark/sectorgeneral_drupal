@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8b1f282d-94e3-4c00-9c6b-0eeed4688b21
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Yasutaka Tsutsui'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/yasutaka-tsutsui
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

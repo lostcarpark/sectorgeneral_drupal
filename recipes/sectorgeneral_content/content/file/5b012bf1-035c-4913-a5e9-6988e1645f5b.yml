@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5b012bf1-035c-4913-a5e9-6988e1645f5b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 51jps8atael.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/51jps8atael.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 32983
+  status:
+    -
+      value: true

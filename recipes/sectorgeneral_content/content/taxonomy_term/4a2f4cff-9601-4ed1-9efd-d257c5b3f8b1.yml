@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 4a2f4cff-9601-4ed1-9efd-d257c5b3f8b1
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Robert Neilson'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/robert-neilson
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 417c68fa-ec55-4ecc-aa83-b277c2ccb869
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dsrmschffd1968.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/dsrmschffd1968.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 38025
+  status:
+    -
+      value: true

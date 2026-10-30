@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4bd515ba-b21d-426d-864a-e96d3320595a
+  bundle: edition
+  default_langcode: en
+  depends:
+    e641113e-7e68-4f3f-8191-5cd7bfece48b: media
+    9ba02792-0c3a-4e38-b5d6-bd1394c702be: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    03c0e826-c5ee-456f-8600-d2652179fbeb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL60385198M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'All Judgment Fled, Ballantine Books, 1970'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/all-judgement-fled/all-judgment-fled-ballantine-books-1970
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: e641113e-7e68-4f3f-8191-5cd7bfece48b
+  field_cover_artist:
+    -
+      entity: 9ba02792-0c3a-4e38-b5d6-bd1394c702be
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?296625 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL60385198M (CC0).
+  field_date_display:
+    -
+      value: 'September 1970'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345020161'
+  field_isfdb_id:
+    -
+      value: '296625'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_oclc:
+    -
+      value: '2358819'
+  field_openlibrary_id:
+    -
+      value: OL60385198M
+  field_pages:
+    -
+      value: 215
+  field_price:
+    -
+      value: $0.95
+  field_publisher:
+    -
+      entity: 03c0e826-c5ee-456f-8600-d2652179fbeb
+  field_sort_date:
+    -
+      value: '1970-09-01'
+  field_year:
+    -
+      value: 1970

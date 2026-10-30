@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bdb2a765-fcda-49cd-b2c0-43823c8f5165
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: scifant151955.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/scifant151955.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 26334
+  status:
+    -
+      value: true

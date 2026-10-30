@@ -1,0 +1,87 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 58a90765-a615-441c-b6e2-4742604bea5b
+  bundle: edition
+  default_langcode: en
+  depends:
+    943f5aea-73c1-4c4c-87b4-8134324cc938: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    5f214d6d-cbb6-4805-a3a5-f9a296acdaa3: taxonomy_term
+    0789c46c-1067-445e-aa23-c8e54a165bf3: taxonomy_term
+    4511f093-2768-4716-943a-c40d06521ef5: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the OPAC SBN: https://opac.sbn.it/bid/TO00581617'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Ospedale di Combattimento, La Tribuna, 1966'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-surgeon/ospedale-di-combattimento-la-tribuna-1966
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “GALASSIA No 66, Lira 300, June 1966 as Ospedale di Combattimento”
+        OPAC SBN record https://opac.sbn.it/bid/TO00581617.
+  field_date_display:
+    -
+      value: 'June 1966'
+  field_introduction_by:
+    -
+      entity: 943f5aea-73c1-4c4c-87b4-8134324cc938
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+  field_pages:
+    -
+      value: 220
+  field_price:
+    -
+      value: 'Lira 300'
+  field_publisher:
+    -
+      entity: 5f214d6d-cbb6-4805-a3a5-f9a296acdaa3
+  field_publisher_reference:
+    -
+      value: '66'
+  field_publisher_series:
+    -
+      entity: 0789c46c-1067-445e-aa23-c8e54a165bf3
+  field_publisher_series_number:
+    -
+      value: '66'
+  field_sort_date:
+    -
+      value: '1966-06-01'
+  field_translator:
+    -
+      entity: 4511f093-2768-4716-943a-c40d06521ef5
+  field_year:
+    -
+      value: 1966

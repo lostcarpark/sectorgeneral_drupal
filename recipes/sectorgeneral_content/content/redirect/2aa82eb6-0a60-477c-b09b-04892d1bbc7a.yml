@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 2aa82eb6-0a60-477c-b09b-04892d1bbc7a
+  bundle: redirect
+  default_langcode: und
+  depends:
+    6cf0c327-69b9-430c-b2e9-26d40e7398d0: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: YsNUEXhgzwwBB0mrH9UnlxGd2htq4HjgJeYeDOcR8ZY
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/underkill.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 6cf0c327-69b9-430c-b2e9-26d40e7398d0
+  status_code:
+    -
+      value: 301

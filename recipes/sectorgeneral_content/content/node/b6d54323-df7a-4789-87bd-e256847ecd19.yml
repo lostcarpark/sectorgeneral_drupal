@@ -1,0 +1,91 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b6d54323-df7a-4789-87bd-e256847ecd19
+  bundle: edition
+  default_langcode: en
+  depends:
+    66446ec3-9233-47d7-a2be-7f6fdef808d7: media
+    12568fa6-5eb2-4053-a58e-6a01ad62be96: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    cbdf529a-740d-42cb-9460-96c61fec687d: taxonomy_term
+    a7b82729-0189-4053-8e54-a3c316573a0a: node
+    d155de23-f8ec-429d-8a37-7f51479031fa: taxonomy_term
+    7a6c4ed1-1562-43f6-8c94-935985ab5e97: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?373609'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Prisão aberta, Livros do Brasil, 1972'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/open-prison/prisao-aberta-livros-do-brasil-1972
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 66446ec3-9233-47d7-a2be-7f6fdef808d7
+  field_cover_artist:
+    -
+      entity: 12568fa6-5eb2-4053-a58e-6a01ad62be96
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Edicao Livres da Brasil, mid 1972 as Prisao Aberta”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?373609 (CC BY 4.0).
+  field_date_display:
+    -
+      value: Mid-1972
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '373609'
+  field_language:
+    -
+      entity: cbdf529a-740d-42cb-9460-96c61fec687d
+  field_novel:
+    -
+      entity: a7b82729-0189-4053-8e54-a3c316573a0a
+  field_pages:
+    -
+      value: 185
+  field_price:
+    -
+      value: P$15.00
+  field_publisher:
+    -
+      entity: d155de23-f8ec-429d-8a37-7f51479031fa
+  field_publisher_series:
+    -
+      entity: 7a6c4ed1-1562-43f6-8c94-935985ab5e97
+  field_publisher_series_number:
+    -
+      value: '181'
+  field_sort_date:
+    -
+      value: '1972-07-01'
+  field_year:
+    -
+      value: 1972

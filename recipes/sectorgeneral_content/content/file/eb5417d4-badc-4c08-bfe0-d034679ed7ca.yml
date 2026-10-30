@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: eb5417d4-badc-4c08-bfe0-d034679ed7ca
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 519ryv9g9pl.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/519ryv9g9pl.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 52295
+  status:
+    -
+      value: true

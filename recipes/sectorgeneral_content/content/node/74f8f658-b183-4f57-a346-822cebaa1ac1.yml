@@ -1,0 +1,81 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 74f8f658-b183-4f57-a346-822cebaa1ac1
+  bundle: edition
+  default_langcode: en
+  depends:
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    6edd89e8-88d6-4983-b0a1-6ab6f79a7215: node
+    a7db68df-cbcb-4bf3-ad1e-26874fce4a71: taxonomy_term
+    0094b470-35c6-4b64-9ac8-cfe7b5bf2570: taxonomy_term
+    85d23e94-a946-4625-8c1e-300ea4923d67: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the OPAC SBN: https://opac.sbn.it/bid/BVE0755837'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Naufragio trasparente, Mondadori, 1974'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/lifeboat/naufragio-trasparente-mondadori-1974
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “URANIA No 645, May 1974 as Naufragio Transparante”
+        OPAC SBN record https://opac.sbn.it/bid/BVE0755837.
+        OPAC SBN record https://opac.sbn.it/bid/RAV0994931.
+  field_date_display:
+    -
+      value: 'May 1974'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: 6edd89e8-88d6-4983-b0a1-6ab6f79a7215
+  field_pages:
+    -
+      value: 174
+  field_publisher:
+    -
+      entity: a7db68df-cbcb-4bf3-ad1e-26874fce4a71
+  field_publisher_reference:
+    -
+      value: '645'
+  field_publisher_series:
+    -
+      entity: 0094b470-35c6-4b64-9ac8-cfe7b5bf2570
+  field_publisher_series_number:
+    -
+      value: '645'
+  field_sort_date:
+    -
+      value: '1974-05-01'
+  field_translator:
+    -
+      entity: 85d23e94-a946-4625-8c1e-300ea4923d67
+  field_year:
+    -
+      value: 1974

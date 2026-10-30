@@ -1,0 +1,23 @@
+uuid: 35236b46-694e-4007-94b3-d7d60d861091
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sectorgeneral_theme
+id: sectorgeneral_theme_site_branding
+theme: sectorgeneral_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: ''
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

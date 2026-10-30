@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 242ab4d4-d289-4280-8ab6-324f95a0ab66
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?93232 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'To Kill or Cure'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/kill-or-cure
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>John Carnell once wrote that James White &quot;. . . lays no claim to originality of plot, but he does strive to present his stories in a pattern different to most of his contemporaries, and in that lies his success&quot; (The Best of NEW WORLDS, Boardman, 1955). I must say that &#039;To Kill or Cure&#039; -- apart from its Northern Irish locale and punch-line ending -- is quite a routine first-contact story. All the same, Jim nimbly bridged the gap between having an idea and then working it into dramatic shape.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?93232 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1957
+  field_isfdb_id:
+    -
+      value: '93232'
+  field_opening_excerpt:
+    -
+      value: '<p>The low pressure off the Hebrides was lashing the coasts of North-West Ireland and Scotland with rain squalls of nearly gale force when Trans-Ocean Airways Flight 317, while radioing her periodic positions check, reported engine trouble.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>NEW WORLDS No 58, April 1957 </p>
+        <p>Publication History: The Aliens Among Us</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 11000

@@ -1,0 +1,96 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3d6827ad-8262-4fba-9911-5b19c4bf8f15
+  bundle: anthology
+  default_langcode: en
+  depends:
+    0aba6c77-b093-4e19-9f09-77fd4ff7a0a1: node
+    b31579ee-28fe-4b25-9304-1b2bc45ad26a: media
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    649b675e-8e4b-401a-a42a-07cafcd94bc7: taxonomy_term
+    71f9d5fe-924a-4cc9-8ba1-fec4cfb3b446: taxonomy_term
+    7281d48e-a9e3-4a04-985e-1b1afc102c8f: taxonomy_term
+    6a823900-9a13-45e5-98e2-dfe4272c467e: taxonomy_term
+    a44e3066-2446-4ed4-bd48-b8f6ea2541c4: taxonomy_term
+    6f56d7f4-8158-4d2b-865f-ade5a0dd0306: taxonomy_term
+    eebaa47d-75ad-4975-b6ea-661419f420ab: taxonomy_term
+    d039de82-9a81-4c76-ad65-2d5996bf2275: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover replaced by a larger image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?23852'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Writings in SF 7'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/new-writings-sf-7
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Dennis Dobson, January 1966. Corgi paperback, August 1966.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 0aba6c77-b093-4e19-9f09-77fd4ff7a0a1
+  field_cover:
+    -
+      entity: b31579ee-28fe-4b25-9304-1b2bc45ad26a
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?34477 (CC BY 4.0).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1328103 (CC BY 4.0).
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_first_published_year:
+    -
+      value: 1966
+  field_isfdb_id:
+    -
+      value: '34477'
+  field_other_contributors:
+    -
+      entity: 649b675e-8e4b-401a-a42a-07cafcd94bc7
+    -
+      entity: 71f9d5fe-924a-4cc9-8ba1-fec4cfb3b446
+    -
+      entity: 7281d48e-a9e3-4a04-985e-1b1afc102c8f
+    -
+      entity: 6a823900-9a13-45e5-98e2-dfe4272c467e
+    -
+      entity: a44e3066-2446-4ed4-bd48-b8f6ea2541c4
+    -
+      entity: 6f56d7f4-8158-4d2b-865f-ade5a0dd0306
+  field_publisher:
+    -
+      entity: eebaa47d-75ad-4975-b6ea-661419f420ab
+  field_series:
+    -
+      entity: d039de82-9a81-4c76-ad65-2d5996bf2275
+  field_series_number:
+    -
+      value: 7

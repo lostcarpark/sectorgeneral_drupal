@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 62d529d1-5225-4997-8ae9-40ce1e7367c5
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    1c9523f2-6043-430c-baef-23a22a8821de: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Top SF 1 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: ab7a69f566d0b8648762efc3ec4a35701187b44b
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/7/7e/TPSFPJHGMN1986.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Top SF 1 cover'
+      title: ''
+      width: 390
+      height: 600
+      entity: 1c9523f2-6043-430c-baef-23a22a8821de
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?523449'
+      title: null
+      options: {  }

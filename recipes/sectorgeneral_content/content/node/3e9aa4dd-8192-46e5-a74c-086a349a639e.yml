@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3e9aa4dd-8192-46e5-a74c-086a349a639e
+  bundle: edition
+  default_langcode: en
+  depends:
+    a39349ed-c133-417d-bd35-32dc357f9713: media
+    12568fa6-5eb2-4053-a58e-6a01ad62be96: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    cbdf529a-740d-42cb-9460-96c61fec687d: taxonomy_term
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    d155de23-f8ec-429d-8a37-7f51479031fa: taxonomy_term
+    7a6c4ed1-1562-43f6-8c94-935985ab5e97: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?373665'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Médico espacial, Livros do Brasil'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-surgeon/medico-espacial-livros-do-brasil
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: a39349ed-c133-417d-bd35-32dc357f9713
+  field_cover_artist:
+    -
+      entity: 12568fa6-5eb2-4053-a58e-6a01ad62be96
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Livros do Brasil No 220, Lisbon, as Medico Espacial”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?373665 (CC BY 4.0).
+  field_date_display:
+    -
+      value: '1975'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_interior_artist:
+    -
+      entity: 12568fa6-5eb2-4053-a58e-6a01ad62be96
+  field_isfdb_id:
+    -
+      value: '373665'
+  field_language:
+    -
+      entity: cbdf529a-740d-42cb-9460-96c61fec687d
+  field_novel:
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+  field_pages:
+    -
+      value: 217
+  field_publisher:
+    -
+      entity: d155de23-f8ec-429d-8a37-7f51479031fa
+  field_publisher_reference:
+    -
+      value: '220'
+  field_publisher_series:
+    -
+      entity: 7a6c4ed1-1562-43f6-8c94-935985ab5e97
+  field_publisher_series_number:
+    -
+      value: '220'
+  field_sort_date:
+    -
+      value: '1975-01-01'
+  field_year:
+    -
+      value: 1975

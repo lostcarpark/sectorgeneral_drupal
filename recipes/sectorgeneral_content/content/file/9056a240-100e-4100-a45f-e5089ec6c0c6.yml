@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9056a240-100e-4100-a45f-e5089ec6c0c6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thdrmmllnn1982.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thdrmmllnn1982.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 115812
+  status:
+    -
+      value: true

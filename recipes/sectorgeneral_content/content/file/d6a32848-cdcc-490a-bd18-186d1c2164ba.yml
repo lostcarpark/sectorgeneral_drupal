@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d6a32848-cdcc-490a-bd18-186d1c2164ba
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mblnzschff1993.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mblnzschff1993.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 110684
+  status:
+    -
+      value: true

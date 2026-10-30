@@ -1,0 +1,28 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 7383b5d1-758d-4a1e-993c-37e35a632546
+  bundle: redirect
+  default_langcode: und
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: lzQCKwRw0MZoNWrhI0yl9-3WQlGYkfd7MiDh_VHl1EU
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: index.html
+      query: {  }
+  redirect_redirect:
+    -
+      uri: 'internal:/'
+      title: null
+      options: {  }
+  status_code:
+    -
+      value: 301

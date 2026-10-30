@@ -1,0 +1,25 @@
+uuid: 983a6cba-899e-484b-8695-db5d3bb4bd7c
+langcode: en
+status: true
+dependencies:
+  module:
+    - sectorgeneral
+    - system
+  theme:
+    - sectorgeneral_theme
+id: sectorgeneral_theme_explore
+theme: sectorgeneral_theme
+region: content
+weight: 11
+provider: null
+plugin: sectorgeneral_explore
+settings:
+  id: sectorgeneral_explore
+  label: Explore
+  label_display: visible
+  provider: sectorgeneral
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

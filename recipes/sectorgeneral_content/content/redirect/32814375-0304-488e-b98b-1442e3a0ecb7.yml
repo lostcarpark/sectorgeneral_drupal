@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 32814375-0304-488e-b98b-1442e3a0ecb7
+  bundle: redirect
+  default_langcode: und
+  depends:
+    e41d922c-fce1-4a62-a1ee-df0f7e7f3be0: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: bmOh5CJgRQBDcm35dGSuFnYmPLIBOOrEfAz67wvOiXk
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/all-judgement-fled/all-judgement-fled-mondadori-1980
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: e41d922c-fce1-4a62-a1ee-df0f7e7f3be0
+  status_code:
+    -
+      value: 301

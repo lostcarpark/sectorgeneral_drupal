@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b2e23948-e557-4711-b0fa-69c08e7f592e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: lnmrgncssc2002.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/lnmrgncssc2002.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 81446
+  status:
+    -
+      value: true

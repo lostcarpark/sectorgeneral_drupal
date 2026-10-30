@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 041f10bb-7c59-494f-a586-9268f3a6337e
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?326321 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Trouble with Emily'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/trouble-emily
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>&#039;Trouble with Emily&#039; is the second official Sector General short story to see print, and its also my personal favourite. Mainly, I confess, because of the dinosaur-alien named after one of the Brontë sisters -- Emily Brontosaurus. O&#039;Mara to Conway: &quot;I must say that I feel a pathological interest in a mind which thinks like that . . .&quot; Conway groans in sympathy. As did Bob Shaw, and every other member of the Belfast Science Fiction Group.</p>
+        <p>First Published: NEW WORLDS No 77, November 1958</p>
+        <p>Publishing History: Out of this World 2, Blackie and Sons, May 1961 Hospital Station (see under Books); Out of this World Choice Blackie, 1972, edited by Williams-Ellis/Owen.</p>
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?326321 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1958
+  field_isfdb_id:
+    -
+      value: '326321'
+  field_opening_excerpt:
+    -
+      value: '<p>It must have been one of the big colonial transports of the type which had carried four generation of colonists between the stars before the hyperdrive made such gargantuan ships obsolete, Conway though, as he stared at the great tear-drop shape framed in the direct vision port beside O&#039;Mara&#039;s desk.</p>'
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'

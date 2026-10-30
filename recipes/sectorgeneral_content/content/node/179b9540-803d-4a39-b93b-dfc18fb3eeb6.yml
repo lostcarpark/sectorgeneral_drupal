@@ -1,0 +1,86 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 179b9540-803d-4a39-b93b-dfc18fb3eeb6
+  bundle: anthology
+  default_langcode: en
+  depends:
+    388effb1-372e-4213-aa1e-20b4a8da3452: node
+    b66ca647-c5e1-4986-a836-df356a723732: media
+    4b278c8a-7844-416d-ac75-b465d7a863cf: taxonomy_term
+    84c71948-74e8-4b0c-8433-e5fda19096f2: taxonomy_term
+    2c9a5b75-5dc0-4ad7-bafa-ca81bdfad25f: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+    d8ad1c3d-4f9e-4290-9904-f73596c8783e: taxonomy_term
+    e3bd2009-7c4c-4845-b1d7-5b22bac2adbf: taxonomy_term
+    953482c3-c87a-48fa-baf9-45f8e9f1b193: taxonomy_term
+    63e24cf2-6c5f-4ffc-a9c3-e66f0b63a025: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?753227'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Weltraum Nr. 1'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/weltraum-nr-1
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Arena, 1974, Hardback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 388effb1-372e-4213-aa1e-20b4a8da3452
+  field_cover:
+    -
+      entity: b66ca647-c5e1-4986-a836-df356a723732
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?2667452 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 4b278c8a-7844-416d-ac75-b465d7a863cf
+  field_first_published_year:
+    -
+      value: 1974
+  field_isfdb_id:
+    -
+      value: '2667452'
+  field_other_contributors:
+    -
+      entity: 84c71948-74e8-4b0c-8433-e5fda19096f2
+    -
+      entity: 2c9a5b75-5dc0-4ad7-bafa-ca81bdfad25f
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+    -
+      entity: d8ad1c3d-4f9e-4290-9904-f73596c8783e
+    -
+      entity: e3bd2009-7c4c-4845-b1d7-5b22bac2adbf
+    -
+      entity: 953482c3-c87a-48fa-baf9-45f8e9f1b193
+  field_publisher:
+    -
+      entity: 63e24cf2-6c5f-4ffc-a9c3-e66f0b63a025

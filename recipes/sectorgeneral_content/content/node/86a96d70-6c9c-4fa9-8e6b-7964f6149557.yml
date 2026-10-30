@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 86a96d70-6c9c-4fa9-8e6b-7964f6149557
+  bundle: edition
+  default_langcode: en
+  depends:
+    b964a6c4-1102-4a2a-a542-15b25066c145: media
+    9671b40e-39b6-413f-821f-64fd956b0eb5: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    19b1cfbb-06d6-4aeb-b49b-d7bfc8768db5: node
+    9a196fcd-0584-4ca7-8ef6-6b2cdd8886e7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL1013069M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Final Diagnosis, Tor, 1997'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/final-diagnosis/final-diagnosis-tor-1997
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: b964a6c4-1102-4a2a-a542-15b25066c145
+  field_cover_artist:
+    -
+      entity: 9671b40e-39b6-413f-821f-64fd956b0eb5
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “TOR Books, NY, ISBN 0-312-86148-6, hardback, May 1997”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?13527 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL1013069M (CC0).
+  field_date_display:
+    -
+      value: 'May 1997'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isbn:
+    -
+      value: '9780312861483'
+  field_isfdb_id:
+    -
+      value: '13527'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 19b1cfbb-06d6-4aeb-b49b-d7bfc8768db5
+  field_oclc:
+    -
+      value: '36133389'
+  field_openlibrary_id:
+    -
+      value: OL1013069M
+  field_pages:
+    -
+      value: 284
+  field_price:
+    -
+      value: $22.95
+  field_publisher:
+    -
+      entity: 9a196fcd-0584-4ca7-8ef6-6b2cdd8886e7
+  field_sort_date:
+    -
+      value: '1997-05-01'
+  field_year:
+    -
+      value: 1997

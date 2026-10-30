@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5c56b6fd-1949-4b63-869a-3895c68f26ef
+  bundle: edition
+  default_langcode: en
+  depends:
+    26a42ad0-f3c7-4123-8589-9e15601f92cb: media
+    bdc8a848-6cd2-4fb5-95f5-9afa8a420619: taxonomy_term
+    42b8f78b-6a45-4b53-8c09-9abae4ded93e: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    cdf79cfa-ce0f-4b9f-89d0-f15a8ad13134: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover replaced by a larger image from Open Library: https://openlibrary.org/books/OL989147M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'All Judgement Fled, Old Earth Books, 1996'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/all-judgement-fled/all-judgement-fled-old-earth-books-1996
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 26a42ad0-f3c7-4123-8589-9e15601f92cb
+  field_cover_artist:
+    -
+      entity: bdc8a848-6cd2-4fb5-95f5-9afa8a420619
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Old Earth Books, Baltimore, ISBN 1-882926-07-7, August 1996”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?2222 (CC BY 4.0).
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?379968 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL989147M (CC0).
+  field_date_display:
+    -
+      value: 'August 1996'
+  field_format:
+    -
+      entity: 42b8f78b-6a45-4b53-8c09-9abae4ded93e
+  field_isbn:
+    -
+      value: '9781882968077'
+  field_isfdb_id:
+    -
+      value: '2222'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_oclc:
+    -
+      value: '35145731'
+  field_openlibrary_id:
+    -
+      value: OL989147M
+  field_pages:
+    -
+      value: 190
+  field_price:
+    -
+      value: $15.00
+  field_publisher:
+    -
+      entity: cdf79cfa-ce0f-4b9f-89d0-f15a8ad13134
+  field_sort_date:
+    -
+      value: '1996-08-01'
+  field_year:
+    -
+      value: 1996

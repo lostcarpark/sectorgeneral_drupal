@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8f62531c-e6bd-4e45-92ef-467feb825b56
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?90548 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Pushover Planet'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/pushover-planet
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>&quot;The remorseless aggressors had everything in the galaxy on their side -- except the little idiosyncrasies of the human mind!&quot; That Jingoistic blurb has been lifted from Murray Leinster&#039;s novel Talents, Incorporated (Avon, 1962), but it also fits &#039;Pushover Planet&#039; to a tall T. Crellegnan dur Shan, Fleet Commander of the thirty-ninth Planter Expedition (etc., etc., ad nauseam), pits his wits against a captured Human male called Murchison. And, of course, he fails miserably. Murchison might well be ancestrally related to the pneumatic pathologist of Sector General fame.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?90548 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1955
+  field_isfdb_id:
+    -
+      value: '90548'
+  field_opening_excerpt:
+    -
+      value: '<p>The fleet came in fast -- from the direction of the Crab Nebula -- and decelerating at a rate which made it fearfully evident that the ships contained nothing resembling Human life.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEBULA SCIENCE FICTION No 14, November 1955</p>'
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 9500

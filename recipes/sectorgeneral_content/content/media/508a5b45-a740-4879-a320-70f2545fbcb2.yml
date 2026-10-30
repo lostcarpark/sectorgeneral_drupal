@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 508a5b45-a740-4879-a320-70f2545fbcb2
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    f2532501-c5eb-47eb-b756-1162d51cb45c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Space 1 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 57b2efaccc3994c9f1568ac000adfdd07c52012e
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/1/17/SPACE3B1973.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Space 1 cover'
+      title: ''
+      width: 456
+      height: 600
+      entity: f2532501-c5eb-47eb-b756-1162d51cb45c
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?31365'
+      title: null
+      options: {  }

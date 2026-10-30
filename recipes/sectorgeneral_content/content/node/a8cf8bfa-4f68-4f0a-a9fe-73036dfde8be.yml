@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a8cf8bfa-4f68-4f0a-a9fe-73036dfde8be
+  bundle: edition
+  default_langcode: en
+  depends:
+    248a2a4d-a8eb-4e13-96f8-c301777749af: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    cb57b576-bba0-4654-976b-ef9f8b91a06f: node
+    f5eb0a05-7916-41fb-b75a-47d5fe8e1f6f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Retired: this serialisation is now listed issue by issue.'
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Dream Millennium, Galaxy, 1973'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/dream-millennium/dream-millennium-galaxy-1973
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'James White Information (original site): “GALAXY October,November, December 1973”'
+  field_date_display:
+    -
+      value: 'October & November & December 1973'
+  field_format:
+    -
+      entity: 248a2a4d-a8eb-4e13-96f8-c301777749af
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: cb57b576-bba0-4654-976b-ef9f8b91a06f
+  field_publisher:
+    -
+      entity: f5eb0a05-7916-41fb-b75a-47d5fe8e1f6f
+  field_sort_date:
+    -
+      value: '1973-10-01'
+  field_year:
+    -
+      value: 1973

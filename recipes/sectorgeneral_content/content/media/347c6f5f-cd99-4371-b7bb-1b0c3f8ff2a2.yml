@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 347c6f5f-cd99-4371-b7bb-1b0c3f8ff2a2
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    3af013e5-edb7-45cd-a52c-32722b5ad130: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Dark Inferno, Michael Joseph, 1972 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: e121992fe90868ead8202dc0316401f3b85ed9e5
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Lifeboat cover'
+      title: ''
+      width: 100
+      height: 157
+      entity: 3af013e5-edb7-45cd-a52c-32722b5ad130

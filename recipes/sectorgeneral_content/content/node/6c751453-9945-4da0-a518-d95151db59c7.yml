@@ -1,0 +1,130 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6c751453-9945-4da0-a518-d95151db59c7
+  bundle: anthology
+  default_langcode: en
+  depends:
+    575bf27f-73f9-4d5e-bdb8-35ffde6a27aa: node
+    d4755b1c-83f6-470e-b808-2aff7eca8be3: node
+    7232441a-47e2-48f5-8d84-5d6a3b97e79b: media
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    ae1b8ea3-df08-4563-8f60-954b209ec617: taxonomy_term
+    649b675e-8e4b-401a-a42a-07cafcd94bc7: taxonomy_term
+    078584af-381d-4b9f-9ce4-0a30014b1987: taxonomy_term
+    22786c6e-1ede-49f9-92d4-dede4b5e833c: taxonomy_term
+    9bb639bd-3c1c-4583-b63c-3c809051b5c7: taxonomy_term
+    a44e3066-2446-4ed4-bd48-b8f6ea2541c4: taxonomy_term
+    cfb517de-c06d-4f4d-8605-cf711df41713: taxonomy_term
+    0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea: taxonomy_term
+    6af6c40b-f822-46ad-bbf7-44f1dd2afa10: taxonomy_term
+    0d89f797-7332-4706-9ac4-b88083a2047e: taxonomy_term
+    e42795ff-1767-45d0-b623-f8bcce260f00: taxonomy_term
+    16034521-981a-4a20-b5be-cd74d1cde400: taxonomy_term
+    7b5abe3a-39d5-413e-855d-4c9529ee36b8: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+    286edfce-abb4-45aa-985b-048b205cec42: taxonomy_term
+    b226aeaa-e71f-48e7-b1bb-540fe32b5459: taxonomy_term
+    5bb06c6d-0e7f-44be-8351-6516ff48d265: taxonomy_term
+    d039de82-9a81-4c76-ad65-2d5996bf2275: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?33780 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Writings in SF 21'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/new-writings-sf-21
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Sidgwick &amp; Jackson, November 1972. Corgi paperback, September 1973.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 575bf27f-73f9-4d5e-bdb8-35ffde6a27aa
+    -
+      entity: d4755b1c-83f6-470e-b808-2aff7eca8be3
+  field_cover:
+    -
+      entity: 7232441a-47e2-48f5-8d84-5d6a3b97e79b
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?34491 (CC BY 4.0).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?33780 (CC BY 4.0).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1328358 (CC BY 4.0).
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+    -
+      entity: ae1b8ea3-df08-4563-8f60-954b209ec617
+  field_first_published_year:
+    -
+      value: 1972
+  field_isfdb_id:
+    -
+      value: '34491'
+  field_other_contributors:
+    -
+      entity: 649b675e-8e4b-401a-a42a-07cafcd94bc7
+    -
+      entity: 078584af-381d-4b9f-9ce4-0a30014b1987
+    -
+      entity: 22786c6e-1ede-49f9-92d4-dede4b5e833c
+    -
+      entity: 9bb639bd-3c1c-4583-b63c-3c809051b5c7
+    -
+      entity: a44e3066-2446-4ed4-bd48-b8f6ea2541c4
+    -
+      entity: cfb517de-c06d-4f4d-8605-cf711df41713
+    -
+      entity: 0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea
+    -
+      entity: 6af6c40b-f822-46ad-bbf7-44f1dd2afa10
+    -
+      entity: 0d89f797-7332-4706-9ac4-b88083a2047e
+    -
+      entity: e42795ff-1767-45d0-b623-f8bcce260f00
+    -
+      entity: 16034521-981a-4a20-b5be-cd74d1cde400
+    -
+      entity: 7b5abe3a-39d5-413e-855d-4c9529ee36b8
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+    -
+      entity: 286edfce-abb4-45aa-985b-048b205cec42
+    -
+      entity: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+  field_publisher:
+    -
+      entity: 5bb06c6d-0e7f-44be-8351-6516ff48d265
+  field_series:
+    -
+      entity: d039de82-9a81-4c76-ad65-2d5996bf2275
+  field_series_number:
+    -
+      value: 21

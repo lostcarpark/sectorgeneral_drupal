@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 47a95d2c-186e-4edc-a303-c45b53c40235
+  bundle: edition
+  default_langcode: en
+  depends:
+    d442c6ab-e701-4b95-af38-4d785e65f1f2: taxonomy_term
+    2ea7f198-8285-4883-b0f8-67628c811f1d: taxonomy_term
+    4c26336a-262a-4dad-ad60-fb46c6699def: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    62d17b3d-e68e-44a1-b04c-39ab378fc9b5: taxonomy_term
+    a9ab5940-0b20-48cf-b9fb-da0c8a912d9f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Created from the Polish National Library: https://data.bn.org.pl/api/institutions/bibs.json?id=2762848'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Szpital kosmiczny, Polski Związek Niewidomych. Zakład Wydawnictw i Nagrań, 1991'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/szpital-kosmiczny-polski-zwiazek-niewidomych-zaklad-wydawnictw-i-nagran-1991
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'Biblioteka Narodowa record https://data.bn.org.pl/api/institutions/bibs.json?id=2762848 (CC0).'
+  field_date_display:
+    -
+      value: '1991'
+  field_format:
+    -
+      entity: d442c6ab-e701-4b95-af38-4d785e65f1f2
+  field_language:
+    -
+      entity: 2ea7f198-8285-4883-b0f8-67628c811f1d
+  field_narrator:
+    -
+      entity: 4c26336a-262a-4dad-ad60-fb46c6699def
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_publisher:
+    -
+      entity: 62d17b3d-e68e-44a1-b04c-39ab378fc9b5
+  field_sort_date:
+    -
+      value: '1991-01-01'
+  field_translator:
+    -
+      entity: a9ab5940-0b20-48cf-b9fb-da0c8a912d9f
+  field_year:
+    -
+      value: 1991

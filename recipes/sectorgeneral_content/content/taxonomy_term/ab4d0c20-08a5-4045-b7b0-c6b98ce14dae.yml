@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: ab4d0c20-08a5-4045-b7b0-c6b98ce14dae
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Michael Bishop'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/michael-bishop
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

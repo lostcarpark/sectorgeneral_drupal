@@ -1,0 +1,111 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2c173c06-4324-4644-93cc-79dd46396550
+  bundle: novel
+  default_langcode: en
+  depends:
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930: node
+    1a769d87-0bc1-4c92-8ea8-4eaf6448a480: node
+    041f10bb-7c59-494f-a586-9268f3a6337e: node
+    bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2: node
+    2d8cc63a-c949-4a9d-bfb7-0d8bf9579938: node
+    4cad5e00-f923-42cd-a239-def5a90feced: node
+    809f2d30-8095-45d4-b6dd-0dda7cffaeb4: node
+    84d44110-a366-4db4-81d6-1a014d2f1d66: node
+    0aba6c77-b093-4e19-9f09-77fd4ff7a0a1: node
+    c6be35db-6629-46b5-a9a3-3f9780c74d65: node
+    5e234e43-63c3-4de7-b2bd-fd33c365f586: node
+    0ed15ef8-7d60-40bf-a183-67d85295468f: node
+    30b1aa3e-29cb-4423-8a98-4ecbfc391468: node
+    c21435b0-b329-40f3-90ad-dbceab5603a2: media
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Corrected contents and synopsis credit (scripts/fix_book_contents.php).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Beginning Operations'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/beginning-operations
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Includes Hospital Station, Star Surgeon and Major Operation in a combined volume.</p>'
+      format: basic_html
+      summary: 'A Sector General Omnibus containing Hospital Station, Star Surgeon and Major Operation.'
+  field_book_type:
+    -
+      value: omnibus
+  field_contained_books:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+    -
+      entity: 22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930
+  field_contents:
+    -
+      entity: 1a769d87-0bc1-4c92-8ea8-4eaf6448a480
+    -
+      entity: 041f10bb-7c59-494f-a586-9268f3a6337e
+    -
+      entity: bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2
+    -
+      entity: 2d8cc63a-c949-4a9d-bfb7-0d8bf9579938
+    -
+      entity: 4cad5e00-f923-42cd-a239-def5a90feced
+    -
+      entity: 809f2d30-8095-45d4-b6dd-0dda7cffaeb4
+    -
+      entity: 84d44110-a366-4db4-81d6-1a014d2f1d66
+    -
+      entity: 0aba6c77-b093-4e19-9f09-77fd4ff7a0a1
+    -
+      entity: c6be35db-6629-46b5-a9a3-3f9780c74d65
+    -
+      entity: 5e234e43-63c3-4de7-b2bd-fd33c365f586
+    -
+      entity: 0ed15ef8-7d60-40bf-a183-67d85295468f
+    -
+      entity: 30b1aa3e-29cb-4423-8a98-4ecbfc391468
+  field_cover:
+    -
+      entity: c21435b0-b329-40f3-90ad-dbceab5603a2
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?136589 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 2001
+  field_isfdb_id:
+    -
+      value: '136589'
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698

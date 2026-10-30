@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 9cfa70dd-fe6e-4a22-a328-274723a05c4e
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    fa0b0728-8b6f-4a04-8f60-f2ddcc353929: taxonomy_term
+    f43c8d69-c9ca-41f7-8dde-0e598b675dcf: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Sector General, Del Rey, 1987 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 40632c974e8a1a9015b37889a7007e743487ecc5
+  field_image_source:
+    -
+      entity: fa0b0728-8b6f-4a04-8f60-f2ddcc353929
+  field_image_url:
+    -
+      uri: 'https://covers.openlibrary.org/b/id/9913831-L.jpg?default=false'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Sector General, Del Rey, 1987 cover'
+      title: ''
+      width: 386
+      height: 500
+      entity: f43c8d69-c9ca-41f7-8dde-0e598b675dcf
+  field_source_url:
+    -
+      uri: 'https://openlibrary.org/books/OL9887566M'
+      title: null
+      options: {  }

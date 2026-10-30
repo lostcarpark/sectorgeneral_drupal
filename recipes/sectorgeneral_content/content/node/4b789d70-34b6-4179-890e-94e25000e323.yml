@@ -1,0 +1,102 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4b789d70-34b6-4179-890e-94e25000e323
+  bundle: edition
+  default_langcode: en
+  depends:
+    b7da37d5-0e7b-4e88-95ef-ad21eb113757: media
+    97841bd3-dee2-4f0f-b308-b40dc387a99d: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    a7b82729-0189-4053-8e54-a3c316573a0a: node
+    2489534c-0801-43c6-89f5-eb25fb1d11ea: taxonomy_term
+    cb7b58db-1396-485b-9e45-6df9a92afc35: taxonomy_term
+    90228187-34cb-4940-8b05-0a3fa16cfc49: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/458639648'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Gefängnis im All, Moewig, 1966'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/open-prison/gefangnis-im-all-moewig-1966
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: b7da37d5-0e7b-4e88-95ef-ad21eb113757
+  field_cover_artist:
+    -
+      entity: 97841bd3-dee2-4f0f-b308-b40dc387a99d
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “TERRA UTOPISCHE ROMANE No 107, DM2.40, March 1966 as Gefangnis im All”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?402543 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/458639648 (CC0).
+  field_date_display:
+    -
+      value: 'March 1966'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '402543'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: a7b82729-0189-4053-8e54-a3c316573a0a
+  field_oclc:
+    -
+      value: '73921644'
+  field_pages:
+    -
+      value: 159
+  field_price:
+    -
+      value: DM2.40
+  field_publisher:
+    -
+      entity: 2489534c-0801-43c6-89f5-eb25fb1d11ea
+  field_publisher_reference:
+    -
+      value: '107'
+  field_publisher_series:
+    -
+      entity: cb7b58db-1396-485b-9e45-6df9a92afc35
+  field_publisher_series_number:
+    -
+      value: '107'
+  field_sort_date:
+    -
+      value: '1966-03-01'
+  field_translator:
+    -
+      entity: 90228187-34cb-4940-8b05-0a3fa16cfc49
+  field_year:
+    -
+      value: 1966

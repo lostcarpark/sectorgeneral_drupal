@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 0c934fba-d3f7-42cc-bfa5-b71c0749b31e
+  bundle: redirect
+  default_langcode: und
+  depends:
+    7ca95962-725e-438b-9860-913571c7b174: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: m84Bg1QfOppFyH7cN73r6eY7JUrRchjT4dic8ebZtuo
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/monstersmedics.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 7ca95962-725e-438b-9860-913571c7b174
+  status_code:
+    -
+      value: 301

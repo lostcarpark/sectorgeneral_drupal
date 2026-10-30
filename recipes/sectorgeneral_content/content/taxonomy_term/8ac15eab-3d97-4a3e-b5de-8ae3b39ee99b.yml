@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8ac15eab-3d97-4a3e-b5de-8ae3b39ee99b
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Ru Emerson'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/ru-emerson
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

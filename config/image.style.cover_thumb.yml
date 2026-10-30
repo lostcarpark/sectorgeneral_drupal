@@ -1,0 +1,15 @@
+uuid: 9d897daf-e719-4e12-854a-bedc4e1b2159
+langcode: en
+status: true
+dependencies: {  }
+name: cover_thumb
+label: 'Cover thumbnail (within 80 x 120)'
+effects:
+  3f6fed6e-47a5-4d72-a294-99258efdbdaf:
+    uuid: 3f6fed6e-47a5-4d72-a294-99258efdbdaf
+    id: image_scale
+    weight: 0
+    data:
+      width: 80
+      height: 120
+      upscale: false

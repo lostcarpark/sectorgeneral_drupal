@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: ee56e534-c81a-474f-ab02-df6264b6d6fc
+  bundle: redirect
+  default_langcode: und
+  depends:
+    6df4b919-0f9b-4cee-a557-0f05c44e360d: taxonomy_term
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: x7hnMQjbJe1tPcZ2JJEBljYrRq-0Dz8RHe8pHiMyH-g
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: people/michel-parry
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 6df4b919-0f9b-4cee-a557-0f05c44e360d
+  status_code:
+    -
+      value: 301

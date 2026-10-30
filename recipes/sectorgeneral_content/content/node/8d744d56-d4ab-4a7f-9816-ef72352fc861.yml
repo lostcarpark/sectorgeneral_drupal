@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8d744d56-d4ab-4a7f-9816-ef72352fc861
+  bundle: edition
+  default_langcode: en
+  depends:
+    440695f9-01e3-46d2-964d-91daa30e1d25: media
+    887b6c01-eabd-4f86-adf3-d0f8e0e46d6c: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    77839f28-06fe-4a5d-819c-9a837540e410: node
+    47dcdfd9-5b9d-431e-b100-e494eb3e62cd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL10683716M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Deadly Litter, Del Rey / Ballantine, 1981'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/deadly-litter/deadly-litter-del-rey-ballantine-1981
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 440695f9-01e3-46d2-964d-91daa30e1d25
+  field_cover_artist:
+    -
+      entity: 887b6c01-eabd-4f86-adf3-d0f8e0e46d6c
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?501868 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL10683716M (CC0).
+  field_date_display:
+    -
+      value: 'September 1981'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345296405'
+  field_isfdb_id:
+    -
+      value: '501868'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 77839f28-06fe-4a5d-819c-9a837540e410
+  field_oclc:
+    -
+      value: '795507854'
+  field_openlibrary_id:
+    -
+      value: OL10683716M
+  field_pages:
+    -
+      value: 175
+  field_price:
+    -
+      value: C$2.75
+  field_publisher:
+    -
+      entity: 47dcdfd9-5b9d-431e-b100-e494eb3e62cd
+  field_sort_date:
+    -
+      value: '1981-09-01'
+  field_year:
+    -
+      value: 1981

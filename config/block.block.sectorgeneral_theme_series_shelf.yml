@@ -1,0 +1,25 @@
+uuid: b9236529-009d-4cae-a94e-7acd2037f4bc
+langcode: en
+status: true
+dependencies:
+  module:
+    - sectorgeneral
+    - system
+  theme:
+    - sectorgeneral_theme
+id: sectorgeneral_theme_series_shelf
+theme: sectorgeneral_theme
+region: content
+weight: 10
+provider: null
+plugin: sectorgeneral_series_shelf
+settings:
+  id: sectorgeneral_series_shelf
+  label: 'The Sector General series'
+  label_display: visible
+  provider: sectorgeneral
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

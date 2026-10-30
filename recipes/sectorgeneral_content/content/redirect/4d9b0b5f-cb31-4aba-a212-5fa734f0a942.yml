@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 4d9b0b5f-cb31-4aba-a212-5fa734f0a942
+  bundle: redirect
+  default_langcode: en
+  depends:
+    5a21c50d-7be2-4d12-b800-ec8f54cbf35f: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: Fmtu_TNV7HhpJ4XwZIHqTicLh7T1fxxZANQ3AOQ9BnY
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: edition/hospital-station-ballantine-1962
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 5a21c50d-7be2-4d12-b800-ec8f54cbf35f
+  status_code:
+    -
+      value: 301

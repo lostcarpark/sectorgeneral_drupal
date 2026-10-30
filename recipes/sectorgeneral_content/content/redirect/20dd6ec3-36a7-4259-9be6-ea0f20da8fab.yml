@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 20dd6ec3-36a7-4259-9be6-ea0f20da8fab
+  bundle: redirect
+  default_langcode: und
+  depends:
+    4cad5e00-f923-42cd-a239-def5a90feced: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: y-NW-mtWRUCRVlfaUS-4aPjTmqrQ1M7m1fSrSGAWiOg
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/outpatient.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 4cad5e00-f923-42cd-a239-def5a90feced
+  status_code:
+    -
+      value: 301

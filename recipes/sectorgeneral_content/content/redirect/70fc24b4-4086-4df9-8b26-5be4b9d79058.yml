@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 70fc24b4-4086-4df9-8b26-5be4b9d79058
+  bundle: redirect
+  default_langcode: und
+  depends:
+    5b2cb9d2-ff6b-4a22-ad0a-a8aae363b4ba: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: mvcFiIRXtiyVbQpdi0xs15MmXbL5ni5Uudw5dDAxB0o
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/new-writings-sf-12
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 5b2cb9d2-ff6b-4a22-ad0a-a8aae363b4ba
+  status_code:
+    -
+      value: 301

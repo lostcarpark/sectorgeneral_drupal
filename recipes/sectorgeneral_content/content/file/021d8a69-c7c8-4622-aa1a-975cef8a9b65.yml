@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 021d8a69-c7c8-4622-aa1a-975cef8a9b65
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hpnmrswqsq1956.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/hpnmrswqsq1956.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 78600
+  status:
+    -
+      value: true

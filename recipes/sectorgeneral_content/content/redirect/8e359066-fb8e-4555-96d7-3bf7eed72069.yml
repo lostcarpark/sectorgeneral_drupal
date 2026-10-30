@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 8e359066-fb8e-4555-96d7-3bf7eed72069
+  bundle: redirect
+  default_langcode: und
+  depends:
+    d4cd1539-557c-47d8-8cb1-eec206258260: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: SYutaltOGRv3VY0X8pUg3DuMHgGEkf_QjtIlvi04SfE
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/countercharm.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: d4cd1539-557c-47d8-8cb1-eec206258260
+  status_code:
+    -
+      value: 301

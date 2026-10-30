@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5a83408f-ca5b-4352-9012-b5b4a95db0a5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: whitepapersnesfa.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/whitepapersnesfa.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4763
+  status:
+    -
+      value: true

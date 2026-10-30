@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6b147a79-64e3-4777-91bd-721d379ecc60
+  bundle: edition
+  default_langcode: en
+  depends:
+    dc9650ca-f99e-48ef-9ad2-8cf0ba62ef41: media
+    8071308f-5acd-4658-b783-94f955f6baa7: taxonomy_term
+    42b8f78b-6a45-4b53-8c09-9abae4ded93e: taxonomy_term
+    dafaa345-a849-4fa4-a300-0a972ce878f2: taxonomy_term
+    22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930: node
+    12197298-dc4f-4b62-8dc7-f1bd2bddb90b: taxonomy_term
+    6aeb86f5-36b4-4067-9170-88f5902a92d6: taxonomy_term
+    b32d48a5-f5ba-430d-af61-7bc7af40bc14: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Translator name repaired: it had swallowed the rest of an ISFDB note.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'De Grote Operatie, Scala, 1977'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/major-operation/de-grote-operatie-scala-1977
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: dc9650ca-f99e-48ef-9ad2-8cf0ba62ef41
+  field_cover_artist:
+    -
+      entity: 8071308f-5acd-4658-b783-94f955f6baa7
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?521655 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '1977'
+  field_format:
+    -
+      entity: 42b8f78b-6a45-4b53-8c09-9abae4ded93e
+  field_isbn:
+    -
+      value: '9789062216413'
+  field_isfdb_id:
+    -
+      value: '521655'
+  field_language:
+    -
+      entity: dafaa345-a849-4fa4-a300-0a972ce878f2
+  field_novel:
+    -
+      entity: 22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930
+  field_oclc:
+    -
+      value: '63373298'
+  field_pages:
+    -
+      value: 210
+  field_publisher:
+    -
+      entity: 12197298-dc4f-4b62-8dc7-f1bd2bddb90b
+  field_publisher_series:
+    -
+      entity: 6aeb86f5-36b4-4067-9170-88f5902a92d6
+  field_sort_date:
+    -
+      value: '1977-01-01'
+  field_translator:
+    -
+      entity: b32d48a5-f5ba-430d-af61-7bc7af40bc14
+  field_year:
+    -
+      value: 1977

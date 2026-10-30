@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 5601c3c1-d92c-4af9-bd82-4f9bb7f5db6d
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'John Dyke'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/john-dyke
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

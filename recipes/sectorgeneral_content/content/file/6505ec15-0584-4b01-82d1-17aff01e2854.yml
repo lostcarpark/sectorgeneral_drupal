@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6505ec15-0584-4b01-82d1-17aff01e2854
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mjrprtneb1971.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mjrprtneb1971.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 116164
+  status:
+    -
+      value: true

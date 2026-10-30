@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 50ffac9c-dc56-4c9d-8ff2-d6914451a381
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Michael Herring'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/michael-herring
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

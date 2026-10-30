@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5626cf46-a57c-4252-bce6-1f67de2f483b
+  bundle: edition
+  default_langcode: en
+  depends:
+    5fb7f5ad-3dc1-4a87-a071-5cabef2be751: media
+    deae6e3d-2c69-4ebf-a5c1-822a3b508062: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    53a4b27b-9521-4e13-9bb8-0b89bf5a2904: node
+    47dcdfd9-5b9d-431e-b100-e494eb3e62cd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL9684018M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Federation World, Del Rey, 1988'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/federation-world/federation-world-del-rey-1988
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 5fb7f5ad-3dc1-4a87-a071-5cabef2be751
+  field_cover_artist:
+    -
+      entity: deae6e3d-2c69-4ebf-a5c1-822a3b508062
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ballantine/Del Rey ISBN 0-345-35263-7, $3.50, June 1988”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?13421 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9684018M (CC0).
+  field_date_display:
+    -
+      value: 'June 1988'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345352637'
+  field_isfdb_id:
+    -
+      value: '13421'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 53a4b27b-9521-4e13-9bb8-0b89bf5a2904
+  field_oclc:
+    -
+      value: '18030586'
+  field_openlibrary_id:
+    -
+      value: OL9684018M
+  field_pages:
+    -
+      value: 283
+  field_price:
+    -
+      value: $3.50
+  field_publisher:
+    -
+      entity: 47dcdfd9-5b9d-431e-b100-e494eb3e62cd
+  field_sort_date:
+    -
+      value: '1988-06-01'
+  field_year:
+    -
+      value: 1988

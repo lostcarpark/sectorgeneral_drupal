@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8ee192f3-f1c6-48a1-929a-010bf2de03a8
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Cyril Kornbluth'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/cyril-kornbluth
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 51d8afd4-747a-4b38-8019-bcacc0a466b2
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    388effb1-372e-4213-aa1e-20b4a8da3452: node
+    feb857d8-4336-404b-93fc-512a96d14f28: media
+    98198ea5-db97-409a-92f0-7f61cee9333f: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    c1eefd83-d896-4cdd-a218-1028fc3b6803: taxonomy_term
+    38edf45c-f60c-4c11-80e8-ba923e79c173: taxonomy_term
+    0ace682b-7932-42e9-8884-e2a79cec29cb: taxonomy_term
+    de3cabe4-4857-4a99-8011-78d290461e86: taxonomy_term
+    fa5f9ec4-9569-4bad-adf5-ab6576c22ca3: taxonomy_term
+    d793e903-dc94-4c0c-9acb-5a33e310f104: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'OPAC SBN credit and page-count note: https://opac.sbn.it/bid/RAV2164508'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Fantasia e Fantascienza 2, January 1963'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/fantasia-e-fantascienza/fantasia-e-fantascienza-2-january-1963
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Page count: <a href="https://opac.sbn.it/bid/RAV2164508">OPAC SBN</a> gives 123 pages, ISFDB 132; ISFDB may be counting the covers. SBN catalogues the issue (A. 1, n. 2 (gen. 1963)) under its lead story, <em>Ultimo risveglio</em>.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 388effb1-372e-4213-aa1e-20b4a8da3452
+  field_cover:
+    -
+      entity: feb857d8-4336-404b-93fc-512a96d14f28
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?299240 (CC BY 4.0).
+        OPAC SBN record https://opac.sbn.it/bid/RAV2164508.
+  field_date_display:
+    -
+      value: 'January 1963'
+  field_editor:
+    -
+      entity: 98198ea5-db97-409a-92f0-7f61cee9333f
+  field_isfdb_id:
+    -
+      value: '299240'
+  field_issue_number:
+    -
+      value: '2'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_magazine:
+    -
+      entity: c1eefd83-d896-4cdd-a218-1028fc3b6803
+  field_other_contributors:
+    -
+      entity: 38edf45c-f60c-4c11-80e8-ba923e79c173
+    -
+      entity: 0ace682b-7932-42e9-8884-e2a79cec29cb
+    -
+      entity: de3cabe4-4857-4a99-8011-78d290461e86
+    -
+      entity: fa5f9ec4-9569-4bad-adf5-ab6576c22ca3
+    -
+      entity: d793e903-dc94-4c0c-9acb-5a33e310f104
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 'Lit 250'
+  field_published_as:
+    -
+      value: 'Sorpresa di Natale (Part 1 of 2)'
+  field_sort_date:
+    -
+      value: '1963-01-01'
+  field_year:
+    -
+      value: 1963

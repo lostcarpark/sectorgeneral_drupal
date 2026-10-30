@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: fa97f5f0-2404-4426-a685-e4195a3daed3
+  bundle: redirect
+  default_langcode: und
+  depends:
+    b12a4de2-c47b-41ee-9f6f-47003efad86c: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: enEbRXt3oOLoZxoCx-IaZ_PADXa685uEsF9zonG2Vsc
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: books/deadly-litter/deadly-litter-ballantine-books-1970
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: b12a4de2-c47b-41ee-9f6f-47003efad86c
+  status_code:
+    -
+      value: 301

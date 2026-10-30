@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f9ffc49f-fb23-4194-b825-52ff8f98a097
+  bundle: short_story
+  default_langcode: en
+  depends:
+    6401dad9-6de7-49d5-91ee-ce109aa091f2: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?49489 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Scourge'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/scourge
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?49489 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1982
+  field_isfdb_id:
+    -
+      value: '49489'
+  field_series:
+    -
+      entity: 6401dad9-6de7-49d5-91ee-ce109aa091f2

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 46228e1a-c9d9-4957-9ec8-ca30fbf50c71
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: strhlrskfv0000.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/strhlrskfv0000.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 91861
+  status:
+    -
+      value: true

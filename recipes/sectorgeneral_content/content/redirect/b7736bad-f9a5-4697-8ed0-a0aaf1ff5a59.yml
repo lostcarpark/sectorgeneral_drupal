@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: b7736bad-f9a5-4697-8ed0-a0aaf1ff5a59
+  bundle: redirect
+  default_langcode: en
+  depends:
+    5bcce26b-0978-4e1c-bbb3-8ab4d39b1806: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: oYN9E87epp8IDYQomkyVL-Pe26RFXKZGREHG6c3zBTY
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/dream-millennium/il-sogno-del-millennio-editrice-nord-1977
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 5bcce26b-0978-4e1c-bbb3-8ab4d39b1806
+  status_code:
+    -
+      value: 301

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 3f0bd9b6-9e7a-4785-b781-8132c851dc6c
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Anthony Bari'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/anthony-bari
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ae7bd07b-3bd1-476a-8c76-48935faa74cd
+  bundle: anthology
+  default_langcode: en
+  depends:
+    ad7e263f-afa9-49e6-a611-f2fd53633b5e: node
+    4374efae-f985-49e9-b6f8-8f49be348a7b: media
+    e45ae887-0cd0-4bae-9356-9f2f2515af08: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    fb74c393-8501-42f6-9488-e2985f546df6: taxonomy_term
+    f85ed24b-28e2-43c7-a0a6-91703e540750: taxonomy_term
+    014399ab-eb12-46c4-bb86-24a6b218b4cf: taxonomy_term
+    03412753-2c7e-4dc0-ab17-7aa4af3b0f2e: taxonomy_term
+    423a6e7e-7053-4955-ad24-58d35b262107: taxonomy_term
+    87c9d28a-c51e-46fc-b04b-0af0be3bced4: taxonomy_term
+    ce5767f5-54a9-443d-a25e-d14d6b9bade9: taxonomy_term
+    ce89b0a2-4da9-49d4-ba3f-4ff0f4cf1acd: taxonomy_term
+    03c0e826-c5ee-456f-8600-d2652179fbeb: taxonomy_term
+    c430b938-8a50-4356-995f-d7806e11e76a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover replaced by a larger image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?33185'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Stellar 2'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/stellar-2
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Ballantine Books, February 1976, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: ad7e263f-afa9-49e6-a611-f2fd53633b5e
+  field_cover:
+    -
+      entity: 4374efae-f985-49e9-b6f8-8f49be348a7b
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?35535 (CC BY 4.0).
+  field_editor:
+    -
+      entity: e45ae887-0cd0-4bae-9356-9f2f2515af08
+  field_first_published_year:
+    -
+      value: 1976
+  field_isfdb_id:
+    -
+      value: '35535'
+  field_other_contributors:
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: fb74c393-8501-42f6-9488-e2985f546df6
+    -
+      entity: f85ed24b-28e2-43c7-a0a6-91703e540750
+    -
+      entity: 014399ab-eb12-46c4-bb86-24a6b218b4cf
+    -
+      entity: 03412753-2c7e-4dc0-ab17-7aa4af3b0f2e
+    -
+      entity: 423a6e7e-7053-4955-ad24-58d35b262107
+    -
+      entity: 87c9d28a-c51e-46fc-b04b-0af0be3bced4
+    -
+      entity: ce5767f5-54a9-443d-a25e-d14d6b9bade9
+    -
+      entity: ce89b0a2-4da9-49d4-ba3f-4ff0f4cf1acd
+  field_publisher:
+    -
+      entity: 03c0e826-c5ee-456f-8600-d2652179fbeb
+  field_series:
+    -
+      entity: c430b938-8a50-4356-995f-d7806e11e76a
+  field_series_number:
+    -
+      value: 2

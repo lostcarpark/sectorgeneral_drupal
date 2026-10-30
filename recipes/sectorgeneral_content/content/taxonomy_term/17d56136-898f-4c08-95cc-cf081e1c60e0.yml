@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 17d56136-898f-4c08-95cc-cf081e1c60e0
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Margaret St. Clair'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/margaret-st-clair
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

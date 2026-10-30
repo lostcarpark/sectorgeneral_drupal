@@ -1,0 +1,105 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 30afc91d-f5f2-48f1-8bf9-60b632434644
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    479badc7-cd74-457c-b26c-24edf27e7921: node
+    df52dab8-9657-4ab4-9da8-ca184033f04e: node
+    df55454c-03a3-4abb-ad0c-b38684a4edfa: node
+    f35a5863-faa7-4d58-a3d5-a0eb560d986c: media
+    b2ab0355-9d03-4e36-8878-2668dc1d64ea: taxonomy_term
+    72dc6815-5e19-4169-8ae8-0292db0a975e: taxonomy_term
+    2e686169-2332-48aa-9be4-d45c63a620b6: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    42dd2bc1-eab1-4b0e-adb3-c78567c039fd: taxonomy_term
+    07e0aafe-d821-43ab-99db-6d8ff7e855f4: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?299216 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Urania (collana) 421, 30 January 1966'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/urania-collana/urania-collana-421-30-january-1966
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 479badc7-cd74-457c-b26c-24edf27e7921
+    -
+      entity: df52dab8-9657-4ab4-9da8-ca184033f04e
+    -
+      entity: df55454c-03a3-4abb-ad0c-b38684a4edfa
+  field_cover:
+    -
+      entity: f35a5863-faa7-4d58-a3d5-a0eb560d986c
+  field_cover_artist:
+    -
+      entity: b2ab0355-9d03-4e36-8878-2668dc1d64ea
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?299216 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '30 January 1966'
+  field_editor:
+    -
+      entity: 72dc6815-5e19-4169-8ae8-0292db0a975e
+    -
+      entity: 2e686169-2332-48aa-9be4-d45c63a620b6
+  field_isfdb_id:
+    -
+      value: '299216'
+  field_issue_number:
+    -
+      value: '421'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_magazine:
+    -
+      entity: 42dd2bc1-eab1-4b0e-adb3-c78567c039fd
+  field_other_contributors:
+    -
+      entity: 07e0aafe-d821-43ab-99db-6d8ff7e855f4
+  field_pages:
+    -
+      value: 160
+  field_price:
+    -
+      value: 'Lit 200'
+  field_published_as:
+    -
+      value: 'Vortice di relitti'
+    -
+      value: 'Astronave a grappolo'
+    -
+      value: 'Il Comandante Ideale'
+  field_sort_date:
+    -
+      value: '1966-01-30'
+  field_year:
+    -
+      value: 1966

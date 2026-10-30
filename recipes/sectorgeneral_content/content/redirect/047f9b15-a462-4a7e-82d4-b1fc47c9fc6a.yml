@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 047f9b15-a462-4a7e-82d4-b1fc47c9fc6a
+  bundle: redirect
+  default_langcode: und
+  depends:
+    600d1080-80d7-4115-ab90-323bde9282aa: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: KSzT0cS_xDqN4xKdCrZcqg7f_FP-UkPl9JwJ4VZy69E
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/thestarwalk.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 600d1080-80d7-4115-ab90-323bde9282aa
+  status_code:
+    -
+      value: 301

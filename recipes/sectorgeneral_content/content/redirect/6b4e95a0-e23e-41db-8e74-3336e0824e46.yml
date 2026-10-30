@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 6b4e95a0-e23e-41db-8e74-3336e0824e46
+  bundle: redirect
+  default_langcode: und
+  depends:
+    2d8cc63a-c949-4a9d-bfb7-0d8bf9579938: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: Cjk9KJ8nOY6Atj2h9NHWN53UHXV1MZ9GAQXMNZM3lM4
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/omarasorphan.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 2d8cc63a-c949-4a9d-bfb7-0d8bf9579938
+  status_code:
+    -
+      value: 301

@@ -1,0 +1,19 @@
+uuid: fc9ecf3c-446f-4f56-a5dd-86bf1420a4a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_caption
+    - media.type.photo
+id: media.photo.field_caption
+field_name: field_caption
+entity_type: media
+bundle: photo
+label: Caption
+description: 'Who and what the photo shows, e.g. "James White at Novacon, 1990".'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

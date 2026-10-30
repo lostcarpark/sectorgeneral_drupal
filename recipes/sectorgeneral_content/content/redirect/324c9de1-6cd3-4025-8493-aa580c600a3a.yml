@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 324c9de1-6cd3-4025-8493-aa580c600a3a
+  bundle: redirect
+  default_langcode: und
+  depends:
+    ae7bd07b-3bd1-476a-8c76-48935faa74cd: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: F9L5PLHoOxt8XYT9DJfWn28n6P0e0oQnd7ypQ306PPI
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/stellar-2
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: ae7bd07b-3bd1-476a-8c76-48935faa74cd
+  status_code:
+    -
+      value: 301

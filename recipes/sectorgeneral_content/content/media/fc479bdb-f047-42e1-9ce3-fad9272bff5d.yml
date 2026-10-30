@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: fc479bdb-f047-42e1-9ce3-fad9272bff5d
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    fa0b0728-8b6f-4a04-8f60-f2ddcc353929: taxonomy_term
+    8aaf2e86-423d-403f-ac7c-19ad73f60c02: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Hospital Station, Del Rey, 1984 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: fc9eb80d23c7df6648573d10ec18286d837909b6
+  field_image_source:
+    -
+      entity: fa0b0728-8b6f-4a04-8f60-f2ddcc353929
+  field_image_url:
+    -
+      uri: 'https://covers.openlibrary.org/b/id/10027555-L.jpg?default=false'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Hospital Station, Del Rey, 1984 cover'
+      title: ''
+      width: 386
+      height: 500
+      entity: 8aaf2e86-423d-403f-ac7c-19ad73f60c02
+  field_source_url:
+    -
+      uri: 'https://openlibrary.org/books/OL9638995M'
+      title: null
+      options: {  }

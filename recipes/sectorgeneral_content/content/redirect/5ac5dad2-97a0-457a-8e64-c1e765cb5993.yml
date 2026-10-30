@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 5ac5dad2-97a0-457a-8e64-c1e765cb5993
+  bundle: redirect
+  default_langcode: en
+  depends:
+    976364aa-ef14-40a2-a4fb-6739877cb020: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: B7ifWUsrKMLCp5KBLTbhM7BlK2xk44ujLquAPip43o0
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/new-worlds/new-worlds-may-1960
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 976364aa-ef14-40a2-a4fb-6739877cb020
+  status_code:
+    -
+      value: 301

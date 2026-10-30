@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b2ab0355-9d03-4e36-8878-2668dc1d64ea
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Karel Thole'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/karel-thole
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

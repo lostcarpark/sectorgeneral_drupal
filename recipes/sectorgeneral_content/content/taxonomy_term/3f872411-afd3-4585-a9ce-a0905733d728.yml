@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 3f872411-afd3-4585-a9ce-a0905733d728
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Coutts Brisbane'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/coutts-brisbane
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

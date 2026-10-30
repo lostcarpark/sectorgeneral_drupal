@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b876f022-dd12-48b4-8b2b-dc351a41c214
+  bundle: edition
+  default_langcode: en
+  depends:
+    c5c856d9-0a2e-48db-9606-2aa5e076695d: media
+    1275b65b-0544-4918-a6f8-3476ee99a45a: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1: node
+    11fa2a69-c650-4cbb-9304-4d8c148eed95: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Own cover restored: a larger picture of a different edition had replaced it.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Ambulance Ship, Macdonald, 1986'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/ambulance-ship/ambulance-ship-macdonald-1986
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: c5c856d9-0a2e-48db-9606-2aa5e076695d
+  field_cover_artist:
+    -
+      entity: 1275b65b-0544-4918-a6f8-3476ee99a45a
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Macdonald hardcover, ISBN 0-356-14003-2, 25/7/86”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?2381 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL10688469M (CC0).
+  field_date_display:
+    -
+      value: '25 July 1986'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isbn:
+    -
+      value: '9780356140032'
+  field_isfdb_id:
+    -
+      value: '2381'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1
+  field_oclc:
+    -
+      value: '14932677'
+  field_openlibrary_id:
+    -
+      value: OL10688469M
+  field_pages:
+    -
+      value: 184
+  field_price:
+    -
+      value: £10.95
+  field_publisher:
+    -
+      entity: 11fa2a69-c650-4cbb-9304-4d8c148eed95
+  field_sort_date:
+    -
+      value: '1986-07-25'
+  field_year:
+    -
+      value: 1986

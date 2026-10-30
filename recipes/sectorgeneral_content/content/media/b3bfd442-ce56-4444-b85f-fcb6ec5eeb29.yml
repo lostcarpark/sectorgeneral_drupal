@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b3bfd442-ce56-4444-b85f-fcb6ec5eeb29
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    e5968d2f-efa0-4056-8fa9-0d06efc977b0: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Galactic Gourmet, Tor, 1996 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: c97fd7571623fa0dd1be53f4e7804b3936142c38
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Galactic Gourmet: Tor, 1996'
+      title: ''
+      width: 100
+      height: 155
+      entity: e5968d2f-efa0-4056-8fa9-0d06efc977b0

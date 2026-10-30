@@ -1,0 +1,99 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8bdbbc29-9006-4e7e-be08-908c6ec36789
+  bundle: novel
+  default_langcode: en
+  depends:
+    a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1: node
+    88796287-685a-48a2-b1cd-1c435ba27f09: node
+    62862122-c514-4f24-8c75-e5e6741745f4: node
+    d4755b1c-83f6-470e-b808-2aff7eca8be3: node
+    0490d978-c0c2-413a-9446-3af30ea67f35: node
+    d2fc1fcc-1af6-4b1b-87f6-9ae4f0a25718: node
+    05a12474-c329-4ca6-8160-c409f3784e94: node
+    0fc350d1-fc4b-4f0e-97fe-d0cf4450b272: node
+    f7d26100-42f0-45e8-bfca-70e063567bb4: node
+    c45cd35d-4b49-4485-b693-6d01d49d7686: node
+    e61ca6ea-4c23-4b94-9b2f-cb61764a7129: node
+    bea8fd54-d50d-470c-94f3-6b2966a8cdf7: media
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 252; brightness 0.84, edges 0.76).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Alien Emergencies'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/alien-emergencies
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Includes Ambulance Ship, Sector General and Star Healer novels in a single edition.</p>'
+      format: basic_html
+      summary: 'A Sector General Omnibus containing Ambulance Ship, Sector General and Star Healer.'
+  field_book_type:
+    -
+      value: omnibus
+  field_contained_books:
+    -
+      entity: a6d93c06-5ba7-4b5d-95e5-b2025b39bcf1
+    -
+      entity: 88796287-685a-48a2-b1cd-1c435ba27f09
+    -
+      entity: 62862122-c514-4f24-8c75-e5e6741745f4
+  field_contents:
+    -
+      entity: d4755b1c-83f6-470e-b808-2aff7eca8be3
+    -
+      entity: 0490d978-c0c2-413a-9446-3af30ea67f35
+    -
+      entity: d2fc1fcc-1af6-4b1b-87f6-9ae4f0a25718
+    -
+      entity: 05a12474-c329-4ca6-8160-c409f3784e94
+    -
+      entity: 0fc350d1-fc4b-4f0e-97fe-d0cf4450b272
+    -
+      entity: f7d26100-42f0-45e8-bfca-70e063567bb4
+    -
+      entity: c45cd35d-4b49-4485-b693-6d01d49d7686
+    -
+      entity: e61ca6ea-4c23-4b94-9b2f-cb61764a7129
+  field_cover:
+    -
+      entity: bea8fd54-d50d-470c-94f3-6b2966a8cdf7
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?136620 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 2002
+  field_isfdb_id:
+    -
+      value: '136620'
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698

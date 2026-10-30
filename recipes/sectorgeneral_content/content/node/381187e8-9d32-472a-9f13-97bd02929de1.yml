@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 381187e8-9d32-472a-9f13-97bd02929de1
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63754 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Patrol
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/patrol
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Sergeant McFall is Northern Ireland&#039;s answer to Sgt. Rock of Easy Company, jungle-fighting in a future Madagascar against Open Prison-type Bugs. Apart from the just-flown-in Lt. Nolan (Jim really liked that surname), McFall and his fellow patrol members are &quot;. . . veterans of this war, men who had no hope of winning it quickly because their enemy would not stand still and fight, and men who -- unlike the warriors of previous conflicts -- were hated rather than hero-worshipped by the civilians. Oh yes, a most frustrating war.&quot; Eat your heart out, Oliver Stone -- with fava beans.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63754 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1957
+  field_isfdb_id:
+    -
+      value: '63754'
+  field_opening_excerpt:
+    -
+      value: '<p>McFall watched the helicopter drop onto the tiny landing area -- its downwash threatening to blow over the nearby tents -- and a lieutenant jumped to the ground.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>NEW WORLDS No 55, January 1957 </p>
+        <p>Publication History: Futures Past</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 10000

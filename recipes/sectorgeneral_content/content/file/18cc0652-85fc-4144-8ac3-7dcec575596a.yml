@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 18cc0652-85fc-4144-8ac3-7dcec575596a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: aliensamonguscorgi.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/aliensamonguscorgi.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3778
+  status:
+    -
+      value: true

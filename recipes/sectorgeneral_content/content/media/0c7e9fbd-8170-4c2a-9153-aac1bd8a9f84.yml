@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 0c7e9fbd-8170-4c2a-9153-aac1bd8a9f84
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    78a96af3-5c2e-4f7f-92b0-388103ef0239: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Galaxy, October 1973 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: c63ae425520fef92b21c36698ccda553644251e1
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/3/30/GALOCT73.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Galaxy, October 1973 cover'
+      title: ''
+      width: 409
+      height: 600
+      entity: 78a96af3-5c2e-4f7f-92b0-388103ef0239
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?58640'
+      title: null
+      options: {  }

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 97841bd3-dee2-4f0f-b308-b40dc387a99d
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Karl Stephan'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/karl-stephan
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

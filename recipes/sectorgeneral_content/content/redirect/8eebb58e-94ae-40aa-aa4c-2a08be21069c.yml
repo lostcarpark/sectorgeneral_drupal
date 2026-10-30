@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 8eebb58e-94ae-40aa-aa4c-2a08be21069c
+  bundle: redirect
+  default_langcode: und
+  depends:
+    c4bd6ccf-64ec-4c59-98af-be0bd7d725b0: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: gGTgEgmw2Bdi2OwjOUUqQnQtvodBsXc2Q_wqsa09Da4
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: books/tomorrow-too-far/tomorrow-too-far-corgi-1973
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: c4bd6ccf-64ec-4c59-98af-be0bd7d725b0
+  status_code:
+    -
+      value: 301

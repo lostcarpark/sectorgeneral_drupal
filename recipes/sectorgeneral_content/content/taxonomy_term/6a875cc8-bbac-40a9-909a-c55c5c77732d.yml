@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 6a875cc8-bbac-40a9-909a-c55c5c77732d
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Krausz Tivadar'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/krausz-tivadar
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

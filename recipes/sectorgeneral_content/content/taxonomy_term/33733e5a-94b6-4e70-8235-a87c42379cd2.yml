@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 33733e5a-94b6-4e70-8235-a87c42379cd2
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Peter Hawkins'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/peter-hawkins
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

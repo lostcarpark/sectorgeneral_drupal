@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: e870af73-1f41-4ce3-b3df-f91fc2c4fa81
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    35a63231-e083-40da-b8c8-2fa6991a8410: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Notfall: Code Blau, Heyne Verlag, 1995 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 79a3be140e6adb8cb27209f35298f7ec7d4e4d98
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://m.media-amazon.com/images/I/91+pc2oxv5L.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Notfall: Code Blau, Heyne Verlag, 1995 cover'
+      title: ''
+      width: 1361
+      height: 2110
+      entity: 35a63231-e083-40da-b8c8-2fa6991a8410
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?1113044'
+      title: null
+      options: {  }

@@ -1,0 +1,21 @@
+uuid: 508151a2-d18f-419b-8c99-0431c9664adb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_rights_basis
+    - media.type.photo
+  module:
+    - options
+id: media.photo.field_rights_basis
+field_name: field_rights_basis
+entity_type: media
+bundle: photo
+label: 'Basis for use'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

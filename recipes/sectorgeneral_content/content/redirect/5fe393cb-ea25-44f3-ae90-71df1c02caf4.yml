@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 5fe393cb-ea25-44f3-ae90-71df1c02caf4
+  bundle: redirect
+  default_langcode: en
+  depends:
+    6f8d0473-9e43-4976-a3db-293719e2dc4c: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: HQyFG3rYJi_9o_RM4FsKlQyDnDjWnQSdu2xXbBQ4sI0
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/nebula/nebula-february-1959
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 6f8d0473-9e43-4976-a3db-293719e2dc4c
+  status_code:
+    -
+      value: 301

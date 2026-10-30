@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5e000242-78e2-4513-ba9c-451613a6c9d9
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63756 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Question of Cruelty'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/question-cruelty
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>&quot;We have been judge and executioner to many planets such as this. Very few have not been found wanting and allowed to survive. This one will be given exactly what it deserves . . .&quot; So sayeth Srilla, hanging-judge captain of an alien Execution Ship, about the latest planetary case on his docket. He must figure out Earth&#039;s first spacebeing, who bears only an evolutionary relationship to Yuri Gagarin. The last line almost, but not quite, matches that from A.E. van Vogt&#039;s &#039;Recruitng Station&#039; (Astounding, February 1942), aka Masters of Time and Earth&#039;s Last Fortress.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63756 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1956
+  field_isfdb_id:
+    -
+      value: '63756'
+  field_opening_excerpt:
+    -
+      value: '<p>The great flying wing, its controls sluggish in the high, rarefied air, came slowly out of the dive and pulled its nose up in a forty-five degree climb.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>NEW WORLDS No 44, February 1956 </p>
+        <p>Publication History: Futures Past</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 5250

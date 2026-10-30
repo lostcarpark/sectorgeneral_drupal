@@ -1,0 +1,23 @@
+uuid: 719a9616-8c44-4aa7-91f6-d912b6677290
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_source_url
+    - media.type.photo
+  module:
+    - link
+id: media.photo.field_source_url
+field_name: field_source_url
+entity_type: media
+bundle: photo
+label: 'Source page'
+description: 'The page the photo was found on.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

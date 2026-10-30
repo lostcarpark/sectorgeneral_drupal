@@ -1,0 +1,86 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5a21c50d-7be2-4d12-b800-ec8f54cbf35f
+  bundle: edition
+  default_langcode: en
+  depends:
+    a5bf74e2-e52e-4976-a9c1-71cc7db8d337: media
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    03c0e826-c5ee-456f-8600-d2652179fbeb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover replaced by a larger image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?17347'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Hospital Station, Ballantine, 1962'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/hospital-station-ballantine-1962
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: a5bf74e2-e52e-4976-a9c1-71cc7db8d337
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ballantine Books, NY, No 595, 50 cents, May 1962”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?17347 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'May 1962'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '17347'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_oclc:
+    -
+      value: '4429989'
+  field_pages:
+    -
+      value: 191
+  field_price:
+    -
+      value: '50 cents'
+  field_publisher:
+    -
+      entity: 03c0e826-c5ee-456f-8600-d2652179fbeb
+  field_publisher_reference:
+    -
+      value: '595'
+  field_sort_date:
+    -
+      value: '1962-05-01'
+  field_year:
+    -
+      value: 1962

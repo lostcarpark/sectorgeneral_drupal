@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6f32b607-ff85-413a-935d-cb8df11767a2
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    ae0d0a1a-f83b-4c57-9d48-72454a2a2b82: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Hospital Station, Corgi, 1976 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: c3f57a1c94987e1b00585e4863c0af3dbc4b7a59
+  field_media_image:
+    -
+      alt: 'Hospital Station, Corgi, 1976'
+      title: ''
+      width: 328
+      height: 500
+      entity: ae0d0a1a-f83b-4c57-9d48-72454a2a2b82

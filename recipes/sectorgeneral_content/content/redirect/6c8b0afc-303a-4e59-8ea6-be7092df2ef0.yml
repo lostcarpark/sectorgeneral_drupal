@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 6c8b0afc-303a-4e59-8ea6-be7092df2ef0
+  bundle: redirect
+  default_langcode: und
+  depends:
+    84d44110-a366-4db4-81d6-1a014d2f1d66: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 00Mnz7bgFWMvoihZncgiuYxqdPxVgr1tljJ1Sy_R8RI
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/field-hospital
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 84d44110-a366-4db4-81d6-1a014d2f1d66
+  status_code:
+    -
+      value: 301

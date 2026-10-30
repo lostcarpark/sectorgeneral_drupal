@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: eaa92a66-c981-491d-ad33-7b3c316e4ce6
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Terry Maloney'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/terry-maloney
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 476c27c9-4cc1-4dae-8014-209aa9d3cfff
+  bundle: format
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Ebook
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /formats/ebook
+      langcode: en
+      pathauto: 1

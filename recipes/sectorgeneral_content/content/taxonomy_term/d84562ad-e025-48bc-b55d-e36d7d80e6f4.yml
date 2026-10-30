@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d84562ad-e025-48bc-b55d-e36d7d80e6f4
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Morrow
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/morrow
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

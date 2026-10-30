@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5dc60eff-fbc8-4e34-9112-018d84eace92
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: firstprotector.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/firstprotector.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4371
+  status:
+    -
+      value: true

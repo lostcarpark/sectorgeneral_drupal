@@ -1,0 +1,26 @@
+uuid: 59d08042-c100-4844-9175-f7a399e54bec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_interior_artist
+    - node.type.magazine_issue
+    - taxonomy.vocabulary.people
+id: node.magazine_issue.field_interior_artist
+field_name: field_interior_artist
+entity_type: node
+bundle: magazine_issue
+label: 'Illustrations by'
+description: "Who illustrated James White's story or serial in this issue."
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      people: people
+    auto_create: true
+    auto_create_bundle: people
+field_type: entity_reference

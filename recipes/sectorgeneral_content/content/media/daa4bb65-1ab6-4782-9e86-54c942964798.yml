@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: daa4bb65-1ab6-4782-9e86-54c942964798
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    a1e18e44-0a2e-44e5-a499-289cf1cfe8d2: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Der Wunderheiler, Heyne Verlag, 1995 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: ad9d33cfa2a3243bf3502fcf480001765cd9559d
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://isfdb.org/wiki/images/a/ae/DRWNDRHLRK1995.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Der Wunderheiler, Heyne Verlag, 1995 cover'
+      title: ''
+      width: 382
+      height: 600
+      entity: a1e18e44-0a2e-44e5-a499-289cf1cfe8d2
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?1113043'
+      title: null
+      options: {  }

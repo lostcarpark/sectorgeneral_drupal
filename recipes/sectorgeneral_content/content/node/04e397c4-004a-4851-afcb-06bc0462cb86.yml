@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 04e397c4-004a-4851-afcb-06bc0462cb86
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    df52dab8-9657-4ab4-9da8-ca184033f04e: node
+    2885ffae-f7ef-4133-9338-49a8332166ba: media
+    1fea30ba-0e0d-469d-9e2e-ab66341af015: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    e613edcf-203e-48ff-8a70-3dc22f2becd4: taxonomy_term
+    15b4b4fc-75c7-476e-99ac-3d01f105cf30: taxonomy_term
+    684df443-273d-4c5d-8497-99b2a24f00e6: taxonomy_term
+    73d8daa8-a0cc-43ef-82e7-92cb94dea918: taxonomy_term
+    c4720a29-57d9-48db-87b1-3e7893765cbc: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59623 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds 88, November 1959'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-88-november-1959
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: df52dab8-9657-4ab4-9da8-ca184033f04e
+  field_cover:
+    -
+      entity: 2885ffae-f7ef-4133-9338-49a8332166ba
+  field_cover_artist:
+    -
+      entity: 1fea30ba-0e0d-469d-9e2e-ab66341af015
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59623 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'November 1959'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_isfdb_id:
+    -
+      value: '59623'
+  field_issue_number:
+    -
+      value: '88'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: e613edcf-203e-48ff-8a70-3dc22f2becd4
+    -
+      entity: 15b4b4fc-75c7-476e-99ac-3d01f105cf30
+    -
+      entity: 684df443-273d-4c5d-8497-99b2a24f00e6
+    -
+      entity: 73d8daa8-a0cc-43ef-82e7-92cb94dea918
+    -
+      entity: c4720a29-57d9-48db-87b1-3e7893765cbc
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 2/-
+  field_sort_date:
+    -
+      value: '1959-11-01'
+  field_year:
+    -
+      value: 1959

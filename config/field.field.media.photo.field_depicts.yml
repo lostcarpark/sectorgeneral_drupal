@@ -1,0 +1,25 @@
+uuid: b1d1cd23-7e75-416c-b2c0-925850f4c954
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_depicts
+    - media.type.photo
+    - taxonomy.vocabulary.people
+id: media.photo.field_depicts
+field_name: field_depicts
+entity_type: media
+bundle: photo
+label: Shows
+description: 'The people in the photo.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      people: people
+    auto_create: false
+field_type: entity_reference

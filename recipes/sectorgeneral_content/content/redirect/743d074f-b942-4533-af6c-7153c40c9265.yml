@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 743d074f-b942-4533-af6c-7153c40c9265
+  bundle: redirect
+  default_langcode: en
+  depends:
+    459fd984-bc31-41e6-8357-8780899f1934: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: ss6wXW4tU40XHnIUtkYQshiuXQ6ZmqctYwkRGaan6-E
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: edition/hospital-station-futura-corgi-1986
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 459fd984-bc31-41e6-8357-8780899f1934
+  status_code:
+    -
+      value: 301

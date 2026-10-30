@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: dc3bff4a-14d8-4802-8f27-cde6060139b3
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Martin H. Greenberg'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/martin-h-greenberg
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

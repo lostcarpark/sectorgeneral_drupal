@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 45b3d6e4-b21c-4081-a3f4-881e1e669f8e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mlo722.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mlo722.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 111804
+  status:
+    -
+      value: true

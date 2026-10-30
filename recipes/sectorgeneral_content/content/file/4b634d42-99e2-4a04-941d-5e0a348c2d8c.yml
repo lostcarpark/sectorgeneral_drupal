@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4b634d42-99e2-4a04-941d-5e0a348c2d8c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: secretvisitorsnel.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/secretvisitorsnel.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3913
+  status:
+    -
+      value: true

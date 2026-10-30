@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9b1202e7-a80e-4c92-b146-d00078b4d127
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?57728 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Conspirators'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/conspirators
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>White based &#039;The Conspirators&#039; upon A. Bertram Chandler&#039;s &#039;Giant Killer&#039; (Astounding, October 1945), about mutated rats attempting to take over a generation starship. He was no mere copycat, however, despite the presence of Felix (the ship&#039;s feline Mascot). For some unexplained/inexplicable reason, all Shipboard animals have not only become super-intelligent but conveniently telepathic. Felix &quot;felt awed as he thought of Whitey in Bio-lab Three . . . surrounded by Big Ones, and the Small Ones who weren&#039;t on relay duties, and all of them working on Escape.&quot; (Whitey is a laboratory mouse endowed with leadership skills.) It reads a bit like Animal (Hydroponics) Farm, but the conclusion is light-years removed from both Orwellian cynicism and Campbell&#039;s increasingly hawkish Astounding</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?57728 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1954
+  field_isfdb_id:
+    -
+      value: '57728'
+  field_opening_excerpt:
+    -
+      value: '<p>Something had gone wrong.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>NEW WORLDS No 24, June 1954 </p>
+        <p>Publication History: S-F ADVENTURES IN MUTATION, Ed Groff Conklin, Vanguard, New York, January 1956 MIND TO MIND, Ed Robert Silverberg, Thomas Nelson, New York, 1971 SUPERNATURAL CATS, Ed Claire Necker, Doubleday, March 1973 STRANGE UNIVERSE, Blackie, 1975 MIND TO MIND, Ed Robert Silverberg, paperback, February 1974 </p>
+        <p>Foreign Publication: .FICTION No 213, September 1971 as Les Conspirateurs HISTOIRES DE CREATURES, Livre des Poche, No 3787, 1984</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 11000

@@ -1,0 +1,35 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json
+name: Book card
+status: stable
+description: A book in a listing - its cover in a fixed 2:3 frame, then its title, year, type and series. The cover and title link to the book.
+props:
+  type: object
+  required:
+    - title
+    - url
+  properties:
+    title:
+      type: string
+      title: Title
+    url:
+      type: string
+      title: URL
+      description: Address of the book's page.
+    year:
+      type: string
+      title: Year
+      description: Year first published.
+    type:
+      type: string
+      title: Type
+      description: e.g. Novel, Fix-up novel, Collection.
+    series:
+      type: string
+      title: Series
+    series_number:
+      type: string
+      title: Number in series
+slots:
+  cover:
+    title: Cover
+    description: The cover image. Without one, the title is shown in the frame instead.

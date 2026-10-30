@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c2350773-2cc2-42f2-92a3-bee53488d072
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: u309.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/u309.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 44862
+  status:
+    -
+      value: true

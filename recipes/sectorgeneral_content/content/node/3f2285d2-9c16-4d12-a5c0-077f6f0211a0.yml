@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3f2285d2-9c16-4d12-a5c0-077f6f0211a0
+  bundle: edition
+  default_langcode: en
+  depends:
+    b152bc17-c3fc-4edb-9156-c91ba45217b4: media
+    58c75128-7632-46e2-a8b8-015ae50feb35: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+    0fc0637d-f524-4bf9-a5cb-64be66c6edde: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?46777'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Secret Visitors, Ace, 1967'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/secret-visitors/secret-visitors-ace-1967
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: b152bc17-c3fc-4edb-9156-c91ba45217b4
+  field_cover_artist:
+    -
+      entity: 58c75128-7632-46e2-a8b8-015ae50feb35
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ace Pocketbooks G-675, 2nd ed, December 1967”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?46777 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'December 1967'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '46777'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: fec32d28-7455-4a8a-a448-67c3af694c28
+  field_oclc:
+    -
+      value: '40475986'
+  field_pages:
+    -
+      value: 155
+  field_price:
+    -
+      value: $0.50
+  field_printing:
+    -
+      value: '2nd edition'
+  field_publisher:
+    -
+      entity: 0fc0637d-f524-4bf9-a5cb-64be66c6edde
+  field_publisher_reference:
+    -
+      value: G-675
+  field_sort_date:
+    -
+      value: '1967-12-01'
+  field_year:
+    -
+      value: 1967

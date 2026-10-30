@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: dc0f05ee-6ecc-42de-ba5a-1a059b8e336c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: rmnzdlcsmx1957.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/rmnzdlcsmx1957.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 110662
+  status:
+    -
+      value: true

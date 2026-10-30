@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4bef080b-de18-4e7c-a97e-113af13d4d71
+  bundle: edition
+  default_langcode: en
+  depends:
+    d4ec26a4-75bc-4343-92e0-6317b2d6c814: media
+    ee3a3b00-f7ba-45a1-b0e6-4b071e92c13f: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    32dfb838-1b85-446d-8f00-f65cfd4d0785: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL15060268M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'All Judgement Fled, Corgi, 1969'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/all-judgement-fled/all-judgement-fled-corgi-1969
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: d4ec26a4-75bc-4343-92e0-6317b2d6c814
+  field_cover_artist:
+    -
+      entity: ee3a3b00-f7ba-45a1-b0e6-4b071e92c13f
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Transworld/Corgi No 552-08198-1, July 1969”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?152561 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL15060268M (CC0).
+  field_date_display:
+    -
+      value: 'July 1969'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780552081986'
+  field_isfdb_id:
+    -
+      value: '152561'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_oclc:
+    -
+      value: '18143039'
+  field_openlibrary_id:
+    -
+      value: OL15060268M
+  field_pages:
+    -
+      value: 140
+  field_price:
+    -
+      value: 3/6
+  field_publisher:
+    -
+      entity: 32dfb838-1b85-446d-8f00-f65cfd4d0785
+  field_sort_date:
+    -
+      value: '1969-07-01'
+  field_year:
+    -
+      value: 1969

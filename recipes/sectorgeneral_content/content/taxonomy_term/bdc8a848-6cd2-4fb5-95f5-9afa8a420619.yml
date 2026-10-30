@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: bdc8a848-6cd2-4fb5-95f5-9afa8a420619
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Julie Burris'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/julie-burris
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

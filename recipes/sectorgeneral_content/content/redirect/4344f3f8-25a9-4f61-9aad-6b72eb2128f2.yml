@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 4344f3f8-25a9-4f61-9aad-6b72eb2128f2
+  bundle: redirect
+  default_langcode: und
+  depends:
+    0b49af9f-a6ee-4242-a6a9-50974c67f7f3: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: adqShRR2wI5QI_IKKpTT_z4e4GLsbWXyDFUvAzq0XQM
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/new-worlds/new-worlds-magazine-october-1956
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 0b49af9f-a6ee-4242-a6a9-50974c67f7f3
+  status_code:
+    -
+      value: 301

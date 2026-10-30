@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4922bbf7-cb6c-46c9-99da-df466f6d73f9
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    0eacfc88-38f6-45c6-afb3-19b1b734e34c: media
+    7b178c1c-91e5-4a4a-957b-75a6be487e86: taxonomy_term
+    943f5aea-73c1-4c4c-87b4-8134324cc938: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    1b570ef4-719e-4946-8a3b-231033cc201d: taxonomy_term
+    a2ee02d7-7ff4-4e7c-9948-0a6bc13a911b: taxonomy_term
+    c7d23465-a400-4e45-82d6-681a90ea8d24: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?300647 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Galassia 66, 1 June 1966'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/galassia/galassia-66-1-june-1966
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+  field_cover:
+    -
+      entity: 0eacfc88-38f6-45c6-afb3-19b1b734e34c
+  field_cover_artist:
+    -
+      entity: 7b178c1c-91e5-4a4a-957b-75a6be487e86
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?300647 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '1 June 1966'
+  field_editor:
+    -
+      entity: 943f5aea-73c1-4c4c-87b4-8134324cc938
+  field_isfdb_id:
+    -
+      value: '300647'
+  field_issue_number:
+    -
+      value: '66'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_magazine:
+    -
+      entity: 1b570ef4-719e-4946-8a3b-231033cc201d
+  field_other_contributors:
+    -
+      entity: a2ee02d7-7ff4-4e7c-9948-0a6bc13a911b
+    -
+      entity: c7d23465-a400-4e45-82d6-681a90ea8d24
+  field_pages:
+    -
+      value: 220
+  field_price:
+    -
+      value: 'Lit 300'
+  field_published_as:
+    -
+      value: 'Ospedale da combattimento (Complete Novel)'
+  field_sort_date:
+    -
+      value: '1966-06-01'
+  field_year:
+    -
+      value: 1966

@@ -1,0 +1,92 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b75d75b7-6673-4b6e-b4bb-46887e857b73
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    a5d12d51-d64f-437c-8e8e-701ea08835f1: node
+    aad90d5d-c41d-4d1e-83ab-ef6c5fe2c6e9: media
+    b2ab0355-9d03-4e36-8878-2668dc1d64ea: taxonomy_term
+    74834777-104c-460d-ba70-1e1457a470bc: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    42dd2bc1-eab1-4b0e-adb3-c78567c039fd: taxonomy_term
+    29ea04b5-102f-42d6-beec-4a97c31c6b4f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?380597 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Urania (collana) 1012, 22 December 1985'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/urania-collana/urania-collana-1012-22-december-1985
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: a5d12d51-d64f-437c-8e8e-701ea08835f1
+  field_cover:
+    -
+      entity: aad90d5d-c41d-4d1e-83ab-ef6c5fe2c6e9
+  field_cover_artist:
+    -
+      entity: b2ab0355-9d03-4e36-8878-2668dc1d64ea
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?380597 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '22 December 1985'
+  field_editor:
+    -
+      entity: 74834777-104c-460d-ba70-1e1457a470bc
+  field_isfdb_id:
+    -
+      value: '380597'
+  field_issue_number:
+    -
+      value: '1012'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_magazine:
+    -
+      entity: 42dd2bc1-eab1-4b0e-adb3-c78567c039fd
+  field_other_contributors:
+    -
+      entity: 29ea04b5-102f-42d6-beec-4a97c31c6b4f
+  field_pages:
+    -
+      value: 222
+  field_price:
+    -
+      value: 'Lit 3,000'
+  field_published_as:
+    -
+      value: 'Qualcosa Che Vale'
+  field_sort_date:
+    -
+      value: '1985-12-22'
+  field_year:
+    -
+      value: 1985

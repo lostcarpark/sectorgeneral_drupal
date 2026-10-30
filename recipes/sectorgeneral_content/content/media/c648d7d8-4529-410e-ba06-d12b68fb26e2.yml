@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c648d7d8-4529-410e-ba06-d12b68fb26e2
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    df90a4c5-2117-4fed-ba9a-d7b649507026: taxonomy_term
+    12874823-5f2d-4896-90e4-ec4cf9cabecb: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: james_white_Szpital_Kosmiczny_2.jpg
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_source:
+    -
+      entity: df90a4c5-2117-4fed-ba9a-d7b649507026
+  field_media_image:
+    -
+      alt: 'Cover of Szpital Kosmiczny (2002)'
+      title: ''
+      width: 352
+      height: 500
+      entity: 12874823-5f2d-4896-90e4-ec4cf9cabecb
+  field_source_url:
+    -
+      uri: 'https://lubimyczytac.pl/ksiazka/4444/szpital-kosmiczny'
+      title: ''
+      options: {  }

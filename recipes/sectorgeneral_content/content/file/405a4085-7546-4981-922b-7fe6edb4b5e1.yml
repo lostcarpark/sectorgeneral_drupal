@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 405a4085-7546-4981-922b-7fe6edb4b5e1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: strsrgnnzz1963.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/strsrgnnzz1963.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 92895
+  status:
+    -
+      value: true

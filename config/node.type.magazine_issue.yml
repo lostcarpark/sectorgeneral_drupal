@@ -1,0 +1,11 @@
+uuid: 110a37ca-c0f7-4941-bea8-8c80584db4e8
+langcode: en
+status: true
+dependencies: {  }
+name: 'Magazine issue'
+type: magazine_issue
+description: 'A single issue of a magazine in which a story appeared. Title it like "New Worlds 95, June 1960".'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

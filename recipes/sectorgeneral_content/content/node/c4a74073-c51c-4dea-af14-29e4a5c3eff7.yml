@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c4a74073-c51c-4dea-af14-29e4a5c3eff7
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63752 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Curtain Call'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/curtain-call
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>White&#039;s first mood piece/character study. Gregory Mitchell is a misanthropic news commentator who believes that people are &quot;disease spots, just so many wild variables in an otherwise sane and scientifically well-ordered universe.&quot; Mitch (likely enough names after the Stephen Mitchell character in Charles Chilton&#039;s Jounrney Into Space BBC radio series) rethinks his attitude during a lone vigil on the Moon. Meanwhile, humanity itself might or might not be on the brink of self-destruction from a &#039;fireworks display&#039; ignited by the Mark 17 Bacteriological Bomb. And what do those three aliens think of it all . . .?</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63752 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1954
+  field_isfdb_id:
+    -
+      value: '63752'
+  field_opening_excerpt:
+    -
+      value: '<p>The crater was small and typical, just another unnamed pockmark on the wrinkled and pitted face of the Moon in the vicinity of Petavius.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>NEBULA SCIENCE FICTION No 9,August 1954 </p>
+        <p>Publication History: Futures Past</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 4000

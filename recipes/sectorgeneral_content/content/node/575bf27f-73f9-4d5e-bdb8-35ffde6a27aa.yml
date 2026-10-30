@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 575bf27f-73f9-4d5e-bdb8-35ffde6a27aa
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63750 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Commuter
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/commuter
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>‘Mr Smith’ (the sad-sack suspect) is being interrogated by bad-cop Sergeant Greer and good-cop Inspector Michaelson. “. . . Sergeant Greer was completely lacking in charm when he was angry”/Michaelson kept his tone grim but friendly . . .” So far, so Dime Detective magazine. But we soon find ourselves reading the best time-crossed lovers short story yet written.* If ‘Commuter’ had been published in Galaxy or F &amp; SF instead of the Anglocentric NWiSF, I feel sure that Jim would have notched up another Hugo award nomination. (Voters for the 1972 Retro-Hugos please take note.)</p>
+        <p>I don’t care what anybody else thinks. Especially you – at the back.</p>
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?63750 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1972
+  field_isfdb_id:
+    -
+      value: '63750'
+  field_opening_excerpt:
+    -
+      value: '<p>The suspect was dishevelled and, if he was contused as well, the sergeant had left his marks in places where they did not show.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WRITINGS IN SF 21, ed John Carnell, Sidgewick &amp; Jackson,November 1972 WRITINGS IN SF 21,Corgi pb, September 1973 NEW WRITINGS IN SF Special One, eds Carnell/Bulmer, Sidgewick &amp; Jackson omnibus edition, contents NW IN SF Nos, 21-22-23, July 1975 Forgein Publication: Orbit No 13, Rotterdam, Winter 1981 as Pendelaar</p>'
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 7500

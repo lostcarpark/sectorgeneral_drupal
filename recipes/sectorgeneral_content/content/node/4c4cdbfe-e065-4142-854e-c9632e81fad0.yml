@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4c4cdbfe-e065-4142-854e-c9632e81fad0
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    cb57b576-bba0-4654-976b-ef9f8b91a06f: node
+    df92f80d-76bb-4116-833d-bb626fa82062: media
+    96547488-7fb3-49d4-9d52-22d39e551800: taxonomy_term
+    1500cfa9-5042-4535-9782-9fb79938c3d9: taxonomy_term
+    6a62acc6-2561-408b-a9a1-a14da7adb003: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    30948f84-7072-42b1-889a-5a0a68b8c86b: taxonomy_term
+    0c4f32a2-dbbc-4a0c-9394-2e78c09fe032: taxonomy_term
+    b31d2af0-345f-4612-adf9-ed02b344c905: taxonomy_term
+    3e7d2170-f99e-4731-9c56-982d211a2a86: taxonomy_term
+    b56cad03-f50c-4f01-a834-951f60d9f1c2: taxonomy_term
+    b47b50bd-c3eb-447c-9082-602d4cb5fff7: taxonomy_term
+    4694fff6-aab0-4cf4-8ab5-b90626a59d86: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?58618 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Galaxy, November 1973 (US edition)'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/galaxy/galaxy-november-1973-us-edition
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: cb57b576-bba0-4654-976b-ef9f8b91a06f
+  field_cover:
+    -
+      entity: df92f80d-76bb-4116-833d-bb626fa82062
+  field_cover_artist:
+    -
+      entity: 96547488-7fb3-49d4-9d52-22d39e551800
+    -
+      entity: 1500cfa9-5042-4535-9782-9fb79938c3d9
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?58618 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'November 1973'
+  field_editor:
+    -
+      entity: 6a62acc6-2561-408b-a9a1-a14da7adb003
+  field_interior_artist:
+    -
+      entity: 1500cfa9-5042-4535-9782-9fb79938c3d9
+  field_isfdb_id:
+    -
+      value: '58618'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 30948f84-7072-42b1-889a-5a0a68b8c86b
+  field_other_contributors:
+    -
+      entity: 0c4f32a2-dbbc-4a0c-9394-2e78c09fe032
+    -
+      entity: b31d2af0-345f-4612-adf9-ed02b344c905
+    -
+      entity: 3e7d2170-f99e-4731-9c56-982d211a2a86
+    -
+      entity: b56cad03-f50c-4f01-a834-951f60d9f1c2
+    -
+      entity: b47b50bd-c3eb-447c-9082-602d4cb5fff7
+    -
+      entity: 4694fff6-aab0-4cf4-8ab5-b90626a59d86
+  field_pages:
+    -
+      value: 180
+  field_price:
+    -
+      value: $0.75
+  field_published_as:
+    -
+      value: 'The Dream Millennium (Part 2 of 3)'
+  field_regional_edition:
+    -
+      value: 'US edition'
+  field_sort_date:
+    -
+      value: '1973-11-01'
+  field_year:
+    -
+      value: 1973

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6296b399-a65b-4ff5-8bea-c3900325b7b9
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 51xltyvgb-2bl.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/51xltyvgb-2bl.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 38223
+  status:
+    -
+      value: true

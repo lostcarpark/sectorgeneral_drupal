@@ -1,0 +1,76 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9a2748be-b2c5-4237-ba9e-3caf070147e2
+  bundle: edition
+  default_langcode: en
+  depends:
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    a7b82729-0189-4053-8e54-a3c316573a0a: node
+    a7db68df-cbcb-4bf3-ad1e-26874fce4a71: taxonomy_term
+    0094b470-35c6-4b64-9ac8-cfe7b5bf2570: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the OPAC SBN: https://opac.sbn.it/bid/LIA0245655'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Partenza da Zero, Mondadori, 1978'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/open-prison/partenza-da-zero-mondadori-1978
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “URANIA No 756, lire 880, 27/8/78 as Partenza da Zero”
+        OPAC SBN record https://opac.sbn.it/bid/LIA0245655.
+  field_date_display:
+    -
+      value: '27 August 1978'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: a7b82729-0189-4053-8e54-a3c316573a0a
+  field_pages:
+    -
+      value: 139
+  field_price:
+    -
+      value: 'lire 880'
+  field_publisher:
+    -
+      entity: a7db68df-cbcb-4bf3-ad1e-26874fce4a71
+  field_publisher_reference:
+    -
+      value: '756'
+  field_publisher_series:
+    -
+      entity: 0094b470-35c6-4b64-9ac8-cfe7b5bf2570
+  field_sort_date:
+    -
+      value: '1978-08-27'
+  field_year:
+    -
+      value: 1978

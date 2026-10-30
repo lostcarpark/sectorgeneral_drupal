@@ -1,0 +1,11 @@
+uuid: 83f4e759-103e-40ae-b20a-eb59d64b34b0
+langcode: en
+status: true
+dependencies: {  }
+name: Anthology
+type: anthology
+description: 'A book of stories by several authors, edited by someone else, that includes at least one James White story.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

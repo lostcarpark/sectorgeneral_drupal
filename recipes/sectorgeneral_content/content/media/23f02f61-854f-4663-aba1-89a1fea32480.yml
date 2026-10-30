@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 23f02f61-854f-4663-aba1-89a1fea32480
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    04a5924e-2e5e-4118-95a2-8c4ebf43f5a1: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Häpna!, January 1962 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: d4c4fc5f73612bab9dacd9fff885d3e52457efd0
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/e/e5/HPNJNRMPGF1962.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Häpna!, January 1962 cover'
+      title: ''
+      width: 447
+      height: 600
+      entity: 04a5924e-2e5e-4118-95a2-8c4ebf43f5a1
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?878524'
+      title: null
+      options: {  }

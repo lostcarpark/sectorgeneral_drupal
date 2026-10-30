@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b475f662-c9a4-42e7-8c49-a7911be673a2
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Richard Jefferies'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/richard-jefferies
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 7fd5bdad-bd92-4325-ae75-4af14e3622ed
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Arthur George'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/arthur-george
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

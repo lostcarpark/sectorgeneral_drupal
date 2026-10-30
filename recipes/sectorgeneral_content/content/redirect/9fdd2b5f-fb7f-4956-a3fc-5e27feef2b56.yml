@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 9fdd2b5f-fb7f-4956-a3fc-5e27feef2b56
+  bundle: redirect
+  default_langcode: und
+  depends:
+    0aba6c77-b093-4e19-9f09-77fd4ff7a0a1: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 0oNL5K43wJXJpRLUk8GUXFUsWY_ot2VZZDRStA8JeC4
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/invader.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 0aba6c77-b093-4e19-9f09-77fd4ff7a0a1
+  status_code:
+    -
+      value: 301

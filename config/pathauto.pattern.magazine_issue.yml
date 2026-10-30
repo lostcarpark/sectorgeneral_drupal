@@ -1,0 +1,23 @@
+uuid: 1eb6f8dc-78c7-443e-9477-1aeeaea566b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.magazine_issue
+  module:
+    - node
+id: magazine_issue
+label: 'Magazine issues'
+type: 'canonical_entities:node'
+pattern: '/magazines/[node:field_magazine:entity:name]/[node:title]'
+selection_criteria:
+  8c579375-9b77-46fc-b5ad-3e7620716adc:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      magazine_issue: magazine_issue
+selection_logic: and
+weight: 3
+relationships: {  }

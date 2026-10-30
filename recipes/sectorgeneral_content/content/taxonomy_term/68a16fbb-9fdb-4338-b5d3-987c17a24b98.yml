@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 68a16fbb-9fdb-4338-b5d3-987c17a24b98
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Paul Campbell (1980s)'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/paul-campbell-1980s
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5adafa08-adc1-4143-96c5-3960cf4f1853
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sctrgnrldx1983.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/sctrgnrldx1983.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 106511
+  status:
+    -
+      value: true

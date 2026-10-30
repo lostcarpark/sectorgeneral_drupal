@@ -1,0 +1,102 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 39493451-2ea2-4edf-991e-cbd09ac7840a
+  bundle: edition
+  default_langcode: en
+  depends:
+    ac3592d2-e47b-49a8-9d9c-c69ca1979e8f: media
+    97841bd3-dee2-4f0f-b308-b40dc387a99d: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    076cb8ba-ada5-4880-8874-aee68d7e662d: node
+    2489534c-0801-43c6-89f5-eb25fb1d11ea: taxonomy_term
+    cb7b58db-1396-485b-9e45-6df9a92afc35: taxonomy_term
+    2a2a2898-1fb3-436e-8a3a-caa24258df6e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/458639656'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Gefangene des Meeres, Moewig, 1967'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/watch-below/gefangene-des-meeres-moewig-1967
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: ac3592d2-e47b-49a8-9d9c-c69ca1979e8f
+  field_cover_artist:
+    -
+      entity: 97841bd3-dee2-4f0f-b308-b40dc387a99d
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “TERRA UTOPISCHE No 122, May 1967 as Gefangene des Meeres”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?402707 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/458639656 (CC0).
+  field_date_display:
+    -
+      value: 'May 1967'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '402707'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 076cb8ba-ada5-4880-8874-aee68d7e662d
+  field_oclc:
+    -
+      value: '73921647'
+  field_pages:
+    -
+      value: 157
+  field_price:
+    -
+      value: 'DM 2.40'
+  field_publisher:
+    -
+      entity: 2489534c-0801-43c6-89f5-eb25fb1d11ea
+  field_publisher_reference:
+    -
+      value: '122'
+  field_publisher_series:
+    -
+      entity: cb7b58db-1396-485b-9e45-6df9a92afc35
+  field_publisher_series_number:
+    -
+      value: '122'
+  field_sort_date:
+    -
+      value: '1967-05-01'
+  field_translator:
+    -
+      entity: 2a2a2898-1fb3-436e-8a3a-caa24258df6e
+  field_year:
+    -
+      value: 1967

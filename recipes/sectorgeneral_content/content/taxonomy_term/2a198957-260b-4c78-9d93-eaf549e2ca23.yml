@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 2a198957-260b-4c78-9d93-eaf549e2ca23
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Hocman Gábor'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/hocman-gabor
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

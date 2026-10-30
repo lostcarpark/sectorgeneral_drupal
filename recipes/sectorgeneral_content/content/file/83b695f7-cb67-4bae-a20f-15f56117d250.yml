@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 83b695f7-cb67-4bae-a20f-15f56117d250
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hospital_station_russian_1993.jpg
+  uri:
+    -
+      value: 'public://2016-03/hospital_station_russian_1993.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 18094
+  status:
+    -
+      value: true

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4c894597-2501-444e-b3ac-76c84218b19d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fnldgnsssc1998.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/fnldgnsssc1998.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 98194
+  status:
+    -
+      value: true

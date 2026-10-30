@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: d49a8873-1780-40b7-9a06-8278bc41c35c
+  bundle: redirect
+  default_langcode: und
+  depends:
+    df55454c-03a3-4abb-ad0c-b38684a4edfa: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: qiI5gQDOPkdB8VlExmxoSU7HymOBI9S-miMPs_a72PQ
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/theidealcaptain.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: df55454c-03a3-4abb-ad0c-b38684a4edfa
+  status_code:
+    -
+      value: 301

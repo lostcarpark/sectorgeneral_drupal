@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: fe2edaa8-819d-4fb6-ab3c-c5ec8774af14
+  bundle: redirect
+  default_langcode: und
+  depends:
+    664d8661-5f3c-48af-a0f2-3778e2cac73e: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: o2I7bnJ44ZP_Zcc5qAXI1sgbtsDcWhld0Hb2p8ENJZE
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/dogfight.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 664d8661-5f3c-48af-a0f2-3778e2cac73e
+  status_code:
+    -
+      value: 301

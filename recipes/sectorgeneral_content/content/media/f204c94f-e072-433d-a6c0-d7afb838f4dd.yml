@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: f204c94f-e072-433d-a6c0-d7afb838f4dd
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    42e99705-708e-453f-8f38-2f6c844212e6: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Pilot durch Zeit und Raum cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 59ebbfbe21fb9efb2ee3a766a6fdcc3efa27147d
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/9/96/PLTNDRCHZT1983.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Pilot durch Zeit und Raum cover'
+      title: ''
+      width: 255
+      height: 416
+      entity: 42e99705-708e-453f-8f38-2f6c844212e6
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?436893'
+      title: null
+      options: {  }

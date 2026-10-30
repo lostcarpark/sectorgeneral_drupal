@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: e02f5a01-d62b-4e82-89df-f7b40e57f076
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Henning Heske'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/henning-heske
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

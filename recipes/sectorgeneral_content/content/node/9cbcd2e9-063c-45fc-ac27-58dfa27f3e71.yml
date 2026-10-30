@@ -1,0 +1,90 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9cbcd2e9-063c-45fc-ac27-58dfa27f3e71
+  bundle: edition
+  default_langcode: en
+  depends:
+    c9da80f5-2cfe-4b6f-9a79-59d1ba7c3870: media
+    03012a70-8b6d-4e4d-9d1a-2918ab25f8d6: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    03c0e826-c5ee-456f-8600-d2652179fbeb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?32119'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Star Surgeon, Ballantine, 1968'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-surgeon/star-surgeon-ballantine-1968
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: c9da80f5-2cfe-4b6f-9a79-59d1ba7c3870
+  field_cover_artist:
+    -
+      entity: 03012a70-8b6d-4e4d-9d1a-2918ab25f8d6
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ballantine, Bal-Hi edition No U2866, 50 cents, May 1968”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?32119 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'May 1968'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '32119'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+  field_oclc:
+    -
+      value: '12620765'
+  field_pages:
+    -
+      value: 159
+  field_price:
+    -
+      value: '50 cents'
+  field_publisher:
+    -
+      entity: 03c0e826-c5ee-456f-8600-d2652179fbeb
+  field_publisher_reference:
+    -
+      value: U2866
+  field_sort_date:
+    -
+      value: '1968-05-01'
+  field_year:
+    -
+      value: 1968

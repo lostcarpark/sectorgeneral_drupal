@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6fdab52c-ad5c-4a2b-8293-51b91a19f61f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newworlds65.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/newworlds65.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4010
+  status:
+    -
+      value: true

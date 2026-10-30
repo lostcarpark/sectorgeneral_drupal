@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bb93fe7e-5209-4134-b148-20a90a21c2b4
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: tommorowistoofarmjoesph.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/tommorowistoofarmjoesph.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3536
+  status:
+    -
+      value: true

@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 25aec48c-04a5-4c6a-a387-a455410d5cb0
+  bundle: edition
+  default_langcode: en
+  depends:
+    b5a2d2ce-d335-4f1f-9146-8491da2ba88d: media
+    85c35dc9-412c-4cff-896f-d86d66734a3c: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    47dcdfd9-5b9d-431e-b100-e494eb3e62cd: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Own cover restored: a larger picture of a different edition had replaced it.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'All Judgment Fled, Del Rey / Ballantine, 1979'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/all-judgement-fled/all-judgment-fled-del-rey-ballantine-1979
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: b5a2d2ce-d335-4f1f-9146-8491da2ba88d
+  field_cover_artist:
+    -
+      entity: 85c35dc9-412c-4cff-896f-d86d66734a3c
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?424287 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9568607M (CC0).
+  field_date_display:
+    -
+      value: 'April 1979'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345280251'
+  field_isfdb_id:
+    -
+      value: '424287'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_oclc:
+    -
+      value: '11241194'
+  field_openlibrary_id:
+    -
+      value: OL9568607M
+  field_pages:
+    -
+      value: 215
+  field_price:
+    -
+      value: C$2.25
+  field_publisher:
+    -
+      entity: 47dcdfd9-5b9d-431e-b100-e494eb3e62cd
+  field_sort_date:
+    -
+      value: '1979-04-01'
+  field_year:
+    -
+      value: 1979

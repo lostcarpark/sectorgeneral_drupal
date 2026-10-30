@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c7ffa366-fa6e-434e-b6de-5512042ed69c
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    64b06452-8582-4f8b-bafe-21541becea52: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Minotauro, May 1965 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: c9490208787e15d9e40d0e44e6b7f9cdd60362f4
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://isfdb.org/wiki/images/0/09/MNTRMJNFTM1965.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Minotauro, May 1965 cover'
+      title: ''
+      width: 425
+      height: 600
+      entity: 64b06452-8582-4f8b-bafe-21541becea52
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?1080708'
+      title: null
+      options: {  }

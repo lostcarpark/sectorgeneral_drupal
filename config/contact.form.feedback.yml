@@ -1,0 +1,14 @@
+uuid: cf2efdba-9984-426e-8c63-99bcbf7c42d6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - info@sectorgeneral.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

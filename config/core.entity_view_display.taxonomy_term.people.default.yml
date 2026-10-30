@@ -1,0 +1,62 @@
+uuid: 7881feeb-4e62-464f-90f0-3232db7b54ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.people.field_isfdb_id
+    - field.field.taxonomy_term.people.field_not_a_person
+    - field.field.taxonomy_term.people.field_wikipedia
+    - taxonomy.vocabulary.people
+  module:
+    - text
+id: taxonomy_term.people.default
+targetEntityType: taxonomy_term
+bundle: people
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  person_credits_anthology_contributors:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  person_credits_cover_artists:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  person_credits_editors:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  person_credits_interior_artists:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  person_credits_introductions:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  person_credits_narrators:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  person_credits_translators:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 13
+    region: content
+hidden:
+  field_isfdb_id: true
+  field_not_a_person: true
+  field_wikipedia: true

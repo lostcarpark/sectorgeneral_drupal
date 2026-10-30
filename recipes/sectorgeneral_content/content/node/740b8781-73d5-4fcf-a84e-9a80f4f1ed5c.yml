@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 740b8781-73d5-4fcf-a84e-9a80f4f1ed5c
+  bundle: anthology
+  default_langcode: en
+  depends:
+    214647d4-99c3-41e8-a8fb-747ce5ae5a89: node
+    58481b52-30f2-47ac-8650-bbf03783cab0: media
+    bad5d2bb-0d09-442a-b38a-d16447618d3e: taxonomy_term
+    e211b5ff-e3b8-46c9-9fda-45b140ed52e5: taxonomy_term
+    be616e63-0879-4fb2-84fd-d4646f4af6f4: taxonomy_term
+    3821e984-48db-4086-aab1-348018c3c0c6: taxonomy_term
+    0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    b226aeaa-e71f-48e7-b1bb-540fe32b5459: taxonomy_term
+    12f1cf3b-f60e-491c-8870-8f83b5cf2e0e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?36074 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'In Time to Come'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/time-come
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Macmillan Topliner Collection, 1975.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 214647d4-99c3-41e8-a8fb-747ce5ae5a89
+  field_cover:
+    -
+      entity: 58481b52-30f2-47ac-8650-bbf03783cab0
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?36074 (CC BY 4.0).
+  field_editor:
+    -
+      entity: bad5d2bb-0d09-442a-b38a-d16447618d3e
+    -
+      entity: e211b5ff-e3b8-46c9-9fda-45b140ed52e5
+  field_first_published_year:
+    -
+      value: 1975
+  field_isfdb_id:
+    -
+      value: '36074'
+  field_other_contributors:
+    -
+      entity: be616e63-0879-4fb2-84fd-d4646f4af6f4
+    -
+      entity: 3821e984-48db-4086-aab1-348018c3c0c6
+    -
+      entity: 0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+  field_publisher:
+    -
+      entity: 12f1cf3b-f60e-491c-8870-8f83b5cf2e0e

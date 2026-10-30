@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 321fd8c1-b334-4127-9109-ab18fd74cbc5
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    a604a716-ec06-434f-8b4f-8bb1e99f3bb6: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Worlds Magazine, March 1964 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: ec48f221ab66689d5c7eb4b56f662ad8cf233634
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://isfdb.org/wiki/images/0/0c/NEWWRMAR1964.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'New Worlds Magazine, March 1964 cover'
+      title: ''
+      width: 345
+      height: 500
+      entity: a604a716-ec06-434f-8b4f-8bb1e99f3bb6
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?181125'
+      title: null
+      options: {  }

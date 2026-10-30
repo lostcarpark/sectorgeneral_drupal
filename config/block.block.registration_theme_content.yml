@@ -1,0 +1,22 @@
+uuid: 75d77d3e-c9c3-4f67-9a4a-fff4ca8abe4a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - registration_theme
+_core:
+  default_config_hash: ECFQ1Yjl53ccAY_SLNnO3GkcmMju5uFH-zs5PGh-RLg
+id: registration_theme_content
+theme: registration_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

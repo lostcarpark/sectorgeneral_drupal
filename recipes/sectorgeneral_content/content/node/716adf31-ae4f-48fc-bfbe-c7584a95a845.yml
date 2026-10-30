@@ -1,0 +1,119 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 716adf31-ae4f-48fc-bfbe-c7584a95a845
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    c4a74073-c51c-4dea-af14-29e4a5c3eff7: node
+    2b034793-68fc-4566-bc14-29a5ba40ae41: media
+    36300acd-46ee-45b8-be41-1d56ae6cb991: taxonomy_term
+    6f6d4582-0d50-4aa4-9d0a-2cadff7f0dea: taxonomy_term
+    324ab9df-8d8a-4d3c-8654-fc5ca82f9b8c: taxonomy_term
+    b15517d7-df3e-45f1-937c-24d957a838e4: taxonomy_term
+    436b2eb3-397d-4dbb-b409-60139b77cf5d: taxonomy_term
+    64a48742-37e6-4ea6-b099-6afe944bb013: taxonomy_term
+    1c9ec00b-ba63-4e91-981d-529ee7b83d7a: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    28278a84-4539-46b3-8452-27a59675d05a: taxonomy_term
+    b0034d8c-4700-4416-ac8c-790c9eb9de94: taxonomy_term
+    631dbc1f-2d4f-4438-9ee4-3b4f9a26ee8d: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+    71c298f2-8c26-4fba-b759-1e063991da8b: taxonomy_term
+    b356bb34-8da4-44b9-803e-23b82b1a8cd1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59575 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Nebula 9, August 1954'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/nebula/nebula-9-august-1954
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: c4a74073-c51c-4dea-af14-29e4a5c3eff7
+  field_cover:
+    -
+      entity: 2b034793-68fc-4566-bc14-29a5ba40ae41
+  field_cover_artist:
+    -
+      entity: 36300acd-46ee-45b8-be41-1d56ae6cb991
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59575 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'August 1954'
+  field_editor:
+    -
+      entity: 6f6d4582-0d50-4aa4-9d0a-2cadff7f0dea
+  field_interior_artist:
+    -
+      entity: 324ab9df-8d8a-4d3c-8654-fc5ca82f9b8c
+    -
+      entity: 36300acd-46ee-45b8-be41-1d56ae6cb991
+    -
+      entity: b15517d7-df3e-45f1-937c-24d957a838e4
+    -
+      entity: 436b2eb3-397d-4dbb-b409-60139b77cf5d
+    -
+      entity: 64a48742-37e6-4ea6-b099-6afe944bb013
+    -
+      entity: 1c9ec00b-ba63-4e91-981d-529ee7b83d7a
+  field_isfdb_id:
+    -
+      value: '59575'
+  field_issue_number:
+    -
+      value: '9'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 28278a84-4539-46b3-8452-27a59675d05a
+  field_other_contributors:
+    -
+      entity: b0034d8c-4700-4416-ac8c-790c9eb9de94
+    -
+      entity: 631dbc1f-2d4f-4438-9ee4-3b4f9a26ee8d
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+    -
+      entity: 71c298f2-8c26-4fba-b759-1e063991da8b
+    -
+      entity: b356bb34-8da4-44b9-803e-23b82b1a8cd1
+  field_pages:
+    -
+      value: 128
+  field_price:
+    -
+      value: 2/-
+  field_sort_date:
+    -
+      value: '1954-08-01'
+  field_year:
+    -
+      value: 1954

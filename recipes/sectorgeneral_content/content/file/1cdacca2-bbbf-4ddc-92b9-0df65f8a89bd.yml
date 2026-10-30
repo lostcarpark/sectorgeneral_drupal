@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1cdacca2-bbbf-4ddc-92b9-0df65f8a89bd
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: glxscncfch1973.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/glxscncfch1973.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 97265
+  status:
+    -
+      value: true

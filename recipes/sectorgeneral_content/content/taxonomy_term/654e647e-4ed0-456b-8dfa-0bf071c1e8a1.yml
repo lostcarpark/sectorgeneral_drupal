@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 654e647e-4ed0-456b-8dfa-0bf071c1e8a1
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'James Lecky'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/james-lecky
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

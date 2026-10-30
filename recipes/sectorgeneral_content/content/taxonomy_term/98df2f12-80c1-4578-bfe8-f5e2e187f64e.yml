@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 98df2f12-80c1-4578-bfe8-f5e2e187f64e
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Andreas Melzer'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/andreas-melzer
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

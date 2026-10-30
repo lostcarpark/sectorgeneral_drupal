@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f591daff-13b6-44f2-b247-546e4aab26c2
+  bundle: anthology
+  default_langcode: en
+  depends:
+    388effb1-372e-4213-aa1e-20b4a8da3452: node
+    9839b695-57b4-4186-9732-b860e7ea709a: taxonomy_term
+    9a88756b-1a18-4dd1-bc1f-50b3855dd823: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: "Reprint anthology from the old site's story publication histories."
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Den fantastiska julen'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/den-fantastiska-julen
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Timbro, Sweden, 1985, with the story as &quot;Undersökningen&quot;. Swedish.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 388effb1-372e-4213-aa1e-20b4a8da3452
+  field_data_sources:
+    -
+      value: 'James White Information (original site) (story publication histories).'
+  field_editor:
+    -
+      entity: 9839b695-57b4-4186-9732-b860e7ea709a
+  field_first_published_year:
+    -
+      value: 1985
+  field_publisher:
+    -
+      entity: 9a88756b-1a18-4dd1-bc1f-50b3855dd823

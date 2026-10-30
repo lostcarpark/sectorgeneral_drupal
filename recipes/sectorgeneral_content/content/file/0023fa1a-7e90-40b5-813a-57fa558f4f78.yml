@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0023fa1a-7e90-40b5-813a-57fa558f4f78
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: u645.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/u645.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 50748
+  status:
+    -
+      value: true

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5fb4e008-9bb8-47ef-aa27-ebdf28926c54
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: genocidalhealerballintine.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/genocidalhealerballintine.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4790
+  status:
+    -
+      value: true

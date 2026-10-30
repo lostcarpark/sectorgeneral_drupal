@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: bbe91483-db84-4b67-98b1-2b7cbcd2c2d4
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'E. Mayne Hull'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/e-mayne-hull
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

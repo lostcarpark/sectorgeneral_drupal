@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5f8ca418-0b1a-4611-af65-b8ef232ded22
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: gnrlprctcj2003.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/gnrlprctcj2003.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 84833
+  status:
+    -
+      value: true

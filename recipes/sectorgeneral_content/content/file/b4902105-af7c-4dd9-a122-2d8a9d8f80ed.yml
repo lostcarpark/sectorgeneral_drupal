@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b4902105-af7c-4dd9-a122-2d8a9d8f80ed
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mindchnger1998.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mindchnger1998.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 90073
+  status:
+    -
+      value: true

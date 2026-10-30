@@ -1,0 +1,82 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e02b2fa5-931d-41e3-b1da-8eafca5f9dfa
+  bundle: edition
+  default_langcode: en
+  depends:
+    a9ab5940-0b20-48cf-b9fb-da0c8a912d9f: taxonomy_term
+    2ea7f198-8285-4883-b0f8-67628c811f1d: taxonomy_term
+    2d0ce563-6638-427c-bdc8-6bda2c2e3826: node
+    55d0695c-7d08-4a25-b2b4-d8e533b10d83: taxonomy_term
+    1db4883b-d9f9-45a9-a77c-7358ac494fe7: taxonomy_term
+    eef84fc0-7f9a-4f9b-a9de-0dbf82659d08: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Created from the Biblioteka Narodowa: https://data.bn.org.pl/api/institutions/bibs.json?id=1197871'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Zawód - wojownik, Iskry, 1986'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/occupation-warrior/zawod-wojownik-iskry-1986
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'Biblioteka Narodowa record https://data.bn.org.pl/api/institutions/bibs.json?id=1197871 (CC0).'
+  field_date_display:
+    -
+      value: '1986'
+  field_introduction_by:
+    -
+      entity: a9ab5940-0b20-48cf-b9fb-da0c8a912d9f
+  field_isbn:
+    -
+      value: '9788320708752'
+  field_language:
+    -
+      entity: 2ea7f198-8285-4883-b0f8-67628c811f1d
+  field_novel:
+    -
+      entity: 2d0ce563-6638-427c-bdc8-6bda2c2e3826
+  field_pages:
+    -
+      value: 47
+  field_publisher:
+    -
+      entity: 55d0695c-7d08-4a25-b2b4-d8e533b10d83
+  field_publisher_series:
+    -
+      entity: 1db4883b-d9f9-45a9-a77c-7358ac494fe7
+  field_publisher_series_number:
+    -
+      value: '8'
+  field_sort_date:
+    -
+      value: '1986-01-01'
+  field_translator:
+    -
+      entity: eef84fc0-7f9a-4f9b-a9de-0dbf82659d08
+  field_year:
+    -
+      value: 1986

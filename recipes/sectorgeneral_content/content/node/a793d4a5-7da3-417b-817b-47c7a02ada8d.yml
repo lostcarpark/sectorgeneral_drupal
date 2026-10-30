@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a793d4a5-7da3-417b-817b-47c7a02ada8d
+  bundle: edition
+  default_langcode: en
+  depends:
+    e569f071-54e3-4afc-8da9-70e266b796b2: media
+    9ba02792-0c3a-4e38-b5d6-bd1394c702be: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    4684e80b-b2ce-4e86-a094-7e0e0960eed2: node
+    03c0e826-c5ee-456f-8600-d2652179fbeb: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL9742370M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Tomorrow Is Too Far, Ballantine Books, 1971'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/tomorrow-too-far/tomorrow-too-far-ballantine-books-1971
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: e569f071-54e3-4afc-8da9-70e266b796b2
+  field_cover_artist:
+    -
+      entity: 9ba02792-0c3a-4e38-b5d6-bd1394c702be
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?501869 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL9742370M (CC0).
+  field_date_display:
+    -
+      value: 'February 1971'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780345021502'
+  field_isfdb_id:
+    -
+      value: '501869'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 4684e80b-b2ce-4e86-a094-7e0e0960eed2
+  field_oclc:
+    -
+      value: '4431041'
+  field_openlibrary_id:
+    -
+      value: OL9742370M
+  field_pages:
+    -
+      value: 183
+  field_price:
+    -
+      value: C$0.95
+  field_publisher:
+    -
+      entity: 03c0e826-c5ee-456f-8600-d2652179fbeb
+  field_sort_date:
+    -
+      value: '1971-02-01'
+  field_year:
+    -
+      value: 1971

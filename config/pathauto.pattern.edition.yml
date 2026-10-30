@@ -1,0 +1,23 @@
+uuid: 3d9c0b5c-f06d-4be1-8367-0f001bb9a0b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.edition
+  module:
+    - node
+id: edition
+label: Editions
+type: 'canonical_entities:node'
+pattern: '/books/[node:field_novel:0:entity:title]/[node:title]'
+selection_criteria:
+  01a1a082-20e0-4c17-ad42-ced473cfcf3b:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      edition: edition
+selection_logic: and
+weight: 1
+relationships: {  }

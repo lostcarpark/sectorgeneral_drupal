@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 504d853f-d273-4136-86af-a0ee0f04608d
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    417c68fa-ec55-4ecc-aa83-b277c2ccb869: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Das Raumschiff der Rätsel, Moewig, 1968 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: abd2e52f3215be309855266d08b77312b444187e
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/5/57/DSRMSCHFFD1968.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Das Raumschiff der Rätsel, Moewig, 1968 cover'
+      title: ''
+      width: 326
+      height: 500
+      entity: 417c68fa-ec55-4ecc-aa83-b277c2ccb869
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?510845'
+      title: null
+      options: {  }

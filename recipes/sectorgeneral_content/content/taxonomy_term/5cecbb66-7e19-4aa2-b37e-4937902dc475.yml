@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 5cecbb66-7e19-4aa2-b37e-4937902dc475
+  bundle: magazine
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Minotauro
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/minotauro
+      langcode: en
+      pathauto: 1

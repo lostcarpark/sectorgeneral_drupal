@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: fbefdf38-7f6c-4db1-8291-254e8ff7178f
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Valentina Zhuravleva'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/valentina-zhuravleva
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

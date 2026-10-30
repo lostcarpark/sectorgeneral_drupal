@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 8224d8fa-7e88-4830-9b93-b48ef434bd57
+  bundle: redirect
+  default_langcode: und
+  depends:
+    85389460-62f1-481a-ac36-b6d004568ad1: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: dGM7OJLpiOSUglas21m6D4zn8NXYp3bOMZKnbw4eZnQ
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/countersecurity.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 85389460-62f1-481a-ac36-b6d004568ad1
+  status_code:
+    -
+      value: 301

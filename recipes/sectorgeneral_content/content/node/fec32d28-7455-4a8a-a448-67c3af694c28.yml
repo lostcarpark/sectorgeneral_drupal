@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fec32d28-7455-4a8a-a448-67c3af694c28
+  bundle: novel
+  default_langcode: en
+  depends:
+    117d9b51-ff81-4051-9914-1027bc16e07a: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4241 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Secret Visitors'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/secret-visitors
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Dr. Lockhart encounters an old man in Paris, one of thirty-odd &#039;dying grandfathers&#039; who commit suicide rather than answer the simplest questions about themselves or their origins. Lockhart has been retained by the World Security Organization to find some connection between these men and the threat of nuclear war hanging over the world. Before dying, this broken down old boulevardier &#039;converses&#039; with him in a language not available on the Berlitz syllabus. Then things go galactic. The Interstellar Tourist Agency is organizing package holidays to terrible, decadent Terra as part of its fell scheme against the Galactic Federation. A bit like the 1956 film version of Raymond F. Jones 1952 fix-up novel, This Island Earth -- only different.</p>'
+      format: basic_html
+      summary: 'Subsequently published as a stand-alone novel. Previously appeared in New Worlds. An espionage novel that turns extraterrestrial, with spaceships landing in - of all places - Northern Ireland.'
+  field_alternative_titles:
+    -
+      value: 'Tourist Planet'
+    -
+      value: 'Tourist Planet (Part 3 of 3)'
+    -
+      value: 'Tourist Planet (Part 2 of 3)'
+    -
+      value: 'Tourist Planet (Part 1 of 3)'
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: 117d9b51-ff81-4051-9914-1027bc16e07a
+  field_data_sources:
+    -
+      value: "James White Information (original site). Synopsis by Graham Andrews.\r\nISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4241 (CC BY 4.0)."
+  field_first_published_year:
+    -
+      value: 1957
+  field_isfdb_id:
+    -
+      value: '4241'
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 56000

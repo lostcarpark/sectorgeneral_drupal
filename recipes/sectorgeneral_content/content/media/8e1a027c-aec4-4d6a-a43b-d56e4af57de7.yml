@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 8e1a027c-aec4-4d6a-a43b-d56e4af57de7
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    c7bd36d2-b057-42d1-b353-74c19c743f32: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Watch Below, Old Earth Books, 1996 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 9f55d32cdd3a2d26768556f3fd2f2bb0220c0754
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Watch Below cover'
+      title: ''
+      width: 406
+      height: 618
+      entity: c7bd36d2-b057-42d1-b353-74c19c743f32

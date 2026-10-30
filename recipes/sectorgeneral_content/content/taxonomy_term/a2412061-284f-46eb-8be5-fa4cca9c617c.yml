@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: a2412061-284f-46eb-8be5-fa4cca9c617c
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'William Gibson'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/william-gibson
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

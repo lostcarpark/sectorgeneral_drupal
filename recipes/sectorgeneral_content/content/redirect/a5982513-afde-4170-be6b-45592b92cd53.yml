@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: a5982513-afde-4170-be6b-45592b92cd53
+  bundle: redirect
+  default_langcode: und
+  depends:
+    39ea7de3-9e0f-4961-8636-c25ea5995577: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: P4Z84qAlEJ9i1IwPNoza_-KwiNf90D5UBajfQIfKJHE
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/highroad.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 39ea7de3-9e0f-4961-8636-c25ea5995577
+  status_code:
+    -
+      value: 301

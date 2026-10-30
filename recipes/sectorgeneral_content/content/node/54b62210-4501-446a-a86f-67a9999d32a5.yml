@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 54b62210-4501-446a-a86f-67a9999d32a5
+  bundle: anthology
+  default_langcode: en
+  depends:
+    388effb1-372e-4213-aa1e-20b4a8da3452: node
+    508a5b45-a740-4879-a320-70f2545fbcb2: media
+    4b278c8a-7844-416d-ac75-b465d7a863cf: taxonomy_term
+    2b55f4f5-fabf-4cfa-a782-7905c6674e49: taxonomy_term
+    e3bd2009-7c4c-4845-b1d7-5b22bac2adbf: taxonomy_term
+    d8ad1c3d-4f9e-4290-9904-f73596c8783e: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+    2c9a5b75-5dc0-4ad7-bafa-ca81bdfad25f: taxonomy_term
+    18625e44-09fd-4f98-a9f0-bf0430f28935: taxonomy_term
+    84c71948-74e8-4b0c-8433-e5fda19096f2: taxonomy_term
+    b4304064-2733-475d-a99c-11108241c336: taxonomy_term
+    359047dc-de5d-4e2f-94e5-050f91caa398: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?31365'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Space 1'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/space-1
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Abelard-Schuman, September 1973.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 388effb1-372e-4213-aa1e-20b4a8da3452
+  field_cover:
+    -
+      entity: 508a5b45-a740-4879-a320-70f2545fbcb2
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?36104 (CC BY 4.0).
+  field_editor:
+    -
+      entity: 4b278c8a-7844-416d-ac75-b465d7a863cf
+  field_first_published_year:
+    -
+      value: 1973
+  field_isfdb_id:
+    -
+      value: '36104'
+  field_other_contributors:
+    -
+      entity: 2b55f4f5-fabf-4cfa-a782-7905c6674e49
+    -
+      entity: e3bd2009-7c4c-4845-b1d7-5b22bac2adbf
+    -
+      entity: d8ad1c3d-4f9e-4290-9904-f73596c8783e
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+    -
+      entity: 2c9a5b75-5dc0-4ad7-bafa-ca81bdfad25f
+    -
+      entity: 18625e44-09fd-4f98-a9f0-bf0430f28935
+    -
+      entity: 84c71948-74e8-4b0c-8433-e5fda19096f2
+  field_publisher:
+    -
+      entity: b4304064-2733-475d-a99c-11108241c336
+  field_series:
+    -
+      entity: 359047dc-de5d-4e2f-94e5-050f91caa398
+  field_series_number:
+    -
+      value: 1

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7183642f-c71d-472f-92b3-be56d4b73624
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thfrstprtb2000.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thfrstprtb2000.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 125546
+  status:
+    -
+      value: true

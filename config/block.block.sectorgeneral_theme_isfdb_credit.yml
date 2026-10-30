@@ -1,0 +1,20 @@
+uuid: 709feb1d-8c17-4bef-b438-330ad9f03509
+langcode: en
+status: true
+dependencies:
+  module:
+    - sectorgeneral_isfdb
+  theme:
+    - sectorgeneral_theme
+id: sectorgeneral_theme_isfdb_credit
+theme: sectorgeneral_theme
+region: footer_bottom
+weight: 10
+provider: null
+plugin: sectorgeneral_isfdb_credit
+settings:
+  id: sectorgeneral_isfdb_credit
+  label: ''
+  label_display: '0'
+  provider: sectorgeneral_isfdb
+visibility: {  }

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c4d1ba71-f070-458b-9d6a-219bf31b77b5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: monsters-and-medics-corgi_tn.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/monsters-and-medics-corgi_tn.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 18911
+  status:
+    -
+      value: true

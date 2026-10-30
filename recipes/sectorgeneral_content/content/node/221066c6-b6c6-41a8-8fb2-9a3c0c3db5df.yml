@@ -1,0 +1,122 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 221066c6-b6c6-41a8-8fb2-9a3c0c3db5df
+  bundle: anthology
+  default_langcode: en
+  depends:
+    ad7e263f-afa9-49e6-a611-f2fd53633b5e: node
+    7a6018ff-8c45-4bda-919e-6c7ff1b72546: media
+    e3bde515-4549-45a3-a536-1361514e044f: taxonomy_term
+    e1bc2730-e888-432e-b3e4-890cdb91f673: taxonomy_term
+    eddb9ff3-48ed-4d11-a7ec-9bb6367b651d: taxonomy_term
+    3633e4f0-9c7a-4f96-8e23-ba69e60d4f5a: taxonomy_term
+    2fe082e8-a082-40b1-83f0-6890c249d0ef: taxonomy_term
+    4a2f4cff-9601-4ed1-9efd-d257c5b3f8b1: taxonomy_term
+    b0034d8c-4700-4416-ac8c-790c9eb9de94: taxonomy_term
+    df5c7d2d-45cd-4b41-979d-9b46bd96f191: taxonomy_term
+    db94966d-183b-4e1b-8e56-008fb05a906f: taxonomy_term
+    9efdddc4-4d7b-4b6b-9397-4666acf828c3: taxonomy_term
+    a323cec8-0409-45ac-8221-9573a752b452: taxonomy_term
+    8d01af39-69cb-4323-b4c5-d54abad4fbf4: taxonomy_term
+    a346d4f8-e917-4587-9067-e8177856caf2: taxonomy_term
+    654e647e-4ed0-456b-8dfa-0bf071c1e8a1: taxonomy_term
+    f702f427-ba16-4573-bd6f-99d35fcc2398: taxonomy_term
+    3083632c-b0ff-4a0a-94d2-9479baf8a5f1: taxonomy_term
+    ce10fe10-eea9-424c-8108-9c62c1d778fe: taxonomy_term
+    39d701e6-a85e-4476-815d-b28cee47d532: taxonomy_term
+    b6f376b3-9cba-4cc7-a47f-15eed9c2b783: taxonomy_term
+    1ac945ac-dd59-4b66-b1df-64cf953cd544: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?265752'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Emerald Eye: The Best Irish Imaginative Fiction'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/emerald-eye-best-irish-imaginative-fiction
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Aeon Press, October 2005, Trade Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: ad7e263f-afa9-49e6-a611-f2fd53633b5e
+  field_cover:
+    -
+      entity: 7a6018ff-8c45-4bda-919e-6c7ff1b72546
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?896379 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: e3bde515-4549-45a3-a536-1361514e044f
+    -
+      entity: e1bc2730-e888-432e-b3e4-890cdb91f673
+  field_first_published_year:
+    -
+      value: 2005
+  field_isfdb_id:
+    -
+      value: '896379'
+  field_other_contributors:
+    -
+      entity: eddb9ff3-48ed-4d11-a7ec-9bb6367b651d
+    -
+      entity: 3633e4f0-9c7a-4f96-8e23-ba69e60d4f5a
+    -
+      entity: 2fe082e8-a082-40b1-83f0-6890c249d0ef
+    -
+      entity: 4a2f4cff-9601-4ed1-9efd-d257c5b3f8b1
+    -
+      entity: b0034d8c-4700-4416-ac8c-790c9eb9de94
+    -
+      entity: df5c7d2d-45cd-4b41-979d-9b46bd96f191
+    -
+      entity: db94966d-183b-4e1b-8e56-008fb05a906f
+    -
+      entity: 9efdddc4-4d7b-4b6b-9397-4666acf828c3
+    -
+      entity: a323cec8-0409-45ac-8221-9573a752b452
+    -
+      entity: 8d01af39-69cb-4323-b4c5-d54abad4fbf4
+    -
+      entity: a346d4f8-e917-4587-9067-e8177856caf2
+    -
+      entity: 654e647e-4ed0-456b-8dfa-0bf071c1e8a1
+    -
+      entity: f702f427-ba16-4573-bd6f-99d35fcc2398
+    -
+      entity: 3083632c-b0ff-4a0a-94d2-9479baf8a5f1
+    -
+      entity: ce10fe10-eea9-424c-8108-9c62c1d778fe
+    -
+      entity: 39d701e6-a85e-4476-815d-b28cee47d532
+    -
+      entity: b6f376b3-9cba-4cc7-a47f-15eed9c2b783
+  field_publisher:
+    -
+      entity: 1ac945ac-dd59-4b66-b1df-64cf953cd544

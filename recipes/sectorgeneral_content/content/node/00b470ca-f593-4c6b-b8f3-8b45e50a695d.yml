@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 00b470ca-f593-4c6b-b8f3-8b45e50a695d
+  bundle: anthology
+  default_langcode: en
+  depends:
+    4d139053-8f19-418c-a119-a1173e437ff9: node
+    ab98d780-adb0-4bb5-89f3-5f4666d2444f: media
+    98198ea5-db97-409a-92f0-7f61cee9333f: taxonomy_term
+    e613edcf-203e-48ff-8a70-3dc22f2becd4: taxonomy_term
+    fec06cdb-19ef-4451-9a16-7e886edf6ccd: taxonomy_term
+    a4c2d3ff-28b5-4a57-8cb3-d769b32f9878: taxonomy_term
+    3a8425ce-a790-42f0-a772-03cf515d2ba3: taxonomy_term
+    7dad8971-d405-498c-9f81-c097fa6c14f5: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    261fdeab-3e02-4188-a0c0-f59d172121a3: taxonomy_term
+    814d15a4-f951-437c-a74d-e967699f4db3: taxonomy_term
+    e886c30a-6476-44c0-82ea-05fc5877f32f: taxonomy_term
+    62abe30a-e702-4f8c-a8dd-149acdb38933: taxonomy_term
+    77a9d731-b739-4013-9c86-df7999319b3f: taxonomy_term
+    b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd: taxonomy_term
+    684df443-273d-4c5d-8497-99b2a24f00e6: taxonomy_term
+    d793e903-dc94-4c0c-9acb-5a33e310f104: taxonomy_term
+    4fdfa865-3981-45d8-88c1-2a1ad4fae4cf: taxonomy_term
+    7be6d459-6c88-408a-9d20-a5b5d53c4bac: taxonomy_term
+    b4a0bc3b-f1b9-45fc-b328-30caf215d3c3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?487434'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: "Fiction Spécial No 3: 17 Récits d'anticipation passionnants"
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/fiction-special-no-3-17-recits-danticipation-passionnants
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>OPTA, 1961, Digest.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 4d139053-8f19-418c-a119-a1173e437ff9
+  field_cover:
+    -
+      entity: ab98d780-adb0-4bb5-89f3-5f4666d2444f
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1787099 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 98198ea5-db97-409a-92f0-7f61cee9333f
+  field_first_published_year:
+    -
+      value: 1961
+  field_isfdb_id:
+    -
+      value: '1787099'
+  field_other_contributors:
+    -
+      entity: e613edcf-203e-48ff-8a70-3dc22f2becd4
+    -
+      entity: fec06cdb-19ef-4451-9a16-7e886edf6ccd
+    -
+      entity: a4c2d3ff-28b5-4a57-8cb3-d769b32f9878
+    -
+      entity: 3a8425ce-a790-42f0-a772-03cf515d2ba3
+    -
+      entity: 7dad8971-d405-498c-9f81-c097fa6c14f5
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: 261fdeab-3e02-4188-a0c0-f59d172121a3
+    -
+      entity: 814d15a4-f951-437c-a74d-e967699f4db3
+    -
+      entity: e886c30a-6476-44c0-82ea-05fc5877f32f
+    -
+      entity: 62abe30a-e702-4f8c-a8dd-149acdb38933
+    -
+      entity: 77a9d731-b739-4013-9c86-df7999319b3f
+    -
+      entity: b9ead2d4-8171-42a3-a5c4-e48e1d9a85cd
+    -
+      entity: 684df443-273d-4c5d-8497-99b2a24f00e6
+    -
+      entity: d793e903-dc94-4c0c-9acb-5a33e310f104
+    -
+      entity: 4fdfa865-3981-45d8-88c1-2a1ad4fae4cf
+    -
+      entity: 7be6d459-6c88-408a-9d20-a5b5d53c4bac
+  field_publisher:
+    -
+      entity: b4a0bc3b-f1b9-45fc-b328-30caf215d3c3

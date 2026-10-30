@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 65761eb5-d0de-46b5-8177-5ce5758ce921
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dsschwrznf1973.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/dsschwrznf1973.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 24670
+  status:
+    -
+      value: true

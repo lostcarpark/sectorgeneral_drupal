@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: aacaf1e1-50ae-471c-b6e4-87cc1b993a12
+  bundle: publisher
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: "St. Martin's Press / SFBC"
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /publishers/st-martins-press-sfbc
+      langcode: en
+      pathauto: 1

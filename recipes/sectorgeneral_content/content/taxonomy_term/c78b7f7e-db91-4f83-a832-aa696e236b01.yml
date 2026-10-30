@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c78b7f7e-db91-4f83-a832-aa696e236b01
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Anthony Burgess'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/anthony-burgess
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

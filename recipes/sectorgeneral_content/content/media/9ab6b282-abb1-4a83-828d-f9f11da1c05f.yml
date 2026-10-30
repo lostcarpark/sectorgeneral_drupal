@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 9ab6b282-abb1-4a83-828d-f9f11da1c05f
+  bundle: photo
+  default_langcode: en
+  depends:
+    fcdcfc4a-ca76-4614-9eb2-a2471c69ca76: taxonomy_term
+    c7cf5ba2-0781-4876-b08a-c3e9134acfd3: taxonomy_term
+    1dec4bc8-c9b4-4a5c-a54d-6b016037fa0e: file
+default:
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'James White (Dictionary of Ulster Biography)'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_caption:
+    -
+      value: 'James White at his desk.'
+  field_depicts:
+    -
+      entity: fcdcfc4a-ca76-4614-9eb2-a2471c69ca76
+  field_image_source:
+    -
+      entity: c7cf5ba2-0781-4876-b08a-c3e9134acfd3
+  field_image_url:
+    -
+      uri: 'https://www.newulsterbiography.co.uk/www//gallery/whitejames2.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'James White, in glasses and a checked shirt, sitting at a desk beside a computer keyboard'
+      title: ''
+      width: 133
+      height: 200
+      entity: 1dec4bc8-c9b4-4a5c-a54d-6b016037fa0e
+  field_rights_basis:
+    -
+      value: fair_dealing
+  field_source_url:
+    -
+      uri: 'https://www.newulsterbiography.co.uk/index.php/home/viewPerson/1847'
+      title: null
+      options: {  }

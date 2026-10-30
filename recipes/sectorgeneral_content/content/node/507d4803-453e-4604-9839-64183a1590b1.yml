@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 507d4803-453e-4604-9839-64183a1590b1
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    d7f8e306-779c-4356-8b52-48a037c97010: node
+    a105c870-6181-49c6-9569-95136e2a8ea7: media
+    007d86a4-94ea-4b74-a63e-877ea1ab3496: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    36300acd-46ee-45b8-be41-1d56ae6cb991: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    a7dea710-a44f-4274-9610-aef81933893f: taxonomy_term
+    b356bb34-8da4-44b9-803e-23b82b1a8cd1: taxonomy_term
+    814d15a4-f951-437c-a74d-e967699f4db3: taxonomy_term
+    b0463f05-52c7-49bb-846d-c832aa808e52: taxonomy_term
+    33733e5a-94b6-4e70-8235-a87c42379cd2: taxonomy_term
+    4694fff6-aab0-4cf4-8ab5-b90626a59d86: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59649 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds 25, July 1954'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-25-july-1954
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: d7f8e306-779c-4356-8b52-48a037c97010
+  field_cover:
+    -
+      entity: a105c870-6181-49c6-9569-95136e2a8ea7
+  field_cover_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59649 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'July 1954'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_interior_artist:
+    -
+      entity: 007d86a4-94ea-4b74-a63e-877ea1ab3496
+    -
+      entity: 36300acd-46ee-45b8-be41-1d56ae6cb991
+  field_isfdb_id:
+    -
+      value: '59649'
+  field_issue_number:
+    -
+      value: '25'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: a7dea710-a44f-4274-9610-aef81933893f
+    -
+      entity: b356bb34-8da4-44b9-803e-23b82b1a8cd1
+    -
+      entity: 814d15a4-f951-437c-a74d-e967699f4db3
+    -
+      entity: b0463f05-52c7-49bb-846d-c832aa808e52
+    -
+      entity: 33733e5a-94b6-4e70-8235-a87c42379cd2
+    -
+      entity: 4694fff6-aab0-4cf4-8ab5-b90626a59d86
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 1/6
+  field_sort_date:
+    -
+      value: '1954-07-01'
+  field_year:
+    -
+      value: 1954

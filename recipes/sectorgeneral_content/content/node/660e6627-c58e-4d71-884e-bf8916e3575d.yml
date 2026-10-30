@@ -1,0 +1,70 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 660e6627-c58e-4d71-884e-bf8916e3575d
+  bundle: novel
+  default_langcode: en
+  depends:
+    7211c90c-95f0-434d-b7a5-e093126ec812: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 236, similarity 0.96).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Silent Stars Go By'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/silent-stars-go
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>James White&#039;s own favouritie James White novel. He got the catchy title from listening to &#039;O, Little Town of Bethlehem&#039; at a carol concert* The parallel-universe Hibernian Empire has risen to supreme power, with the help of applied Old World technology (Hero&#039;s steam engine, etc.) and new World natural resources (Brendan the navigator pre-empted Columbus by some five hundred years). Now the starship Aisling Gheal and its crew extend Oirish manifest destiny to outer space. Healer Nolan, an unbeliever in the priest-kings of Gor -- sorry, Hibernia -- finds himself pitted against the ultra-conservative Monsignor O&#039;Riordan. I lapped it up. Mind you, I also think that Darby O&#039;Gill and the Little People is a piece of grim documentary realism. *&quot;WHEN IRISH SPIES ARE SMILING&quot; makes for a somewhat less dignified back-cover blurbette.</p>
+        <p>First publication:</p>
+        <p>Ballantine/Del Rey, ISBN 0-345-37110-0, September 1991</p>
+        <p>Back to Books Main Next: The Genocidal Healer</p>
+      format: basic_html
+      summary: "A universe where Hibernia is the greatest empire on earth, and from which the starship Aishling Gheal will go forth to the stars. At 441 pages this is James's longest book, and upon reading it you can appreciate the superb research that must have gone into this fine piece."
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: 7211c90c-95f0-434d-b7a5-e093126ec812
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?4246 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1991
+  field_isfdb_id:
+    -
+      value: '4246'
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 189250

@@ -1,0 +1,6 @@
+services:
+  Drupal\sectorgeneral\LanguageStats:
+    autowire: true
+  Drupal\sectorgeneral\EventSubscriber\DefaultContentSubscriber:
+    tags:
+      - { name: event_subscriber }

@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4d139053-8f19-418c-a119-a1173e437ff9
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?93581 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Tableau
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/tableau
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>&#039;Tableau&#039; proves beyond any possible doubt that James White was a muscular pacifist concerning militarism and those moral imbeciles who fight to the last drop of everybody else&#039;s blood. From Gary Louie&#039;s &#039;Sector General Timeline&#039; (see The White Papers): &quot;After a bad first contact, Earth and Orligia are at war for three years./Earth-human MacEwan and orligian Grawlya-Ki are stopped [in tableau vivant form]./After 236 years, Grawlya-Ki and MacEwan are brought out of stasis.&quot; Retroblurb: &quot;Makes All Quiet on the Western Front look like a vicarage tea party!&quot;</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?93581 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1958
+  field_isfdb_id:
+    -
+      value: '93581'
+  field_opening_excerpt:
+    -
+      value: '<p>The War Memorial in the planetary capital of Orligia was unique, but it very definitely was not a nice object.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>NEW WORLDS 71, May 1958 </p>
+        <p>Publication History: FICTION, Special SF issue No 3, June 1961, as Cenotaph THE BEST OF NEW WORLDS, Ed Michael Moorcock, Compact, November 1965 THE BEST OF BRITISH SF 2, Ed Mike Ashley, Futura, Autumn 1977 Russian State Publishing as Memopnar (Memoriam),Mahopana, Moscow, 1991 BBC reading, Radio Ulster Plunge into Space extract,10/5/8 CBC Canadian radio reading extract,19/5/86 The Aliens Among Us</p>
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 10000

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: dc60224a-fc44-4b46-a721-49ba1910145a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: wltrmnrljl1974.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/wltrmnrljl1974.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 125566
+  status:
+    -
+      value: true

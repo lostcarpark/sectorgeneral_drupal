@@ -1,0 +1,20 @@
+uuid: 33e53c53-cb24-45dc-bb03-eb70a201f573
+langcode: en
+status: true
+dependencies:
+  module:
+    - sectorgeneral_isfdb
+  theme:
+    - olivero
+id: olivero_isfdb_credit
+theme: olivero
+region: footer_bottom
+weight: 10
+provider: null
+plugin: sectorgeneral_isfdb_credit
+settings:
+  id: sectorgeneral_isfdb_credit
+  label: 'ISFDB credit'
+  label_display: '0'
+  provider: sectorgeneral_isfdb
+visibility: {  }

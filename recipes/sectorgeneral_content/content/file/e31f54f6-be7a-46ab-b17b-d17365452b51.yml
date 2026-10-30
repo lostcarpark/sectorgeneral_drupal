@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e31f54f6-be7a-46ab-b17b-d17365452b51
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nebulasjan1956.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/nebulasjan1956.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 22974
+  status:
+    -
+      value: true

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 3f46381b-ddc5-49df-8b46-0127ed761aa0
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Gavin Neal'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/gavin-neal
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

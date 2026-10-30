@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 86ab548c-ca05-4c29-8203-67561dbe1822
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    71a7d988-6206-49d5-a6d8-a283f6528e5c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Urania (collana) 518, 13 July 1969 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 85011ff8392cf9f99254f33f24bf5aa5bd9da942
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'http://www.mondourania.com/urania/u501-520/u518.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Urania (collana) 518, 13 July 1969 cover'
+      title: ''
+      width: 430
+      height: 626
+      entity: 71a7d988-6206-49d5-a6d8-a283f6528e5c
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?380782'
+      title: null
+      options: {  }

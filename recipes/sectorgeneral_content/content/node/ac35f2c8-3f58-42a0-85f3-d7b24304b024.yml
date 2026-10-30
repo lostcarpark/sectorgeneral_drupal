@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ac35f2c8-3f58-42a0-85f3-d7b24304b024
+  bundle: edition
+  default_langcode: en
+  depends:
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    77839f28-06fe-4a5d-819c-9a837540e410: node
+    a7db68df-cbcb-4bf3-ad1e-26874fce4a71: taxonomy_term
+    0094b470-35c6-4b64-9ac8-cfe7b5bf2570: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the OPAC SBN: https://opac.sbn.it/bid/RAV0074173'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Vortice di Relitti, Mondadori, 1966'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/deadly-litter/vortice-di-relitti-mondadori-1966
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “URANIA No 421, February 1966 as Vortice di Relitti”
+        OPAC SBN record https://opac.sbn.it/bid/RAV0074173.
+  field_date_display:
+    -
+      value: 'February 1966'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: 77839f28-06fe-4a5d-819c-9a837540e410
+  field_pages:
+    -
+      value: 156
+  field_publisher:
+    -
+      entity: a7db68df-cbcb-4bf3-ad1e-26874fce4a71
+  field_publisher_reference:
+    -
+      value: '421'
+  field_publisher_series:
+    -
+      entity: 0094b470-35c6-4b64-9ac8-cfe7b5bf2570
+  field_sort_date:
+    -
+      value: '1966-02-01'
+  field_year:
+    -
+      value: 1966

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: cbf18c7f-ae64-4716-928c-a5a2a951963e
+  bundle: redirect
+  default_langcode: und
+  depends:
+    8209a24c-b45b-4921-b2c8-9f0d8c681f75: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: VwJhQYyuQ86Ii3EpjVJunZ3pty9Ne6MpzlKl_E5ObGY
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/outrider.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 8209a24c-b45b-4921-b2c8-9f0d8c681f75
+  status_code:
+    -
+      value: 301

@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8fe45d6a-045d-463f-9b04-1bb2d51cdf25
+  bundle: anthology
+  default_langcode: en
+  depends:
+    1ffa602a-5411-4c5e-b55f-dec7f9f9aa31: node
+    e61fe6b2-282e-485a-8f54-0b3459e22ef3: media
+    fcdcfc4a-ca76-4614-9eb2-a2471c69ca76: taxonomy_term
+    2f123e94-14d5-4b72-9781-e2776ab2c3ee: taxonomy_term
+    ec3af62e-eea3-40ad-8463-3dcfe12b2c9c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?328442'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Interpreters / A Novacon Garland'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/interpreters-novacon-garland
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>The Birmingham Science Fiction Group, November 1985.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 1ffa602a-5411-4c5e-b55f-dec7f9f9aa31
+  field_cover:
+    -
+      entity: e61fe6b2-282e-485a-8f54-0b3459e22ef3
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1157659 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: fcdcfc4a-ca76-4614-9eb2-a2471c69ca76
+    -
+      entity: 2f123e94-14d5-4b72-9781-e2776ab2c3ee
+  field_first_published_year:
+    -
+      value: 1985
+  field_isfdb_id:
+    -
+      value: '1157659'
+  field_other_contributors:
+    -
+      entity: 2f123e94-14d5-4b72-9781-e2776ab2c3ee
+  field_publisher:
+    -
+      entity: ec3af62e-eea3-40ad-8463-3dcfe12b2c9c

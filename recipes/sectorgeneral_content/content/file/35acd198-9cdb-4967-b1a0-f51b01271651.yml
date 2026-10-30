@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 35acd198-9cdb-4967-b1a0-f51b01271651
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: strsrgnphl1976.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/strsrgnphl1976.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 119380
+  status:
+    -
+      value: true

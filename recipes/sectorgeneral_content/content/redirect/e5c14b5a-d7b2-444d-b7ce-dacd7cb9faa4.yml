@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: e5c14b5a-d7b2-444d-b7ce-dacd7cb9faa4
+  bundle: redirect
+  default_langcode: und
+  depends:
+    a56bb87e-518f-47d0-b419-2dcc914c7cdf: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 7pfV5M3WEdccg1WuOJLxryiNRUnBJ7lAcP5ytqwBPPs
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: node/702
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: a56bb87e-518f-47d0-b419-2dcc914c7cdf
+  status_code:
+    -
+      value: 301

@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 9163617e-b05d-474e-b91e-d660d42b7fde
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    7ec58788-7221-4ad4-adc8-4fdc9e21f957: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Worlds 19, January 1953 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: e0ceab8c35bfa9a5d8bf44e00183e8f32fca2f86
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'New Worlds 19, January 1953 cover'
+      title: ''
+      width: 129
+      height: 200
+      entity: 7ec58788-7221-4ad4-adc8-4fdc9e21f957

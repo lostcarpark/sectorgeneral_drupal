@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2cdd9a62-7072-420a-a40d-a7bb8b26c1c6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 00439.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/00439.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 5256
+  status:
+    -
+      value: true

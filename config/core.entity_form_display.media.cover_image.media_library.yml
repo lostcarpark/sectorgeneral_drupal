@@ -1,0 +1,77 @@
+uuid: 40ca97f2-21b5-499f-b1e3-10c4ada06aea
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.cover_image.field_image_hash
+    - field.field.media.cover_image.field_image_source
+    - field.field.media.cover_image.field_image_url
+    - field.field.media.cover_image.field_media_image
+    - field.field.media.cover_image.field_scanned_by
+    - field.field.media.cover_image.field_source_url
+    - field.field.media.cover_image.field_takedown_date
+    - field.field.media.cover_image.field_takedown_reason
+    - image.style.cover_small
+    - media.type.cover_image
+  module:
+    - image
+    - path
+id: media.cover_image.media_library
+targetEntityType: media
+bundle: cover_image
+mode: media_library
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_media_image:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: cover_small
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  field_image_hash: true
+  field_image_source: true
+  field_image_url: true
+  field_scanned_by: true
+  field_source_url: true
+  field_takedown_date: true
+  field_takedown_reason: true

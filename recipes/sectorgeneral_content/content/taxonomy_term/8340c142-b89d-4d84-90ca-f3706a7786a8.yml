@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8340c142-b89d-4d84-90ca-f3706a7786a8
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Arnold M. Auerbach'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/arnold-m-auerbach
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

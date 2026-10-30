@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d1b111b3-c822-4c54-a512-ff0a28d9a2ae
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sprntrlcts1972.gif
+  uri:
+    -
+      value: 'public://covers/isfdb/sprntrlcts1972.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 68160
+  status:
+    -
+      value: true

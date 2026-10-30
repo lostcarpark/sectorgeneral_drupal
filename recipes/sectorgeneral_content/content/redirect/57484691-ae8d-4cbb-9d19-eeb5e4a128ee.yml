@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 57484691-ae8d-4cbb-9d19-eeb5e4a128ee
+  bundle: redirect
+  default_langcode: en
+  depends:
+    e674bb36-132b-4ca4-99a4-39a40fc8214b: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: Q3MLLTj2TQS81Ypwe6dCe-f9H4ZzqMeR5Se7B4cg16Q
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/new-worlds/new-worlds-magazine-february-1964
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: e674bb36-132b-4ca4-99a4-39a40fc8214b
+  status_code:
+    -
+      value: 301

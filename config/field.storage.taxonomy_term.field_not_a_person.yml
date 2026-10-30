@@ -1,0 +1,18 @@
+uuid: 5fd229c7-d3a6-4a63-84c5-44e98db675b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_not_a_person
+field_name: field_not_a_person
+entity_type: taxonomy_term
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

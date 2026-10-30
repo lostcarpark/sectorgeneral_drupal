@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: bfe44666-13ab-4176-af3c-0b977a7e9b46
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    2d446353-07dd-4794-a4e2-ab100e018d3e: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Hospital Station, Gateway / Orion, 2026 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 3700f78ab3f0ec9228f6fad646e7cde6aab93eeb
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://m.media-amazon.com/images/I/810sy0bSGgL.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Hospital Station, Gateway / Orion, 2026 cover'
+      title: ''
+      width: 1600
+      height: 2456
+      entity: 2d446353-07dd-4794-a4e2-ab100e018d3e
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?1109388'
+      title: null
+      options: {  }

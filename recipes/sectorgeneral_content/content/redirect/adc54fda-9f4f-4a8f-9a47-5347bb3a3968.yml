@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: adc54fda-9f4f-4a8f-9a47-5347bb3a3968
+  bundle: redirect
+  default_langcode: en
+  depends:
+    59ef01a0-7585-42de-8f93-71d7987949c0: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: s2XUMEpLH-v5S0mJ3pa28jKEqKlxAFVIGvN6CONpKX8
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/magazine-fantasy-science-fiction/magazine-fantasy-science-fiction-august-1963
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 59ef01a0-7585-42de-8f93-71d7987949c0
+  status_code:
+    -
+      value: 301

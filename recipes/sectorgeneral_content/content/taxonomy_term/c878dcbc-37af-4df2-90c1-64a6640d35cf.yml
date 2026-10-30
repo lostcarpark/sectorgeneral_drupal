@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c878dcbc-37af-4df2-90c1-64a6640d35cf
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Fredric Brown'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/fredric-brown
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

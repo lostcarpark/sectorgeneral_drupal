@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 04940c25-7814-4686-aafc-7f3554ef106f
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Manuel van Loggem'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/manuel-van-loggem
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b884ba30-5f7f-41ca-90c9-4429e61f3a32
+  bundle: anthology
+  default_langcode: en
+  depends:
+    99183a07-c02d-492a-ab74-66946e8a0468: node
+    bb7b2398-99c5-44ae-ada3-189e8a9c20b6: media
+    8e789ac3-f8f7-4d63-9961-3f58bb9c361d: taxonomy_term
+    c6b6dfbe-613e-4d32-aaad-239aaefe19fb: taxonomy_term
+    62abe30a-e702-4f8c-a8dd-149acdb38933: taxonomy_term
+    3e7d2170-f99e-4731-9c56-982d211a2a86: taxonomy_term
+    b31d2af0-345f-4612-adf9-ed02b344c905: taxonomy_term
+    3e67a290-1a1a-477b-9a7f-b0db9c92ce23: taxonomy_term
+    4694fff6-aab0-4cf4-8ab5-b90626a59d86: taxonomy_term
+    c1ac0c3e-6fb3-4842-b06b-4bc0ca67ce6b: taxonomy_term
+    2b55f4f5-fabf-4cfa-a782-7905c6674e49: taxonomy_term
+    0678ee54-6fad-45b9-ad5e-d7375e0f5d78: taxonomy_term
+    331776cf-1da9-4db4-93bd-11944942c9eb: taxonomy_term
+    cffafaac-5c11-4b79-bca2-d1199a018079: taxonomy_term
+    f628b78f-67b3-4ba9-9be7-9347b6e06364: taxonomy_term
+    9cddb69b-5ebf-4b61-901c-a7453284390d: taxonomy_term
+    69b2a855-a3c6-458f-a9f1-4e22d8406334: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?35726'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Best from Galaxy 3'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/best-galaxy-3
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Award Books, 1975.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 99183a07-c02d-492a-ab74-66946e8a0468
+  field_cover:
+    -
+      entity: bb7b2398-99c5-44ae-ada3-189e8a9c20b6
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?35122 (CC BY 4.0).
+  field_editor:
+    -
+      entity: 8e789ac3-f8f7-4d63-9961-3f58bb9c361d
+  field_first_published_year:
+    -
+      value: 1975
+  field_isfdb_id:
+    -
+      value: '35122'
+  field_other_contributors:
+    -
+      entity: c6b6dfbe-613e-4d32-aaad-239aaefe19fb
+    -
+      entity: 62abe30a-e702-4f8c-a8dd-149acdb38933
+    -
+      entity: 3e7d2170-f99e-4731-9c56-982d211a2a86
+    -
+      entity: b31d2af0-345f-4612-adf9-ed02b344c905
+    -
+      entity: 3e67a290-1a1a-477b-9a7f-b0db9c92ce23
+    -
+      entity: 4694fff6-aab0-4cf4-8ab5-b90626a59d86
+    -
+      entity: c1ac0c3e-6fb3-4842-b06b-4bc0ca67ce6b
+    -
+      entity: 2b55f4f5-fabf-4cfa-a782-7905c6674e49
+    -
+      entity: 0678ee54-6fad-45b9-ad5e-d7375e0f5d78
+    -
+      entity: 331776cf-1da9-4db4-93bd-11944942c9eb
+    -
+      entity: cffafaac-5c11-4b79-bca2-d1199a018079
+    -
+      entity: f628b78f-67b3-4ba9-9be7-9347b6e06364
+  field_publisher:
+    -
+      entity: 9cddb69b-5ebf-4b61-901c-a7453284390d
+  field_series:
+    -
+      entity: 69b2a855-a3c6-458f-a9f1-4e22d8406334
+  field_series_number:
+    -
+      value: 3

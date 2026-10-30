@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 9fcc64f0-4095-4ee8-af3f-037df754ff39
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    405a4085-7546-4981-922b-7fe6edb4b5e1: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Star Surgeon, Ballantine, 1963 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 0b33b2e6c3ecba5abbd75b48d1df704baa3a9043
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/5/54/STRSRGNNZZ1963.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Star Surgeon, Ballantine, 1963 cover'
+      title: ''
+      width: 376
+      height: 640
+      entity: 405a4085-7546-4981-922b-7fe6edb4b5e1
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?183741'
+      title: null
+      options: {  }

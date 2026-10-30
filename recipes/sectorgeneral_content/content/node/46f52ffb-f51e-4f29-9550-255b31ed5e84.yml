@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 46f52ffb-f51e-4f29-9550-255b31ed5e84
+  bundle: edition
+  default_langcode: en
+  depends:
+    9e45dbd9-d7e5-4337-9eb6-d14ad84449e5: media
+    1a64719c-28a1-4b74-9f0b-10b8c4fd8249: taxonomy_term
+    42b8f78b-6a45-4b53-8c09-9abae4ded93e: taxonomy_term
+    ce18b8b6-4bdc-4590-bb74-093888cff74d: node
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    a7db68df-cbcb-4bf3-ad1e-26874fce4a71: taxonomy_term
+    a11060ea-424c-4bbe-b568-bf0daf4dd9eb: taxonomy_term
+    81f66098-fd45-495e-80a1-17598f0cd192: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?397793 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Millemondi Estate 1996, Mondadori, 1996'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/all-judgement-fled/millemondi-estate-1996-mondadori-1996
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 9e45dbd9-d7e5-4337-9eb6-d14ad84449e5
+  field_cover_artist:
+    -
+      entity: 1a64719c-28a1-4b74-9f0b-10b8c4fd8249
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?397793 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'June 1996'
+  field_format:
+    -
+      entity: 42b8f78b-6a45-4b53-8c09-9abae4ded93e
+  field_in_anthology:
+    -
+      entity: ce18b8b6-4bdc-4590-bb74-093888cff74d
+  field_isfdb_id:
+    -
+      value: '397793'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_pages:
+    -
+      value: 464
+  field_price:
+    -
+      value: 'Lit 9,000'
+  field_publisher:
+    -
+      entity: a7db68df-cbcb-4bf3-ad1e-26874fce4a71
+  field_publisher_series:
+    -
+      entity: a11060ea-424c-4bbe-b568-bf0daf4dd9eb
+  field_publisher_series_number:
+    -
+      value: '7'
+  field_sort_date:
+    -
+      value: '1996-06-01'
+  field_translator:
+    -
+      entity: 81f66098-fd45-495e-80a1-17598f0cd192
+  field_year:
+    -
+      value: 1996

@@ -1,0 +1,87 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 78c541d1-adcb-4fe7-8946-e019b12005bf
+  bundle: anthology
+  default_langcode: en
+  depends:
+    d4cd1539-557c-47d8-8cb1-eec206258260: node
+    3ebcb616-ad0a-493c-b4d0-5408e69116c4: media
+    2b6fefb4-c85d-4dc2-9e6f-51daaad38483: taxonomy_term
+    c878dcbc-37af-4df2-90c1-64a6640d35cf: taxonomy_term
+    14b5e5da-b0be-43d2-aa4e-343c47ab785e: taxonomy_term
+    b3f95eba-f754-4f44-93a9-7e9a8ef9fcb5: taxonomy_term
+    bd9f9907-310d-4d8f-bd5c-1f0f8a2fe5f6: taxonomy_term
+    2102ba46-316a-44c2-bb1e-3036cd0b2359: taxonomy_term
+    8bcdcf48-e96b-4286-8b0a-cbc279e2a240: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?35102'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Aliens'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/aliens
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Thomas Nelson, New York, 1978.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: d4cd1539-557c-47d8-8cb1-eec206258260
+  field_cover:
+    -
+      entity: 3ebcb616-ad0a-493c-b4d0-5408e69116c4
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?34774 (CC BY 4.0).
+  field_editor:
+    -
+      entity: 2b6fefb4-c85d-4dc2-9e6f-51daaad38483
+  field_first_published_year:
+    -
+      value: 1978
+  field_isfdb_id:
+    -
+      value: '34774'
+  field_other_contributors:
+    -
+      entity: c878dcbc-37af-4df2-90c1-64a6640d35cf
+    -
+      entity: 14b5e5da-b0be-43d2-aa4e-343c47ab785e
+    -
+      entity: 2b6fefb4-c85d-4dc2-9e6f-51daaad38483
+    -
+      entity: b3f95eba-f754-4f44-93a9-7e9a8ef9fcb5
+    -
+      entity: bd9f9907-310d-4d8f-bd5c-1f0f8a2fe5f6
+    -
+      entity: 2102ba46-316a-44c2-bb1e-3036cd0b2359
+  field_publisher:
+    -
+      entity: 8bcdcf48-e96b-4286-8b0a-cbc279e2a240

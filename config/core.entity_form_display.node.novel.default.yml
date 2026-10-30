@@ -1,0 +1,298 @@
+uuid: 1ace8a3d-7c25-4747-8b10-161682e087ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.novel.body
+    - field.field.node.novel.field_alternative_titles
+    - field.field.node.novel.field_book_type
+    - field.field.node.novel.field_contained_books
+    - field.field.node.novel.field_contents
+    - field.field.node.novel.field_cover
+    - field.field.node.novel.field_data_sources
+    - field.field.node.novel.field_editor
+    - field.field.node.novel.field_first_published_year
+    - field.field.node.novel.field_isfdb_id
+    - field.field.node.novel.field_publisher
+    - field.field.node.novel.field_reviews
+    - field.field.node.novel.field_series
+    - field.field.node.novel.field_series_number
+    - field.field.node.novel.field_synopsis_credit
+    - field.field.node.novel.field_wikidata_id
+    - field.field.node.novel.field_wikipedia
+    - field.field.node.novel.field_words
+    - node.type.novel
+  module:
+    - field_group
+    - link
+    - media_library
+    - path
+    - text
+third_party_settings:
+  field_group:
+    group_publication:
+      children:
+        - field_series
+        - field_series_number
+        - field_first_published_year
+        - field_publisher
+        - field_words
+        - field_alternative_titles
+      label: 'Series and publication'
+      region: content
+      parent_name: ''
+      weight: 11
+      format_type: details
+      format_settings:
+        classes: ''
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+    group_contents:
+      children:
+        - field_contents
+        - field_contained_books
+        - field_editor
+      label: Contents
+      region: content
+      parent_name: ''
+      weight: 15
+      format_type: details
+      format_settings:
+        classes: ''
+        id: ''
+        open: true
+        description: ''
+        required_fields: true
+    group_references:
+      children:
+        - field_isfdb_id
+        - field_wikidata_id
+        - field_wikipedia
+        - field_reviews
+        - field_data_sources
+      label: 'References and sources'
+      region: content
+      parent_name: ''
+      weight: 21
+      format_type: details
+      format_settings:
+        classes: ''
+        id: ''
+        open: false
+        description: ''
+        required_fields: true
+id: node.novel.default
+targetEntityType: node
+bundle: novel
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_alternative_titles:
+    type: string_textfield
+    weight: 10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_book_type:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_contained_books:
+    type: entity_reference_autocomplete
+    weight: 13
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_contents:
+    type: entity_reference_autocomplete
+    weight: 12
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_cover:
+    type: media_library_widget
+    weight: 2
+    region: content
+    settings:
+      media_types:
+        - cover_image
+    third_party_settings: {  }
+  field_data_sources:
+    type: string_textarea
+    weight: 20
+    region: content
+    settings:
+      rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  field_editor:
+    type: entity_reference_autocomplete_tags
+    weight: 14
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_first_published_year:
+    type: number
+    weight: 7
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_isfdb_id:
+    type: string_textfield
+    weight: 16
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_publisher:
+    type: entity_reference_autocomplete
+    weight: 8
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_reviews:
+    type: link_default
+    weight: 19
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_series:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_series_number:
+    type: number
+    weight: 6
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_synopsis_credit:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_wikidata_id:
+    type: string_textfield
+    weight: 17
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_wikipedia:
+    type: link_default
+    weight: 18
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_words:
+    type: number
+    weight: 9
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 121
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

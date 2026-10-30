@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8189bda8-f2fe-490d-a3d9-ffe6b151b6e3
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Walt Miller'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/walt-miller
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

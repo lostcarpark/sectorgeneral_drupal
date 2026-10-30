@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: cac19ac7-90ce-4ca5-b5fb-703d249dcbae
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Ann Chadwick'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/ann-chadwick
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

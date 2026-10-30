@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 19b1cfbb-06d6-4aeb-b49b-d7bfc8768db5
+  bundle: novel
+  default_langcode: en
+  depends:
+    b964a6c4-1102-4a2a-a542-15b25066c145: media
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 244, similarity 0.97).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Final Diagnosis'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/final-diagnosis
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Not to be confused with (The) Final Diagnosis, by Arthur (Airport) Hailey. White harks back to the Galactic Federation/Etlan Empire conflict that raged in those now almost legendary days of Star Surgeon. Earth-human Patient Hewlitt, who had been but a boy on Etla at the time, suffers from severe post-traumatic xenophobia. He must also be cured of his supposedly impossible knack for catching every virus known to man or alien. Sector General accepted the conventional medical wisdom that germs from one world cannot infect beings who are native to another world -- until the &#039;Hewlitt Syndrome&#039; came along. Rave review from an unexpected source: &quot;A masterfully crafted puzzle that is pure catnip for science fiction fans&quot; (Romantic Times). Sector General (Ballantine, 1983).</p>'
+      format: basic_html
+      summary: 'Sector General number ten.'
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: b964a6c4-1102-4a2a-a542-15b25066c145
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?8613 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1997
+  field_isfdb_id:
+    -
+      value: '8613'
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_series_number:
+    -
+      value: 10
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 92000

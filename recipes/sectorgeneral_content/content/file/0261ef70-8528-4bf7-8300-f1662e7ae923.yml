@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0261ef70-8528-4bf7-8300-f1662e7ae923
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hospital_station_german_1983.jpg
+  uri:
+    -
+      value: 'public://2016-03/hospital_station_german_1983.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 37826
+  status:
+    -
+      value: true

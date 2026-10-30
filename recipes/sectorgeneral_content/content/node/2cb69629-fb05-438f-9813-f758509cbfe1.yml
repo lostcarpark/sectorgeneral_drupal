@@ -1,0 +1,96 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2cb69629-fb05-438f-9813-f758509cbfe1
+  bundle: anthology
+  default_langcode: en
+  depends:
+    9b1202e7-a80e-4c92-b146-d00078b4d127: node
+    f0d3f443-3d88-4d7f-8f6c-6cbe6da3422c: media
+    2b6fefb4-c85d-4dc2-9e6f-51daaad38483: taxonomy_term
+    62abe30a-e702-4f8c-a8dd-149acdb38933: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea: taxonomy_term
+    f7a8e920-2961-43d1-9802-ad88d5bb1b61: taxonomy_term
+    bedc199f-cef0-4b30-9081-69275cc8e644: taxonomy_term
+    b31d2af0-345f-4612-adf9-ed02b344c905: taxonomy_term
+    f25accc3-7dae-402c-b0d1-8c1ddf314e70: taxonomy_term
+    b226aeaa-e71f-48e7-b1bb-540fe32b5459: taxonomy_term
+    8bcdcf48-e96b-4286-8b0a-cbc279e2a240: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?34760 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Mind to Mind'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/mind-mind
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Thomas Nelson, New York, 1971. Paperback edition February 1974.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 9b1202e7-a80e-4c92-b146-d00078b4d127
+  field_cover:
+    -
+      entity: f0d3f443-3d88-4d7f-8f6c-6cbe6da3422c
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?34760 (CC BY 4.0).
+  field_editor:
+    -
+      entity: 2b6fefb4-c85d-4dc2-9e6f-51daaad38483
+  field_first_published_year:
+    -
+      value: 1971
+  field_isfdb_id:
+    -
+      value: '34760'
+  field_other_contributors:
+    -
+      entity: 62abe30a-e702-4f8c-a8dd-149acdb38933
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: 0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea
+    -
+      entity: f7a8e920-2961-43d1-9802-ad88d5bb1b61
+    -
+      entity: bedc199f-cef0-4b30-9081-69275cc8e644
+    -
+      entity: b31d2af0-345f-4612-adf9-ed02b344c905
+    -
+      entity: 2b6fefb4-c85d-4dc2-9e6f-51daaad38483
+    -
+      entity: f25accc3-7dae-402c-b0d1-8c1ddf314e70
+    -
+      entity: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+  field_publisher:
+    -
+      entity: 8bcdcf48-e96b-4286-8b0a-cbc279e2a240

@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 16677e50-3872-4eec-8591-2beffcfb5ca9
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    482b9780-9560-4b73-9fb3-18049137833e: node
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+    51e2f5a0-3ad4-4773-8698-73e11971edf1: media
+    ed19f5fe-13bf-43de-9e82-ae4c7d2e0394: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    078584af-381d-4b9f-9ce4-0a30014b1987: taxonomy_term
+    e88abba8-bce7-4828-a540-1b7d790a5f9c: taxonomy_term
+    af91cef5-7e1f-4b15-9749-0604ee0dc1d0: taxonomy_term
+    15b4b4fc-75c7-476e-99ac-3d01f105cf30: taxonomy_term
+    6352ffef-5d56-440c-adca-741ea5e12d66: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59682 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds 53, November 1956'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-53-november-1956
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 482b9780-9560-4b73-9fb3-18049137833e
+    -
+      entity: fec32d28-7455-4a8a-a448-67c3af694c28
+  field_cover:
+    -
+      entity: 51e2f5a0-3ad4-4773-8698-73e11971edf1
+  field_cover_artist:
+    -
+      entity: ed19f5fe-13bf-43de-9e82-ae4c7d2e0394
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59682 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'November 1956'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_isfdb_id:
+    -
+      value: '59682'
+  field_issue_number:
+    -
+      value: '53'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: 078584af-381d-4b9f-9ce4-0a30014b1987
+    -
+      entity: e88abba8-bce7-4828-a540-1b7d790a5f9c
+    -
+      entity: af91cef5-7e1f-4b15-9749-0604ee0dc1d0
+    -
+      entity: 15b4b4fc-75c7-476e-99ac-3d01f105cf30
+    -
+      entity: 6352ffef-5d56-440c-adca-741ea5e12d66
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 2/-
+  field_published_as:
+    -
+      value: 'Tourist Planet (Part 2 of 3)'
+  field_sort_date:
+    -
+      value: '1956-11-01'
+  field_year:
+    -
+      value: 1956

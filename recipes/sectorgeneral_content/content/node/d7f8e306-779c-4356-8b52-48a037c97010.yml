@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d7f8e306-779c-4356-8b52-48a037c97010
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?73284 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Starvation Orbit'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/starvation-orbit
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>&quot;Accidents are going to happen in space when interplanetary travel becomes a fact. The most important on ship, space station or extrterrestrial base will be the doctors -- and they will have to discover new methods of treatment under very unearthly conditions.&quot; The title + foregoing blurb may be self-axplanatory -- runaway spaceship Queen of Darkness collides with Venusian space station, take it from there -- but don&#039;t let that put you off. Dr. (Gerald) Mathewson, of &#039;Assisted Passage&#039;/Allen Drive fame, makes a fleeting guest appearance.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?73284 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1954
+  field_isfdb_id:
+    -
+      value: '73284'
+  field_opening_excerpt:
+    -
+      value: '<p>Russell moved towards the damaged section of the Station, sliding his foot magnets slowly over the buckled areas of the hull, lifting them carefully when twisted jagged-edged metal threatened the fabric of his spacesuit.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WORLDS No. 25, July 1954</p>'
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 11500

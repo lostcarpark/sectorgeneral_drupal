@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 7d2e4573-c0d4-4a5e-9b9a-0f26621edb0a
+  bundle: redirect
+  default_langcode: und
+  depends:
+    bd6a95ab-ba34-4e54-91ab-eed5ef7627dc: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: Iqt4JE17Ny1Q_P--DNVzb__mCUnkmFJZCnwpzPjXP_Q
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: biobiblio.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: bd6a95ab-ba34-4e54-91ab-eed5ef7627dc
+  status_code:
+    -
+      value: 301

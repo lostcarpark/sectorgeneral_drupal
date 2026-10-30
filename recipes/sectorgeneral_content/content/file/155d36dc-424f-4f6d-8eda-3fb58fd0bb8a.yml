@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 155d36dc-424f-4f6d-8eda-3fb58fd0bb8a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mnddbsmftb1972.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mnddbsmftb1972.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 103564
+  status:
+    -
+      value: true

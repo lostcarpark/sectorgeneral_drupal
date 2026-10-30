@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 95c221c1-8859-454a-a1c1-529176ac3d84
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: james_white_Szpital_Kosmiczny.jpg
+  uri:
+    -
+      value: 'public://covers/2026-10/james_white_Szpital_Kosmiczny.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 116313
+  status:
+    -
+      value: true

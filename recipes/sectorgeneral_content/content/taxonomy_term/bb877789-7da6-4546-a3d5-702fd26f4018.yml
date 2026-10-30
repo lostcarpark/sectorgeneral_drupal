@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: bb877789-7da6-4546-a3d5-702fd26f4018
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'James E. Gunn'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/james-e-gunn
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

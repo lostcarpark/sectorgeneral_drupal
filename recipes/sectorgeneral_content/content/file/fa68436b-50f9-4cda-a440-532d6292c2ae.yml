@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fa68436b-50f9-4cda-a440-532d6292c2ae
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nwwrsnsf6c1970.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/nwwrsnsf6c1970.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 47728
+  status:
+    -
+      value: true

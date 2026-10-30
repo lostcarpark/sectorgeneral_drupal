@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 00fa5081-088c-4275-9c92-f6582ffbf8ab
+  bundle: redirect
+  default_langcode: und
+  depends:
+    482b9780-9560-4b73-9fb3-18049137833e: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: AEPi52Eep9BNzDdmZDLQLAxXP2C8LsQUxRx53CLsj64
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/touristplanet.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 482b9780-9560-4b73-9fb3-18049137833e
+  status_code:
+    -
+      value: 301

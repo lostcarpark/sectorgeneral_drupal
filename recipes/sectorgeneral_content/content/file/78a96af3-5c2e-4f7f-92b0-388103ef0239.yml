@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 78a96af3-5c2e-4f7f-92b0-388103ef0239
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: galoct73.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/galoct73.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 84883
+  status:
+    -
+      value: true

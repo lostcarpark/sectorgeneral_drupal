@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 64cda9fc-952f-4341-b01b-df14903e1b81
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: glctcmprsg1988.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/glctcmprsg1988.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 59670
+  status:
+    -
+      value: true

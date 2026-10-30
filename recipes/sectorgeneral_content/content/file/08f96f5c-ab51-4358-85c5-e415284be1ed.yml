@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 08f96f5c-ab51-4358-85c5-e415284be1ed
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hsptlsttnk1979.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/hsptlsttnk1979.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 106215
+  status:
+    -
+      value: true

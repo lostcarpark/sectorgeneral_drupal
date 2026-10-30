@@ -1,0 +1,116 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 75a7ac39-bd3f-419e-a703-3e8b26daafb9
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    5786eb34-83c5-4eae-8125-0c0949615759: node
+    36839d01-620b-4502-85ea-31d73e6b84f7: media
+    3dcf566c-0c3c-4359-942c-03113ac5727d: taxonomy_term
+    64f0b841-6939-4c1a-bd09-9b822a284932: taxonomy_term
+    0c40b780-a18d-432e-99d5-356234f3498a: taxonomy_term
+    8189bda8-f2fe-490d-a3d9-ffe6b151b6e3: taxonomy_term
+    5cba4392-3519-473d-a3d2-30130620ad79: taxonomy_term
+    09150344-7541-4c03-ae8f-801433573add: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    76650c9f-2be2-4c52-8181-ac4138d8539c: taxonomy_term
+    67919e03-e42a-4cc4-a107-908d3ff98d5e: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    ec3db7de-a2b9-4afc-9aad-09b74fda1d21: taxonomy_term
+    c878dcbc-37af-4df2-90c1-64a6640d35cf: taxonomy_term
+    dc5875fa-8328-4d42-8b2e-90f29e3cd770: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?302675 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Astounding / Analog (1937-1971), March 1954 (UK edition)'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/astounding-analog-1937-1971/astounding-analog-1937-1971-march-1954-uk-edition
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 5786eb34-83c5-4eae-8125-0c0949615759
+  field_cover:
+    -
+      entity: 36839d01-620b-4502-85ea-31d73e6b84f7
+  field_cover_artist:
+    -
+      entity: 3dcf566c-0c3c-4359-942c-03113ac5727d
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?302675 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'March 1954'
+  field_editor:
+    -
+      entity: 64f0b841-6939-4c1a-bd09-9b822a284932
+  field_interior_artist:
+    -
+      entity: 3dcf566c-0c3c-4359-942c-03113ac5727d
+    -
+      entity: 0c40b780-a18d-432e-99d5-356234f3498a
+    -
+      entity: 8189bda8-f2fe-490d-a3d9-ffe6b151b6e3
+    -
+      entity: 5cba4392-3519-473d-a3d2-30130620ad79
+    -
+      entity: 09150344-7541-4c03-ae8f-801433573add
+  field_isfdb_id:
+    -
+      value: '302675'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 76650c9f-2be2-4c52-8181-ac4138d8539c
+  field_other_contributors:
+    -
+      entity: 67919e03-e42a-4cc4-a107-908d3ff98d5e
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: ec3db7de-a2b9-4afc-9aad-09b74fda1d21
+    -
+      entity: c878dcbc-37af-4df2-90c1-64a6640d35cf
+    -
+      entity: dc5875fa-8328-4d42-8b2e-90f29e3cd770
+  field_pages:
+    -
+      value: 128
+  field_price:
+    -
+      value: 1/6
+  field_regional_edition:
+    -
+      value: 'UK edition'
+  field_sort_date:
+    -
+      value: '1954-03-01'
+  field_year:
+    -
+      value: 1954

@@ -1,0 +1,26 @@
+uuid: e53c95bb-4f6d-4395-9724-8304f5c31855
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_other_contributors
+    - node.type.magazine_issue
+    - taxonomy.vocabulary.people
+id: node.magazine_issue.field_other_contributors
+field_name: field_other_contributors
+entity_type: node
+bundle: magazine_issue
+label: 'Other contributors'
+description: 'Other authors with fiction or poetry in this issue. Separate several names with commas.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      people: people
+    auto_create: true
+    auto_create_bundle: people
+field_type: entity_reference

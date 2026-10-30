@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 94bc438f-ce22-4762-8776-4d13c214482c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bgnnngprtn0000.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/bgnnngprtn0000.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 68166
+  status:
+    -
+      value: true

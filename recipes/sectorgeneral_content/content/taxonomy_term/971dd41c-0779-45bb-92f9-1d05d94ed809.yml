@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 971dd41c-0779-45bb-92f9-1d05d94ed809
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Brian Ameringen'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/brian-ameringen
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

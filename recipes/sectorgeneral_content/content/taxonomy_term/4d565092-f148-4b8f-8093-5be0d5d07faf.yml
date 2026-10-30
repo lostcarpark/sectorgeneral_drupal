@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 4d565092-f148-4b8f-8093-5be0d5d07faf
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Frank M. Robinson'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/frank-m-robinson
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

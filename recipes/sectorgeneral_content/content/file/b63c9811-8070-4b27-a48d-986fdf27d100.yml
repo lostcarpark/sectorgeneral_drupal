@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b63c9811-8070-4b27-a48d-986fdf27d100
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: watchbelowballantine66.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/watchbelowballantine66.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3779
+  status:
+    -
+      value: true

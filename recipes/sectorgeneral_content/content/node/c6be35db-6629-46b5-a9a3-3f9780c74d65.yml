@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c6be35db-6629-46b5-a9a3-3f9780c74d65
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?67262 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Vertigo
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/vertigo
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>Enter the Drambons*: a perpetual rolling-motion life form found on Meatball, the Invader’s home planet. These doughnut-shaped beings depend upon constant gravity feed for blood circulation. The Drambons might, or might not, have originated from the roll-along Martian omnibuses in Destiny’s Orbit (1941-42 and 1961), by David Grinell – always known to be Donald A. Wollheim.</p>
+        <p>*Courtesy of Bob Shaw.</p>
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?67262 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1968
+  field_isfdb_id:
+    -
+      value: '67262'
+  field_opening_excerpt:
+    -
+      value: '<p>It was perhaps inevitable that when the long-awaited indication of intelligent at last appeared the majority of the ship’s observers were looking somewhere else, that it did not appear in the batteries of telescopes that were being trained on the surface or on the still and cine films being taken by Descartes’ planetary probes, but on the vessel’s close-approach radar screens.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WRITING IN SF 12,Ed John Carnell, Corgi pb, May 1968 NEW WRITINGS IN SF 12, Ed John Carnell, Dennis Dobson Ltd Major Operation</p>'
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 13000

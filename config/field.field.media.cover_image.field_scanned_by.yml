@@ -1,0 +1,19 @@
+uuid: a3fc2897-8a47-412d-b81f-4eef5df06e38
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_scanned_by
+    - media.type.cover_image
+id: media.cover_image.field_scanned_by
+field_name: field_scanned_by
+entity_type: media
+bundle: cover_image
+label: 'Scanned by'
+description: 'Credit for a reader or editor who supplied their own scan.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

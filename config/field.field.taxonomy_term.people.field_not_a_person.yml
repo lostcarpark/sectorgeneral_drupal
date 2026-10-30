@@ -1,0 +1,23 @@
+uuid: 32ecebf0-203f-4fa4-ba98-e236ad0ee798
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_not_a_person
+    - taxonomy.vocabulary.people
+id: taxonomy_term.people.field_not_a_person
+field_name: field_not_a_person
+entity_type: taxonomy_term
+bundle: people
+label: 'Not a person'
+description: 'For placeholders such as "Uncredited": shown as plain text, not a link, and left out of the People lists.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

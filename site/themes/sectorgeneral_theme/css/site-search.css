@@ -1,0 +1,123 @@
+/**
+ * @file
+ * The header search (see block--sectorgeneral-theme-search.html.twig).
+ *
+ * On a wide screen, a magnifying glass after the menu opens the form in a
+ * panel styled like the menu's drop-downs. In the narrow-screen menu panel
+ * (at and below 75rem, as in the base theme's site-nav.css) the form is
+ * shown below the menu, with no button.
+ */
+
+/* The menu and the search sit side by side. */
+.site-masthead__nav .region-primary-menu {
+  display: flex;
+  align-items: center;
+}
+
+.site-search {
+  position: relative;
+}
+
+/* Contextual links ("Configure block" for editors) go just to the right of
+ * the block, into the header's side margin: core's top-right corner of a
+ * block this small is the button, and the left is where the menu's are. */
+.site-search > .contextual {
+  top: 50%;
+  right: auto;
+  left: 100%;
+  transform: translateY(-50%);
+}
+
+.site-search__toggle {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: var(--rt-header-contrast);
+  border: none;
+  background: none;
+}
+
+.site-search__toggle svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.site-search__toggle:hover,
+.site-search__toggle:focus,
+.site-search__toggle[aria-expanded="true"] {
+  color: var(--rt-primary-500);
+}
+
+/* Without JavaScript the form is simply shown. */
+html:not(.js) .site-search__toggle {
+  display: none;
+}
+
+.js .site-search__panel {
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  right: 0;
+  display: none;
+  padding: 0.75rem;
+  background-color: var(--rt-header-800);
+  box-shadow: 0 6px 16px rgb(0, 0, 0, 0.3);
+}
+
+.js .site-search__toggle[aria-expanded="true"] + .site-search__panel {
+  display: block;
+}
+
+.site-search form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.site-search .form-item,
+.site-search .form-actions {
+  margin: 0;
+}
+
+.site-search input[type="search"] {
+  box-sizing: border-box;
+  width: 16rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--rt-neutral-200);
+  border-radius: 0.25rem;
+}
+
+@media (max-width: 75rem) {
+  .site-masthead__nav .region-primary-menu {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .site-search__toggle {
+    display: none;
+  }
+
+  .js .site-search__panel {
+    position: static;
+    display: block;
+    padding: 1.5rem 0 0;
+    background: none;
+    box-shadow: none;
+  }
+
+  /* The search box (in its form-item wrapper, the flex item) takes the space
+   * left by the button, rather than its own 15-character width. */
+  .site-search .form-item {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .site-search input[type="search"] {
+    width: 100%;
+  }
+
+  .site-search .form-submit {
+    padding-inline: 0.9em;
+  }
+}

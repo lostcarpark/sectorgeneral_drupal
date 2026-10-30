@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 34d258ea-e600-48de-adc1-ed65f8604d17
+  bundle: redirect
+  default_langcode: und
+  depends:
+    6edd89e8-88d6-4983-b0a1-6ab6f79a7215: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 7Q_YPM4hvU4c_tww9DnBZkvMR0P6759FiZZ_VktPBw0
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/lifeboat.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 6edd89e8-88d6-4983-b0a1-6ab6f79a7215
+  status_code:
+    -
+      value: 301

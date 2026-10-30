@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 274c333b-457f-48d0-9416-61420437dc4b
+  bundle: novel
+  default_langcode: en
+  depends:
+    cdc0ec84-a1a1-4996-977b-053691b71877: media
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 248; brightness 0.93, edges 0.91).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Double Contact'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/double-contact
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Working title: Contact High. The empathic Dr. Prilicla (to paraphrase the blurb copy) is put in command of a Sector General rescue mission answering three simultaneous distress beacons. He finds (a) two previously unknown intelligent species, one of which has almost exterminated the other, and (b) a rare opportunity to redeem a botched first-contact operation. The establishment of meaningful communication with ETs always intrigued James White. As he once told me (over several medicinal libations): &quot;Treating sick aliens is all very well and good. But what kinds of worlds do they come from? What makes their societies tick?&quot; In Double Contact, especially, White easily outdid his favourite short story on the subject: Murray Leinster&#039;s classic &#039;First Contact&#039; (Astounding, May 1945).</p>'
+      format: basic_html
+      summary: 'The twelfth and final Sector General book. This story is a James White classic. First Contact by a doctor with two belligerent species becomes a real puzzle to unwind, and an opportunity to set it all right.'
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: cdc0ec84-a1a1-4996-977b-053691b71877
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?19978 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1999
+  field_isfdb_id:
+    -
+      value: '19978'
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_series_number:
+    -
+      value: 12
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 90000

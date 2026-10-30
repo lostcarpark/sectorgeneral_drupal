@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1eb2c8ee-7e34-45be-91e6-b1c6e7f5c42a
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    214647d4-99c3-41e8-a8fb-747ce5ae5a89: node
+    fdabb4c3-bc88-4248-b317-cf352850a1f5: media
+    a28ea8a6-9e61-4cbf-9b8d-53de096482fb: taxonomy_term
+    beb8caf4-7511-4472-90b1-58838be054fc: taxonomy_term
+    4c52425b-7b83-4e9e-af00-d52f9ab47cb3: taxonomy_term
+    8dcf985c-e1b2-4d9e-8e48-8e78198a41d1: taxonomy_term
+    f6b91abe-d1df-49d4-93cf-fc21dda26ed1: taxonomy_term
+    ddfad767-d821-4f6d-8ea0-89ec9385b349: taxonomy_term
+    07e0aafe-d821-43ab-99db-6d8ff7e855f4: taxonomy_term
+    51901fc6-206c-4637-8b41-b0685c9e81d5: taxonomy_term
+    0e2fd733-a502-4c04-a867-cdfc7b468e4f: taxonomy_term
+    6c8b2b95-ccff-479c-a287-8da95c038985: taxonomy_term
+    e74032a9-bbb1-4d6d-8e7a-9e177d491ddc: taxonomy_term
+    8fd7d2bb-c80d-496d-9761-118758f9001e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?458581 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Fiction 130, September 1964'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/fiction/fiction-130-september-1964
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 214647d4-99c3-41e8-a8fb-747ce5ae5a89
+  field_cover:
+    -
+      entity: fdabb4c3-bc88-4248-b317-cf352850a1f5
+  field_cover_artist:
+    -
+      entity: a28ea8a6-9e61-4cbf-9b8d-53de096482fb
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?458581 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'September 1964'
+  field_editor:
+    -
+      entity: beb8caf4-7511-4472-90b1-58838be054fc
+  field_isfdb_id:
+    -
+      value: '458581'
+  field_issue_number:
+    -
+      value: '130'
+  field_language:
+    -
+      entity: 4c52425b-7b83-4e9e-af00-d52f9ab47cb3
+  field_magazine:
+    -
+      entity: 8dcf985c-e1b2-4d9e-8e48-8e78198a41d1
+  field_other_contributors:
+    -
+      entity: f6b91abe-d1df-49d4-93cf-fc21dda26ed1
+    -
+      entity: ddfad767-d821-4f6d-8ea0-89ec9385b349
+    -
+      entity: 07e0aafe-d821-43ab-99db-6d8ff7e855f4
+    -
+      entity: 51901fc6-206c-4637-8b41-b0685c9e81d5
+    -
+      entity: 0e2fd733-a502-4c04-a867-cdfc7b468e4f
+    -
+      entity: 6c8b2b95-ccff-479c-a287-8da95c038985
+    -
+      entity: e74032a9-bbb1-4d6d-8e7a-9e177d491ddc
+    -
+      entity: 8fd7d2bb-c80d-496d-9761-118758f9001e
+  field_pages:
+    -
+      value: 164
+  field_price:
+    -
+      value: F2.50
+  field_published_as:
+    -
+      value: 'Le pilote'
+  field_sort_date:
+    -
+      value: '1964-09-01'
+  field_year:
+    -
+      value: 1964

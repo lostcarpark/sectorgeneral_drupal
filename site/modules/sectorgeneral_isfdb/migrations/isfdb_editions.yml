@@ -1,0 +1,94 @@
+id: isfdb_editions
+label: 'ISFDB: editions'
+migration_tags:
+  - isfdb
+migration_dependencies:
+  required:
+    - isfdb_books
+    - isfdb_anthologies
+source:
+  plugin: isfdb_publications
+  key: isfdb
+process:
+  _books:
+    - plugin: isfdb_lookup
+      source: work_ids
+      migration: isfdb_books
+    - plugin: skip_on_empty
+      method: row
+      message: 'No matching book for this publication.'
+  field_publisher:
+    plugin: isfdb_term
+    source: publisher
+    vocabulary: publisher
+    aliases: publisher_aliases
+  nid:
+    plugin: isfdb_match
+    source: pub_id
+    strategy: edition
+    bundle: edition
+    isbn: isbn
+    year: year
+    language: language
+    publisher: '@field_publisher'
+    books: '@_books'
+  type:
+    plugin: default_value
+    default_value: edition
+  title: label
+  field_novel: '@_books'
+  field_in_anthology:
+    plugin: isfdb_lookup
+    source: anthology_title_id
+    migration: isfdb_anthologies
+  field_isfdb_id: pub_id
+  field_language:
+    plugin: isfdb_term
+    source: language
+    vocabulary: language
+  field_format:
+    plugin: isfdb_term
+    source: format
+    vocabulary: format
+  field_publisher_series:
+    plugin: isfdb_term
+    source: publisher_series
+    vocabulary: publisher_series
+  field_publisher_series_number: publisher_series_number
+  field_publisher_reference: catalogue
+  field_isbn: isbn
+  field_price: price
+  field_pages: pages
+  field_year: year
+  field_date_display: date_display
+  field_cover_artist:
+    plugin: isfdb_term
+    source: cover_artists
+    vocabulary: people
+  field_interior_artist:
+    plugin: isfdb_term
+    source: interior_artists
+    vocabulary: people
+  field_introduction_by:
+    plugin: isfdb_term
+    source: introductions
+    vocabulary: people
+  field_translator:
+    plugin: isfdb_term
+    source: translator
+    vocabulary: people
+  field_oclc: oclc
+  field_openlibrary_id: openlibrary
+  field_data_sources: attribution
+  uid:
+    plugin: default_value
+    default_value: 1
+  status:
+    plugin: default_value
+    default_value: 1
+destination:
+  plugin: 'sg_fill:node'
+  merge: [field_novel, field_cover_artist, field_interior_artist, field_translator, field_introduction_by]
+  append: [field_data_sources]
+  # Edition titles and date wording follow the site's own pattern.
+  ignore_conflicts: [title, field_date_display]

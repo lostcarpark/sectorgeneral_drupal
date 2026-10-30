@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: eb44c2b1-5d54-47c7-801f-27348bf3ea01
+  bundle: redirect
+  default_langcode: en
+  depends:
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: wVdmxFe7TfR3djO6YzClGO6PJYlHENheIah8gPtiU1Y
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: novel/star-surgeon
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 7b36c279-8a87-43a2-9300-d653e53ade00
+  status_code:
+    -
+      value: 301

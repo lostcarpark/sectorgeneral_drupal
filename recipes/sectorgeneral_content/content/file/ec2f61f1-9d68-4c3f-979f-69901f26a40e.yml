@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ec2f61f1-9d68-4c3f-979f-69901f26a40e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fantasy-and-sf-jan-62.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/fantasy-and-sf-jan-62.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 16058
+  status:
+    -
+      value: true

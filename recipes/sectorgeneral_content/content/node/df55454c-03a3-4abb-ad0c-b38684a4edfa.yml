@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: df55454c-03a3-4abb-ad0c-b38684a4edfa
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?84807 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Ideal Captain'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/ideal-captain
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>What starts as yet another journey into outer space becomes a Ballardian exploration of &#039;inner space&#039; (with added common sense). Lt. Commander George Adrian Surgenor, R. (S.)N. -- Royal (Space) Navy, no less -- acts as Radioman/Medical Officer aboard her Majesty&#039;s Space Vessel Mizar. He is, however, outraned only by the Ideal Captain -- and, believe you me, the clue really does lie in the title. This story should have been called The Ideal Captains . . . but I&#039;ve said too much already.</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?84807 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1958
+  field_isfdb_id:
+    -
+      value: '84807'
+  field_opening_excerpt:
+    -
+      value: '<p>The pre-takeoff instrument checks were complete, from the control-room speaker the two-minute warning had sounded its raucous, faintly derisive note, and there was nothing now to do but lie listening to the small busy sounds from the ship&#039;s automatic machinery.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: |-
+        <p>NEW WORLDS No 74, August 1958 </p>
+        <p>Publication History: Deadly Litter</p>
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 18000

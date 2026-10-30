@@ -1,0 +1,115 @@
+/**
+ * @file
+ * Book card. Covers sit in a fixed 2:3 frame, so every card in a row lines
+ * up whatever the shape of the scan.
+ */
+
+.book-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.book-card__cover {
+  overflow: hidden;
+  aspect-ratio: 2 / 3;
+  transition:
+    transform 150ms ease-in-out,
+    box-shadow 150ms ease-in-out;
+  border-radius: 0.25rem;
+  background-color: var(--rt-neutral-100);
+  box-shadow: 0 1px 3px rgb(0, 0, 0, 0.25);
+}
+
+/* Media and field wrappers between the frame and the image. */
+.book-card__cover > *,
+.book-card__cover > * * {
+  height: 100%;
+  margin: 0;
+}
+
+.book-card__cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* No cover yet: the title, set like a plain cloth binding. */
+.book-card__cover--none {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+  color: var(--rt-header-contrast);
+  background-color: var(--rt-header);
+}
+
+.book-card__cover-title {
+  font-family: var(--sg-font-display, serif);
+  font-size: 1.125rem;
+  line-height: 1.3;
+}
+
+.layout-content .book-card__title {
+  margin: 0.75rem 0 0.25rem;
+  font-family: var(--rt-font-body);
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.book-card__link {
+  color: var(--rt-neutral-900);
+}
+
+/* The whole card is the link's click target. */
+.book-card__link::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+}
+
+.book-card__link:hover,
+.book-card__link:focus {
+  text-decoration: none;
+  color: var(--rt-primary-600);
+}
+
+.book-card:has(.book-card__link:hover) .book-card__cover,
+.book-card:has(.book-card__link:focus-visible) .book-card__cover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0 8px 18px rgb(0, 0, 0, 0.25);
+}
+
+.book-card:has(.book-card__link:focus-visible) {
+  outline: 2px solid var(--rt-primary-500);
+  outline-offset: 0.375rem;
+  border-radius: 0.25rem;
+}
+
+.book-card__link:focus-visible {
+  outline: none;
+}
+
+.book-card__meta,
+.book-card__series {
+  margin: 0;
+  color: var(--rt-neutral-800);
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.book-card__series {
+  margin-top: 0.125rem;
+  color: var(--rt-primary-600);
+  font-weight: 600;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .book-card__cover {
+    transition: none;
+  }
+}

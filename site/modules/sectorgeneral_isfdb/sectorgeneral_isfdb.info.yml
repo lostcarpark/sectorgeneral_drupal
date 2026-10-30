@@ -1,0 +1,11 @@
+name: Sector General ISFDB import
+type: module
+description: Migrations that fill in the bibliography from a local copy of the ISFDB database backup.
+package: Sector General
+core_version_requirement: ^11
+dependencies:
+  - drupal:migrate
+  - drupal:block
+  - drupal:path_alias
+  - redirect:redirect
+  - sectorgeneral:sectorgeneral

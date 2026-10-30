@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 08ae7fad-1164-4d37-abf0-8c226a98facb
+  bundle: edition
+  default_langcode: en
+  depends:
+    e3ba5a91-68a6-45d1-af33-99301114899c: media
+    082b7762-c65d-4685-b64b-6eb7dcb98939: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    26861d89-acc4-4ce5-8b18-0a60f715424e: taxonomy_term
+    076cb8ba-ada5-4880-8874-aee68d7e662d: node
+    6eb2a8ac-be44-49d9-aae3-2c93185fc228: taxonomy_term
+    44b33fe2-2e51-4099-b74b-a0b99fe76928: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?683626'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Fångade i djupet, Wahlströms, 1976'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/watch-below/fangade-i-djupet-wahlstroms-1976
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: e3ba5a91-68a6-45d1-af33-99301114899c
+  field_cover_artist:
+    -
+      entity: 082b7762-c65d-4685-b64b-6eb7dcb98939
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “KOSMOS SFR, Sweden, Wahlstroms Bokforlag, 1976 as Fangede i Djuopet”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?683626 (CC BY 4.0).
+  field_date_display:
+    -
+      value: '1976'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9789132412868'
+  field_isfdb_id:
+    -
+      value: '683626'
+  field_language:
+    -
+      entity: 26861d89-acc4-4ce5-8b18-0a60f715424e
+  field_novel:
+    -
+      entity: 076cb8ba-ada5-4880-8874-aee68d7e662d
+  field_oclc:
+    -
+      value: '186154884'
+  field_pages:
+    -
+      value: 158
+  field_price:
+    -
+      value: 'skr 7.50'
+  field_publisher:
+    -
+      entity: 6eb2a8ac-be44-49d9-aae3-2c93185fc228
+  field_publisher_series:
+    -
+      entity: 44b33fe2-2e51-4099-b74b-a0b99fe76928
+  field_publisher_series_number:
+    -
+      value: '19'
+  field_sort_date:
+    -
+      value: '1976-01-01'
+  field_year:
+    -
+      value: 1976

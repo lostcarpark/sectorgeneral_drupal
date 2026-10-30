@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 6265bb23-95ff-4f41-83f0-a60cb9bed128
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Nemere István'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/nemere-istvan
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

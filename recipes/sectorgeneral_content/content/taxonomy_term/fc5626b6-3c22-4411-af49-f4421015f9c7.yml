@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: fc5626b6-3c22-4411-af49-f4421015f9c7
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Burt K. Filer'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/burt-k-filer
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

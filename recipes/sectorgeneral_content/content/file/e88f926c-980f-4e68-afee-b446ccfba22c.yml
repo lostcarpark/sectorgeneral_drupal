@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e88f926c-980f-4e68-afee-b446ccfba22c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mjrprtnxqg1971.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mjrprtnxqg1971.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 103109
+  status:
+    -
+      value: true

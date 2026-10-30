@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0fd61e31-1b99-4abe-966a-f37a49f103c8
+  bundle: short_story
+  default_langcode: en
+  depends:
+    4081bd63-ce9f-48f7-9d70-5b9a197b8dc1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Beyond the Enchanted Duplicator... ...To the Enchanted Convention'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/beyond-enchanted-duplicator-enchanted-convention
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?2687189 (CC BY 4.0).'
+  field_first_published_year:
+    -
+      value: 1991
+  field_isfdb_id:
+    -
+      value: '2687189'
+  field_series:
+    -
+      entity: 4081bd63-ce9f-48f7-9d70-5b9a197b8dc1
+  field_series_number:
+    -
+      value: 2

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4e6bafba-ada1-4209-a800-d07e52936733
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: beginning_operations_tor_2001.jpg
+  uri:
+    -
+      value: 'public://2016-03/beginning_operations_tor_2001.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 43970
+  status:
+    -
+      value: true

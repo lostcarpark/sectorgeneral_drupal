@@ -1,0 +1,103 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9b199ea2-abd5-4c7b-8a9a-77ea55bcf37d
+  bundle: edition
+  default_langcode: en
+  depends:
+    96e787c2-93c8-43b9-b2f6-602ff4ee6451: media
+    42b8f78b-6a45-4b53-8c09-9abae4ded93e: taxonomy_term
+    ee8824dd-403b-428b-9184-c043c7444660: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    2c173c06-4324-4644-93cc-79dd46396550: node
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930: node
+    68e7a0f1-5b72-40c2-9714-7b46bdb3842e: taxonomy_term
+    05e61f20-be9b-45f0-bc76-c3f0e36bbfee: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1099335 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Beginning Operations, Gollancz / Orion, 2026'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/beginning-operations/beginning-operations-gollancz-orion-2026
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 96e787c2-93c8-43b9-b2f6-602ff4ee6451
+  field_data_sources:
+    -
+      value: |-
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1099335 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL62598730M (CC0).
+  field_date_display:
+    -
+      value: '19 March 2026'
+  field_format:
+    -
+      entity: 42b8f78b-6a45-4b53-8c09-9abae4ded93e
+  field_introduction_by:
+    -
+      entity: ee8824dd-403b-428b-9184-c043c7444660
+  field_isbn:
+    -
+      value: '9781399636216'
+  field_isfdb_id:
+    -
+      value: '1099335'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 2c173c06-4324-4644-93cc-79dd46396550
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+    -
+      entity: 22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930
+  field_openlibrary_id:
+    -
+      value: OL62598730M
+  field_pages:
+    -
+      value: 604
+  field_price:
+    -
+      value: £16.99
+  field_publisher:
+    -
+      entity: 68e7a0f1-5b72-40c2-9714-7b46bdb3842e
+  field_publisher_series:
+    -
+      entity: 05e61f20-be9b-45f0-bc76-c3f0e36bbfee
+  field_sort_date:
+    -
+      value: '2026-03-19'
+  field_year:
+    -
+      value: 2026

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: ab1015d2-e387-4020-b4eb-9b9da5afd951
+  bundle: redirect
+  default_langcode: und
+  depends:
+    5786eb34-83c5-4eae-8125-0c0949615759: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: ZGnnkLGS8L2qUtEllTmXUqyPOEf4-s6atq7chHcwCl4
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/thescavangers.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 5786eb34-83c5-4eae-8125-0c0949615759
+  status_code:
+    -
+      value: 301

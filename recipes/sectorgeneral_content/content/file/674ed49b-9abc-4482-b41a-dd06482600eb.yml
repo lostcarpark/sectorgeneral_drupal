@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 674ed49b-9abc-4482-b41a-dd06482600eb
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: gtwystrs551955.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/gtwystrs551955.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 148291
+  status:
+    -
+      value: true

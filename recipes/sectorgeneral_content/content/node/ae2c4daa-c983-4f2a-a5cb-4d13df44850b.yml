@@ -1,0 +1,110 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ae2c4daa-c983-4f2a-a5cb-4d13df44850b
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    388effb1-372e-4213-aa1e-20b4a8da3452: node
+    87fa57dd-2075-43c3-a5ad-21090844d29c: media
+    35eec003-9187-4982-9b46-df0a387dae23: taxonomy_term
+    99835ce6-b97b-4b9d-a9b7-4ff4de548660: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    8955183c-a352-45ff-a1b6-fd17a84b825a: taxonomy_term
+    b07a033d-c2af-40a3-bb96-a8e3af1a5e51: taxonomy_term
+    bedc199f-cef0-4b30-9081-69275cc8e644: taxonomy_term
+    4dbd9228-e563-4265-8d27-f489bc19c9af: taxonomy_term
+    99547df4-65bd-475d-9ac8-437da573c025: taxonomy_term
+    5d8deb6d-3e91-40af-9d57-00bee18e6a25: taxonomy_term
+    859cb00f-0444-4498-9a6c-5422ca57a8c2: taxonomy_term
+    d799ad72-909c-4c2c-ad43-f398b8402f49: taxonomy_term
+    d47074a7-14a1-4687-8ac2-240e9d152b20: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?61127 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Magazine of Fantasy & Science Fiction, January 1962'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/magazine-fantasy-science-fiction/magazine-fantasy-science-fiction-january-1962
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 388effb1-372e-4213-aa1e-20b4a8da3452
+  field_cover:
+    -
+      entity: 87fa57dd-2075-43c3-a5ad-21090844d29c
+  field_cover_artist:
+    -
+      entity: 35eec003-9187-4982-9b46-df0a387dae23
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?61127 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'January 1962'
+  field_editor:
+    -
+      entity: 99835ce6-b97b-4b9d-a9b7-4ff4de548660
+  field_isfdb_id:
+    -
+      value: '61127'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 8955183c-a352-45ff-a1b6-fd17a84b825a
+  field_other_contributors:
+    -
+      entity: b07a033d-c2af-40a3-bb96-a8e3af1a5e51
+    -
+      entity: bedc199f-cef0-4b30-9081-69275cc8e644
+    -
+      entity: 4dbd9228-e563-4265-8d27-f489bc19c9af
+    -
+      entity: 99547df4-65bd-475d-9ac8-437da573c025
+    -
+      entity: 5d8deb6d-3e91-40af-9d57-00bee18e6a25
+    -
+      entity: 859cb00f-0444-4498-9a6c-5422ca57a8c2
+    -
+      entity: d799ad72-909c-4c2c-ad43-f398b8402f49
+    -
+      entity: d47074a7-14a1-4687-8ac2-240e9d152b20
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: $0.40
+  field_regional_edition:
+    -
+      value: 'US edition'
+  field_sort_date:
+    -
+      value: '1962-01-01'
+  field_year:
+    -
+      value: 1962

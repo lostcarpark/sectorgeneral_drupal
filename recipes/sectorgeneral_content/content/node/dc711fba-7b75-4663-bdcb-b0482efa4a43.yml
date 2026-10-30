@@ -1,0 +1,96 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: dc711fba-7b75-4663-bdcb-b0482efa4a43
+  bundle: edition
+  default_langcode: en
+  depends:
+    ded88cef-b09a-4793-b4a9-b0dd2e6b7f0f: media
+    5694d2b3-7a36-4930-bc13-d807f824c7a8: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    42f8cd6a-fb85-4103-81dc-fe7f5ce071de: node
+    9a196fcd-0584-4ca7-8ef6-6b2cdd8886e7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL60329M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The First Protector, Tor, 2000'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/first-protector/first-protector-tor-2000-0
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: ded88cef-b09a-4793-b4a9-b0dd2e6b7f0f
+  field_cover_artist:
+    -
+      entity: 5694d2b3-7a36-4930-bc13-d807f824c7a8
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Tor books, 2000, hardback.”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?39883 (CC BY 4.0).
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?15179 (CC BY 4.0).
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?15169 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL60329M (CC0).
+  field_date_display:
+    -
+      value: '2000'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isbn:
+    -
+      value: '9780312874094'
+  field_isfdb_id:
+    -
+      value: '39883'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 42f8cd6a-fb85-4103-81dc-fe7f5ce071de
+  field_oclc:
+    -
+      value: '43063305'
+  field_openlibrary_id:
+    -
+      value: OL60329M
+  field_pages:
+    -
+      value: 315
+  field_price:
+    -
+      value: $13.95
+  field_publisher:
+    -
+      entity: 9a196fcd-0584-4ca7-8ef6-6b2cdd8886e7
+  field_sort_date:
+    -
+      value: '2000-01-01'
+  field_year:
+    -
+      value: 2000

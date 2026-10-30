@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 6969fb16-8966-42a2-9ff9-6eda62bcdfde
+  bundle: redirect
+  default_langcode: und
+  depends:
+    e6f194f7-83f1-47a2-bd68-3a6018968958: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: wYWpP9iNNubnMYqgbdqTrXom4J0TzzQUOECeEq-vx-g
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: anthologies/8th-annual-edition-years-best-s-f
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: e6f194f7-83f1-47a2-bd68-3a6018968958
+  status_code:
+    -
+      value: 301

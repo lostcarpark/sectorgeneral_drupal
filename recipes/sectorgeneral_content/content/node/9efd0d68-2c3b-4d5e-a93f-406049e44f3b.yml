@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9efd0d68-2c3b-4d5e-a93f-406049e44f3b
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    56cef02b-2a63-4db1-93af-a8e8a86059f3: node
+    006c55d6-cf67-4943-9af4-53032c1f0b9e: media
+    46bd50fc-1e0d-45c7-9412-3e829c798063: taxonomy_term
+    522f2d2d-a32e-4f3f-b1ff-68c484549a97: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    f70e6578-08e0-4aa5-a677-e2cd37ca38f1: taxonomy_term
+    f5ea8714-b46d-4d8c-b8f3-df4e906ac963: taxonomy_term
+    3f2d525d-207a-4f6f-a776-8c0555711cb2: taxonomy_term
+    2dc850c6-3924-4427-bd17-c690e7783717: taxonomy_term
+    b2661952-b20c-4869-97a1-898011f93878: taxonomy_term
+    d4ecde8f-5b4a-4041-bfa1-7e3bbea5183f: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?341736 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Gate 1, May 1989'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/gate/gate-1-may-1989
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 56cef02b-2a63-4db1-93af-a8e8a86059f3
+  field_cover:
+    -
+      entity: 006c55d6-cf67-4943-9af4-53032c1f0b9e
+  field_cover_artist:
+    -
+      entity: 46bd50fc-1e0d-45c7-9412-3e829c798063
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?341736 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'May 1989'
+  field_editor:
+    -
+      entity: 522f2d2d-a32e-4f3f-b1ff-68c484549a97
+  field_isfdb_id:
+    -
+      value: '341736'
+  field_issue_number:
+    -
+      value: '1'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: f70e6578-08e0-4aa5-a677-e2cd37ca38f1
+  field_other_contributors:
+    -
+      entity: f5ea8714-b46d-4d8c-b8f3-df4e906ac963
+    -
+      entity: 3f2d525d-207a-4f6f-a776-8c0555711cb2
+    -
+      entity: 2dc850c6-3924-4427-bd17-c690e7783717
+    -
+      entity: b2661952-b20c-4869-97a1-898011f93878
+    -
+      entity: d4ecde8f-5b4a-4041-bfa1-7e3bbea5183f
+  field_pages:
+    -
+      value: 164
+  field_price:
+    -
+      value: £2.25
+  field_sort_date:
+    -
+      value: '1989-05-01'
+  field_year:
+    -
+      value: 1989

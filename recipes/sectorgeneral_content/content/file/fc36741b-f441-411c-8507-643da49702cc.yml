@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fc36741b-f441-411c-8507-643da49702cc
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: starsurgeonorbit.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/starsurgeonorbit.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4794
+  status:
+    -
+      value: true

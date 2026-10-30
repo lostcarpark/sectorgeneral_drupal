@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 6de6a66e-a6d6-45cf-aa2c-a29f9daa9407
+  bundle: redirect
+  default_langcode: en
+  depends:
+    1aa001a0-7119-4bbe-a4a3-19ac676051cc: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: P5OWfWNKjdgDKO-aWcbLc1ye44kl4qXFd8x4gwtsNh8
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/galaxy/galaxy-october-1973
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 1aa001a0-7119-4bbe-a4a3-19ac676051cc
+  status_code:
+    -
+      value: 301

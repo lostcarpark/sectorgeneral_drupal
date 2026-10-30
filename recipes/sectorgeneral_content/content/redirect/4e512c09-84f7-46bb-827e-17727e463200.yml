@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 4e512c09-84f7-46bb-827e-17727e463200
+  bundle: redirect
+  default_langcode: und
+  depends:
+    809f2d30-8095-45d4-b6dd-0dda7cffaeb4: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: fUDSYZg_kar1vQWQKm3doUHr0WzYhkItDh34dTa1r6Q
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/residentphysician.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 809f2d30-8095-45d4-b6dd-0dda7cffaeb4
+  status_code:
+    -
+      value: 301

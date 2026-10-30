@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: a402fbc8-70c2-4ebc-849d-8dfb133e0181
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    5141e81c-3cdf-4994-9de7-d1878956367f: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Isaac Asimov Presents The Great SF Stories 24 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 1bf5a53c4abb068f61ac26e00341dd18e6477226
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/1/1b/THGRSTRS1E1992.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Isaac Asimov Presents The Great SF Stories 24 cover'
+      title: ''
+      width: 352
+      height: 600
+      entity: 5141e81c-3cdf-4994-9de7-d1878956367f
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?41021'
+      title: null
+      options: {  }

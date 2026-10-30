@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 53416c3d-8739-413b-adf7-3f587388fc51
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    5aa51349-b4b1-4c84-9de6-49a3ca701b40: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Out of This World 6 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: d7375c0d5eccee0c73b9d4fa42248e46b5f1c1e3
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/4/45/TFTHSWRLDFF1967.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Out of This World 6 cover'
+      title: ''
+      width: 400
+      height: 586
+      entity: 5aa51349-b4b1-4c84-9de6-49a3ca701b40
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?25385'
+      title: null
+      options: {  }

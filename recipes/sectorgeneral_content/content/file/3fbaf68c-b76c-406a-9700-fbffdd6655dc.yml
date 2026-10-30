@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3fbaf68c-b76c-406a-9700-fbffdd6655dc
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thlnsmngse81969.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thlnsmngse81969.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 93712
+  status:
+    -
+      value: true

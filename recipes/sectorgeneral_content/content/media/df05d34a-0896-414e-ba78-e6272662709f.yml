@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: df05d34a-0896-414e-ba78-e6272662709f
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    715914df-79a8-4ead-a527-df3d1b176c9e: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Star Healer, Orbit, 1988 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 7df57d444ef7d665cc24f4717f896c83551dfe56
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/9/98/STRHLRGLVC1988.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Star Healer, Orbit, 1988 cover'
+      title: ''
+      width: 510
+      height: 842
+      entity: 715914df-79a8-4ead-a527-df3d1b176c9e
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?327309'
+      title: null
+      options: {  }

@@ -1,0 +1,100 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b0d7db4b-c28b-4fe9-a7d7-c438773abf7c
+  bundle: edition
+  default_langcode: en
+  depends:
+    af9cb839-de4e-49c2-859f-bde4b5100157: media
+    1500cfa9-5042-4535-9782-9fb79938c3d9: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+    dab971ae-091c-4370-ba9f-07238f47f4b7: node
+    0fc0637d-f524-4bf9-a5cb-64be66c6edde: taxonomy_term
+    8c7ef231-6504-4ccd-b15f-4e69a00cf9e8: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover replaced by a larger image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?42299'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Second Ending, Ace, 1963'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/second-ending/second-ending-ace-1963
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: af9cb839-de4e-49c2-859f-bde4b5100157
+  field_cover_artist:
+    -
+      entity: 1500cfa9-5042-4535-9782-9fb79938c3d9
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “ACE Double F-173, January 1963”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?42299 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'January 1963'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '42299'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+    -
+      entity: dab971ae-091c-4370-ba9f-07238f47f4b7
+  field_oclc:
+    -
+      value: '1625608'
+  field_pages:
+    -
+      value: 100
+  field_price:
+    -
+      value: $0.40
+  field_publisher:
+    -
+      entity: 0fc0637d-f524-4bf9-a5cb-64be66c6edde
+  field_publisher_reference:
+    -
+      value: F-173
+  field_publisher_series:
+    -
+      entity: 8c7ef231-6504-4ccd-b15f-4e69a00cf9e8
+  field_publisher_series_number:
+    -
+      value: F-173
+  field_sort_date:
+    -
+      value: '1963-01-01'
+  field_year:
+    -
+      value: 1963

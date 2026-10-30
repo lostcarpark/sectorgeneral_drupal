@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 6aba71e7-b911-4d06-8c81-612d5a90409e
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Leo H. Zelders'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/leo-h-zelders
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

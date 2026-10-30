@@ -1,0 +1,136 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e5719b9f-f2b7-4d92-a546-085396174551
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    4cad5e00-f923-42cd-a239-def5a90feced: node
+    bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2: node
+    3be5f5e5-1a9e-4b85-8cf4-7f08d9c1d5d2: media
+    1771204c-b1b9-40e6-a16f-0f87130d50cc: taxonomy_term
+    19ba0198-7278-4d39-b590-ff07a9ffe8c6: taxonomy_term
+    9ccee2b5-b1bd-4831-bbf3-09383d0be2d1: taxonomy_term
+    fc6ef891-6ddc-411b-8137-7a6abd05252a: taxonomy_term
+    c4a8f174-29cd-40ca-9c37-3cea9234d67f: taxonomy_term
+    2b5a9972-abfb-4956-ae24-b26f3092512a: taxonomy_term
+    a6a7416c-db70-4e4c-a3f7-ee4afed7324b: taxonomy_term
+    ded80b50-65b0-4d6b-b0fe-f1f0320b1ac2: taxonomy_term
+    191ad7b0-eb68-4361-abce-277397c157f8: taxonomy_term
+    2a198957-260b-4c78-9d93-eaf549e2ca23: taxonomy_term
+    6a875cc8-bbac-40a9-909a-c55c5c77732d: taxonomy_term
+    4694fff6-aab0-4cf4-8ab5-b90626a59d86: taxonomy_term
+    e916c95b-c55c-4158-a2a4-16da90be039b: taxonomy_term
+    c1eb56e9-3c70-43f3-bd0d-7d655c312e03: taxonomy_term
+    b226aeaa-e71f-48e7-b1bb-540fe32b5459: taxonomy_term
+    2b6fefb4-c85d-4dc2-9e6f-51daaad38483: taxonomy_term
+    5ae3b74b-a185-4a75-9e22-6760a9179156: taxonomy_term
+    dce47538-1e68-4865-a15f-ffcec4c2d897: taxonomy_term
+    a2962843-0b5d-4a46-88ff-c8081ef39c46: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1130326 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Galaktika folyóirat, May 1987'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/galaktika-folyoirat/galaktika-folyoirat-may-1987
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 4cad5e00-f923-42cd-a239-def5a90feced
+    -
+      entity: bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2
+  field_cover:
+    -
+      entity: 3be5f5e5-1a9e-4b85-8cf4-7f08d9c1d5d2
+  field_cover_artist:
+    -
+      entity: 1771204c-b1b9-40e6-a16f-0f87130d50cc
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1130326 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'May 1987'
+  field_editor:
+    -
+      entity: 19ba0198-7278-4d39-b590-ff07a9ffe8c6
+  field_isfdb_id:
+    -
+      value: '1130326'
+  field_language:
+    -
+      entity: 9ccee2b5-b1bd-4831-bbf3-09383d0be2d1
+  field_magazine:
+    -
+      entity: fc6ef891-6ddc-411b-8137-7a6abd05252a
+  field_other_contributors:
+    -
+      entity: c4a8f174-29cd-40ca-9c37-3cea9234d67f
+    -
+      entity: 2b5a9972-abfb-4956-ae24-b26f3092512a
+    -
+      entity: a6a7416c-db70-4e4c-a3f7-ee4afed7324b
+    -
+      entity: ded80b50-65b0-4d6b-b0fe-f1f0320b1ac2
+    -
+      entity: 191ad7b0-eb68-4361-abce-277397c157f8
+    -
+      entity: 2a198957-260b-4c78-9d93-eaf549e2ca23
+    -
+      entity: 6a875cc8-bbac-40a9-909a-c55c5c77732d
+    -
+      entity: 4694fff6-aab0-4cf4-8ab5-b90626a59d86
+    -
+      entity: e916c95b-c55c-4158-a2a4-16da90be039b
+    -
+      entity: c1eb56e9-3c70-43f3-bd0d-7d655c312e03
+    -
+      entity: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+    -
+      entity: 2b6fefb4-c85d-4dc2-9e6f-51daaad38483
+    -
+      entity: 5ae3b74b-a185-4a75-9e22-6760a9179156
+    -
+      entity: dce47538-1e68-4865-a15f-ffcec4c2d897
+    -
+      entity: a2962843-0b5d-4a46-88ff-c8081ef39c46
+  field_pages:
+    -
+      value: 96
+  field_price:
+    -
+      value: 'Ft 28'
+  field_published_as:
+    -
+      value: 'Látogató nagyban (part 2 of 2)'
+    -
+      value: 'Ambuláns beteg'
+  field_sort_date:
+    -
+      value: '1987-05-01'
+  field_year:
+    -
+      value: 1987

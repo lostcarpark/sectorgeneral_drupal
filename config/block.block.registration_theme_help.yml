@@ -1,0 +1,22 @@
+uuid: a1e95450-a5af-45d3-bf1c-17261f03d7b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - registration_theme
+_core:
+  default_config_hash: M2pxnAmvFDuXgPFhaUCYAXM4nHgulvfWQxyaf1sUFHk
+id: registration_theme_help
+theme: registration_theme
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

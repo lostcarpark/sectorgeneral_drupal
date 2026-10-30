@@ -1,0 +1,86 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c7f745c3-c125-47da-ac3e-118361d8fac8
+  bundle: edition
+  default_langcode: en
+  depends:
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+    93593579-e80d-472d-a3d3-6406cf6d0e2a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL20264286M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Secret Visitors, White Lion, 1974'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/secret-visitors/secret-visitors-white-lion-1974
+      langcode: en
+      pathauto: 1
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “White Lion, London-New York, ISBN 85617 567 6, April 1974”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?304499 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL20264286M (CC0).
+  field_date_display:
+    -
+      value: 'April 1974'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isbn:
+    -
+      value: '9780856175671'
+  field_isfdb_id:
+    -
+      value: '304499'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: fec32d28-7455-4a8a-a448-67c3af694c28
+  field_oclc:
+    -
+      value: '16231716'
+  field_openlibrary_id:
+    -
+      value: OL20264286M
+  field_pages:
+    -
+      value: 125
+  field_price:
+    -
+      value: £1.70
+  field_publisher:
+    -
+      entity: 93593579-e80d-472d-a3d3-6406cf6d0e2a
+  field_sort_date:
+    -
+      value: '1974-04-01'
+  field_year:
+    -
+      value: 1974

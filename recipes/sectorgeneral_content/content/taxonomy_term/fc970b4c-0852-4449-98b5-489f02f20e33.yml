@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: fc970b4c-0852-4449-98b5-489f02f20e33
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Ron Walotsky'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/ron-walotsky
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

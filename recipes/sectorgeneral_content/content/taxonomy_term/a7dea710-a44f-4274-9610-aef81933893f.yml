@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: a7dea710-a44f-4274-9610-aef81933893f
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'David Gardner (I)'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/david-gardner-i
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

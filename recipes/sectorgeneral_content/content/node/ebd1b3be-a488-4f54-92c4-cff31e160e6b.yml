@@ -1,0 +1,113 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ebd1b3be-a488-4f54-92c4-cff31e160e6b
+  bundle: anthology
+  default_langcode: en
+  depends:
+    809f2d30-8095-45d4-b6dd-0dda7cffaeb4: node
+    2054ba4f-d22c-425b-b642-23eacec5f6f5: media
+    62bd0ee0-2aed-4a72-b8c0-23c2cc553e62: taxonomy_term
+    dcad8db6-446f-464d-9d5e-c4c04a54ebac: taxonomy_term
+    3339956d-2603-478e-9602-52d8b4950fbc: taxonomy_term
+    738a9be2-5b38-45b0-81cb-fa5effa71297: taxonomy_term
+    7f872716-b21d-4434-9ca6-4a49b798fb5a: taxonomy_term
+    3f872411-afd3-4585-a9ce-a0905733d728: taxonomy_term
+    c9cf56ac-98a1-453b-a166-0c57605aefd6: taxonomy_term
+    c262975b-3a6d-4392-a817-045b6d3304ef: taxonomy_term
+    2e4e38a4-b5d7-4c4e-a12d-4e16bc60a4ff: taxonomy_term
+    f12afb53-4b36-4d2d-985e-63b30a228b01: taxonomy_term
+    8f803674-34bf-4789-9f36-3cccd53423e7: taxonomy_term
+    b9bce5b2-7974-4f8b-856a-9e5a28916391: taxonomy_term
+    3821e984-48db-4086-aab1-348018c3c0c6: taxonomy_term
+    9e872ad9-522d-4352-a13f-890044a71d7c: taxonomy_term
+    20cbd560-9091-47ba-8e84-acfc28cd3f4f: taxonomy_term
+    caa9cb93-3e4c-41dc-b115-e9d3513a78e6: taxonomy_term
+    6d66f977-9e25-411e-97a0-1c6bde1ccb44: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?727211'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Menace of the Monster: Classic Tales of Creatures from Beyond'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/menace-monster-classic-tales-creatures-beyond
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>British Library Publishing, 12 September 2019, Trade Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 809f2d30-8095-45d4-b6dd-0dda7cffaeb4
+  field_cover:
+    -
+      entity: 2054ba4f-d22c-425b-b642-23eacec5f6f5
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?2595098 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 62bd0ee0-2aed-4a72-b8c0-23c2cc553e62
+  field_first_published_year:
+    -
+      value: 2019
+  field_isfdb_id:
+    -
+      value: '2595098'
+  field_other_contributors:
+    -
+      entity: dcad8db6-446f-464d-9d5e-c4c04a54ebac
+    -
+      entity: 3339956d-2603-478e-9602-52d8b4950fbc
+    -
+      entity: 738a9be2-5b38-45b0-81cb-fa5effa71297
+    -
+      entity: 7f872716-b21d-4434-9ca6-4a49b798fb5a
+    -
+      entity: 3f872411-afd3-4585-a9ce-a0905733d728
+    -
+      entity: c9cf56ac-98a1-453b-a166-0c57605aefd6
+    -
+      entity: c262975b-3a6d-4392-a817-045b6d3304ef
+    -
+      entity: 2e4e38a4-b5d7-4c4e-a12d-4e16bc60a4ff
+    -
+      entity: f12afb53-4b36-4d2d-985e-63b30a228b01
+    -
+      entity: 8f803674-34bf-4789-9f36-3cccd53423e7
+    -
+      entity: b9bce5b2-7974-4f8b-856a-9e5a28916391
+    -
+      entity: 3821e984-48db-4086-aab1-348018c3c0c6
+    -
+      entity: 9e872ad9-522d-4352-a13f-890044a71d7c
+    -
+      entity: 20cbd560-9091-47ba-8e84-acfc28cd3f4f
+    -
+      entity: caa9cb93-3e4c-41dc-b115-e9d3513a78e6
+  field_publisher:
+    -
+      entity: 6d66f977-9e25-411e-97a0-1c6bde1ccb44

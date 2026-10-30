@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: a72454b6-5284-44f8-be21-4149f41826f4
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    31ce1e58-11ee-478f-83fa-0a2c1e4d655c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Star Healer, Del Rey, 1985 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 5fdc658b17943ee940c1cedbb0604c52ebbe9820
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/f/f7/BKTG19810.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Star Healer, Del Rey, 1985 cover'
+      title: ''
+      width: 302
+      height: 500
+      entity: 31ce1e58-11ee-478f-83fa-0a2c1e4d655c
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?32008'
+      title: null
+      options: {  }

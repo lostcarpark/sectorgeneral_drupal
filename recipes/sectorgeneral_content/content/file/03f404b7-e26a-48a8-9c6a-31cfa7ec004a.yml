@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 03f404b7-e26a-48a8-9c6a-31cfa7ec004a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thlnsmngsk1981.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thlnsmngsk1981.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 101834
+  status:
+    -
+      value: true

@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c4bd6ccf-64ec-4c59-98af-be0bd7d725b0
+  bundle: edition
+  default_langcode: en
+  depends:
+    691cb245-9bcc-4bb4-9923-0e41607aa21d: media
+    9e633c4b-6973-4ef8-a24a-3bf06477cb18: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    4684e80b-b2ce-4e86-a094-7e0e0960eed2: node
+    32dfb838-1b85-446d-8f00-f65cfd4d0785: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL15060471M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Tomorrow Is Too Far, Corgi'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/tomorrow-too-far/tomorrow-too-far-corgi
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 691cb245-9bcc-4bb4-9923-0e41607aa21d
+  field_cover_artist:
+    -
+      entity: 9e633c4b-6973-4ef8-a24a-3bf06477cb18
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Edition known only from the cover image tommorowistoofarcorgi.jpg”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?152571 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL15060471M (CC0).
+  field_date_display:
+    -
+      value: '1973'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780552091343'
+  field_isfdb_id:
+    -
+      value: '152571'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 4684e80b-b2ce-4e86-a094-7e0e0960eed2
+  field_oclc:
+    -
+      value: '16250316'
+  field_openlibrary_id:
+    -
+      value: OL15060471M
+  field_pages:
+    -
+      value: 1
+  field_price:
+    -
+      value: £0.30
+  field_publisher:
+    -
+      entity: 32dfb838-1b85-446d-8f00-f65cfd4d0785
+  field_sort_date:
+    -
+      value: '1973-01-01'
+  field_year:
+    -
+      value: 1973

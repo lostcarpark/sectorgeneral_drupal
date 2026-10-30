@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 3a174dd6-78ab-4f33-9f68-01df47db208e
+  bundle: photo
+  default_langcode: en
+  depends:
+    fcdcfc4a-ca76-4614-9eb2-a2471c69ca76: taxonomy_term
+    34026ecd-3d36-4325-aee7-6c544425691a: taxonomy_term
+    52838163-a706-4d99-8f83-f6bc7d53e188: file
+default:
+  revision_log_message:
+    -
+      value: 'Photographer Peter Fleissner, as credited by SF-Fan.de'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'James White (SF and Fantasy Authors of Ireland)'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_caption:
+    -
+      value: 'James White.'
+  field_copyright_holder:
+    -
+      value: 'Peter Fleissner'
+  field_credit_note:
+    -
+      value: 'First published by SF-Fan.de in 1999 (https://sf-fan.de/artikel-und-news/james-white-1928-1999.html); this copy is enlarged to twice that size.'
+  field_depicts:
+    -
+      entity: fcdcfc4a-ca76-4614-9eb2-a2471c69ca76
+  field_image_source:
+    -
+      entity: 34026ecd-3d36-4325-aee7-6c544425691a
+  field_image_url:
+    -
+      uri: 'https://sffauthors.ie/images/people/james-white.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Head-and-shoulders photo of James White in large dark-framed glasses and a pale shirt'
+      title: ''
+      width: 400
+      height: 482
+      entity: 52838163-a706-4d99-8f83-f6bc7d53e188
+  field_photographer:
+    -
+      value: 'Peter Fleissner'
+  field_rights_basis:
+    -
+      value: fair_dealing
+  field_source_url:
+    -
+      uri: 'https://sffauthors.ie/author/james-white/'
+      title: null
+      options: {  }

@@ -1,0 +1,162 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 85fdf0e4-4fa0-4277-b815-93be296f04ff
+  bundle: anthology
+  default_langcode: en
+  depends:
+    809f2d30-8095-45d4-b6dd-0dda7cffaeb4: node
+    214e5eef-50e8-4ca6-a56b-ba581ae9ff83: media
+    0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea: taxonomy_term
+    b226aeaa-e71f-48e7-b1bb-540fe32b5459: taxonomy_term
+    cf3933b1-5efa-4430-820c-517e868004dd: taxonomy_term
+    e9b58712-fc92-4a59-a5e5-e6cf33c1479d: taxonomy_term
+    b31d2af0-345f-4612-adf9-ed02b344c905: taxonomy_term
+    9e872ad9-522d-4352-a13f-890044a71d7c: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    03412753-2c7e-4dc0-ab17-7aa4af3b0f2e: taxonomy_term
+    953e4438-0cf1-4b8e-ae96-f0c68f5677a6: taxonomy_term
+    d44c6cf5-44a1-48e1-91cc-6e99dc863b7b: taxonomy_term
+    1a2da62a-0579-4530-ad45-5732ff735bd5: taxonomy_term
+    ee391b45-261b-41c5-94a4-67e1402f0c66: taxonomy_term
+    04276105-4b52-46e0-a84f-471396d86ce2: taxonomy_term
+    4699c9da-3e32-4e0c-8973-105dede7460c: taxonomy_term
+    bedc199f-cef0-4b30-9081-69275cc8e644: taxonomy_term
+    9f3bd3b5-63c1-4d95-adbc-12cd5dd0c51b: taxonomy_term
+    9fb07210-087e-4651-8f9e-b0ae728fcaf5: taxonomy_term
+    2b55f4f5-fabf-4cfa-a782-7905c6674e49: taxonomy_term
+    2b9ca45e-b311-4884-b3a9-145ccbb7e901: taxonomy_term
+    b9bce5b2-7974-4f8b-856a-9e5a28916391: taxonomy_term
+    dc5875fa-8328-4d42-8b2e-90f29e3cd770: taxonomy_term
+    08e5d488-60dc-48d7-bfe0-12b051b88940: taxonomy_term
+    1de1c3e0-6b12-43d8-be33-087643182745: taxonomy_term
+    290c11ec-faef-4497-bf61-1b967a7bce4a: taxonomy_term
+    c878dcbc-37af-4df2-90c1-64a6640d35cf: taxonomy_term
+    999e3e00-e1c2-4f79-a07d-21224db8a33a: taxonomy_term
+    f6983f8f-cc31-40a3-93eb-2b35e16bb657: taxonomy_term
+    f25accc3-7dae-402c-b0d1-8c1ddf314e70: taxonomy_term
+    b0d34f1a-fcab-431f-b549-84501ad59d6e: taxonomy_term
+    28feabe4-9c4d-485f-bf11-f0a05d115d4e: taxonomy_term
+    1e3ec06e-2407-41a7-86a7-b14066ad13a5: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?25757 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Galactic Empires'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/galactic-empires
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Volume 1. Futura, Autumn 1976; Weidenfeld &amp; Nicolson hardcover. Avon paperback, $2.25, February 1979. Volumes 1 and 2 combined, Arrow Books, £4.99, 1988.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 809f2d30-8095-45d4-b6dd-0dda7cffaeb4
+  field_cover:
+    -
+      entity: 214e5eef-50e8-4ca6-a56b-ba581ae9ff83
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?917643 (CC BY 4.0).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?25757 (CC BY 4.0).
+  field_editor:
+    -
+      entity: 0f52131d-a4b2-4f98-a2ec-4d5b3b7d6aea
+    -
+      entity: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+  field_first_published_year:
+    -
+      value: 1976
+  field_isfdb_id:
+    -
+      value: '917643'
+  field_other_contributors:
+    -
+      entity: cf3933b1-5efa-4430-820c-517e868004dd
+    -
+      entity: e9b58712-fc92-4a59-a5e5-e6cf33c1479d
+    -
+      entity: b31d2af0-345f-4612-adf9-ed02b344c905
+    -
+      entity: 9e872ad9-522d-4352-a13f-890044a71d7c
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: 03412753-2c7e-4dc0-ab17-7aa4af3b0f2e
+    -
+      entity: 953e4438-0cf1-4b8e-ae96-f0c68f5677a6
+    -
+      entity: d44c6cf5-44a1-48e1-91cc-6e99dc863b7b
+    -
+      entity: 1a2da62a-0579-4530-ad45-5732ff735bd5
+    -
+      entity: ee391b45-261b-41c5-94a4-67e1402f0c66
+    -
+      entity: 04276105-4b52-46e0-a84f-471396d86ce2
+    -
+      entity: 4699c9da-3e32-4e0c-8973-105dede7460c
+    -
+      entity: bedc199f-cef0-4b30-9081-69275cc8e644
+    -
+      entity: 9f3bd3b5-63c1-4d95-adbc-12cd5dd0c51b
+    -
+      entity: 9fb07210-087e-4651-8f9e-b0ae728fcaf5
+    -
+      entity: 2b55f4f5-fabf-4cfa-a782-7905c6674e49
+    -
+      entity: 2b9ca45e-b311-4884-b3a9-145ccbb7e901
+    -
+      entity: b9bce5b2-7974-4f8b-856a-9e5a28916391
+    -
+      entity: dc5875fa-8328-4d42-8b2e-90f29e3cd770
+    -
+      entity: 08e5d488-60dc-48d7-bfe0-12b051b88940
+    -
+      entity: 1de1c3e0-6b12-43d8-be33-087643182745
+    -
+      entity: 290c11ec-faef-4497-bf61-1b967a7bce4a
+    -
+      entity: c878dcbc-37af-4df2-90c1-64a6640d35cf
+    -
+      entity: 999e3e00-e1c2-4f79-a07d-21224db8a33a
+    -
+      entity: f6983f8f-cc31-40a3-93eb-2b35e16bb657
+    -
+      entity: f25accc3-7dae-402c-b0d1-8c1ddf314e70
+    -
+      entity: b0d34f1a-fcab-431f-b549-84501ad59d6e
+  field_publisher:
+    -
+      entity: 28feabe4-9c4d-485f-bf11-f0a05d115d4e
+  field_series:
+    -
+      entity: 1e3ec06e-2407-41a7-86a7-b14066ad13a5
+  field_series_number:
+    -
+      value: 1

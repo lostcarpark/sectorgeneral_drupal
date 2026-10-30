@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 6c608748-b95d-4c59-83a0-93710e6720f9
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'J. D. Beresford'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/j-d-beresford
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

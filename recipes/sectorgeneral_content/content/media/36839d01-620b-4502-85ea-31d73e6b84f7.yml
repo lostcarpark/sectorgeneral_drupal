@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 36839d01-620b-4502-85ea-31d73e6b84f7
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    d6157408-2da7-4109-8dab-7d15d4c5bee3: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Astounding/Analog (UK), March 1954 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: ab994f9de0eeb6b100fa9f3a9f88a9902b54a580
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://isfdb.org/wiki/images/6/6e/STNDNGSCNC1954.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Astounding/Analog (UK), March 1954 cover'
+      title: ''
+      width: 339
+      height: 500
+      entity: d6157408-2da7-4109-8dab-7d15d4c5bee3
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?302675'
+      title: null
+      options: {  }

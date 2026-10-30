@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b0d34f1a-fcab-431f-b549-84501ad59d6e
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Gardner F. Fox'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/gardner-f-fox
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

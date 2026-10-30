@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 73c624e9-9178-4200-85b3-0696061acead
+  bundle: redirect
+  default_langcode: en
+  depends:
+    f536af06-d9f5-446a-8200-ddffa65e1ceb: taxonomy_term
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: Q_UfSnvZS2xEHMkpbKcLClkHyKUoOD__G1Bi6HWH4-M
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: publisher/librairie-des-champs-elysees
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: f536af06-d9f5-446a-8200-ddffa65e1ceb
+  status_code:
+    -
+      value: 301

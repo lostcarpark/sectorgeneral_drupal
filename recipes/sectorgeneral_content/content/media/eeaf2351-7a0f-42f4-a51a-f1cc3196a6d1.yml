@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: eeaf2351-7a0f-42f4-a51a-f1cc3196a6d1
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    300d5015-b3ac-4f01-898b-3350c7c3a764: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Futures Past, Del Rey, 1982 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: decccca57af1c8851f38c3aa2eb804ab5563bbec
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/7/76/MLO4281.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Futures Past, Del Rey, 1982 cover'
+      title: ''
+      width: 298
+      height: 500
+      entity: 300d5015-b3ac-4f01-898b-3350c7c3a764
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?14924'
+      title: null
+      options: {  }

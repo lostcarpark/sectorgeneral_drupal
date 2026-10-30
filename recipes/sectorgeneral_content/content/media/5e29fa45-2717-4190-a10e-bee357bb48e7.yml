@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 5e29fa45-2717-4190-a10e-bee357bb48e7
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    b955ff48-e1a4-4433-9002-2504a005310a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: '13 Above the Night cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 87a20839ee0bcf47f26d40ff9ff5c16403902d1e
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/3/33/BVTHNGHTC11965.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: '13 Above the Night cover'
+      title: ''
+      width: 394
+      height: 605
+      entity: b955ff48-e1a4-4433-9002-2504a005310a
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?57'
+      title: null
+      options: {  }

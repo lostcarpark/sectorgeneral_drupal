@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 025cfa8a-c92e-422f-943b-ec8ca29d84d3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nebulasoct1958.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/nebulasoct1958.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 28026
+  status:
+    -
+      value: true

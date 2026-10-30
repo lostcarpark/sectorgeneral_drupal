@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b320e4a2-1350-4400-ac32-a1aa1a41a72e
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Frank Roberts'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/frank-roberts
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

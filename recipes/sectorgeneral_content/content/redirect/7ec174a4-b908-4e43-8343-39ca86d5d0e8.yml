@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 7ec174a4-b908-4e43-8343-39ca86d5d0e8
+  bundle: redirect
+  default_langcode: und
+  depends:
+    0fe53d8e-3d13-429c-82e1-ea10f6bb01f0: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: rppJLkviDagEULIuOyw23c60oDyJNbVOffdszNeOlcU
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: anthologies/new-writings-s-f-18
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 0fe53d8e-3d13-429c-82e1-ea10f6bb01f0
+  status_code:
+    -
+      value: 301

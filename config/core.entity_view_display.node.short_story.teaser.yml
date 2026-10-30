@@ -1,0 +1,68 @@
+uuid: ccae2f5c-a94c-4595-ae5e-5af2b4435bc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.short_story.body
+    - field.field.node.short_story.field_alternative_titles
+    - field.field.node.short_story.field_data_sources
+    - field.field.node.short_story.field_first_published_year
+    - field.field.node.short_story.field_isfdb_id
+    - field.field.node.short_story.field_opening_excerpt
+    - field.field.node.short_story.field_publication_notes
+    - field.field.node.short_story.field_reviews
+    - field.field.node.short_story.field_series
+    - field.field.node.short_story.field_series_number
+    - field.field.node.short_story.field_synopsis_credit
+    - field.field.node.short_story.field_wikidata_id
+    - field.field.node.short_story.field_wikipedia
+    - field.field.node.short_story.field_words
+    - node.type.short_story
+  module:
+    - user
+id: node.short_story.teaser
+targetEntityType: node
+bundle: short_story
+mode: teaser
+content:
+  field_first_published_year:
+    type: number_integer
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_words:
+    type: number_integer
+    label: hidden
+    settings:
+      thousand_separator: ','
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_alternative_titles: true
+  field_data_sources: true
+  field_isfdb_id: true
+  field_opening_excerpt: true
+  field_publication_notes: true
+  field_reviews: true
+  field_series: true
+  field_series_number: true
+  field_synopsis_credit: true
+  field_wikidata_id: true
+  field_wikipedia: true
+  story_appearances_anthologies: true
+  story_appearances_appeared_in: true
+  story_appearances_books: true
+  story_appearances_magazines: true

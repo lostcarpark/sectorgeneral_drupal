@@ -1,0 +1,20 @@
+uuid: 46e65b99-f561-4612-acfd-4742ae80cfe6
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - sectorgeneral_theme
+id: sectorgeneral_theme_help
+theme: sectorgeneral_theme
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: ''
+  label_display: '0'
+  provider: help
+visibility: {  }

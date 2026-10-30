@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 13b6af71-34c7-4994-bd17-5efa4db22397
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hsptlsttnb1962.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/hsptlsttnb1962.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 130027
+  status:
+    -
+      value: true

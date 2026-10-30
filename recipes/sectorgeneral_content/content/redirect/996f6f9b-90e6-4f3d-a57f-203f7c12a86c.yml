@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 996f6f9b-90e6-4f3d-a57f-203f7c12a86c
+  bundle: redirect
+  default_langcode: und
+  depends:
+    3d6827ad-8262-4fba-9911-5b19c4bf8f15: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: RWbD3LYFPezpn3H_argMVObp-wb9E3TJfqQGvWMgvoA
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/new-writings-sf-7
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 3d6827ad-8262-4fba-9911-5b19c4bf8f15
+  status_code:
+    -
+      value: 301

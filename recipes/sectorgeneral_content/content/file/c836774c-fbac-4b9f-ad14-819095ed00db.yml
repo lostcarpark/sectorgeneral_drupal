@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c836774c-fbac-4b9f-ad14-819095ed00db
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: stellar2.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/stellar2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 41575
+  status:
+    -
+      value: true

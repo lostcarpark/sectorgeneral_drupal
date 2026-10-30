@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 213e29dd-447f-42ef-ac85-70aefea64ec5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: futurespastorbit88.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/futurespastorbit88.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3685
+  status:
+    -
+      value: true

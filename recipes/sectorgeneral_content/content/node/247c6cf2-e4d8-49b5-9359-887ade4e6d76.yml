@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 247c6cf2-e4d8-49b5-9359-887ade4e6d76
+  bundle: edition
+  default_langcode: en
+  depends:
+    42e8a6d5-aea9-4e8f-83ce-db0406f8fd75: media
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    daad753c-b864-474b-b1d4-c65652c6916a: node
+    9faad951-b078-49ba-9f27-48ced2e80337: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Imported from the original James White Information site.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Interpreters, Birmingham SF Group, 1985'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/interpreters/interpreters-birmingham-sf-group-1985
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 42e8a6d5-aea9-4e8f-83ce-db0406f8fd75
+  field_data_sources:
+    -
+      value: 'James White Information (original site): “Birmingham SF Group, 1985”'
+  field_date_display:
+    -
+      value: '1985'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: daad753c-b864-474b-b1d4-c65652c6916a
+  field_publisher:
+    -
+      entity: 9faad951-b078-49ba-9f27-48ced2e80337
+  field_sort_date:
+    -
+      value: '1985-01-01'
+  field_year:
+    -
+      value: 1985

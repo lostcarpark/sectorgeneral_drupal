@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d3ba3a3c-d0b1-4b36-9441-2a5cf1adf7fd
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bktga1208.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/bktga1208.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 88555
+  status:
+    -
+      value: true

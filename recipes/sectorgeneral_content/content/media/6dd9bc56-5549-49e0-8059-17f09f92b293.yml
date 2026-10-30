@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6dd9bc56-5549-49e0-8059-17f09f92b293
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    fa0b0728-8b6f-4a04-8f60-f2ddcc353929: taxonomy_term
+    b6a23d79-dcf0-45e1-9104-32d3b13da4a9: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Das schwarze Inferno, Goldmann, 1975 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: f6394ea76a1b07652b0c31705ea799273a0192c0
+  field_image_source:
+    -
+      entity: fa0b0728-8b6f-4a04-8f60-f2ddcc353929
+  field_image_url:
+    -
+      uri: 'https://covers.openlibrary.org/b/id/10462376-L.jpg?default=false'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Das schwarze Inferno, Goldmann, 1975 cover'
+      title: ''
+      width: 500
+      height: 375
+      entity: b6a23d79-dcf0-45e1-9104-32d3b13da4a9
+  field_source_url:
+    -
+      uri: 'https://openlibrary.org/books/OL30529416M'
+      title: null
+      options: {  }

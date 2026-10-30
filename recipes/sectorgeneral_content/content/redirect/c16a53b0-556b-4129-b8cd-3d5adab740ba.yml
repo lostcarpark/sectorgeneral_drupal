@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: c16a53b0-556b-4129-b8cd-3d5adab740ba
+  bundle: redirect
+  default_langcode: und
+  depends:
+    2d0a3410-a4d5-43b2-aca8-9f79b0370788: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: UMkIuUL0ITVwA5E0AYjkn8rxo9MXKU_a_bl1y_V5-ts
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/codeblue.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 2d0a3410-a4d5-43b2-aca8-9f79b0370788
+  status_code:
+    -
+      value: 301

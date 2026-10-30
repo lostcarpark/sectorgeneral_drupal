@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e61ca6ea-4c23-4b94-9b2f-cb61764a7129
+  bundle: short_story
+  default_langcode: en
+  depends:
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?96207 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Combined Operation'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/combined-operation
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |-
+        <p>In 1959, Capt. W.E. Johns published a novel entitled Biggles Combined Operation. Jim at once owned up to being an inveterate fan of Squadron Leader Bigglesworth and his bi-plane-setting cronies. Sector General’s ‘combined operation’ entails Conway sewing together the sentient-jigsaw-puzzle CRLT* creature before plonking it down upon its new home planet.</p>
+        <p>*Physically it resembles the DBLF Kelgian life-form, but it is many times larger and possesses a leathery tegument rather than the silvery fur of the Kelgians” (Louie, ibid.)</p>
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?96207 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1983
+  field_isfdb_id:
+    -
+      value: '96207'
+  field_opening_excerpt:
+    -
+      value: '<p>They emerged into normal space at a point whose co-ordinates placed them far out on the galactic rim and where the brightest object to be seen was a nearby sun burning coldly against a faint powdering of stars.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>Sector General (Ballantine, March 1983).</p>'
+      format: basic_html
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 30500

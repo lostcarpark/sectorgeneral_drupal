@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6e7c6ef9-5bb5-421b-be33-7409a2c13f10
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    623b51c6-ce6b-4009-845e-bf1a80fb3a9b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'All Judgement Fled, Old Earth Books, 1996 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: f2534b8b038c602fb08202d3ccf8df60704a57fb
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/3/32/BKTG19808.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'All Judgement Fled, Old Earth Books, 1996 cover'
+      title: ''
+      width: 270
+      height: 419
+      entity: 623b51c6-ce6b-4009-845e-bf1a80fb3a9b
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?2222'
+      title: null
+      options: {  }

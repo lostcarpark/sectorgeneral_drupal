@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e74a5c27-8cd9-4c21-a7d0-4104757d79fb
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 9008c27a02a043a819214110.l.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/9008c27a02a043a819214110.l.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 68053
+  status:
+    -
+      value: true

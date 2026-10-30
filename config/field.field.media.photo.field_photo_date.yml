@@ -1,0 +1,19 @@
+uuid: 76d12671-b17f-4796-bd38-1950f2d085ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_photo_date
+    - media.type.photo
+id: media.photo.field_photo_date
+field_name: field_photo_date
+entity_type: media
+bundle: photo
+label: 'Date taken'
+description: 'As exactly as is known: "1985", "c. 1990s", "August 1957".'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

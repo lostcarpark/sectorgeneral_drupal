@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 60239271-37a7-4051-8700-bdb4ed4bf18f
+  bundle: redirect
+  default_langcode: und
+  depends:
+    274c333b-457f-48d0-9416-61420437dc4b: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: '-0qDn82fzvE6ygsg6fGbDwlllGDfckCHXhWoaXHzJdU'
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/doublecontact.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 274c333b-457f-48d0-9416-61420437dc4b
+  status_code:
+    -
+      value: 301

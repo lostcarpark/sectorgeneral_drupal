@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 497c89ea-21ec-4b55-ac1b-e7c9dc5c66b9
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Joseph Green'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/joseph-green
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: cffafaac-5c11-4b79-bca2-d1199a018079
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Joanna Russ'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/joanna-russ
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

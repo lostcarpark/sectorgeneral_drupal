@@ -1,0 +1,19 @@
+uuid: 7bc02b5c-fbeb-44e8-8513-b0e06c69e72c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_publisher_series_number
+    - node.type.edition
+id: node.edition.field_publisher_series_number
+field_name: field_publisher_series_number
+entity_type: node
+bundle: edition
+label: 'Number in publisher series'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

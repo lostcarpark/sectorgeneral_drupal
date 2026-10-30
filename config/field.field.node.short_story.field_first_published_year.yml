@@ -1,0 +1,23 @@
+uuid: 32341ae0-4b89-4456-bbf2-c2af75095083
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_first_published_year
+    - node.type.short_story
+id: node.short_story.field_first_published_year
+field_name: field_first_published_year
+entity_type: node
+bundle: short_story
+label: 'First published'
+description: 'Year of first publication, used for sorting.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,103 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f9a36d89-c8a9-4a1a-81bb-4d7d961ed0a2
+  bundle: edition
+  default_langcode: en
+  depends:
+    03b65888-7ad0-4199-befb-aba61a693867: media
+    6737817d-f8c8-4720-bd5e-a47255131e87: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    cb57b576-bba0-4654-976b-ef9f8b91a06f: node
+    4dba99c7-905b-46ac-a12f-f4f11a47e3b8: taxonomy_term
+    1377513c-78d1-4bd3-9f2f-d582a7f97e93: taxonomy_term
+    84425617-5d6b-47fe-96a0-c88ca1799550: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/760049416'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Das Jahrtausend der Träume, Goldmann, 1975'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/dream-millennium/das-jahrtausend-der-traume-goldmann-1975
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 03b65888-7ad0-4199-befb-aba61a693867
+  field_cover_artist:
+    -
+      entity: 6737817d-f8c8-4720-bd5e-a47255131e87
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “GOLDMANN SF hardcover, Autumn 1975 as Das Jahrtaussend der Traume”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?577911 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL38569325M (CC0).
+        Deutsche Nationalbibliothek record https://d-nb.info/760049416 (CC0).
+  field_date_display:
+    -
+      value: 'Autumn 1975'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isbn:
+    -
+      value: '9783442303076'
+  field_isfdb_id:
+    -
+      value: '577911'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: cb57b576-bba0-4654-976b-ef9f8b91a06f
+  field_oclc:
+    -
+      value: '74264373'
+  field_openlibrary_id:
+    -
+      value: OL38569325M
+  field_pages:
+    -
+      value: 188
+  field_price:
+    -
+      value: 'DM 19.50'
+  field_publisher:
+    -
+      entity: 4dba99c7-905b-46ac-a12f-f4f11a47e3b8
+  field_publisher_series:
+    -
+      entity: 1377513c-78d1-4bd3-9f2f-d582a7f97e93
+  field_sort_date:
+    -
+      value: '1975-10-01'
+  field_translator:
+    -
+      entity: 84425617-5d6b-47fe-96a0-c88ca1799550
+  field_year:
+    -
+      value: 1975

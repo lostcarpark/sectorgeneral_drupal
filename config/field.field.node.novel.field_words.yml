@@ -1,0 +1,23 @@
+uuid: 47745757-c62b-455e-b900-aecec8190e05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_words
+    - node.type.novel
+id: node.novel.field_words
+field_name: field_words
+entity_type: node
+bundle: novel
+label: Words
+description: 'Approximate word count.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

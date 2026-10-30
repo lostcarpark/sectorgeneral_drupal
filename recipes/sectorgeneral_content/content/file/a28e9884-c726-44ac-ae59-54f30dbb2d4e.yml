@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a28e9884-c726-44ac-ae59-54f30dbb2d4e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thslntst1991.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thslntst1991.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 90965
+  status:
+    -
+      value: true

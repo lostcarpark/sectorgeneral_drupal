@@ -1,0 +1,117 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0df930e3-3281-4fa1-857d-65b520098e28
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    a5d12d51-d64f-437c-8e8e-701ea08835f1: node
+    03a189ee-cd0b-4755-b6dc-42f617fcc4ce: media
+    fac5db52-70b4-4886-90fe-b348c3ed6cb8: taxonomy_term
+    20e127fc-b1f1-496e-b435-a43151c91fd1: taxonomy_term
+    26bee8a1-012b-4cb7-a8bd-cd61044e570e: taxonomy_term
+    e4a3524f-3c0d-4359-8556-eac588e0749c: taxonomy_term
+    2959174d-714c-44cf-af8a-532037984f1f: taxonomy_term
+    e8dbd04a-c30c-4534-945e-17d0e61a3719: taxonomy_term
+    694c484e-b3f6-4751-be0b-16f85c740118: taxonomy_term
+    220ba3e3-d345-4cd2-b9e9-cca5f7830323: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    35e411d8-3c59-4666-84ed-9c05c22b161a: taxonomy_term
+    a08b252c-c6c0-4a76-bb49-3221019d132e: taxonomy_term
+    9d7f4eb4-cb50-4b5f-8cb1-194d568638d0: taxonomy_term
+    64515f1f-578c-4106-b9ee-b288bfc961fa: taxonomy_term
+    7825fe47-ba3d-4c24-96b4-a65c112511c6: taxonomy_term
+    cfad0a8e-fa22-429b-8272-db96e6be9be1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?56873 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Analog Science Fiction and Fact, February 1985'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/analog-science-fiction-and-fact/analog-science-fiction-and-fact-february-1985
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: a5d12d51-d64f-437c-8e8e-701ea08835f1
+  field_cover:
+    -
+      entity: 03a189ee-cd0b-4755-b6dc-42f617fcc4ce
+  field_cover_artist:
+    -
+      entity: fac5db52-70b4-4886-90fe-b348c3ed6cb8
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?56873 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'February 1985'
+  field_editor:
+    -
+      entity: 20e127fc-b1f1-496e-b435-a43151c91fd1
+  field_interior_artist:
+    -
+      entity: 26bee8a1-012b-4cb7-a8bd-cd61044e570e
+    -
+      entity: e4a3524f-3c0d-4359-8556-eac588e0749c
+    -
+      entity: 2959174d-714c-44cf-af8a-532037984f1f
+    -
+      entity: e8dbd04a-c30c-4534-945e-17d0e61a3719
+    -
+      entity: 694c484e-b3f6-4751-be0b-16f85c740118
+    -
+      entity: 220ba3e3-d345-4cd2-b9e9-cca5f7830323
+  field_isfdb_id:
+    -
+      value: '56873'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 35e411d8-3c59-4666-84ed-9c05c22b161a
+  field_other_contributors:
+    -
+      entity: a08b252c-c6c0-4a76-bb49-3221019d132e
+    -
+      entity: 9d7f4eb4-cb50-4b5f-8cb1-194d568638d0
+    -
+      entity: 64515f1f-578c-4106-b9ee-b288bfc961fa
+    -
+      entity: 7825fe47-ba3d-4c24-96b4-a65c112511c6
+    -
+      entity: cfad0a8e-fa22-429b-8272-db96e6be9be1
+  field_pages:
+    -
+      value: 196
+  field_price:
+    -
+      value: $2.00
+  field_sort_date:
+    -
+      value: '1985-02-01'
+  field_year:
+    -
+      value: 1985

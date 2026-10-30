@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8e9bc632-c1f1-4d9f-aff3-a3e91995164d
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Misha Nogha'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/misha-nogha
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

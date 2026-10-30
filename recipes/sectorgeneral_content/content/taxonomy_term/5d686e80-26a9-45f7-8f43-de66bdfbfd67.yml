@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 5d686e80-26a9-45f7-8f43-de66bdfbfd67
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'James Graham Ballard'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/james-graham-ballard
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

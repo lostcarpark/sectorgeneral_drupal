@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5502d785-3980-4174-8eaf-96f4dddef226
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    6edd89e8-88d6-4983-b0a1-6ab6f79a7215: node
+    6598b3f8-747b-4632-8db1-e83a5152cc87: media
+    b2ab0355-9d03-4e36-8878-2668dc1d64ea: taxonomy_term
+    72dc6815-5e19-4169-8ae8-0292db0a975e: taxonomy_term
+    2e686169-2332-48aa-9be4-d45c63a620b6: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    42dd2bc1-eab1-4b0e-adb3-c78567c039fd: taxonomy_term
+    1007d547-43ed-4a94-a2fb-6f11e010b082: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?380020 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Urania (collana) 645, 26 May 1974'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/urania-collana/urania-collana-645-26-may-1974
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 6edd89e8-88d6-4983-b0a1-6ab6f79a7215
+  field_cover:
+    -
+      entity: 6598b3f8-747b-4632-8db1-e83a5152cc87
+  field_cover_artist:
+    -
+      entity: b2ab0355-9d03-4e36-8878-2668dc1d64ea
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?380020 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '26 May 1974'
+  field_editor:
+    -
+      entity: 72dc6815-5e19-4169-8ae8-0292db0a975e
+    -
+      entity: 2e686169-2332-48aa-9be4-d45c63a620b6
+  field_isfdb_id:
+    -
+      value: '380020'
+  field_issue_number:
+    -
+      value: '645'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_magazine:
+    -
+      entity: 42dd2bc1-eab1-4b0e-adb3-c78567c039fd
+  field_other_contributors:
+    -
+      entity: 1007d547-43ed-4a94-a2fb-6f11e010b082
+  field_pages:
+    -
+      value: 176
+  field_price:
+    -
+      value: 'Lit 400'
+  field_published_as:
+    -
+      value: 'Naufragio trasparente (Complete Novel)'
+  field_sort_date:
+    -
+      value: '1974-05-26'
+  field_year:
+    -
+      value: 1974

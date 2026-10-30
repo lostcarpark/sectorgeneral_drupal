@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9e98e2ac-21a3-4204-927b-f371be961527
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: glctcmprsl1979.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/glctcmprsl1979.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 152853
+  status:
+    -
+      value: true

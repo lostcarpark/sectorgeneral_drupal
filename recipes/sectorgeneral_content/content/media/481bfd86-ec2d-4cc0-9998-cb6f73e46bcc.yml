@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 481bfd86-ec2d-4cc0-9998-cb6f73e46bcc
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    2e42c7db-1af3-40a3-889f-fa7ad9817aac: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Terra Science Fiction cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 992a662f25cf69ec6cc8d04da13d264cf52871b8
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/4/41/TRRSCNCFCT1982.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Terra Science Fiction cover'
+      title: ''
+      width: 320
+      height: 500
+      entity: 2e42c7db-1af3-40a3-889f-fa7ad9817aac
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?454519'
+      title: null
+      options: {  }

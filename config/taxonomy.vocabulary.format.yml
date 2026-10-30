@@ -1,0 +1,9 @@
+uuid: 4bb10b16-237d-48b9-8d00-a4f0067648e1
+langcode: en
+status: true
+dependencies: {  }
+name: Format
+vid: format
+description: 'Publicaiton format'
+weight: 0
+new_revision: false

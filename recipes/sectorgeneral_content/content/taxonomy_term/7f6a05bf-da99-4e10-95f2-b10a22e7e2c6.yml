@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 7f6a05bf-da99-4e10-95f2-b10a22e7e2c6
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'James Cawthorn'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/james-cawthorn
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

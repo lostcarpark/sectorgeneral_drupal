@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 715914df-79a8-4ead-a527-df3d1b176c9e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: strhlrglvc1988.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/strhlrglvc1988.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 115333
+  status:
+    -
+      value: true

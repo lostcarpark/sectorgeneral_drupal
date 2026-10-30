@@ -1,0 +1,120 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 17eb803f-5548-4afa-8600-ed7457fc99c6
+  bundle: edition
+  default_langcode: en
+  depends:
+    20c7884c-bf8d-488f-98b8-d6d1827ca8e8: media
+    1275b65b-0544-4918-a6f8-3476ee99a45a: taxonomy_term
+    42b8f78b-6a45-4b53-8c09-9abae4ded93e: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    2c173c06-4324-4644-93cc-79dd46396550: node
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930: node
+    6f3fa5f6-86dd-4b27-9700-c634c13d7875: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL3944409M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Beginning Operations, Orb, 2001'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/beginning-operations/beginning-operations-orb-2001
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>A Sector General Omnibus (White, James, Sector General Series, 1.)</p>\r\n\r\n<p>Includes&nbsp;<a href=\"http://www.sectorgeneral.com/books/hospitalstation.html\"><strong>Hospital Station</strong></a>,&nbsp;<a href=\"http://www.sectorgeneral.com/books/starsurgeon.html\"><strong>Star Surgeon</strong></a>&nbsp;and&nbsp;<a href=\"http://www.sectorgeneral.com/books/majoroperation.html\"><strong>Major Operation</strong></a>&nbsp;in a combined volume.</p>\r\n\r\n<p>Introduction by Brian Stableford</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_buy_links:
+    -
+      uri: 'http://www.amazon.com/exec/obidos/ASIN/0312875444/sectorgeneral-20'
+      title: 'US Buyers Paperback Edition'
+      options: {  }
+    -
+      uri: 'http://www.amazon.co.uk/exec/obidos/ASIN/0312875444/sectorgeneral-21'
+      title: 'UK Buyers Paperback Edition'
+      options: {  }
+  field_cover:
+    -
+      entity: 20c7884c-bf8d-488f-98b8-d6d1827ca8e8
+  field_cover_artist:
+    -
+      entity: 1275b65b-0544-4918-a6f8-3476ee99a45a
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Orb (Tor Books); ISBN: 0312875444; Paperback - 511 pages; June 2001.”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?3918 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL3944409M (CC0).
+  field_date_display:
+    -
+      value: '2 June 2001'
+  field_format:
+    -
+      entity: 42b8f78b-6a45-4b53-8c09-9abae4ded93e
+  field_isbn:
+    -
+      value: '9780312875442'
+  field_isfdb_id:
+    -
+      value: '3918'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 2c173c06-4324-4644-93cc-79dd46396550
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+    -
+      entity: 22ea2f5a-9b6b-49f7-a8e6-b3146b2c4930
+  field_oclc:
+    -
+      value: '45917243'
+  field_openlibrary_id:
+    -
+      value: OL3944409M
+  field_pages:
+    -
+      value: 511
+  field_price:
+    -
+      value: $19.95
+  field_publication_date:
+    -
+      value: '2001-06-02T00:00:00'
+  field_publisher:
+    -
+      entity: 6f3fa5f6-86dd-4b27-9700-c634c13d7875
+  field_sort_date:
+    -
+      value: '2001-06-02'
+  field_year:
+    -
+      value: 2001

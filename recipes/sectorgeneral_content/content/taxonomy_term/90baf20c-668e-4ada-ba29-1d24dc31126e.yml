@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 90baf20c-668e-4ada-ba29-1d24dc31126e
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Laurie Harden'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/laurie-harden
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

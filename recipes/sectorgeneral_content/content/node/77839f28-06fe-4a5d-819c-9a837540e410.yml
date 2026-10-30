@@ -1,0 +1,79 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 77839f28-06fe-4a5d-819c-9a837540e410
+  bundle: novel
+  default_langcode: en
+  depends:
+    da53ab75-d1e1-4d54-be8d-09f26126ed1e: node
+    df55454c-03a3-4abb-ad0c-b38684a4edfa: node
+    df52dab8-9657-4ab4-9da8-ca184033f04e: node
+    479badc7-cd74-457c-b26c-24edf27e7921: node
+    1f836717-c9f1-4b30-8cd6-820e50fb40cd: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover switched to a larger copy of the same picture (media 158, similarity 0.94).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Deadly Litter'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/deadly-litter
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>James White&#039;s first collection of non-Sector General stories. &quot;One day, inevitable, man will not only face the technical difficulties and the enormous physical dangers of extended space travel, but he will have to deal with the infinitely more complex and mental problems that an unnatural form of living will create&quot; (blurb). Move orbits, Arthur C. Clarke. Contents: &#039;Grapeliner&#039;; &#039;The Ideal Captain&#039;; &#039;The Lights Outside the Windows&#039;; &#039;Deadly Litter&#039; (see under Short Stories).</p>'
+      format: basic_html
+      summary: 'This is a selection of four short stories, the title story being perhaps the most gripping.'
+  field_book_type:
+    -
+      value: collection
+  field_contents:
+    -
+      entity: da53ab75-d1e1-4d54-be8d-09f26126ed1e
+    -
+      entity: df55454c-03a3-4abb-ad0c-b38684a4edfa
+    -
+      entity: df52dab8-9657-4ab4-9da8-ca184033f04e
+    -
+      entity: 479badc7-cd74-457c-b26c-24edf27e7921
+  field_cover:
+    -
+      entity: 1f836717-c9f1-4b30-8cd6-820e50fb40cd
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?37214 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1964
+  field_isfdb_id:
+    -
+      value: '37214'
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 63000

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b226aeaa-e71f-48e7-b1bb-540fe32b5459
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Brian W. Aldiss'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/brian-w-aldiss
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

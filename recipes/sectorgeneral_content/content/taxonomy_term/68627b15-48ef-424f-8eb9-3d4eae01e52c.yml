@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 68627b15-48ef-424f-8eb9-3d4eae01e52c
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'D. G. Compton'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/d-g-compton
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

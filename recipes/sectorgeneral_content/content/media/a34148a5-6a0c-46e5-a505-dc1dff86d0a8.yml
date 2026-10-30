@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: a34148a5-6a0c-46e5-a505-dc1dff86d0a8
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    1fc3cbeb-6a84-4d21-b968-acf53a9e37f2: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Star Healer, Futura/Orbit, 1987 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: ee2055e18061defc091c2c8486724fb057e8ae71
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/d/db/BKTG19811.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Star Healer, Futura/Orbit, 1987 cover'
+      title: ''
+      width: 381
+      height: 640
+      entity: 1fc3cbeb-6a84-4d21-b968-acf53a9e37f2
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?32007'
+      title: null
+      options: {  }

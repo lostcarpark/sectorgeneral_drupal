@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: cf2953f2-a857-49e2-adc1-a23f42d3b993
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Christian Haderer'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/christian-haderer
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

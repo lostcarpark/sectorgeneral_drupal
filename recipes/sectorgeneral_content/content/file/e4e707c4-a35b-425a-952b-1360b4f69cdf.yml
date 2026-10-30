@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e4e707c4-a35b-425a-952b-1360b4f69cdf
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: galaxy-jan1974.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/galaxy-jan1974.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3414
+  status:
+    -
+      value: true

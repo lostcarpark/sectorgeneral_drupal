@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c1eb56e9-3c70-43f3-bd0d-7d655c312e03
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Viktor Kolupajev'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/viktor-kolupajev
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

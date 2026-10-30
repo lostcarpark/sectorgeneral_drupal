@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e6160e70-e473-45de-907c-06d1f5142296
+  bundle: novel
+  default_langcode: en
+  depends:
+    8b04456d-eee2-490a-a46a-d68ea37e9190: media
+    fb2ba3ce-7254-4c6e-820b-44b80a9fb698: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover from its earliest English edition.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'General Practice'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/general-practice
+      langcode: en
+      pathauto: 1
+  field_book_type:
+    -
+      value: omnibus
+  field_cover:
+    -
+      entity: 8b04456d-eee2-490a-a46a-d68ea37e9190
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?846503 (CC BY 4.0).'
+  field_first_published_year:
+    -
+      value: 2003
+  field_isfdb_id:
+    -
+      value: '846503'
+  field_series:
+    -
+      entity: fb2ba3ce-7254-4c6e-820b-44b80a9fb698

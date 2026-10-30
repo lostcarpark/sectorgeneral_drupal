@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 65e0f8ae-003a-4275-acb4-47adb21b25fb
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: newwrmay55.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/newwrmay55.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 123543
+  status:
+    -
+      value: true

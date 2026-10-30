@@ -1,0 +1,109 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ba3da2dd-6166-4668-8ffc-14c74cf87093
+  bundle: edition
+  default_langcode: en
+  depends:
+    6116a736-72b5-44a7-8834-c50cb09ca283: media
+    8ec45051-8a22-4fca-be42-90aca81933c2: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    faec9164-3eb1-4408-8e68-372285338816: node
+    19b1cfbb-06d6-4aeb-b49b-d7bfc8768db5: node
+    e0fd36c3-6f71-473a-a95c-dca3f6402cad: node
+    ad00e45e-9dc1-4acb-a31e-89442b108c4c: node
+    8fdab28d-c11a-486c-8142-8370fa36490b: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL7915364M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Tales of Sector General, SFBC, 1999'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/galactic-gourmet/tales-sector-general-sfbc-1999
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 6116a736-72b5-44a7-8834-c50cb09ca283
+  field_cover_artist:
+    -
+      entity: 8ec45051-8a22-4fca-be42-90aca81933c2
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “TALES OF SECTOR GENERAL (Science Fiction Book Club Omnibus Edition) containing The Galactic Gourmet, Final Diagnosis and Mind Changer, No 10064, ISBN 7394-0159-9,February 1999”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?301464 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL7915364M (CC0).
+  field_date_display:
+    -
+      value: 'February 1999'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_isbn:
+    -
+      value: '9780739401590'
+  field_isfdb_id:
+    -
+      value: '301464'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: faec9164-3eb1-4408-8e68-372285338816
+    -
+      entity: 19b1cfbb-06d6-4aeb-b49b-d7bfc8768db5
+    -
+      entity: e0fd36c3-6f71-473a-a95c-dca3f6402cad
+    -
+      entity: ad00e45e-9dc1-4acb-a31e-89442b108c4c
+  field_oclc:
+    -
+      value: '42829225'
+  field_openlibrary_id:
+    -
+      value: OL7915364M
+  field_pages:
+    -
+      value: 703
+  field_price:
+    -
+      value: $14.99
+  field_printing:
+    -
+      value: 'Book club omnibus'
+  field_publisher:
+    -
+      entity: 8fdab28d-c11a-486c-8142-8370fa36490b
+  field_publisher_reference:
+    -
+      value: '10064'
+  field_sort_date:
+    -
+      value: '1999-02-01'
+  field_year:
+    -
+      value: 1999

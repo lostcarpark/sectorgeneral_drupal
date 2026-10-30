@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 93323035-3a3f-4d5f-90b2-d9b8ca3a0043
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Imported from the original James White Information site.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Full Time Hobbyist'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /articles/full-time-hobbyist
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: |
+        <p><em>James White interview, Locus, March 1993</em></p>
+        <p>'Until recently, writing was only a hobby, but I had a couple of eye operations and I've had to retire from the day job because of the eyesight problem. It's not that serious yet - I can still see to walk in the street and see people, but until they get pretty close to me, I don't recognize them. Every-thing is in pretty soft focus. I al-ways liked writing as a hobby, and now I can do it all day. So my hobby has become a full-time occupation.&quot;</p>
+        <p>Like many other sf writers, he began as a fan. &quot;when we [Walt Willis, Bob Shaw, etc] were writ-ing fan articles and convention reports, and later our first sci-ence fiction professional stories, we didn't think we were doing anything legendary. We were just having fun.</p>
+        <p>Sometimes we'd be working on Slant and we'd say, 'Ach, this is too much.' We'd go out on the lawn and discuss broad matters of policy, so we'd lie for three hours in the sun and we'd start shooting butterflies with water pistols. And then we thought it was a pity because we'd have to sit them on a fencepost and dry them out. Wasps were better game. They could sting you back</p>
+        <p>&quot;We were really religious about Astounding- Then Campbell got hit with this anti-nuclear-war bug, and for a period in the late '40s, month after month, the stories were all about atomic doom. We were getting fed up with it, and we said, 'Why don't we write the kind of story we would like to read?' So Bob Shaw and I went off and did this, more or less as a joke. It took nearly a year to write 'Assisted Passage', because the group was so keen on science fiction, we wouldn't let any of the others get away with anything corny. So what an editor would have found to complain about in a first story, we had already taken out because our friends and severest critics had done the work for them. The influence of Walter Willis, who in this very quiet way was a perfectionist about writing, ensured that story number five or six sold before I ever got a rejection slip, and for Bob it was the same. It was a great training.</p>
+        <p>&quot;The 'Sector General' series started in 1957 as a one off idea for a novelette. It was published in New Worlds in September'57. The editor said it sounded like an interesting proposition, aliens treating human beings in hospital, and would I like to do another one? So I did another one, then another. The reader response was good. I did the first five, which were then published as the Hospital Station collection by Ballantine in 1962. Then I did for John Carnell at New Worlds a three-part serial called 'Field Hospital' where the hospital got involved in a war.</p>
+        <p>I'd been reading Hal Clement's Needle for the third time, and I got this idea for an organized intelligent virus-doctor who lived inside his patient. This was inevitably called 'Resident Physician'. That and 'Field Hospital' became Star Surgeon [1963]. Then there were five more novelettes published as Major Operation [1971].That was supposed to be the end of the series' but Ballantine prevailed on me to do another, and I did Ambulance Ship [1979], then Sector General [1983] and Star Healer [1985]. That was when all the main characters of the books rose to the top and their futures were neatly mapped out and everybody was ready to live happily ever after.</p>
+        <p>&quot;I thought that was the finish of the series, but they asked for another one, so I changed the format. Instead of having the characters I'd been using till then as the principal characters, they were off stage, and I wrote the story from the point of view of a new character. The first one was a student nurse and her adventures, coming in at the bottom medically.That was Code Blue: Emergency [1987].</p>
+        <p>&quot;I started the series with simple medical puzzles like medical detective stories, and the doctors had to solve the puzzle before they could hope to treat the pa-tient. But book #8, the current one, The Genocidal Healer [1992] is very philosophical and theological. I'm, as you know, a Catholic. If our parish priest ever reads The Genocidal Healer, I'm in deep trouble, because he's very old and very right wing.</p>
+        <p>&quot;It is about a very able doctor who through over enthusiasm during a disaster relief operation inadvertently wiped out most of the population he was supposed to be helping. He was loaded down with guilt and he wanted to be summarily executed, but they don't execute people in that future - they sent him to Sector General to the Psychology Department. He wasn't allowed to practice medicine, so the only way he could help people was by talking to them. They all knew the awful thing that had happened to him, and he made their ailments seem trivial by comparison. <br> This happens in real hospitals. You always find someone who is more injured or more sick than you are. In talking to people, he found that he had to sometimes give them religious con-solation, especially the terminally ill patients, and he studied various<br> extra-terrestrial religions that came into the story, and he ended up by being declared the hospital padre, even though! never made it clear that he believed anything. He knew enough to console any patient with an emotional problem.</p>
+        <p>&quot;I have been at hospital several times for operations, unfortunately, but my wife before she took ill was an Intensive Care nurse for several years at the height of the Troubles in Belfast, and saw some pretty weird things. She keeps me right on some of the technology, and she also suggested the plot for The Genocidal Healer, in that she said that very often when the padres come to the ward, they seem to do more good to the disturbed patients than any of the doctors did.</p>
+        <p>&quot;I'm working on #9 at the moment. It will be a little bit lighter. This is about a very self opinionated, self-important chef de cuisine at a posh multi species planetary hotel, who thinks that the ultimate professional challenge would be to become chief dietician at Sector General and prepare and present meals for 63 different life forms. He gets into trouble. You have to make them suffer!</p>
+        <p>&quot;I have another plot in mind for a 'Sector General' book, another character. I'm trying to explore the hospital from different areas, and this time I'd like to write a story from the point of view, would you believe?, of a patient.I take this patient from his general practitioner, who's referred him to a planetary hospital, and he's got some peculiar disease, and eventually he's passed up to Sector General. It should be a fun story, this one. I'm not trying to make it very serious.&quot;<br> Not all of his recent books belong to the series. &quot;The Silent Stars Go By [1991] was one I've been waiting to write for about 10 years. It was a big job, and I thought it would never get it finished. I stopped a couple of times to do shorter things. When you stop and change mental subjects, sometimes when you go back to the original one, you're fresh. Is that how most writers work? Oh, I thought I was cheating in some obscure fashion. Voluntary schizophrenic....</p>
+        <p>&quot;It's an alternate history where it's the Hibernian Empire that covers the globe, not the British Empire. Basically' it's a Hibernian scholar traveling in the Mediterranean, who meets up with Alexander, takes sketches of his steam-jet engine, and brings them back to Tara in hopes that he will amuse the High King with it. The High King sees the potential, and precipitates a premature Industrial Revolution which makes Ireland militarily unassailable from Europe. It's Saint Brendan the Navigator who discovers the New World in 600 something. He, unlike the Spaniards and Portuguese, will not agree to exploit the Native Americans. Because of this policy', which gets him into lots of trouble at home initially, trade and mutual peace pacts are signed between most of the main Indian nations and Hibernia. This evolves into the Hibernian Empire of the West - but it's actually more like a loose federation. By 1492, the Hibernian Empire and the other technologically advanced countries in the world are sending out the first starship to a new world.</p>
+        <p>&quot;The Imperial Civil Service is composed of career eoclesiastlcs, so there's a lot of the Catholic Church in there too. I was thinking of Charlemagne. He had the church as the third pillar of his government, because churchmen, as celibates, don't have the temptation to give their offspring good jobs in the government, so theoretically the church running the Civil Service is best.</p>
+        <p>&quot;I had an awful time thinking of a title, until Peggy and I went to a Christmas carol service. The center section is about the colonization flight, and all of the colonists are in cold sleep for a couple of hundred years, while the ship is passing slowly through the<br> stars toward its target sun. We were listening to 'Little Town Bethlehem', and the third and fourth lines are, 'And through this deep and dreamless sleep/The silent stars go by.' I said, 'This will do.' I pinch from everybody!</p>
+        <p>&quot;The world is a pretty horrible place at the mo-ment, but why write books where it's horrible too? I did write a very angry book once, which was not taken in the US but was in the UK, Germany, and several other places. It was called Underkill [1979], and there's a lot of urban guerilla stuff in there. It was obviously an expanded Belfast. Judy-Lynn del Rey said it was a terrible story - in the dictionary sense of the word - and the characterization was terrific, but it was not the sort of story people expected of James White, and could I please do another 'Sector General'?</p>
+        <p>&quot;I was more affected by the Troubles in Northern Ireland when I lived in Andersonstown. Now I live in Portstewart, which is right on the north coast, and very stormy in winter, and has fabulous sunsets, a very peaceful place compared to Belfast. I've been there nine years, but I'm just a slightly long-stayed visitor. So I'm thrown on my own devices.</p>
+        <p>&quot;On a walk one morning, I went back along the Cliff Walk, and at the top there's an old convent. 'Iliac was a seal playing on the rocks underneath, and I thought, 'Now' what would happen if an alien crash-landed in the sea, was injured, and crawled into a convent for shelter?' This became 'Sanctu-ary'. Stanley Schmidt said I'd made a first by having the first nun on an Analog cover. It's a picture of a little elderly nun with glasses, holding an electric<br> torch in one hand and a crucifix in the other, looking at this god-awful creature.</p>
+        <p>&quot;The stories I write are very unlikely to happen. it's just that Northern Ireland is a very frustrating and dangerous and tragic place. The people are very nice, regardless of whether they're Protestants or Catholics or whatever. But it's these poisonous few, who keep it all boiling over and won't allow anybody to settle. Most of the stories, l write about the sort of characters and the sort of world that I would like to live in. I'm trying to escape from reality. lf you're the writer, you're the boss. It's your party.</p>
+        <p>&quot;I do like to have people act in a thoughtful and ethical fashion. I've never gone in for the old type of square-jawed hero who blasts aliens out of the sky and never thinks about the down side of war. Part of the philosophical reasoning behind 'Sector General' is that I don't like war and I don't like people who practice it. ma hospital, the doctors and nurses do not admire the heroes who are causing so much medical repair work for them.</p>
+        <p>&quot;There has to be conflict in any story to make it interesting, but I like the conflict to be people strug-gling against a natural disaster or an epidemic or something like that, even an eco-tastrophe, but having them fighting nature rather than each other I think it makes a better story. You don't need any bad guys, or not many. You don't need any villain who has to he shot to pieces by the last page. In The Silent Stars Go By, I have a Monsignor who is very pleasant on the surface and very unpleasant under-neath, but he has fooled himself into thinking the thing he does is good. I've had experience 'with people like that. They cause an awful lot of trouble.&quot;</p>
+        <p>Not that he wouldn't like, sometimes, to make trouble too, &quot;O'Mara, the chief psychologist in the Sector General hospital, gets to say all the good, nasty, sarcastic lines. Very abrasive character. This is the way I would like to act, especially toward some people, but I'm too polite!&quot;</p>
+        <p>Reproduced with kind permission of the White family.</p>
+        <p><a href="/">Sector General</a></p>
+        <p><a href="contactus.php">Contact Us</a></p>
+        <p>Back to Top</p>
+      format: basic_html
+      summary: ''

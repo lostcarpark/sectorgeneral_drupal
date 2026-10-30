@@ -1,0 +1,11 @@
+uuid: 330aaf69-036d-4586-a105-75024423903d
+langcode: en
+status: true
+dependencies: {  }
+name: 'Short story'
+type: short_story
+description: 'A short story, novelette or novella. Link it to collections and magazines from their Contents field.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 31498df8-d61e-44eb-8ce9-aab4f015c22a
+  bundle: redirect
+  default_langcode: und
+  depends:
+    5e000242-78e2-4513-ba9c-451613a6c9d9: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: qwTppQ4tR_mlg3XkYZfVZFCGrz2F9KDxUM4UviVal0E
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/questionofcruelty.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 5e000242-78e2-4513-ba9c-451613a6c9d9
+  status_code:
+    -
+      value: 301

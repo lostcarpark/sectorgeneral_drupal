@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: aa65f14c-9981-4a5d-8e17-62b1cd3c3922
+  bundle: redirect
+  default_langcode: und
+  depends:
+    7ebc130e-24fb-4797-b384-cb98d1b19fc3: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: N1YC0JONsldQYkKLKB-rjrwzoIYB0GqqxaBlxZ00wH0
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/dynastyofone.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 7ebc130e-24fb-4797-b384-cb98d1b19fc3
+  status_code:
+    -
+      value: 301

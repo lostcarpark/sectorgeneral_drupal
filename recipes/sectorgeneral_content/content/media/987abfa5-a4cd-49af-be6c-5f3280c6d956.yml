@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 987abfa5-a4cd-49af-be6c-5f3280c6d956
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    c033cda0-08a8-4eff-a5b3-6ecc00ff2020: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Galactic Gourmet, Tor, 1996 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 5b17acee35380d7b5a1b7c11d28e3eba3e5869a7
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/2/25/GLCTCG1996.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'The Galactic Gourmet, Tor, 1996 cover'
+      title: ''
+      width: 458
+      height: 676
+      entity: c033cda0-08a8-4eff-a5b3-6ecc00ff2020
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?40292'
+      title: null
+      options: {  }

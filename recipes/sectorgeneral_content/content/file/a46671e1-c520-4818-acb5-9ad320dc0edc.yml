@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a46671e1-c520-4818-acb5-9ad320dc0edc
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: openprisonfoursq.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/openprisonfoursq.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3882
+  status:
+    -
+      value: true

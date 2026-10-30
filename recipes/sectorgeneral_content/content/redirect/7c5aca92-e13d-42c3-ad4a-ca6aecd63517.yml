@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 7c5aca92-e13d-42c3-ad4a-ca6aecd63517
+  bundle: redirect
+  default_langcode: und
+  depends:
+    88796287-685a-48a2-b1cd-1c435ba27f09: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 24lkM6KVe68J0cdJrKi6TOEp1haHI8Us_zWGTWDEkY8
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/sectorgeneral.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 88796287-685a-48a2-b1cd-1c435ba27f09
+  status_code:
+    -
+      value: 301

@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: fd97a93f-5efc-4da3-bbd5-c56e3b574f98
+  bundle: redirect
+  default_langcode: und
+  depends:
+    bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 7VD3wipxpYjApcK--uisLw-3BvgE9BHNjhHCgd9eDK4
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/visitoratlarge.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: bad6ceb1-aa09-4f5e-b4e0-f8d9d0c345b2
+  status_code:
+    -
+      value: 301

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6c4ea0d8-06fc-4c8a-a332-87f50311feee
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: thlnsmngsr1979.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/thlnsmngsr1979.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 72721
+  status:
+    -
+      value: true

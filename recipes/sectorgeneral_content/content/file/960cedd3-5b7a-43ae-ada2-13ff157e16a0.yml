@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 960cedd3-5b7a-43ae-ada2-13ff157e16a0
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: chrrgtsnds1977.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/chrrgtsnds1977.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 75557
+  status:
+    -
+      value: true

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7aa82c5d-1569-413b-866b-f683ca100620
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: u355.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/u355.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 59376
+  status:
+    -
+      value: true

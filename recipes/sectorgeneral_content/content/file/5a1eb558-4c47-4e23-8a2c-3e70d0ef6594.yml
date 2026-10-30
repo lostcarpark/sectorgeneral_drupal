@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5a1eb558-4c47-4e23-8a2c-3e70d0ef6594
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: prrrhdndrm1963.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/prrrhdndrm1963.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 70400
+  status:
+    -
+      value: true

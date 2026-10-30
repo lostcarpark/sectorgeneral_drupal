@@ -1,0 +1,106 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e68f9163-309a-4f0b-a6b6-d6f2227de703
+  bundle: anthology
+  default_langcode: en
+  depends:
+    388effb1-372e-4213-aa1e-20b4a8da3452: node
+    66fc1ed5-3e28-484b-b4c9-ef7b3442f997: media
+    dc3bff4a-14d8-4802-8f27-cde6060139b3: taxonomy_term
+    4b03a8fe-3305-4703-9de0-880041b9b439: taxonomy_term
+    0de7ac91-0b27-47b8-9306-6772365f540d: taxonomy_term
+    978cb290-c39b-4af2-b861-c44f1632381b: taxonomy_term
+    d2f7bec4-589d-467c-9692-6f2f24177bac: taxonomy_term
+    3e7d2170-f99e-4731-9c56-982d211a2a86: taxonomy_term
+    3821e984-48db-4086-aab1-348018c3c0c6: taxonomy_term
+    dad8c6a2-6bca-4446-8644-1b3b06999c09: taxonomy_term
+    4d565092-f148-4b8f-8093-5be0d5d07faf: taxonomy_term
+    450925fc-6e74-4aaf-80ae-e37c91fb9ed1: taxonomy_term
+    07e0aafe-d821-43ab-99db-6d8ff7e855f4: taxonomy_term
+    9be5cd51-54f5-4835-8aa6-8459349ae07a: taxonomy_term
+    bedc199f-cef0-4b30-9081-69275cc8e644: taxonomy_term
+    ce3c6fbe-754e-4f29-9927-66d65a2fd343: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?180261'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Christmas on Ganymede'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/christmas-ganymede
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Avon, December 1990.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 388effb1-372e-4213-aa1e-20b4a8da3452
+  field_cover:
+    -
+      entity: 66fc1ed5-3e28-484b-b4c9-ef7b3442f997
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?529425 (CC BY 4.0).
+  field_editor:
+    -
+      entity: dc3bff4a-14d8-4802-8f27-cde6060139b3
+  field_first_published_year:
+    -
+      value: 1990
+  field_isfdb_id:
+    -
+      value: '529425'
+  field_other_contributors:
+    -
+      entity: 4b03a8fe-3305-4703-9de0-880041b9b439
+    -
+      entity: 0de7ac91-0b27-47b8-9306-6772365f540d
+    -
+      entity: 978cb290-c39b-4af2-b861-c44f1632381b
+    -
+      entity: d2f7bec4-589d-467c-9692-6f2f24177bac
+    -
+      entity: 3e7d2170-f99e-4731-9c56-982d211a2a86
+    -
+      entity: 3821e984-48db-4086-aab1-348018c3c0c6
+    -
+      entity: dad8c6a2-6bca-4446-8644-1b3b06999c09
+    -
+      entity: 4d565092-f148-4b8f-8093-5be0d5d07faf
+    -
+      entity: 450925fc-6e74-4aaf-80ae-e37c91fb9ed1
+    -
+      entity: 07e0aafe-d821-43ab-99db-6d8ff7e855f4
+    -
+      entity: 9be5cd51-54f5-4835-8aa6-8459349ae07a
+    -
+      entity: bedc199f-cef0-4b30-9081-69275cc8e644
+  field_publisher:
+    -
+      entity: ce3c6fbe-754e-4f29-9927-66d65a2fd343

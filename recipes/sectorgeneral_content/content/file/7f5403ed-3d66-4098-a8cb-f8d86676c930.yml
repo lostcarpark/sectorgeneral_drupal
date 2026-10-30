@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7f5403ed-3d66-4098-a8cb-f8d86676c930
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bndthnchnt1991.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/bndthnchnt1991.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 86410
+  status:
+    -
+      value: true

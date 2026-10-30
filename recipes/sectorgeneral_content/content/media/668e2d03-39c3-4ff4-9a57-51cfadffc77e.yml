@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 668e2d03-39c3-4ff4-9a57-51cfadffc77e
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    3f04f85a-4536-4650-b93d-e9cd888d841e: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Watch Below, Ballantine, 1972 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: ef94fdd3cbf883bc7851c5d9bcc57abfd6980b89
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/a/af/THWTCHBLWK1972.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'The Watch Below, Ballantine, 1972 cover'
+      title: ''
+      width: 360
+      height: 601
+      entity: 3f04f85a-4536-4650-b93d-e9cd888d841e
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?280565'
+      title: null
+      options: {  }

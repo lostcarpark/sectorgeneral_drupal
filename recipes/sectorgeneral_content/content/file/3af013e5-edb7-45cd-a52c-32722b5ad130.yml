@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3af013e5-edb7-45cd-a52c-32722b5ad130
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: darkinferno.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/darkinferno.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4758
+  status:
+    -
+      value: true

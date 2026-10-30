@@ -1,0 +1,52 @@
+/**
+ * @file
+ * The rocket logo beside the site name and slogan.
+ *
+ * The rocket is sized to the height of the name and slogan beside it. With
+ * the full banner showing, all three are half as big again, shrinking to the
+ * base theme's sizes in the mini header (and on phones, where there's less
+ * room).
+ *
+ * Heights follow from the text: name line (font-size × 1.2) + gap + slogan
+ * line (font-size × 1.3).
+ */
+
+.site-masthead .site-name,
+.site-masthead .site-slogan {
+  transition: font-size 150ms ease-in-out;
+}
+
+/* Mini header and phones: base theme text sizes (1.25rem name, 0.875rem
+ * slogan), 2.75rem of text. */
+.site-masthead .site-logo img,
+.site-masthead.is-stuck .site-logo img {
+  height: 2.75rem;
+}
+
+@media (min-width: 48.0625rem) {
+  /* Full banner: 1.875rem name, 1.3125rem slogan, 4.125rem of text. */
+  .site-masthead:not(.is-stuck) .site-name {
+    font-size: 1.875rem;
+  }
+
+  .site-masthead:not(.is-stuck) .site-slogan {
+    margin-top: 0.1875rem;
+    font-size: 1.3125rem;
+  }
+
+  .site-masthead:not(.is-stuck) .site-logo img {
+    height: 4.125rem;
+  }
+
+  .site-masthead:not(.is-stuck) .block-system-branding-block {
+    gap: 0.875rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-masthead .site-name,
+  .site-masthead .site-slogan,
+  .site-masthead .site-logo img {
+    transition: none;
+  }
+}

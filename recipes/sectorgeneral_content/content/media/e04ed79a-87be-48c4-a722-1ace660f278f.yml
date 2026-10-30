@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: e04ed79a-87be-48c4-a722-1ace660f278f
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    4359ec62-68f3-42d1-b800-ff2e5d31d3b6: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Hospital Station, Futura/Orbit, 1986 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 1548af57a960ea63cc8a652edf03149c1968d155
+  field_media_image:
+    -
+      alt: 'Hospital Station, Futura/Orbit, 1987'
+      title: ''
+      width: 323
+      height: 518
+      entity: 4359ec62-68f3-42d1-b800-ff2e5d31d3b6

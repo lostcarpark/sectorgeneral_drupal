@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5c0817c4-7b6d-4a2b-8bb0-a66c6e4f5a9f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mnsztjpkwd1971.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mnsztjpkwd1971.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 23851
+  status:
+    -
+      value: true

@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 158c3cc2-7699-4980-931c-79d6c21e0bca
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    d472f76e-d14e-4316-ba01-c720c6d3255e: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Analog 5 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 0bea6827d77ca9dbbbeed95381c39801b6458dd4
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/d/dd/NLGDTFQRZK1982.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Analog 5 cover'
+      title: ''
+      width: 411
+      height: 594
+      entity: d472f76e-d14e-4316-ba01-c720c6d3255e
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?399630'
+      title: null
+      options: {  }

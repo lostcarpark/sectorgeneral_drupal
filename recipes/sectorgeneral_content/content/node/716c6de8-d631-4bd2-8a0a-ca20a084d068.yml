@@ -1,0 +1,100 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 716c6de8-d631-4bd2-8a0a-ca20a084d068
+  bundle: edition
+  default_langcode: en
+  depends:
+    fe615726-5feb-467f-a7f2-872ee01a57f6: media
+    5401c40e-8c02-4af3-bdea-b6583c3621d1: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fec32d28-7455-4a8a-a448-67c3af694c28: node
+    ffa47fff-7f42-4bc0-9887-f70829dd9c34: node
+    0fc0637d-f524-4bf9-a5cb-64be66c6edde: taxonomy_term
+    8c7ef231-6504-4ccd-b15f-4e69a00cf9e8: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?21625 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Secret Visitors, Ace, 1957'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/secret-visitors/secret-visitors-ace-1957
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: fe615726-5feb-467f-a7f2-872ee01a57f6
+  field_cover_artist:
+    -
+      entity: 5401c40e-8c02-4af3-bdea-b6583c3621d1
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ace Pocketbook D-237, August 1957, retitled The Secret Visitors.”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?21625 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'August 1957'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '21625'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: fec32d28-7455-4a8a-a448-67c3af694c28
+    -
+      entity: ffa47fff-7f42-4bc0-9887-f70829dd9c34
+  field_oclc:
+    -
+      value: '4047401'
+  field_pages:
+    -
+      value: 155
+  field_price:
+    -
+      value: $0.35
+  field_publisher:
+    -
+      entity: 0fc0637d-f524-4bf9-a5cb-64be66c6edde
+  field_publisher_reference:
+    -
+      value: D-237
+  field_publisher_series:
+    -
+      entity: 8c7ef231-6504-4ccd-b15f-4e69a00cf9e8
+  field_publisher_series_number:
+    -
+      value: D-237
+  field_sort_date:
+    -
+      value: '1957-08-01'
+  field_year:
+    -
+      value: 1957

@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: d5f3a373-02b4-489c-bdab-843e832a2df8
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    e74abc36-4f9b-41f5-85e8-6665f96f5004: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'secretvisitorsace57 (old site, unmatched)'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: fa89448c0254534ce8ada65e6d41ae470b13e6d3
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Secret Visitors Ace 1957'
+      title: ''
+      width: 100
+      height: 157
+      entity: e74abc36-4f9b-41f5-85e8-6665f96f5004

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 0d7d2373-5e25-4af0-a586-0ca302b3bb16
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Ted Chiang'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/ted-chiang
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

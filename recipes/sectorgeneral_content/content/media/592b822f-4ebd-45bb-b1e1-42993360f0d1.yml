@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 592b822f-4ebd-45bb-b1e1-42993360f0d1
+  bundle: photo
+  default_langcode: en
+  depends:
+    fcdcfc4a-ca76-4614-9eb2-a2471c69ca76: taxonomy_term
+    df3efa5b-2fe8-4f6f-a8fa-8f07e325b705: taxonomy_term
+    f50e4ffe-ba74-40e6-a0b1-d5025aac4d8c: file
+default:
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'James White (Wikipedia)'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_caption:
+    -
+      value: 'James White.'
+  field_credit_note:
+    -
+      value: 'Wikipedia gives its source as scifiworld.cz (http://www.scifiworld.cz/author.php?ID=255), with brightness and contrast adjusted, and uses it under a fair-use rationale for its article only.'
+  field_depicts:
+    -
+      entity: fcdcfc4a-ca76-4614-9eb2-a2471c69ca76
+  field_image_source:
+    -
+      entity: df3efa5b-2fe8-4f6f-a8fa-8f07e325b705
+  field_image_url:
+    -
+      uri: 'https://upload.wikimedia.org/wikipedia/en/1/1f/James_White_01.png'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Head-and-shoulders photo of James White in glasses and a green jacket'
+      title: ''
+      width: 160
+      height: 270
+      entity: f50e4ffe-ba74-40e6-a0b1-d5025aac4d8c
+  field_rights_basis:
+    -
+      value: fair_dealing
+  field_source_url:
+    -
+      uri: 'https://en.wikipedia.org/wiki/File:James_White_01.png'
+      title: null
+      options: {  }

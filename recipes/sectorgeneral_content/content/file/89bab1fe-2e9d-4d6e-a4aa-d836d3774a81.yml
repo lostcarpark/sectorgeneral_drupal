@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 89bab1fe-2e9d-4d6e-a4aa-d836d3774a81
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: james_white_Vita_con_gli_automi.jpg
+  uri:
+    -
+      value: 'public://covers/2026-10/james_white_Vita_con_gli_automi.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 43584
+  status:
+    -
+      value: true

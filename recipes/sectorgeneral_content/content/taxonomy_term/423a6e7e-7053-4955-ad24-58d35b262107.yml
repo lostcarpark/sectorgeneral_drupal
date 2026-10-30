@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 423a6e7e-7053-4955-ad24-58d35b262107
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Richard S. Simak'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/richard-s-simak
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

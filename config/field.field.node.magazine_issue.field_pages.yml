@@ -1,0 +1,23 @@
+uuid: 3283dceb-482c-4ce2-995b-ecb14893d6b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pages
+    - node.type.magazine_issue
+id: node.magazine_issue.field_pages
+field_name: field_pages
+entity_type: node
+bundle: magazine_issue
+label: Pages
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

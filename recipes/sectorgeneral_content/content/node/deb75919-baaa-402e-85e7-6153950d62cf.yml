@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: deb75919-baaa-402e-85e7-6153950d62cf
+  bundle: anthology
+  default_langcode: en
+  depends:
+    27311f45-da2c-4473-9d07-ce86f3c8451b: node
+    ab2a5a23-b66c-4076-bf8a-c210413f9a40: media
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    b17e3f4f-d1a8-4d64-ac53-6c80be0f8fed: taxonomy_term
+    8e6c8b76-7886-40b6-9b63-c714d218f60d: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+    af91cef5-7e1f-4b15-9749-0604ee0dc1d0: taxonomy_term
+    33733e5a-94b6-4e70-8235-a87c42379cd2: taxonomy_term
+    89290bc7-4fde-4778-bdb3-1002eba528aa: taxonomy_term
+    f6b91abe-d1df-49d4-93cf-fc21dda26ed1: taxonomy_term
+    b0822560-0a8f-4b29-8d2e-98d3bed90958: taxonomy_term
+    3c530a9f-ea81-47e2-9345-a9d9c1ed5b37: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?35731'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Best from New Worlds'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/best-new-worlds
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>T. V. Boardman, February 1955, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: 27311f45-da2c-4473-9d07-ce86f3c8451b
+  field_cover:
+    -
+      entity: ab2a5a23-b66c-4076-bf8a-c210413f9a40
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site) (story publication histories).
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?36059 (CC BY 4.0).
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_first_published_year:
+    -
+      value: 1955
+  field_isfdb_id:
+    -
+      value: '36059'
+  field_other_contributors:
+    -
+      entity: b17e3f4f-d1a8-4d64-ac53-6c80be0f8fed
+    -
+      entity: 8e6c8b76-7886-40b6-9b63-c714d218f60d
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+    -
+      entity: af91cef5-7e1f-4b15-9749-0604ee0dc1d0
+    -
+      entity: 33733e5a-94b6-4e70-8235-a87c42379cd2
+    -
+      entity: 89290bc7-4fde-4778-bdb3-1002eba528aa
+    -
+      entity: f6b91abe-d1df-49d4-93cf-fc21dda26ed1
+  field_publisher:
+    -
+      entity: b0822560-0a8f-4b29-8d2e-98d3bed90958
+  field_series:
+    -
+      entity: 3c530a9f-ea81-47e2-9345-a9d9c1ed5b37

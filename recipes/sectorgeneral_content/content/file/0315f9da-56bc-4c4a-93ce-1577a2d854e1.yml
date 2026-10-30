@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0315f9da-56bc-4c4a-93ce-1577a2d854e1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ddllttrxbx1981.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/ddllttrxbx1981.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 105257
+  status:
+    -
+      value: true

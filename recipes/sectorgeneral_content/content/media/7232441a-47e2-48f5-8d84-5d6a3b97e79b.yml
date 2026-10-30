@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 7232441a-47e2-48f5-8d84-5d6a3b97e79b
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    1e744b0f-7ef7-4f24-9187-d7291a2f4b73: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Writings in SF 21 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 0efe5371d5dbdec8e8f662f9ed1aa71be88f053d
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/0/01/NWWRSNSF711972.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'New Writings in SF 21 cover'
+      title: ''
+      width: 416
+      height: 640
+      entity: 1e744b0f-7ef7-4f24-9187-d7291a2f4b73
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?23849'
+      title: null
+      options: {  }

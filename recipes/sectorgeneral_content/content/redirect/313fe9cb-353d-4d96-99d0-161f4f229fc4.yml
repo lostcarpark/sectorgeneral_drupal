@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 313fe9cb-353d-4d96-99d0-161f4f229fc4
+  bundle: redirect
+  default_langcode: en
+  depends:
+    6f8d0473-9e43-4976-a3db-293719e2dc4c: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: OD78FWB21EljiqI46nRbJbLcfVHbb9SkVoztg85PDKI
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/nebula/nebula-science-fiction-us-february-1959
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 6f8d0473-9e43-4976-a3db-293719e2dc4c
+  status_code:
+    -
+      value: 301

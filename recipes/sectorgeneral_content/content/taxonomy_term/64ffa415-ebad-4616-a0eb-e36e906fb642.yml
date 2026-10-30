@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 64ffa415-ebad-4616-a0eb-e36e906fb642
+  bundle: format
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Digest
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /formats/digest
+      langcode: en
+      pathauto: 1

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8e955d40-def3-43e7-85d8-fd6ef735df15
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Pataki Tibor'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/pataki-tibor
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

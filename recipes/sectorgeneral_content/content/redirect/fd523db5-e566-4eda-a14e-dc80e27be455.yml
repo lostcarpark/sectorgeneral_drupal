@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: fd523db5-e566-4eda-a14e-dc80e27be455
+  bundle: redirect
+  default_langcode: en
+  depends:
+    2bfcd8e8-1247-4014-92a4-0aafd157e354: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: '-h5kG0ZKIqdRWSr-pshAZs7ylLLd8Pu8yWGVo59uVPk'
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/second-ending/jenseits-des-todes-erich-pabel-verlag-1963
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 2bfcd8e8-1247-4014-92a4-0aafd157e354
+  status_code:
+    -
+      value: 301

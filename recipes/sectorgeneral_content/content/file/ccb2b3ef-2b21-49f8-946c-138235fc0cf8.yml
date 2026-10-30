@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ccb2b3ef-2b21-49f8-946c-138235fc0cf8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dsjhrtsndd1978.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/dsjhrtsndd1978.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 63360
+  status:
+    -
+      value: true

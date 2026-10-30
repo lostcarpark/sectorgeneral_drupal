@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c5a45ff8-9365-4807-845a-40e88c28a20c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sectorgeneralballantine.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/sectorgeneralballantine.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3687
+  status:
+    -
+      value: true

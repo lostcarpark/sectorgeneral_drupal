@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 7262817f-64ef-476a-bf35-76afbaeb27e9
+  bundle: redirect
+  default_langcode: und
+  depends:
+    f7d26100-42f0-45e8-bfca-70e063567bb4: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 4qA_3BMt2yq7JwfiozeT3BDeql2dek5TRlTheV406DQ
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/survivor.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: f7d26100-42f0-45e8-bfca-70e063567bb4
+  status_code:
+    -
+      value: 301

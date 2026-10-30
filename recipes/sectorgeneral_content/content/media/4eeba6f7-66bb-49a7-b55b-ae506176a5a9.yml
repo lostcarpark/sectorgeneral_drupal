@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4eeba6f7-66bb-49a7-b55b-ae506176a5a9
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    18cc0652-85fc-4144-8ac3-7dcec575596a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Aliens Among Us, Corgi cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: ad65fa52227b89dabff3857a8cf1d5e5f7790994
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Aliens Among Us cover'
+      title: ''
+      width: 100
+      height: 163
+      entity: 18cc0652-85fc-4144-8ac3-7dcec575596a

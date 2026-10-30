@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 041d67ec-326c-4059-95e4-3bffc4770d28
+  bundle: redirect
+  default_langcode: und
+  depends:
+    da53ab75-d1e1-4d54-be8d-09f26126ed1e: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: DiVevS1MjFBFtOCnwNPXtFtzxV-LAFxlpROE3hKGxGQ
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/thelightsoutsidethewindow.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: da53ab75-d1e1-4d54-be8d-09f26126ed1e
+  status_code:
+    -
+      value: 301

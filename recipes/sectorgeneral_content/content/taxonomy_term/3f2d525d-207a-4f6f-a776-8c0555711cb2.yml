@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 3f2d525d-207a-4f6f-a776-8c0555711cb2
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Stratford A. Kirby'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/stratford-kirby
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

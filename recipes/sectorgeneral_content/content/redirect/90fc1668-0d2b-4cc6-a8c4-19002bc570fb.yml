@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 90fc1668-0d2b-4cc6-a8c4-19002bc570fb
+  bundle: redirect
+  default_langcode: en
+  depends:
+    75a7ac39-bd3f-419e-a703-3e8b26daafb9: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: wP7qBURzUwn2-Ukx9ZJDaAd-1GSKUcPvz37pyf-AyTw
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: magazines/astounding-analog-1937-1971/astoundinganalog-uk-march-1954
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 75a7ac39-bd3f-419e-a703-3e8b26daafb9
+  status_code:
+    -
+      value: 301

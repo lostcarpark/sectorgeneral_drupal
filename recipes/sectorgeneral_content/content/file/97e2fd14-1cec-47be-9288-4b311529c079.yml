@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 97e2fd14-1cec-47be-9288-4b311529c079
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ddllttrgkf1981.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/ddllttrgkf1981.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 110700
+  status:
+    -
+      value: true

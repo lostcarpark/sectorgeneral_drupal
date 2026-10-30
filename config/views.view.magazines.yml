@@ -1,0 +1,159 @@
+uuid: f74550fd-e4ce-4817-a8d3-c0b942d16b19
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.magazine_issue
+    - system.menu.main
+    - taxonomy.vocabulary.magazine
+  module:
+    - datetime
+    - node
+    - taxonomy
+    - user
+id: magazines
+label: Magazines
+module: views
+description: 'Magazine issues containing James White stories.'
+tag: ''
+base_table: node_field_data
+base_field: nid
+display:
+  default:
+    id: default
+    display_title: Default
+    display_plugin: default
+    position: 0
+    display_options:
+      title: 'Magazine appearances'
+      pager:
+        type: none
+        options:
+          offset: 0
+      exposed_form:
+        type: basic
+        options: {  }
+      access:
+        type: perm
+        options:
+          perm: 'access content'
+      cache:
+        type: tag
+        options: {  }
+      sorts:
+        field_sort_date_value:
+          id: field_sort_date_value
+          table: node__field_sort_date
+          field: field_sort_date_value
+          plugin_id: standard
+          order: ASC
+        field_year_value:
+          id: field_year_value
+          table: node__field_year
+          field: field_year_value
+          plugin_id: standard
+          order: ASC
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          plugin_id: standard
+          order: ASC
+      filters:
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+          value:
+            magazine_issue: magazine_issue
+          group: 1
+        field_magazine_target_id:
+          id: field_magazine_target_id
+          table: node__field_magazine
+          field: field_magazine_target_id
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_magazine_target_id_op
+            label: Magazine
+            use_operator: false
+            operator: field_magazine_target_id_op
+            identifier: magazine
+            required: false
+            remember: false
+            multiple: false
+            reduce: false
+          vid: magazine
+          type: select
+          hierarchy: false
+          limit: true
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: grid_responsive
+        options:
+          grouping: {  }
+          columns: 4
+          cell_min_width: 180
+          grid_gutter: 16
+          alignment: horizontal
+      row:
+        type: 'entity:node'
+        options:
+          view_mode: teaser
+      query:
+        type: views_query
+        options: {  }
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  page:
+    id: page
+    display_title: Page
+    display_plugin: page
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: magazines
+      menu:
+        type: normal
+        title: Magazines
+        description: ''
+        weight: 1
+        enabled: true
+        expanded: false
+        menu_name: main
+        parent: 'views_view:views.short_stories.page'
+        context: '0'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }

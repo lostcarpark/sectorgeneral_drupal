@@ -1,0 +1,99 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2ac8e56d-f78b-4544-9306-bd9901a71d2b
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    b5ce4bb3-1a94-4a0f-a190-ef8a3cd3b833: node
+    33dc9248-8951-4102-89aa-920d3b9a4709: media
+    c9e91f40-be0f-4e81-bcd2-551e98f843ca: taxonomy_term
+    3a915135-9000-4de1-bc78-1512c2d5c411: taxonomy_term
+    3fe5831f-3c36-42e6-be47-d84c26b53a0a: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    e6b743b8-81b3-4989-bac2-10549c058771: taxonomy_term
+    57a0a03e-e37d-4401-9495-9459d2ba68bc: taxonomy_term
+    07138263-68f8-453c-b4c2-d189348167a7: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?298288 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'I Romanzi del Cosmo 6, November 1957'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/i-romanzi-del-cosmo/i-romanzi-del-cosmo-6-november-1957
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: b5ce4bb3-1a94-4a0f-a190-ef8a3cd3b833
+  field_cover:
+    -
+      entity: 33dc9248-8951-4102-89aa-920d3b9a4709
+  field_cover_artist:
+    -
+      entity: c9e91f40-be0f-4e81-bcd2-551e98f843ca
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?298288 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'November 1957'
+  field_editor:
+    -
+      entity: 3a915135-9000-4de1-bc78-1512c2d5c411
+  field_interior_artist:
+    -
+      entity: 3fe5831f-3c36-42e6-be47-d84c26b53a0a
+  field_isfdb_id:
+    -
+      value: '298288'
+  field_issue_number:
+    -
+      value: '6'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_magazine:
+    -
+      entity: e6b743b8-81b3-4989-bac2-10549c058771
+  field_other_contributors:
+    -
+      entity: 57a0a03e-e37d-4401-9495-9459d2ba68bc
+    -
+      entity: 07138263-68f8-453c-b4c2-d189348167a7
+  field_pages:
+    -
+      value: 160
+  field_price:
+    -
+      value: 'Lit 150'
+  field_published_as:
+    -
+      value: '«Operazione Terra»'
+  field_sort_date:
+    -
+      value: '1957-11-01'
+  field_year:
+    -
+      value: 1957

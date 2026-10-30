@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 96122ca2-6cca-4115-92a9-70c38913645b
+  bundle: redirect
+  default_langcode: und
+  depends:
+    65f000fe-cb08-42f5-9b8a-1fd9356045cf: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: nvjprTbO0yZqNM0RyzMG4V7VhJFyJmaN5miju4l4Zck
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: articleslangford.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 65f000fe-cb08-42f5-9b8a-1fd9356045cf
+  status_code:
+    -
+      value: 301

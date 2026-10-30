@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1496c28f-f8d3-4044-8b01-4ab7f4d86c5e
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    85548980-346c-44bd-900a-d6bf6f593fcb: node
+    c419bb16-548d-4b6b-b669-0f3919bc2415: media
+    00755522-03bf-4fbb-b9b8-73fc91f84cfa: taxonomy_term
+    26861d89-acc4-4ce5-8b18-0a60f715424e: taxonomy_term
+    4f00b253-4f48-4c29-b920-8819062b3f4f: taxonomy_term
+    10faa91a-3e4e-44f8-90dc-fa02b9b389a6: taxonomy_term
+    5365dab4-a854-443c-b174-13da40da4c1c: taxonomy_term
+    3f11f09f-48a0-4e9a-9d44-b330cb0d4490: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1075700 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Häpna!, March 1956'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/hapna/hapna-march-1956
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 85548980-346c-44bd-900a-d6bf6f593fcb
+  field_cover:
+    -
+      entity: c419bb16-548d-4b6b-b669-0f3919bc2415
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?1075700 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'March 1956'
+  field_editor:
+    -
+      entity: 00755522-03bf-4fbb-b9b8-73fc91f84cfa
+  field_isfdb_id:
+    -
+      value: '1075700'
+  field_language:
+    -
+      entity: 26861d89-acc4-4ce5-8b18-0a60f715424e
+  field_magazine:
+    -
+      entity: 4f00b253-4f48-4c29-b920-8819062b3f4f
+  field_other_contributors:
+    -
+      entity: 10faa91a-3e4e-44f8-90dc-fa02b9b389a6
+    -
+      entity: 5365dab4-a854-443c-b174-13da40da4c1c
+    -
+      entity: 3f11f09f-48a0-4e9a-9d44-b330cb0d4490
+  field_pages:
+    -
+      value: 98
+  field_published_as:
+    -
+      value: 'Kollision i rymden'
+  field_sort_date:
+    -
+      value: '1956-03-01'
+  field_year:
+    -
+      value: 1956

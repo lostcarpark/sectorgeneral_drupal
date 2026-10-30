@@ -1,0 +1,23 @@
+uuid: e99eb74e-50c6-4ef9-95b2-12d2251910bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_wikipedia
+    - taxonomy.vocabulary.people
+  module:
+    - link
+id: taxonomy_term.people.field_wikipedia
+field_name: field_wikipedia
+entity_type: taxonomy_term
+bundle: people
+label: Wikipedia
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

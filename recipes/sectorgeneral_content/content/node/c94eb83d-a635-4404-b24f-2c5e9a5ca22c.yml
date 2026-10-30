@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+  bundle: novel
+  default_langcode: en
+  depends:
+    f36abc35-85be-4f45-846f-af80684c6ca5: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Corrected contents and synopsis credit (scripts/fix_book_contents.php).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Second Ending'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/second-ending
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>&quot;Five miles below the surface, Ross was awakened from the deep sleep of suspended animation to find himself in an empty world. There was no noise, or people, and no motion save for the steady activity of the hospital robots&quot; (blurb). Ross, the sole survivor of World War Last, must meet up with some other human beings -- even if he&#039;s got to create them himself. And, with the hibernation technique and omnicompetent robots at his command, he eventually does just that. After a fashion. White&#039;s most beautifully fitted piece of work, with this fitting Dedication: &quot;TO PEGGY, who isn&#039;t the last girl on Earth, just the only one.&quot;</p>'
+      format: basic_html
+      summary: 'The story of the last man on Earth, but with an "up-beat" ending.'
+  field_alternative_titles:
+    -
+      value: 'Second Ending (Part 1 of 2)'
+    -
+      value: 'Second Ending (Part 2 of 2)'
+  field_book_type:
+    -
+      value: novel
+  field_cover:
+    -
+      entity: f36abc35-85be-4f45-846f-af80684c6ca5
+  field_data_sources:
+    -
+      value: "James White Information (original site). Synopsis by Graham Andrews.\r\nISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1257 (CC BY 4.0)."
+  field_first_published_year:
+    -
+      value: 1961
+  field_isfdb_id:
+    -
+      value: '1257'
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 35000

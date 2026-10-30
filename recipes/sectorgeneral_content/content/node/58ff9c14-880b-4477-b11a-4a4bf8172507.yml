@@ -1,0 +1,141 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 58ff9c14-880b-4477-b11a-4a4bf8172507
+  bundle: anthology
+  default_langcode: en
+  depends:
+    ad7e263f-afa9-49e6-a611-f2fd53633b5e: node
+    5988cb8b-9e52-4b16-b271-10a7d8f1ab6a: media
+    5795d24e-ba5e-4428-a048-754d7b6b84c2: taxonomy_term
+    04940c25-7814-4686-aafc-7f3554ef106f: taxonomy_term
+    a9d8dbd4-c41e-4344-8895-3ec040f54bbd: taxonomy_term
+    c04cf652-be98-4725-af28-62590e4131ad: taxonomy_term
+    770b3d3b-a456-46fc-959d-979e0e06ca64: taxonomy_term
+    87c9d28a-c51e-46fc-b04b-0af0be3bced4: taxonomy_term
+    ce5767f5-54a9-443d-a25e-d14d6b9bade9: taxonomy_term
+    df2d49f0-8356-4da0-ba32-c561023d613e: taxonomy_term
+    48f0444f-7612-493a-83b7-154f481e506f: taxonomy_term
+    e44c17c2-02dd-4e68-ae85-bcbb7ffdaecc: taxonomy_term
+    67ccf441-65b1-4085-bac6-a931ae877d41: taxonomy_term
+    b5a547bf-b79a-45bb-9559-c3d3171d7b02: taxonomy_term
+    1b7c35d5-2349-4a64-b9e0-e44ca3684c09: taxonomy_term
+    e02f5a01-d62b-4e82-89df-f7b40e57f076: taxonomy_term
+    c8ffef22-3049-4306-bfb9-656fb8552fe9: taxonomy_term
+    8f6b501b-c065-41c4-869b-5e8fd31bb487: taxonomy_term
+    aec2ddec-43fb-443d-a0a6-4742ea198576: taxonomy_term
+    cf2953f2-a857-49e2-adc1-a23f42d3b993: taxonomy_term
+    d75a92af-8d21-4884-b5c1-d6a8f2998982: taxonomy_term
+    c7e922de-92da-4279-a3cf-37eba01340cf: taxonomy_term
+    72a991d8-7568-45dc-9c8f-0c4b9f3e1663: taxonomy_term
+    ec1e8568-1e8e-4646-80b5-81da50dc18f9: taxonomy_term
+    2d2e9d96-0853-401d-a707-adefae368ea0: taxonomy_term
+    dad8c6a2-6bca-4446-8644-1b3b06999c09: taxonomy_term
+    3b909b15-13a9-4c7d-a459-89c332b5236c: taxonomy_term
+    780348c0-a4aa-46e4-af79-b1486990f844: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?408081'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Science Fiction Story Reader 19'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /anthologies/science-fiction-story-reader-19
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Heyne, January 1983, Paperback.</p>'
+      format: basic_html
+      summary: ''
+  field_contents:
+    -
+      entity: ad7e263f-afa9-49e6-a611-f2fd53633b5e
+  field_cover:
+    -
+      entity: 5988cb8b-9e52-4b16-b271-10a7d8f1ab6a
+  field_data_sources:
+    -
+      value: 'ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?1549197 (CC BY 4.0).'
+  field_editor:
+    -
+      entity: 5795d24e-ba5e-4428-a048-754d7b6b84c2
+  field_first_published_year:
+    -
+      value: 1983
+  field_isfdb_id:
+    -
+      value: '1549197'
+  field_other_contributors:
+    -
+      entity: 04940c25-7814-4686-aafc-7f3554ef106f
+    -
+      entity: a9d8dbd4-c41e-4344-8895-3ec040f54bbd
+    -
+      entity: c04cf652-be98-4725-af28-62590e4131ad
+    -
+      entity: 770b3d3b-a456-46fc-959d-979e0e06ca64
+    -
+      entity: 87c9d28a-c51e-46fc-b04b-0af0be3bced4
+    -
+      entity: ce5767f5-54a9-443d-a25e-d14d6b9bade9
+    -
+      entity: df2d49f0-8356-4da0-ba32-c561023d613e
+    -
+      entity: 48f0444f-7612-493a-83b7-154f481e506f
+    -
+      entity: e44c17c2-02dd-4e68-ae85-bcbb7ffdaecc
+    -
+      entity: 67ccf441-65b1-4085-bac6-a931ae877d41
+    -
+      entity: b5a547bf-b79a-45bb-9559-c3d3171d7b02
+    -
+      entity: 1b7c35d5-2349-4a64-b9e0-e44ca3684c09
+    -
+      entity: e02f5a01-d62b-4e82-89df-f7b40e57f076
+    -
+      entity: c8ffef22-3049-4306-bfb9-656fb8552fe9
+    -
+      entity: 8f6b501b-c065-41c4-869b-5e8fd31bb487
+    -
+      entity: aec2ddec-43fb-443d-a0a6-4742ea198576
+    -
+      entity: cf2953f2-a857-49e2-adc1-a23f42d3b993
+    -
+      entity: d75a92af-8d21-4884-b5c1-d6a8f2998982
+    -
+      entity: c7e922de-92da-4279-a3cf-37eba01340cf
+    -
+      entity: 72a991d8-7568-45dc-9c8f-0c4b9f3e1663
+    -
+      entity: ec1e8568-1e8e-4646-80b5-81da50dc18f9
+    -
+      entity: 2d2e9d96-0853-401d-a707-adefae368ea0
+    -
+      entity: dad8c6a2-6bca-4446-8644-1b3b06999c09
+  field_publisher:
+    -
+      entity: 3b909b15-13a9-4c7d-a459-89c332b5236c
+  field_series:
+    -
+      entity: 780348c0-a4aa-46e4-af79-b1486990f844

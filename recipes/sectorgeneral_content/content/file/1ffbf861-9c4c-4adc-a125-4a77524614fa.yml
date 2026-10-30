@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1ffbf861-9c4c-4adc-a125-4a77524614fa
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: tommorowistoofarcorgi.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/tommorowistoofarcorgi.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3507
+  status:
+    -
+      value: true

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 403db303-79f2-4628-b694-7575ddf1b79d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drrdschnwg1979.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/drrdschnwg1979.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 32730
+  status:
+    -
+      value: true

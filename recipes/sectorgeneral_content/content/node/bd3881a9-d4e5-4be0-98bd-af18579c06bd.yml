@@ -1,0 +1,89 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: bd3881a9-d4e5-4be0-98bd-af18579c06bd
+  bundle: edition
+  default_langcode: en
+  depends:
+    d574dba4-24fb-4eb7-b4b6-9387904fa657: media
+    12568fa6-5eb2-4053-a58e-6a01ad62be96: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    cbdf529a-740d-42cb-9460-96c61fec687d: taxonomy_term
+    4684e80b-b2ce-4e86-a094-7e0e0960eed2: node
+    d155de23-f8ec-429d-8a37-7f51479031fa: taxonomy_term
+    7a6c4ed1-1562-43f6-8c94-935985ab5e97: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?373603'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'O amanhã está muito longe, Livros do Brasil, 1974'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/tomorrow-too-far/o-amanha-esta-muito-longe-livros-do-brasil-1974
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: d574dba4-24fb-4eb7-b4b6-9387904fa657
+  field_cover_artist:
+    -
+      entity: 12568fa6-5eb2-4053-a58e-6a01ad62be96
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?373603 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: '1974'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_interior_artist:
+    -
+      entity: 12568fa6-5eb2-4053-a58e-6a01ad62be96
+  field_isfdb_id:
+    -
+      value: '373603'
+  field_language:
+    -
+      entity: cbdf529a-740d-42cb-9460-96c61fec687d
+  field_novel:
+    -
+      entity: 4684e80b-b2ce-4e86-a094-7e0e0960eed2
+  field_pages:
+    -
+      value: 203
+  field_publisher:
+    -
+      entity: d155de23-f8ec-429d-8a37-7f51479031fa
+  field_publisher_series:
+    -
+      entity: 7a6c4ed1-1562-43f6-8c94-935985ab5e97
+  field_publisher_series_number:
+    -
+      value: '208'
+  field_sort_date:
+    -
+      value: '1974-01-01'
+  field_year:
+    -
+      value: 1974

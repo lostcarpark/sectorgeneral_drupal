@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3a9a3ab6-7e48-42de-83a0-1d4b26fcc7e3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dwltrmmdzb1965.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/dwltrmmdzb1965.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 52166
+  status:
+    -
+      value: true

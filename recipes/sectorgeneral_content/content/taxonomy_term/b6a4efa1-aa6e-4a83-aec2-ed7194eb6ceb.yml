@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b6a4efa1-aa6e-4a83-aec2-ed7194eb6ceb
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Forgó László'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/forgo-laszlo
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

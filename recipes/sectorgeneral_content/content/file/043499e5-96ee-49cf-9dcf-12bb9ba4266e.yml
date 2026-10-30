@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 043499e5-96ee-49cf-9dcf-12bb9ba4266e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drztdrglxs1973.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/drztdrglxs1973.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 37491
+  status:
+    -
+      value: true

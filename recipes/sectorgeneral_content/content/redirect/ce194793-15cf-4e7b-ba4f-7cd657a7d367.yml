@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: ce194793-15cf-4e7b-ba4f-7cd657a7d367
+  bundle: redirect
+  default_langcode: und
+  depends:
+    c6be35db-6629-46b5-a9a3-3f9780c74d65: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: cnzpZGFnFcuH8vvTDL0K1yPIJTX-2A70rRi7auErTuY
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: shortstories/vertigo.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: c6be35db-6629-46b5-a9a3-3f9780c74d65
+  status_code:
+    -
+      value: 301

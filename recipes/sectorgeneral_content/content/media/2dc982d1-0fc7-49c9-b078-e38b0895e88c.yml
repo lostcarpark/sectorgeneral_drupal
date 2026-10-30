@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 2dc982d1-0fc7-49c9-b078-e38b0895e88c
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    5d96314d-e6e5-40c7-a4e3-6fbf58177065: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Fiction 391, November 1987 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: d13a53fb0cbc28d55e86d1103cd6370e5d65453e
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/5/55/FCTNVHJTVX1987.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Fiction 391, November 1987 cover'
+      title: ''
+      width: 363
+      height: 600
+      entity: 5d96314d-e6e5-40c7-a4e3-6fbf58177065
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?485542'
+      title: null
+      options: {  }

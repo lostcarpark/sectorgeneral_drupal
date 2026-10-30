@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 22b13841-2b0e-4bbf-b463-a026fd972f6d
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Gertrude Friedberg'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/gertrude-friedberg
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

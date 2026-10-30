@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3664bb15-3b98-4b69-bb9c-502434b71441
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: vnbllrdbss2001.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/vnbllrdbss2001.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 50683
+  status:
+    -
+      value: true

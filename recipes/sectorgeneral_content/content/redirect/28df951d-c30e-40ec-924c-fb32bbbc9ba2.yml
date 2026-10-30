@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 28df951d-c30e-40ec-924c-fb32bbbc9ba2
+  bundle: redirect
+  default_langcode: en
+  depends:
+    476c27c9-4cc1-4dae-8014-209aa9d3cfff: taxonomy_term
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: rMgH7BoXxz4QodHSqv4A5aYwZy2eoPRv-ym3XIyFlSY
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: format/ebook
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 476c27c9-4cc1-4dae-8014-209aa9d3cfff
+  status_code:
+    -
+      value: 301

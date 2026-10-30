@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3c5f201d-f679-422f-ab9e-658e5984fe57
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mjrprtnrzw1981.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/mjrprtnrzw1981.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 103984
+  status:
+    -
+      value: true

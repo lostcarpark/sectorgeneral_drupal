@@ -1,0 +1,9 @@
+name: Sector General
+type: module
+description: Site-specific behaviour for the James White / Sector General site, including cover image credits.
+package: Sector General
+core_version_requirement: ^11
+dependencies:
+  - drupal:media
+  - drupal:node
+  - drupal:taxonomy

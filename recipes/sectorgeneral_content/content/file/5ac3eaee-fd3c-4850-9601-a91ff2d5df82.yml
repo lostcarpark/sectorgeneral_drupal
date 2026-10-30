@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5ac3eaee-fd3c-4850-9601-a91ff2d5df82
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sctrgnrlgr1993.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/sctrgnrlgr1993.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 103273
+  status:
+    -
+      value: true

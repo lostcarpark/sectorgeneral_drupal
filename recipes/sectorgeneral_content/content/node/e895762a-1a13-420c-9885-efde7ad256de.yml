@@ -1,0 +1,103 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e895762a-1a13-420c-9885-efde7ad256de
+  bundle: edition
+  default_langcode: en
+  depends:
+    7399217a-28fe-4cc6-88af-8a9c2454dcef: media
+    8502df4b-f8fb-42ff-a3f9-268283d8a3b2: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    7b36c279-8a87-43a2-9300-d653e53ade00: node
+    ee8fc270-52cd-48a1-980e-e07f857327dc: taxonomy_term
+    969be720-ef1b-4bcf-9590-268952a4d63a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Cover image from ISFDB: https://www.isfdb.org/cgi-bin/pl.cgi?634001'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Der Kampf der Weltraum-Mediziner, Ullstein, 1978'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/star-surgeon/der-kampf-der-weltraum-mediziner-ullstein-1978
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 7399217a-28fe-4cc6-88af-8a9c2454dcef
+  field_cover_artist:
+    -
+      entity: 8502df4b-f8fb-42ff-a3f9-268283d8a3b2
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Ullstein No 3396 early 1978 as Der Kampf der Weltraum-Mediziner”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?634001 (CC BY 4.0).
+  field_date_display:
+    -
+      value: 'Early 1978'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9783548033969'
+  field_isfdb_id:
+    -
+      value: '634001'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: 7b36c279-8a87-43a2-9300-d653e53ade00
+  field_oclc:
+    -
+      value: '438439409'
+  field_openlibrary_id:
+    -
+      value: OL28332129M
+  field_pages:
+    -
+      value: 159
+  field_price:
+    -
+      value: 'DM 3.80'
+  field_publisher:
+    -
+      entity: ee8fc270-52cd-48a1-980e-e07f857327dc
+  field_publisher_reference:
+    -
+      value: '3396'
+  field_publisher_series:
+    -
+      entity: 969be720-ef1b-4bcf-9590-268952a4d63a
+  field_publisher_series_number:
+    -
+      value: '137 (3396)'
+  field_sort_date:
+    -
+      value: '1978-02-01'
+  field_year:
+    -
+      value: 1978

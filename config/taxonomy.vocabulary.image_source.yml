@@ -1,0 +1,9 @@
+uuid: 282177db-c6e0-4e27-8fea-93ffe467fceb
+langcode: en
+status: true
+dependencies: {  }
+name: 'Image source'
+vid: image_source
+description: 'Where a cover scan was found. Used in the credit line beneath each cover.'
+weight: 0
+new_revision: false

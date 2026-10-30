@@ -1,0 +1,43 @@
+id: isfdb_stories
+label: 'ISFDB: short stories'
+migration_tags:
+  - isfdb
+source:
+  plugin: isfdb_titles
+  key: isfdb
+  types: [SHORTFICTION]
+  # Plus novels that were only ever serialised, never a book of their own.
+  book_publication: absent
+  serial_types: [NOVEL]
+process:
+  nid:
+    plugin: isfdb_match
+    source: title_id
+    strategy: title
+    bundle: short_story
+    title: title
+    alt_titles: alt_titles
+  type:
+    plugin: default_value
+    default_value: short_story
+  title: title
+  field_isfdb_id: title_id
+  field_first_published_year: year
+  field_alternative_titles: alt_titles
+  field_series:
+    plugin: isfdb_term
+    source: series
+    vocabulary: series
+  field_series_number: series_number
+  field_data_sources: attribution
+  uid:
+    plugin: default_value
+    default_value: 1
+  status:
+    plugin: default_value
+    default_value: 1
+destination:
+  plugin: 'sg_fill:node'
+  merge: [field_alternative_titles]
+  append: [field_data_sources]
+  ignore_conflicts: [field_series_number]

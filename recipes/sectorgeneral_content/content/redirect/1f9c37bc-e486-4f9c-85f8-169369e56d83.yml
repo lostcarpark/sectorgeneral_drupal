@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 1f9c37bc-e486-4f9c-85f8-169369e56d83
+  bundle: redirect
+  default_langcode: und
+  depends:
+    78efee52-b321-47b3-8f47-63bec8fa469e: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 8cdNkJDob3f-Pb0QwStPDzHblvVfxeurEqo-hMivKso
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/vita-con-gli-automi
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 78efee52-b321-47b3-8f47-63bec8fa469e
+  status_code:
+    -
+      value: 301

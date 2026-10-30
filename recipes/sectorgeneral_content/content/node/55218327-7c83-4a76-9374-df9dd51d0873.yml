@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 55218327-7c83-4a76-9374-df9dd51d0873
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Imported from the original James White Information site.'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Articles
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /articles
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: |
+        <p>A growing selection of articles by various notable authors about James White and his writing.</p>
+        <h3><a href="/articles/full-time-hobbyist">Full Time Hobbyist</a></h3>
+        <h4>James White interview, Locus March 1993.</h4>
+        <p>Until recently, writing was only a hobby, but I had a couple of eye operations and I've had to retire from the day job because of the eyesight problem. It's not that serious yet - I can still see to walk in the street and see people, but until they get pretty close to me, I don't recognize them...</p>
+        <h3><a href="/articles/sector-general-timeline">Sector General Timeline</a></h3>
+        <h4>by Gary Louie</h4>
+        <p>James White's Sector General stories follow an internal sequence which can be discerned by careful reading of the stories. Since dates are rarely given, only the order-and occasionally the timing-of stories can be derived...</p>
+        <h3><a href="/articles/classification-system">The Classification System</a></h3>
+        <h4>by Gary Louie</h4>
+        <p>James White's Sector General stories used a unique four letter classification system that helped describe the species quickly and effectivly, as one would require when the hospitol is a multi species enviroment...</p>
+        <h3><a href="/articles/james-white-and-sector-general">James White and Sector General</a></h3>
+        <h4>By Dave Langford</h4>
+        <p>One hobby-horse of sf pundits is lamenting the "decline of the publishing midlist". At first yawn this seems unthreatening: so what if some middling-good novels drop out of print? The trouble is that countless sf midlist books, the ones that don't get lead-title promotion or media tie-in sales, have given our genre its distinctive shape... a shape now being eroded away...</p>
+        <h3><a href="/articles/introduction-white-papers">Introduction from The White Papers</a></h3>
+        <h4>By Mike Resnick</h4>
+        <p>I'm about to make public a secret vice. Its name is James White, and for well over a third of a century I have been searching for a James White book or story that I could put down before finishing...</p>
+        <p><a href="/">Sector General</a></p>
+        <p><a href="contactus.php">Contact Us</a></p>
+        <p>Back to Top</p>
+      format: basic_html
+      summary: ''

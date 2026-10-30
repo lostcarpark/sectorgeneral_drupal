@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c044cfad-7bf2-4e75-993d-da3b2530dc8f
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Edward L. Ferman'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/edward-l-ferman
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

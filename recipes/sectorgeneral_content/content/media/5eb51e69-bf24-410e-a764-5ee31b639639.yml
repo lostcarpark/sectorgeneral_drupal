@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 5eb51e69-bf24-410e-a764-5ee31b639639
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    5508103b-56f8-43d2-a9e9-9b394ffc0a24: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Writings in SF 16 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 5d03dfb54a6feadaf069d00708cd300c8a8eeb57
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'New Writings in SF 16 cover'
+      title: ''
+      width: 100
+      height: 164
+      entity: 5508103b-56f8-43d2-a9e9-9b394ffc0a24

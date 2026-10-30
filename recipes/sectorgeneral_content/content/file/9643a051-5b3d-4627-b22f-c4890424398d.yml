@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9643a051-5b3d-4627-b22f-c4890424398d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: chirurgien-galactique.jpg
+  uri:
+    -
+      value: 'public://covers/old-site/chirurgien-galactique.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 49332
+  status:
+    -
+      value: true

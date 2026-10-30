@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 2054ba4f-d22c-425b-b642-23eacec5f6f5
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    9ee708e3-2051-46ba-98a8-c91b069f2432: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Menace of the Monster: Classic Tales of Creatures from Beyond cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 4c784a6a1755bd522c1947302e2a04850d4d1c4c
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://images-na.ssl-images-amazon.com/images/I/51v7xLcmqhL.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Menace of the Monster: Classic Tales of Creatures from Beyond cover'
+      title: ''
+      width: 342
+      height: 500
+      entity: 9ee708e3-2051-46ba-98a8-c91b069f2432
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?727211'
+      title: null
+      options: {  }

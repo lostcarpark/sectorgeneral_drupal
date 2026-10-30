@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 20c7884c-bf8d-488f-98b8-d6d1827ca8e8
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    71ff45ec-7900-4b1c-ba8a-1c11305cc1b9: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Beginning Operations, Orb, 2001 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 7f8e49644e9f777c54e4952327631731065883e2
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/d/db/BGNNNGOP2001.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Beginning Operations, Orb, 2001 cover'
+      title: ''
+      width: 408
+      height: 640
+      entity: 71ff45ec-7900-4b1c-ba8a-1c11305cc1b9
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?3918'
+      title: null
+      options: {  }

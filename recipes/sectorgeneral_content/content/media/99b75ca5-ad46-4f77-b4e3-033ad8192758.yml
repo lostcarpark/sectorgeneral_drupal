@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 99b75ca5-ad46-4f77-b4e3-033ad8192758
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    f6ed98a9-3c8b-45ba-9a11-c5fe7d5d8739: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Double Contact, Tor, 2000 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: e3d1f551771db47d11c7850d572bb89742037e22
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/5/59/DBLCNTCTSC2000.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Double Contact, Tor, 2000 cover'
+      title: ''
+      width: 369
+      height: 600
+      entity: f6ed98a9-3c8b-45ba-9a11-c5fe7d5d8739
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?10710'
+      title: null
+      options: {  }

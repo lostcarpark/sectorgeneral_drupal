@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 380cbdc7-a57c-43ab-9ebc-1c10a91a103b
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Kendell F. Crossen'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/kendell-f-crossen
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

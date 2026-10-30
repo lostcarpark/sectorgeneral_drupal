@@ -1,0 +1,26 @@
+uuid: d8a3c754-aa64-429a-b4bc-c073a45e11da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contents
+    - node.type.anthology
+    - node.type.novel
+    - node.type.short_story
+id: node.anthology.field_contents
+field_name: field_contents
+entity_type: node
+bundle: anthology
+label: Contents
+description: 'The James White stories in this volume, in order, and any whole book it reprints.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      short_story: short_story
+      novel: novel
+field_type: entity_reference

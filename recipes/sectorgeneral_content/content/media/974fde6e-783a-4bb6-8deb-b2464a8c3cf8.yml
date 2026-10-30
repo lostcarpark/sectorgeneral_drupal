@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 974fde6e-783a-4bb6-8deb-b2464a8c3cf8
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    7be9f892-33c7-436a-b4ee-465fe9d52549: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Double Contact, Tor, 1999 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 7eb083256bb32f6944aded249303d3f751a8985d
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Double Contact: Tor, 1999'
+      title: ''
+      width: 100
+      height: 150
+      entity: 7be9f892-33c7-436a-b4ee-465fe9d52549

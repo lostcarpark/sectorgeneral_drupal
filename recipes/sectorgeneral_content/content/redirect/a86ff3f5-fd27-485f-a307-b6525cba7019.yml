@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: a86ff3f5-fd27-485f-a307-b6525cba7019
+  bundle: redirect
+  default_langcode: und
+  depends:
+    79b5fb0d-9adf-4344-93dd-e84bd7714b68: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: f2CEhUZcVFvym34gVS3L2GWvxqEMZ5VuvsLAbouyIJU
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: books/white-papers/white-papers-nesfa-press-1996-0
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 79b5fb0d-9adf-4344-93dd-e84bd7714b68
+  status_code:
+    -
+      value: 301

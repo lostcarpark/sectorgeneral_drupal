@@ -1,0 +1,102 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 529a21c3-4011-446d-af53-d0053164ee8d
+  bundle: edition
+  default_langcode: en
+  depends:
+    504d853f-d273-4136-86af-a0ee0f04608d: media
+    97841bd3-dee2-4f0f-b308-b40dc387a99d: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    b455aba5-93a3-4b58-8139-57c151dab17e: taxonomy_term
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    2489534c-0801-43c6-89f5-eb25fb1d11ea: taxonomy_term
+    2976ba56-0ae1-4f2b-b006-565f69ecb6e2: taxonomy_term
+    c1d5f4a7-6e6a-48e9-9e91-037dcfa90250: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the Deutsche Nationalbibliothek: https://d-nb.info/458639621'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Das Raumschiff der Rätsel, Moewig, 1968'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/all-judgement-fled/das-raumschiff-der-ratsel-moewig-1968
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: 504d853f-d273-4136-86af-a0ee0f04608d
+  field_cover_artist:
+    -
+      entity: 97841bd3-dee2-4f0f-b308-b40dc387a99d
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “TERRA SF No 150, DM2.50, November 1968 as Das Raumschiff der Ratsel”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?510845 (CC BY 4.0).
+        Deutsche Nationalbibliothek record https://d-nb.info/458639621 (CC0).
+  field_date_display:
+    -
+      value: 'November 1968'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isfdb_id:
+    -
+      value: '510845'
+  field_language:
+    -
+      entity: b455aba5-93a3-4b58-8139-57c151dab17e
+  field_novel:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_oclc:
+    -
+      value: '73921641'
+  field_pages:
+    -
+      value: 158
+  field_price:
+    -
+      value: DM2.50
+  field_publisher:
+    -
+      entity: 2489534c-0801-43c6-89f5-eb25fb1d11ea
+  field_publisher_reference:
+    -
+      value: '150'
+  field_publisher_series:
+    -
+      entity: 2976ba56-0ae1-4f2b-b006-565f69ecb6e2
+  field_publisher_series_number:
+    -
+      value: '150'
+  field_sort_date:
+    -
+      value: '1968-11-01'
+  field_translator:
+    -
+      entity: c1d5f4a7-6e6a-48e9-9e91-037dcfa90250
+  field_year:
+    -
+      value: 1968

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 4fcea5e2-23b9-4c75-8141-d744d83ee1b4
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Katherine M. Stableford'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/katherine-m-stableford
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

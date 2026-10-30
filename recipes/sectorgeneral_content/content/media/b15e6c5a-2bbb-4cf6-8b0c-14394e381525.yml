@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b15e6c5a-2bbb-4cf6-8b0c-14394e381525
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    d2acfff1-278a-43a6-aa17-19dd82e2e438: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Final Diagnosis, Tor, 1997 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 4c6de1cdaae8f417072d847df4de1790e7e24bf6
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'Final Diagnosis: Tor, 1997'
+      title: ''
+      width: 100
+      height: 155
+      entity: d2acfff1-278a-43a6-aa17-19dd82e2e438

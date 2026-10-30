@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 680f3a10-24b9-4d47-83a1-551f5cceeb10
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: drrdschntl1958.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/drrdschntl1958.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 49079
+  status:
+    -
+      value: true

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 404fa470-8b38-45cd-a654-65db22621bb4
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Bradley Denton'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/bradley-denton
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

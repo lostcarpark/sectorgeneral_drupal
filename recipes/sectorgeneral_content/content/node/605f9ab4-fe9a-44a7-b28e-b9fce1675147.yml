@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 605f9ab4-fe9a-44a7-b28e-b9fce1675147
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    664d8661-5f3c-48af-a0f2-3778e2cac73e: node
+    aff96719-0447-4e59-b8b5-9a7b121f1cff: media
+    1fea30ba-0e0d-469d-9e2e-ab66341af015: taxonomy_term
+    e051a5d3-343d-41ce-8dd2-16bb64e40f91: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    fa436e2b-c700-46f4-8df2-848f4a4c76c6: taxonomy_term
+    0ace682b-7932-42e9-8884-e2a79cec29cb: taxonomy_term
+    d822bab7-5f65-4438-9339-b22260ba5fe0: taxonomy_term
+    8e6c8b76-7886-40b6-9b63-c714d218f60d: taxonomy_term
+    a9fba591-53b9-4413-8a7a-a3da578d5166: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59666 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New Worlds 81, March 1959'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/new-worlds/new-worlds-81-march-1959
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 664d8661-5f3c-48af-a0f2-3778e2cac73e
+  field_cover:
+    -
+      entity: aff96719-0447-4e59-b8b5-9a7b121f1cff
+  field_cover_artist:
+    -
+      entity: 1fea30ba-0e0d-469d-9e2e-ab66341af015
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?59666 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'March 1959'
+  field_editor:
+    -
+      entity: e051a5d3-343d-41ce-8dd2-16bb64e40f91
+  field_isfdb_id:
+    -
+      value: '59666'
+  field_issue_number:
+    -
+      value: '81'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: fa436e2b-c700-46f4-8df2-848f4a4c76c6
+  field_other_contributors:
+    -
+      entity: 0ace682b-7932-42e9-8884-e2a79cec29cb
+    -
+      entity: d822bab7-5f65-4438-9339-b22260ba5fe0
+    -
+      entity: 8e6c8b76-7886-40b6-9b63-c714d218f60d
+    -
+      entity: a9fba591-53b9-4413-8a7a-a3da578d5166
+  field_pages:
+    -
+      value: 132
+  field_price:
+    -
+      value: 2/-
+  field_sort_date:
+    -
+      value: '1959-03-01'
+  field_year:
+    -
+      value: 1959

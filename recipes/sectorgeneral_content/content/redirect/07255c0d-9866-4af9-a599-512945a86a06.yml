@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 07255c0d-9866-4af9-a599-512945a86a06
+  bundle: redirect
+  default_langcode: und
+  depends:
+    372b8958-1072-4a82-98a8-333f7e3bd654: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: j8MALKOh8khabKaMP0hfutHAuzhEnsfkSXEj5pv8-Lg
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: anthologies/new-writings-sf-16-0
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 372b8958-1072-4a82-98a8-333f7e3bd654
+  status_code:
+    -
+      value: 301

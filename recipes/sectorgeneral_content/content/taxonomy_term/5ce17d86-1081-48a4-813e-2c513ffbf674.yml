@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 5ce17d86-1081-48a4-813e-2c513ffbf674
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Viviana Viviani'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/viviana-viviani
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

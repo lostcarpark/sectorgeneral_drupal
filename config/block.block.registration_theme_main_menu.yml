@@ -1,0 +1,27 @@
+uuid: e7ca47af-e434-41e6-93ad-767780e5b2fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - registration_theme
+_core:
+  default_config_hash: C0eqCGCY3-IcUTUFxC_wYt8yiDKUUGImnSmQzsXRSa4
+id: registration_theme_main_menu
+theme: registration_theme
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

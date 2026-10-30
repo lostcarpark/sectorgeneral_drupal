@@ -1,0 +1,84 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 931f83d3-dc45-40ee-8f92-2140b3699555
+  bundle: edition
+  default_langcode: en
+  depends:
+    b2ab0355-9d03-4e36-8878-2668dc1d64ea: taxonomy_term
+    ba6160df-863d-43fc-bf5f-a72b8da46d26: taxonomy_term
+    c6474f24-cc56-458b-9ce4-a9e486f8dc0b: node
+    a7db68df-cbcb-4bf3-ad1e-26874fce4a71: taxonomy_term
+    0094b470-35c6-4b64-9ac8-cfe7b5bf2570: taxonomy_term
+    81f66098-fd45-495e-80a1-17598f0cd192: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from the OPAC SBN: https://opac.sbn.it/bid/RAV0074193'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: "L'astronave del massacro, Mondadori, 1969"
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/all-judgement-fled/lastronave-del-massacro-mondadori-1969
+      langcode: en
+      pathauto: 1
+  field_cover_artist:
+    -
+      entity: b2ab0355-9d03-4e36-8878-2668dc1d64ea
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “URANIA No 518, lire 250, July 1969 as L’Astronave del Massacro”
+        OPAC SBN record https://opac.sbn.it/bid/RAV0074193.
+  field_date_display:
+    -
+      value: 'July 1969'
+  field_language:
+    -
+      entity: ba6160df-863d-43fc-bf5f-a72b8da46d26
+  field_novel:
+    -
+      entity: c6474f24-cc56-458b-9ce4-a9e486f8dc0b
+  field_pages:
+    -
+      value: 158
+  field_price:
+    -
+      value: 'lire 250'
+  field_publisher:
+    -
+      entity: a7db68df-cbcb-4bf3-ad1e-26874fce4a71
+  field_publisher_reference:
+    -
+      value: '518'
+  field_publisher_series:
+    -
+      entity: 0094b470-35c6-4b64-9ac8-cfe7b5bf2570
+  field_sort_date:
+    -
+      value: '1969-07-01'
+  field_translator:
+    -
+      entity: 81f66098-fd45-495e-80a1-17598f0cd192
+  field_year:
+    -
+      value: 1969

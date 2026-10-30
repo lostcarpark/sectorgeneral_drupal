@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 109bf10f-2779-4843-8abe-a7ddf56140a6
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    9eeefc97-dc7d-443d-96c7-f139aa69a7f0: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Das schwarze Inferno, Moewig, 1988 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 9029e221d4a1ffd66b6154a146263ac392802430
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/0/0a/DSSCHWRZNF1988.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Das schwarze Inferno, Moewig, 1988 cover'
+      title: ''
+      width: 255
+      height: 400
+      entity: 9eeefc97-dc7d-443d-96c7-f139aa69a7f0
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?418078'
+      title: null
+      options: {  }

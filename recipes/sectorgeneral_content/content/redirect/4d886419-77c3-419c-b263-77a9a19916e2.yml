@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 4d886419-77c3-419c-b263-77a9a19916e2
+  bundle: redirect
+  default_langcode: und
+  depends:
+    779b62ef-d345-4a4e-8177-ea35a0d9b212: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: ZwY3Q1XtCO1ncXoUf5S99icBJqt12N8FQwGk58MtXt0
+  uid:
+    -
+      target_id: 0
+  redirect_source:
+    -
+      path: books/genocidalhealer.html
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: 779b62ef-d345-4a4e-8177-ea35a0d9b212
+  status_code:
+    -
+      value: 301

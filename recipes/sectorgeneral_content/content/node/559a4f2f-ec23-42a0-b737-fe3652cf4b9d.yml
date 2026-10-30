@@ -1,0 +1,101 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 559a4f2f-ec23-42a0-b737-fe3652cf4b9d
+  bundle: edition
+  default_langcode: en
+  depends:
+    b81bc57c-6cb0-4e00-a9c5-6bb9aa1c0f2f: media
+    85a28bfb-a368-45fc-9ded-99b406574570: taxonomy_term
+    6f54a46d-f63a-4206-ad01-1f6f98adbbe8: taxonomy_term
+    2e48c50a-efaa-4c9c-9f17-b54c5cd0d8c1: node
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    c94eb83d-a635-4404-b24f-2c5e9a5ca22c: node
+    1d5a0744-99f6-4322-9ffe-bb40cc2e622c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL14965708M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Second Ending, Blackie, 1970'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/second-ending/second-ending-blackie-1970
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: b81bc57c-6cb0-4e00-a9c5-6bb9aa1c0f2f
+  field_cover_artist:
+    -
+      entity: 85a28bfb-a368-45fc-9ded-99b406574570
+  field_data_sources:
+    -
+      value: "James White Information (original site): “OUT OF THIS WORLD 8 (shortened version), Blackie, April 1970”\r\nISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?25387 (CC BY 4.0).\nOpen Library record https://openlibrary.org/books/OL14965708M (CC0)."
+  field_date_display:
+    -
+      value: 'April 1970'
+  field_format:
+    -
+      entity: 6f54a46d-f63a-4206-ad01-1f6f98adbbe8
+  field_in_anthology:
+    -
+      entity: 2e48c50a-efaa-4c9c-9f17-b54c5cd0d8c1
+  field_isbn:
+    -
+      value: '9780216888111'
+  field_isfdb_id:
+    -
+      value: '25387'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: c94eb83d-a635-4404-b24f-2c5e9a5ca22c
+  field_oclc:
+    -
+      value: '317527850'
+  field_openlibrary_id:
+    -
+      value: OL14965708M
+  field_pages:
+    -
+      value: 187
+  field_price:
+    -
+      value: £1.10
+  field_printing:
+    -
+      value: 'Shortened version'
+  field_publisher:
+    -
+      entity: 1d5a0744-99f6-4322-9ffe-bb40cc2e622c
+  field_sort_date:
+    -
+      value: '1970-04-01'
+  field_verified:
+    -
+      value: false
+  field_year:
+    -
+      value: 1970

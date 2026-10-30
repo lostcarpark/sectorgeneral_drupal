@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f1fc492e-091a-4671-913a-03e9ba7719c1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: fctndpcnss1964.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/fctndpcnss1964.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 105023
+  status:
+    -
+      value: true

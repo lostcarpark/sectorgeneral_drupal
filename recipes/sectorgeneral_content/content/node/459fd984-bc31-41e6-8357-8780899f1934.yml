@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 459fd984-bc31-41e6-8357-8780899f1934
+  bundle: edition
+  default_langcode: en
+  depends:
+    d2dbd7dc-c828-4f9b-9165-1cf97cbfadf7: media
+    1275b65b-0544-4918-a6f8-3476ee99a45a: taxonomy_term
+    8e6eab7c-2aa5-4158-994e-78b6f06eb6e9: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    72a48e14-360c-4169-8f00-eab21063ae9b: node
+    06aa2580-8e68-4b72-9a00-f5d252de9de3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from Open Library: https://openlibrary.org/books/OL22833306M'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Hospital Station, Futura/Orbit, 1986'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /books/hospital-station/hospital-station-futuraorbit-1986
+      langcode: en
+      pathauto: 1
+  field_cover:
+    -
+      entity: d2dbd7dc-c828-4f9b-9165-1cf97cbfadf7
+  field_cover_artist:
+    -
+      entity: 1275b65b-0544-4918-a6f8-3476ee99a45a
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site): “Edition known only from the cover image hospitalstationorbit.jpg”
+        ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?17349 (CC BY 4.0).
+        Open Library record https://openlibrary.org/books/OL22833306M (CC0).
+  field_date_display:
+    -
+      value: 'May 1986'
+  field_format:
+    -
+      entity: 8e6eab7c-2aa5-4158-994e-78b6f06eb6e9
+  field_isbn:
+    -
+      value: '9780708881811'
+  field_isfdb_id:
+    -
+      value: '17349'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_novel:
+    -
+      entity: 72a48e14-360c-4169-8f00-eab21063ae9b
+  field_oclc:
+    -
+      value: '14132355'
+  field_openlibrary_id:
+    -
+      value: OL22833306M
+  field_pages:
+    -
+      value: 191
+  field_price:
+    -
+      value: £1.95
+  field_publisher:
+    -
+      entity: 06aa2580-8e68-4b72-9a00-f5d252de9de3
+  field_publisher_reference:
+    -
+      value: '8181'
+  field_sort_date:
+    -
+      value: '1986-05-01'
+  field_year:
+    -
+      value: 1986

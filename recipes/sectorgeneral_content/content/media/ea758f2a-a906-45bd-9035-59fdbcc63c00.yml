@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: ea758f2a-a906-45bd-9035-59fdbcc63c00
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    2cdd9a62-7072-420a-a40d-a7bb8b26c1c6: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Futuria 2, 1 October 1964 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 967befbd2b5e2ce36375eef870565079a1850dc0
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.fantascienza.com/catalogo/imgbank/cover/00439.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Futuria 2, 1 October 1964 cover'
+      title: ''
+      width: 130
+      height: 214
+      entity: 2cdd9a62-7072-420a-a40d-a7bb8b26c1c6
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?299741'
+      title: null
+      options: {  }

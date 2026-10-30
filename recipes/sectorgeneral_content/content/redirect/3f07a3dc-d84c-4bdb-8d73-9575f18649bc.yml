@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: redirect
+  uuid: 3f07a3dc-d84c-4bdb-8d73-9575f18649bc
+  bundle: redirect
+  default_langcode: und
+  depends:
+    bd8b81fa-0f0d-42d0-a1b4-b82930bacb96: node
+default:
+  enabled:
+    -
+      value: true
+  hash:
+    -
+      value: 7gC90Bf2SZSQec9GBEyf3eJG8913PlJteWWCZVqevRQ
+  uid:
+    -
+      target_id: 1
+  redirect_source:
+    -
+      path: books/secret-visitors/secret-visitors-digit-books-1963
+      query: {  }
+  redirect_redirect:
+    -
+      title: null
+      options: {  }
+      target_uuid: bd8b81fa-0f0d-42d0-a1b4-b82930bacb96
+  status_code:
+    -
+      value: 301

@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6e5a4271-0ae0-4599-a3c6-b127e747d386
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    2a310a5c-64c2-418e-97be-4c8f7a040f12: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Analog Science Fiction and Fact, August 1980 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 9eccb852de0eeb316f17bf346515135b624ff89e
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/a/a3/ANLGAUG80.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Analog Science Fiction and Fact, August 1980 cover'
+      title: ''
+      width: 375
+      height: 500
+      entity: 2a310a5c-64c2-418e-97be-4c8f7a040f12
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?57072'
+      title: null
+      options: {  }

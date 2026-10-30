@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: fd28b948-e381-4f35-9943-b360a654f66b
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    5d32242c-0ec9-47ac-bf37-4bda53a1211f: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'New Worlds 90, January 1960 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: fb5dee44584a17b1f46fece0dcfe936991ba6d90
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'New Worlds 90, January 1960 cover'
+      title: ''
+      width: 134
+      height: 200
+      entity: 5d32242c-0ec9-47ac-bf37-4bda53a1211f

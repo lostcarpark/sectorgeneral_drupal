@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: f0514e68-da23-42c1-99cb-e86cf04eaaf0
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    aba7d7b2-bdf6-4d27-80b2-19a7b1f09173: taxonomy_term
+    b134c513-daeb-412a-b17c-739f0197c3b7: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Die Außerirdischen, Moewig, 1967 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 741feab9ee351fb579f137a3d13c0169c6d51377
+  field_image_source:
+    -
+      entity: aba7d7b2-bdf6-4d27-80b2-19a7b1f09173
+  field_image_url:
+    -
+      uri: 'https://www.isfdb.org/wiki/images/b/b0/DRRDSCHNDH1967.jpg'
+      title: null
+      options: {  }
+  field_media_image:
+    -
+      alt: 'Die Außerirdischen, Moewig, 1967 cover'
+      title: ''
+      width: 351
+      height: 500
+      entity: b134c513-daeb-412a-b17c-739f0197c3b7
+  field_source_url:
+    -
+      uri: 'https://www.isfdb.org/cgi-bin/pl.cgi?508925'
+      title: null
+      options: {  }

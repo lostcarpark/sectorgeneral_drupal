@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 3a9baaa4-25a2-4e73-be43-74d940bfc6af
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    039b655d-5943-452c-8638-55e1faf8295f: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'The Silent Stars Go By, Ballantine, 1991 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 2b2bf03c50987ea814582b409701d3bf38056956
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'The Silent Stars Go By: Ballantine, 1991'
+      title: ''
+      width: 100
+      height: 168
+      entity: 039b655d-5943-452c-8638-55e1faf8295f

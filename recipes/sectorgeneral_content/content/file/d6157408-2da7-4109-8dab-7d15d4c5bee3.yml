@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d6157408-2da7-4109-8dab-7d15d4c5bee3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: stndngscnc1954.jpg
+  uri:
+    -
+      value: 'public://covers/isfdb/stndngscnc1954.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 39977
+  status:
+    -
+      value: true

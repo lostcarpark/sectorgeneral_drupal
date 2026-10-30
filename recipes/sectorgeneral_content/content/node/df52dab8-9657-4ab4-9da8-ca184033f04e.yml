@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: df52dab8-9657-4ab4-9da8-ca184033f04e
+  bundle: short_story
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?55106 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Grapeliner
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /short-stories/grapeliner
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Eighty-year-old Woodhill captains the kind of spaceship that makes any reference to atomic piles seem indelicate: &quot;. . . he looked out at his command which now hung like a bunch of silvery grapes against the stars.&quot; The &quot;grapes&quot; are inflatable, twenty-foot plastic passenger capsules. (Unlike their counterparts in Lifeboat/Dark Inferno, they actually work.) It all hangs together, scientifically (including the &#039;senior officer&#039; bit), but I&#039;d sure hate to build the Airfix model kit. Things go along well enough until the &#039;grapeliner&#039; encounters an alien spacecraft -- made of glass!</p>'
+      format: basic_html
+      summary: ''
+  field_data_sources:
+    -
+      value: |-
+        James White Information (original site). Synopsis by Graham Andrews.
+        ISFDB title record https://www.isfdb.org/cgi-bin/title.cgi?55106 (CC BY 4.0).
+  field_first_published_year:
+    -
+      value: 1959
+  field_isfdb_id:
+    -
+      value: '55106'
+  field_opening_excerpt:
+    -
+      value: '<p>Like a silver ghost the ferry rocket slid out of blackness and, briefly, transiting the dazzling globe of the five thousand miles distant Earth, checked its motion relative to the assembled passenger units with a short, savage burst of deceleration.</p>'
+      format: basic_html
+  field_publication_notes:
+    -
+      value: '<p>NEW WORLDS No 88, November 1959 NW US Reprint Edition, June 1960 Deadly Litter</p>'
+      format: basic_html
+  field_synopsis_credit:
+    -
+      value: 'Graham Andrews'
+  field_words:
+    -
+      value: 15000

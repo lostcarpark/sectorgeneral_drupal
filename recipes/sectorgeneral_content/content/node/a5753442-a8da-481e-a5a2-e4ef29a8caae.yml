@@ -1,0 +1,111 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a5753442-a8da-481e-a5a2-e4ef29a8caae
+  bundle: magazine_issue
+  default_langcode: en
+  depends:
+    1ffa602a-5411-4c5e-b55f-dec7f9f9aa31: node
+    a16bf538-1560-43c6-ad47-d8835a39352b: media
+    cdd414d9-ef1d-4330-a7b0-89ef999a87f2: taxonomy_term
+    c044cfad-7bf2-4e75-993d-da3b2530dc8f: taxonomy_term
+    9570dd1f-1c97-46ee-9a0a-d3cd9671223c: taxonomy_term
+    515ca28c-22b7-4da2-a014-d07949751e08: taxonomy_term
+    3984d546-68fe-4120-8f03-3b074dab180f: taxonomy_term
+    8955183c-a352-45ff-a1b6-fd17a84b825a: taxonomy_term
+    f196ed4c-25b6-4deb-8969-4bc08a44be9c: taxonomy_term
+    656a5205-861e-4f1b-b90c-797f7f6e7a3d: taxonomy_term
+    2973ecc1-6f17-4ce6-8ec2-59a3d3e00487: taxonomy_term
+    b57bb941-81e4-4f19-8ee5-e313d3c1abe6: taxonomy_term
+    016aaea1-e532-466e-874e-a9d3919b25aa: taxonomy_term
+    3f9ee050-e5d2-4aff-9f57-10ec9a063472: taxonomy_term
+    a966258d-b058-44e1-8e6e-ca2a9a84234c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Filled in from ISFDB: ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?61279 (CC BY 4.0).'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Magazine of Fantasy & Science Fiction, March 1987'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /magazines/magazine-fantasy-science-fiction/magazine-fantasy-science-fiction-march-1987
+      langcode: en
+      pathauto: 1
+  field_contents:
+    -
+      entity: 1ffa602a-5411-4c5e-b55f-dec7f9f9aa31
+  field_cover:
+    -
+      entity: a16bf538-1560-43c6-ad47-d8835a39352b
+  field_cover_artist:
+    -
+      entity: cdd414d9-ef1d-4330-a7b0-89ef999a87f2
+  field_data_sources:
+    -
+      value: 'ISFDB publication record https://www.isfdb.org/cgi-bin/pl.cgi?61279 (CC BY 4.0).'
+  field_date_display:
+    -
+      value: 'March 1987'
+  field_editor:
+    -
+      entity: c044cfad-7bf2-4e75-993d-da3b2530dc8f
+  field_interior_artist:
+    -
+      entity: 9570dd1f-1c97-46ee-9a0a-d3cd9671223c
+    -
+      entity: 515ca28c-22b7-4da2-a014-d07949751e08
+  field_isfdb_id:
+    -
+      value: '61279'
+  field_language:
+    -
+      entity: 3984d546-68fe-4120-8f03-3b074dab180f
+  field_magazine:
+    -
+      entity: 8955183c-a352-45ff-a1b6-fd17a84b825a
+  field_other_contributors:
+    -
+      entity: f196ed4c-25b6-4deb-8969-4bc08a44be9c
+    -
+      entity: 656a5205-861e-4f1b-b90c-797f7f6e7a3d
+    -
+      entity: 2973ecc1-6f17-4ce6-8ec2-59a3d3e00487
+    -
+      entity: b57bb941-81e4-4f19-8ee5-e313d3c1abe6
+    -
+      entity: 016aaea1-e532-466e-874e-a9d3919b25aa
+    -
+      entity: 3f9ee050-e5d2-4aff-9f57-10ec9a063472
+    -
+      entity: a966258d-b058-44e1-8e6e-ca2a9a84234c
+  field_pages:
+    -
+      value: 164
+  field_price:
+    -
+      value: $1.75
+  field_sort_date:
+    -
+      value: '1987-03-01'
+  field_year:
+    -
+      value: 1987

@@ -1,0 +1,8 @@
+review isfdb duplicates:
+  title: 'Review and merge ISFDB duplicates'
+  description: 'Merging deletes the duplicate and moves its references and address to the item kept.'
+  restrict access: true
+review library records:
+  title: 'Review and apply national library records'
+  description: 'Applying records fills in and creates editions.'
+  restrict access: true

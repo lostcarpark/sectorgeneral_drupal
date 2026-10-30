@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 1500cfa9-5042-4535-9782-9fb79938c3d9
+  bundle: people
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Jack Gaughan'
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /people/jack-gaughan
+      langcode: en
+      pathauto: 1
+  field_not_a_person:
+    -
+      value: false

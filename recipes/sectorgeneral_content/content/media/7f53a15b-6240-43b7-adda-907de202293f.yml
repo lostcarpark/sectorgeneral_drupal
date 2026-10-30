@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 7f53a15b-6240-43b7-adda-907de202293f
+  bundle: cover_image
+  default_langcode: en
+  depends:
+    c2625abd-7e9d-4a5f-b649-f5a445f87185: taxonomy_term
+    afce0c09-c16f-4edb-a3ba-24272d2badd5: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'All Judgement Fled, Futura/Orbit, 1987 cover'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+      pathauto: 1
+  field_image_hash:
+    -
+      value: 4e9910ceb05f155b1e4f222b2a4f4cd6276457a1
+  field_image_source:
+    -
+      entity: c2625abd-7e9d-4a5f-b649-f5a445f87185
+  field_media_image:
+    -
+      alt: 'All Judgement Fled cover'
+      title: ''
+      width: 100
+      height: 174
+      entity: afce0c09-c16f-4edb-a3ba-24272d2badd5
